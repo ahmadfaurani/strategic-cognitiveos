@@ -1,0 +1,6 @@
+[submodule "cybersecurity-practice-repo"]
+	path = cybersecurity-practice-repo
+	url = https://github.com/p62operator/cybersecurity-practice-repo.git
+[submodule "browser-harness"]
+	path = browser-harness
+	url = https://github.com/p62operator/browser-harness.git

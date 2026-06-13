@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.env.*
+!.env.example
+*.log
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+credentials/
+*.pem
+*.key
+*.crt
+
+# Browser profiles
+chrome-profile/
+
+# Temporary
+*.tmp
+.tmp/
+temp/
+tmp/
+
+# Playwright
+.playwright/
+
+# Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Build artifacts
+*.so
+*.dll
+*.dylib
+
+# Memory files (daily notes)
+memory/*.md
+!memory/README.md
