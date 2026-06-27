@@ -11,19 +11,23 @@
 
 ## 🚨 **NEW DEVELOPMENTS SINCE MAY 29, 2026**
 
-### **1. Snap Election Context — State Assembly Dissolved (June 1, 2026)**
+### **1. Snap Election Context — PRN-16 Timeline CONFIRMED (June 13, 2026 Update)**
 
 | Field | Detail |
 |-------|--------|
 | **Event** | Johor State Legislative Assembly dissolved |
-| **Date** | June 1, 2026 (Monday) |
+| **Dissolution Date** | June 1, 2026 (Monday) |
+| **Writ of Election** | June 12, 2026 |
+| **Nomination Day** | **June 27, 2026** |
+| **Campaign Period** | June 27 – July 10, 2026 |
+| **Early Polling** | July 7, 2026 |
+| **Polling Day** | **July 11, 2026** |
 | **Announcement** | Onn Hafiz after meeting with Regent Tunku Ismail |
 | **Effective** | Immediate (15th State Assembly dissolved) |
-| **Implication** | PRN-16 (State Election) expected within 60 days |
 
-**Source:** SCMP, Malay Mail (June 1, 2026)
+**Source:** CNA (June 1, 2026), Wikipedia — 2026 Johor State Election (June 13, 2026)
 
-**Assessment:** 🟢 **CONFIRMED** — Original dossier's "PRN timing" speculation now resolved. Election machinery activated.
+**Assessment:** 🟢 **FULLY CONFIRMED** — Complete election timeline now known. 40 days until polling.
 
 ---
 
