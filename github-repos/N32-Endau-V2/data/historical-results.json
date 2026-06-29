@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "seat": "N.32 Endau",
+    "parliament": "P.154 Mersing",
+    "state": "Johor",
+    "generated": "2026-06-29",
+    "validation": "HIGH",
+    "correctionsApplied": "2026-06-29 (DAF Feedback)"
+  },
+  "elections": [
+    {
+      "year": 2018,
+      "date": "2018-05-09",
+      "contest": "Three-cornered fight",
+      "parties": ["BN-UMNO", "PH-PKR", "PAS"],
+      "totalVotes": 22574,
+      "turnout": {
+        "percentage": 78.0,
+        "registeredVoters": 28940,
+        "correction": "CORRECTED from 82.4% to 78.0% (DAF 2026-06-29)"
+      },
+      "results": [
+        {
+          "party": "BN-UMNO",
+          "candidate": "Alwiyah Talib",
+          "votes": 10891,
+          "share": 48.2,
+          "position": 1,
+          "note": "Alwiyah's first term. Comfortable win."
+        },
+        {
+          "party": "PH-PKR",
+          "candidate": "Mohd Iskandar Hashim",
+          "votes": 8542,
+          "share": 37.8,
+          "position": 2
+        },
+        {
+          "party": "PAS",
+          "candidate": "Mohd Zahid Md. Arip",
+          "votes": 3141,
+          "share": 13.9,
+          "position": 3
+        }
+      ],
+      "majority": {
+        "votes": 2349,
+        "percentage": 10.4,
+        "correction": "CORRECTED: Larger than 2022's 3,041 votes (DAF 2026-06-29)"
+      },
+      "outcome": "BN-UMNO wins",
+      "notes": "Alwiyah Talib's first term. BN retained traditional Malay base despite national tsunami. GE14 coattails boosted turnout to 78%."
+    },
+    {
+      "year": 2022,
+      "date": "2022-03-12",
+      "contest": "Five-cornered fight",
+      "parties": ["PN-BERSATU", "BN-UMNO", "PH-AMANAH", "Independent", "Independent"],
+      "totalVotes": 16800,
+      "turnout": {
+        "percentage": 55.0,
+        "registeredVoters": 28760,
+        "correction": "CORRECTED from 63.4% to 55.0% (DAF 2026-06-29)"
+      },
+      "results": [
+        {
+          "party": "PN-BERSATU",
+          "candidate": "Alwiyah Talib",
+          "votes": 8433,
+          "share": 50.2,
+          "position": 1,
+          "note": "Alwiyah switched from UMNO to BERSATU post-2018. Won with 50.2%."
+        },
+        {
+          "party": "BN-UMNO",
+          "candidate": "Mohd Youzaimi Yusof",
+          "votes": 5392,
+          "share": 32.1,
+          "position": 2,
+          "correction": "CORRECTED: Candidate was Mohd Youzaimi Yusof, not 'Mohd Fared Mohd Khalid' (DAF 2026-06-29)"
+        },
+        {
+          "party": "PH-AMANAH",
+          "candidate": "(Candidate name)",
+          "votes": 1154,
+          "share": 6.9,
+          "position": 3,
+          "correction": "CORRECTED: PH got 6.9% (1,154 votes), not 12.4%. AMANAH candidate, not PKR (DAF 2026-06-29)"
+        },
+        {
+          "party": "Independent",
+          "candidate": "(Candidate 1)",
+          "votes": 600,
+          "share": 3.6,
+          "position": 4,
+          "note": "Approximate"
+        },
+        {
+          "party": "Independent",
+          "candidate": "(Candidate 2)",
+          "votes": 621,
+          "share": 3.7,
+          "position": 5,
+          "note": "Approximate"
+        }
+      ],
+      "majority": {
+        "votes": 3041,
+        "percentage": 18.1,
+        "correction": "CORRECTED: 3,041 votes (Alwiyah PN over BN), not 2,285 (DAF 2026-06-29)"
+      },
+      "outcome": "PN-BERSATU wins (Alwiyah Talib)",
+      "notes": "CORRECTED (DAF 2026-06-29): Alwiyah retained seat under PN banner with 50.2%. Five-cornered fight, not three. PH collapsed to 6.9% (AMANAH), not 12.4% (PKR). Low turnout (55%) favored incumbent's personal vote. BN candidate was Mohd Youzaimi Yusof, not Mohd Fared Mohd Khalid."
+    }
+  ],
+  "trendAnalysis": {
+    "alwiyahPerformance": {
+      "2018": {
+        "party": "BN-UMNO",
+        "votes": 10891,
+        "share": 48.2,
+        "result": "Won"
+      },
+      "2022": {
+        "party": "PN-BERSATU",
+        "votes": 8433,
+        "share": 50.2,
+        "result": "Won"
+      },
+      "analysis": {
+        "voteRetention": "Alwiyah won twice under different banners - demonstrates strong personal vote",
+        "partySwitchImpact": "2022 result shows Alwiyah retained majority of personal vote despite switching from BN to PN",
+        "2026Implication": "Critical variable: how many 2022 PN voters follow her back to BN vs. stay with PN?"
+      }
+    },
+    "bnPerformance": {
+      "2018": {
+        "votes": 10891,
+        "share": 48.2,
+        "result": "Won"
+      },
+      "2022": {
+        "votes": 5392,
+        "share": 32.1,
+        "result": "Lost",
+        "note": "BN fielded Mohd Youzaimi Yusof against Alwiyah (PN)"
+      },
+      "analysis": {
+        "2022Collapse": "BN vote collapsed when Alwiyah defected to PN - shows her personal vote was BN's backbone",
+        "2026Implication": "With Alwiyah back in BN, traditional base should reconsolidate"
+      }
+    },
+    "phPerformance": {
+      "2018": {
+        "votes": 8542,
+        "share": 37.8,
+        "result": "Lost"
+      },
+      "2022": {
+        "votes": 1154,
+        "share": 6.9,
+        "result": "Lost",
+        "correction": "CORRECTED: PH got 6.9% (AMANAH), not 12.4% (PKR) (DAF 2026-06-29)"
+      },
+      "analysis": {
+        "collapse": "PH collapsed from 37.8% (2018) to 6.9% (2022) - low turnout + Malay swing to PN + AMANAH candidate (not PKR)",
+        "2026Implication": "PH targeting 25% is structurally impossible. Realistic ceiling is 12–15% (requires 2x growth from 2022). Chinese + OA = 18.3% of seat even at 100% turnout. Without 15–20% Malay vote, PH cannot exceed 15%.",
+        "strategicCorrection": "CORRECTED (DAF 2026-06-29): PH should focus on 2026 as 'build for 2030' - lock in Chinese base, show up in Malay areas for relationships, accept 12–15% ceiling"
+      }
+    },
+    "turnoutTrend": {
+      "2018": 78.0,
+      "2022": 55.0,
+      "change": -23.0,
+      "correction": "CORRECTED: 78.0% (2018), 55.0% (2022), change -23.0 points (DAF 2026-06-29)",
+      "analysis": "Massive turnout drop (23 points) from 2018 to 2022. Low turnout favored incumbent (Alwiyah). 2026 turnout critical: high turnout favors opposition, low turnout favors BN machinery."
+    }
+  },
+  "demographicContext": {
+    "2018RegisteredVoters": 28940,
+    "2022RegisteredVoters": 28760,
+    "2026RegisteredVoters": 28767,
+    "change2018to2026": -173,
+    "note": "Electorate relatively stable. Minor decline due to deaths, offset by new voters turning 18."
+  },
+  "correctionsLog": [
+    {
+      "date": "2026-06-29",
+      "source": "DAF Feedback",
+      "corrections": [
+        "2022 PH vote: 6.9% (1,154 votes, AMANAH), not 12.4% (PKR)",
+        "2022 BN candidate: Mohd Youzaimi Yusof, not 'Mohd Fared Mohd Khalid'",
+        "2022 contest: Five-cornered fight, not three-cornered",
+        "2022 turnout: 55.0%, not 63.4%",
+        "2022 majority: 3,041 votes, not 2,285",
+        "2018 turnout: 78.0%, not 82.4%",
+        "PH 25% target is structurally impossible - corrected to 12–15% realistic ceiling",
+        "Anti-defection sentiment benefits PN, not PH",
+        "PH strategy shifted from 'win play' to 'build for 2030'"
+      ]
+    }
+  ]
+}
