@@ -1,0 +1,14 @@
+{
+  "lastUpdated": null,
+  "confidenceAccuracy": {
+    "HIGH": {"total": 0, "correct": 0, "accuracy": 0},
+    "MEDIUM": {"total": 0, "correct": 0, "accuracy": 0},
+    "LOW": {"total": 0, "correct": 0, "accuracy": 0}
+  },
+  "typeAccuracy": {
+    "factual": {"total": 0, "correct": 0},
+    "confidence": {"total": 0, "correct": 0},
+    "source": {"total": 0, "correct": 0},
+    "citation": {"total": 0, "correct": 0}
+  }
+}

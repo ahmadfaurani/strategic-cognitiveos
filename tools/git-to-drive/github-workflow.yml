@@ -1,0 +1,89 @@
+# GitHub Actions Workflow: Auto-generate PDF → Upload to Google Drive
+# Save as: .github/workflows/pdf-to-drive.yml
+
+name: 📄 Generate PDF & Upload to Drive
+
+on:
+  push:
+    branches: [main, master]
+    tags: ['*']
+  workflow_dispatch:
+    inputs:
+      output_name:
+        description: 'Output PDF name (optional)'
+        required: false
+        default: ''
+      drive_folder:
+        description: 'Google Drive folder path'
+        required: false
+        default: '/Git-PDFs'
+
+jobs:
+  pdf-and-upload:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 📦 Install Pandoc + LaTeX
+        run: |
+          sudo apt update
+          sudo apt install -y pandoc texlive-latex-extra texlive-fonts-extra texlive-science
+
+      - name: 📥 Download Eisvogel Template
+        run: |
+          mkdir -p ~/.pandoc/templates
+          wget -O ~/.pandoc/templates/eisvogel.tex \
+            https://github.com/enhuiz/eisvogel/raw/main/eisvogel.tex
+
+      - name: 📝 Generate Professional PDF
+        id: generate_pdf
+        run: |
+          # Determine output name
+          if [[ -n "${{ github.event.inputs.output_name }}" ]]; then
+            OUTPUT_NAME="${{ github.event.inputs.output_name }}.pdf"
+          else
+            OUTPUT_NAME="${{ github.event.repository.name }}-$(date +%Y%m%d-%H%M%S).pdf"
+          fi
+          
+          # Find markdown files
+          MARKDOWN_FILES=""
+          [[ -f "README.md" ]] && MARKDOWN_FILES="README.md"
+          [[ -d "docs" ]] && MARKDOWN_FILES="$MARKDOWN_FILES docs/**/*.md"
+          
+          # Generate PDF
+          pandoc $MARKDOWN_FILES \
+            --output="$OUTPUT_NAME" \
+            --template=eisvogel \
+            --listings \
+            --highlight-style=monokai \
+            --toc \
+            --toc-depth=3 \
+            --number-sections \
+            --metadata title="$OUTPUT_NAME" \
+            --metadata date="$(date +%Y-%m-%d)"
+          
+          echo "output_name=$OUTPUT_NAME" >> $GITHUB_OUTPUT
+          echo "pdf_size=$(du -h $OUTPUT_NAME | cut -f1)" >> $GITHUB_OUTPUT
+
+      - name: ☁️ Upload to Google Drive
+        uses: laurent22/drive-upload-action@v1
+        with:
+          service-account-json: ${{ secrets.GDRIVE_SERVICE_ACCOUNT }}
+          folder-id: ${{ secrets.GDRIVE_FOLDER_ID }}
+          files: ${{ steps.generate_pdf.outputs.output_name }}
+
+      - name: 📊 Summary
+        run: |
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "✅ PDF Generated & Uploaded!"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "   Repository:  ${{ github.event.repository.full_name }}"
+          echo "   PDF Name:    ${{ steps.generate_pdf.outputs.output_name }}"
+          echo "   File Size:   ${{ steps.generate_pdf.outputs.pdf_size }}"
+          echo "   Drive:       Google Drive (see secrets.GDRIVE_FOLDER_ID)"
+          echo "   Trigger:     ${{ github.event_name }}"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

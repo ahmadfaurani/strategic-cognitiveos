@@ -1,0 +1,143 @@
+# Source Registry — Johor PRN 2026
+# Tier hierarchy: 0 (Official) > 1 (Established Media) > 2 (Secondary) > 3 (Social/Unverified)
+# Used for multi-source verification and Confidence Assertion
+
+---
+## Tier 0: Official Primary Sources
+
+### SPR (Suruhanjaya Pilihan Raya)
+- **URL:** https://www.spr.gov.my
+- **Data:** Election results, voter demographics, constituency boundaries
+- **Update frequency:** During election period only
+- **API:** None (manual scrape or official PDF)
+- **Weight:** 1.0
+- **Fetch script:** `fetch-spr.sh`
+
+### Official Candidate Lists
+- **URL:** SPR nomination centre announcements
+- **Data:** Candidate names, parties, constituencies
+- **Update frequency:** Nomination day + any withdrawals
+- **Weight:** 1.0
+
+---
+## Tier 1: Established Media (Editorial Standards)
+
+### Malaysiakini
+- **URL:** https://www.malaysiakini.com
+- **Coverage:** National + state politics, election analysis
+- **Update frequency:** Real-time
+- **API:** None (RSS: https://www.malaysiakini.com/en/rss/news)
+- **Weight:** 0.8
+- **Fetch script:** `fetch-mkini.sh`
+
+### The Star
+- **URL:** https://www.thestar.com.my
+- **Coverage:** National news, Johor state politics
+- **Update frequency:** Real-time
+- **RSS:** https://www.thestar.com.my/rss/news/nation
+- **Weight:** 0.8
+- **Fetch script:** `fetch-thestar.sh`
+
+### New Straits Times (NST)
+- **URL:** https://www.nst.com.my
+- **Coverage:** National + Johor state news
+- **Update frequency:** Real-time
+- **RSS:** https://www.nst.com.my/rss/nation
+- **Weight:** 0.8
+- **Fetch script:** `fetch-nst.sh`
+
+### Free Malaysia Today (FMT)
+- **URL:** https://www.freemalaysiatoday.com
+- **Coverage:** Politics, election analysis
+- **Update frequency:** Real-time
+- **RSS:** https://www.freemalaysiatoday.com/feed/
+- **Weight:** 0.8
+- **Fetch script:** `fetch-fmt.sh`
+
+### Bernama
+- **URL:** https://www.bernama.com
+- **Coverage:** Official news agency, government statements
+- **Update frequency:** Real-time
+- **RSS:** https://www.bernama.com/en/rss/news
+- **Weight:** 0.8
+- **Fetch script:** `fetch-bernama.sh`
+
+---
+## Tier 2: Secondary Media (Regional/Local)
+
+### Johor Southern Post
+- **URL:** https://johor.southernpost.com.my
+- **Coverage:** Johor state news, local issues
+- **Update frequency:** Daily
+- **Weight:** 0.6
+
+### Sinar Harian Johor
+- **URL:** https://www.sinarharian.com.my/johor
+- **Coverage:** Malay-language, Johor focus
+- **Update frequency:** Daily
+- **Weight:** 0.6
+
+### Harian Metro Johor
+- **URL:** https://www.hmetro.com.my/johor
+- **Coverage:** Malay-language, local news
+- **Update frequency:** Daily
+- **Weight:** 0.6
+
+### The Malaysian Insight
+- **URL:** https://www.themalaysianinsight.com
+- **Coverage:** Politics, analysis
+- **Update frequency:** Daily
+- **RSS:** https://www.themalaysianinsight.com/feed
+- **Weight:** 0.6
+
+---
+## Tier 3: Social/Unverified (Use with Caution)
+
+### Twitter/X Political Accounts
+- **Accounts:** Party leaders, ADUN, analysts
+- **Weight:** 0.3
+- **Note:** Must be cross-referenced with Tier 0–2 before use
+
+### Telegram Channels
+- **Channels:** Political news aggregators
+- **Weight:** 0.3
+- **Note:** High risk of misinformation
+
+### Facebook Pages
+- **Pages:** Party official pages, candidate pages
+- **Weight:** 0.3
+- **Note:** Official party pages = 0.5, unofficial = 0.3
+
+---
+## Tier 4: Internal Memory (Derived, Not Primary)
+
+### MEMORY.md
+- **Location:** `memory/MEMORY.md`
+- **Data:** War room briefs, signal registry, historical analysis
+- **Weight:** 0.5
+- **Note:** Derived from primary sources; must refresh against Tier 0–1 periodically
+
+### Signal Registry
+- **Location:** `memory/signals/`
+- **Data:** Daily collected signals, PIR-tagged
+- **Weight:** 0.5
+- **Note:** Aggregated from external sources; verify against originals
+
+---
+## Verification Rules
+
+1. **Tier 1 Claims (Factual):** Require ≥2 sources from Tier 0–2, with at least one Tier 0–1
+2. **Tier 2 Claims (Analytical):** Require ≥1 Tier 1–2 source + explicit reasoning
+3. **Tier 3 Claims (Predictive):** Flag as SPECULATION: or SCENARIO: regardless of source
+4. **Conflicting Sources:** If Tier 0 conflicts with Tier 1, prefer Tier 0. If Tier 1 vs Tier 1, flag [CONFLICTING]
+5. **Stale Data:** Any claim >30 days old must be re-verified or tagged [STALE]
+
+---
+## Source Quality Tracking
+
+Track source accuracy over time:
+- False positives (incorrect claims published)
+- Corrections issued
+- Retractions
+
+Adjust weights quarterly based on track record.

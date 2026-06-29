@@ -1,0 +1,116 @@
+# signal-quality-grader Configuration
+
+rubric:
+  pir_relevance:
+    weight: 0.25
+    min_score: 0.50
+    description: "Signal must reference at least one valid PIR keyword (PIR-1 to PIR-10)"
+    grading_prompt: |
+      Evaluate whether the signal content meaningfully relates to the assigned PIR tags.
+      
+      Score 1.0: Clear, direct relevance to PIR category with multiple keyword matches
+      Score 0.75: Moderate relevance with some keyword matches
+      Score 0.50: Weak but plausible connection to PIR category
+      Score 0.25: Tangential or forced connection
+      Score 0.0: No meaningful connection to PIR category
+  
+  source_reliability:
+    weight: 0.20
+    min_score: 0.50
+    description: "Source must be in approved Tier 1 or Tier 2 list"
+    grading_prompt: |
+      Verify the source is in the approved media list.
+      
+      Score 1.0: Tier 1 source (mainstream, government-linked, established)
+      Score 0.75: Tier 2 source (independent, reputable)
+      Score 0.50: Tier 3 source (smaller outlet, limited track record)
+      Score 0.25: Unverified or questionable source
+      Score 0.0: Known unreliable or fake news source
+  
+  entity_quality:
+    weight: 0.20
+    min_score: 0.50
+    description: "Extracted entities must match known political figures/orgs with confidence > 0.7"
+    grading_prompt: |
+      Evaluate the quality and accuracy of extracted entities.
+      
+      Score 1.0: All entities are real, relevant figures/orgs with high confidence
+      Score 0.75: Most entities accurate, minor issues
+      Score 0.50: Some entities questionable or low confidence
+      Score 0.25: Many entities appear incorrect or irrelevant
+      Score 0.0: Entities are hallucinated or completely wrong
+  
+  content_originality:
+    weight: 0.15
+    min_score: 0.50
+    description: "No duplicate content (similarity < 0.85 to existing signals)"
+    grading_prompt: |
+      Check if this signal is substantially similar to previously collected signals.
+      
+      Score 1.0: Completely original content, no duplication
+      Score 0.75: Minor overlap with other sources (expected for same event)
+      Score 0.50: Significant overlap but some unique information
+      Score 0.25: Mostly duplicate with minimal new information
+      Score 0.0: Near-identical copy of existing signal
+  
+  escalation_accuracy:
+    weight: 0.20
+    min_score: 0.50
+    description: "Escalation level must match severity keywords in content"
+    grading_prompt: |
+      Evaluate whether the assigned escalation level matches the content severity.
+      
+      Score 1.0: Escalation level perfectly matches content severity
+      Score 0.75: Escalation level mostly appropriate, minor adjustment needed
+      Score 0.50: Escalation level somewhat off but defensible
+      Score 0.25: Escalation level clearly mismatched
+      Score 0.0: Escalation level completely wrong
+
+grading_thresholds:
+  overall_pass: 0.75
+  criterion_min: 0.50
+  max_iterations: 2
+
+tier_1_sources:
+  - "The Star"
+  - "New Straits Times"
+  - "Malay Mail"
+  - "Bernama"
+  - "Utusan Malaysia"
+  - "Berita Harian"
+  - "The Sun"
+  - "Astro Awani"
+  - "RTM"
+  - "FMT"
+
+tier_2_sources:
+  - "Malaysiakini"
+  - "The Edge"
+  - "Free Malaysia Today"
+  - "MalaysiaNow"
+  - "CodeBlue"
+  - "The Vibes"
+  - "Aliran"
+  - "Lim Kit Siang Blog"
+  - "Tun Mahathir Blog"
+
+tier_3_sources:
+  - "Smaller independent outlets"
+  - "Regional newspapers"
+  - "Online news portals"
+
+grader_model:
+  provider: "vllm"
+  model: "Qwen/Qwen3.5-397B-A17B"
+  temperature: 0.2
+  max_tokens: 1000
+
+revision_feedback:
+  include_specific_criteria: true
+  include_suggested_fixes: true
+  max_feedback_length: 500
+
+output:
+  include_detailed_scores: true
+  include_grader_reasoning: true
+  log_iteration_history: true

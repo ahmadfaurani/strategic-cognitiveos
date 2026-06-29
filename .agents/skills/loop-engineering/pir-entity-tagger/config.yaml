@@ -1,0 +1,205 @@
+# pir-entity-tagger Configuration
+
+pir_keywords:
+  PIR-1:
+    name: "Government Stability"
+    keywords:
+      - "prime minister"
+      - "cabinet"
+      - "coalition"
+      - "parliament"
+      - "vote of confidence"
+      - "government collapse"
+      - "resignation"
+      - "no confidence"
+      - "dissolution"
+      - "coalition partner"
+  
+  PIR-2:
+    name: "Economic Policy"
+    keywords:
+      - "budget"
+      - "fiscal"
+      - "taxation"
+      - "tax"
+      - "subsidy"
+      - "subsidies"
+      - "inflation"
+      - "economic reform"
+      - "monetary policy"
+      - "BNM"
+      - "Bank Negara"
+  
+  PIR-3:
+    name: "Foreign Relations"
+    keywords:
+      - "diplomacy"
+      - "diplomatic"
+      - "bilateral"
+      - "ASEAN"
+      - "China"
+      - "United States"
+      - "US"
+      - "trade agreement"
+      - "territorial dispute"
+      - "embassy"
+      - "high commissioner"
+      - "foreign minister"
+  
+  PIR-4:
+    name: "Security & Defense"
+    keywords:
+      - "military"
+      - "defense"
+      - "defence"
+      - "procurement"
+      - "terrorism"
+      - "border security"
+      - "cyber threat"
+      - "armed forces"
+      - "national security"
+      - "PDRM"
+      - "police"
+  
+  PIR-5:
+    name: "Corruption & Governance"
+    keywords:
+      - "MACC"
+      - "SPRM"
+      - "investigation"
+      - "graft"
+      - "corruption"
+      - "abuse of power"
+      - "whistleblower"
+      - "charged"
+      - "arrested"
+      - "misconduct"
+      - "integrity"
+  
+  PIR-6:
+    name: "Social Unrest"
+    keywords:
+      - "protest"
+      - "demonstration"
+      - "rally"
+      - "racial tension"
+      - "religious issue"
+      - "public order"
+      - "unrest"
+      - "strike"
+      - "boycott"
+      - "controversy"
+  
+  PIR-7:
+    name: "Electoral Politics"
+    keywords:
+      - "election"
+      - "polling"
+      - "party switching"
+      - "constituency"
+      - "voter"
+      - "ballot"
+      - "by-election"
+      - "state election"
+      - "general election"
+      - "PRN"
+      - "PRU"
+  
+  PIR-8:
+    name: "Regulatory Changes"
+    keywords:
+      - "law"
+      - "amendment"
+      - "compliance"
+      - "licensing"
+      - "policy shift"
+      - "regulation"
+      - "gazette"
+      - "parliament bill"
+      - "act"
+      - "enforcement"
+  
+  PIR-9:
+    name: "Corporate & Business"
+    keywords:
+      - "GLC"
+      - "government-linked company"
+      - "corporation"
+      - "investment"
+      - "bankruptcy"
+      - "merger"
+      - "acquisition"
+      - "PETRONAS"
+      - "Khazanah"
+      - "EPF"
+      - "KWAP"
+  
+  PIR-10:
+    name: "Environmental & Health"
+    keywords:
+      - "climate"
+      - "disaster"
+      - "flood"
+      - "pandemic"
+      - "healthcare"
+      - "environmental policy"
+      - "pollution"
+      - "MOH"
+      - "ministry of health"
+      - "haze"
+      - "emergency"
+
+known_entities:
+  persons:
+    - "Anwar Ibrahim"
+    - "Muhyiddin Yassin"
+    - "Ismail Sabri Yaakob"
+    - "Najib Razak"
+    - "Mahathir Mohamad"
+    - "Lim Guan Eng"
+    - "Zahid Hamidi"
+    - "Saifuddin Nasution"
+    - "Rafizi Ramli"
+    - "Hadi Awang"
+  
+  organizations:
+    - "MACC"
+    - "SPRM"
+    - "BNM"
+    - "Bank Negara Malaysia"
+    - "Parliament"
+    - "Dewan Rakyat"
+    - "Dewan Negara"
+    - "Barisan Nasional"
+    - "PH"
+    - "Pakatan Harapan"
+    - "PN"
+    - "Perikatan Nasional"
+    - "UMNO"
+    - "PAS"
+    - "DAP"
+    - "PKR"
+    - "BERSATU"
+  
+  locations:
+    - "Putrajaya"
+    - "Kuala Lumpur"
+    - "Parliament House"
+    - "Istana Negara"
+    - "Selangor"
+    - "Johor"
+    - "Penang"
+    - "Sabah"
+    - "Sarawak"
+
+processing:
+  min_confidence_threshold: 0.7
+  max_pir_tags_per_signal: 3
+  entity_extraction_model: "vllm/Qwen/Qwen3.5-397B-A17B"
+  case_insensitive_matching: true
+  fuzzy_match_threshold: 0.85
+
+output:
+  include_confidence_scores: true
+  include_matched_keywords: true
+  log_unmatched_entities: true

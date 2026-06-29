@@ -1,0 +1,24 @@
+{
+  "name": "pdf-auto-extract",
+  "version": "1.0.0",
+  "description": "Automatically detect PDF characteristics and apply optimal extraction tool (PyMuPDF, pdfplumber, or Tika)",
+  "author": "OpenClaw Workspace",
+  "license": "MIT",
+  "tags": ["pdf", "extraction", "automation", "ocr", "tables"],
+  "entryPoint": "index.py",
+  "runner": "run.sh",
+  "requirements": {
+    "python": ">=3.8",
+    "packages": ["PyMuPDF", "pdfplumber", "requests"],
+    "optional": ["tika"]
+  },
+  "commands": {
+    "default": "python3 index.py",
+    "help": "python3 index.py --help"
+  },
+  "examples": [
+    "openclaw skill run pdf-auto-extract --source https://example.com/doc.pdf",
+    "openclaw skill run pdf-auto-extract -s ./document.pdf --summary",
+    "openclaw skill run pdf-auto-extract -s file.pdf -o output.json"
+  ]
+}

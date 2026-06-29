@@ -1,0 +1,29 @@
+{
+  "constituency": "N41 Puteri Wangsa (P.158 Tebrau)",
+  "data_date": "2026-06-19",
+  "source_file": "11_PUTERI_WANGSA_as_of_190626---72205f74-3a8c-436f-a896-24fabdbf687a.xlsx",
+  "total_voters": 128723,
+  "polling_districts": 20,
+  "ethnic_breakdown": {
+    "malay": 46169,
+    "chinese": 66196,
+    "indian": 12930,
+    "bumi_sabah": 549,
+    "bumi_sarawak": 840,
+    "orang_asli": 25,
+    "others": 2014
+  },
+  "age_breakdown": {
+    "18": 3560,
+    "18-20": 11573,
+    "21-30": 36115,
+    "31-45": 37177,
+    "46-59": 27892,
+    "60+": 15966,
+    "youth_18_29": 51248
+  },
+  "gender_breakdown": {
+    "male": 64826,
+    "female": 63897
+  }
+}

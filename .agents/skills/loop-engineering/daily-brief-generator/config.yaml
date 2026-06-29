@@ -1,0 +1,131 @@
+# daily-brief-generator Configuration
+
+schedule:
+  timezone: "UTC"
+  cron: "30 23 * * *"  # Daily at 23:30 UTC (30 min after collection)
+  enabled: true
+  depends_on: "heartbeat-daily-collection"
+
+input:
+  signals_path_pattern: "memory/signals/{YYYY}/{MM}/{DD}-signals.jsonl"
+  min_escalation_level: "MEDIUM"
+  include_low_if_high_count_zero: false
+  max_signals_to_process: 100
+
+output:
+  briefs_path: "memory/briefs"
+  path_pattern: "{YYYY}/{MM}/{DD}-brief.md"
+  format: "markdown"
+  
+  delivery:
+    telegram:
+      enabled: true
+      chat_id: "640442208"
+      suppress_embeds: true
+      message_template: |
+        📰 **Daily Political Intelligence Brief**
+        **Date:** {date}
+        **Signals:** {signal_count} | **HIGH:** {high_count} | **MEDIUM:** {medium_count}
+        
+        {brief_preview}
+        
+        Full brief: {file_path}
+    
+    email:
+      enabled: false
+      recipients: []
+      subject_template: "Daily Political Brief - {date}"
+    
+    file_only:
+      enabled: true
+
+content:
+  include_trend_analysis: true
+  trend_comparison_days: 7
+  include_emerging_narratives: true
+  narrative_clustering_threshold: 0.75
+  narrative_min_cluster_size: 2
+  max_signals_per_section: 10
+  entity_highlighting: true
+  include_source_attribution: true
+  include_signal_ids: true
+  
+  sections:
+    - name: "HIGH PRIORITY"
+      emoji: "🔴"
+      escalation_levels: ["HIGH", "CRITICAL"]
+      sort_by: "escalation_severity"
+    
+    - name: "MEDIUM PRIORITY"
+      emoji: "🟡"
+      escalation_levels: ["MEDIUM"]
+      sort_by: "pir_priority"
+    
+    - name: "PIR Trend Analysis"
+      type: "table"
+      comparison_days: 7
+    
+    - name: "Emerging Narratives"
+      type: "list"
+      min_signals: 2
+    
+    - name: "Analyst Notes"
+      type: "freeform"
+      auto_generate: true
+
+llm:
+  model: "vllm/Qwen/Qwen3.5-397B-A17B"
+  temperature: 0.3
+  max_tokens: 4000
+  top_p: 0.9
+  frequency_penalty: 0.2
+  presence_penalty: 0.2
+  
+  system_prompt: |
+    You are a senior political intelligence analyst specializing in Malaysian politics.
+    
+    Your task is to generate a concise, actionable daily brief from curated signals.
+    
+    **Guidelines:**
+    - Be factual and objective
+    - Attribute all claims to sources
+    - Highlight multi-source confirmed information
+    - Flag unverified or single-source claims
+    - Identify patterns and emerging narratives
+    - Provide context for trend changes
+    
+    **Tone:** Professional, concise, analytical
+    **Format:** Clear markdown with section headers
+    **Length:** 2-4 pages equivalent
+
+verification:
+  fact_check_enabled: true
+  cross_reference_sources: true
+  flag_unverified_claims: true
+  hallucination_check: true
+  max_regeneration_iterations: 2
+  
+  validation_criteria:
+    - "All claims must be traceable to source signals"
+    - "No entities or events not present in source data"
+    - "HIGH signals must appear in HIGH section"
+    - "PIR counts must match signal registry"
+    - "All MEDIUM/HIGH signals must be included"
+
+mirofish_integration:
+  enabled: true
+  api_endpoint: "http://localhost:3000/api/scenarios/simulate"
+  timeout_seconds: 30
+  include_in_brief: true
+  
+  payload_template:
+    date: "{date}"
+    high_priority_signals: "{high_signals_json}"
+    pir_trends: "{trend_data_json}"
+    emerging_narratives: "{narratives_json}"
+
+monitoring:
+  log_generation_time: true
+  log_token_usage: true
+  metrics_path: "memory/heartbeat-state.json"
+  alert_on_failure: true

@@ -20,6 +20,7 @@
 - [ ] `openclaw skill run daily-brief-generator --date $(date -u +%Y-%m-%d)`
   - Generates structured brief from MEDIUM/HIGH signals
   - Includes PIR trend analysis and emerging narratives
+  - **Runs truth validator before delivery** (`./tools/truth-validator/validate.sh`)
   - Delivers via Telegram (suppresses embeds)
 
 **Weekly Synthesis (Sunday 09:00 UTC):**
@@ -54,6 +55,22 @@
 - **DeerFlow Config:** `/home/p62operator/tools/deer-flow/config.yaml` (LLM: PatchedChatOpenAI)
 - **Signal Registry:** `memory/signals/` (schema defined in `memory/2026-06-13-political-signal-registry.md`)
 - **PIR Framework:** 10 Priority Intelligence Requirements (see `HEARTBEAT.md` main file)
+- **Truth Validation:** `tools/truth-validator/` (mandatory pre-output check)
+
+### Truth Validation Gate
+
+**All briefs must pass validation before delivery:**
+
+```bash
+# Validation gate (fails on errors, warns on unverified claims)
+./tools/truth-validator/validate.sh memory/<brief-file>.md || exit 1
+```
+
+**Validation requirements:**
+1. All numerical claims cite source (MEMORY.md#L### or URL)
+2. All analytical claims tagged with confidence [HIGH/MEDIUM/LOW]
+3. All predictive claims flagged as SPECULATION: or SCENARIO:
+4. Zero errors, warnings reviewed before delivery
 ```
 
 

@@ -1,0 +1,97 @@
+# heartbeat-daily-collection Configuration
+
+schedule:
+  timezone: "UTC"
+  cron: "0 23 * * *"  # Daily at 23:00 UTC
+  enabled: true
+
+deerflow:
+  config_path: "/home/p62operator/tools/deer-flow/config.yaml"
+  llm_provider: "PatchedChatOpenAI"
+  sources_count: 32
+  collection_timeout_seconds: 300
+  retry_on_failure: true
+  max_retries: 3
+
+pipeline:
+  steps:
+    - name: "deer-flow-news-collection"
+      timeout_seconds: 300
+      retry_on_failure: true
+    
+    - name: "pir-entity-tagger"
+      timeout_seconds: 120
+      retry_on_failure: false
+    
+    - name: "signal-quality-grader"
+      timeout_seconds: 180
+      retry_on_failure: false
+      max_iterations: 2
+    
+    - name: "threshold-escalation-checker"
+      timeout_seconds: 60
+      retry_on_failure: false
+    
+    - name: "signal-registry-writer"
+      timeout_seconds: 30
+      retry_on_failure: true
+
+signal_registry:
+  base_path: "memory/signals"
+  path_pattern: "{YYYY}/{MM}/{DD}-signals.jsonl"
+  schema_version: "1.0"
+  dedup_enabled: true
+  dedup_similarity_threshold: 0.85
+  dedup_algorithm: "cosine_similarity"
+  include_metadata: true
+
+escalation:
+  critical_alert_enabled: true
+  alert_channels:
+    telegram:
+      enabled: true
+      chat_id: "640442208"
+      suppress_embeds: true
+    email:
+      enabled: false
+      recipients: []
+  
+  human_review_required_for:
+    - "CRITICAL"
+    - "HIGH"
+  
+  alert_timeout_seconds: 7200  # 2 hours before auto-proceed
+  alert_message_template: |
+    🚨 **Political Monitoring Alert**
+    
+    **Date:** {date}
+    **Signals Collected:** {total_signals}
+    **Escalation Summary:**
+    - CRITICAL: {critical_count}
+    - HIGH: {high_count}
+    - MEDIUM: {medium_count}
+    
+    **Top PIRs:** {top_pirs}
+    
+    Review required for {review_count} signals.
+
+retry_policy:
+  max_retries: 3
+  retry_delay_seconds: 60
+  exponential_backoff: true
+  backoff_multiplier: 2.0
+  max_delay_seconds: 600
+
+monitoring:
+  log_all_steps: true
+  metrics_enabled: true
+  metrics_path: "memory/heartbeat-state.json"
+  alert_on_failure: true
+  failure_threshold: 2  # Alert after 2 consecutive failures
+
+output:
+  summary_enabled: true
+  summary_path: "memory/collections/{YYYY}/{MM}/{DD}-summary.json"
+  include_pir_distribution: true
+  include_escalation_summary: true
+  include_quality_metrics: true

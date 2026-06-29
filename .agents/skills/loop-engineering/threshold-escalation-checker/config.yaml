@@ -1,0 +1,140 @@
+# threshold-escalation-checker Configuration
+
+escalation_rules:
+  ESC-001:
+    severity: "CRITICAL"
+    pir_required: ["PIR-1"]
+    keywords:
+      - "government collapses"
+      - "coalition breaks"
+      - "resigns"
+      - "vote of no confidence"
+      - "dissolution of parliament"
+      - "emergency rule"
+      - "state of emergency"
+    min_source_count: 2
+    action: "immediate_alert"
+    human_review_required: true
+    description: "Direct threat to government stability with multi-source confirmation"
+  
+  ESC-002:
+    severity: "CRITICAL"
+    pir_required: ["PIR-5"]
+    keywords:
+      - "charged"
+      - "corruption charge"
+      - "senior official"
+      - "minister charged"
+      - "MACC investigation"
+      - "arrested"
+      - "evidence submitted"
+    min_source_count: 1
+    action: "immediate_alert"
+    human_review_required: true
+    description: "Major corruption case involving senior officials with evidence"
+  
+  ESC-003:
+    severity: "HIGH"
+    pir_required: ["PIR-3"]
+    keywords:
+      - "diplomatic tension"
+      - "embassy statement"
+      - "diplomatic row"
+      - "sanction"
+      - "expel diplomat"
+      - "territorial dispute"
+      - "sovereignty"
+      - "protest note"
+    min_source_count: 1
+    action: "daily_brief_flag"
+    human_review_required: true
+    description: "Foreign relations incident with potential diplomatic fallout"
+  
+  ESC-004:
+    severity: "HIGH"
+    pir_required: ["PIR-4"]
+    keywords:
+      - "terror threat"
+      - "security breach"
+      - "military mobilization"
+      - "border incident"
+      - "cyber attack"
+      - "national security threat"
+      - "defense alert"
+    min_source_count: 1
+    action: "daily_brief_flag"
+    human_review_required: true
+    description: "Security/defense threat with national implications"
+  
+  ESC-005:
+    severity: "MEDIUM"
+    pir_required: ["PIR-2", "PIR-8"]
+    keywords:
+      - "policy change"
+      - "new regulation"
+      - "budget revision"
+      - "tax increase"
+      - "subsidy cut"
+      - "economic impact"
+      - "industry affected"
+    min_source_count: 1
+    action: "daily_brief"
+    human_review_required: false
+    description: "Significant policy change affecting multiple sectors"
+  
+  ESC-006:
+    severity: "MEDIUM"
+    pir_required: ["PIR-6"]
+    keywords:
+      - "protest planned"
+      - "demonstration"
+      - "rally"
+      - "social tension"
+      - "public outcry"
+      - "boycott call"
+      - "controversy sparks"
+    min_source_count: 1
+    action: "daily_brief"
+    human_review_required: false
+    description: "Social unrest with potential to escalate"
+
+senior_officials:
+  - "Prime Minister"
+  - "Deputy Prime Minister"
+  - "Minister"
+  - "Deputy Minister"
+  - "Chief Minister"
+  - "Menteri Besar"
+  - "Governor"
+  - "Yang di-Pertua Negeri"
+  - "Secretary-General"
+  - "Director-General"
+  - "Chief Secretary"
+  - "Attorney General"
+  - "MACC Chief Commissioner"
+  - "BNM Governor"
+  - "Inspector-General of Police"
+  - "Chief of Defence Forces"
+
+human_review_required_for:
+  - "CRITICAL"
+  - "HIGH"
+
+alert_channels:
+  telegram:
+    enabled: true
+    chat_id: "640442208"
+  email:
+    enabled: false
+    recipients: []
+
+processing:
+  case_insensitive: true
+  keyword_match_min_length: 3
+  multi_source_boost: 0.15
+  senior_official_boost: 0.20
+
+output:
+  include_reasoning: true
+  include_matched_keywords: true
+  include_source_count: true

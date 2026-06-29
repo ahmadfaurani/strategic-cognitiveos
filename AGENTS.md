@@ -50,12 +50,44 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+## 🔥 Core Truth Validation System (CVS) — MANDATORY
+
+**Effective:** 2026-06-28 | **Scope:** ALL sessions, ALL outputs, ALL agents | **Authority:** DAF
+
+### Non-Negotiable Rules
+
+1. **Multi-Source Verification** — All Tier 1 claims (numbers, names, dates, locations) require ≥2 independent sources + citation (`Source: <file#line>` or `Source: <URL>`)
+2. **Confidence Assertion Tags** — All analytical claims must be tagged: `[HIGH]` / `[MEDIUM]` / `[LOW]` with justification
+3. **Speculation Demarcation** — All predictive claims must be flagged: `SPECULATION:` or `SCENARIO:`
+4. **Conflict Resolution** — When sources disagree, tag `[CONFLICTING]`, show both values, request human review
+5. **Validation Gate** — All output must pass: `./tools/truth-validator/validate.sh <output>.md || exit 1`
+
+### Pre-Output Checklist (MANDATORY)
+
+```
+[ ] All Tier 1 numbers verified against ≥2 sources?
+[ ] All names double-checked (spelling, position, party)?
+[ ] All citations include file#line or URL?
+[ ] All analytical claims have confidence tags?
+[ ] All predictive claims flagged as SPECULATION: or SCENARIO:?
+[ ] Math shown explicitly for analytical claims?
+```
+
+**If any box is unchecked, DO NOT SEND. Fix it first.**
+
+**Full documentation:** `tools/truth-validator/CVS-MANDATE.md` + `tools/truth-validator/CVS-SYSTEM-PROMPT.md`
+
+**Non-compliance:** Output blocked by validation gate → Feedback captured → Monthly review triggers tighter gates
+
+---
+
 ## Red Lines
 
 - Don't exfiltrate private data. Ever.
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
+- **Don't bypass CVS. Ever.**
 
 ## External vs Internal
 

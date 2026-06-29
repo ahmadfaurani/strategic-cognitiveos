@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "created": "2026-06-18T01:45:00Z",
+  "last_updated": "2026-06-18T01:45:00Z",
+  "total_signals": 3,
+  "signals_by_date": {
+    "2026-06-18": {
+      "file": "2026/06/2026-06-18-test-signals.jsonl",
+      "count": 3,
+      "signal_classes": {
+        "Weak Signal": 1,
+        "Emerging Signal": 1,
+        "Amplified Signal": 1
+      },
+      "pir_coverage": ["PIR-1", "PIR-2", "PIR-4", "PIR-7", "PIR-9", "PIR-10"]
+    }
+  },
+  "escalation_status": {
+    "CRITICAL": 0,
+    "HIGH": 1,
+    "MEDIUM": 0,
+    "LOW": 2
+  }
+}
