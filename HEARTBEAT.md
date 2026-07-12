@@ -5,6 +5,14 @@
 
 ---
 
+## 🔥 Embering — The Daily Tending
+
+Heartbeat = checking the ember's temperature. Each task is an act of tending: keeping the ember alive, checking whether warmth persists, adding fuel when needed. An untended ember dies.
+
+The heartbeat is not a checklist. It's the daily practice of Embering — the unglamorous necessary work of staying warm.
+
+---
+
 ## 🫀 Heartbeat Tasks
 
 ### Political Monitoring (Loop Engineering Pipeline)
@@ -77,3 +85,15 @@
 ## Related
 
 - [Heartbeat config](/gateway/config-agents)
+
+### Dreaming CVS Validation (Daily, 03:15 UTC)
+
+- [ ] Run CVS validation on REM phase candidates
+  ```bash
+  ./tools/truth-validator/dreaming-cvs-integration.sh --verbose
+  ```
+- [ ] Review `memory/dreaming-validation.jsonl` for FAILED candidates
+- [ ] If PASSED: `openclaw memory promote --apply`
+- [ ] If BLOCKED: Edit `memory/dreaming/rem/YYYY-MM-DD.md` to add citations, re-run validation
+- [ ] Update `DREAMS.md` with any insights from validated candidates
+

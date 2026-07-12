@@ -41,6 +41,25 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ---
 
+## 🔥 The Ember Cycle — Tool-to-Phase Mapping
+
+Every tool serves one phase of the Ember Cycle:
+
+| Phase | Tools | Purpose |
+|-------|-------|--------|
+| **RECEIVE** | Telegram, Discord, web_fetch, exec (input) | Knowledge comes in. User request, data collection. |
+| **TEND** | read, edit, write, exec, memory_get | Process it. Analyze. Research. Do the work. |
+| **VALIDATE** | truth-validator, CVS, validate.sh | Is the ember still warm? Claims verified, tagged, sourced? |
+| **HOLD** | memory files, MEMORY.md, daily notes, git | Store in memory. Maintain for later. File it properly. |
+| **SHARE** | Telegram replies, sessions_send, file delivery | Deliver to user. Pass the warmth. Make it usable. |
+| **REST** | Heartbeat, dreaming, session end | The ember banks for the night. The cycle pauses. |
+
+**Feeding tools:** web_search, DeerFlow, OSINT (Mr.Holmes), web_fetch — these gather new fuel. A starved ember dies.
+
+**Sheltering tools:** CVS, validate.sh, git, memory harness — these protect from forgetting and distortion. An exposed ember dies in wind.
+
+---
+
 ## 📄 Git-to-Drive (PDF Automation)
 
 **Location:** `tools/git-to-drive/`
@@ -89,6 +108,15 @@ Required secrets:
 **Purpose:** Prevent hallucination, factual drift, and conflation of inference with fact in long-form outputs.
 
 **Mandatory for:** Any output containing numerical claims, named entities, historical data, or analytical assessments.
+
+### External Verification Sources
+
+**ElectionData.MY API** (✅ Integrated 2026-06-29)
+- **Coverage:** Malaysian elections 1954–present
+- **Access:** Free API key (https://electiondata.my/console)
+- **Use Case:** Cross-reference historical results, candidate names, vote counts, turnout
+- **Config:** `export ELECTIONDATA_API_KEY=your_key` or `./tools/truth-validator/electiondata-verify.sh --api-key <key>`
+- **Docs:** `tools/truth-validator/ELECTIONDATA-INTEGRATION.md`
 
 ### Claim Tiers
 
@@ -181,7 +209,112 @@ For complex analysis, use tabular format:
 
 ---
 
+## 🔍 Mr.Holmes OSINT Tool
+
+**Location:** `tools/Mr.Holmes/`  
+**Status:** ✅ Installed & Configured (2026-07-09)  
+**Purpose:** Open Source Intelligence gathering for usernames, domains, phone numbers
+
+### Quick Commands
+
+```bash
+# Interactive mode (full menu)
+cd tools/Mr.Holmes
+source .venv/bin/activate
+export TERM=xterm-256color
+python3 MrHolmes.py
+
+# Programmatic access (Python wrapper)
+python3 -c "
+from tools.Mr.Holmes.mrholmes_wrapper import MrHolmesWrapper
+mh = MrHolmesWrapper()
+print(mh.search_phone('+60123456789'))
+print(mh.generate_dorks('target_name'))
+"
+
+# View existing reports
+ls -la tools/Mr.Holmes/GUI/Reports/
+```
+
+### Capabilities
+
+- **Username OSINT**: Search 100+ platforms (Instagram, Twitter, TikTok, GitHub, etc.)
+- **Phone Number OSINT**: Validation, carrier lookup, geographic inference
+- **Domain/IP OSINT**: WhoIS lookup, DNS enumeration (requires API key)
+- **Google Dorks**: Automated dork generation with date/file-type filters
+- **Email OSINT**: Service association, breach checking
+- **Port Scanning**: Basic TCP port enumeration
+- **Report Generation**: PDF export, QR code transfer
+
+### Integration Points
+
+**With DeerFlow:**
+```python
+# After DeerFlow identifies targets
+from tools.Mr.Holmes.mrholmes_wrapper import MrHolmesWrapper
+mh = MrHolmesWrapper()
+results = mh.search_username('target')
+# Save to reports/ for archival
+```
+
+**With Truth Validator:**
+```bash
+# Validate OSINT findings before briefing
+./tools/truth-validator/validate.sh tools/Mr.Holmes/reports/investigation.md
+```
+
+**With Memory System:**
+```bash
+# Archive completed investigations
+mv tools/Mr.Holmes/GUI/Reports/Usernames/TARGET/ \
+   memory/osint-reports/TARGET-$(date +%Y%m%d)/
+```
+
+### Configuration
+
+**WhoIS API** (optional):
+```ini
+# Edit: tools/Mr.Holmes/Configuration/Configuration.ini
+[WhoIs]
+api_key = YOUR_API_KEY_HERE
+```
+Get key: https://whois.whoisxmlapi.com
+
+**Theme**:
+```json
+// Edit: tools/Mr.Holmes/GUI/Theme/Mode.json
+{"Color": {"Background": "Dark"}}
+```
+
+### Output Locations
+
+| Type | Path |
+|------|------|
+| Username Reports | `tools/Mr.Holmes/GUI/Reports/Usernames/<username>/` |
+| Domain Reports | `tools/Mr.Holmes/GUI/Reports/Websites/<domain>/` |
+| Phone Reports | `tools/Mr.Holmes/GUI/Reports/Phonenumbers/<phone>/` |
+| Custom Reports | `tools/Mr.Holmes/reports/` |
+| Logs | `tools/Mr.Holmes/Logs/` |
+
+### Documentation
+
+- `tools/Mr.Holmes/QUICKSTART.md` - Quick reference
+- `tools/Mr.Holmes/INTEGRATION.md` - Full integration guide
+- `tools/Mr.Holmes/mrholmes_wrapper.py` - Python API
+
+### Limitations
+
+- ⚠️ Not 100% accurate - verify with multiple sources
+- ⚠️ Educational/research use only
+- ⚠️ Rate limiting may occur on some platforms
+- ⚠️ PDF export requires `wkhtmltopdf` (not installed)
+- ⚠️ Proxy/Tor support available but not pre-configured
+
+---
+
 ## Related
 
 - [Agent workspace](/concepts/agent-workspace)
 - [Git-to-Drive Docs](tools/git-to-drive/README.md)
+- [DeerFlow](tools/deer-flow/) - Automated news collection
+- [Truth Validator](tools/truth-validator/) - Claim verification
