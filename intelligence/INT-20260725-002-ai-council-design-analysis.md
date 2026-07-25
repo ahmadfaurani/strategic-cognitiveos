@@ -309,9 +309,9 @@ Seat 5: Llama 4 Scout (Meta, local) — SULIT-classified only   — CONDITIONAL
 |--------------------|-------------|----------|
 | Public / Restricted | Seats 1, 2, 3, 4 | Full council, maximum diversity |
 | Confidential | Seats 1, 2, 3 | Drop Gemini (Google data handling) |
-| SULIT | Seats 2, 5 only | Local-only: GLM-5.2 (already on server) + Llama 4. No external data path. |
+| SULIT | Seats 2, 5 only | Local-only: GLM-5.2 (local vLLM, confirmed) + Llama 4 (Ollama). No external data path. 2-seat evaluation. |
 
-**Note on SULIT mode:** GLM-5.2 is confirmed as running locally via OpenClaw on p62server. If the GLM-5.2 instance is the local deployment (not the Z.ai API), it is SULIT-safe. This needs verification: is the current OpenClaw model calling the Z.ai API or running locally? [MEDIUM] — depends on vLLM configuration on p62server.
+**Confirmed (DAF, 2026-07-25T16:49 UTC):** GLM-5.2 on p62server is running via local vLLM, not Z.ai API. SULIT mode has 2 seats: GLM-5.2 (local) + Llama 4 Scout (local). Both on-server, zero external data path.
 
 ### 6.3 Evaluation Workflow
 
@@ -421,7 +421,7 @@ Llama 4 (local): $0 per evaluation (compute cost absorbed in server operation).
 
 [LOW] confidence on Zhipu and Google data handling — vendor documentation not fully transparent. Assume not SULIT-safe unless explicitly verified.
 
-**Critical question for DAF:** Is the current GLM-5.2 on p62server running via Z.ai API or via local vLLM? This determines whether Seat 2 is SULIT-safe. If API-based, SULIT mode has only one seat (Llama 4), which is insufficient for meaningful evaluation.
+**Resolved (DAF, 2026-07-25T16:49 UTC):** GLM-5.2 is running via local vLLM on p62server. Seat 2 is SULIT-safe. SULIT mode operates with 2 seats (GLM-5.2 + Llama 4), providing meaningful dual-model evaluation of classified material with zero external data exposure.
 
 ---
 
@@ -431,7 +431,7 @@ Llama 4 (local): $0 per evaluation (compute cost absorbed in server operation).
 
 1. **Confirm Seat 3 (Claude)** — Set up Claude API access. Draft Claude-specific evaluation prompt that leverages Constitutional AI tendencies (ask Claude to explicitly flag risks and disagreements).
 2. **Confirm Seat 4 (Gemini)** — Set up Gemini API access. Draft Gemini-specific prompt that leverages search integration (ask Gemini to verify claims against current sources).
-3. **Verify GLM-5.2 deployment** — Determine if OpenClaw is calling Z.ai API or running local vLLM. This affects SULIT mode viability.
+3. ~~Verify GLM-5.2 deployment~~ — **Confirmed: local vLLM (DAF, 2026-07-25T16:49 UTC).** SULIT mode has 2 seats. No action needed.
 4. **Install Llama 4 Scout via Ollama** — `ollama run llama4:scout`. Test inference on sample CognitiveOS record. Assess quality.
 
 ### 9.2 Short-Term (Week 2-3)
@@ -467,7 +467,7 @@ Llama 4 (local): $0 per evaluation (compute cost absorbed in server operation).
 
 1. **Claude variant:** Opus 4.8 (strongest reasoning, $25/1M output) or Sonnet 5 (cheaper, potentially faster)? Sonnet may be sufficient for evaluation work and 2.5x cheaper on output.
 2. **Gemini variant:** 3.1 Pro (stronger reasoning) or 3.6 Flash (faster, cheaper, better at coding/computer-use)? For analytical evaluation, Pro is likely better. For verification tasks, Flash may be sufficient.
-3. **GLM-5.2 deployment:** Is the current p62server instance calling Z.ai API or running local vLLM? This determines SULIT mode.
+3. ~~**GLM-5.2 deployment**~~ — **Answered: local vLLM. SULIT mode has 2 seats.**
 4. **Kimi K3 as backup:** If any member proves unreliable, Kimi K3 (55.7 index, 2nd highest) is the strongest replacement. But adding it alongside GLM-5.2 creates Chinese concentration. Acceptable as backup only?
 5. **Council size:** Three active + one conditional (Llama 4 for SULIT) = four total seats. Or does DAF prefer a strict three-seat council with Llama 4 as an emergency-only override?
 6. **Evaluation output format:** Should council outputs be stored as CognitiveOS intelligence records in the repo, or kept in a separate evaluation log visible only to DAF?
