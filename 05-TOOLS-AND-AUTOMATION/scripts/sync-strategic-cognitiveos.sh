@@ -60,7 +60,7 @@ try:
         'model': 'N/A (script-only)',
         'provider': 'N/A',
         'enabled_toolsets': ['terminal'],
-        'workdir': WORKDIR,
+        'workdir': '/home/p62operator/.openclaw/workspace/strategic-cognitiveos',
         'enabled': True,
         'prompt': ''
     })
