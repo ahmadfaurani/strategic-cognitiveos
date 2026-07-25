@@ -1,0 +1,259 @@
+---
+id: INIT-20260725-001
+record_type: initiative
+title: CSCDC Communication Division — Strategic Partnership Opportunity
+created_at: 2026-07-25T10:35:00Z
+updated_at: 2026-07-25T10:35:00Z
+owner: DAF
+sponsor: (TBD — pending leadership mapping)
+delivery_owner: DAF
+commercial_owner: DAF
+portfolio_tier: incubation
+status: draft
+priority: high
+sensitivity: confidential
+readiness_level: framed
+tags:
+  - domain/cybersecurity
+  - domain/governance
+  - domain/stakeholder-engagement
+  - sector/government
+  - sector/critical-infrastructure
+  - geography/malaysia
+  - geography/putrajaya
+  - mission/national-cybersecurity
+  - mission/strategic-communications
+  - mission/institutional-partnerships
+  - mission/commercial-growth
+  - mission/productisation
+  - portfolio/incubation
+  - readiness/framed
+  - commercial/opportunity-identification
+mission_alignment:
+  - national-cybersecurity
+  - strategic-communications
+  - institutional-partnerships
+  - commercial-growth
+  - productisation
+stakeholders:
+  - STK-20260725-001
+products: []
+source:
+  type: document
+  reference: INT-20260725-001 — CSCDC Communication Framework v2.0 Analysis
+---
+
+# Summary
+
+Strategic partnership opportunity with CSCDC (Pusat Pembangunan Keselamatan Siber dan Kriptologi) during its 90-day mobilisation window. CSCDC is building a national cyber communication division from scratch — 18 personnel, RM 4M budget, 7 operational units. The initiative positions Aras Integrasi as a capability builder and methodology partner across infrastructure provisioning, war room design, Community Champions programme, and PQC Sandbox engagement.
+
+# Strategic Significance
+
+CSCDC is a newly consolidated entity (PTPKM + CSM) under JPM/MKN/NACSA. Its communication framework v2.0 is a final draft ready for implementation approval. The 90-day mobilisation window creates a time-bound opportunity to enter the ecosystem during formation — before positions are filled, infrastructure is procured, and vendor relationships are locked in.
+
+This initiative spans five mission alignments:
+- **National Cybersecurity:** CSCDC is the national cyber defence authority
+- **Strategic Communications:** The entire framework is a communication division build-out
+- **Institutional Partnerships:** JPM/MKN/NACSA governance chain = senior government relationships
+- **Commercial Growth:** RM 4M budget with 10 identified service gaps
+- **Productisation:** Infrastructure and studio needs map to Aras Integrasi products
+
+# Mission Alignment
+
+- mission/national-cybersecurity — Direct: CSCDC is national cyber authority
+- mission/strategic-communications — Direct: Entire framework is communication division
+- mission/institutional-partnerships — Direct: JPM/MKN/NACSA stakeholder chain
+- mission/commercial-growth — Indirect: RM 4M budget with identifiable service gaps
+- mission/productisation — Indirect: Infrastructure needs could be productised
+
+# Objectives
+
+1. Map CSCDC leadership and decision-makers (CEO, CCO, MKN/NACSA shepherds)
+2. Establish Aras Integrasi as a capability partner during 90-day mobilisation
+3. Position for infrastructure provisioning (social listening, content studio, encrypted portal)
+4. Offer war room methodology and crisis communication playbook development support
+5. Explore PQC Sandbox as Sovereign AI intersection point
+6. Support Community Champions programme design using political mobilisation methodology
+
+# Scope
+
+**In Scope:**
+- CSCDC communication division mobilisation support
+- Infrastructure gap analysis and provisioning
+- War room methodology transfer (political → cyber)
+- Community Champions programme design
+- PQC Sandbox strategic positioning
+- Stakeholder mapping and relationship building
+
+**Out of Scope:**
+- CSCDC internal hiring and HR decisions
+- Direct cyber operations or technical incident response
+- Government policy advocacy (CSCDC sets its own policy)
+
+# Key Deliverables
+
+- [ ] CSCDC leadership map (CEO, CCO, MKN/NACSA shepherds)
+- [ ] Aras Integrasi capability positioning brief for CSCDC
+- [ ] Infrastructure gap-to-capability mapping document
+- [ ] War room methodology transfer proposal (political → cyber)
+- [ ] PQC Sandbox Sovereign AI intersection brief
+- [ ] Community Champions programme design proposal
+- [ ] Meeting with CSCDC leadership (target: within 90-day window)
+
+# Sponsor
+
+**TBD** — pending leadership mapping (PIR-CSCDC-001). The framework requires four signatures: CCO, CEO CSCDC, KSN/MKN, DG NACSA. The institutional sponsor is likely CEO CSCDC or DG NACSA.
+
+# Delivery Owner
+
+DAF — strategic-level relationship and positioning
+
+# Stakeholders
+
+- STK-20260725-001: CSCDC (primary target)
+- Existing: NACSA (STK in earlier register), CSM (STK in earlier register)
+
+# Products
+
+Potential product opportunities identified (see OPP records):
+- Social listening / media monitoring infrastructure
+- Crisis communication war room setup
+- Encrypted alert portal development
+- Community Champions training programme
+- PQC Sandbox engagement platform
+
+# Commercial Model
+
+**Stage:** Opportunity identification → Qualification (pending leadership mapping)
+**Model:** Capability partnership → Service contract or retainer
+**Budget reference:** RM 4,005,000 total (CSCDC's communication division budget)
+
+The 10 identified gaps represent approximately RM 1.5–2.5M in potential service opportunities within the existing budget, particularly:
+- Infrastructure (RM 485K allocated — likely insufficient, augmentation opportunity)
+- Playbook development (RM 150K allocated)
+- National Cyber Drill (RM 200K allocated)
+- Community Champions (RM 200K allocated)
+
+# Readiness Assessment
+
+**Current Level:** Framed
+- Opportunity identified and documented ✅
+- Source document analyzed ✅
+- Gaps mapped to capabilities ✅
+- Leadership identified ❌
+- Relationship established ❌
+- Value proposition articulated ❌
+- Meeting secured ❌
+
+**To advance to Prototype:** Complete leadership mapping, articulate value proposition, secure introductory meeting.
+
+# Dependencies
+
+- PIR-CSCDC-001: Leadership mapping (blocks all engagement)
+- PIR-CSCDC-002: Approval timeline (determines window)
+- PIR-CSCDC-003: Budget confirmation (determines scope)
+- Existing CSM and NACSA relationships (potential warm introductions)
+
+# Risks
+
+- **Timing risk:** 90-day window may close before leadership mapping is complete
+- **Incumbent risk:** CSM may have existing vendor relationships that transfer to CSCDC
+- **Access risk:** SULIT classification may limit engagement without proper clearance
+- **Scope risk:** Positioning too broadly may dilute the value proposition
+- **Budget risk:** RM 4M may be insufficient for full scope, limiting partnership value
+
+# Key Decisions
+
+- [ ] DEC-20260725-001: Confirm CSCDC as Tier-1 incubation initiative (pending DAF approval)
+- [ ] DEC-20260725-002: Approve leadership mapping as first action (pending DAF approval)
+- [ ] DEC-20260725-003: Determine engagement approach — direct or through CSM/NACSA warm intro
+
+# Actions
+
+- [ ] Map CSCDC leadership (CEO, acting CCO, MKN/NACSA shepherds) — PIR-CSCDC-001
+- [ ] Determine framework approval timeline — PIR-CSCDC-002
+- [ ] Verify budget confirmation status — PIR-CSCDC-003
+- [ ] Draft Aras Integrasi capability positioning brief for CSCDC
+- [ ] Prepare war room methodology transfer one-pager
+- [ ] Prepare PQC Sandbox intersection brief
+- [ ] Identify warm introduction path through existing CSM/NACSA relationships
+
+# Success Metrics
+
+- Leadership map completed within 14 days
+- Introductory meeting secured within 90-day mobilisation window
+- At least one capability gap engagement (infrastructure, methodology, or training) initiated
+- PQC Sandbox positioning document delivered to CSCDC leadership
+
+# Next Review
+
+**Trigger:** Completion of PIR-CSCDC-001 (leadership mapping) or framework approval announcement, whichever comes first.
+**Target date:** 2026-08-08 (14-day sprint)
+
+# Priority Intelligence Requirements (PIRs) — Top 10
+
+## PIR-INIT-CSCDC-001: Decision Authority
+**Requirement:** Who within CSCDC has the authority to approve external partnerships during the mobilisation phase — before the full division is staffed?
+**Priority:** Critical
+**Status:** Open
+**Rationale:** The 90-day window requires fast decisions. Knowing who can say "yes" determines engagement speed.
+
+## PIR-INIT-CSCDC-002: Warm Introduction Path
+**Requirement:** Which existing relationship (CSM, NACSA, or JPM) provides the most credible and effective introduction path to CSCDC leadership?
+**Priority:** Critical
+**Status:** Open
+**Rationale:** A cold approach to a SULIT-classified national security entity is low-probability. A warm introduction through existing relationships is the most viable path.
+
+## PIR-INIT-CSCDC-003: Mobilisation Timeline Detail
+**Requirement:** What are the specific weekly milestones in the 90-day plan (referenced as Rajah 6 in the framework document)?
+**Priority:** High
+**Status:** Open
+**Rationale:** Without the detailed timeline, we cannot align our engagement to their mobilisation phases.
+
+## PIR-INIT-CSCDC-004: Infrastructure Procurement Method
+**Requirement:** Will CSCDC procure infrastructure (social listening, studio, portal) through direct award, panel contract, open tender, or inter-agency sharing?
+**Priority:** High
+**Status:** Open
+**Rationale:** Procurement method determines whether Aras Integrasi can position directly or must qualify through a competitive process.
+
+## PIR-INIT-CSCDC-005: Playbook Development Engagement
+**Requirement:** Is the RM 150K allocated for Cyber Crisis Communication Playbook development intended for internal development, external consultancy, or inter-agency collaboration?
+**Priority:** High
+**Status:** Open
+**Rationale:** If external, this is a direct service opportunity. If internal or inter-agency, it's a methodology contribution opportunity.
+
+## PIR-INIT-CSCDC-006: National Cyber Drill Design
+**Requirement:** What is the scope and scenario design of the National Cyber Drill (RM 200K) — and is there room for external methodology contribution?
+**Priority:** Medium
+**Status:** Open
+**Rationale:** Cyber drills require scenario design, facilitation, and evaluation. Aras Integrasi's war room experience could contribute.
+
+## PIR-INIT-CSCDC-007: PQC Sandbox Industry Engagement Model
+**Requirement:** How does CSCDC plan to engage private sector and international partners in the PQC Sandbox — open call, invited consortium, or pilot cohort?
+**Priority:** High
+**Status:** Open
+**Rationale:** The engagement model determines how Aras Integrasi (and DAF's Sovereign AI portfolio) can participate.
+
+## PIR-INIT-CSCDC-008: Community Champions Curriculum
+**Requirement:** Does CSCDC have a draft curriculum or training framework for the 1,000 Community Champions, or is this being designed from scratch?
+**Priority:** Medium
+**Status:** Open
+**Rationale:** If from scratch, Aras Integrasi can offer a design based on political grassroots mobilisation methodology adapted for cyber literacy.
+
+## PIR-INIT-CSCDC-009: Post-Merger Integration Status
+**Requirement:** What is the current operational integration status between PTPKM and CSM functions within CSCDC — are teams co-located, systems integrated, reporting unified?
+**Priority:** Medium
+**Status:** Open
+**Rationale:** Integration status affects decision speed, procurement processes, and the cultural climate Aras Integrasi would enter.
+
+## PIR-INIT-CSCDC-010: Competitive Landscape
+**Requirement:** Which PR agencies, communication consultancies, or technology vendors are currently engaged with CSM, PTPKM, or CSCDC — and what contracts might transfer?
+**Priority:** High
+**Status:** Open
+**Rationale:** Understanding the competitive landscape before engagement prevents positioning against an incumbent we don't know about.
+
+# Related Records
+
+- STK-20260725-001: CSCDC stakeholder record
+- INT-20260725-001: CSCDC Communication Framework analysis
+- OPP-20260725-001 through OPP-20260725-010: Ten opportunity records

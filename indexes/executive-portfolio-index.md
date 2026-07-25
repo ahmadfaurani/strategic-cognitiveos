@@ -12,7 +12,7 @@ All active initiatives, classified by portfolio tier.
 
 | ID | Initiative | Owner | Status | Proof Point | Review Date |
 |----|-----------|-------|--------|------------|-------------|
-| — | *Pending migration* | — | — | — | — |
+| INIT-20260725-001 | CSCDC Communication Division — Strategic Partnership | DAF | Draft — Framed | Leadership mapping complete | 2026-08-08 |
 
 ## Watch List
 
