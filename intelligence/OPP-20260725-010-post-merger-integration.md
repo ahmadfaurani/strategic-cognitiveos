@@ -82,7 +82,7 @@ Market — organisational design and change management opportunity
 
 ## PIR-OPP010-001: Integration Status
 **Requirement:** What is the current operational integration status between PTPKM and CSM — co-located, systems integrated, reporting unified, or still operating separately?
-**Priority:** Critical
+**Priority:** High
 **Status:** Open
 
 ## PIR-OPP010-002: Cultural Assessment

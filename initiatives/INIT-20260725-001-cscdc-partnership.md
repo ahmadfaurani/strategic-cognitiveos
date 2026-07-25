@@ -206,7 +206,7 @@ The 10 identified gaps represent approximately RM 1.5–2.5M in potential servic
 
 ## PIR-INIT-CSCDC-003: Mobilisation Timeline Detail
 **Requirement:** What are the specific weekly milestones in the 90-day plan (referenced as Rajah 6 in the framework document)?
-**Priority:** High
+**Priority:** Critical
 **Status:** Open
 **Rationale:** Without the detailed timeline, we cannot align our engagement to their mobilisation phases.
 

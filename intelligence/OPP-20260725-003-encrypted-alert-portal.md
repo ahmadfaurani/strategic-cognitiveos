@@ -80,7 +80,7 @@ Market — product development opportunity
 
 ## PIR-OPP003-001: Technical Requirements
 **Requirement:** What are the specific technical requirements for the encrypted alert portal — encryption standards, access control model, audit trail, API integrations?
-**Priority:** Critical
+**Priority:** High
 **Status:** Open
 
 ## PIR-OPP003-002: CNII Operator Integration
