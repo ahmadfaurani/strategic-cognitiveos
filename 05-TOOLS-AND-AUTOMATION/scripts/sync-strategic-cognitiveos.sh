@@ -65,8 +65,8 @@ try:
         'prompt': ''
     })
     import os
-    os.makedirs(os.path.join(WORKDIR, '05-TOOLS-AND-AUTOMATION'), exist_ok=True)
-    with open(os.path.join(WORKDIR, '05-TOOLS-AND-AUTOMATION', 'cronjob-configs.json'), 'w') as f:
+    os.makedirs('/home/p62operator/.openclaw/workspace/strategic-cognitiveos/05-TOOLS-AND-AUTOMATION', exist_ok=True)
+    with open('/home/p62operator/.openclaw/workspace/strategic-cognitiveos/05-TOOLS-AND-AUTOMATION/cronjob-configs.json', 'w') as f:
         json.dump(export, f, indent=2, ensure_ascii=False)
     print(f'Exported {len(scos_jobs) + 1} cronjob configs')
 except Exception as e:
