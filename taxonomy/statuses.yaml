@@ -1,0 +1,44 @@
+# Status Taxonomy
+# Strategic CognitiveOS — Phase 1
+
+statuses:
+  # Record lifecycle
+  - status: draft
+    description: "Record created but not yet validated"
+    color: "gray"
+
+  - status: in-progress
+    description: "Active work is underway"
+    color: "blue"
+
+  - status: validated
+    description: "Record has been reviewed for accuracy"
+    color: "cyan"
+
+  - status: approved
+    description: "Record has been formally approved by the decision owner"
+    color: "green"
+
+  - status: active
+    description: "Record is current and operational"
+    color: "blue"
+
+  - status: blocked
+    description: "Progress is blocked by a dependency or risk"
+    color: "orange"
+
+  - status: deferred
+    description: "Record has been intentionally postponed"
+    color: "yellow"
+
+  - status: completed
+    description: "Record's objectives have been fulfilled"
+    color: "green"
+
+  - status: superseded
+    description: "Record has been replaced by a newer version"
+    color: "gray"
+
+  - status: archived
+    description: "Record is no longer active and has been archived"
+    color: "gray"

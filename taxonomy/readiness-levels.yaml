@@ -1,0 +1,36 @@
+# Product and Programme Readiness Levels
+# Strategic CognitiveOS — Phase 1
+# External commitments should not exceed the verified readiness level.
+
+levels:
+  - level: concept
+    description: "Strategic idea without validated scope"
+    external_commitment_allowed: false
+
+  - level: framed
+    description: "Problem, stakeholder and proposition defined"
+    external_commitment_allowed: false
+
+  - level: prototype
+    description: "Early capability exists"
+    external_commitment_allowed: false
+
+  - level: demo-ready
+    description: "Demonstration can be reliably conducted"
+    external_commitment_allowed: "demonstration only"
+
+  - level: pilot-ready
+    description: "Scope, owners, support and success criteria defined"
+    external_commitment_allowed: "pilot scope only"
+
+  - level: delivery-ready
+    description: "Operational deployment capability exists"
+    external_commitment_allowed: true
+
+  - level: commercial-ready
+    description: "Packaging, pricing, support and contracting mechanisms exist"
+    external_commitment_allowed: true
+
+  - level: scale-ready
+    description: "Repeatable implementation and support model exists"
+    external_commitment_allowed: true

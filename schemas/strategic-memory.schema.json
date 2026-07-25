@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "strategic-memory.schema.json",
+  "title": "Strategic Memory Card",
+  "description": "Canonical record structure for Strategic CognitiveOS",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "created_at",
+    "updated_at",
+    "owner",
+    "summary",
+    "strategic_significance",
+    "status",
+    "priority",
+    "sensitivity",
+    "tags",
+    "source",
+    "confidence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]+-\\d{8}-\\d{3}$",
+      "description": "Permanent unique identifier"
+    },
+    "record_type": {
+      "type": "string",
+      "enum": [
+        "conversation",
+        "decision",
+        "initiative",
+        "stakeholder",
+        "engagement",
+        "commitment",
+        "action",
+        "opportunity",
+        "intelligence",
+        "artifact",
+        "risk",
+        "question",
+        "outcome",
+        "lesson"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "owner": {
+      "type": "string",
+      "description": "Accountable record owner"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Concise description of the record"
+    },
+    "strategic_significance": {
+      "type": "string",
+      "description": "Why the information matters"
+    },
+    "portfolio_tier": {
+      "type": "string",
+      "enum": ["flagship", "incubation", "watch-list", "operational"]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "in-progress",
+        "validated",
+        "approved",
+        "active",
+        "blocked",
+        "deferred",
+        "completed",
+        "superseded",
+        "archived"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low"]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9-]+$"
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "chat-conversation",
+            "meeting",
+            "email",
+            "document",
+            "repository",
+            "phone-call",
+            "briefing",
+            "external-report",
+            "osint",
+            "internal-analysis"
+          ]
+        },
+        "platform": { "type": "string" },
+        "reference": { "type": "string" }
+      }
+    },
+    "mission_alignment": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "projects": { "type": "array", "items": { "type": "string" } },
+    "products": { "type": "array", "items": { "type": "string" } },
+    "stakeholders": { "type": "array", "items": { "type": "string" } },
+    "sponsor": { "type": "string" },
+    "decision_owner": { "type": "string" },
+    "delivery_owner": { "type": "string" },
+    "commercial_owner": { "type": "string" },
+    "decisions": { "type": "array", "items": { "type": "string" } },
+    "commitments": { "type": "array", "items": { "type": "string" } },
+    "actions": { "type": "array", "items": { "type": "string" } },
+    "dependencies": { "type": "array", "items": { "type": "string" } },
+    "risks": { "type": "array", "items": { "type": "string" } },
+    "assumptions": { "type": "array", "items": { "type": "string" } },
+    "evidence": { "type": "array", "items": { "type": "string" } },
+    "open_questions": { "type": "array", "items": { "type": "string" } },
+    "desired_outcome": { "type": "string" },
+    "success_metrics": { "type": "array", "items": { "type": "string" } },
+    "next_review": { "type": "string", "format": "date" },
+    "related_records": { "type": "array", "items": { "type": "string" } },
+    "supersedes": { "type": "string" },
+    "superseded_by": { "type": "string" }
+  }
+}

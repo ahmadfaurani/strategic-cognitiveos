@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "stakeholder.schema.json",
+  "title": "Stakeholder Record",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "stakeholder_type",
+    "strategic_relevance",
+    "relationship_status",
+    "relationship_owner"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^STK-\\d{8}-\\d{3}$"
+    },
+    "record_type": { "const": "stakeholder" },
+    "title": { "type": "string", "minLength": 1 },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "owner": { "type": "string" },
+    "stakeholder_type": {
+      "type": "string",
+      "enum": ["government", "internal", "partner", "prospect", "academic", "technical", "political", "defence", "regulatory", "industry"]
+    },
+    "organisation": { "type": "string" },
+    "role": { "type": "string" },
+    "influence_level": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "interest_level": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "relationship_status": {
+      "type": "string",
+      "enum": ["new", "developing", "active", "trusted", "dormant", "at-risk"]
+    },
+    "strategic_relevance": { "type": "string" },
+    "engagement_objective": { "type": "string" },
+    "current_position": { "type": "string" },
+    "commitments_by_us": { "type": "array", "items": { "type": "string" } },
+    "commitments_by_stakeholder": { "type": "array", "items": { "type": "string" } },
+    "last_engagement": { "type": "string" },
+    "next_engagement": { "type": "string" },
+    "relationship_owner": { "type": "string" },
+    "related_initiatives": { "type": "array", "items": { "type": "string" } },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "related_records": { "type": "array", "items": { "type": "string" } }
+  }
+}

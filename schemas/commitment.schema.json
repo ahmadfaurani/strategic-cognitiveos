@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commitment.schema.json",
+  "title": "Commitment Record",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "owner",
+    "status",
+    "expected_delivery_date"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^COM-\\d{8}-\\d{3}$"
+    },
+    "record_type": { "const": "commitment" },
+    "title": { "type": "string", "minLength": 1 },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "owner": { "type": "string", "description": "Commitment owner" },
+    "receiving_stakeholder": { "type": "string" },
+    "source_engagement": { "type": "string" },
+    "expected_delivery_date": { "type": "string", "format": "date" },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "in-progress", "blocked", "completed", "overdue", "cancelled"]
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low"]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+    },
+    "dependencies": { "type": "array", "items": { "type": "string" } },
+    "risk_of_non_delivery": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "escalation_date": { "type": "string", "format": "date" },
+    "completion_evidence": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "related_records": { "type": "array", "items": { "type": "string" } }
+  }
+}

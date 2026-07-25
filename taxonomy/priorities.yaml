@@ -1,0 +1,23 @@
+# Priority Taxonomy
+# Strategic CognitiveOS — Phase 1
+
+priorities:
+  - priority: critical
+    description: "Requires immediate attention; blocking strategic progress"
+    response_time: "Same day"
+    escalation: "Automatic notification to Strategic Owner"
+
+  - priority: high
+    description: "Important strategic matter requiring prompt attention"
+    response_time: "Within 48 hours"
+    escalation: "Included in weekly executive review"
+
+  - priority: medium
+    description: "Standard strategic or operational importance"
+    response_time: "Within one week"
+    escalation: "Tracked in portfolio review"
+
+  - priority: low
+    description: "Minor or long-term importance"
+    response_time: "Next review cycle"
+    escalation: "None"

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "initiative.schema.json",
+  "title": "Initiative Record",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "owner",
+    "portfolio_tier",
+    "status",
+    "summary"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^INIT-\\d{8}-\\d{3}$"
+    },
+    "record_type": { "const": "initiative" },
+    "title": { "type": "string", "minLength": 1 },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "owner": { "type": "string" },
+    "sponsor": { "type": "string" },
+    "delivery_owner": { "type": "string" },
+    "commercial_owner": { "type": "string" },
+    "portfolio_tier": {
+      "type": "string",
+      "enum": ["flagship", "incubation", "watch-list", "operational"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "in-progress", "active", "blocked", "deferred", "completed", "archived"]
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low"]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+    },
+    "readiness_level": {
+      "type": "string",
+      "enum": ["concept", "framed", "prototype", "demo-ready", "pilot-ready", "delivery-ready", "commercial-ready", "scale-ready"]
+    },
+    "summary": { "type": "string" },
+    "strategic_significance": { "type": "string" },
+    "mission_alignment": { "type": "array", "items": { "type": "string" } },
+    "objectives": { "type": "array", "items": { "type": "string" } },
+    "scope": { "type": "string" },
+    "key_deliverables": { "type": "array", "items": { "type": "string" } },
+    "stakeholders": { "type": "array", "items": { "type": "string" } },
+    "products": { "type": "array", "items": { "type": "string" } },
+    "commercial_model": { "type": "string" },
+    "dependencies": { "type": "array", "items": { "type": "string" } },
+    "risks": { "type": "array", "items": { "type": "string" } },
+    "key_decisions": { "type": "array", "items": { "type": "string" } },
+    "actions": { "type": "array", "items": { "type": "string" } },
+    "success_metrics": { "type": "array", "items": { "type": "string" } },
+    "next_review": { "type": "string", "format": "date" },
+    "related_records": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "reference": { "type": "string" }
+      }
+    }
+  }
+}

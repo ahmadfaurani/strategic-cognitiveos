@@ -1,0 +1,38 @@
+# Sensitivity / Information Classification Levels
+# Strategic CognitiveOS — Phase 1
+
+levels:
+  - level: public
+    description: "Information approved for public release"
+    handling: "No restrictions"
+    storage: "Any platform"
+    replication: "Freely replicated"
+
+  - level: internal
+    description: "Internal organisational information"
+    handling: "Restricted to team and authorised personnel"
+    storage: "GitHub (private), Notion, Obsidian"
+    replication: "May be copied across platforms without additional controls"
+
+  - level: confidential
+    description: "Sensitive business or stakeholder information"
+    handling: "Need-to-know basis"
+    storage: "GitHub (private) with access controls"
+    replication: "Requires owner approval before copying to Notion or other platforms"
+    cvs_validation: "Required for claims involving this data"
+
+  - level: restricted
+    description: "Sensitive intelligence, legal authority or protected stakeholder information"
+    handling: "Strictly need-to-know; owner-controlled access"
+    storage: "GitHub (private, access-controlled) only"
+    replication: "Must not be replicated to Notion or external platforms without explicit approval"
+    cvs_validation: "Mandatory"
+    audit: "All access and changes logged"
+
+  - level: controlled
+    description: "Highest sensitivity; potentially legally or operationally sensitive"
+    handling: "Owner-only access"
+    storage: "Local encrypted storage only; not committed to shared repositories"
+    replication: "No replication permitted"
+    cvs_validation: "Mandatory with enhanced verification"
+    audit: "All access, changes, and references logged and reviewed"

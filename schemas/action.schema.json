@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "action.schema.json",
+  "title": "Action Record",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "owner",
+    "status",
+    "required_output"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ACT-\\d{8}-\\d{3}$"
+    },
+    "record_type": { "const": "action" },
+    "title": { "type": "string", "minLength": 1 },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "owner": { "type": "string" },
+    "related_initiative": { "type": "string" },
+    "related_stakeholder": { "type": "string" },
+    "priority": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "in-progress", "blocked", "completed", "overdue", "cancelled", "unresolved"]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+    },
+    "deadline": { "type": "string", "format": "date" },
+    "dependency": { "type": "string" },
+    "required_output": { "type": "string" },
+    "attention_level": {
+      "type": "string",
+      "enum": ["owner", "approver", "consulted", "informed", "delegated", "deferred"]
+    },
+    "completion_evidence": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "related_records": { "type": "array", "items": { "type": "string" } }
+  }
+}

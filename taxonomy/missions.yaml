@@ -1,0 +1,114 @@
+# Mission Taxonomy
+# Strategic CognitiveOS — Phase 1
+# Reflects Ahmad Faurani Jaafar's primary strategic missions
+
+missions:
+  - tag: mission/sovereign-ai
+    description: "Malaysian sovereign AI infrastructure, platforms and adoption"
+    keywords:
+      - sovereign AI
+      - AI infrastructure
+      - AI sovereignty
+      - national AI
+      - PERJASA
+      - AI platform
+      - AI adoption
+
+  - tag: mission/national-cybersecurity
+    description: "National and CNII cybersecurity capability"
+    keywords:
+      - cybersecurity
+      - CNII
+      - national security
+      - cyber defence
+      - NACSA
+      - CSM
+      - cyber strategy
+
+  - tag: mission/intelligence-enablement
+    description: "Operational intelligence, PIRs and decision support"
+    keywords:
+      - intelligence
+      - PIR
+      - OSINT
+      - signal
+      - assessment
+      - intelligence requirements
+      - analytical
+
+  - tag: mission/government-ai-adoption
+    description: "Secure and scalable public-sector AI adoption"
+    keywords:
+      - government AI
+      - public sector AI
+      - AI adoption
+      - PMO
+      - data lake
+      - Perdana Digital
+      - JDN
+      - JDM
+
+  - tag: mission/productisation
+    description: "Conversion of technical capabilities into market-ready offerings"
+    keywords:
+      - product
+      - productisation
+      - packaging
+      - GoSec
+      - VoronDRQ
+      - ChainSentry
+      - VoronScout
+      - LE-UIP
+      - SEC-AF
+
+  - tag: mission/institutional-partnerships
+    description: "Long-term government, industry and academic collaboration"
+    keywords:
+      - partnership
+      - collaboration
+      - institutional
+      - university
+      - MoU
+      - ecosystem
+
+  - tag: mission/commercial-growth
+    description: "Revenue creation and opportunity conversion"
+    keywords:
+      - commercial
+      - revenue
+      - pipeline
+      - sales
+      - licensing
+      - account
+      - ASEAN
+
+  - tag: mission/organisational-capability
+    description: "Team, governance and delivery capability building"
+    keywords:
+      - capability
+      - team
+      - hiring
+      - KPI
+      - BU
+      - business unit
+      - delivery
+      - accountability
+
+  - tag: mission/strategic-communications
+    description: "Narrative, cognitive and stakeholder communication capabilities"
+    keywords:
+      - narrative
+      - communications
+      - messaging
+      - positioning
+      - cognitive
+      - stakeholder communication
+
+  - tag: mission/asean-ecosystem
+    description: "Regional technology and institutional ecosystem development"
+    keywords:
+      - ASEAN
+      - regional
+      - ecosystem
+      - regional expansion
+      - cross-border

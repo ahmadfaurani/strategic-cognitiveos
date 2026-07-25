@@ -1,0 +1,58 @@
+# Portfolio Tier Definitions
+# Strategic CognitiveOS — Phase 1
+
+tiers:
+  - tag: portfolio/flagship
+    name: "Flagship Strategic Programme"
+    criteria:
+      - "Strong institutional relevance"
+      - "Identified sponsor"
+      - "Clear strategic outcome"
+      - "Credible delivery owner"
+      - "Product or capability with sufficient readiness"
+      - "Defined pilot or implementation pathway"
+      - "Material commercial or institutional value"
+    governance: "High"
+    review_cycle: "Weekly"
+    requires_sponsor: true
+    requires_delivery_owner: true
+
+  - tag: portfolio/incubation
+    name: "Structured Incubation"
+    criteria:
+      - "Strong potential"
+      - "Incomplete sponsor, budget, ownership or product maturity"
+      - "Bounded validation requirement"
+      - "Defined review date"
+      - "Clear proof point"
+    governance: "Medium"
+    review_cycle: "Bi-weekly"
+    requires_sponsor: false
+    requires_delivery_owner: false
+    requires_review_date: true
+    requires_proof_point: true
+
+  - tag: portfolio/watch-list
+    name: "Watch List"
+    criteria:
+      - "Strategically relevant"
+      - "No immediate sponsor, budget or delivery capacity"
+      - "Maintained for intelligence and future positioning"
+      - "No active delivery commitment"
+    governance: "Low"
+    review_cycle: "Monthly"
+    requires_sponsor: false
+    requires_delivery_owner: false
+
+  - tag: portfolio/operational
+    name: "Operational Commitment"
+    criteria:
+      - "Approved execution activity"
+      - "Assigned owner"
+      - "Defined output"
+      - "Required delivery date"
+      - "Existing stakeholder obligation"
+    governance: "Medium"
+    review_cycle: "Weekly"
+    requires_owner: true
+    requires_deadline: true

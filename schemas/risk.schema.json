@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "risk.schema.json",
+  "title": "Risk Record",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "risk_category",
+    "probability",
+    "impact",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^RSK-\\d{8}-\\d{3}$"
+    },
+    "record_type": { "const": "risk" },
+    "title": { "type": "string", "minLength": 1 },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "owner": { "type": "string" },
+    "risk_category": {
+      "type": "string",
+      "enum": [
+        "delivery-capacity",
+        "sponsor-gap",
+        "product-maturity",
+        "commercial-viability",
+        "stakeholder-alignment",
+        "technical-debt",
+        "governance",
+        "resource-constraint",
+        "timing",
+        "dependency"
+      ]
+    },
+    "related_initiative": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["identified", "mitigating", "monitoring", "realised", "closed"]
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low"]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+    },
+    "probability": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "impact": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "mitigation_strategy": { "type": "string" },
+    "mitigation_owner": { "type": "string" },
+    "trigger_conditions": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "related_records": { "type": "array", "items": { "type": "string" } }
+  }
+}
