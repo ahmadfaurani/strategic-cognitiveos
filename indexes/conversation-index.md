@@ -9,3 +9,4 @@ All conversation records, chronological.
 | CONV-20260711-001 | Ember Identity Naming Session | 2026-07-11 | Telegram | DEC-20260712-001 | INIT-20260711-001 |
 | CONV-20260724-001 | PI-OS Phase 1 Specification Session | 2026-07-24 | Telegram | DEC-20260724-001 | INIT-20260724-001 |
 | CONV-20260802-001 | PI-OS Execution Readiness & Migration Authorisation | 2026-08-02 | Telegram | DEC-20260802-001 | INIT-20260724-001 |
+| CONV-20260802-002 | Athena Review & V0.2 Rewrite | 2026-08-02 | Telegram | — | — |
