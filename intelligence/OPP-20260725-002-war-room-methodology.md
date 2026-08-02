@@ -29,7 +29,7 @@ evidence:
   - "RM 150K allocated for Cyber Crisis Communication Playbook development (Sector 3)"
   - "Technical-to-communication interface undefined (Gap #1 in analysis)"
 related_initiatives:
-  - INIT-20260725-001
+  - INIT-20260725-007
 related_stakeholders:
   - STK-20260725-001
 source:
@@ -132,6 +132,6 @@ Market — methodology transfer and infrastructure opportunity
 
 # Related Records
 
-- INIT-20260725-001: CSCDC Communication Division partnership
+- INIT-20260725-007: CSCDC Communication Division partnership
 - STK-20260725-001: CSCDC stakeholder
 - INT-20260725-001: CSCDC Framework analysis

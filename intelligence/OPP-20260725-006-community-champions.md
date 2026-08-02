@@ -30,7 +30,7 @@ evidence:
   - "Unit 7 function 3: Program Sukarelawan & Duta Siber (Cyber Security Community Champions) di setiap negeri"
   - "KPI: minimum 1,000 Community Champions trained in Year 1"
 related_initiatives:
-  - INIT-20260725-001
+  - INIT-20260725-007
 related_stakeholders:
   - STK-20260725-001
 source:
@@ -134,6 +134,6 @@ Market — programme design and methodology transfer opportunity
 
 # Related Records
 
-- INIT-20260725-001: CSCDC Communication Division partnership
+- INIT-20260725-007: CSCDC Communication Division partnership
 - STK-20260725-001: CSCDC stakeholder
 - INT-20260725-001: CSCDC Framework analysis

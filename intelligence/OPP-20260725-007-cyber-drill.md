@@ -27,7 +27,7 @@ evidence:
   - "Framework states War Room must be rehearsed — drill is likely the primary rehearsal vehicle"
   - "Unit 4 function 1: Cyber Crisis Communication Playbook must be 'selaras dengan Arahan MKN'"
 related_initiatives:
-  - INIT-20260725-001
+  - INIT-20260725-007
 related_stakeholders:
   - STK-20260725-001
 source:
@@ -129,7 +129,7 @@ Market — exercise design and facilitation opportunity
 
 # Related Records
 
-- INIT-20260725-001: CSCDC Communication Division partnership
+- INIT-20260725-007: CSCDC Communication Division partnership
 - STK-20260725-001: CSCDC stakeholder
 - INT-20260725-001: CSCDC Framework analysis
 - OPP-20260725-002: War Room methodology

@@ -26,7 +26,7 @@ evidence:
   - "Unit 5 function 3: Menghasilkan laporan kedudukan diplomasi siber kebangsaan untuk persidangan antarabangsa (ASEAN, PBB, ITU)"
   - "Unit 5 function 4: Menguruskan taklimat komunikasi khas untuk Ahli Parlimen"
 related_initiatives:
-  - INIT-20260725-001
+  - INIT-20260725-007
 related_stakeholders:
   - STK-20260725-001
 source:
@@ -129,6 +129,6 @@ Market — strategic advisory and content development opportunity
 
 # Related Records
 
-- INIT-20260725-001: CSCDC Communication Division partnership
+- INIT-20260725-007: CSCDC Communication Division partnership
 - STK-20260725-001: CSCDC stakeholder
 - INT-20260725-001: CSCDC Framework analysis

@@ -45,7 +45,7 @@ tags:
 | PIR-CSCDC-001 | Leadership Mapping | Open |
 | PIR-CSCDC-002 | Approval Timeline (Framework v2.0) | Open |
 
-### INIT-20260725-001 (3 Critical)
+### INIT-20260725-007 (3 Critical)
 
 | PIR ID | Title | Status |
 |--------|-------|--------|
@@ -147,7 +147,7 @@ All 16 Critical PIRs are covered by CJ-1 through CJ-6 collection cronjobs.
 | Record ID | Type | File | PIRs | Critical | High | Medium | Low |
 |-----------|------|------|------|----------|------|--------|-----|
 | STK-20260725-001 | Stakeholder | stakeholders/STK-20260725-001-cscdc.md | 10 | 2 | 4 | 3 | 1 |
-| INIT-20260725-001 | Initiative | initiatives/INIT-20260725-001-cscdc-partnership.md | 10 | 3 | 3 | 3 | 1 |
+| INIT-20260725-007 | Initiative | initiatives/INIT-20260725-007-cscdc-partnership.md | 10 | 3 | 3 | 3 | 1 |
 | OPP-20260725-001 | Opportunity | intelligence/OPP-20260725-001-social-listening-infrastructure.md | 10 | 0 | 4 | 4 | 2 |
 | OPP-20260725-002 | Opportunity | intelligence/OPP-20260725-002-war-room-methodology.md | 10 | 1 | 3 | 4 | 2 |
 | OPP-20260725-003 | Opportunity | intelligence/OPP-20260725-003-encrypted-alert-portal.md | 10 | 1 | 6 | 3 | 0 |

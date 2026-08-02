@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Event Record",
+  "description": "Event record type for Strategic CognitiveOS",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^EVT-\\d{8}-\\d{3}$",
+      "description": "Unique event identifier (EVT-YYYYMMDD-NNN)"
+    },
+    "record_type": {
+      "type": "string",
+      "const": "event"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "meeting",
+        "conference",
+        "briefing",
+        "workshop",
+        "launch",
+        "ceremony",
+        "site-visit",
+        "other"
+      ]
+    },
+    "event_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "location": {
+      "type": "string"
+    },
+    "organiser": {
+      "type": "string"
+    },
+    "attendees": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_initiatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_stakeholders": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "key_decisions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "action_items": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "in-progress",
+        "validated",
+        "approved",
+        "active",
+        "blocked",
+        "deferred",
+        "completed",
+        "superseded",
+        "archived",
+        "captured"
+      ]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        }
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "event_type",
+    "event_date",
+    "status",
+    "summary"
+  ]
+}

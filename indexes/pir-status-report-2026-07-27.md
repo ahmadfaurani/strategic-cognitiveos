@@ -121,7 +121,7 @@ The 11 OPEN High PIRs cluster in three buckets:
 
 ## READINESS ASSESSMENT
 
-- **Current readiness level (recorded):** `framed` (per INIT-20260725-001; unchanged in records)
+- **Current readiness level (recorded):** `framed` (per INIT-20260725-007; unchanged in records)
 - **Current readiness level (intelligence-adjusted):** `framed → approaching prototype gate` — the intelligence foundation required to cross from "framed" to "prototype" is now substantially built, but the gate itself (introductory meeting secured + value proposition formally delivered) has NOT been crossed.
 - **PIRs resolved this week:** **28** (intelligence-confirmed; 0 formally marked in records ⚠️)
 - **PIRs advanced this week:** **59** partial advances

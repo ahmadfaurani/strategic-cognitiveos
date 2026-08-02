@@ -28,7 +28,7 @@ evidence:
   - "Unit 3 function 3: bangunkan aset grafik, infografik, klip multimedia, video penerangan pendek"
   - "Unit 7 requires content for anti-deepfake/anti-scam campaigns across TikTok, YouTube Shorts"
 related_initiatives:
-  - INIT-20260725-001
+  - INIT-20260725-007
 related_stakeholders:
   - STK-20260725-001
 source:
@@ -131,6 +131,6 @@ Market — infrastructure and managed services opportunity
 
 # Related Records
 
-- INIT-20260725-001: CSCDC Communication Division partnership
+- INIT-20260725-007: CSCDC Communication Division partnership
 - STK-20260725-001: CSCDC stakeholder
 - INT-20260725-001: CSCDC Framework analysis

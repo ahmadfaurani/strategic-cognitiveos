@@ -1,3 +1,4 @@
+# Merged: PI-OS domain tags (41) + CognitiveOS existing taxonomy on 2026-08-02
 # Controlled Tagging Taxonomy
 # Strategic CognitiveOS — Phase 1
 # All tags use lowercase kebab-case. No uncontrolled tags without updating this file.
@@ -20,6 +21,7 @@ namespaces:
   domain:
     description: "Knowledge or operating domain"
     values:
+      # CognitiveOS original values
       - cybersecurity
       - artificial-intelligence
       - intelligence
@@ -34,32 +36,151 @@ namespaces:
       - data-infrastructure
       - political-strategy
       - organisational-design
+      # PI-OS additions
+      - sovereign-ai
+      - strategic-planning
+      - threat-intelligence
+      - vulnerability-management
+      - incident-response
+      - cloud-security
+      - network-security
+      - application-security
+      - data-protection
+      - privacy
+      - supply-chain-security
+      - security-architecture
+      - security-operations
+      - deception-technology
+      - political-intelligence
+      - elections
+      - public-policy
+      - economic-development
+      - organisational-development
+      - organisational-capability
+      - cybersecurity-productisation
+      - government-partnerships
+      - commercial-development
+      - executive-governance
+      - intelligence-operations
+      - law-enforcement-enablement
+      - defence-enablement
+      - cognitive-operations
+      - software-engineering
+      - devops
+      - infrastructure
+      - research-and-development
+
+  workstream:
+    description: "DAF's six workstream clusters"
+    values:
+      - sovereign-ai-adoption
+      - cybersec-products
+      - govt-partnerships
+      - political-intel
+      - commercial-dev
+      - org-capability
+
+  engagement:
+    description: "Stakeholder engagement stage"
+    values:
+      - strategic-alignment
+      - structured-scope
+      - pilot
+      - institutional-collaboration
+      - productisation
+      - scaled-adoption
+
+  lifecycle:
+    description: "Stage of work"
+    values:
+      - concept
+      - pilot
+      - active-development
+      - delivery-ready
+      - scaled
+      - maintenance
+      - sunset
 
   project:
     description: "Project or programme identifier"
     pattern: "project/<slug>"
-    note: "Values are defined per-project as initiatives are registered"
+    known_values:
+      - personal-intelligence-os
+      - govsec-threat-intelligence
+      - vorondrq
+      - chainsentry
+      - voronscout
+      - le-uip
+      - sec-af
+      - deerflow
+      - csm-collaboration
+      - prn-johor-2026
+      - strategic-data-lake
+      - cybersecurity-hiring
+      - sovereign-ai
+      - perjasa
+      - perdana-digital
+      - ai-incubator
+      - attack-vector-registry
+      - unified-scraper
+      - aras-integrasi
+      - nacsa-engagement
+      - jdn-engagement
+      - lhdn-engagement
 
   product:
     description: "Product or platform identifier"
     pattern: "product/<slug>"
-    note: "Values are defined per-product as products are registered"
+    known_values:
+      - github
+      - obsidian
+      - notion
+      - openclaw
+      - telegram
+      - deer-flow
+      - mr-holmes
+      - govsec-tip
+      - vorondrq
+      - chainsentry
+      - voronscout
+      - le-uip
+      - sec-af
 
   organisation:
     description: "Organisation or institution"
     pattern: "organisation/<slug>"
-    note: "Values are defined as stakeholders are registered"
+    known_values:
+      - aras-integrasi
+      - cybersecurity-malaysia
+      - nacsa
+      - jdn
+      - jdm
+      - pmo
+      - lhdn
+      - pkr
+      - umno
+      - pas
+      - bersatu
+      - muda
+      - ph
+      - bn
+      - pn
+      - government
 
   person:
     description: "Named individual"
     pattern: "person/<slug>"
-    note: "Values are defined as stakeholders are registered"
+    known_values:
+      - faurani-jaafar
+      - athena
+      - ember
 
   stakeholder-type:
     description: "Stakeholder category"
     values:
       - government
       - internal
+      - internal-team
       - partner
       - prospect
       - academic
@@ -68,10 +189,16 @@ namespaces:
       - defence
       - regulatory
       - industry
+      - regulator
+      - private-sector
+      - international-partner
+      - vendor
+      - customer
 
   capability:
     description: "Required capability"
     values:
+      # CognitiveOS original values
       - threat-intelligence
       - strategic-planning
       - decision-intelligence
@@ -85,6 +212,24 @@ namespaces:
       - evidence-analysis
       - narrative-development
       - partnership-orchestration
+      # PI-OS additions
+      - strategic-framing
+      - cross-domain-translation
+      - network-orchestration
+      - opportunity-recognition
+      - mission-commitment
+      - memory-retrieval
+      - knowledge-graph
+      - data-collection
+      - signal-processing
+      - stakeholder-engagement
+      - decision-support
+      - operational-planning
+      - content-generation
+      - automation
+      - monitoring
+      - productisation
+      - partnership-mobilisation
 
   leadership:
     description: "Leadership responsibility"
@@ -104,6 +249,9 @@ namespaces:
       - incubation
       - watch-list
       - operational
+      - tier-1-flagship
+      - tier-2-incubation
+      - tier-3-watchlist
 
   commercial:
     description: "Commercial stage or activity"
@@ -128,10 +276,13 @@ namespaces:
       - delivery-ready
       - commercial-ready
       - scale-ready
+      - proposition
+      - scaled
 
   decision:
     description: "Decision category"
     values:
+      # CognitiveOS original values
       - investment
       - partnership
       - product-architecture
@@ -146,6 +297,22 @@ namespaces:
       - delivery-escalation
       - portfolio-prioritisation
       - strategic-direction
+      # PI-OS additions
+      - architecture
+      - technology-selection
+      - process
+      - resource-allocation
+      - priority
+      - scope
+      - vendor-selection
+      - portfolio-gating
+      - delegation
+      - commercial-pathway
+      - partnership-formation
+      - truth-validation
+      - repository-architecture
+      - identity-formalisation
+      - system-architecture
 
   commitment:
     description: "Commitment type"
@@ -162,6 +329,7 @@ namespaces:
   action:
     description: "Action category"
     values:
+      # CognitiveOS original values
       - executive-brief
       - document-drafting
       - stakeholder-outreach
@@ -173,6 +341,12 @@ namespaces:
       - escalation
       - follow-up
       - coordination
+      # PI-OS additions
+      - implementation
+      - documentation
+      - deployment
+      - testing
+      - outreach
 
   intelligence:
     description: "Intelligence type"
@@ -189,6 +363,7 @@ namespaces:
   risk:
     description: "Risk category"
     values:
+      # CognitiveOS original values
       - delivery-capacity
       - sponsor-gap
       - product-maturity
@@ -199,10 +374,21 @@ namespaces:
       - resource-constraint
       - timing
       - dependency
+      # PI-OS additions
+      - delivery
+      - technical
+      - strategic
+      - operational
+      - reputational
+      - compliance
+      - security
+      - resource
+      - schedule
 
   artifact:
     description: "Artifact type"
     values:
+      # CognitiveOS original values
       - proposal
       - report
       - deck
@@ -213,6 +399,14 @@ namespaces:
       - contract
       - template
       - schema
+      # PI-OS additions
+      - conversation
+      - presentation
+      - governance-document
+      - analysis
+      - plan
+      - dataset
+      - api
 
   status:
     description: "Current condition"
@@ -227,6 +421,7 @@ namespaces:
       - completed
       - superseded
       - archived
+      - captured
 
   priority:
     description: "Importance"
@@ -248,6 +443,7 @@ namespaces:
   geography:
     description: "Geographic scope"
     values:
+      # CognitiveOS original values
       - malaysia
       - asean
       - johor
@@ -257,6 +453,11 @@ namespaces:
       - sabah
       - sarawak
       - regional
+      # PI-OS additions
+      - selangor
+      - penang
+      - southeast-asia
+      - global
 
   sector:
     description: "Market or institutional sector"
@@ -279,3 +480,4 @@ namespaces:
       - mid-term
       - long-term
       - ongoing
+      - completed

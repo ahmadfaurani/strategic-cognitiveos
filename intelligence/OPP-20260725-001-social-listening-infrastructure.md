@@ -28,7 +28,7 @@ evidence:
   - "Framework states Unit 3 requires 24/7 media monitoring using analytics software"
   - "RM 120K is likely insufficient for enterprise-grade national government social listening"
 related_initiatives:
-  - INIT-20260725-001
+  - INIT-20260725-007
 related_stakeholders:
   - STK-20260725-001
 source:
@@ -130,6 +130,6 @@ Market — infrastructure provisioning opportunity
 
 # Related Records
 
-- INIT-20260725-001: CSCDC Communication Division partnership
+- INIT-20260725-007: CSCDC Communication Division partnership
 - STK-20260725-001: CSCDC stakeholder
 - INT-20260725-001: CSCDC Framework analysis

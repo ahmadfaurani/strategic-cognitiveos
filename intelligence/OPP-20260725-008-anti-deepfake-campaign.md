@@ -28,7 +28,7 @@ evidence:
   - "Campaign scope: TV prime-time, digital billboards, micro-targeted social media"
   - "Unit 7 function 2: kesedaran kebangsaan terhadap AI Deepfake Scams, kecurian identiti digital, dan social engineering"
 related_initiatives:
-  - INIT-20260725-001
+  - INIT-20260725-007
 related_stakeholders:
   - STK-20260725-001
 source:
@@ -138,6 +138,6 @@ Market — campaign strategy and production opportunity
 
 # Related Records
 
-- INIT-20260725-001: CSCDC Communication Division partnership
+- INIT-20260725-007: CSCDC Communication Division partnership
 - STK-20260725-001: CSCDC stakeholder
 - INT-20260725-001: CSCDC Framework analysis
