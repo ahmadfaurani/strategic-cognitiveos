@@ -24,6 +24,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260711-001 | Ember Identity Architecture | faurani-jaafar | Active — Development | SOUL.md, IDENTITY.md deployed | Ongoing |
 | INIT-20260725-007 | CSCDC Communication Division — Strategic Partnership | faurani-jaafar | Draft — Framed | Leadership mapping complete | 2026-08-08 |
 | INIT-20260803-001 | ELSA–Aras LHDN AI-Assisted Revenue Recovery | faurani-jaafar | Draft — Framed | NDA execution | 2026-08-17 |
+| INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Draft — Framed | UITM response + working session | 2026-08-17 |
 
 ## Watch List
 

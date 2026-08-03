@@ -12,6 +12,8 @@ All registered stakeholders, grouped by type.
 | STK-20260725-010 | JDN | Jabatan Digital Negara | JDN / Government | Active | Ongoing |
 | STK-20260725-011 | PMO Strategic Data | PMO Data & Analytics | Prime Minister's Office | Active | Ongoing |
 | STK-20260725-012 | LHDN | Inland Revenue Board | LHDN / Ministry of Finance | Active | Ongoing |
+| STK-20260803-010 | Khairil Hilmi Bin Mokhtar | PMO official | Prime Minister's Office | New | Role clarification |
+| STK-20260803-011 | Dr. Noor Dasrafeezal Bin Abdul Shukur | PMO official | Prime Minister's Office | New | Role clarification |
 
 ## Internal
 
@@ -41,7 +43,8 @@ All registered stakeholders, grouped by type.
 
 | ID | Name | Institution | Relationship Status |
 |----|------|-------------|--------------------|
-| — | *Pending migration* | — | — |
+| STK-20260803-008 | UiTM Centre for Media and Information Warfare Studies | Universiti Teknologi MARA | Developing |
+| STK-20260803-009 | Prof. Madya Dr. Suhaimee | UiTM Centre for Media and Information Warfare Studies | Developing |
 
 ## Technical
 
