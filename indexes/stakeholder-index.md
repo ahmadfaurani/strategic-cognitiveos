@@ -18,12 +18,18 @@ All registered stakeholders, grouped by type.
 | ID | Name | Role | Relationship Status | Next Engagement |
 |----|------|------|--------------------|----------------|
 | STK-20260725-007 | Aras Integrasi Sdn Bhd | Employer — Cyber Security Practice | Active | Ongoing |
+| STK-20260803-007 | Hadri | Technical counterpart — ELSA-Aras LHDN | Active | Joint working session |
 
 ## Partner
 
-| ID | Name | Organisation | Relationship Status | Next Engagement |
-|----|------|--------------|--------------------|----------------|
-| — | *Pending migration* | — | — | — |
+| ID | Name | Role | Organisation | Relationship Status | Next Engagement |
+|----|------|------|--------------|--------------------|----------------|
+| STK-20260803-001 | ELSA | Strategic collaboration partner | ELSA Sdn Bhd | Developing | Post-NDA review |
+| STK-20260803-002 | Abdul Hafeez Abdul Bari | Technology Lead, Engineering-Robotics | ELSA Sdn Bhd | Developing | Joint working session |
+| STK-20260803-003 | Daniel Ilham | TBD | ELSA Sdn Bhd | New | Joint working session |
+| STK-20260803-004 | Azarul | TBD | ELSA Group | New | Joint working session |
+| STK-20260803-005 | Samantha Lai | Legal counsel | MTAI | Active | NDA review completion |
+| STK-20260803-006 | Farul Mohd Ghazali | Legal advisor | MTAI | Active | NDA review completion |
 
 ## Prospect
 

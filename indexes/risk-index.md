@@ -16,6 +16,7 @@ All identified risks, grouped by status.
 | RSK-20260802-008 | Opportunity dilution — too many initiatives at concept stage | governance | PRJ-20260725-F001 | High | Medium | Medium | Identified |
 | RSK-20260802-009 | Cognitive switching and decision fatigue | resource-constraint | PRJ-20260725-F001 | High | Medium | Medium | Identified |
 | RSK-20260802-010 | Ambiguous authority in collaborative partnerships | stakeholder-alignment | PRJ-20260725-C001 | Medium | Medium | Medium | Identified |
+| RSK-20260803-001 | NDA scope language may not fully capture Aras technology scope | governance | INIT-20260803-001 | Medium | High | High | Identified |
 
 ## Mitigating
 

@@ -24,6 +24,7 @@ All initiatives, grouped by portfolio tier.
 | ID | Title | Owner | Status | Readiness | Next Review |
 |----|-------|-------|--------|-----------|-------------|
 | INIT-20260725-007 | CSCDC Communication Division — Strategic Partnership | faurani-jaafar | Draft | Framed | 2026-08-08 |
+| INIT-20260803-001 | ELSA–Aras Integrasi LHDN AI-Assisted Revenue Recovery | faurani-jaafar | Draft | Framed | 2026-08-17 |
 
 ## Watch List
 

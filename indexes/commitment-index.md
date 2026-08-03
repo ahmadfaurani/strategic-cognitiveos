@@ -6,7 +6,7 @@ All outstanding commitments, grouped by status.
 
 | ID | Commitment | Owner | Stakeholder | Due Date | Status | Risk |
 |----|-----------|-------|-------------|----------|--------|------|
-| — | *Pending migration* | — | — | — | — | — |
+| COM-20260803-001 | NDA review and vetting by MTAI before reverting to ELSA | faurani-jaafar | STK-20260803-001 (ELSA) | 2026-08-17 | In-progress | Low |
 
 ## Overdue
 
