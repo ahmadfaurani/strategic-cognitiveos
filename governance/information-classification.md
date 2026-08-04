@@ -17,4 +17,12 @@
 3. Records classified as `confidential` require CVS validation for claims involving this data.
 4. Records classified as `restricted` or `controlled` require mandatory CVS validation.
 5. All access and changes to `controlled` records must be logged and reviewed.
+
+## CVS Reference
+
+The master CVS framework is located at:
+`/home/p62operator/.openclaw/workspace/03-VERIFICATION/CVS-FRAMEWORK.md`
+
+All CVS validation follows the universal 6-tier classification (T1–T6), 5-level source hierarchy (L1–L5), and 5-criteria confidence scoring (0–10). See the master framework for full specification. The CogOS domain adapter is at:
+`/home/p62operator/.openclaw/workspace/strategic-cognitiveos/03-VERIFICATION/CVS-ADAPTER.md`
 6. When in doubt, classify upward — it's easier to declassify than to recover from a leak.
