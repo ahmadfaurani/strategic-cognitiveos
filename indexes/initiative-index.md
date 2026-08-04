@@ -29,10 +29,11 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Draft | Framed | 2026-08-17 |
 | INIT-20260804-002 | GovSec × CMERP Platform Integration Continuation | faurani-jaafar | Active | Integration-phase | 2026-08-13 |
 | INIT-20260804-003 | GovSec × Threat Intelligence (TI) Integration | faurani-jaafar | Active | Framed | 2026-08-10 |
+| INIT-20260804-004 | AI Systems Co-Design Lab (Cohort 01) — CSM Partnership | faurani-jaafar | Active | Framed | 2026-08-10 |
 
 ## Watch List
 
-_— Updated 2026-08-04: INIT-20260804-001 added to Flagship tier (GTM activation, pilot readiness). Updated 2026-08-04: INIT-20260804-002/003 patched with CyberDSA Oct 2026 milestone (DEC-20260804-001). 10 new records: 1 CONV, 1 DEC, 3 RSK, 5 ACT._
+_— Updated 2026-08-04: INIT-20260804-001 added to Flagship tier (GTM activation, pilot readiness). Updated 2026-08-04: INIT-20260804-002/003 patched with CyberDSA Oct 2026 milestone (DEC-20260804-001). 10 new records: 1 CONV, 1 DEC, 3 RSK, 5 ACT. Updated 2026-08-04 (Intake 5): Added INIT-20260804-004 (AI Systems Co-Design Lab, Incubation tier). 5 new records: 1 STK, 1 INIT, 1 CONV, 2 ACT. 7 PIRs (2C/4H/1M)._
 
 | ID | Title | Owner | Status | Next Review |
 |----|-------|-------|--------|-------------|
