@@ -59,14 +59,33 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260804-008 | CSM to confirm GovSec × TI integration session date | hadri | 2026-08-06 | Draft |
 | ACT-20260804-009 | Prepare GovSec × TI integration planning materials | hadri | 2026-08-05 | Draft |
 | ACT-20260804-010 | DAF strategic alignment with Hadri pre-session (TI) | faurani-jaafar | 2026-08-05 | Draft |
+| ACT-20260804-011 | DAF + Hadri alignment — confirm mobilisation plan, ownership, delivery timeline | faurani-jaafar | 2026-08-05 | Draft |
+| ACT-20260804-012 | Consolidated engagement calendar + deliverables register (3 CSM workstreams) | faurani-jaafar | 2026-08-07 | Draft |
+| ACT-20260804-013 | Integrated technical delivery plan WS2+WS3 (CyberDSA-aligned) | faurani-jaafar | 2026-08-10 | Draft |
+| ACT-20260804-014 | Deploy intern for interim support (research, docs, meeting prep, action tracking) | faurani-jaafar | 2026-08-06 | Draft |
+| ACT-20260804-015 | Escalate Senior GovSec resource hiring as delivery-readiness requirement | faurani-jaafar | 2026-08-05 | Draft |
 
 ## Workstream Cluster Overview
 
 | Workstream | Initiative ID | Focus Areas |
 |-----------|-------------|-------------|
 | A — Sovereign AI & Gov AI Adoption | INIT-20260725-001 | PERJASA, JDN/JDM, Perdana Digital, sovereign AI platform, PMO Data Lake, AI incubator |
-| B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003 | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** + **GovSec × CMERP integration (Aug 12/13)** + **GovSec × TI integration (Aug 6/7/10)** |
-| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** + **GovSec × TI integration (Aug 4)** |
+| B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003 | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** + **GovSec × CMERP integration (Aug 12/13)** + **GovSec × TI integration (Aug 6/7/10)** + **CyberDSA Oct 2026 joint launch milestone (DEC-20260804-001)** |
+| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** + **GovSec × TI integration (Aug 4)** + **CyberDSA joint product launch (Oct 2026)** |
 | D — Political & Strategic Intelligence | INIT-20260725-004 | State elections, candidate profiling, PIRs, war rooms, sentiment analysis, R.I.S.I.K |
 | E — Commercial & Market Development | INIT-20260725-005 | Regional ASEAN, sales enablement, account development, licensing, pipelines |
 | F — Organisational Capability Building | INIT-20260725-006 | Cybersecurity BU build-out, recruiting, KPIs, delivery accountability, knowledge management |
+
+## Decisions
+
+| ID | Decision | Owner | Status | Date |
+|----|----------|-------|--------|------|
+| DEC-20260804-001 | Internal mobilisation for 3 CSM workstreams — CyberDSA October milestone | faurani-jaafar | Proposed (pending Aug 5 alignment) | 2026-08-04 |
+
+## Risks
+
+| ID | Risk | Priority | Status | Affected Initiatives |
+|----|------|----------|--------|---------------------|
+| RSK-20260804-001 | Delivery capacity/resource contention (3 parallel CSM tracks) | Critical | Active | INIT-001/002/003 |
+| RSK-20260804-002 | Senior GovSec resource hiring delay (delivery-readiness) | Critical | Active | INIT-002/003, INIT-20260725-006 |
+| RSK-20260804-003 | CyberDSA October milestone delivery timeline risk | Critical | Active | INIT-002/003, INIT-001 |

@@ -32,7 +32,7 @@ All initiatives, grouped by portfolio tier.
 
 ## Watch List
 
-_— Updated 2026-08-04: INIT-20260804-001 added to Flagship tier (GTM activation, pilot readiness)_
+_— Updated 2026-08-04: INIT-20260804-001 added to Flagship tier (GTM activation, pilot readiness). Updated 2026-08-04: INIT-20260804-002/003 patched with CyberDSA Oct 2026 milestone (DEC-20260804-001). 10 new records: 1 CONV, 1 DEC, 3 RSK, 5 ACT._
 
 | ID | Title | Owner | Status | Next Review |
 |----|-------|-------|--------|-------------|
