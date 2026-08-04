@@ -28,6 +28,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260803-001 | ELSA–Aras Integrasi LHDN AI-Assisted Revenue Recovery | faurani-jaafar | Draft | Framed | 2026-08-17 |
 | INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Draft | Framed | 2026-08-17 |
 | INIT-20260804-002 | GovSec × CMERP Platform Integration Continuation | faurani-jaafar | Active | Integration-phase | 2026-08-13 |
+| INIT-20260804-003 | GovSec × Threat Intelligence (TI) Integration | faurani-jaafar | Active | Framed | 2026-08-10 |
 
 ## Watch List
 

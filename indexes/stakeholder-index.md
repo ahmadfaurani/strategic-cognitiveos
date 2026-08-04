@@ -22,6 +22,8 @@ All registered stakeholders, grouped by type.
 | STK-20260804-007 | Nur Qurratu 'Aini Binti Rohizan | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
 | STK-20260804-008 | Lukman Hakim Bin Abd Rahman | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
 | STK-20260804-009 | Nur Syahidah Binti Yunos | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
+| STK-20260804-010 | Mohamad Hafiz Bin Rahman | CSM TI integration lead (GovSec × TI) | CyberSecurity Malaysia | New | TI session confirmation (Aug 6/7/10) |
+| STK-20260804-011 | Mohammad Zaharudin Bin Ahmad Darus | CSM TI team (cc'd) | CyberSecurity Malaysia | New | TI session (Aug 6/7/10) |
 
 ## Internal
 
@@ -63,4 +65,4 @@ All registered stakeholders, grouped by type.
 
 ---
 
-_Updated 2026-08-04: Added STK-20260804-004 (Fathi Kamil, CSM), STK-20260804-005 (Izzatul Hazirah, CSM), STK-20260804-006 (Muhammad Imran, CSM), STK-20260804-007 (Nur Qurratu'aini, CSM), STK-20260804-008 (Lukman Hakim, CSM), STK-20260804-009 (Nur Syahidah, CSM). Updated STK-20260803-006 (Farul, MTAI — GovSec engagement added)_
+_Updated 2026-08-04: Added STK-20260804-004 (Fathi Kamil, CSM), STK-20260804-005 (Izzatul Hazirah, CSM), STK-20260804-006 (Muhammad Imran, CSM), STK-20260804-007 (Nur Qurratu'aini, CSM), STK-20260804-008 (Lukman Hakim, CSM), STK-20260804-009 (Nur Syahidah, CSM), STK-20260804-010 (Mohamad Hafiz, CSM TI), STK-20260804-011 (Mohammad Zaharudin, CSM TI). Updated STK-20260803-006 (Farul, MTAI — GovSec engagement added)_
