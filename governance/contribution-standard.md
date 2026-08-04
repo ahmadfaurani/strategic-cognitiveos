@@ -1,5 +1,7 @@
 # Contribution Standard
 
+> **See also:** `governance/intake-sop.md` — Standard Operating Procedure for all CognitiveOS intake events (mandatory confirmation format, 9-step workflow, record type matrix)
+
 ## Creating a New Record
 
 1. **Determine strategic value** — Does this meet the capture criteria? (See Operating Principles §3)
