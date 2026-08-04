@@ -14,13 +14,16 @@ All registered stakeholders, grouped by type.
 | STK-20260725-012 | LHDN | Inland Revenue Board | LHDN / Ministry of Finance | Active | Ongoing |
 | STK-20260803-010 | Khairil Hilmi Bin Mokhtar | PMO official | Prime Minister's Office | New | Role clarification |
 | STK-20260803-011 | Dr. Noor Dasrafeezal Bin Abdul Shukur | PMO official | Prime Minister's Office | New | Role clarification |
+| STK-20260804-001 | Mohammad Fahdzli Bin Abdul Rauf | Head of Cyber Solutions Dept | CyberSecurity Malaysia | Active | Training reschedule confirmation |
+| STK-20260804-002 | Zulfeka Zainal Abidin | Senior (post-MoU mobilisation) | CyberSecurity Malaysia | Active | CSM internal review pending |
 
 ## Internal
 
 | ID | Name | Role | Relationship Status | Next Engagement |
 |----|------|------|--------------------|----------------|
 | STK-20260725-007 | Aras Integrasi Sdn Bhd | Employer — Cyber Security Practice | Active | Ongoing |
-| STK-20260803-007 | Hadri | Technical counterpart — ELSA-Aras LHDN | Active | Joint working session |
+| STK-20260803-007 | Hadri | Technical counterpart — ELSA-Aras LHDN / CSM training | Active | Training reschedule |
+| STK-20260804-003 | Ahmad Fuad | Aras Integrasi team member — CSM collaboration | Active | Role clarification |
 
 ## Partner
 
@@ -51,3 +54,7 @@ All registered stakeholders, grouped by type.
 | ID | Name | Role | Relationship Status |
 |----|------|------|--------------------|
 | — | *Pending migration* | — | — |
+
+---
+
+_Updated 2026-08-04: Added STK-20260804-001 (Fahdzli, CSM), STK-20260804-002 (Zulfeka, CSM), STK-20260804-003 (Ahmad Fuad, Aras)_

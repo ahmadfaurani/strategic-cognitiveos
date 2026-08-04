@@ -10,3 +10,4 @@ All conversation records, chronological.
 | CONV-20260724-001 | PI-OS Phase 1 Specification Session | 2026-07-24 | Telegram | DEC-20260724-001 | INIT-20260724-001 |
 | CONV-20260802-001 | PI-OS Execution Readiness & Migration Authorisation | 2026-08-02 | Telegram | DEC-20260802-001 | INIT-20260724-001 |
 | CONV-20260802-002 | Athena Review & V0.2 Rewrite | 2026-08-02 | Telegram | — | — |
+| CONV-20260804-001 | CSM Post-MoU VoronDRQ GTM Email Thread | 2026-08-04 | Email | GTM kit + database complete, training rescheduled, 7-stage sales execution proposed | INIT-20260804-001, INIT-20260725-002, INIT-20260725-003 |

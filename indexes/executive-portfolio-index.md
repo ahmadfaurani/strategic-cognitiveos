@@ -15,6 +15,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260725-004 | Workstream D — Political & Strategic Intelligence | faurani-jaafar | — | Active | 2026-10-25 |
 | INIT-20260725-005 | Workstream E — Commercial & Market Development | faurani-jaafar | — | Active | 2026-10-25 |
 | INIT-20260725-006 | Workstream F — Organisational Capability Building | faurani-jaafar | — | Active | 2026-10-25 |
+| INIT-20260804-001 | CSM × Aras VoronDRQ Joint GTM Activation | faurani-jaafar | — | Active | 2026-08-17 |
 
 ## Incubation
 
@@ -46,14 +47,18 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260802-008 | Clarify personal decision rights | faurani-jaafar | 2026-09-01 | Draft |
 | ACT-20260802-009 | Establish measurable conversion targets | faurani-jaafar | 2026-09-15 | Draft |
 | ACT-20260802-010 | Protect focused strategy time — 2 hours daily | faurani-jaafar | 2026-08-09 | Draft |
+| ACT-20260804-001 | Confirm Voron Citadel training reschedule with CSM | hadri | 2026-08-12 | Draft |
+| ACT-20260804-002 | Conduct VoronDRQ sales enablement session with CSM | faurani-jaafar | 2026-08-22 | Draft |
+| ACT-20260804-003 | First-wave account shortlisting (10–15 orgs) | faurani-jaafar | 2026-08-29 | Draft |
+| ACT-20260804-004 | Assign joint account ownership (1 CSM + 1 Aras per account) | faurani-jaafar | 2026-08-29 | Draft |
 
 ## Workstream Cluster Overview
 
 | Workstream | Initiative ID | Focus Areas |
 |-----------|-------------|-------------|
 | A — Sovereign AI & Gov AI Adoption | INIT-20260725-001 | PERJASA, JDN/JDM, Perdana Digital, sovereign AI platform, PMO Data Lake, AI incubator |
-| B — Cybersecurity Productisation | INIT-20260725-002 | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF |
-| C — Government & Institutional Partnerships | INIT-20260725-003 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial |
+| B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001 | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** |
+| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** |
 | D — Political & Strategic Intelligence | INIT-20260725-004 | State elections, candidate profiling, PIRs, war rooms, sentiment analysis, R.I.S.I.K |
 | E — Commercial & Market Development | INIT-20260725-005 | Regional ASEAN, sales enablement, account development, licensing, pipelines |
 | F — Organisational Capability Building | INIT-20260725-006 | Cybersecurity BU build-out, recruiting, KPIs, delivery accountability, knowledge management |
