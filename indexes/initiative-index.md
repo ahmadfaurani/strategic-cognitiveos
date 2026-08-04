@@ -27,6 +27,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260725-007 | CSCDC Communication Division — Strategic Partnership | faurani-jaafar | Draft | Framed | 2026-08-08 |
 | INIT-20260803-001 | ELSA–Aras Integrasi LHDN AI-Assisted Revenue Recovery | faurani-jaafar | Draft | Framed | 2026-08-17 |
 | INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Draft | Framed | 2026-08-17 |
+| INIT-20260804-002 | GovSec × CMERP Platform Integration Continuation | faurani-jaafar | Active | Integration-phase | 2026-08-13 |
 
 ## Watch List
 

@@ -26,6 +26,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260725-007 | CSCDC Communication Division — Strategic Partnership | faurani-jaafar | Draft — Framed | Leadership mapping complete | 2026-08-08 |
 | INIT-20260803-001 | ELSA–Aras LHDN AI-Assisted Revenue Recovery | faurani-jaafar | Draft — Framed | NDA execution | 2026-08-17 |
 | INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Draft — Framed | UITM response + working session | 2026-08-17 |
+| INIT-20260804-002 | GovSec × CMERP Platform Integration Continuation | faurani-jaafar | Active — Integration | Session confirmation (Aug 12/13) | 2026-08-13 |
 
 ## Watch List
 
@@ -51,14 +52,17 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260804-002 | Conduct VoronDRQ sales enablement session with CSM | faurani-jaafar | 2026-08-22 | Draft |
 | ACT-20260804-003 | First-wave account shortlisting (10–15 orgs) | faurani-jaafar | 2026-08-29 | Draft |
 | ACT-20260804-004 | Assign joint account ownership (1 CSM + 1 Aras per account) | faurani-jaafar | 2026-08-29 | Draft |
+| ACT-20260804-005 | CSM to confirm GovSec × CMERP integration session date | hadri | 2026-08-08 | Draft |
+| ACT-20260804-006 | Prepare GovSec × CMERP integration review materials | hadri | 2026-08-11 | Draft |
+| ACT-20260804-007 | DAF strategic alignment with Hadri pre-session | faurani-jaafar | 2026-08-11 | Draft |
 
 ## Workstream Cluster Overview
 
 | Workstream | Initiative ID | Focus Areas |
 |-----------|-------------|-------------|
 | A — Sovereign AI & Gov AI Adoption | INIT-20260725-001 | PERJASA, JDN/JDM, Perdana Digital, sovereign AI platform, PMO Data Lake, AI incubator |
-| B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001 | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** |
-| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** |
+| B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001, INIT-20260804-002 | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** + **GovSec × CMERP integration continuation (Aug 12/13)** |
+| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** |
 | D — Political & Strategic Intelligence | INIT-20260725-004 | State elections, candidate profiling, PIRs, war rooms, sentiment analysis, R.I.S.I.K |
 | E — Commercial & Market Development | INIT-20260725-005 | Regional ASEAN, sales enablement, account development, licensing, pipelines |
 | F — Organisational Capability Building | INIT-20260725-006 | Cybersecurity BU build-out, recruiting, KPIs, delivery accountability, knowledge management |

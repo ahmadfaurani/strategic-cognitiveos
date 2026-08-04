@@ -16,6 +16,12 @@ All registered stakeholders, grouped by type.
 | STK-20260803-011 | Dr. Noor Dasrafeezal Bin Abdul Shukur | PMO official | Prime Minister's Office | New | Role clarification |
 | STK-20260804-001 | Mohammad Fahdzli Bin Abdul Rauf | Head of Cyber Solutions Dept | CyberSecurity Malaysia | Active | Training reschedule confirmation |
 | STK-20260804-002 | Zulfeka Zainal Abidin | Senior (post-MoU mobilisation) | CyberSecurity Malaysia | Active | CSM internal review pending |
+| STK-20260804-004 | Fathi Kamil Bin Mohad Zainuddin | CSM integration lead (GovSec × CMERP) | CyberSecurity Malaysia | Active | Integration session confirmation |
+| STK-20260804-005 | Izzatul Hazirah Binti Ishak | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
+| STK-20260804-006 | Muhammad Imran Bin Mohamad Fauzi | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
+| STK-20260804-007 | Nur Qurratu 'Aini Binti Rohizan | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
+| STK-20260804-008 | Lukman Hakim Bin Abd Rahman | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
+| STK-20260804-009 | Nur Syahidah Binti Yunos | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
 
 ## Internal
 
@@ -34,7 +40,7 @@ All registered stakeholders, grouped by type.
 | STK-20260803-003 | Daniel Ilham | TBD | ELSA Sdn Bhd | New | Joint working session |
 | STK-20260803-004 | Azarul | TBD | ELSA Group | New | Joint working session |
 | STK-20260803-005 | Samantha Lai | Legal counsel | MTAI | Active | NDA review completion |
-| STK-20260803-006 | Farul Mohd Ghazali | Legal advisor | MTAI | Active | NDA review completion |
+| STK-20260803-006 | Farul Mohd Ghazali | Legal advisor / cross-workstream observer | MTAI | Active | GovSec integration + NDA review |
 
 ## Prospect
 
@@ -57,4 +63,4 @@ All registered stakeholders, grouped by type.
 
 ---
 
-_Updated 2026-08-04: Added STK-20260804-001 (Fahdzli, CSM), STK-20260804-002 (Zulfeka, CSM), STK-20260804-003 (Ahmad Fuad, Aras)_
+_Updated 2026-08-04: Added STK-20260804-004 (Fathi Kamil, CSM), STK-20260804-005 (Izzatul Hazirah, CSM), STK-20260804-006 (Muhammad Imran, CSM), STK-20260804-007 (Nur Qurratu'aini, CSM), STK-20260804-008 (Lukman Hakim, CSM), STK-20260804-009 (Nur Syahidah, CSM). Updated STK-20260803-006 (Farul, MTAI — GovSec engagement added)_
