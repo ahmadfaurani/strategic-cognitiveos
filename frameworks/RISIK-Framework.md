@@ -1,456 +1,1379 @@
-# R.I.S.I.K Framework
+# The R.I.S.I.K Framework
 
 **Reality · Issue · Sentiment · Influence · Kontra Narrative**
 
-An analytical and operational framework for modern psychological operations, strategic influence, and information warfare. Converts field intelligence, media data, public discourse, and audience behaviour into structured, measurable, and governed communication interventions.
+An Operational Framework for Strategic Communication, Cognitive Security, Gerak Saraf and Information Environment Management
 
 ---
 
-## 1. Reality — Operational Reality
+## 1. Executive Overview
 
-Establish the actual situation before any narrative, communication strategy, or intervention is developed.
+The R.I.S.I.K Framework is an intelligence-led operating model for understanding, managing, and responding to developments within the information environment.
 
-### Key Questions
-- What is actually happening?
-- Who is involved and affected?
-- What is the gap between fact, perception, and allegation?
-- Which information has been verified?
-- Which information remains uncertain, incomplete, or speculative?
+It integrates five analytical and operational functions:
 
-### Process Steps
+- **Reality** — establish what is true, verified, and operationally relevant.
+- **Issue** — identify the issues that may affect confidence, stability, behaviour, or institutional objectives.
+- **Sentiment** — understand how audiences perceive and emotionally respond to those issues.
+- **Influence** — determine which actors, networks, institutions, and communication channels shape those perceptions.
+- **Kontra Narrative** — design and execute lawful, evidence-based, and proportionate communication interventions.
 
-| Step | Action | Method | Output |
-|------|--------|--------|--------|
-| R-1 | Collect raw signals | Media monitoring, field reports, OSINT, social media capture | Raw signal feed |
-| R-2 | Source triage | Source reliability rating (A–F), corroboration count, recency check | Triaged source list |
-| R-3 | Fact extraction | Claims isolated from narrative framing; numbers, names, dates, locations verified against ≥2 independent sources | Verified fact set |
-| R-4 | Gap mapping | Identify what is unknown, disputed, or speculative | Information-gap register |
-| R-5 | Actor identification | Map all actors: primary, secondary, affected populations, bystanders | Actor and stakeholder map |
-| R-6 | Confidence scoring | Assign confidence: CONFIRMED / PROBABLE / POSSIBLE / UNVERIFIED | Confidence-tagged fact set |
-| R-7 | Baseline production | Compile situational intelligence brief | Situational Intelligence Brief (SIB) |
-
-### Reality-Phase Deliverable: Situational Intelligence Brief (SIB)
-
-1. Situation Summary (2–3 paragraphs)
-2. Verified Fact Set (each item with source citations and confidence tag)
-3. Actor and Stakeholder Map (with roles, interests, positions)
-4. Information-Gap Register (what we don't know, why it matters)
-5. Source Reliability Assessment (per source: grade, bias, corroboration)
-6. Confidence Assessment (overall and per claim)
-7. Analyst Notes (contextual judgement, caveats)
-
-### Decision Gate: R → I
-- [ ] At least one verified fact set exists for the situation
-- [ ] Actor map is populated with primary actors
-- [ ] Information gaps are logged (not hidden)
-- [ ] Confidence is assessed — no claim presented as CONFIRMED without ≥2 sources
-- [ ] SIB is timestamped and version-controlled
-
----
-
-## 2. Issue — Core Issue
-
-Identify the issues that carry political, social, emotional, operational, or reputational significance for the target audience.
-
-### Process Steps
-
-| Step | Action | Method | Output |
-|------|--------|--------|--------|
-| I-1 | Issue harvesting | Extract issues from SIB, media scan, field reports, audience signals | Raw issue list |
-| I-2 | Issue definition | Each issue as one sentence: "[Actor] faces [problem] because [cause], affecting [population]" | Defined issue register |
-| I-3 | Dimensional scoring | Score each issue 1–5 across 8 dimensions | Scored issue register |
-| I-4 | Lifecycle assessment | Map: Emerging → Developing → Peak → Declining → Resolved | Issue lifecycle map |
-| I-5 | Trigger identification | Define observable escalation indicators | Trigger indicator set |
-| I-6 | Priority ranking | Weighted: Priority = (Relevance × Urgency × Magnitude × Strategic Impact) / Persistence | Issue priority matrix |
-| I-7 | Contested-issue flag | Mark issues where actors disagree on facts, framing, or significance | Contestation map |
-
-### Issue Assessment Dimensions
-
-| Dimension | Assessment Focus | Score |
-|-----------|-----------------|-------|
-| Relevance | Affects the target audience | 1–5 |
-| Urgency | Speed of development | 1–5 |
-| Magnitude | Size of affected population | 1–5 |
-| Credibility | Believability of the claim | 1–5 |
-| Exploitation Potential | Likelihood of manipulation by others | 1–5 |
-| Escalation Risk | Potential to trigger crisis | 1–5 |
-| Persistence | Expected duration (inverse — longer = lower priority) | 1–5 |
-| Strategic Impact | Effect on institutional objectives | 1–5 |
-
-### Issue Lifecycle Stages
+R.I.S.I.K is designed to convert fragmented information into a structured decision cycle:
 
 ```
-EMERGING → DEVELOPING → PEAK → DECLINING → RESOLVED
+COLLECT → VERIFY → ANALYSE → PRIORITISE → DECIDE → ENGAGE → MEASURE → ADAPT
 ```
 
-### Issue-Phase Deliverable: Issue Priority Matrix (IPM)
-
-1. Issue Register (numbered, one-sentence definitions)
-2. Dimensional Scores (per issue, per dimension, 1–5)
-3. Priority Ranking (weighted, formula shown)
-4. Lifecycle Assessment (per issue, stage and trajectory)
-5. Trigger Indicators (observable, measurable, with thresholds)
-6. Escalation Indicators (what moves issue to higher priority)
-7. Contestation Map (where actors disagree, on what, with what evidence)
-8. Strategic Impact Assessment (per issue: institutional, reputational, operational)
-
-### Decision Gate: I → S
-- [ ] At least 3 issues are defined and scored
-- [ ] Top-priority issues are ranked with explicit formula
-- [ ] Trigger indicators are specific and observable
-- [ ] Issue lifecycle stage is assessed for each priority issue
-- [ ] Contested issues are flagged for sentiment analysis
-
----
-
-## 3. Sentiment — Audience Sentiment
-
-Assess underlying emotions that influence perception, decision-making, and behaviour.
-
-### Process Steps
-
-| Step | Action | Method | Output |
-|------|--------|--------|--------|
-| S-1 | Data collection | Social media sampling, surveys, field reports, media tone analysis | Raw sentiment data |
-| S-2 | Segmentation | Segment by demographics, geography, community, affiliation, platform, engagement, stakeholder, voter segment, issue exposure, behaviour | Segmented dataset |
-| S-3 | Polarity scoring | Per segment: % positive, % negative, % neutral, % mixed | Sentiment distribution |
-| S-4 | Emotion classification | Map to 10 emotional categories | Emotional driver analysis |
-| S-5 | Intensity rating | Per emotion per segment: Low / Moderate / High / Volatile | Emotion intensity map |
-| S-6 | Trend detection | Compare to previous window — rising, falling, stable, volatile | Sentiment-shift detection |
-| S-7 | Threshold setting | Define escalation thresholds per segment | Escalation thresholds |
-| S-8 | Behavioural risk assessment | Identify segments where sentiment → action | Behavioural-risk indicators |
-
-### Emotional Categories
-
-| Emotion | Indicators | Behavioural Implication |
-|---------|-----------|------------------------|
-| Anger | Blame language, accountability calls, aggressive posts | Confrontation, mobilisation |
-| Fear | Safety concerns, protective language, rumour amplification | Withdrawal, panic |
-| Frustration | Complaints about inaction, grievance repetition | Disengagement, protest vote |
-| Distrust | Skepticism of official claims, conspiracy engagement | Rejection of messaging |
-| Hope | Aspirational language, positive expectations | Engagement, cooperation |
-| Pride | Identity affirmations, group solidarity | Mobilisation, loyalty |
-| Apathy | Low engagement, disinterest | Non-participation, low turnout |
-| Anxiety | Uncertainty expressions, future concern | Risk-averse behaviour |
-| Solidarity | Group cohesion, mutual support | Collective action |
-| Resentment | Perceived injustice, grievance accumulation | Score-settling, retaliation |
-
-### Sentiment-Phase Deliverable: Sentiment and Emotion Map (SEM)
-
-1. Sentiment Heatmap (segment × polarity, colour-coded)
-2. Emotional-Driver Analysis (per segment: dominant emotions, intensity, triggers)
-3. Audience Segmentation Matrix (segments with size, characteristics, sentiment profile)
-4. Sentiment-Shift Detection (current vs previous: direction, velocity, volatility)
-5. Behavioural-Risk Indicators (segments at risk of: protest, disengagement, vote shift, radicalisation)
-6. Escalation Thresholds (per segment: numeric triggers for alert levels)
-
-### Decision Gate: S → In
-- [ ] At least 3 audience segments are defined and profiled
-- [ ] Dominant emotions per segment are identified with evidence
-- [ ] Sentiment trends are established (≥2 measurement points)
-- [ ] Escalation thresholds are quantified
-- [ ] Behavioural-risk segments are flagged
-
----
-
-## 4. Influence — Influence Mapping
-
-Identify the individuals, organisations, platforms, networks, and channels that shape public understanding, perception, and behaviour.
-
-### Process Steps
-
-| Step | Action | Method | Output |
-|------|--------|--------|--------|
-| In-1 | Actor discovery | Identify all actors producing, amplifying, or shaping narratives | Raw actor list |
-| In-2 | Actor classification | Categorise: official, media, community, digital, anonymous, automated | Classified registry |
-| In-3 | Reach assessment | Estimate audience size per actor | Reach scoring |
-| In-4 | Resonance assessment | Measure engagement rates: shares, comments, sentiment of responses | Resonance scoring |
-| In-5 | Authority mapping | Document formal/informal authority | Authority profile per actor |
-| In-6 | Network analysis | Map: who amplifies whom, coordinated patterns, clusters | Influence network map |
-| In-7 | Narrative alignment | Map each actor to positions on priority issues | Narrative distribution map |
-| In-8 | Vulnerability mapping | Identify audience clusters most exposed to each actor | Vulnerable clusters |
-| In-9 | Trusted-messenger identification | High credibility + high reach + objective alignment | Trusted-messenger matrix |
-| In-10 | Credibility risk assessment | Flag actors with reputational or manipulation exposure | Credibility risk register |
-
-### Influence Assessment Factors
-
-| Factor | Assessment Focus | Measurement Method |
-|--------|-----------------|-------------------|
-| Reach | Audience size | Follower count, group membership, circulation |
-| Resonance | Message acceptance | Engagement rate, share-to-comment ratio |
-| Authority | Formal/informal standing | Position verification, community recognition |
-| Network Position | Location in network | Centrality analysis, bridge detection |
-| Mobilisation Capacity | Ability to trigger action | Historical calls to action → behaviour |
-| Narrative Alignment | Position on issues | Content analysis of recent statements |
-| Credibility | Trust level | Surveys, peer assessment, fact-check history |
-| Amplification Capacity | Visibility boosting | Cross-platform presence, syndication |
-| Credibility Risk | Exposure to compromise | Scandal history, conflicts, inconsistency |
-
-### Influence-Phase Deliverable: Influence Network Map (INM)
-
-1. Key Influencer Registry (ranked by reach × resonance × authority)
-2. Influence Network Map (nodes = actors, edges = amplification, clusters = communities)
-3. Amplification Pathway (message origin → mass audience)
-4. Narrative Distribution Map (which actors advance which narratives)
-5. Vulnerable Audience Clusters (segments most exposed to specific actors)
-6. Engagement Priority List (who to engage first, and why)
-7. Trusted-Messenger Matrix (actor × issue × credibility × reach × alignment)
-8. Credibility Risk Register (actors flagged with risk type and severity)
-
-### Decision Gate: In → K
-- [ ] Key influencers are identified and ranked
-- [ ] Network map shows amplification pathways
-- [ ] Narrative distribution is mapped
-- [ ] Trusted messengers are identified for priority issues
-- [ ] Vulnerable audience clusters are defined
-- [ ] Credibility risks are flagged and assessed
-
----
-
-## 5. Kontra Narrative — Counter-Narrative
-
-Replace harmful, misleading, or destabilising interpretations with explanations that are more credible, relevant, evidence-based, and meaningful to the intended audience.
-
-### Principles
-- Address the audience's actual concerns
-- Acknowledge realities that cannot reasonably be denied
-- Use language that is understandable and culturally appropriate
-- Be delivered through credible and trusted messengers
-- Provide both explanation and practical action
-- Avoid unnecessarily repeating or amplifying hostile narratives
-- Be proportionate to the actual level of threat
-- Be measured through changes in perception, confidence, and behaviour
-- Remain grounded in verified facts
-- Comply with legal, ethical, and institutional governance requirements
-
-### Process Steps
-
-| Step | Action | Method | Output |
-|------|--------|--------|--------|
-| K-1 | Narrative threat assessment | Map hostile narrative: claim, source, spread, target, harm | Narrative threat profile |
-| K-2 | Intervention selection | Match narrative type to intervention type | Selected intervention(s) |
-| K-3 | Audience targeting | Segment → channel → messenger | Audience-channel plan |
-| K-4 | Messenger selection | Match messenger to segment via trusted-messenger matrix | Messenger assignment |
-| K-5 | Content development | Draft: factual base, emotional register, cultural framing, CTA | Content draft |
-| K-6 | Legal and ethical review | Truth compliance, proportionality, non-deception | Review sign-off |
-| K-7 | Command authorisation | Present to designated authority for approval | Authorisation record |
-| K-8 | Execution | Deploy through approved channels and messengers | Deployment log |
-| K-9 | Measurement | Track KPIs: reach, engagement, sentiment shift, behaviour | Measurement report |
-| K-10 | Adaptation | Review results, adjust, feed learnings back to Reality | Updated plan |
-
-### Intervention Selection Matrix
-
-| Narrative Type | Primary Intervention | Secondary | When to Use |
-|---------------|---------------------|-----------|------------|
-| False factual claim | Debunking | Evidence amplification | Claim verifiably false and spreading |
-| Misleading framing | Reframing | Contextual clarification | Facts true, interpretation distorted |
-| Emotional manipulation | Positive replacement | Trusted-messenger | Exploits fear/anger without factual basis |
-| Emerging threat | Pre-bunking | Strategic silence | Narrative predicted but not yet circulating |
-| Low-impact rumour | Strategic silence | Contextual clarification | Responding would amplify more than ignoring |
-| Coordinated disinformation | Evidence amplification | Trusted-messenger | False narrative with organised amplification |
-| Legitimate grievance | Contextual clarification | Behavioural intervention | Concern is real but being exploited |
-| Call to harmful action | Behavioural intervention | Debunking (trigger claim) | Narrative mobilising toward harm |
-
-### Counter-Narrative Content Requirements (10-Point Checklist)
-
-1. **Factual Base** — What verified facts support this? (cite SIB)
-2. **Acknowledgement** — What legitimate concern is acknowledged?
-3. **Reframing** — What is the more accurate or constructive frame?
-4. **Evidence** — What specific evidence is presented? (verifiable, cited)
-5. **Messenger** — Who delivers this and why are they credible?
-6. **Channel** — Where does this reach the target audience?
-7. **Cultural Adaptation** — How is language tailored to the audience?
-8. **Call to Action** — What should the audience do after receiving this?
-9. **Measurement Hook** — How will we know if this worked? (KPI)
-10. **Risk Assessment** — What are the risks? (amplification, backlash, misinterpretation)
-
-### Intervention Types — Detailed
-
-**Pre-bunking** — Before harmful narrative circulates. Warn about likely manipulation, inoculate with critical thinking frames. KPI: audience recognition of pattern when it appears.
-
-**Debunking** — After false claim spreads. Present claim briefly, then detailed correction with evidence. Rule: don't repeat false claim more prominently than correction. KPI: correction reach vs original; belief change in surveys.
-
-**Reframing** — Facts correct, interpretation misleading. Shift frame without denying facts. KPI: frame adoption in discourse.
-
-**Positive Replacement** — Harmful narrative fills a vacuum. Provide more compelling, credible alternative. KPI: narrative adoption.
-
-**Evidence Amplification** — Verified evidence exists but is under-visible. Increase visibility through trusted channels. KPI: evidence reach; citation in discussion.
-
-**Trusted-Messenger Intervention** — Institutional messaging lacks credibility. Deploy community-trusted figures. KPI: audience response to messenger vs institutional source.
-
-**Contextual Clarification** — Key facts or context are missing. Provide missing information without counter-attack framing. KPI: information absorption; speculation reduction.
-
-**Strategic Silence** — Responding would amplify low-impact narrative. Do not respond publicly; monitor; prepare response in case of escalation. KPI: narrative decay rate.
-
-**Behavioural Intervention** — Audience needs to act, not just understand. Provide clear, actionable steps paired with explanation. KPI: behavioural uptake.
-
-### Kontra-Phase Deliverable: Narrative Intervention Plan (NIP)
-
-1. Narrative Threat Profile (claim, source, spread trajectory, harm, target audience)
-2. Selected Intervention Type(s) with justification
-3. Audience-Channel Plan (segment → channel → messenger → content)
-4. Content Draft(s) with all 10 content requirements
-5. Legal and Ethical Review Sign-off
-6. Command Authorisation Record
-7. Deployment Schedule (sequence, timing, dependencies)
-8. Measurement Framework (KPIs, baseline, target, method, frequency)
-9. Risk Assessment (amplification, backlash, misinterpretation, mitigation)
-10. Adaptation Trigger Criteria (what would cause mid-execution change)
-
-### Decision Gate: K → Execute
-- [ ] Intervention type justified by narrative type
-- [ ] Content grounded in verified facts (SIB cited)
-- [ ] Messenger credible to target audience (trusted-messenger matrix cited)
-- [ ] Legal and ethical review completed and signed off
-- [ ] Command authorisation obtained and recorded
-- [ ] KPIs defined with baselines and targets
-- [ ] Risk assessment completed with mitigation plan
-- [ ] Adaptation triggers defined
-
----
-
-## R.I.S.I.K Operational Flow
-
-```
-REALITY                      Layer 1: Intelligence
-What is actually happening?
- ↓
-ISSUE
-Which issue is most significant
-and most likely to escalate?
- ↓
-SENTIMENT
-What is the audience feeling, and why?
- ↓
-INFLUENCE
-Who is shaping and spreading the perception?
- ↓
-KONTRA NARRATIVE            Layer 2: Decision
-What communication               ↓
-intervention is most        Layer 3: Engagement
-appropriate?
- ↓
-MEASURE → LEARN → ADAPT → (loop back to REALITY)
-```
-
-### Cycle Timing
-
-| Phase | Normal Tempo | Crisis Tempo | Continuous? |
-|-------|-------------|-------------|------------|
-| Reality | Daily | Hourly | Monitoring continuous; SIB updated per cycle |
-| Issue | Daily | 2× daily | Issue register updated as signals arrive |
-| Sentiment | 2× weekly | Daily | Automated monitoring continuous |
-| Influence | Weekly | Daily | Network map updated as new actors emerge |
-| Kontra Narrative | Per incident | Per incident | Pre-positioned content maintained continuously |
-| Measure → Adapt | Weekly | Post-intervention | Continuous measurement; formal review per cycle |
-
----
-
-## Three-Layer Operating Model
-
-### Layer 1 — Intelligence
-
-Establishes situational awareness and identifies emerging threats, issues, actors, and narratives.
-
-| Function | Activities | Cadence | Output |
-|----------|-----------|---------|--------|
-| Media monitoring | Multi-source news collection, social media scan, narrative detection | Continuous | Signal feed |
-| Field intelligence | Reports from ground teams, community contacts, observers | Per report | Field report |
-| OSINT | Public source analysis, platform research, digital footprint | Daily | OSINT product |
-| Issue analysis | Issue harvesting, dimensional scoring, lifecycle assessment | Daily | Issue register |
-| Actor analysis | Actor identification, classification, motivation assessment | Daily | Actor registry |
-| Audience analysis | Segmentation, profiling, behavioural assessment | Per cycle | Audience profiles |
-| Sentiment intelligence | Emotion classification, trend detection, threshold monitoring | Continuous | Sentiment feed |
-| Narrative detection | Emerging narrative identification, trajectory tracking | Continuous | Narrative tracker |
-| Influence-network analysis | Network mapping, amplification tracking, broker identification | Weekly | Network map |
-| Disinformation detection | Pattern recognition, coordination analysis, bot identification | Continuous | Threat alerts |
-
-### Layer 2 — Decision
-
-Converts intelligence into governed strategic and operational decisions.
-
-| Function | Activities | Cadence | Output |
-|----------|-----------|---------|--------|
-| Risk assessment | Threat scoring, vulnerability mapping, probability estimation | Per issue | Risk assessment |
-| Issue prioritisation | Weighted ranking, resource allocation, focus determination | Daily | Priority matrix |
-| Audience identification | Target segment selection, message-audience matching | Per intervention | Target audience list |
-| Response selection | Intervention type matching, proportionality check | Per intervention | Response plan |
-| Channel selection | Platform fit, audience reach, cost-benefit | Per intervention | Channel plan |
-| Messenger selection | Trusted-messenger matching, credibility verification | Per intervention | Messenger assignment |
-| Narrative approval | Content review, factual verification, strategic alignment | Per intervention | Approved content |
-| Escalation-threshold setting | Define triggers for escalation/de-escalation | Per issue | Threshold set |
-| Legal and ethical review | Compliance, proportionality, deception exclusion | Per intervention | Review sign-off |
-| Command authorisation | Authority review, approval/denial, documentation | Per intervention | Authorisation record |
-
-### Layer 3 — Engagement
-
-Executes the approved intervention through appropriate channels, messengers, and engagement mechanisms.
-
-| Function | Activities | Cadence | Output |
-|----------|-----------|---------|--------|
-| Strategic content | Content production, format adaptation, quality control | Per intervention | Content product |
-| Leadership briefings | Executive preparation, talking points, Q&A prep | Per intervention | Briefing pack |
-| Community engagement | Local activation, grassroots deployment, feedback collection | Per intervention | Engagement log |
-| Media response | Press statements, interview prep, journalist management | Per intervention | Media package |
-| Stakeholder activation | Ally coordination, coalition messaging, partner briefing | Per intervention | Stakeholder log |
-| Public communication | Direct public address, platform posting, broadcast | Per intervention | Publication record |
-| Counter-disinformation | Targeted correction, platform reporting, fact-deployment | Per intervention | Correction record |
-| Trusted-messenger mobilisation | Messenger briefing, content provision, deployment support | Per intervention | Deployment log |
-| Performance measurement | KPI tracking, audience polling, sentiment re-measurement | Post-intervention | Measurement report |
-| Continuous adaptation | Strategy review, content adjustment, lesson capture | Post-intervention | Adaptation memo |
-
----
-
-## R.I.S.I.K Operational Matrix
-
-| Component | Operational Question | Primary Deliverable | Key Inputs | Decision Gate |
-|-----------|---------------------|-------------------|------------|---------------|
-| Reality | What is true and verifiable? | Situational intelligence brief | Signals, sources, field reports | SIB complete with confidence tags |
-| Issue | What is the primary area of contestation? | Issue priority matrix | SIB, media scan, field reports | ≥3 issues scored and ranked |
-| Sentiment | What is the audience feeling, and why? | Sentiment and emotion map | Social data, surveys, field reports | ≥3 segments profiled with thresholds |
-| Influence | Who is shaping perception and behaviour? | Influence network map | Actor registry, network analysis | Trusted messengers identified |
-| Kontra Narrative | How should perceptions be addressed? | Narrative intervention plan | All prior deliverables | Legal review + command authorisation |
-
----
-
-## Operating Principles
-
-- **Truth-grounded** — based on verified and defensible facts
-- **Evidence-led** — supported by reliable sources and analytical confidence
-- **Audience-specific** — tailored to each audience segment
-- **Proportionate** — calibrated to actual severity
-- **Measurable** — supported by clear indicators and defined outcomes
-- **Adaptive** — continuously updated as conditions change
-- **Legally governed** — compliant with applicable laws and controls
-- **Ethically controlled** — subject to ethical boundaries and human oversight
-- **Non-deceptive** — excluding fabrication, impersonation, unlawful manipulation
-- **Human-authorised** — significant interventions under accountable human authority
-- **Secure by design** — protecting sensitive data, sources, methods, and decisions
-
----
-
-## Strategic Positioning
-
-R.I.S.I.K is a structured framework for establishing reality, identifying the central issue, understanding audience sentiment, mapping influence networks, and executing lawful, evidence-based, and measurable counter-narrative interventions.
-
-### Application Domains
-
-- Strategic communication operations
-- Psychological operations
-- Information warfare analysis
-- Political intelligence operations
-- Election operations centres
-- Government crisis communication
-- Counter-disinformation operations
-- Stakeholder influence mapping
-- Cognitive security operations
+The framework is intended to support:
+
+- Strategic communication
+- Government communication
+- Crisis communication
+- Counter-disinformation
+- Cognitive security
+- Information environment analysis
+- Public confidence management
+- Stakeholder engagement
+- Election situation monitoring
 - National security communication
-- Public sentiment and policy engagement
 - Media and information warfare studies
-- Strategic decision-support systems
+- Strategic decision support
+
+R.I.S.I.K should operate under clear legal, ethical, institutional, and human-authority controls. It must not rely on fabrication, covert impersonation, unlawful surveillance, or deceptive manipulation.
+
+---
+
+## 2. Strategic Purpose
+
+The purpose of R.I.S.I.K is to provide decision-makers with a reliable method to answer five questions:
+
+| Component | Strategic Question |
+|----------|-------------------|
+| Reality | What is actually happening? |
+| Issue | What matters most, and why? |
+| Sentiment | How are affected audiences responding? |
+| Influence | Who or what is shaping that response? |
+| Kontra Narrative | What should be communicated, by whom, through which channel, and with what intended outcome? |
+
+The framework is designed to reduce five common operational failures:
+
+1. Acting before facts are verified
+2. Treating every issue as equally important
+3. Confusing online activity with actual public sentiment
+4. Overestimating the influence of visible personalities
+5. Responding with messages that amplify rather than contain harmful narratives
+
+---
+
+## 3. Operating Principles
+
+### 3.1 Truth Discipline
+
+All operational assessments must distinguish between:
+
+- Confirmed fact
+- Probable assessment
+- Unverified claim
+- Analytical judgement
+- Deliberate falsehood
+- Unknown or unresolved information
+
+No assessment should present confidence as certainty.
+
+### 3.2 Human Authority
+
+AI may support collection, classification, correlation, summarisation, and recommendation.
+
+AI must not independently authorise:
+
+- Public attribution
+- High-impact communication
+- Escalatory messaging
+- Targeted institutional engagement
+- Sensitive public disclosure
+- Legal or punitive action
+
+### 3.3 Information Sovereignty
+
+Sensitive data, models, prompts, sources, assessments, and operational outputs must remain under approved institutional control.
+
+### 3.4 Proportionality
+
+The level of intervention must match the verified scale, credibility, reach, and impact of the issue.
+
+### 3.5 Audience Protection
+
+The framework should improve understanding and resilience, not exploit psychological vulnerability.
+
+### 3.6 Measurability
+
+Every intervention must have:
+
+- A defined objective
+- A target audience
+- An intended outcome
+- An approved delivery channel
+- A measurement method
+
+### 3.7 Secure Execution
+
+Operational data must be protected through:
+
+- Role-based access control
+- Source protection
+- Classification markings
+- Audit logging
+- Data retention controls
+- Approval workflows
+- Incident response procedures
+
+---
+
+## 4. R.I.S.I.K Operational Architecture
+
+R.I.S.I.K operates across four integrated layers.
+
+### Layer 1 — Collection and Observation
+
+Captures relevant data from approved sources.
+
+Typical sources include:
+
+- Official government data
+- Field reports
+- Media reporting
+- Public statements
+- Publicly accessible social media
+- Public feedback channels
+- Stakeholder reports
+- Research publications
+- Community engagement reports
+- Call-centre or service-desk trends
+- Parliamentary or policy discussions
+- Crisis and incident reporting
+
+### Layer 2 — Intelligence and Analysis
+
+Converts collected information into structured assessments.
+
+Core functions include:
+
+- Verification
+- Source evaluation
+- Entity extraction
+- Event correlation
+- Issue classification
+- Sentiment analysis
+- Narrative detection
+- Influence mapping
+- Risk scoring
+- Scenario development
+
+### Layer 3 — Decision and Governance
+
+Determines whether and how an institution should respond.
+
+Core functions include:
+
+- Issue prioritisation
+- Legal review
+- Policy alignment
+- Audience selection
+- Intervention selection
+- Messenger approval
+- Escalation management
+- Senior-authority approval
+
+### Layer 4 — Engagement and Measurement
+
+Executes communication and measures its effect.
+
+Core functions include:
+
+- Message preparation
+- Stakeholder engagement
+- Media response
+- Public clarification
+- Community outreach
+- Digital communication
+- Performance monitoring
+- Post-intervention review
+
+---
+
+## 5. Component 1: Reality
+
+### 5.1 Objective
+
+The Reality function establishes the most accurate and defensible understanding of the situation.
+
+It prevents decision-makers from reacting to:
+
+- Incomplete information
+- Viral claims
+- Misleading framing
+- Coordinated amplification
+- Internal assumptions
+- Politically convenient interpretations
+
+### 5.2 Core Questions
+
+1. What occurred?
+2. When and where did it occur?
+3. Who was involved?
+4. What evidence supports the claim?
+5. Which elements remain disputed?
+6. Which sources are independent?
+7. What is the confidence level?
+8. What has changed since the previous assessment?
+9. What information is missing?
+10. What operational decisions depend on this information?
+
+### 5.3 Inputs
+
+- Official records
+- Verified media reports
+- Field intelligence
+- Public statements
+- Video, image, or document evidence
+- Geospatial information
+- Historical baseline data
+- Stakeholder reports
+- Subject-matter expert assessments
+- Open-source intelligence
+
+### 5.4 Reality Verification Process
+
+**Step 1 — Claim Capture**
+
+Every material claim should be recorded in a structured claim register.
+
+Required fields:
+
+- Claim ID
+- Claim description
+- Date and time detected
+- Original source
+- Secondary sources
+- Geographic relevance
+- Related actors
+- Related issue
+- Current verification status
+- Assigned analyst
+
+**Step 2 — Source Evaluation**
+
+Each source should be assessed against:
+
+| Factor | Assessment |
+|--------|-----------|
+| Access | Was the source in a position to know? |
+| Reliability | Has the source been accurate previously? |
+| Independence | Is the source independent from other cited sources? |
+| Evidence | Is supporting evidence available? |
+| Motivation | Does the source have a reason to misrepresent the issue? |
+| Timeliness | Is the information current? |
+| Consistency | Does it align with other verified information? |
+
+**Step 3 — Corroboration**
+
+Material claims should ideally be supported by:
+
+- Two independent credible sources, or
+- One authoritative primary source with supporting evidence
+
+**Step 4 — Confidence Assessment**
+
+| Level | Meaning |
+|-------|---------|
+| Confirmed | Supported by authoritative or independently corroborated evidence |
+| High Confidence | Strong supporting evidence with minor unresolved gaps |
+| Moderate Confidence | Plausible and partially corroborated |
+| Low Confidence | Limited evidence or significant uncertainty |
+| Unverified | Insufficient evidence |
+| False | Contradicted by verified evidence |
+| Manipulated | Based on altered, misrepresented, or decontextualised material |
+
+**Step 5 — Baseline Comparison**
+
+Compare the current event against:
+
+- Historical norms
+- Previous incidents
+- Seasonal patterns
+- Geographic baselines
+- Known actor behaviour
+- Existing public concerns
+
+### 5.5 Outputs
+
+- Situational intelligence brief
+- Verified fact set
+- Chronology of events
+- Claim verification register
+- Evidence matrix
+- Actor map
+- Information-gap register
+- Confidence assessment
+- Early-warning indicators
+- Decision-impact statement
+
+### 5.6 Reality KPIs
+
+- Percentage of priority claims verified
+- Average time to verify a material claim
+- Number of independent sources per assessment
+- Number of retracted or corrected assessments
+- Percentage of assessments containing explicit confidence levels
+- Time between event detection and first verified brief
+
+---
+
+## 6. Component 2: Issue
+
+### 6.1 Objective
+
+The Issue function identifies and prioritises developments that may affect:
+
+- Public confidence
+- Institutional credibility
+- Community stability
+- Policy acceptance
+- Stakeholder behaviour
+- National security
+- Organisational objectives
+- Crisis response
+- Social cohesion
+
+### 6.2 Issue Classification
+
+Issues may be classified into:
+
+- Political
+- Economic
+- Social
+- Security
+- Governance
+- Public service delivery
+- Religious or cultural
+- Environmental
+- Health
+- Technology
+- Institutional reputation
+- Disinformation
+- Crisis or emergency
+- Community grievance
+- Policy misunderstanding
+
+### 6.3 Issue Lifecycle
+
+Every issue should be assessed according to its lifecycle.
+
+```
+LATENT → EMERGING → ACCELERATING → PEAK → DECLINING → DORMANT → RECURRING
+```
+
+- **Latent** — The issue exists but has not gained material attention.
+- **Emerging** — Discussion is increasing among limited communities.
+- **Accelerating** — The issue is spreading rapidly across platforms or stakeholder groups.
+- **Peak** — The issue has reached maximum attention or operational impact.
+- **Declining** — Attention and engagement are reducing.
+- **Dormant** — The issue is inactive but may reappear.
+- **Recurring** — The issue repeatedly returns due to unresolved underlying causes.
+
+### 6.4 Issue Scoring Model
+
+Each issue may be scored from 1 to 5 across the following dimensions:
+
+| Dimension | Description |
+|-----------|-------------|
+| Relevance | Degree of importance to the affected audience |
+| Reach | Number of people or groups exposed |
+| Velocity | Speed of spread |
+| Credibility | Degree to which the issue is believed |
+| Emotional Intensity | Strength of the emotional response |
+| Strategic Impact | Potential effect on institutional objectives |
+| Escalation Risk | Likelihood of moving into protest, conflict, crisis, or disruption |
+| Persistence | Likelihood of remaining active |
+| Exploitability | Likelihood of hostile or opportunistic exploitation |
+| Response Urgency | Time available before the issue becomes harder to manage |
+
+An example weighted issue score:
+
+```
+Issue Priority Score =
+  20% Strategic Impact
++ 15% Escalation Risk
++ 15% Velocity
++ 10% Reach
++ 10% Credibility
++ 10% Emotional Intensity
++ 10% Exploitability
++ 5% Persistence
++ 5% Response Urgency
+```
+
+### 6.5 Issue Priority Levels
+
+| Priority | Meaning | Required Action |
+|----------|---------|-----------------|
+| P1 — Critical | Immediate threat to safety, stability, national interest, or institutional legitimacy | Command-level escalation and immediate action |
+| P2 — High | Significant and rapidly developing issue | Dedicated response team and active monitoring |
+| P3 — Moderate | Material issue requiring structured engagement | Scheduled intervention and measurement |
+| P4 — Low | Limited impact or reach | Observe and prepare |
+| P5 — Background | No immediate operational significance | Record for trend analysis |
+
+### 6.6 Outputs
+
+- Issue register
+- Priority issue matrix
+- Issue lifecycle map
+- Issue-owner assignment
+- Issue risk score
+- Trigger indicators
+- Escalation thresholds
+- Scenario assessment
+- Intervention recommendation
+- Issue closure criteria
+
+### 6.7 Issue KPIs
+
+- Time taken to classify a new issue
+- Percentage of high-priority issues with assigned owners
+- Accuracy of escalation forecasts
+- Percentage of issues reviewed within the required cycle
+- Number of recurring issues caused by unresolved root causes
+- Number of high-impact issues detected before mainstream escalation
+
+---
+
+## 7. Component 3: Sentiment
+
+### 7.1 Objective
+
+The Sentiment function identifies how audiences understand, feel about, and respond to an issue.
+
+Sentiment analysis must go beyond positive, negative, and neutral labels.
+
+It should examine:
+
+- Emotion
+- Trust
+- Intention
+- Behaviour
+- Confidence
+- Perceived fairness
+- Perceived competence
+- Perceived threat
+- Willingness to act
+
+### 7.2 Sentiment Dimensions
+
+| Dimension | Example Indicators |
+|-----------|-------------------|
+| Emotional State | Anger, fear, anxiety, hope, pride, frustration |
+| Trust | Trust in government, institution, media, leader, or source |
+| Behavioural Intent | Intention to share, protest, comply, disengage, or mobilise |
+| Issue Position | Support, opposition, uncertainty, or conditional acceptance |
+| Confidence | Confidence in institutional competence or policy direction |
+| Grievance | Perceived unfairness, neglect, exclusion, or harm |
+| Urgency | Degree to which the audience expects immediate action |
+| Resilience | Ability to resist misinformation or emotional manipulation |
+
+### 7.3 Audience Segmentation
+
+Sentiment should be analysed by relevant segments, such as:
+
+- Geography
+- Age group
+- Language
+- Profession
+- Community
+- Stakeholder type
+- Policy exposure
+- Media consumption pattern
+- Political engagement level
+- Institutional relationship
+- Degree of issue impact
+
+Sensitive attributes should be used only where lawful, necessary, proportionate, and approved.
+
+### 7.4 Sentiment Collection Methods
+
+Approved methods may include:
+
+- Public discourse analysis
+- Surveys
+- Polling
+- Focus groups
+- Community engagement
+- Public feedback forms
+- Hotline or service-desk analysis
+- Stakeholder interviews
+- Media comment analysis
+- Trend comparison
+- Field observations
+
+### 7.5 Sentiment Analysis Process
+
+**Step 1 — Establish Baseline**
+
+Determine normal sentiment before the issue emerged.
+
+**Step 2 — Identify Shift**
+
+Measure whether sentiment has changed in:
+
+- Polarity
+- Intensity
+- Volume
+- Emotion
+- Trust
+- Behavioural intent
+
+**Step 3 — Identify Drivers**
+
+Determine the cause of sentiment change.
+
+Potential drivers include:
+
+- Personal impact
+- Economic pressure
+- Service failure
+- Lack of information
+- Contradictory statements
+- Perceived unfairness
+- Identity or community concerns
+- Influencer commentary
+- Visual evidence
+- Historical grievance
+
+**Step 4 — Segment the Response**
+
+Different audiences may react differently to the same issue.
+
+**Step 5 — Assess Behavioural Risk**
+
+Determine whether sentiment may result in:
+
+- Increased sharing
+- Public criticism
+- Institutional disengagement
+- Non-compliance
+- Community tension
+- Protest
+- Panic
+- Reputational damage
+
+### 7.6 Sentiment Outputs
+
+- Sentiment heatmap
+- Emotional-driver assessment
+- Trust index
+- Audience-segment profile
+- Behavioural-intent assessment
+- Sentiment-shift alert
+- Grievance map
+- Public-confidence trend
+- Intervention sensitivity guidance
+
+### 7.7 Sentiment KPIs
+
+- Change in trust score
+- Change in negative sentiment intensity
+- Change in issue misunderstanding
+- Change in audience confidence
+- Reduction in harmful sharing behaviour
+- Improvement in policy comprehension
+- Percentage of priority audience segments covered
+- Alignment between digital sentiment and field findings
+
+---
+
+## 8. Component 4: Influence
+
+### 8.1 Objective
+
+The Influence function identifies the people, institutions, networks, and channels that shape audience understanding and behaviour.
+
+Influence must be assessed based on demonstrated impact, not visibility alone.
+
+### 8.2 Influence Actor Categories
+
+- Government leaders
+- Public officials
+- Political actors
+- Journalists
+- Media organisations
+- Academics
+- Community leaders
+- Religious leaders
+- Civil-society organisations
+- Professional associations
+- Industry leaders
+- Digital creators
+- Micro-influencers
+- Group administrators
+- Anonymous accounts
+- Coordinated networks
+- Foreign information actors
+
+### 8.3 Influence Assessment Factors
+
+| Factor | Operational Meaning |
+|--------|-------------------|
+| Reach | Size of accessible audience |
+| Resonance | Degree to which messages are accepted |
+| Credibility | Level of audience trust |
+| Authority | Formal or informal legitimacy |
+| Relevance | Connection to the issue |
+| Network Position | Ability to bridge communities or groups |
+| Amplification | Ability to increase message visibility |
+| Mobilisation | Ability to trigger action |
+| Consistency | Reliability of the actor's positioning |
+| Accessibility | Ability to engage the actor |
+| Risk | Reputational, legal, security, or integrity risk |
+
+### 8.4 Influence Mapping Process
+
+**Step 1 — Actor Discovery**
+
+Identify actors associated with the issue.
+
+**Step 2 — Relationship Mapping**
+
+Record links between:
+
+- Actors
+- Organisations
+- Platforms
+- Audiences
+- Narratives
+- Geographic communities
+
+**Step 3 — Network Role Classification**
+
+Actors may be classified as:
+
+- Originator
+- Amplifier
+- Interpreter
+- Validator
+- Connector
+- Gatekeeper
+- Mobiliser
+- Trusted messenger
+- Institutional authority
+- Opportunistic participant
+
+**Step 4 — Credibility Assessment**
+
+Assess whether the actor is:
+
+- Trusted
+- Polarising
+- Specialist
+- Opportunistic
+- Unreliable
+- Coordinated
+- Institutionally aligned
+- Independent
+
+**Step 5 — Engagement Suitability**
+
+Not every influential actor should be engaged.
+
+Actors should be assessed for:
+
+- Strategic value
+- Ethical suitability
+- Reputational exposure
+- Legal considerations
+- Message compatibility
+- Audience fit
+
+### 8.5 Influence Outputs
+
+- Influence network map
+- Actor registry
+- Trusted-messenger matrix
+- Amplification pathway
+- Narrative origin assessment
+- Community gatekeeper map
+- Platform distribution map
+- Coordination indicators
+- Engagement recommendation
+- Influence-risk register
+
+### 8.6 Influence KPIs
+
+- Percentage of priority actors mapped
+- Number of verified trusted messengers
+- Accuracy of influence predictions
+- Message reach through trusted channels
+- Change in narrative spread following engagement
+- Number of high-risk actors incorrectly treated as credible
+- Time taken to identify a major amplification network
+
+---
+
+## 9. Component 5: Kontra Narrative
+
+### 9.1 Objective
+
+The Kontra Narrative function designs and delivers interventions that correct misinformation, provide context, rebuild confidence, reduce uncertainty, and support constructive public behaviour.
+
+A Kontra Narrative should not automatically oppose or attack another narrative.
+
+Its purpose is to:
+
+- Clarify
+- Correct
+- Reframe
+- Contextualise
+- Reassure
+- Educate
+- Reduce uncertainty
+- Provide action
+- Restore confidence
+
+### 9.2 Intervention Selection
+
+| Situation | Appropriate Intervention |
+|-----------|------------------------|
+| False claim with limited reach | Monitor or targeted clarification |
+| False claim with increasing reach | Debunking |
+| Predictable future misinformation | Pre-bunking |
+| Factually correct but misleading framing | Contextual clarification |
+| Public anxiety caused by uncertainty | Reassurance and transparent update |
+| Complex policy misunderstanding | Explanation and education |
+| Reputational attack | Evidence-based clarification |
+| Legitimate grievance | Acknowledgement and corrective action |
+| Low-impact provocation | Strategic silence |
+| High-risk crisis | Coordinated institutional communication |
+
+### 9.3 Message Design Model
+
+Each message should contain:
+
+1. **Objective** — What should the audience understand, feel, or do?
+2. **Audience** — Who is the intended recipient?
+3. **Core Fact** — What verified fact must be communicated?
+4. **Audience Concern** — What concern or grievance must be acknowledged?
+5. **Message Frame** — How should the issue be interpreted?
+6. **Evidence** — What evidence supports the message?
+7. **Messenger** — Who is most credible to deliver it?
+8. **Channel** — Where should it be communicated?
+9. **Call to Action** — What practical step should the audience take?
+10. **Measurement** — How will effectiveness be assessed?
+
+### 9.4 Message Architecture
+
+Recommended structure:
+
+```
+ACKNOWLEDGE → CLARIFY → EVIDENCE → EXPLAIN → ACTION → REASSURE
+```
+
+1. Acknowledge the concern
+2. State the verified facts
+3. Explain what is known and unknown
+4. Correct the misleading interpretation
+5. Identify the action being taken
+6. Tell the audience what to do next
+7. Commit to the next update
+
+### 9.5 Counter-Narrative Types
+
+- **Pre-bunking** — Prepare audiences to recognise a predictable misleading claim before exposure.
+- **Debunking** — Correct a false claim using clear evidence.
+- **Reframing** — Shift attention from a misleading interpretation to a more accurate understanding.
+- **Contextualisation** — Provide missing information that changes how the issue should be understood.
+- **Positive Replacement** — Replace a harmful narrative with a more credible and constructive explanation.
+- **Evidence Amplification** — Increase the visibility of verified evidence.
+- **Trusted-Messenger Activation** — Deliver messages through individuals or institutions that the audience already trusts.
+- **Corrective Action Communication** — Demonstrate that the institution is addressing a legitimate problem.
+- **Strategic Silence** — Avoid amplifying content that has low credibility, low reach, and limited impact.
+
+### 9.6 Kontra Narrative Approval Levels
+
+| Level | Example | Approval |
+|-------|---------|----------|
+| Level 1 | Routine factual clarification | Communications lead |
+| Level 2 | Cross-agency or sensitive policy issue | Senior management |
+| Level 3 | High-impact political, security, or public-confidence issue | Command authority |
+| Level 4 | National crisis or strategic-security issue | Designated national authority |
+
+### 9.7 Kontra Narrative Outputs
+
+- Narrative intervention plan
+- Approved message house
+- Key-message document
+- Question-and-answer brief
+- Spokesperson brief
+- Stakeholder engagement plan
+- Channel plan
+- Content calendar
+- Public clarification
+- Measurement plan
+- Post-intervention review
+
+### 9.8 Kontra Narrative KPIs
+
+- Reduction in false-claim acceptance
+- Increase in factual understanding
+- Improvement in trust
+- Reduction in hostile narrative spread
+- Increase in use of verified sources
+- Change in audience behaviour
+- Response time
+- Message consistency across institutions
+- Percentage of interventions reviewed after execution
+
+---
+
+## 10. Integrated R.I.S.I.K Workflow
+
+### Phase 1 — Detect
+
+- Monitor approved information sources
+- Identify unusual changes
+- Capture claims
+- Identify affected audiences
+- Open an issue record
+
+### Phase 2 — Verify
+
+- Validate evidence
+- Assess sources
+- Separate fact from allegation
+- Assign confidence
+- Identify information gaps
+
+### Phase 3 — Assess
+
+- Classify the issue
+- Measure reach and velocity
+- Analyse sentiment
+- Map influence actors
+- Assess strategic impact
+
+### Phase 4 — Prioritise
+
+- Calculate issue priority
+- Assign ownership
+- Determine escalation level
+- Set review frequency
+- Identify decision deadline
+
+### Phase 5 — Design
+
+- Define communication objective
+- Select audience
+- Select intervention type
+- Select messenger and channel
+- Prepare measurement criteria
+
+### Phase 6 — Approve
+
+- Conduct factual review
+- Conduct legal and policy review
+- Conduct security review
+- Obtain designated authority approval
+
+### Phase 7 — Execute
+
+- Release approved communication
+- Activate stakeholders
+- Brief spokespersons
+- Coordinate channels
+- Monitor immediate response
+
+### Phase 8 — Measure
+
+- Measure reach
+- Measure understanding
+- Measure sentiment shift
+- Measure trust
+- Measure behavioural response
+- Identify unintended effects
+
+### Phase 9 — Adapt
+
+- Revise message
+- Change messenger
+- Change channel
+- Increase or reduce response
+- Close, maintain, or escalate the issue
+
+---
+
+## 11. Operational Cadence
+
+### 11.1 Real-Time Monitoring
+
+Used for:
+
+- Crisis
+- Security incidents
+- Rapid disinformation
+- Public safety events
+- Major policy announcements
+
+Recommended review cycle:
+
+- Continuous monitoring
+- Hourly update
+- Immediate alert for threshold breaches
+
+### 11.2 Daily Operating Cycle
+
+**Morning**
+
+- Overnight issue review
+- Priority issue update
+- Sentiment shift review
+- Influence activity review
+- Decision-maker brief
+
+**Midday**
+
+- Verification update
+- Intervention performance review
+- Stakeholder coordination
+- Emerging-risk review
+
+**Evening**
+
+- Daily assessment
+- Outcome measurement
+- Issue reprioritisation
+- Next-day collection requirements
+
+### 11.3 Weekly Cycle
+
+- Strategic trend review
+- Narrative trend analysis
+- Trust and sentiment review
+- Influence-network changes
+- Recurrent issue analysis
+- Governance and compliance review
+
+### 11.4 Monthly Cycle
+
+- Performance scorecard
+- Maturity assessment
+- Strategic issue forecast
+- Intervention effectiveness review
+- Data-quality assessment
+- Lessons-learned session
+
+---
+
+## 12. Command and Governance Structure
+
+### 12.1 Recommended Roles
+
+| Role | Responsibility |
+|------|---------------|
+| R.I.S.I.K Director | Owns strategic direction, governance, and authority alignment |
+| Intelligence Lead | Owns Reality and Issue analysis |
+| Sentiment and Audience Lead | Owns audience research, sentiment, and behavioural assessment |
+| Influence Analyst | Owns actor, network, and channel analysis |
+| Strategic Communications Lead | Owns Kontra Narrative design and execution |
+| Legal and Policy Adviser | Ensures legal and policy compliance |
+| Cybersecurity and Data Governance Lead | Protects systems, data, models, sources, and operational outputs |
+| AI and Data Engineering Lead | Manages analytics, model integration, data pipelines, and automation |
+| Operations Coordinator | Maintains issue tracking, workflows, approvals, and reporting |
+| Senior Approving Authority | Approves sensitive or high-impact interventions |
+
+### 12.2 Responsibility Matrix
+
+| Activity | Analyst | Communications | Legal | Security | Command |
+|----------|---------|---------------|-------|----------|---------|
+| Claim verification | Responsible | Informed | Consulted | Consulted | Informed |
+| Issue scoring | Responsible | Consulted | Informed | Informed | Accountable |
+| Sentiment assessment | Responsible | Consulted | Informed | Consulted | Informed |
+| Influence mapping | Responsible | Consulted | Consulted | Consulted | Informed |
+| Message design | Consulted | Responsible | Consulted | Consulted | Accountable |
+| Public release | Informed | Responsible | Approved | Approved | Accountable |
+| Post-action review | Responsible | Responsible | Consulted | Consulted | Accountable |
+
+---
+
+## 13. Information and Data Model
+
+Each issue should have a structured operational record.
+
+### 13.1 Core Issue Record
+
+- Issue ID
+- Issue name
+- Description
+- Date detected
+- Status
+- Priority level
+- Owner
+- Geographic scope
+- Affected audiences
+- Related actors
+- Related claims
+- Sentiment score
+- Influence score
+- Strategic impact
+- Escalation risk
+- Verification confidence
+- Recommended action
+- Approval status
+- Intervention history
+- Measurement results
+- Closure status
+
+### 13.2 Narrative Record
+
+- Narrative ID
+- Narrative statement
+- Origin
+- First detected date
+- Associated actors
+- Associated platforms
+- Audience segments
+- Reach
+- Velocity
+- Credibility
+- Emotional driver
+- Evidence status
+- Intervention status
+- Outcome
+
+### 13.3 Actor Record
+
+- Actor ID
+- Name
+- Organisation
+- Actor category
+- Geographic relevance
+- Audience
+- Reach
+- Credibility
+- Authority
+- Network position
+- Mobilisation capacity
+- Narrative alignment
+- Engagement status
+- Risk rating
+
+---
+
+## 14. AI Enablement
+
+AI may strengthen R.I.S.I.K through automation and analytical support.
+
+### 14.1 Suitable AI Functions
+
+- Entity extraction
+- Event detection
+- Claim clustering
+- Duplicate detection
+- Translation
+- Topic modelling
+- Sentiment classification
+- Emotion analysis
+- Narrative similarity
+- Network analysis
+- Trend detection
+- Summarisation
+- Alert generation
+- Report drafting
+- Scenario simulation
+- Evidence retrieval
+
+### 14.2 AI Control Requirements
+
+Every AI-generated output should include:
+
+- Source references
+- Confidence level
+- Timestamp
+- Model version
+- Analyst review status
+- Known limitations
+- Human approval status
+
+### 14.3 Human-in-the-Loop Gates
+
+Human review is mandatory before:
+
+- Public attribution
+- Issue escalation
+- Sensitive actor classification
+- Public communication
+- High-impact intervention
+- Cross-agency dissemination
+- External stakeholder targeting
+
+### 14.4 AI Risks
+
+Key risks include:
+
+- Hallucination
+- Source fabrication
+- Misclassification
+- Bias
+- Context loss
+- False attribution
+- Overconfidence
+- Data leakage
+- Prompt injection
+- Model manipulation
+- Adversarial content
+- Automated amplification of false claims
+
+---
+
+## 15. Operational Dashboards
+
+A R.I.S.I.K dashboard should provide:
+
+### Strategic View
+
+- Top five priority issues
+- Current risk posture
+- Public-confidence trend
+- Major narrative shifts
+- Critical influence actors
+- Outstanding decisions
+
+### Operational View
+
+- New claims
+- Verification status
+- Issue velocity
+- Sentiment changes
+- Escalation alerts
+- Active interventions
+- Pending approvals
+
+### Measurement View
+
+- Intervention reach
+- Understanding improvement
+- Trust change
+- Narrative reduction
+- Behavioural impact
+- Unintended consequences
+
+---
+
+## 16. Escalation Triggers
+
+An issue should be escalated when one or more thresholds are crossed.
+
+Potential triggers include:
+
+- Rapid increase in reach
+- Sudden sentiment deterioration
+- Movement from online discussion to physical mobilisation
+- Involvement of high-credibility actors
+- Cross-platform narrative coordination
+- Threat to public safety
+- Threat to national security
+- Threat to institutional legitimacy
+- Foreign information interference
+- Release of manipulated or fabricated evidence
+- Contradictory statements from official institutions
+- Significant media escalation
+
+---
+
+## 17. Intervention Decision Matrix
+
+| Reach | Credibility | Impact | Recommended Response |
+|-------|------------|--------|---------------------|
+| Low | Low | Low | Monitor |
+| High | Low | Low | Avoid unnecessary amplification |
+| Low | High | Moderate | Targeted clarification |
+| High | High | Moderate | Broad evidence-based response |
+| High | High | High | Coordinated strategic intervention |
+| Rapidly Rising | Unknown | High | Immediate verification and interim holding statement |
+| Low | High | High | Direct stakeholder engagement |
+| High | False | High | Urgent debunking and trusted-messenger activation |
+
+---
+
+## 18. Standard Operational Products
+
+The R.I.S.I.K operating team should maintain the following products:
+
+1. Daily R.I.S.I.K Brief
+2. Priority Issue Register
+3. Claim Verification Register
+4. Sentiment Heatmap
+5. Influence Network Map
+6. Narrative Threat Assessment
+7. Intervention Plan
+8. Stakeholder Engagement Matrix
+9. Spokesperson Brief
+10. Executive Decision Note
+11. Weekly Strategic Assessment
+12. Post-Intervention Review
+13. Lessons-Learned Report
+
+---
+
+## 19. Daily R.I.S.I.K Brief Template
+
+### 1. Executive Summary
+
+- Top developments
+- Major changes
+- Required decisions
+
+### 2. Reality
+
+- Confirmed facts
+- Unverified claims
+- Information gaps
+
+### 3. Issue
+
+- Priority
+- Lifecycle
+- Strategic impact
+- Escalation risk
+
+### 4. Sentiment
+
+- Current sentiment
+- Key emotions
+- Audience segments
+- Behavioural indicators
+
+### 5. Influence
+
+- Key actors
+- Amplification networks
+- Trusted messengers
+- New influence developments
+
+### 6. Kontra Narrative
+
+- Current intervention
+- Recommended message
+- Messenger
+- Channel
+- Approval required
+
+### 7. Outlook
+
+- Likely next development
+- Indicators to monitor
+- Decision deadline
+
+---
+
+## 20. Post-Intervention Review
+
+Every major intervention should be reviewed against:
+
+1. Was the underlying assessment accurate?
+2. Was the message factually correct?
+3. Was the audience correctly selected?
+4. Was the messenger credible?
+5. Was the channel appropriate?
+6. Did public understanding improve?
+7. Did trust improve or deteriorate?
+8. Was the harmful narrative reduced?
+9. Did the response unintentionally amplify the issue?
+10. Were there legal, ethical, security, or reputational concerns?
+11. What should be changed in the next intervention?
+
+---
+
+## 21. R.I.S.I.K Maturity Model
+
+| Level | Description |
+|-------|-------------|
+| Level 1 — Reactive | Ad hoc monitoring and communication |
+| Level 2 — Structured | Defined issue registers and reporting |
+| Level 3 — Integrated | Reality, Issue, Sentiment, Influence, and Kontra Narrative linked in one workflow |
+| Level 4 — Intelligence-Led | Predictive indicators, cross-agency coordination, and measurable interventions |
+| Level 5 — Adaptive | AI-enabled analysis, continuous learning, simulation, and institutionalised governance |
+
+---
+
+## 22. Initial Implementation Roadmap
+
+### Phase 1 — Establish Foundation (0–30 days)
+
+- Approve doctrine and governance
+- Define roles
+- Establish issue taxonomy
+- Establish data-source register
+- Create operational templates
+- Define legal and ethical controls
+- Build initial issue register
+- Identify priority use cases
+
+### Phase 2 — Operationalise (31–60 days)
+
+- Launch daily brief
+- Begin claim verification
+- Introduce issue scoring
+- Establish sentiment baseline
+- Build initial influence maps
+- Establish message approval workflow
+- Develop performance dashboard
+
+### Phase 3 — Integrate Technology (61–90 days)
+
+- Connect approved data sources
+- Deploy analytics tools
+- Introduce AI-assisted classification
+- Implement role-based access
+- Implement audit logging
+- Automate alerts
+- Establish model evaluation process
+
+### Phase 4 — Scale (3–6 months)
+
+- Expand stakeholder coverage
+- Develop cross-agency workflows
+- Introduce scenario simulation
+- Establish training programme
+- Conduct operational exercises
+- Formalise monthly performance reviews
+- Build institutional knowledge base
+
+---
+
+## 23. Strategic Positioning
+
+R.I.S.I.K is an intelligence-led operating framework that establishes reality, prioritises issues, understands audience sentiment, maps influence, and delivers lawful, evidence-based, measurable communication interventions.
+
+Its strategic value lies in its ability to connect:
+
+```
+FACTS → ISSUES → PEOPLE → INFLUENCE → ACTION
+```
+
+R.I.S.I.K does not treat communication as an isolated media activity.
+
+It positions communication as an integrated operational function combining:
+
+- Intelligence
+- Data
+- Human judgement
+- Governance
+- Stakeholder engagement
+- Strategic communication
+- Measurement
+- Continuous adaptation
+
+The framework provides the foundation for an institutional capability that can detect emerging information risks, support decision-makers, protect public confidence, strengthen societal resilience, and enable coordinated responses across the information environment.
 
 ---
 
 *Document saved: 2026-08-04*
-*Source: DAF — R.I.S.I.K Framework specification (expanded with operational process)*
+*Source: DAF — R.I.S.I.K Framework expanded doctrine specification*
 *Authority: DAF*
