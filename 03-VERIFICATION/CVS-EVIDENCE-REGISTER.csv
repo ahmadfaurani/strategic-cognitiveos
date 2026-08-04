@@ -1,0 +1,2 @@
+claim_id,workstream,claim,source_name,source_type,source_url,source_date,evidence_type,tier,validation_status,confidence_score,authority,traceability,recency,consistency,completeness,issue_gap,owner,action_required,last_reviewed
+CVS-MAST-001,MASTER,Example: CVS framework deployed as universal standard,Head of Intelligence directive,,2026-08-04,Internal document,T1,Verified,10,2,2,2,2,2,None,DAF,None,2026-08-04
