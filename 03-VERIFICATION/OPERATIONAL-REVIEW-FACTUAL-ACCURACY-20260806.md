@@ -5,7 +5,7 @@
 **Created:** 2026-08-06 21:00 MYT
 **Classification:** TLP:AMBER
 **Authority:** Head of Intelligence, Aras Integrasi
-**Trigger:** Debate participant assessment (commit 1e1d777) contained 5 factual errors requiring user correction
+**Trigger:** Intelligence product (commit 1e1d777) contained 5 factual errors requiring user correction
 
 ---
 
@@ -17,17 +17,17 @@ CVS is necessary but not sufficient for 100% operational accuracy. The framework
 
 ---
 
-## 2. Error Taxonomy — What Went Wrong
+## 2. Error Taxonomy
 
-| # | Error | Type | CVS Coverage? | Root Cause |
-|---|-------|------|---------------|------------|
-| 1 | Tony Pua listed as sitting MP | Identity claim — false | ❌ No | Not checked against L1 Parliament member list |
-| 2 | Amir Hamzah Azizan listed as Dewan Rakyat MP | Identity claim — false | ❌ No | Not checked against L1 Parliament member list |
-| 3 | East Malaysian seats stated as both 33 and 53 | Numerical inconsistency | ❌ No | No arithmetic cross-check; two different counts in same document |
-| 4 | 9 August remand expiry stated as fact | Operational trigger — unverified | ❌ No | Stated without named individual or court record |
-| 5 | PAS MP name wrong (Awang Solahuddin vs Awang Hashim) | Identity claim — unverified | ❌ No | Not checked against Parliament member list |
+| # | Error Type | Category | CVS Coverage? | Root Cause |
+|---|-------|---------|---------------|------------|
+| 1 | Former position-holder listed as current | Identity claim — false | ❌ No | Not checked against L1 authoritative registry |
+| 2 | Member of one body listed as member of another | Identity claim — false | ❌ No | Not checked against L1 authoritative registry |
+| 3 | Contradictory numerical values in same document | Numerical inconsistency | ❌ No | No internal consistency cross-check |
+| 4 | Operational trigger stated as fact without source | Unverified claim | ❌ No | Stated without named source or record |
+| 5 | Wrong name variant vs official record | Identity claim — unverified | ❌ No | Not checked against L1 authoritative registry |
 
-**All 5 errors are identity/numerical claims that would have been caught by checking against a single L1 source: the Parliament of Malaysia official member list.**
+**All 5 errors are identity/numerical claims that would have been caught by checking against an authoritative source registry.**
 
 ---
 
@@ -49,7 +49,7 @@ CVS is necessary but not sufficient for 100% operational accuracy. The framework
 |-------|-----|--------|
 | **Real-time chat responses** | No validation gate between LLM and user | All 5 errors occurred here |
 | **Ad-hoc document generation** | User requests report → LLM writes → commits → no claim extraction or scoring | Errors propagate to git and workspace |
-| **Identity verification** | No L1 source check for MP/Senator/person identity claims | 3 of 5 errors were identity claims |
+| **Identity verification** | No L1 registry check for entity identity claims | 3 of 5 errors were identity claims |
 | **Numerical consistency** | No internal arithmetic cross-check | 1 error was contradictory counts in same document |
 | **Source-less claims** | Claims stated as fact without any source attribution | 1 error was an unverified operational trigger |
 
@@ -69,7 +69,7 @@ The problem: steps 2-6 happen **after** the claim is already in the output. In r
 What's missing is a **pre-output verification gate** that checks factual claims BEFORE they are stated:
 
 ```
-LLM generates claim → PRE-OUTPUT GATE (verify against L1 sources) → Output to user
+LLM generates claim → PRE-OUTPUT GATE (verify against L1 registries) → Output to user
                     ↓
                  Claim fails → Suppress or relabel as [ASSESSMENT]
 ```
@@ -82,27 +82,26 @@ This is fundamentally different from CVS's post-hoc model. CVS asks "is this cla
 
 ### Layer 1: Pre-Output Verification Protocol (NEW)
 
-**Applies to:** All real-time chat responses and ad-hoc document generation
+**Applies to:** All real-time chat responses and ad-hoc document generation across all workstreams
 
 **Protocol:**
-1. **Identity claims** (who is an MP, Senator, minister, party member) — must be verifiable against an L1 source before stating as fact. If not verified, label as `[UNVERIFIED]` or state as assessment.
-2. **Numerical claims** (seat counts, vote counts, dates, amounts) — must be internally consistent. If two different numbers appear in the same output, flag and reconcile before output.
-3. **Operational triggers** (dates, events, scheduled actions) — must have a named source. "9 August remand expiry" requires a named individual and court record. If unverified, exclude or label as `[UNCONFIRMED]`.
+1. **Identity claims** (who holds a role, belongs to an organisation, holds a position) — must be verifiable against an L1 Reference Registry or at least one L3+ source before stating as fact. If not verified, label as `[UNVERIFIED]` or state as assessment.
+2. **Numerical claims** (counts, amounts, dates, statistics) — must be internally consistent. If two different numbers appear in the same output for the same thing, flag and reconcile before output.
+3. **Operational triggers** (dates, events, scheduled actions) — must have a named source (individual, court record, official statement, document). If unverified, exclude or label as `[UNCONFIRMED]`.
 4. **Source attribution** — every factual claim in ad-hoc documents must include source attribution. No bare facts without sources.
 
 **Enforcement:** Self-enforced by the LLM before output. No external script needed — this is a cognitive protocol, not a software gate.
 
-### Layer 2: Parliament Member Reference (NEW)
+### Layer 2: L1 Reference Registry System (NEW)
 
-**Create a local L1 reference file for MP identity verification:**
+**Concept:** Maintain local authoritative source registries for any domain where the workstream frequently makes identity claims about a class of entities.
 
-- Source: `parlimen.gov.my/ahli-dewan.html` (official Parliament member list)
-- File: `~/.openclaw/workspace/03-VERIFICATION/L1-PARLIAMENT-MEMBERS.csv`
-- Fields: name, constituency, party, coalition, house (Dewan Rakyat/Dewan Negara)
-- Update: Monthly or when by-elections occur
-- Purpose: Every identity claim about an MP must be cross-referenced against this file before stating
+**Current registries:**
+- `03-VERIFICATION/L1-PARLIAMENT-MEMBERS.csv` — 222 sitting Dewan Rakyat MPs (code, constituency, name, party, coalition)
 
-This is the single highest-impact measure. 3 of 5 errors would have been caught by this file alone.
+**Adding new registries:** When a workstream frequently makes identity claims about a class of entities (companies, officials, organisations, products), create an L1 Reference CSV in `03-VERIFICATION/` with the authoritative fields for that domain. Update on a cadence appropriate to the domain (monthly, quarterly, or event-driven).
+
+**Every identity claim must be cross-referenced against the relevant L1 Reference Registry before stating as fact.** This is the single highest-impact measure. 3 of 5 errors would have been caught by registry cross-reference alone.
 
 ### Layer 3: Ad-Hoc Document CVS Gate (NEW)
 
@@ -110,8 +109,8 @@ This is the single highest-impact measure. 3 of 5 errors would have been caught 
 
 **Protocol:**
 1. Before committing any ad-hoc document, run `validate.sh` to extract numerical claims and named entities
-2. Cross-reference extracted names against L1-PARLIAMENT-MEMBERS.csv
-3. Flag any name not found in the reference as `[UNVERIFIED]`
+2. Cross-reference extracted names against relevant L1 Reference Registries
+3. Flag any name not found in the registry as `[UNVERIFIED]`
 4. Commit only after all flagged claims are resolved or labeled
 
 **This extends CVS from cronjob-only to all outputs.**
@@ -124,23 +123,23 @@ This is the single highest-impact measure. 3 of 5 errors would have been caught 
 
 | # | Action | Status | Impact |
 |---|--------|--------|--------|
-| 1 | Create `L1-PARLIAMENT-MEMBERS.csv` from official Parliament source | Pending | Catches all identity errors |
-| 2 | Patch CVS skill with pre-output verification protocol | Pending | Extends CVS to chat responses |
-| 3 | Update AGENTS.md with pre-output verification mandate | Pending | Institutionalizes the protocol |
+| 1 | Create first L1 Reference Registry (Parliament members) | ✅ Done | Catches identity errors for that domain |
+| 2 | Patch CVS skill with general pre-output verification protocol | ✅ Done | Extends CVS to chat responses |
+| 3 | Write this operational review | ✅ Done | Documents the gap and solution |
 
 ### Short-Term (Next 7 Days)
 
 | # | Action | Impact |
 |---|--------|--------|
-| 4 | Build MP identity verification into CJ-TH-01 prompt | Prevents cronjob from repeating errors |
-| 5 | Run validate.sh on all existing TH-RCI workspace documents | Retroactive error catch |
+| 4 | Identify other domains needing L1 registries (companies? officials? organisations?) | Expands coverage |
+| 5 | Run validate.sh on existing workspace documents | Retroactive error catch |
 | 6 | Add internal consistency check to validate.sh (detect contradictory numbers) | Catches arithmetic errors |
 
 ### Ongoing
 
 | # | Action | Impact |
 |---|--------|--------|
-| 7 | Monthly L1-PARLIAMENT-MEMBERS.csv update (or event-driven on by-election) | Keeps reference current |
+| 7 | Update L1 registries on domain-appropriate cadence | Keeps references current |
 | 8 | Quarterly CVS audit includes ad-hoc document review | Catches unvalidated documents |
 
 ---
@@ -149,14 +148,13 @@ This is the single highest-impact measure. 3 of 5 errors would have been caught 
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│ LAYER 0: L1 Source References (NEW)                  │
-│ • Parliament member list (L1)                        │
-│ • SPR official results (L1)                          │
-│ • Government gazette (L1)                            │
+│ LAYER 0: L1 Reference Registries (NEW)               │
+│ • Domain-specific authoritative source CSVs          │
+│ • One per class of entity (Parliament, companies...) │
 │ Cross-reference before ANY identity claim           │
 ├─────────────────────────────────────────────────────┤
 │ LAYER 1: Pre-Output Verification Gate (NEW)          │
-│ • Identity claims → check L1 source                 │
+│ • Identity claims → check L1 registry                │
 │ • Numerical claims → internal consistency check      │
 │ • Operational triggers → require named source        │
 │ • Unverifiable → label [UNVERIFIED] or suppress      │
@@ -178,11 +176,13 @@ This is the single highest-impact measure. 3 of 5 errors would have been caught 
 
 ## 8. Bottom Line
 
-CVS ensures that cronjob outputs are validated, scored, and logged. It does not prevent the LLM from making factual errors in real-time chat or ad-hoc documents. The 5 errors in the debate participant assessment all occurred in the gap between "LLM generates claim" and "claim reaches user."
+CVS ensures that cronjob outputs are validated, scored, and logged. It does not prevent the LLM from making factual errors in real-time chat or ad-hoc documents. The 5 errors in this incident all occurred in the gap between "LLM generates claim" and "claim reaches user."
 
 **Three measures close this gap:**
-1. **L1 Parliament member reference** — single source of truth for MP identity
+1. **L1 Reference Registry system** — authoritative source-of-truth files for any domain with frequent identity claims
 2. **Pre-output verification protocol** — cognitive gate before any factual claim is stated
 3. **Ad-hoc document CVS gate** — extend validation from cronjob-only to all outputs
 
 With these three layers, CVS moves from "post-hoc validation" to "end-to-end accuracy assurance." Without them, the same class of errors will recur in every chat-level intelligence product.
+
+The protocol is domain-agnostic. The Parliament member registry is the first instance; additional registries should be created whenever a workstream frequently makes identity claims about a class of entities.
