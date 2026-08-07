@@ -67,6 +67,35 @@ Per the R.I.S.I.K Maturity Model (Section 21):
 **Doctrine completeness:** 100% — all 23 sections documented.
 **Operational completeness:** ~20% — doctrine exists, pipelines don't.
 
+### 2.1 Maturity Trajectory — What Moves Us Between Levels
+
+| Transition | What Must Be True | Plan Phase | Target Date |
+|-----------|-----------------|-----------|-------------|
+| **Level 1 → Level 2** | Daily collection operational; claim register live; issue register with scored issues; PIR taxonomy validated; daily brief delivered on schedule | Phase 0 + Phase 1 | End Sep 2026 |
+| **Level 2 → Level 3** | Sentiment pipeline running; influence network map active; narrative detection producing clusters; IAB generated from linked R→I→S→In workflow; first controlled simulation completed | Phase 2 + Phase 3 | End Jan 2027 |
+| **Level 3 → Level 4** | Dashboard operational with all three views; escalation triggers wired; cross-agency workflow tested; predictive indicators validated; training programme delivered; operational exercise passed | Phase 4 | End Apr 2027 |
+| **Level 4 → Level 5** | Continuous learning system active (model retraining, adaptive thresholds); scenario simulation at scale; academic publication submitted; national capability assessment completed; PoC demonstrated to stakeholders | Phase 5 | End Oct 2027 |
+
+### 2.2 Current Level 1→2 Gap Assessment
+
+| Level 2 Requirement (per Section 22, Phase 1-2) | Current State | Gap | Build Owner |
+|------------------------------------------------|-------------|-----|------------|
+| Approve doctrine and governance | ✅ Done (23 sections, CognitiveOS governance) | None | — |
+| Define roles | ⚠️ Framework roles defined, not staffed | Staffing | DAF |
+| Establish issue taxonomy | ✅ PIR definitions exist (10+1 PIRs) | Refinement for non-election context | UiTM |
+| Establish data-source register | ⚠️ 32 sources configured in DeerFlow | Source grading A-F missing | Aras |
+| Create operational templates | ✅ SIB, IAB, NIP templates in Operational Process | None | — |
+| Define legal and ethical controls | ⚠️ OSA 1972 identified, protocol not agreed | Joint agreement | Joint |
+| Build initial issue register | ❌ Does not exist | Build claim register + issue register | Aras |
+| Identify priority use cases | ⚠️ Johor PRN 2026 seats identified | Non-election use cases needed | Joint |
+| Launch daily brief | ⚠️ Generator exists, never operationalised | Wire and schedule | Aras |
+| Begin claim verification | ⚠️ CVS exists, not wired to daily flow | Pipeline integration | Aras |
+| Introduce issue scoring | ❌ 10-dimension model defined, not built | Build scoring engine | Aras |
+| Establish sentiment baseline | ❌ No sentiment pipeline | Build sentiment pipeline | Aras (Phase 2) |
+| Build initial influence maps | ❌ No actor registry or network mapping | Build influence pipeline | Aras (Phase 2) |
+| Establish message approval workflow | ⚠️ CognitiveOS DEC/ACT records exist | Operationalise for R.I.S.I.K | Joint |
+| Develop performance dashboard | ❌ Does not exist | Build dashboard | Aras (Phase 3) |
+
 ---
 
 ## 3. Infrastructure Audit — What We Have
@@ -210,34 +239,60 @@ The framework lists 16 AI functions. Here is the build sequence:
 
 ### Phase A — Foundation AI (Weeks 1-4)
 
-| # | AI Function | Input | Output | Engine | Priority |
-|---|-----------|-------|--------|--------|----------|
-| 1 | Entity extraction | Raw collected text | Structured entities (actors, orgs, locations, dates, numbers) | vLLM (GLM-5.2) | P0 — blocking |
-| 2 | Event detection | Entity-tagged signals | Event records with timestamp, location, actors | vLLM + PIR tagger | P0 |
-| 3 | Claim extraction & clustering | Raw text | Structured claims with source attribution | vLLM + CVS | P0 |
-| 4 | Duplicate detection | Signal registry | Deduplicated signal set | Embedding similarity | P1 |
-| 5 | Topic modelling | Collected corpus | Topic clusters | vLLM + clustering | P1 |
-| 6 | Summarisation | Daily signal corpus | Executive summary | vLLM (GLM-5.2) | P1 |
+| # | AI Function | Input | Output | Engine | Priority | Effort | Depends On |
+|---|-----------|-------|--------|--------|----------|--------|------------|
+| 1 | Entity extraction | Raw collected text | Structured entities (actors, orgs, locations, dates, numbers) | vLLM (GLM-5.2) | P0 — blocking | 3 days | Daily collection running |
+| 2 | Event detection | Entity-tagged signals | Event records with timestamp, location, actors | vLLM + PIR tagger | P0 | 3 days | #1 (entity extraction) |
+| 3 | Claim extraction & clustering | Raw text | Structured claims with source attribution | vLLM + CVS | P0 | 4 days | #1, CVS integration |
+| 4 | Duplicate detection | Signal registry | Deduplicated signal set | Embedding similarity (Qwen3.5-27B) | P1 | 2 days | #1, signal registry |
+| 5 | Topic modelling | Collected corpus | Topic clusters with keywords | vLLM (GLM-5.2) + clustering | P1 | 3 days | #1, #4 |
+| 6 | Summarisation | Daily signal corpus | Executive summary (3-5 paragraphs) | vLLM (GLM-5.2) | P1 | 2 days | #1, #4 |
+
+**Build approach:** Prompt template engineering against vLLM API. Each function is a Python script that:
+1. Reads from Signal Registry (JSONL)
+2. Constructs a structured prompt (system + user messages)
+3. Calls vLLM endpoint (`model.arasintegrasi.ai/v1/chat/completions`)
+4. Parses structured JSON response
+5. Writes enriched data back to Signal Registry or claim register
+6. Logs model version, confidence, timestamp per Section 14.2
+
+**Testing approach:**
+- Each function tested against 50-sample gold set (manually verified outputs)
+- Accuracy threshold: ≥85% precision, ≥75% recall for entity/claim extraction
+- Sentiment/emotion: ≥80% agreement with human-coded labels on 100-sample test set
+- UiTM validation gate on all Malaysian-context functions before production
+
+**Prompt template storage:** `tools/risik-ai/prompts/` — version-controlled prompt templates per function
 
 ### Phase B — Analytical AI (Weeks 5-10)
 
-| # | AI Function | Input | Output | Engine | Priority |
-|---|-----------|-------|--------|--------|----------|
-| 7 | Sentiment classification | Text by segment | Polarity, intensity, emotion tags | vLLM (Qwen3.5-397B) | P0 — core R.I.S.I.K |
-| 8 | Emotion analysis | Text by segment | Emotion labels (anger, fear, hope, etc.) | vLLM (Qwen3.5-397B) | P0 — core R.I.S.I.K |
-| 9 | Narrative similarity | Narrative database | Similar narrative clusters | Embedding + cosine similarity | P1 |
-| 10 | Network analysis | Actor relationships | Influence network map | Graph algorithms | P1 — core R.I.S.I.K |
-| 11 | Trend detection | Time-series signal data | Trend indicators, velocity, acceleration | Statistical + LLM | P1 |
-| 12 | Alert generation | Threshold breaches | Structured alert with context | Rule engine + LLM | P1 |
+| # | AI Function | Input | Output | Engine | Priority | Effort | Depends On |
+|---|-----------|-------|--------|--------|----------|--------|------------|
+| 7 | Sentiment classification | Text by segment | Polarity, intensity, emotion tags (per Section 7.2 — 8 dimensions) | vLLM (Qwen3.5-397B) | P0 — core R.I.S.I.K | 5 days | #1, #4 (entity extraction, dedup) |
+| 8 | Emotion analysis | Text by segment | Emotion labels: anger, fear, anxiety, hope, pride, frustration (per Section 7.2) | vLLM (Qwen3.5-397B) | P0 — core R.I.S.I.K | 4 days | #7 (sentiment pipeline) |
+| 9 | Narrative similarity | Narrative database | Similar narrative clusters with cosine similarity scores | Embedding (Qwen3.5-27B) + cosine similarity | P1 | 4 days | #3 (claim clustering), #5 (topic modelling) |
+| 10 | Network analysis | Actor relationships (from entity extraction) | Influence network map with network roles (per Section 8.4 Step 3) | Graph algorithms (NetworkX) + LLM classification | P1 — core R.I.S.I.K | 6 days | #1 (entity extraction), actor registry |
+| 11 | Trend detection | Time-series signal data | Trend indicators: velocity, acceleration, direction change | Statistical (numpy/scipy) + LLM interpretation | P1 | 4 days | Signal registry with ≥30 days data |
+| 12 | Alert generation | Threshold breaches (per Section 16) | Structured alert with context, recommended action | Rule engine + LLM (GLM-5.2) | P1 | 3 days | #11 (trend detection), escalation triggers configured |
+
+**Model routing strategy:**
+- GLM-5.2: Primary model for extraction, summarisation, report drafting, translation (fast, capable)
+- Qwen3.5-397B: Analytical functions requiring deep reasoning (sentiment, emotion, narrative analysis)
+- Qwen3.5-27B: Embedding and similarity tasks (lightweight, fast)
+- Kimi-K2.5/K2.6: Fallback and specialised tasks (long-context analysis)
 
 ### Phase C — Advanced AI (Weeks 11-16)
 
-| # | AI Function | Input | Output | Engine | Priority |
-|---|-----------|-------|--------|--------|----------|
-| 13 | Report drafting | Structured analysis | Draft IAB / daily brief | vLLM (GLM-5.2) | P2 |
-| 14 | Evidence retrieval | Claim queries | Supporting evidence from corpus | RAG + vLLM | P2 |
-| 15 | Scenario simulation | Issue parameters | Scenario projections | vLLM (multi-shot) | P2 |
-| 16 | Translation | BM ↔ English texts | Translated documents | vLLM (GLM-5.2) | P2 |
+| # | AI Function | Input | Output | Engine | Priority | Effort | Depends On |
+|---|-----------|-------|--------|--------|----------|--------|------------|
+| 13 | Report drafting | Structured analysis (IAB components) | Draft IAB / daily brief per Section 19 template | vLLM (GLM-5.2) | P2 | 4 days | #1-12 all operational |
+| 14 | Evidence retrieval | Claim queries | Supporting evidence from corpus with citations | RAG (Qwen3.5-27B embeddings) + vLLM | P2 | 5 days | #3 (claim register), embedding index |
+| 15 | Scenario simulation | Issue parameters + historical patterns | 3-scenario projections (best/likely/worst case) | vLLM (multi-shot, GLM-5.2) | P2 | 5 days | #11 (trend data), #9 (narrative clusters) |
+| 16 | Translation | BM ↔ English texts | Translated documents with terminology glossary | vLLM (GLM-5.2) | P2 | 2 days | Glossary built from collection corpus |
+
+**Total estimated effort:** ~58 person-days across 16 functions
+**Critical path:** #1 → #2 → #3 → #7 → #8 → #13 (entity extraction through report drafting)
+**Parallel tracks:** #4-6 can run alongside #2-3; #9-12 can run alongside #7-8; #14-16 are independent
 
 ### AI Control Requirements (Per Section 14.2)
 
@@ -412,13 +467,22 @@ These require Aras support but Aras cannot do them alone:
 
 | Task | Owner | Deliverable | Week |
 |------|-------|------------|------|
-| Scenario simulation engine | Aras | Multi-scenario projection capability | W17-18 |
-| Cross-agency workflow | Joint | Coordination protocol with other agencies | W18-20 |
-| Training programme | Joint | R.I.S.I.K operator training curriculum | W20-22 |
-| Operational exercise | Joint | Full-scale exercise with real-time injection | W22 |
-| Monthly performance review process | Joint | Scorecard, maturity assessment, strategic forecast | W23 |
-| Institutional knowledge base | Aras | Lessons-learned, case studies, best practices | W24-25 |
-| Level 4 maturity assessment | Joint | Independent assessment against maturity model | W26 |
+| Scenario simulation engine | Aras | Multi-scenario projection capability (best/likely/worst case per issue, with confidence intervals and historical comparison) | W17-18 |
+| Cross-agency workflow | Joint | Coordination protocol with other agencies (CSM, NACSA, JDN/JDM, PMO); defined data-sharing boundaries under OSA 1972; escalation paths to national authority | W18-20 |
+| Training programme | Joint | R.I.S.I.K operator training curriculum: 5 modules (Collection & Verification, Analysis & Assessment, Decision & Approval, Engagement & Measurement, Governance & Compliance); 2-day workshop format; trained operators can run daily cycle independently | W20-22 |
+| Operational exercise | Joint | Full-scale exercise: real-time injection of simulated information event; tests end-to-end R.I.S.I.K cycle (detect → verify → assess → prioritise → design → approve → execute → measure → adapt); exercise report with performance scores | W22 |
+| Monthly performance review process | Joint | Monthly scorecard (collection rate, verification time, sentiment accuracy, intervention effectiveness, maturity level); quarterly strategic forecast; annual capability review | W23 |
+| Institutional knowledge base | Aras | Lessons-learned database, case study library, best practice guides, operator playbook, troubleshooting guide; stored in CognitiveOS with searchable index | W24-25 |
+| Level 4 maturity assessment | Joint | Independent assessment against maturity model (Section 21); conducted by UiTM academic team; written report with scorecard and recommendations | W26 |
+
+**Phase 4 Exit Criteria:**
+- [ ] Scenario engine produces 3-scenario projections for ≥5 priority issues
+- [ ] Cross-agency workflow tested with ≥1 partner agency
+- [ ] Training curriculum delivered to ≥5 operators (Aras + UiTM)
+- [ ] Operational exercise completed with end-to-end R.I.S.I.K cycle
+- [ ] Monthly performance review process documented and running
+- [ ] Institutional knowledge base with ≥10 case studies
+- [ ] Level 4 maturity independently assessed and confirmed
 
 ### Phase 5 — PoC & Beyond (Months 7-12, ~May-Oct 2027)
 
@@ -426,12 +490,27 @@ These require Aras support but Aras cannot do them alone:
 
 | Task | Owner | Deliverable | Month |
 |------|-------|------------|-------|
-| Proof of Concept demonstration | Joint | PoC demonstrating operational relevance to stakeholders | M7 |
-| PoC review and stakeholder briefing | Joint | Stakeholder presentation | M7 |
-| Continuous learning system | Aras | Feedback loops, model retraining, adaptive thresholds | M8-9 |
-| Advanced AI: scenario simulation at scale | Aras | Multi-variable scenario modelling | M9-10 |
-| Publication pathway (academic output) | UiTM | Joint research paper / framework validation publication | M10 |
-| National capability assessment | Joint | Assessment of R.I.S.I.K as national capability | M12 |
+| Proof of Concept demonstration | Joint | PoC demonstrating operational relevance to stakeholders; live demonstration of full R.I.S.I.K cycle on a real priority issue; includes before/after measurement data; audience: PMO officials, CSM, NACSA, sponsor institutions | M7 |
+| PoC review and stakeholder briefing | Joint | Stakeholder presentation: PoC results, capability assessment, recommended next steps (institutional adoption, funding, scaling); written briefing document for senior decision-makers | M7 |
+| Continuous learning system | Aras | Feedback loops: post-intervention review data feeds back into model retraining; adaptive thresholds (escalation triggers adjust based on false positive/negative rates); model evaluation pipeline (monthly accuracy audit, drift detection) | M8-9 |
+| Advanced AI: scenario simulation at scale | Aras | Multi-variable scenario modelling: inject multiple simultaneous issues, test cascade effects, model intervention sequencing; Monte Carlo simulation with 100+ iterations per scenario | M9-10 |
+| Publication pathway (academic output) | UiTM | Joint research paper: framework validation, methodology, case study results, Malaysian context findings; submission to peer-reviewed journal (e.g., Journal of Information Warfare, Asian Journal of Communication); UiTM leads academic writing, Aras provides operational data | M10 |
+| National capability assessment | Joint | Assessment of R.I.S.I.K as national capability: maturity scorecard against Level 5 criteria, gap analysis, recommended institutional home (PMO? NACSA? CSM?), funding model, staffing model, legal framework; written report for national decision-makers | M12 |
+
+**Phase 5 Exit Criteria:**
+- [ ] PoC demonstrated to ≥3 stakeholder institutions
+- [ ] Continuous learning system operational (model retraining cycle ≤30 days)
+- [ ] Scenario simulation handles ≥3 simultaneous issues
+- [ ] Academic publication drafted and submitted
+- [ ] National capability assessment completed with recommendations
+- [ ] Level 5 maturity independently assessed
+
+**PoC Scope Definition:**
+- **What:** Full R.I.S.I.K cycle applied to one real priority issue (selected jointly by Aras + UiTM)
+- **Duration:** 30-day operational period (collection → analysis → intervention → measurement)
+- **Success criteria:** Detect issue ≤24h after emergence; verify ≤48h; produce IAB ≤72h; design intervention ≤96h; deploy ≤120h; measure impact ≤14 days post-intervention; post-intervention review ≤21 days
+- **Stakeholder audience:** PMO officials (informal), CSM, NACSA, UiTM leadership, Aras leadership
+- **Output:** PoC Report (operational timeline, KPI results, lessons learned, capability assessment, recommendation for institutional adoption)
 
 ---
 
@@ -457,7 +536,7 @@ These require Aras support but Aras cannot do them alone:
 | 2:30-3:15 | Responsibility matrix workshop | Review and refine Aras vs UiTM assignments | Joint |
 | 3:15-3:30 | Break | — | — |
 | 3:30-4:00 | **Data handling & OSA 1972 protocols** | Classification, storage, sharing, publication boundaries | Prof. Suhaimee + DAF |
-| 3:30-4:00 | Next steps & timeline | Confirm Phase 1 milestones, communication cadence, decision points | DAF |
+| 4:00-4:30 | Next steps & timeline | Confirm Phase 1 milestones, communication cadence, decision points, next meeting date | DAF |
 
 ### Pre-Session Deliverables (Aras)
 
@@ -483,32 +562,78 @@ UiTM's email disclaimer explicitly invokes the Akta Rahsia Rasmi 1972 (Official 
 
 | Classification | Applicability | Handling |
 |---------------|--------------|----------|
-| **RAHSIA** | Operational intelligence, actor registries, influence maps, intervention plans | Encrypted storage, need-to-know access, no external publication without declassification |
-| **SULIT** | Draft analytical products, internal reviews, simulation results | Internal team access only, controlled distribution |
-| **TERHAD** | Framework methodology, PIR definitions, non-sensitive analytical patterns | Team + approved stakeholders |
-| **AWAM** | Published framework doctrine, academic outputs, non-operational descriptions | Public |
+| **RAHSIA** | Operational intelligence, actor registries, influence maps, intervention plans, simulation results | Encrypted storage, need-to-know access, no external publication without declassification |
+| **SULIT** | Draft analytical products, internal reviews, IAB drafts, sentiment assessments | Internal team access only, controlled distribution |
+| **TERHAD** | Framework methodology, PIR definitions, non-sensitive analytical patterns, training materials | Team + approved stakeholders |
+| **AWAM** | Published framework doctrine, academic outputs (post-review), non-operational descriptions | Public |
 
-### First Working Session Decision Required
+### Data Flow Classification
 
-1. Which collaboration outputs fall under OSA classification?
-2. What storage and access controls are required for RAHSIA/SULIT materials?
-3. What is the declassification pathway for academic publication?
-4. Do Aras personnel require security clearance for RAHSIA-level access?
-5. What is the information-sharing protocol between Aras (commercial) and UiTM (academic) for classified materials?
+| Data Stage | Default Classification | Rationale |
+|-----------|---------------------|-----------|
+| Raw collected signals (news, OSINT) | TERHAD | Open-source data, but aggregation pattern reveals collection priorities |
+| Source reliability grades | TERHAD | Reveals source assessment methodology |
+| Claim register (verified/unverified) | SULIT | Pre-decisional analytical product |
+| Issue register (scored issues) | SULIT | Pre-decisional, reveals strategic priorities |
+| Sentiment assessments | SULIT | Analytical product with audience segmentation data |
+| Actor registry / influence maps | RAHSIA | Names individuals with influence assessments — security-sensitive |
+| Narrative threat assessments | RAHSIA | Reveals counter-narrative strategy and vulnerability analysis |
+| Intervention plans (NIPs) | RAHSIA | Pre-deployment operational plans |
+| Post-intervention measurement | SULIT | Post-deployment, but reveals effectiveness of operations |
+| Daily R.I.S.I.K Brief | SULIT | Distributed to decision-makers; contains assessments |
+| IAB (Integrated Assessment Brief) | RAHSIA | Comprehensive intelligence product for command authority |
+| Framework doctrine (published) | AWAM | Intended for public reference |
+| Academic research outputs (pre-review) | SULIT | Subject to OSA review before declassification to AWAM |
+| Academic research outputs (post-review) | AWAM | Declassified after OSA review and approval |
+
+### Publication Review Process
+
+1. **Draft produced** by researcher (UiTM or Aras)
+2. **Internal review** by author's institution (UiTM academic review or Aras internal review)
+3. **OSA classification check** — does the output contain RAHSIA or SULIT material? If no → proceed to publication. If yes → proceed to step 4.
+4. **Declassification review** by joint Aras-UiTM committee (DAF + Prof. Suhaimee or delegates). Criteria: (a) operational security not compromised, (b) no protected sources revealed, (c) no actor identities disclosed without consent, (d) no intervention methodology that could be counter-exploited.
+5. **Redaction or sanitisation** — if partial declassification is approved, redact protected elements and mark as TERHAD or AWAM as appropriate.
+6. **Final approval** — DAF (Aras) + Prof. Suhaimee (UiTM) joint sign-off for any AWAM publication derived from RAHSIA/SULIT source material.
+7. **Audit trail** — all classification decisions logged in CognitiveOS with reviewer, date, rationale.
+
+### Aras Personnel Clearance
+
+- **Current state:** DAF holds Director-level authority. No formal security clearance framework exists for Aras personnel.
+- **Proposed:** Phase 1 (Sep 2026) — DAF and named Aras technical personnel (currently Hadri/Ember operator) are designated RAHSIA-access personnel. Access list maintained in CognitiveOS.
+- **Phase 3+ (Dec 2026+):** If cross-agency workflow requires formal clearance, DAF to initiate clearance process through appropriate national authority (e.g., JPN/JDN).
+- **Principle:** Access is need-to-know, logged, and revocable. No blanket access.
+
+### Information-Sharing Protocol (Aras ↔ UiTM)
+
+| Sharing Direction | Mechanism | Controls |
+|-----------------|----------|----------|
+| Aras → UiTM (operational data for analysis) | GitHub repo (strategic-cognitiveos, private) + shared drive | RAHSIA/SULIT materials in designated directories with access controls; UiTM team members added as collaborators with need-to-know access |
+| UiTM → Aras (research outputs, Malaysian context data) | Same GitHub repo + academic data sharing | UiTM materials classified on creation; Aras accesses per classification |
+| Joint → External (publications, PoC) | Publication review process (above) | Joint sign-off required for any AWAM output derived from classified source |
+
+### First Working Session Decisions Required
+
+1. Which collaboration outputs fall under OSA classification? (Proposed: see Data Flow Classification table above)
+2. What storage and access controls are required for RAHSIA/SULIT materials? (Proposed: GitHub private repo + access list in CognitiveOS)
+3. What is the declassification pathway for academic publication? (Proposed: see Publication Review Process above)
+4. Do Aras personnel require formal security clearance for RAHSIA-level access? (Proposed: Phase 1 need-to-know designation; Phase 3+ formal clearance if cross-agency)
+5. What is the information-sharing protocol between Aras (commercial) and UiTM (academic) for classified materials? (Proposed: see Information-Sharing Protocol table above)
 
 ---
 
 ## 10. Risk Register
 
-| Risk | Probability | Impact | Mitigation |
-|------|------------|--------|------------|
-| Aras-U'iTM timeline mismatch (commercial delivery vs academic pace) | Medium | High | Clear phase milestones with joint sign-off; Aras builds infrastructure independently of UiTM research pace |
-| OSA 1972 classification blocks collaboration | Medium | High | Resolve in first working session; engage legal counsel if needed; separate classified vs unclassified workstreams |
-| PMO engagement remains informal | Medium | Medium | Continue to inform PMO officials (CC'd); formal engagement is a Phase 4 milestone |
-| Sentiment models fail on Malaysian context | Medium | High | UiTM validation gate; Malaysian dataset curation by UiTM; fine-tuning on local corpus |
-| Funding gap | Medium | High | Phase 0 is Aras-funded (infrastructure already exists); Phase 1-2 low cost (compute is available); Phase 3+ may require sponsorship |
-| AI hallucination in analytical outputs | Medium | Critical | CVS mandatory on all outputs; human-in-the-loop gates; confidence tags on all AI-generated content |
-| Single-person dependency (DAF) | High | High | Ember handles operational continuity; CognitiveOS captures institutional knowledge; UiTM partnership distributes ownership |
+| # | Risk | Probability | Impact | Owner | Early Warning Indicators | Mitigation | Contingency |
+|---|------|------------|--------|-------|------------------------|------------|-------------|
+| R1 | Aras-UiTM timeline mismatch (commercial delivery vs academic pace) | Medium | High | DAF | UiTM misses ≥2 consecutive deadlines; no response within 7 days on action items | Clear phase milestones with joint sign-off; Aras builds infrastructure independently of UiTM research pace; biweekly check-in cadence | Decouple Aras build schedule from UiTM validation; Aras proceeds with self-validation, UiTM validates retrospectively |
+| R2 | OSA 1972 classification blocks collaboration | Medium | High | DAF + Prof. Suhaimee | Legal counsel flags unresolved classification issue; UiTM blocks data sharing; publication review stalls | Resolve in first working session; engage legal counsel if needed; separate classified vs unclassified workstreams; publication review process defined before Phase 2 | Limit collaboration to TERHAD/AWAM classified outputs; pause RAHSIA-level work until protocol agreed |
+| R3 | PMO engagement remains informal | Medium | Medium | DAF | PMO officials not responding to CC'd communications; no follow-up after 30 days | Continue to inform PMO officials; formal engagement is a Phase 4 milestone; PoC demonstration as conversion trigger | Proceed without formal PMO engagement; position R.I.S.I.K as Aras-UiTM academic-commercial capability seeking institutional adoption |
+| R4 | Sentiment models fail on Malaysian context | Medium | High | Aras (build) + UiTM (validate) | Accuracy <80% on UiTM validation set; BM-language texts misclassified; sarcasm/irony not detected | UiTM validation gate; Malaysian dataset curation by UiTM; fine-tuning on local corpus; code-switching (BM-English) test set | Fall back to human-coded sentiment for priority issues; use LLM few-shot with Malaysian examples instead of fine-tuned model |
+| R5 | Funding gap | Medium | High | DAF | Phase 3+ timeline approaches without sponsor identified; compute costs exceed budget | Phase 0 is Aras-funded (infrastructure already exists); Phase 1-2 low cost (compute is available); Phase 3+ may require sponsorship | Phase 3+ scope reduced to what Aras can fund internally; seek government grant (e.g., MDEC, MOSTI) or PMO sponsorship |
+| R6 | AI hallucination in analytical outputs | Medium | Critical | Aras | Confidence tags consistently LOW on specific function; false positive rate >15% on validation set; human reviewer overrides >25% of AI outputs | CVS mandatory on all outputs; human-in-the-loop gates; confidence tags on all AI-generated content; per-function accuracy audit monthly | Disable specific AI function and revert to human-only for affected pipeline; investigate model/prompt issues; switch model (e.g., GLM-5.2 → Qwen3.5-397B) |
+| R7 | Single-person dependency (DAF) | High | High | DAF | DAF unavailable >72h; no delegated authority for decisions; UiTM requests go unanswered | Ember handles operational continuity; CognitiveOS captures institutional knowledge; UiTM partnership distributes ownership; document decision rights for delegation | DAF delegates strategic authority to named Aras colleague; UiTM point-of-contact shifts to Prof. Suhaimee for academic matters; Ember maintains operational pipeline independently |
+| R8 | UiTM team member turnover | Medium | Medium | Prof. Suhaimee | Team member leaves UiTM or Centre; response times increase; quality of Malaysian context input declines | Knowledge transfer within UiTM team (5 members provide redundancy); document all UiTM contributions in CognitiveOS; cross-train across team | UiTM recruits replacement; Aras absorbs affected workstream temporarily; reduce scope of UiTM-dependent functions |
+| R9 | Data breach / unauthorised access to RAHSIA materials | Low | Critical | Aras (data governance) | Unusual access patterns in Git logs; unauthorised IP accessing repo; RAHSIA materials found outside controlled environment | GitHub private repo with 2FA; access list in CognitiveOS; audit logging; need-to-know principle | Immediate access revocation; breach assessment; notify all parties; engage cybersecurity incident response (Aras core capability) |
 
 ---
 
@@ -516,27 +641,39 @@ UiTM's email disclaimer explicitly invokes the Akta Rahsia Rasmi 1972 (Official 
 
 ### Collaboration-Level Metrics
 
-| Metric | Target | Measurement |
-|--------|--------|------------||
-| First working session conducted | By 6 Sep 2026 | Session held, agenda completed |
-| Phase 1 exit criteria met | By end Sep 2026 | All exit criteria checked |
-| Sentiment pipeline validated | By end Nov 2026 | UiTM validation report |
-| First controlled simulation completed | By end Jan 2027 | Simulation report |
-| PoC delivered | By May 2027 | Stakeholder demonstration |
-| Academic publication submitted | By Oct 2027 | Draft paper |
+| Metric | Target | Measurement Method | Reporting Cadence |
+|--------|--------|-------------------|-----------------|
+| First working session conducted | By 6 Sep 2026 | Session held, agenda completed, minutes filed in CognitiveOS | One-time |
+| Phase 1 exit criteria met | By end Sep 2026 | Exit criteria checklist (8 items) all signed off | One-time |
+| Sentiment pipeline validated | By end Nov 2026 | UiTM validation report with accuracy scores against gold set | One-time per validation cycle |
+| First controlled simulation completed | By end Jan 2027 | Simulation report with timeline, KPI results, lessons learned | One-time |
+| PoC delivered | By May 2027 | PoC report + stakeholder presentation; attendee feedback survey | One-time |
+| Academic publication submitted | By Oct 2027 | Draft paper submitted to peer-reviewed journal; submission confirmation | One-time |
+| Maturity level advancement | Level 2 by Sep 2026; Level 3 by Jan 2027; Level 4 by Apr 2027; Level 5 by Oct 2027 | Independent assessment against Section 21 maturity model | Quarterly |
 
 ### Operational Metrics (Per Framework KPIs)
 
-| Metric | Phase 1 Target | Phase 2 Target |
-|--------|----------------|----------------|
-| Daily collection success rate | >90% | >95% |
-| Average claims verified per day | ≥10 | ≥25 |
-| Issue register size | ≥20 | ≥50 |
-| Actor registry size | — | ≥100 |
-| Sentiment coverage of priority issues | — | 100% |
-| Daily brief delivered on time | ≥5 consecutive | Every weekday |
-| IABs produced | — | ≥5 |
-| Controlled simulations | — | 1 |
+| Metric | Phase 1 Target | Phase 2 Target | Measurement Method | Framework Section |
+|--------|----------------|----------------|-------------------|-----------------|
+| Daily collection success rate | >90% | >95% | DeerFlow run log: successful sources / total sources per day | Section 5.6 |
+| Average time to verify a material claim | ≤48 hours | ≤24 hours | Claim register timestamps: detection → verification | Section 5.6 |
+| Percentage of priority claims verified | ≥80% | ≥95% | Claim register: verified claims / total priority claims | Section 5.6 |
+| Average claims verified per day | ≥10 | ≥25 | Claim register daily count | Section 5.6 |
+| Number of independent sources per assessment | ≥2 | ≥3 | IAB source count audit | Section 5.6 |
+| Issue register size | ≥20 | ≥50 | Issue register query count | Section 6.7 |
+| Time taken to classify a new issue | ≤24 hours | ≤4 hours | Issue register timestamps: detection → classification | Section 6.7 |
+| Percentage of high-priority issues with assigned owners | 100% | 100% | Issue register owner field check | Section 6.7 |
+| Actor registry size | — | ≥100 | Actor registry count | Section 8.6 |
+| Percentage of priority actors mapped | — | ≥80% | Influence map coverage check | Section 8.6 |
+| Sentiment coverage of priority issues | — | 100% | Sentiment pipeline output count vs priority issue count | Section 7.7 |
+| Change in trust score | — | Measurable for ≥3 issues | Pre/post sentiment comparison | Section 7.7 |
+| Daily brief delivered on time | ≥5 consecutive | Every weekday | Brief delivery timestamp vs schedule | Section 19 |
+| IABs produced | — | ≥5 | IAB count in CognitiveOS | Operational Process B |
+| Controlled simulations | — | 1 | Simulation report filed | Operational Process A-E |
+| Intervention effectiveness measured | — | ≥1 intervention with pre/post data | Measurement framework report | Section 9.8 |
+| Post-intervention reviews completed | — | 100% of interventions | Review report count vs intervention count | Section 20 |
+| AI function accuracy audit | — | Monthly, ≥85% precision per function | Per-function validation against gold set | Section 14.2 |
+| Human-in-the-loop gate compliance | 100% | 100% | Audit log: all gated actions have human approval record | Section 14.3 |
 
 ---
 
