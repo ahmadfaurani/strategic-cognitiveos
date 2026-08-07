@@ -25,7 +25,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260711-001 | Ember Identity Architecture | faurani-jaafar | Active — Development | SOUL.md, IDENTITY.md deployed | Ongoing |
 | INIT-20260725-007 | CSCDC Communication Division — Strategic Partnership | faurani-jaafar | Draft — Framed | Leadership mapping complete | 2026-08-08 |
 | INIT-20260803-001 | ELSA–Aras LHDN AI-Assisted Revenue Recovery | faurani-jaafar | Draft — Framed | NDA execution | 2026-08-17 |
-| INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Draft — Framed | UITM response + working session | 2026-08-17 |
+| INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Active — Coordination | UITM acceptance in principle + working session | 2026-09-06 |
 | INIT-20260804-002 | GovSec × CMERP Platform Integration Continuation | faurani-jaafar | Active — Integration | Session confirmation (Aug 12/13) | 2026-08-13 |
 | INIT-20260804-003 | GovSec × Threat Intelligence (TI) Integration | faurani-jaafar | Active — Framed | Session confirmation (Aug 6/7/10) | 2026-08-10 |
 | INIT-20260804-004 | AI Systems Co-Design Lab (Cohort 01) — CSM Partnership | faurani-jaafar | Active — Framed | CSM use case submission | 2026-08-10 |
@@ -58,6 +58,9 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260804-006 | Prepare GovSec × CMERP integration review materials | hadri | 2026-08-11 | Draft |
 | ACT-20260804-007 | DAF strategic alignment with Hadri pre-session (CMERP) | faurani-jaafar | 2026-08-11 | Draft |
 | ACT-20260804-008 | CSM to confirm GovSec × TI integration session date | hadri | 2026-08-06 | Draft |
+| ACT-20260807-001 | Initiate contact with UiTM 5-person team to schedule first working session | faurani-jaafar | 2026-08-17 | Draft |
+| ACT-20260807-002 | Prepare R.I.S.I.K working session agenda | faurani-jaafar | 2026-08-24 | Draft |
+| ACT-20260807-003 | Update INIT-20260803-002 status to Active | ember | 2026-08-07 | In-progress |
 | ACT-20260804-009 | Prepare GovSec × TI integration planning materials | hadri | 2026-08-05 | Draft |
 | ACT-20260804-010 | DAF strategic alignment with Hadri pre-session (TI) | faurani-jaafar | 2026-08-05 | Draft |
 | ACT-20260804-011 | DAF + Hadri alignment — confirm mobilisation plan, ownership, delivery timeline | faurani-jaafar | 2026-08-05 | Draft |

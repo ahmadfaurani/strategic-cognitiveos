@@ -55,8 +55,12 @@ All registered stakeholders, grouped by type.
 
 | ID | Name | Institution | Relationship Status |
 |----|------|-------------|--------------------|
-| STK-20260803-008 | UiTM Centre for Media and Information Warfare Studies | Universiti Teknologi MARA | Developing |
-| STK-20260803-009 | Prof. Madya Dr. Suhaimee | UiTM Centre for Media and Information Warfare Studies | Developing |
+| STK-20260803-008 | UiTM Centre for Media and Information Warfare Studies | Universiti Teknologi MARA | Active |
+| STK-20260803-009 | Prof. Madya Dr. Suhaimee | UiTM Centre for Media and Information Warfare Studies | Active |
+| STK-20260807-001 | Dr. Mohd Firdauz bin Mohd Fathir | UiTM Centre for Media and Information Warfare Studies | New |
+| STK-20260807-002 | En. Antashah Bin Mohd Nor | UiTM Centre for Media and Information Warfare Studies | New |
+| STK-20260807-003 | En. Muhd Faiz Bin Fiezal | UiTM Centre for Media and Information Warfare Studies | New |
+| STK-20260807-004 | En. Al Faliq Bin Ahmad Zahari | UiTM Centre for Media and Information Warfare Studies | New |
 
 ## Technical
 
@@ -66,4 +70,4 @@ All registered stakeholders, grouped by type.
 
 ---
 
-_Updated 2026-08-04: Added STK-20260804-004 (Fathi Kamil, CSM), STK-20260804-005 (Izzatul Hazirah, CSM), STK-20260804-006 (Muhammad Imran, CSM), STK-20260804-007 (Nur Qurratu'aini, CSM), STK-20260804-008 (Lukman Hakim, CSM), STK-20260804-009 (Nur Syahidah, CSM), STK-20260804-010 (Mohamad Hafiz, CSM TI), STK-20260804-011 (Mohammad Zaharudin, CSM TI). Updated STK-20260803-006 (Farul, MTAI — GovSec engagement added). Updated 2026-08-04 (Intake 5): Added STK-20260804-012 (Nazri Bin Ahmad Zamani, CSM — Co-Design Lab recipient)._
+_Updated 2026-08-04: Added STK-20260804-004 (Fathi Kamil, CSM), STK-20260804-005 (Izzatul Hazirah, CSM), STK-20260804-006 (Muhammad Imran, CSM), STK-20260804-007 (Nur Qurratu'aini, CSM), STK-20260804-008 (Lukman Hakim, CSM), STK-20260804-009 (Nur Syahidah, CSM), STK-20260804-010 (Mohamad Hafiz, CSM TI), STK-20260804-011 (Mohammad Zaharudin, CSM TI). Updated STK-20260803-006 (Farul, MTAI — GovSec engagement added). Updated 2026-08-04 (Intake 5): Added STK-20260804-012 (Nazri Bin Ahmad Zamani, CSM — Co-Design Lab recipient). Updated 2026-08-07: Added STK-20260807-001–004 (UiTM R.I.S.I.K team members). Updated STK-20260803-008/009 to Active (UiTM acceptance in principle)._

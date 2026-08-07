@@ -7,6 +7,7 @@ All outstanding commitments, grouped by status.
 | ID | Commitment | Owner | Stakeholder | Due Date | Status | Risk |
 |----|-----------|-------|-------------|----------|--------|------|
 | COM-20260803-001 | NDA review and vetting by MTAI before reverting to ELSA | faurani-jaafar | STK-20260803-001 (ELSA) | 2026-08-17 | In-progress | Low |
+| COM-20260807-001 | UiTM coordination on R.I.S.I.K working session and project planning | prof-madya-dr-suhaimee | faurani-jaafar | 2026-09-06 | Active | Low |
 
 ## Overdue
 
