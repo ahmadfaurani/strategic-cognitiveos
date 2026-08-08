@@ -19,6 +19,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260725-005 | Workstream E — Commercial & Market Development | faurani-jaafar | Active | Concept | Quarterly |
 | INIT-20260725-006 | Workstream F — Organisational Capability Building | faurani-jaafar | Active | Concept | Quarterly |
 | INIT-20260804-001 | CSM × Aras VoronDRQ Joint GTM Activation | faurani-jaafar | Active | Pilot — Two-track approach proposed | 2026-08-17 |
+| INIT-20260808-002 | VoronDRQ GTM Team Mobilisation — COO Approval & Internal Comms | faurani-jaafar | Active | Framed | 2026-08-17 |
 
 ## Incubation
 
