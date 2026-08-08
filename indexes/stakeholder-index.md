@@ -32,7 +32,7 @@ All registered stakeholders, grouped by type.
 |----|------|------|--------------------|----------------|
 | STK-20260725-007 | Aras Integrasi Sdn Bhd | Employer — Cyber Security Practice | Active | Ongoing |
 | STK-20260803-007 | Hadri | Technical counterpart — ELSA-Aras LHDN / CSM training | Active | Training reschedule |
-| STK-20260804-003 | Ahmad Fuad | Aras Integrasi team member — CSM collaboration | Active | Role clarification |
+| STK-20260804-003 | Ahmad Fuad | VoronDRQ Product Owner | Active | CMO Outreach Package product review |
 | STK-20260808-003 | Shuhada M. Halimi | Sales — account coordination | New | DAF to initiate coordination |
 
 ## Partner
