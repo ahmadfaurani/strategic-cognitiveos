@@ -20,6 +20,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260725-006 | Workstream F — Organisational Capability Building | faurani-jaafar | Active | Concept | Quarterly |
 | INIT-20260804-001 | CSM × Aras VoronDRQ Joint GTM Activation | faurani-jaafar | Active | Pilot — Two-track approach proposed | 2026-08-17 |
 | INIT-20260808-002 | VoronDRQ GTM Team Mobilisation — COO Approval & Internal Comms | faurani-jaafar | Active | Framed | 2026-08-17 |
+| INIT-20260808-003 | Red Team Division — National Offensive Security Capability Builder | faurani-jaafar | Active | Framed | 2026-08-22 |
 
 ## Incubation
 
@@ -34,7 +35,7 @@ All initiatives, grouped by portfolio tier.
 
 ## Watch List
 
-_— Updated 2026-08-04: INIT-20260804-001 added to Flagship tier (GTM activation, pilot readiness). Updated 2026-08-04: INIT-20260804-002/003 patched with CyberDSA Oct 2026 milestone (DEC-20260804-001). 10 new records: 1 CONV, 1 DEC, 3 RSK, 5 ACT. Updated 2026-08-04 (Intake 5): Added INIT-20260804-004 (AI Systems Co-Design Lab, Incubation tier). 5 new records: 1 STK, 1 INIT, 1 CONV, 2 ACT. 7 PIRs (2C/4H/1M)._
+_— Updated 2026-08-08: Added INIT-20260808-003 (Red Team Division, Flagship tier). Updated 2026-08-04: INIT-20260804-001 added to Flagship tier (GTM activation, pilot readiness). Updated 2026-08-04: INIT-20260804-002/003 patched with CyberDSA Oct 2026 milestone (DEC-20260804-001). 10 new records: 1 CONV, 1 DEC, 3 RSK, 5 ACT. Updated 2026-08-04 (Intake 5): Added INIT-20260804-004 (AI Systems Co-Design Lab, Incubation tier). 5 new records: 1 STK, 1 INIT, 1 CONV, 2 ACT. 7 PIRs (2C/4H/1M)._
 
 | ID | Title | Owner | Status | Next Review |
 |----|-------|-------|--------|-------------|
