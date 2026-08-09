@@ -297,9 +297,10 @@
 
 ---
 
-## 🗳️ N.32 ENDAU (P.154 MERSING) — Full Intelligence Brief
+## 🗳️ N.32 ENDAU (P.154 MERSING) — Full Intelligence Brief (CORRECTED)
 
-**Data As Of:** 2026-06-29 (Candidate Announcement Day) | **Analysis Date:** 2026-06-29
+**Data As Of:** 2026-06-29 (Candidate Announcement Day) | **Analysis Date:** 2026-06-29  
+**Corrections Applied:** 2026-06-29 (DAF Feedback — Historical Results + Strategic Reality Check)
 
 **Seat Snapshot:**
 - Total Registered Voters: 28,767
@@ -322,11 +323,61 @@
 - **Orang Asli swing bloc (4.9%)** — ASLI candidacy could consolidate OA vote (spoiler potential)
 - **FELDA community** — Rancangan FELDA Endau (1,137 voters, 98.9% Malay) — economically sensitive
 
-**Strategic Assessment:**
+---
+
+## 📜 Historical Results (CORRECTED)
+
+### 2022 State Election (Standalone, 55% Turnout)
+| Party | Candidate | Votes | Share | Note |
+|-------|-----------|-------|-------|------|
+| **PN (BERSATU)** | Alwiyah Talib | **8,433** | **50.2%** | **WINNER** |
+| **BN (UMNO)** | Mohd Youzaimi Yusof | 5,392 | 32.1% | Runner-up |
+| **PH (AMANAH)** | (Candidate) | **1,154** | **6.9%** | Distant third |
+| **Others (2 candidates)** | — | ~1,200 | ~7.2% | |
+| **Majority** | | **3,041 votes** | | Alwiyah (PN) over BN |
+
+**Corrections:**
+- ✅ PH got **6.9% (1,154 votes)**, not 12.4% — AMANAH candidate, not PKR
+- ✅ BN candidate was **Mohd Youzaimi Yusof**, not "Mohd Fared Mohd Khalid"
+- ✅ Five-cornered fight, not four
+- ✅ Turnout was **55%**, majority was **3,041 votes**
+
+### 2018 State Election (GE14, 78% Turnout)
+- **BN (UMNO):** Alwiyah Talib — Won (first term)
+- **Turnout:** **78%** (not 82%)
+- **Majority:** Larger than 2022 (comfortable win)
+
+---
+
+## ⚠️ Strategic Corrections (DAF Feedback 2026-06-29)
+
+**Problem 1: PH's 25% Target Is Structurally Impossible**
+- Chinese (13.4%) + OA (4.9%) = **18.3% maximum** even at 100% turnout + 100% support
+- PH got **6.9% in 2022** (1,154 votes), targeting 25% requires **3x growth**
+- **Reality:** PH cannot exceed 12–15% without 15–20% Malay vote (79.6% of seat)
+- **Original plan treated Malay heartland as "barely worth showing up to"** — this is wrong
+
+**Problem 2: Anti-Defection Sentiment Benefits PN, Not PH**
+- Alwiyah's party-switching hurts **PN**, not PH
+- Malay voters fed up with switching go to **PAS/PN**, not PH candidate with no Malay base
+- Original analysis assumed anti-defection votes come to PH — **they won't**
+
+**Problem 3: Plan Is Too Heavy for a Lost Cause**
+- Seat "can't be won" under normal conditions (BN 70–75% retention probability)
+- Yet original plan was resource-intensive, Chinese-focused, assumed 25% ceiling
+- **Corrected strategy:** Lighter, Malay-first presence
+  - Lock in Chinese + mixed votes quietly
+  - Run decent candidate for name recognition **next time**
+  - Use campaign to **learn Malay areas** for future run
+  - "Keep a presence," "build for next time"
+
+---
+
+**Strategic Assessment (CORRECTED):**
 - **Classification:** BN-favoring (70–75% retention probability)
 - **BN Path:** Alwiyah consolidates 60–70% of 2022 personal vote + holds rural Malay base
-- **PH Path:** Maximize Chinese turnout (75%+) + penetrate mixed PDs + anti-defection messaging
-- **PN Path:** Retain 30–40% of 2022 Alwiyah-PN voters + anti-defection narrative
+- **PH Path (REALISTIC):** Maximize Chinese turnout (75%+) + **12–15% ceiling** + build for 2030
+- **PN Path:** Retain 30–40% of 2022 Alwiyah-PN voters + anti-defection narrative ("Principles over personalities")
 - **ASLI Path:** Consolidate 60–70% OA vote (800–950 votes), symbolic + spoiler role
 - **Victory Margin:** BN safe (4,000+ votes) if Alwiyah retains personal vote; contestable if PN resilient + ASLI >5%
 
@@ -348,3 +399,206 @@
 
 <!-- openclaw-memory-promotion:memory:memory/2026-06-11.md:41:83 -->
 - - PIR-4: BN/UMNO opposition - PIR-5: Youth voter sentiment **Skills Enabled:** - news_collection - social_media_monitor - entity_extraction - narrative_tracking ### Next Actions (Phase 1) 1. **Complete frontend setup** - Admin account creation at /setup 2. **Test news collection** - Verify 7 sources are being monitored 3. **Political Signal Registry schema** - Define memory structure (deadline: 2026-06-20) 4. **PIR keyword refinement** - Expand to all 10 PIRs from HEARTBEAT.md 5. **Integration testing** - DeerFlow → Memory files → Heartbeat cycles ### MiroFish Status **Twitter Bug:** ✅ Fixed (2026-06-11 15:15 UTC) - Patched: `oasis/social_platform/platform.py` line 343-346 - Added empty post_table guard before `post_table[-1]["created_at"]` access - Validated: Batch simulation (10 agents, 4 posts) successful **Simulation History:** - `johor-prn-2026-batch-20260526-074859` - 22 agents, 14 posts, 8/9 PIR complete - Validation run: 10 agents, 4 leadership posts, no crashes ### Timeline | Milestone | Target | Status | |-----------|--------|--------| | Phase 1 Approval | 2026-06-11 | ✅ Complete | | DeerFlow Operational | 2026-06-11 | ✅ Complete | | Political Signal Registry | 2026-06-20 | ⏳ In Progress | | Heartbeat Integration | 2026-06-28 | ⏳ Pending | | First Daily Brief | 2026-07-05 | ⏳ Pending | | Sabah GE16 POC | 30-day window | ⏳ Pending kickoff | ### Operator Notes - Gateway requires authentication (first-boot setup at /setup) - Provisioner restarting (AIO sandbox - not needed for news collection) [score=0.888 recalls=4 avg=1.000 source=memory/2026-06-11.md:41-83]
+
+## Promoted From Short-Term Memory (2026-07-01)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:712:747 -->
+- --- [score=0.856 recalls=4 avg=1.000 source=memory/2026-06-28.md:137-138]
+
+## Promoted From Short-Term Memory (2026-07-05)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:3:5 -->
+- **Day:** Sunday **Session:** Main **Focus:** CVS system-wide mandate + memory harness build [score=0.877 recalls=0 avg=0.620 source=memory/2026-06-28.md:3-5]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:11:11 -->
+- **Decision:** Core Truth Validation System (CVS) is now **MANDATORY** across all sessions, all outputs, all agents. [score=0.877 recalls=0 avg=0.620 source=memory/2026-06-28.md:11-11]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:13:15 -->
+- **Authority:** DAF **Effective:** 2026-06-28 **Scope:** No exceptions [score=0.877 recalls=0 avg=0.620 source=memory/2026-06-28.md:13-15]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:17:17 -->
+- **Rationale:** [score=0.877 recalls=0 avg=0.620 source=memory/2026-06-28.md:17-17]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:23:23 -->
+- **Documentation Created:** [score=0.877 recalls=0 avg=0.620 source=memory/2026-06-28.md:23-23]
+
+## Promoted From Short-Term Memory (2026-07-06)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:63:66 -->
+- | Component | Status | Notes | |-----------|--------|-------| | Gateway | ✅ Running | PID 673484, QMD backend active | | QMD | ✅ Installed | v2.5.3, configured as memory backend | [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-28.md:63-66]
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:67:70 -->
+- | Plugins | ✅ Enabled | memory-core, memory-wiki, active-memory | | Truth Validator | ✅ Working | Tested on N17 brief — correctly catches missing tags | | Memory Harness | ✅ Built | 5 scripts + 3 tracking files | [score=0.868 recalls=0 avg=0.620 source=memory/2026-06-28.md:67-69]
+
+## Promoted From Short-Term Memory (2026-07-07)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-06-28.md:71:71 -->
+- | Dreaming Cycle | ⏳ Pending | Requires embedding API | [score=0.859 recalls=0 avg=0.620 source=memory/2026-06-28.md:71-71]
+
+---
+
+## 🔀 Repository Separation (2026-07-10)
+
+**Decision:** Split merged Voron-Campaign repository into two focused repositories.
+
+### Repository 1: Voron-Campaign (RMiT Compliance)
+- **URL:** https://github.com/ahmadfaurani/Voron-Campaign
+- **Focus:** 250 BNM-Regulated Financial Institutions
+- **Content:** RMiT compliance campaign, stakeholder collection, battle cards
+- **Target:** 143 FIs, 1,001 stakeholders, RM 28.5M-71.5M revenue
+- **Files:** 31 (committed 2026-07-10)
+- **Status:** ✅ Cleaned and committed
+
+### Repository 2: HOI-Intelligence-Operations
+- **URL:** https://github.com/ahmadfaurani/HOI-Intelligence-Operations
+- **Focus:** 100 Tier 2 Malaysian Government Agencies
+- **Content:** OSINT collection, daily intel briefs (32), agency profiles (144), PRN Johor 2026
+- **Target:** 100 agencies, 10 PIRs, daily briefs (23:00 UTC)
+- **Files:** 262 (committed 2026-07-10)
+- **Status:** ✅ Created and populated
+
+### Backup
+- **Location:** `/home/p62operator/.openclaw/workspace-backup-20260710-151547/`
+- **Size:** 11MB
+- **Contents:** Full pre-separation state (304 files)
+
+### Validation Results
+- ✅ Zero data loss (file counts verified)
+- ✅ Clean separation (no cross-contamination)
+- ✅ Both repos functional on GitHub
+- ✅ Backup preserved
+
+### Next Actions
+- **RMiT:** Continue Tier 1 bank collection (16 remaining: Citibank, Bank of China, ICBC, Japanese banks, investment banks)
+- **HOI:** Resume Tier A agency profiling (15 remaining after 5 completed: MKN, KP, KDN, KKM, LHDN)
+
+## Promoted From Short-Term Memory (2026-07-11)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-05.md:46:46 -->
+- **Needs Build/Config (9/16):** [score=0.919 recalls=0 avg=0.620 source=memory/2026-07-05.md:46-46]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-05.md:4:6 -->
+- **Focus:** Expand offensive security tooling from 5 → 16 repos **Operator:** DAF **CVS Status:** Applied (tool names, paths, versions verified) [score=0.862 recalls=0 avg=0.620 source=memory/2026-07-05.md:4-6]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-05.md:14:14 -->
+- **Tier 1 - Critical AD/Network:** [score=0.862 recalls=0 avg=0.620 source=memory/2026-07-05.md:14-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-05.md:19:19 -->
+- **Tier 2 - Post-Exploitation:** [score=0.862 recalls=0 avg=0.620 source=memory/2026-07-05.md:19-19]
+
+## Promoted From Short-Term Memory (2026-07-13)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-05.md:23:23 -->
+- **Tier 3 - C2 Expansion:** [score=0.867 recalls=0 avg=0.620 source=memory/2026-07-05.md:23-23]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-05.md:27:27 -->
+- **Honorable Mentions:** [score=0.867 recalls=0 avg=0.620 source=memory/2026-07-05.md:27-27]
+
+## Promoted From Short-Term Memory (2026-07-14)
+
+<!-- Burn Notice: Dossier content removed 2026-08-02 -->
+
+## Promoted From Short-Term Memory (2026-07-18)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-11.md:5:5 -->
+- **Topic:** Choosing a name for the assistant — tied to Prometheus/fire identity [score=0.894 recalls=0 avg=0.620 source=memory/2026-07-11.md:5-5]
+
+## Promoted From Short-Term Memory (2026-07-19)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-12.md:5:7 -->
+- **Date:** 2026-07-12 07:15 UTC **Authority:** DAF approved **Session:** Telegram direct (640442208) [score=0.894 recalls=0 avg=0.620 source=memory/2026-07-12.md:5-7]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-12.md:36:36 -->
+- ✅ Complete. All files operationally updated. No placeholders. [score=0.894 recalls=0 avg=0.620 source=memory/2026-07-12.md:36-36]
+
+## Promoted From Short-Term Memory (2026-07-25)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-19.md:6:6 -->
+- Integrated Crawl4AI 0.9.2 into the DeerFlow collection pipeline as the primary scraping engine, with Firecrawl as automatic fallback. All 9 collection scripts patched and tested. Full 25-source run completed: 100% success rate, ~5 min total, 426 headlines, 24 political. [score=0.862 recalls=0 avg=0.620 source=memory/2026-07-19.md:6-6]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-19.md:16:19 -->
+- | Metric | Firecrawl-only | Crawl4AI+Firecrawl | |--------|---------------|-------------------| | Success Rate | ~80-90% | 100% | | Total Time | ~15-20 min | ~5 min | [score=0.862 recalls=0 avg=0.620 source=memory/2026-07-19.md:16-19]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-19.md:20:21 -->
+- | Avg per Source | ~40-60s | ~3-8s (Crawl4AI) | | Political Headlines | ~15-20 | 24 | [score=0.862 recalls=0 avg=0.620 source=memory/2026-07-19.md:20-21]
+
+## Promoted From Short-Term Memory (2026-07-26)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-20.md:5:7 -->
+- **Source:** https://github.com/lopopolo/harness-engineering/blob/trunk/playbooks/repository-review.md **Shared by:** DAF **Context:** Useful framework, no specific application task [score=0.851 recalls=0 avg=0.620 source=memory/2026-07-20.md:5-7]
+
+## Promoted From Short-Term Memory (2026-07-30)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-23.md:5:8 -->
+- **Date:** 2026-07-23 **Authority:** DAF **Session:** Telegram direct **Focus:** Comprehensive analytical report on the OpenAI/Hugging Face autonomous AI security incident [score=0.901 recalls=0 avg=0.620 source=memory/2026-07-23.md:5-8]
+
+## Promoted From Short-Term Memory (2026-08-01)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-25.md:5:7 -->
+- **Time:** ~03:20 UTC **Session:** Telegram direct (640442208) **Channel:** Telegram [score=0.894 recalls=0 avg=0.620 source=memory/2026-07-25.md:5-7]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-25.md:11:11 -->
+- Continued PI-OS discussion with DAF. He asked about integrating PI-OS with ChatGPT. Key points: [score=0.894 recalls=0 avg=0.620 source=memory/2026-07-25.md:11-11]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-25.md:27:27 -->
+- PI-OS is format, not platform. The ChatGPT+GitHub integration makes the "AI Layer (Processing)" role in the PI-OS architecture achievable without custom scripting — ChatGPT reads the repo, follows the schemas, and writes back. GitHub remains the canonical authority. [score=0.894 recalls=0 avg=0.620 source=memory/2026-07-25.md:27-27]
+
+## Promoted From Short-Term Memory (2026-08-02)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-07-25.md:38:39 -->
+- **Time:** ~03:30 UTC **Commit:** d1ce295 — feat: Strategic alignment with DAF professional profile [score=0.887 recalls=0 avg=0.620 source=memory/2026-07-25.md:38-39]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-24.md:5:8 -->
+- **Time:** 03:56 UTC **Authority:** DAF **Session:** Telegram direct (640442208) **Channel:** Telegram [score=0.880 recalls=0 avg=0.620 source=memory/2026-07-24.md:5-8]
+<!-- openclaw-memory-promotion:memory:memory/2026-07-24.md:12:12 -->
+- DAF sent the complete Phase 1 specification for a Personal Intelligence Operating System — a structured, tool-independent memory standard for AI-assisted continuity across conversations, decisions, projects, stakeholders, and documents. [score=0.880 recalls=0 avg=0.620 source=memory/2026-07-24.md:12-12]
+
+## Promoted From Short-Term Memory (2026-08-07)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-02.md:47:49 -->
+- **Authority:** DAF **Target:** Personal background dossier (IC 800220075553, 14-page PDF, received 2026-07-07) **Action:** PERMANENT DELETION — all files and derived content [score=0.857 recalls=0 avg=0.620 source=memory/2026-08-02.md:47-49]
+
+## 🎓 UiTM R.I.S.I.K AI Enablement — Acceptance in Principle (2026-08-07)
+
+**Initiative:** INIT-20260803-002 — UITM-Aras Strategic Collaboration on AI Enablement of the R.I.S.I.K Framework
+**Status:** Active / Coordination stage (upgraded from Draft/Framed on 7 Aug 2026)
+
+**Key Development:** Prof. Madya Dr. Suhaimee (Director, UiTM Centre for Media and Information Warfare Studies) responded with agreement in principle to collaborate. Response came 4 days after DAF's 3 Aug proposal — well within the 14-day success metric. UiTM designated 5 team members for coordination:
+1. Prof. Madya Dr. Suhaimee (Director) — aimeesavvy@gmail.com / +60 18-668 2659
+2. Dr. Mohd Firdauz bin Mohd Fathir — fidfathir.edu@gmail.com / +60 12-366 8027
+3. En. Antashah Bin Mohd Nor — decipher.n9@gmail.com / +60 19-275 7753
+4. En. Muhd Faiz Bin Fiezal — mhdfaiz781@gmail.com / +60 11-6214 4294
+5. En. Al Faliq Bin Ahmad Zahari — faliqzahari182@gmail.com / +60 19-237 8489
+
+**Strategic significance:** This advances R.I.S.I.K from concept (Workstream D) to academically-grounded, AI-enabled national capability. Tri-sector collaboration: UiTM (academic) + Aras (technology) + PMO (government awareness). 5 named staff with contact details signals genuine institutional commitment.
+
+**Next milestones:**
+- DAF to initiate contact with UiTM team (ACT-20260807-001, deadline 17 Aug)
+- First working session by ~6 September 2026
+- Strategic objectives, research scope, operating model aligned within 60 days of working session
+
+**CognitiveOS records:** CONV-20260807-001, DEC-20260807-001, STK-20260807-001–004, ACT-20260807-001–003, COM-20260807-001
+
+## Promoted From Short-Term Memory (2026-08-08)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-02.md:5:6 -->
+- **Channel:** Telegram direct (640442208) **Authority:** DAF [score=0.862 recalls=0 avg=0.620 source=memory/2026-08-02.md:5-6]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-02.md:10:10 -->
+## 🛠️ Skunkworks Division — AIRecon Assessment (2026-08-09)
+
+**Status:** APPROVED — Option A (Tracks A–E, full scope)
+**File:** `skunkworks/airecon-intern-assessment-20260809.md`
+
+**Updated Hardware Position (2026-08-09 DAF clarifies):**
+- 32 units NVIDIA B200
+- 12 units NVIDIA A100
+- **Assessment:** Massive overprovision. Qwen3.5 122B (48GB requirement) easily handled. Multiple interns can run parallel model instances. Zero hardware bottleneck.
+
+**Verdict:** Conditional YES — approved as research/extension project, NOT as core build-from-scratch.
+
+**Key Constraints Identified:**
+- ~~Hardware cliff: 32B+ models (20GB+ VRAM) needed for reliable operation~~ **ELIMINATED — DAF confirms 32x B200 + 12x A100 available**
+- Liability risk: Autonomous exploit execution unsuitable for unsupervised intern deployment.
+- Maturity gaps: No CI/CD, "learning" is telemetry not ML, no native portfolio integration.
+
+**Recommended Scope (if approved):**
+1. Track A: Malaysian context skills pack (15–20 playbooks for gov/CNII)
+2. Track B: "Safe Mode" fork — read-only recon + reporting, no autonomous exploitation
+3. Track C: GovSec TIP integration bridge (MCP server or API)
+4. Track D: Local Malay/Indon security dataset fork
+5. Track E: Gov-formatted report generator (JPM/MAMPU standards, bilingual)
+
+**Alternative Options:**
+- Option B (narrow): Tracks B+C only — fastest path to demo for CSM/NACSA
+- Option C (pivot): Reject AIRecon, build GovSec TIP-native enrichment agent instead
+- Option D (learning): Track A only — exposure without production expectation
+
+**Resource Estimate:** ~~RM 8–12K GPU per head OR ~$200/month cloud~~ **ZERO — on-prem A100/B200 cluster handles all models; 3–6 months intern time; 2–4 hrs/week senior supervision.**
+
+---
+

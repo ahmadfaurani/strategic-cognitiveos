@@ -1,0 +1,26 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ahmadfaurani@github.com/ahmadfaurani/cognitiveos-workspace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmadfaurani/cognitiveos-workspace/issues"
+  },
+  "homepage": "https://github.com/ahmadfaurani/cognitiveos-workspace#readme",
+  "dependencies": {
+    "openai": "^6.45.0"
+  }
+}

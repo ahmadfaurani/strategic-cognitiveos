@@ -111,6 +111,28 @@ Every session, every task, every heartbeat runs this cycle.
 
 ---
 
+## CognitiveOS Intake Protocol — MANDATORY
+
+**Effective:** 2026-08-04 | **Authority:** DAF | **SOP:** `strategic-cognitiveos/governance/intake-sop.md`
+
+All CognitiveOS intake events (email threads, conversations, documents, intelligence, meetings) must follow the standardized 9-step SOP:
+
+1. **Receive & classify** the source
+2. **Extract & structure** all entities
+3. **Create records** with permanent typed IDs (INIT/CONV/STK/ACT/DEC/COM/RSK/INT/OUT)
+4. **Update indexes** in the same commit
+5. **Update daily memory** log
+6. **Commit** with standard message format
+7. **Push** to GitHub
+8. **Deliver confirmation notification** (mandatory format: commit hash + file/insertion count + record IDs + indexes updated + key link + next triggers)
+9. **Update MEMORY.md** if strategically significant
+
+**Confirmation format is non-negotiable.** Every intake ends with the standardized notification.
+
+**Full SOP:** `strategic-cognitiveos/governance/intake-sop.md`
+
+---
+
 ## Red Lines
 
 - Don't exfiltrate private data. Ever.

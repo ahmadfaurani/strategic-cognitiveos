@@ -1,0 +1,87 @@
+# Standard Research Plan Template
+# Complete this after intake, before beginning collection
+
+research_plan:
+  key_questions:
+    - "[Question 1 to guide research]"
+    - "[Question 2 to guide research]"
+    - "[Question 3 to guide research]"
+    - "[Question 4 to guide research]"
+    - "[Question 5 to guide research]"
+
+  source_strategy:
+    primary:
+      - "[Most important source type]"
+      - "[Second most important]"
+    secondary:
+      - "[Supporting source types]"
+    official:
+      - "[Government, regulatory, official bodies]"
+    commercial:
+      - "[Paid databases, commercial sources]"
+    news:
+      - "[News outlets, trade publications]"
+    technical:
+      - "[Documentation, repos, technical blogs]"
+    repositories:
+      - "[GitHub, GitLab, code repos]"
+    pdfs_documents:
+      - "[Reports, whitepapers, filings]"
+    crawl_required:
+      - "[Sites needing multi-page crawl]"
+    scrape_required:
+      - "[Sites needing single-page scrape]"
+
+  query_strategy:
+    # Broad queries for discovery
+    - "[Broad query 1]"
+    - "[Broad query 2]"
+    # Narrow queries for specific info
+    - "[Narrow query 1]"
+    - "[Narrow query 2]"
+    # Domain-specific queries
+    - "site:[domain1] \"[keyword]\""
+    - "site:[domain2] \"[keyword]\""
+    # Alternative formulations
+    - "[Synonym/variant query 1]"
+    - "[Synonym/variant query 2]"
+
+  acquisition_strategy:
+    # Map sources to Firecrawl methods
+    - Scrape: "[URLs/pages for single-page extraction]"
+    - Crawl: "[Sites for multi-page discovery]"
+    - Map: "[Sites needing structure discovery]"
+    - Extract: "[Pages needing structured field extraction]"
+    - Screenshot: "[Pages needing visual evidence]"
+    - Batch: "[Multiple known URLs]"
+
+  verification_strategy:
+    - "[How to verify key claims]"
+    - "[Cross-reference requirements]"
+    - "[Official source confirmation needed]"
+    - "[Confidence threshold for findings]"
+
+  expected_outputs:
+    - "[Output 1: e.g., CVE impact table]"
+    - "[Output 2: e.g., Executive brief]"
+    - "[Output 3: e.g., Source list with citations]"
+
+  risks:
+    - "[Risk 1: e.g., Outdated information]"
+    - "[Risk 2: e.g., Personal data handling]"
+    - "[Risk 3: e.g., Limited source availability]"
+    - "[Mitigation for each risk]"
+
+  assumptions:
+    - "[Assumption 1: e.g., Public sources are accurate]"
+    - "[Assumption 2: e.g., Recent news reflects current state]"
+    - "[Assumption 3: e.g., English sources are sufficient]"
+
+# Execution Checklist:
+# [ ] Intake block completed
+# [ ] Research plan reviewed
+# [ ] Queries validated
+# [ ] Source priorities set
+# [ ] Verification criteria defined
+# [ ] Output templates selected
+# [ ] Personal data handling confirmed (if applicable)

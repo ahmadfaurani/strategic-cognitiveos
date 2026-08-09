@@ -156,6 +156,14 @@ This is not optional. This is not a suggestion. This is the **engineered trust i
 | `memory/confidence-calibration.json` | Tag accuracy tracking |
 | `memory/validation-feedback.jsonl` | Human corrections log |
 
+## 🔗 External Verification Sources
+
+| Source | Coverage | API Access | Use Case |
+|--------|----------|------------|----------|
+| **ElectionData.MY** | Malaysia 1954–present | Free API key required | Historical results, candidate data, constituency boundaries |
+| **SPR (Suruhanjaya Pilihan Raya)** | Official election results | Manual fetch | Primary source for certified results |
+| **MEMORY.md** | Internal war-room briefs | Local file | Cross-reference for ongoing monitoring |
+
 ---
 
 ## 🎯 Success Metrics

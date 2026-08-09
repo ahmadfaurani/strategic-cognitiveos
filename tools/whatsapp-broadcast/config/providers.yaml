@@ -1,0 +1,474 @@
+# WhatsApp Business API Provider Configurations
+# Version: 1.0
+# Last Updated: 2026-07-02
+
+# =============================================================================
+# PROVIDER SELECTION
+# =============================================================================
+# Set 'active_provider' to switch between BSPs
+# Options: twilio, gupshup, 360dialog, messente, wati, interakt, aisensy
+# =============================================================================
+
+active_provider: twilio
+fallback_provider: gupshup
+
+# =============================================================================
+# TWILIO
+# =============================================================================
+# Best for: Enterprise, developer-led custom builds
+# Pricing: Meta fees + $0.005/message
+# Docs: https://www.twilio.com/docs/whatsapp
+# =============================================================================
+
+twilio:
+  enabled: true
+  priority: 1
+  
+  credentials:
+    account_sid: "${TWILIO_ACCOUNT_SID}"
+    auth_token: "${TWILIO_AUTH_TOKEN}"
+    whatsapp_number: "+1234567890"  # Your Twilio WhatsApp number
+    sandbox_number: "+14155238886"  # Twilio sandbox for testing
+  
+  api:
+    base_url: "https://api.twilio.com/2010-04-01"
+    whatsapp_url: "https://api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages.json"
+    timeout_seconds: 30
+    retry_attempts: 3
+    retry_backoff_seconds: 5
+  
+  rate_limits:
+    messages_per_minute: 100
+    messages_per_day: 10000  # Adjust based on your tier
+    burst_limit: 50
+  
+  features:
+    templates: true
+    media_messages: true
+    interactive_buttons: true
+    list_messages: true
+    location_sharing: true
+    contacts_sharing: true
+    webhook_support: true
+    delivery_receipts: true
+    read_receipts: true
+  
+  webhook:
+    enabled: true
+    url: "https://your-domain.com/webhooks/twilio"
+    events:
+      - "message.sent"
+      - "message.delivered"
+      - "message.read"
+      - "message.failed"
+      - "message.received"
+    signature_validation: true
+  
+  pricing:
+    service_fee_per_message: 0.005  # USD
+    currency: "USD"
+    billing_cycle: "monthly"
+  
+  support:
+    level: "developer"
+    channels: ["documentation", "community_forum", "email"]
+    response_time: "24-48 hours"
+
+# =============================================================================
+# GUPSHUP
+# =============================================================================
+# Best for: Enterprise-scale deployments, BFSI, telecom
+# Pricing: Enterprise contract (custom)
+# Docs: https://www.gupshup.io/developer/docs/bot-platform/guide
+# =============================================================================
+
+gupshup:
+  enabled: true
+  priority: 2
+  
+  credentials:
+    api_key: "${GUPSHUP_API_KEY}"
+    whatsapp_number: "+9876543210"
+    app_id: "${GUPSHUP_APP_ID}"
+  
+  api:
+    base_url: "https://api.gupshup.io/sm/api/v1"
+    send_url: "https://api.gupshup.io/sm/api/v1/msg/template/whatsapp/send"
+    timeout_seconds: 30
+    retry_attempts: 3
+    retry_backoff_seconds: 5
+  
+  rate_limits:
+    messages_per_minute: 200
+    messages_per_day: 50000
+    burst_limit: 100
+  
+  features:
+    templates: true
+    media_messages: true
+    interactive_buttons: true
+    list_messages: true
+    hsm_templates: true
+    green_tick_assistance: true
+    dedicated_account_manager: true
+  
+  webhook:
+    enabled: true
+    url: "https://your-domain.com/webhooks/gupshup"
+    events:
+      - "delivery_report"
+      - "inbound_message"
+      - "template_status"
+    signature_validation: true
+  
+  pricing:
+    model: "enterprise"
+    contact_required: true
+    minimum_monthly_spend: 500  # USD
+  
+  support:
+    level: "dedicated"
+    channels: ["account_manager", "phone", "email", "slack"]
+    response_time: "1-4 hours"
+
+# =============================================================================
+# 360DIALOG
+# =============================================================================
+# Best for: Cost-sensitive, API-only infrastructure, white-label
+# Pricing: $49/month license + Meta conversation fees
+# Docs: https://docs.360dialog.com/whatsapp-api
+# =============================================================================
+
+360dialog:
+  enabled: false
+  priority: 3
+  
+  credentials:
+    api_key: "${DIALOG_API_KEY}"
+    whatsapp_number: "+1122334455"
+  
+  api:
+    base_url: "https://waba.360dialog.io/v1"
+    send_url: "https://waba.360dialog.io/v1/configs/webhooks"
+    timeout_seconds: 30
+    retry_attempts: 3
+    retry_backoff_seconds: 5
+  
+  rate_limits:
+    messages_per_minute: 80
+    messages_per_day: 10000
+    burst_limit: 40
+  
+  features:
+    templates: true
+    media_messages: true
+    interactive_buttons: true
+    list_messages: false  # Limited support
+    self_service_dashboard: true
+    white_label: true
+    embedded_signup: true
+  
+  webhook:
+    enabled: true
+    url: "https://your-domain.com/webhooks/360dialog"
+    events:
+      - "messages"
+      - "statuses"
+    signature_validation: false  # Not supported
+  
+  pricing:
+    license_fee_monthly: 49  # USD
+    service_fee_per_message: 0.00
+    meta_fees_applied: true
+    currency: "USD"
+  
+  support:
+    level: "email"
+    channels: ["documentation", "email"]
+    response_time: "24-72 hours"
+
+# =============================================================================
+# MESSENTE
+# =============================================================================
+# Best for: SMBs, omnichannel (WhatsApp + SMS + Viber), global reach
+# Pricing: From €0.001/message + subscription
+# Docs: https://messente.com/docs
+# =============================================================================
+
+messente:
+  enabled: false
+  priority: 4
+  
+  credentials:
+    api_key: "${MESSENTE_API_KEY}"
+    whatsapp_number: "+447700900000"
+  
+  api:
+    base_url: "https://api.messente.com/v1"
+    send_url: "https://api.messente.com/v1/whatsapp/send"
+    timeout_seconds: 30
+    retry_attempts: 3
+    retry_backoff_seconds: 5
+  
+  rate_limits:
+    messages_per_minute: 150
+    messages_per_day: 20000
+    burst_limit: 75
+  
+  features:
+    templates: true
+    media_messages: true
+    interactive_buttons: true
+    list_messages: true
+    fallback_routing: true  # Auto-retry via SMS/Viber
+    unified_api: true  # Same API for WhatsApp/SMS/Viber
+    delivery_analytics: true
+  
+  webhook:
+    enabled: true
+    url: "https://your-domain.com/webhooks/messente"
+    events:
+      - "delivered"
+      - "failed"
+      - "read"
+      - "reply"
+    signature_validation: true
+  
+  pricing:
+    service_fee_per_message: 0.001  # EUR
+    subscription_monthly: 0  # Free tier available
+    meta_fees_applied: true
+    currency: "EUR"
+    first_1000_service_conversations_free: true
+  
+  support:
+    level: "account_manager"
+    channels: ["email", "chat", "account_manager"]
+    response_time: "2-12 hours"
+
+# =============================================================================
+# WATI
+# =============================================================================
+# Best for: SMEs, support teams, no-code automation
+# Pricing: From $49/month (tiered by conversations)
+# Docs: https://www.wati.io/docs
+# =============================================================================
+
+wati:
+  enabled: false
+  priority: 5
+  
+  credentials:
+    api_key: "${WATI_API_KEY}"
+    whatsapp_number: "+60123456789"
+  
+  api:
+    base_url: "https://serverX.wati.io/api/v1"  # X = your server number
+    send_url: "https://serverX.wati.io/api/v1/sendTemplateMessage"
+    timeout_seconds: 30
+    retry_attempts: 3
+    retry_backoff_seconds: 5
+  
+  rate_limits:
+    messages_per_minute: 100
+    messages_per_day: 10000
+    burst_limit: 50
+  
+  features:
+    templates: true
+    media_messages: true
+    interactive_buttons: true
+    list_messages: false
+    shared_inbox: true
+    no_code_chatbot: true
+    crm_integrations: true
+    team_collaboration: true
+  
+  webhook:
+    enabled: true
+    url: "https://your-domain.com/webhooks/wati"
+    events:
+      - "message_sent"
+      - "message_delivered"
+      - "message_read"
+      - "inbound_message"
+    signature_validation: true
+  
+  pricing:
+    starter_plan_monthly: 49  # USD (up to 10K conversations)
+    growth_plan_monthly: 149  # USD (up to 50K conversations)
+    service_fee_per_message: 0.00  # Included in plan
+    meta_fees_applied: true
+    currency: "USD"
+  
+  support:
+    level: "chat"
+    channels: ["documentation", "chat", "email"]
+    response_time: "2-8 hours"
+
+# =============================================================================
+# INTERAKT
+# =============================================================================
+# Best for: D2C, eCommerce (Shopify integration), marketing automation
+# Pricing: From $49/month + Meta fees
+# Docs: https://www.interakt.app/docs
+# =============================================================================
+
+interakt:
+  enabled: false
+  priority: 6
+  
+  credentials:
+    api_key: "${INTERAKT_API_KEY}"
+    whatsapp_number: "+919876543210"
+  
+  api:
+    base_url: "https://api.interakt.ai/v1"
+    send_url: "https://api.interakt.ai/v1/public/whatsapp/template"
+    timeout_seconds: 30
+    retry_attempts: 3
+    retry_backoff_seconds: 5
+  
+  rate_limits:
+    messages_per_minute: 120
+    messages_per_day: 15000
+    burst_limit: 60
+  
+  features:
+    templates: true
+    media_messages: true
+    interactive_buttons: true
+    list_messages: true
+    shopify_integration: true
+    woo_commerce_integration: true
+    catalog_sharing: true
+    abandoned_cart_recovery: true
+    segmentation: true
+  
+  webhook:
+    enabled: true
+    url: "https://your-domain.com/webhooks/interakt"
+    events:
+      - "message_sent"
+      - "message_delivered"
+      - "message_read"
+      - "inbound_message"
+      - "button_clicked"
+    signature_validation: true
+  
+  pricing:
+    starter_plan_monthly: 49  # USD
+    growth_plan_monthly: 99  # USD
+    service_fee_per_message: 0.00
+    meta_fees_applied: true
+    currency: "USD"
+  
+  support:
+    level: "india_focused"
+    channels: ["documentation", "chat", "email", "phone"]
+    response_time: "1-4 hours (IST business hours)"
+
+# =============================================================================
+# AISENSY
+# =============================================================================
+# Best for: Marketing automation, Click-to-WhatsApp ads, built-in CRM
+# Pricing: Custom (India-friendly)
+# Docs: https://aisensy.com/docs
+# =============================================================================
+
+aisensy:
+  enabled: false
+  priority: 7
+  
+  credentials:
+    api_key: "${AISENSY_API_KEY}"
+    whatsapp_number: "+911234567890"
+  
+  api:
+    base_url: "https://api.aisensy.com/v1"
+    send_url: "https://api.aisensy.com/v1/sendTemplate"
+    timeout_seconds: 30
+    retry_attempts: 3
+    retry_backoff_seconds: 5
+  
+  rate_limits:
+    messages_per_minute: 150
+    messages_per_day: 20000
+    burst_limit: 75
+  
+  features:
+    templates: true
+    media_messages: true
+    interactive_buttons: true
+    list_messages: true
+    click_to_whatsapp_ads: true
+    built_in_crm: true
+    no_code_chatbot: true
+    broadcast_scheduling: true
+    contact_tagging: true
+  
+  webhook:
+    enabled: true
+    url: "https://your-domain.com/webhooks/aisensy"
+    events:
+      - "message_sent"
+      - "message_delivered"
+      - "message_read"
+      - "inbound_message"
+    signature_validation: true
+  
+  pricing:
+    model: "custom"
+    india_friendly: true
+    contact_required: true
+  
+  support:
+    level: "india_focused"
+    channels: ["documentation", "chat", "email", "phone"]
+    response_time: "1-4 hours (IST)"
+
+# =============================================================================
+# FALLBACK CONFIGURATION
+# =============================================================================
+# Used when primary provider fails or reaches rate limit
+# =============================================================================
+
+fallback:
+  enabled: true
+  strategy: "automatic"  # Options: automatic, manual
+  
+  triggers:
+    - "primary_rate_limit_exceeded"
+    - "primary_api_error_5xx"
+    - "primary_quality_rating_low"
+  
+  notification:
+    enabled: true
+    channels: ["slack", "email"]
+    threshold: "3_failures_in_5_minutes"
+  
+  failback:
+    automatic: true
+    delay_minutes: 30
+    health_check_interval_minutes: 5
+
+# =============================================================================
+# MULTI-PROVIDER LOAD BALANCING
+# =============================================================================
+# Distribute traffic across multiple providers for redundancy
+# =============================================================================
+
+load_balancing:
+  enabled: false
+  strategy: "weighted_round_robin"  # Options: round_robin, weighted, priority
+  
+  weights:
+    twilio: 50
+    gupshup: 30
+    messente: 20
+  
+  health_check:
+    enabled: true
+    interval_seconds: 60
+    timeout_seconds: 10
+    unhealthy_threshold: 3

@@ -1,0 +1,214 @@
+{
+  "subject": "Ahmad Farhan Fauzi",
+  "timeline": [
+    {
+      "date": "1994-1996 (estimated)",
+      "event": "Born in Pahang, Malaysia",
+      "age": 0,
+      "category": "Personal",
+      "significance": "Third-generation political family"
+    },
+    {
+      "date": "2000-2011 (estimated)",
+      "event": "Primary and Secondary Education",
+      "age": "6-17",
+      "category": "Education",
+      "significance": "Details not publicly disclosed",
+      "location": "Likely Kuantan, Pahang"
+    },
+    {
+      "date": "2012-2015 (estimated)",
+      "event": "Tertiary Education",
+      "age": "18-21",
+      "category": "Education",
+      "significance": "University degree obtained (institution/field not disclosed)"
+    },
+    {
+      "date": "2015-2022",
+      "event": "Early Career / Political Organizing",
+      "age": "21-28",
+      "category": "Career",
+      "significance": "Pre-PMO; likely PKR volunteer or staff",
+      "details": "No public positions documented"
+    },
+    {
+      "date": "2022-12-23",
+      "event": "Appointed Political Secretary to Prime Minister",
+      "age": "26-28",
+      "category": "Government",
+      "significance": "First major public office; one of youngest to hold this position",
+      "appointedBy": "Prime Minister Anwar Ibrahim",
+      "location": "Perdana Putra, Putrajaya"
+    },
+    {
+      "date": "2024-09-12",
+      "event": "Conferred Darjah Indera Mahkota Pahang (DIMP)",
+      "age": "28-30",
+      "category": "Honours",
+      "significance": "Carries title 'Dato''",
+      "conferredBy": "Sultan of Pahang Al-Sultan Abdullah Ri'ayatuddin Al-Mustafa Billah Shah",
+      "location": "Pahang"
+    },
+    {
+      "date": "2025-04",
+      "event": "Elected PKR Indera Mahkota Division Chief (Uncontested)",
+      "age": "29-31",
+      "category": "Party",
+      "significance": "Constituency leadership secured without opposition",
+      "tenure": "2025-2028"
+    },
+    {
+      "date": "2025-08",
+      "event": "Appointed PKR Pahang State Chairman",
+      "age": "29-31",
+      "category": "Party",
+      "significance": "State-level party leadership",
+      "appointedBy": "PKR Central Leadership (MPP)",
+      "tenure": "2025-2028",
+      "predecessor": "Not disclosed"
+    },
+    {
+      "date": "2025-2026",
+      "event": "Membership Drive Launch",
+      "age": "29-31",
+      "category": "Party",
+      "significance": "Target: 6,666 → 10,000 members",
+      "currentMembers": 6666,
+      "targetMembers": 10000,
+      "growthNeeded": 3334,
+      "growthPercentage": 50
+    },
+    {
+      "date": "2025-late",
+      "event": "Secured RM 2M Federal Allocations",
+      "age": "29-31",
+      "category": "Development",
+      "significance": "Cenderawasih Food Court + Balok Multipurpose Hall",
+      "projects": [
+        {
+          "name": "Cenderawasih Food Court Reconstruction",
+          "amount": 1000000,
+          "ministry": "KPKT"
+        },
+        {
+          "name": "Balok Multipurpose Hall",
+          "amount": 1000000,
+          "ministry": "KPKT"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "event": "Announced RM 350K for Islamic Education Centres",
+      "age": "30-32",
+      "category": "Development",
+      "significance": "Federal allocation for religious education",
+      "beneficiaries": ["Ribath Al-Mustofa", "Ribath Azzahra Al-Batul"],
+      "amount": 350000,
+      "ministry": "PMO/Federal Territories"
+    },
+    {
+      "date": "2026-04",
+      "event": "Announced as GE16 Prospective Candidate (NST Report)",
+      "age": "30-32",
+      "category": "Electoral",
+      "significance": "Public declaration of electoral intent",
+      "constituency": "Indera Mahkota",
+      "source": "New Straits Times"
+    },
+    {
+      "date": "2026-06",
+      "event": "Current Status (Report Date)",
+      "age": "30-32",
+      "category": "Current",
+      "significance": "Holds 3 concurrent positions",
+      "positions": [
+        "Political Secretary to PM",
+        "PKR Pahang State Chairman",
+        "Indera Mahkota Division Chief"
+      ]
+    },
+    {
+      "date": "2027-Q4 (expected)",
+      "event": "GE16 Election Contest",
+      "age": "31-33",
+      "category": "Electoral",
+      "significance": "Critical career milestone",
+      "constituency": "Indera Mahkota",
+      "opponent": "Saifuddin Abdullah (Incumbent, Independent)",
+      "target": "55% vote share (~57,200 votes)",
+      "status": "Projected"
+    },
+    {
+      "date": "2028",
+      "event": "PKR National Congress / Party Elections",
+      "age": "32-34",
+      "category": "Party",
+      "significance": "Leadership renewal cycle",
+      "potentialOutcomes": [
+        "Re-election as State Chairman",
+        "Re-election as Division Chief",
+        "MPP seat consideration"
+      ],
+      "status": "Future"
+    },
+    {
+      "date": "2028-2033 (projected)",
+      "event": "Career Growth Phase",
+      "age": "32-39",
+      "category": "Career",
+      "significance": "Ministerial/VP track (contingent on GE16)",
+      "potentialPositions": [
+        "Junior Minister (2028)",
+        "Full Minister (2030)",
+        "Menteri Besar Pahang (2030)",
+        "PKR Vice President (2033+)"
+      ],
+      "status": "Projected",
+      "contingent": "GE16 victory"
+    }
+  ],
+  "careerAcceleration": {
+    "birthToPMO": {
+      "years": "26-28",
+      "assessment": "Extremely fast for Malaysian politics",
+      "comparison": "Faster than Khairy Jamaluddin (32), Mukhriz Mahathir (38)"
+    },
+    "pmoToStateChairman": {
+      "years": 2.5,
+      "assessment": "Rapid party ascent",
+      "factor": "PM trust + family network + party restructuring"
+    },
+    "pmoToDatoTitle": {
+      "years": 1.75,
+      "assessment": "Fast honour conferment",
+      "factor": "State service recognition"
+    }
+  },
+  "criticalMilestones": [
+    {
+      "milestone": "GE16 Contest",
+      "date": "2027-Q4",
+      "importance": "CRITICAL",
+      "impact": "Validates all 3 roles; determines ministerial potential"
+    },
+    {
+      "milestone": "PKR Congress 2028",
+      "date": "2028",
+      "importance": "HIGH",
+      "impact": "Party leadership renewal; MPP seat opportunity"
+    },
+    {
+      "milestone": "PM Succession",
+      "date": "2027-2028 (uncertain)",
+      "importance": "CRITICAL",
+      "impact": "Affects PMO role and patronage network"
+    },
+    {
+      "milestone": "Pahang State Election",
+      "date": "2028 (expected)",
+      "importance": "HIGH",
+      "impact": "State government role possibility"
+    }
+  ]
+}

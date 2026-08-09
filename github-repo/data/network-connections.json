@@ -1,0 +1,239 @@
+{
+  "reportMetadata": {
+    "classification": "Political Intelligence – Comprehensive Assessment",
+    "reportDate": "June 2026",
+    "subject": "Ahmad Farhan Fauzi bin Dato' Sri Fauzi Abdul Rahman",
+    "repositoryCreated": "2026-06-16",
+    "nextUpdate": "Post-GE16 (Expected Late 2027)"
+  },
+  "subject": {
+    "fullName": "Ahmad Farhan Fauzi bin Dato' Sri Fauzi Abdul Rahman",
+    "commonName": "Ahmad Farhan Fauzi",
+    "title": "Dato'",
+    "titleConferred": "2024-09-12",
+    "titleSource": "DIMP - Darjah Indera Mahkota Pahang",
+    "estimatedBirthYear": "1994-1996",
+    "age2026": "30-32",
+    "nationality": "Malaysian",
+    "ethnicity": "Malay",
+    "religion": "Islam",
+    "residence": ["Putrajaya (PMO duty)", "Kuantan, Pahang (constituency)"]
+  },
+  "currentPositions": [
+    {
+      "role": "Political Secretary to Prime Minister",
+      "organization": "Prime Minister's Office",
+      "appointmentDate": "2022-12-23",
+      "tenure": "At PM's pleasure",
+      "reportingLine": "Prime Minister (Anwar Ibrahim)",
+      "type": "Federal Government"
+    },
+    {
+      "role": "Pengerusi (State Chairman)",
+      "organization": "PKR Pahang",
+      "appointmentDate": "2025-08",
+      "tenure": "2025-2028",
+      "reportingLine": "PKR Central Leadership (MPP)",
+      "type": "Party"
+    },
+    {
+      "role": "Ketua Bahagian (Division Chief)",
+      "organization": "PKR Indera Mahkota",
+      "appointmentDate": "2025-04",
+      "tenure": "2025-2028",
+      "reportingLine": "PKR Pahang State MPN",
+      "electionResult": "Uncontested",
+      "type": "Party"
+    }
+  ],
+  "familyDynasty": {
+    "generation1": {
+      "name": "Abdul Rahman Talib",
+      "relationship": "Grandfather (paternal)",
+      "status": "Deceased",
+      "positions": ["UMNO Founding Member", "Minister of Education (1950s-60s)", "Minister of Communications"],
+      "politicalCapital": "Legacy name recognition, UMNO roots"
+    },
+    "generation2": {
+      "name": "Dato' Sri Fauzi Abdul Rahman",
+      "relationship": "Father",
+      "status": "Living",
+      "positions": ["Former MP Indera Mahkota (2013-2018)", "Chairman MyHSR Corp", "PKR Pahang State Advisor"],
+      "politicalCapital": "GLC access, constituency inheritance, active mentorship"
+    },
+    "generation3": {
+      "name": "Dato' Ahmad Farhan Fauzi",
+      "relationship": "Subject",
+      "status": "Living",
+      "positions": ["PM Political Secretary", "PKR Pahang Chairman", "Division Chief"],
+      "politicalCapital": "PM access, party machinery, youth demographic appeal"
+    }
+  },
+  "keyRelationships": {
+    "innerCircle": [
+      {
+        "name": "Anwar Ibrahim",
+        "position": "Prime Minister + PKR President",
+        "relationship": "Direct Superior (both government + party)",
+        "interactionFrequency": "DAILY",
+        "influenceLevel": "CRITICAL"
+      },
+      {
+        "name": "Fauzi Abdul Rahman",
+        "position": "Chairman MyHSR Corp + PKR Pahang Advisor",
+        "relationship": "Father + Political Mentor",
+        "interactionFrequency": "DAILY",
+        "influenceLevel": "CRITICAL"
+      },
+      {
+        "name": "Chan Ming Kai",
+        "position": "Co-Political Secretary to PM",
+        "relationship": "Colleague (shared office)",
+        "interactionFrequency": "DAILY",
+        "influenceLevel": "HIGH"
+      }
+    ],
+    "operationalCircle": [
+      {
+        "name": "Amirudin Shari",
+        "position": "PKR Vice President + Menteri Besar Selangor",
+        "relationship": "Chief Advisor (Pahang PKR)",
+        "interactionFrequency": "WEEKLY",
+        "influenceLevel": "CRITICAL"
+      },
+      {
+        "name": "Fuziah Salleh",
+        "position": "Former Kuantan MP (2008-2022)",
+        "relationship": "Senior Advisor (Pahang PKR)",
+        "interactionFrequency": "WEEKLY",
+        "influenceLevel": "HIGH"
+      },
+      {
+        "name": "Dr Sim Chon Siang",
+        "position": "Deputy Chairman PKR Pahang + MPP Member",
+        "relationship": "Deputy + MPP Connection",
+        "interactionFrequency": "WEEKLY",
+        "influenceLevel": "HIGH",
+        "notes": "Double connection: State + Central"
+      },
+      {
+        "name": "Senator Manolan Mohamad",
+        "position": "Vice-Chairman 1 PKR Pahang + Bera Division Chief",
+        "relationship": "Alliance Partner",
+        "interactionFrequency": "WEEKLY",
+        "influenceLevel": "MEDIUM"
+      },
+      {
+        "name": "G Sivananda",
+        "position": "Vice-Chairman 2 PKR Pahang + Raub Division Chief",
+        "relationship": "Alliance Partner",
+        "interactionFrequency": "WEEKLY",
+        "influenceLevel": "MEDIUM"
+      },
+      {
+        "name": "Mohd Hafez Harun",
+        "position": "Vice-Chairman 3 PKR Pahang + Kuala Krau Division Chief",
+        "relationship": "Alliance Partner",
+        "interactionFrequency": "WEEKLY",
+        "influenceLevel": "MEDIUM"
+      },
+      {
+        "name": "Hilmi Yakop",
+        "position": "State Youth Chief (AMK) Pahang",
+        "relationship": "Subordinate",
+        "interactionFrequency": "WEEKLY",
+        "influenceLevel": "MEDIUM"
+      },
+      {
+        "name": "Sridayu Samsuri",
+        "position": "State Women's Chief Pahang",
+        "relationship": "Subordinate",
+        "interactionFrequency": "WEEKLY",
+        "influenceLevel": "MEDIUM"
+      }
+    ],
+    "extendedCircle": {
+      "pkrCentral": [
+        "Nurul Izzah Anwar (Deputy President)",
+        "R Ramanan (Vice President)",
+        "Aminuddin Harun (Vice President + MB Negeri Sembilan)",
+        "Chang Lih Kang (Vice President + Minister)",
+        "Adam Adli Abd Halim (MPP + AMK Chief)",
+        "Norhayati Omar (MPP + Women's Chief)"
+      ],
+      "pmoColleagues": [
+        "Azman Abidin (Co-Political Secretary)",
+        "Tengku Zafrul Aziz (Senior Political Advisor)",
+        "Muhammad Kamil Abdul Munim (Pol Sec to Finance Minister)"
+      ],
+      "coalitionPartners": [
+        "Lim Guan Eng (DAP Secretary-General)",
+        "Anthony Loke (DAP Chairman)",
+        "Mohamad Sabu (AMANAH President)",
+        "Ahmad Zahid Hamidi (UMNO President)",
+        "Wan Rosdy Wan Ishak (Pahang Menteri Besar - UMNO)"
+      ],
+      "opposition": [
+        "Saifuddin Abdullah (Incumbent MP Indera Mahkota - Independent)",
+        "Andansura Rabu (ADUN Beserah - PAS)"
+      ]
+    }
+  },
+  "pkrPahangStructure": {
+    "leadership": {
+      "chairman": "Ahmad Farhan Fauzi",
+      "deputyChairman": "Dr Sim Chon Siang",
+      "viceChairmen": [
+        "Senator Manolan Mohamad (Bera)",
+        "G Sivananda (Raub)",
+        "Mohd Hafez Harun (Kuala Krau)"
+      ],
+      "youthChief": "Hilmi Yakop",
+      "womensChief": "Sridayu Samsuri"
+    },
+    "advisors": [
+      "Amirudin Shari (PKR VP + Selangor MB)",
+      "Fuziah Salleh (Former Kuantan MP)",
+      "Fauzi Abdul Rahman (Father, MyHSR Chairman)"
+    ],
+    "divisions": [
+      "Indera Mahkota",
+      "Bera",
+      "Raub",
+      "Kuala Krau",
+      "Kuantan",
+      "Bentong",
+      "Cameron Highlands",
+      "Jerantut",
+      "Lipis",
+      "Maran",
+      "Pekan",
+      "Rompin",
+      "Temerloh"
+    ]
+  },
+  "ge16Outlook": {
+    "constituency": "Indera Mahkota (P082)",
+    "state": "Pahang",
+    "status": "Announced Prospective Candidate (April 2026)",
+    "incumbent": {
+      "name": "Saifuddin Abdullah",
+      "party": "Independent (formerly PN-BERSATU)",
+      "ge15Votes": 41692,
+      "ge15Share": 0.4465
+    },
+    "ge15Result": {
+      "pkrCandidate": "Zuraidi Ismail",
+      "pkrVotes": 33293,
+      "pkrShare": 0.3565,
+      "turnout": 0.7746,
+      "majority": 8399
+    },
+    "ge16Target": {
+      "voteShare": 0.55,
+      "totalVotes": 57200,
+      "growthNeeded": 23907,
+      "growthPercentage": 0.72
+    }
+  }
+}

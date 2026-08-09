@@ -1,0 +1,38 @@
+{
+  "$schema": "https://research-stack.local/schemas/acquisition-output-v1.json",
+  "source_url": "https://...",
+  "canonical_url": "https://...",
+  "title": "[Page title]",
+  "publisher": "[Publisher/organization name]",
+  "retrieved_at": "2024-06-14T04:30:00Z",
+  "published_at": "2024-06-13T10:00:00Z",
+  "content_markdown": "[Full extracted content in Markdown format]",
+  "structured_json": {
+    "_comment": "Schema depends on extraction type - see mode-specific schemas",
+    "example_fields": {
+      "field_1": "value",
+      "field_2": "value"
+    }
+  },
+  "screenshot_path": "/evidence/screenshots/[evidence_id].png",
+  "extraction_status": "success|partial|failed",
+  "notes": "[Any issues, observations, or special handling]",
+  "firecrawl_metadata": {
+    "extraction_time_ms": 450,
+    "content_length_bytes": 12345,
+    "word_count": 890,
+    "images_count": 5,
+    "links_count": 23,
+    "format": "markdown|json|html",
+    "screenshot": true,
+    "only_main_content": true,
+    "excluded_tags": ["nav", "footer", "header"],
+    "included_tags": ["article", "main", "section"]
+  },
+  "quality_checks": {
+    "content_complete": true,
+    "metadata_extracted": true,
+    "screenshot_captured": true,
+    "extraction_errors": []
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "state": "Johor",
+    "election_year": 2026,
+    "total_seats": 56,
+    "total_electors_2022": 2600000,
+    "total_electors_2026_estimated": 2750000,
+    "data_source": "Election Commission (SPR) via electiondata.my",
+    "last_updated": "2026-06-15"
+  },
+  "youth_demographics": {
+    "age_18_29_2022": {
+      "count": 736264,
+      "percentage": 28.3,
+      "gen_z_18_26_percentage": 18.5
+    },
+    "age_18_29_2026_estimated": {
+      "count": 780000,
+      "percentage": 28.4
+    },
+    "seats_with_30_percent_gen_z": [
+      {"seat": "N40", "constituency": "Tiram", "gen_z_percentage": 37},
+      {"seat": "N49", "constituency": "Kota Iskandar", "gen_z_percentage": 36},
+      {"seat": "N41", "constituency": "Puteri Wangsa", "gen_z_percentage": 36},
+      {"seat": "N50", "constituency": "Bukit Permai", "gen_z_percentage": 35},
+      {"seat": "N43", "constituency": "Permas", "gen_z_percentage": 33},
+      {"seat": "N51", "constituency": "Bukit Batu", "gen_z_percentage": 31},
+      {"seat": "N42", "constituency": "Johor Jaya", "gen_z_percentage": 31},
+      {"seat": "N44", "constituency": "Larkin", "gen_z_percentage": 30},
+      {"seat": "N45", "constituency": "Stulang", "gen_z_percentage": 30},
+      {"seat": "N46", "constituency": "Perling", "gen_z_percentage": 30}
+    ]
+  },
+  "turnout_analysis": {
+    "2022_state_election": {
+      "turnout_percentage": 54,
+      "notes": "Suppressed by COVID-19 pandemic; many outstation voters did not return"
+    },
+    "2022_general_election": {
+      "turnout_percentage": 75,
+      "notes": "Normal turnout levels; PH won 13 parliamentary seats vs BN's 9 in Johor"
+    },
+    "2026_projections": {
+      "low_scenario": {"turnout": 55, "advantage": "BN"},
+      "moderate_scenario": {"turnout": 65, "advantage": "Competitive"},
+      "high_scenario": {"turnout": 75, "advantage": "PH"}
+    }
+  },
+  "marginal_seats": {
+    "core_seven": [
+      {
+        "seat": "N51",
+        "constituency": "Bukit Batu",
+        "winner_2022": "PH-PKR",
+        "majority": 137,
+        "margin_percent": 0.57,
+        "classification": "toss-up",
+        "demographics": "suburban_mixed",
+        "gen_z_percentage": 31
+      },
+      {
+        "seat": "N08",
+        "constituency": "Bukit Pasir",
+        "winner_2022": "BN-UMNO",
+        "majority": 198,
+        "margin_percent": 1.05,
+        "classification": "lean_bn",
+        "demographics": "rural_malay",
+        "gen_z_percentage": 22
+      },
+      {
+        "seat": "N21",
+        "constituency": "Parit Yaani",
+        "winner_2022": "BN-UMNO",
+        "majority": 294,
+        "margin_percent": 1.25,
+        "classification": "toss-up",
+        "demographics": "mixed_rural_suburban",
+        "gen_z_percentage": 24
+      },
+      {
+        "seat": "N10",
+        "constituency": "Tangkak",
+        "winner_2022": "PH-DAP",
+        "majority": 372,
+        "margin_percent": 1.87,
+        "classification": "lean_ph",
+        "demographics": "urban_chinese_majority",
+        "gen_z_percentage": 26
+      },
+      {
+        "seat": "N11",
+        "constituency": "Serom",
+        "winner_2022": "BN-UMNO",
+        "majority": 699,
+        "margin_percent": 3.15,
+        "classification": "toss-up",
+        "demographics": "rural_malay",
+        "gen_z_percentage": 23
+      },
+      {
+        "seat": "N07",
+        "constituency": "Bukit Kepong",
+        "winner_2022": "PN-BERSATU",
+        "majority": 710,
+        "margin_percent": 3.18,
+        "classification": "lean_pn",
+        "demographics": "malay_dominated",
+        "gen_z_percentage": 25
+      },
+      {
+        "seat": "N02",
+        "constituency": "Jementah",
+        "winner_2022": "PH-DAP",
+        "majority": 714,
+        "margin_percent": 3.29,
+        "classification": "lean_ph",
+        "demographics": "mixed_chinese_malay_rural",
+        "gen_z_percentage": 26
+      }
+    ],
+    "additional_vulnerable": [
+      {
+        "seat": "N40",
+        "constituency": "Tiram",
+        "winner_2022": "BN-UMNO",
+        "majority": 5281,
+        "margin_percent": 17.24,
+        "classification": "vulnerable_internal",
+        "issue": "DAP internal realignment after Marina Ibrahim retirement"
+      },
+      {
+        "seat": "N32",
+        "constituency": "Endau",
+        "winner_2022": "PN-BERSATU",
+        "majority": 3041,
+        "margin_percent": 16.38,
+        "classification": "vulnerable_defection",
+        "issue": "Incumbent Alwiyah Talib defected back to UMNO"
+      },
+      {
+        "seat": "N41",
+        "constituency": "Puteri Wangsa",
+        "winner_2022": "MUDA",
+        "majority": 7114,
+        "margin_percent": 16.64,
+        "classification": "vulnerable_coalition",
+        "issue": "PH component parties contesting seat ownership"
+      }
+    ]
+  },
+  "outstation_voters": {
+    "estimated_count": 450000,
+    "primary_locations": [
+      {"location": "Singapore", "estimated": 250000, "notes": "Cross-border workers"},
+      {"location": "Klang Valley", "estimated": 150000, "notes": "Work and study"},
+      {"location": "Penang", "estimated": 30000, "notes": "Work and study"},
+      {"location": "Other", "estimated": 20000, "notes": "Various locations"}
+    ],
+    "2022_return_rate": "Low (pandemic restrictions)",
+    "2026_projected_return_rate": "Moderate-High (weekend polling)",
+    "potential_impact": "Could swing 3-4 marginal seats by 2-5%"
+  }
+}

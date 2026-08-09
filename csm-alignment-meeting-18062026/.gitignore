@@ -1,0 +1,32 @@
+# Classification markers
+*.classification
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.log
+
+# Sensitive data (never commit)
+*.key
+*.pem
+*.crt
+secrets/
+credentials/
+
+# Meeting recordings (if any)
+recordings/
+*.mp4
+*.mov
+
+# Personal notes
+notes-personal/

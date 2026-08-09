@@ -219,6 +219,50 @@ else
     echo -e "  ${YELLOW}⚠ Cross-reference script not available${NC}"
 fi
 
+# --- Check 7: ElectionData.MY API Verification ---
+echo -e "\n${YELLOW}[6] ElectionData.MY API Verification${NC}"
+echo "-----------------------------------"
+
+ELECTIONDATA_SCRIPT="$SCRIPT_DIR/electiondata-verify.sh"
+if [ -x "$ELECTIONDATA_SCRIPT" ]; then
+    # Extract constituency name from file
+    CONSTITUENCY=$(grep -oE 'N[0-9]+ [A-Za-z ]+' "$INPUT_FILE" | head -1)
+    
+    if [ -n "$CONSTITUENCY" ]; then
+        echo "  Verifying against ElectionData.MY: $CONSTITUENCY"
+        
+        # Check if API key is configured (multiple sources)
+        # Priority: 1) Env var, 2) Workspace config, 3) Key file
+        API_KEY_SOURCE=""
+        if [ -n "$ELECTIONDATA_API_KEY" ]; then
+            API_KEY_SOURCE="env"
+        elif [ -f "$WORKSPACE/.electiondata-config" ]; then
+            source "$WORKSPACE/.electiondata-config"
+            API_KEY_SOURCE="config"
+        elif [ -f "$SCRIPT_DIR/.electiondata-key" ]; then
+            source "$SCRIPT_DIR/.electiondata-key"
+            API_KEY_SOURCE="keyfile"
+        fi
+        
+        if [ -n "$ELECTIONDATA_API_KEY" ]; then
+            # Run verification (non-blocking, informational)
+            echo "     API key loaded from: $API_KEY_SOURCE"
+            bash "$ELECTIONDATA_SCRIPT" "$CONSTITUENCY" 2>/dev/null || echo -e "  ${YELLOW}⚠ API verification skipped (API unavailable)${NC}"
+        else
+            echo -e "  ${RED}❌ ERROR: ElectionData.MY API key not configured${NC}"
+            echo "     This is MANDATORY per CVS-MANDATE.md"
+            echo "     Configure: export ELECTIONDATA_API_KEY=***"
+            echo "     Or run: source tools/truth-validator/.electiondata-key"
+            echo "     Get key: https://electiondata.my/console"
+            ERRORS=$((ERRORS + 1))
+        fi
+    else
+        echo -e "  ${YELLOW}⚠ No constituency found for ElectionData.MY verification${NC}"
+    fi
+else
+    echo -e "  ${YELLOW}⚠ ElectionData.MY verification script not found${NC}"
+fi
+
 # --- Summary ---
 echo -e "\n=== Validation Summary ==="
 echo -e "Errors: ${RED}$ERRORS${NC}"

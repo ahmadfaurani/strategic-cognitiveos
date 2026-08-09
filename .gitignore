@@ -58,3 +58,43 @@ coverage/
 # Memory files (daily notes)
 memory/*.md
 !memory/README.md
+*.electiondata-key
+# Dreaming system generated files
+memory/.dreams/
+memory/dreaming/
+memory/signals/
+# Large data files
+*.xlsx
+*.csv
+# Offensive tools (separate concern)
+offensive-tools/
+# Deep team venv
+.venv-deepteam/
+# Package files
+package-lock.json
+
+# Nested git repos (managed separately)
+DUN-Profiling/
+hoi-intel-workspace/
+n47-kempas-repo/
+RISIK-PRN-Negeri-Sembilan/
+rmit-campaign-workspace/
+n14-bukit-naning-prn2026/
+voron-campaign-temp/
+n17-semerah-prn2026/
+strategic-cognitiveos/
+personal-intelligence-os/
+gpt-5-6-safety-analysis/
+csm-repo/
+github/
+github-repos/
+github-warroom/
+github-dr-rafee/
+github-repos/N32-Endau-V2/
+github-repos/kraken-initial-intel/
+github-repos/n39-tanjung-surat/
+
+# More nested repos
+github/
+memory/n16-sungai-balang-repo/
+tools/Mr.Holmes/

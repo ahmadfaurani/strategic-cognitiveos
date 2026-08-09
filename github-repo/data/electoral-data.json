@@ -1,0 +1,171 @@
+{
+  "constituency": {
+    "code": "P082",
+    "name": "Indera Mahkota",
+    "state": "Pahang",
+    "district": "Kuantan",
+    "area_km2": 392,
+    "created": 2003,
+    "firstContested": 2004
+  },
+  "demographics": {
+    "population2020": 248946,
+    "registeredVoters2022": 120549,
+    "ethnicBreakdown": {
+      "malay": { "percentage": 0.687, "voters": 82800 },
+      "chinese": { "percentage": 0.254, "voters": 30600 },
+      "indian": { "percentage": 0.054, "voters": 6500 },
+      "other": { "percentage": 0.005, "voters": 600 }
+    },
+    "ageBreakdown": {
+      "18-20": { "percentage": 0.0848, "voters": 10200 },
+      "21-29": { "percentage": 0.259, "voters": 31200 },
+      "30-39": { "percentage": 0.232, "voters": 28000 },
+      "40-49": { "percentage": 0.161, "voters": 19400 },
+      "50-59": { "percentage": 0.127, "voters": 15300 },
+      "60-69": { "percentage": 0.0916, "voters": 11000 },
+      "70-79": { "percentage": 0.0337, "voters": 4000 },
+      "80-89": { "percentage": 0.0088, "voters": 1000 },
+      "90+": { "percentage": 0.0015, "voters": 200 }
+    },
+    "genderBreakdown": {
+      "male": 0.50,
+      "female": 0.50
+    }
+  },
+  "pollingDistricts": {
+    "total": 24,
+    "stateSeats": [
+      { "code": "N12", "name": "Beserah" },
+      { "code": "N13", "name": "Semambu" }
+    ],
+    "beserahDistricts": [
+      { "code": "082/12/01", "name": "Cherating", "location": "SK Cherating", "pkrStrength": "MEDIUM" },
+      { "code": "082/12/02", "name": "Sungai Ular", "location": "SK Sungai Ular", "pkrStrength": "WEAK" },
+      { "code": "082/12/03", "name": "Balok Makmur", "location": "SK Balok Baru", "pkrStrength": "MEDIUM" },
+      { "code": "082/12/04", "name": "Balok Baru", "location": "SK Balok Makmur", "pkrStrength": "MEDIUM-STRONG" },
+      { "code": "082/12/05", "name": "Balok", "location": "SK Balok / SMK Chengal Lempong", "pkrStrength": "STRONG" },
+      { "code": "082/12/06", "name": "Sungai Karang", "location": "SK Sungai Karang", "pkrStrength": "MEDIUM" },
+      { "code": "082/12/07", "name": "Alor Batu", "location": "SK Jabor", "pkrStrength": "WEAK" },
+      { "code": "082/12/08", "name": "Batu Hitam", "location": "SMK Beserah", "pkrStrength": "MEDIUM" },
+      { "code": "082/12/09", "name": "Kampung Beserah", "location": "SK Beserah", "pkrStrength": "MEDIUM" },
+      { "code": "082/12/10", "name": "Seri Pelindong", "location": "SMK Pelindung", "pkrStrength": "STRONG" },
+      { "code": "082/12/11", "name": "Alor Akar", "location": "Kolej Vokesional Kuantan", "pkrStrength": "MEDIUM" },
+      { "code": "082/12/12", "name": "Air Putih Baru", "location": "SMK Air Putih", "pkrStrength": "MEDIUM" },
+      { "code": "082/12/13", "name": "Air Putih", "location": "SJK (C) Pei Chai", "pkrStrength": "MEDIUM" }
+    ],
+    "semambuDistricts": [
+      { "code": "082/13/01", "name": "Kampung Padang", "location": "SK Kampong Padang", "pkrStrength": "MEDIUM" },
+      { "code": "082/13/02", "name": "Rtp Bukit Goh", "location": "SK Rtp Bukit Goh", "pkrStrength": "WEAK" },
+      { "code": "082/13/03", "name": "Bukit Istana", "location": "SK Sungai Talam", "pkrStrength": "MEDIUM" },
+      { "code": "082/13/04", "name": "Semambu", "location": "SK Semambu", "pkrStrength": "STRONG" },
+      { "code": "082/13/05", "name": "Bukit Sekilau", "location": "SK Bukit Sekilau / KUYP", "pkrStrength": "MEDIUM-STRONG" },
+      { "code": "082/13/06", "name": "Indera Mahkota 1", "location": "SMK Cenderawasih", "pkrStrength": "VERY STRONG" },
+      { "code": "082/13/07", "name": "Bukit Ubi", "location": "Dewan Kelab Sukan Komuniti", "pkrStrength": "STRONG" },
+      { "code": "082/13/08", "name": "Bukit Setongkol", "location": "SK Bukit Setongkol", "pkrStrength": "MEDIUM" },
+      { "code": "082/13/09", "name": "Taman LKNP", "location": "SJK (C) Chung Ching 2", "pkrStrength": "STRONG" },
+      { "code": "082/13/10", "name": "Chenderawasih", "location": "SK Cenderawasih / SA Rakyat", "pkrStrength": "STRONG" },
+      { "code": "082/13/11", "name": "Indera Mahkota 2", "location": "SMK Tengku Panglima / SK IM", "pkrStrength": "VERY STRONG" }
+    ]
+  },
+  "ge15Results": {
+    "date": "2022-11-19",
+    "turnout": {
+      "percentage": 0.7746,
+      "totalVotes": 94446
+    },
+    "candidates": [
+      {
+        "name": "Saifuddin Abdullah",
+        "party": "PN-BERSATU",
+        "votes": 41692,
+        "share": 0.4465,
+        "result": "WIN"
+      },
+      {
+        "name": "Zuraidi Ismail",
+        "party": "PH-PKR",
+        "votes": 33293,
+        "share": 0.3565,
+        "result": "LOSE",
+        "depositSaved": true
+      },
+      {
+        "name": "Quek Tai Seong",
+        "party": "BN-UMNO",
+        "votes": 16530,
+        "share": 0.1770,
+        "result": "LOSE",
+        "depositSaved": true
+      },
+      {
+        "name": "Mohamad Nor Sundari",
+        "party": "GTA",
+        "votes": 1860,
+        "share": 0.0200,
+        "result": "LOSE",
+        "depositSaved": false
+      }
+    ],
+    "majority": 8399,
+    "majorityPercentage": 0.0900
+  },
+  "ge16Target": {
+    "expectedDate": "2027-Q4",
+    "pkrCandidate": "Ahmad Farhan Fauzi (expected)",
+    "targets": {
+      "voteShare": 0.55,
+      "totalVotes": 57200,
+      "growthFromGE15": 23907,
+      "growthPercentage": 0.72,
+      "turnoutTarget": 0.82
+    },
+    "strategyByDistrict": {
+      "veryStrong": { "districts": 2, "targetVotes": 8500, "strategy": "GOTV focus" },
+      "strong": { "districts": 6, "targetVotes": 19000, "strategy": "Maintain support" },
+      "medium": { "districts": 11, "targetVotes": 22000, "strategy": "Persuasion campaigns" },
+      "weak": { "districts": 3, "targetVotes": 3700, "strategy": "Damage limitation" }
+    },
+    "demographicTargets": {
+      "malay": { "ge15Turnout": 0.75, "ge16Target": 0.80 },
+      "chinese": { "ge15Turnout": 0.85, "ge16Target": 0.88 },
+      "indian": { "ge15Turnout": 0.80, "ge16Target": 0.85 },
+      "youth18-29": { "ge15Turnout": 0.65, "ge16Target": 0.75 },
+      "senior60plus": { "ge15Turnout": 0.90, "ge16Target": 0.92 }
+    }
+  },
+  "historicalResults": [
+    {
+      "election": "GE14",
+      "year": 2018,
+      "winner": "Saifuddin Abdullah",
+      "party": "PH-PKR",
+      "votes": 28578,
+      "share": 0.4485
+    },
+    {
+      "election": "GE13",
+      "year": 2013,
+      "winner": "Fauzi Abdul Rahman",
+      "party": "PKR",
+      "votes": 30584,
+      "share": 0.5681
+    },
+    {
+      "election": "GE12",
+      "year": 2008,
+      "winner": "Azan Ismail",
+      "party": "PKR",
+      "votes": 19823,
+      "share": 0.5133
+    },
+    {
+      "election": "GE11",
+      "year": 2004,
+      "winner": "Adnan Wan Mamat",
+      "party": "BN-UMNO",
+      "votes": 25177,
+      "share": 0.6969
+    }
+  ]
+}

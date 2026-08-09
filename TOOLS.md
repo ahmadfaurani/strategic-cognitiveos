@@ -312,6 +312,91 @@ Get key: https://whois.whoisxmlapi.com
 
 ---
 
+## 🕷️ Crawl4AI Integration (2026-07-19)
+
+**Location:** `tools/deer-flow/unified_scraper.py`
+**Status:** ✅ Integrated & Operational
+**Purpose:** Replace Firecrawl-only scraping with Crawl4AI (primary) → Firecrawl (fallback) adapter
+
+### Architecture
+
+- **unified_scraper.py** provides `scrape_url()` — a Firecrawl-compatible adapter
+- Crawl4AI (Apache 2.0, Playwright-based) handles 23/25 sources at 2-12s each
+- Firecrawl fallback handles anti-bot-blocked sites (Bernama, Sabah News) at ~38s
+- Response shape: `{success, data: {markdown, metadata: {engine: "crawl4ai"|"firecrawl"}}}`
+- Existing scripts need minimal changes — just swap `requests.post(FIRECRAWL_URL, ...)` → `scrape_url(url=...)`
+
+### Key Functions
+
+| Function | Type | Use |
+|----------|------|-----|
+| `scrape_url(url, timeout, max_retries)` | Sync | Main entry point — uses asyncio.run() internally |
+| `scrape_url_async(url, ...)` | Async | For async pipelines |
+| `scrape_batch(urls, max_workers)` | Sync | Parallel batch scraping |
+| `scrape_firecrawl_compat(url)` | Sync | Firecrawl-shaped response |
+| `cleanup()` | Async | No-op (crawler created/closed per call) |
+
+### Patched Scripts (9 total)
+
+| Script | Status |
+|--------|--------|
+| `collect_political_news_25sources_OPERATIONAL.py` | ✅ Patched & tested |
+| `collector.py` | ✅ Patched & tested |
+| `collect_political_news_7sources.py` | ✅ Patched |
+| `collect_political_news_25sources.py` | ✅ Patched |
+| `generate_daily_brief.py` | ✅ Patched |
+| `run_collection.py` | ✅ Patched |
+| `run_collection_parallel.py` | ✅ Patched |
+| `run_collection_quick.py` | ✅ Patched |
+| `e2e-test.py` | ✅ Patched |
+
+### Performance (25-Source Benchmark, 2026-07-19)
+
+| Metric | Pre-Crawl4AI (Firecrawl) | Post-Crawl4AI |
+|--------|--------------------------|---------------|
+| Success Rate | ~80-90% | 100% (25/25) |
+| Total Time | ~15-20 min | ~5 min |
+| Avg per Source | ~40-60s | ~3-8s (Crawl4AI) |
+| Content | 656K chars | 656,456 chars |
+| Headlines | ~400 | 426 |
+| Political Headlines | ~15-20 | 24 |
+
+### Anti-Bot Handling
+
+- **Crawl4AI stealth mode:** `enable_stealth=True`, `user_agent_mode="random"`
+- **Works on:** 23/25 sources (all except Bernama BM, Sabah News)
+- **Fallback:** Firecrawl at `http://localhost:3002/v2/scrape` handles blocked sites automatically
+
+### Crawl4AI v0.9.2 API Notes
+
+- `AsyncWebCrawler(config=BrowserConfig(...))` — not `browser_config=`
+- `await crawler.start()` — not `__aenter__()`
+- `CrawlerRunConfig` has no `only_content` param — use `remove_overlay_elements=True` + `only_text=False`
+- Create fresh crawler per `asyncio.run()` call — shared instances break across event loops
+
+### Quick Commands
+
+```bash
+# Activate venv
+source /home/p62operator/tools/deer-flow/.venv/bin/activate
+
+# Test single URL
+python3 -c "
+import sys; sys.path.insert(0, '.')
+from unified_scraper import scrape_url
+r = scrape_url('https://www.nst.com.my/', timeout=30)
+print(r['data']['metadata']['engine'], len(r['data']['markdown']), 'chars')
+"
+
+# Run full 25-source collection
+python3 collect_political_news_25sources_OPERATIONAL.py
+
+# Benchmark
+python3 benchmark_scraper.py
+```
+
+---
+
 ## Related
 
 - [Agent workspace](/concepts/agent-workspace)

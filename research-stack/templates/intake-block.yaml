@@ -1,0 +1,35 @@
+# Standard Intake Block Template
+# Copy and fill this template for every new research task
+
+task:
+  title: "[Clear, descriptive title]"
+  objective: "[What we're trying to accomplish]"
+  priority_intelligence_requirements:
+    - "[PIR 1: Key question to answer]"
+    - "[PIR 2: Key question to answer]"
+    - "[PIR 3: Key question to answer]"
+  scope:
+    geography: "[Global / Specific Region / Country]"
+    sector: "[Industry vertical or domain]"
+    timeframe: "[e.g., Last 12 months / Next 90 days / Q1 2024]"
+    language: "[Primary language, e.g., English]"
+    source_types:
+      - official_website
+      - press_releases
+      - news_media
+      - industry_analysis
+      - technical_documentation
+      - repositories
+      - social_media
+      - government_portals
+      - other: "[Specify]"
+  output_required: "[Specific deliverable format]"
+  handling_classification: "[Internal / Confidential / Public]"
+  personal_data_involved: true/false
+  review_required: true/false
+
+# Notes:
+# - PIRs should be specific, answerable questions
+# - Scope should be narrow enough to be actionable
+# - Output should match the mode's template options
+# - Personal data flag triggers additional handling requirements

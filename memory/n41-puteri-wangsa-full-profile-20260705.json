@@ -1,0 +1,88 @@
+{
+  "constituency": "N41 Puteri Wangsa (P158 Tebrau)",
+  "as_of_date": "2026-06-19",
+  "source_file": "11_PUTERI_WANGSA_as_of_190626_1---8f5c99fd-fc9f-4ec7-b9c1-abdf7f48890c.xlsx",
+  "tier_1_factual_data": {
+    "total_registered_voters": 128723,
+    "ethnic_breakdown": {
+      "malay": {
+        "count": 46169,
+        "percentage": 35.9
+      },
+      "chinese": {
+        "count": 66196,
+        "percentage": 51.4
+      },
+      "indian": {
+        "count": 12930,
+        "percentage": 10.0
+      }
+    },
+    "age_breakdown": {
+      "youth_18_29": {
+        "count": 47688,
+        "percentage": 37.0
+      },
+      "youth_18_20": {
+        "count": 11573
+      }
+    },
+    "gender_breakdown": {
+      "male": {
+        "count": 64826,
+        "percentage": 50.4
+      },
+      "female": {
+        "count": 63897,
+        "percentage": 49.6
+      }
+    },
+    "polling_districts_count": 20
+  },
+  "tier_2_analytical_assessment": {
+    "structural_characteristics": [
+      {
+        "claim": "Chinese-majority seat (51.4%)",
+        "confidence": "HIGH",
+        "justification": "Direct calculation from verified SPR data"
+      },
+      {
+        "claim": "Youth-heavy electorate (37.0% under 30)",
+        "confidence": "HIGH",
+        "justification": "Direct calculation from verified age breakdown"
+      },
+      {
+        "claim": "Gender balance nearly even (50.4% male, 49.6% female)",
+        "confidence": "HIGH",
+        "justification": "Direct calculation from verified data"
+      }
+    ],
+    "strategic_implications": [
+      {
+        "claim": "Non-Malay consolidation critical for PH",
+        "confidence": "MEDIUM",
+        "justification": "Inference from Chinese majority + historical voting patterns"
+      },
+      {
+        "claim": "Turnout differential is decisive battleground",
+        "confidence": "HIGH",
+        "justification": "2022 turnout 47.9% vs 2018 86.9% - 39 point swing"
+      },
+      {
+        "claim": "Youth mobilisation > persuasion",
+        "confidence": "MEDIUM",
+        "justification": "37% youth population suggests mobilisation is key variable"
+      }
+    ]
+  },
+  "tier_3_speculation": [
+    {
+      "scenario": "If Chinese turnout reaches 2018 levels (80%+), PH ceiling increases significantly",
+      "assumptions": "Chinese voters lean PH, turnout is primary constraint"
+    },
+    {
+      "scenario": "If youth turnout remains at 2022 levels (~45%), fragmented opposition benefits incumbent",
+      "assumptions": "Low turnout favors machinery over sentiment"
+    }
+  ]
+}

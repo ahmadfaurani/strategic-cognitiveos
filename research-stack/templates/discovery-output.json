@@ -1,0 +1,43 @@
+{
+  "$schema": "https://research-stack.local/schemas/discovery-output-v1.json",
+  "query": "[The exact search query used]",
+  "results": [
+    {
+      "source_url": "https://...",
+      "title": "[Page/article title]",
+      "snippet": "[Search result snippet]",
+      "domain": "domain.com",
+      "source_type": "news|official|technical|social|academic|regulatory|commercial",
+      "relevance_score": "0.0-1.0",
+      "authority_score": "0.0-1.0",
+      "selected_for_acquisition": true,
+      "selection_reason": "[Why selected or rejected]",
+      "priority": "high|medium|low"
+    }
+  ],
+  "query_metadata": {
+    "executed_at": "2024-06-14T04:30:00Z",
+    "engine": "searxng",
+    "engines_used": ["google", "bing", "duckduckgo"],
+    "total_results": 45,
+    "results_selected": 12,
+    "results_rejected": 33,
+    "rejection_reasons": {
+      "irrelevant": 15,
+      "low_authority": 10,
+      "duplicate": 5,
+      "outdated": 3
+    }
+  },
+  "deduplication": {
+    "method": "url_hash",
+    "duplicates_removed": 8
+  },
+  "ranking": {
+    "method": "relevance_authority_combined",
+    "weights": {
+      "relevance": 0.6,
+      "authority": 0.4
+    }
+  }
+}
