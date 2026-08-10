@@ -29,8 +29,10 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260803-001 | ELSA–Aras LHDN AI-Assisted Revenue Recovery | faurani-jaafar | Draft — Framed | NDA execution | 2026-08-17 |
 | INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Active — Coordination | UITM acceptance in principle + working session | 2026-09-06 |
 | INIT-20260804-002 | GovSec × CMERP Platform Integration Continuation | faurani-jaafar | Active — Integration | Session confirmation (Aug 12/13) | 2026-08-13 |
-| INIT-20260804-003 | GovSec × Threat Intelligence (TI) Integration | faurani-jaafar | Active — Framed | Session confirmation (Aug 6/7/10) | 2026-08-10 |
+| INIT-20260804-003 | GovSec × Threat Intelligence (TI) Integration | faurani-jaafar | Active — Prototype | Session conducted Aug 10, scope expanded (3 areas) | 2026-08-17 |
 | INIT-20260804-004 | AI Systems Co-Design Lab (Cohort 01) — CSM Partnership | faurani-jaafar | Active — Framed | CSM use case submission | 2026-08-10 |
+| INIT-20260810-001 | Cybersecurity Score Card Framework (CNII Sector Scoring) | faurani-jaafar | Active — Framed | Framework exploration document | 2026-08-17 |
+| INIT-20260810-002 | CBOM Agent — AI-Enabled Cyber Component Analysis | faurani-jaafar | Active — Framed | Feasibility assessment | 2026-08-17 |
 
 ## Watch List
 
@@ -76,14 +78,18 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260808-008 | Present Red Team Division structure to management committee | faurani-jaafar | 2026-08-31 | Draft |
 | ACT-20260808-009 | Begin Head of Red Team Division recruitment (priority hire #1) | faurani-jaafar | 2026-11-30 | Draft |
 | ACT-20260808-010 | Hire Dark Web Intelligence Analyst (priority #2 — first revenue stream) | faurani-jaafar | 2026-12-31 | Draft |
+| ACT-20260810-001 | Hadri & Fuad — coordinate technical follow-up, consolidate requirements (3 areas) | hadri | 2026-08-17 | Draft |
+| ACT-20260810-002 | Telemetry Integration — identify SiberSUITE telemetry and integration points | hadri | 2026-08-24 | Draft |
+| ACT-20260810-003 | Score Card Framework — jointly explore CNII sector scoring model | hadri | 2026-08-24 | Draft |
+| ACT-20260810-004 | CBOM Agent — assess AI-enabled agent feasibility and architecture | hadri | 2026-08-24 | Draft |
 
 ## Workstream Cluster Overview
 
 | Workstream | Initiative ID | Focus Areas |
 |-----------|-------------|-------------|
 | A — Sovereign AI & Gov AI Adoption | INIT-20260725-001 | PERJASA, JDN/JDM, Perdana Digital, sovereign AI platform, PMO Data Lake, AI incubator |
-| B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260808-003 | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** + **GovSec × CMERP integration (Aug 12/13)** + **GovSec × TI integration (Aug 6/7/10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA Oct 2026 joint launch milestone (DEC-20260804-001)** + **Red Team Division established (Aug 8)** |
-| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** + **GovSec × TI integration (Aug 4)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA joint product launch (Oct 2026)** |
+| B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260808-003, INIT-20260810-001, INIT-20260810-002 | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** + **GovSec × CMERP integration (Aug 12/13)** + **GovSec × TI integration — session conducted Aug 10, scope expanded to 3 areas** + **Cybersecurity Score Card Framework (Aug 10)** + **CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA Oct 2026 joint launch milestone (DEC-20260804-001)** + **Red Team Division established (Aug 8)** |
+| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260810-001, INIT-20260810-002 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** + **GovSec × TI integration (Aug 4, session Aug 10)** + **Cybersecurity Score Card + CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA joint product launch (Oct 2026)** |
 | D — Political & Strategic Intelligence | INIT-20260725-004 | State elections, candidate profiling, PIRs, war rooms, sentiment analysis, R.I.S.I.K |
 | E — Commercial & Market Development | INIT-20260725-005 | Regional ASEAN, sales enablement, account development, licensing, pipelines |
 | F — Organisational Capability Building | INIT-20260725-006, INIT-20260808-002, INIT-20260808-003 | Cybersecurity BU build-out, recruiting, KPIs, delivery accountability, knowledge management — **GTM Team Mobilisation (Aug 8)** + **Red Team Division 5 FTE (Aug 8)** |
@@ -94,6 +100,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 |----|----------|-------|--------|------|
 | DEC-20260804-001 | Internal mobilisation for 3 CSM workstreams — CyberDSA October milestone | faurani-jaafar | Proposed (pending Aug 5 alignment) | 2026-08-04 |
 | DEC-20260808-001 | Red Team Division structure and 5 JDs approved for HR firm distribution | faurani-jaafar | Active | 2026-08-08 |
+| DEC-20260810-001 | Three Immediate Collaboration Areas for GovSec × CSM SiberSUITE Integration | faurani-jaafar | Active | 2026-08-10 |
 
 ## Risks
 
