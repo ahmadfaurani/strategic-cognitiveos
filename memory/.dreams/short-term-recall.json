@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T03:00:00.619Z",
+  "updatedAt": "2026-08-10T03:00:00.650Z",
   "entries": {
     "memory:memory/2026-08-02.md:5:6": {
       "key": "memory:memory/2026-08-02.md:5:6",
@@ -13044,14 +13044,14 @@
       "startLine": 5,
       "endLine": 8,
       "source": "memory",
-      "snippet": "ELSA–Aras Integrasi Strategic Collaboration — LHDN AI-Assisted Revenue Recovery: **Time:** ~08:03 UTC **Session:** Telegram direct (640442208) **Channel:** Telegram **Authority:** DAF",
+      "snippet": "**Time:** ~08:03 UTC **Session:** Telegram direct (640442208) **Channel:** Telegram **Authority:** DAF",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-04T03:00:00.670Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "a894b7f4aca5"
       ],
@@ -13060,7 +13060,8 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "ai-assisted",
@@ -13071,7 +13072,8 @@
         "collaboration",
         "lhdn",
         "assisted"
-      ]
+      ],
+      "promotedAt": "2026-08-10T03:00:00.650Z"
     },
     "memory:memory/2026-08-03.md:12:12": {
       "key": "memory:memory/2026-08-03.md:12:12",
@@ -13079,14 +13081,14 @@
       "startLine": 12,
       "endLine": 12,
       "source": "memory",
-      "snippet": "Overview: DAF forwarded the complete email thread for the proposed ELSA–Aras Integrasi collaboration on an AI-assisted revenue recovery and tax compliance initiative for LHDN (Lembaga Hasil Dalam Negeri). DAF asked me to consume the data.",
+      "snippet": "DAF forwarded the complete email thread for the proposed ELSA–Aras Integrasi collaboration on an AI-assisted revenue recovery and tax compliance initiative for LHDN (Lembaga Hasil Dalam Negeri). DAF asked me to consume the data.",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-04T03:00:00.670Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "a894b7f4aca5"
       ],
@@ -13095,7 +13097,8 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "ai-assisted",
@@ -13106,7 +13109,8 @@
         "email",
         "thread",
         "proposed"
-      ]
+      ],
+      "promotedAt": "2026-08-10T03:00:00.650Z"
     },
     "memory:memory/2026-08-03.md:16:16": {
       "key": "memory:memory/2026-08-03.md:16:16",
@@ -13116,12 +13120,12 @@
       "source": "memory",
       "snippet": "Key Parties: **ELSA:**",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-04T03:00:00.670Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "a894b7f4aca5"
       ],
@@ -13130,7 +13134,8 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "key",
@@ -13146,12 +13151,12 @@
       "source": "memory",
       "snippet": "Key Parties: Abdul Hafeez Abdul Bari — Technology Lead, Engineering-Robotics (primary counterpart); Daniel Ilham; Azarul (azarul@elsagroup.com.my)",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-04T03:00:00.670Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "a894b7f4aca5"
       ],
@@ -13160,7 +13165,8 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "engineering-robotics",
@@ -13181,12 +13187,12 @@
       "source": "memory",
       "snippet": "Key Parties: **Aras Integrasi:**",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-04T03:00:00.670Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "a894b7f4aca5"
       ],
@@ -13195,7 +13201,8 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "key",
@@ -13212,12 +13219,12 @@
       "source": "memory",
       "snippet": "Key Parties: DAF (Faurani Jaafar) — Director, Cyber Security Practice (lead); Hadri (hadri@arasintegrasi.ai)",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-04T03:00:00.670Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "a894b7f4aca5"
       ],
@@ -13226,7 +13233,8 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "arasintegrasi.ai",
@@ -13247,12 +13255,12 @@
       "source": "memory",
       "snippet": "Key Parties: **MTAI (legal/advisory):**",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-04T03:00:00.670Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "a894b7f4aca5"
       ],
@@ -13261,7 +13269,8 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "legal/advisory",
@@ -17860,12 +17869,12 @@
       "source": "memory",
       "snippet": "R.I.S.I.K Framework — Complete Operating Doctrine Saved: **Time:** ~07:10 UTC **Authority:** DAF **Channel:** Telegram direct **Commit:** `2136ff14`",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-05T03:00:12.283Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "c1ec480f992c"
       ],
@@ -17873,7 +17882,8 @@
         "2026-08-05",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "r.i.s.i.k",
@@ -17894,12 +17904,12 @@
       "source": "memory",
       "snippet": "R.I.S.I.K Framework — Complete Operating Doctrine Saved: DAF delivered the full expanded R.I.S.I.K operating doctrine across multiple messages. Reviewed all 23 sections as they arrived. Document is now the canonical version.",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-05T03:00:12.283Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "c1ec480f992c"
       ],
@@ -17907,7 +17917,8 @@
         "2026-08-05",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "r.i.s.i.k",
@@ -17928,12 +17939,12 @@
       "source": "memory",
       "snippet": "R.I.S.I.K Framework — Complete Operating Doctrine Saved: **What changed from the earlier version:**",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-05T03:00:12.283Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "c1ec480f992c"
       ],
@@ -17941,7 +17952,8 @@
         "2026-08-05",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "r.i.s.i.k",
@@ -17962,12 +17974,12 @@
       "source": "memory",
       "snippet": "R.I.S.I.K Framework — Complete Operating Doctrine Saved: | Element | Old Version | New Version | |---------|------------|-------------| | Architecture | 3 layers | 4 layers (Collection separated from Analysis) | | Confidence taxonomy | 4 levels (Confirmed/Probable/Possible/Unveri",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-05T03:00:12.283Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "c1ec480f992c"
       ],
@@ -17975,7 +17987,8 @@
         "2026-08-05",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "r.i.s.i.k",
@@ -17996,12 +18009,12 @@
       "source": "memory",
       "snippet": "R.I.S.I.K Framework — Complete Operating Doctrine Saved: | Issue lifecycle | 5 stages | 7 stages (+Latent, Recurring) | | Issue scoring | 8 dimensions | 10 dimensions (+Velocity, Exploitability) | | Sentiment dimensions | 10 emotion categories | 8 multi-dimensional (incl. Trust,",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-05T03:00:12.283Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "c1ec480f992c"
       ],
@@ -18009,7 +18022,8 @@
         "2026-08-05",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "r.i.s.i.k",
@@ -18030,12 +18044,12 @@
       "source": "memory",
       "snippet": "R.I.S.I.K Framework — Complete Operating Doctrine Saved: | Counter-narrative types | 9 types | 10 types (+Corrective Action Communication) | | KPIs | None | KPIs for every phase | | Data model | None | 3 structured record types (Issue, Narrative, Actor) | | AI governance | Mentio",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-05T03:00:12.283Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "c1ec480f992c"
       ],
@@ -18043,7 +18057,8 @@
         "2026-08-05",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "r.i.s.i.k",
@@ -18064,12 +18079,12 @@
       "source": "memory",
       "snippet": "R.I.S.I.K Framework — Complete Operating Doctrine Saved: | Dashboards | None | 3 views (Strategic, Operational, Measurement) | | Escalation triggers | None | 12 explicit triggers | | Decision matrix | None | 7-scenario intervention matrix | | Maturity model | None | 5-level matur",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-05T03:00:12.283Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "c1ec480f992c"
       ],
@@ -18077,7 +18092,8 @@
         "2026-08-05",
         "2026-08-07",
         "2026-08-08",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "r.i.s.i.k",
@@ -30907,18 +30923,19 @@
       "source": "memory",
       "snippet": "VORON-C2 Architecture — Sovereign Open-Source C2 Stack: **Time:** ~13:25 UTC **Session:** Telegram direct (640442208) **Authority:** DAF **Context:** Post-AdaptixC2 learning session, DAF directed operational requirement for full open-source C2 stack as national capability, future",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-07T03:00:00.732Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "8a374ee0e66c"
       ],
       "recallDays": [
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "voron-c2",
@@ -30939,18 +30956,19 @@
       "source": "memory",
       "snippet": "Key Decisions: Full open-source stack — no commercial licensing; National capability design (sovereign hosting, Malaysian-controlled infrastructure); Future GovSec TIP integration (phased approach — standalone first); Four-framework architecture: Mythic (primary), Sliver (workhor",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-07T03:00:00.732Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "8a374ee0e66c"
       ],
       "recallDays": [
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "open-source",
@@ -30971,18 +30989,19 @@
       "source": "memory",
       "snippet": "Deliverable: Architecture document: `strategic-cognitiveos/projects/voron-c2/VORON-C2-ARCHITECTURE.md`; 4-layer architecture: C2 Core → Infrastructure → Operations → Detection Engineering; 4-phase roadmap: Foundation (M1-3) → Expansion (M3-6) → Operationalization (M6-12) → GovSec",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-07T03:00:00.732Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "8a374ee0e66c"
       ],
       "recallDays": [
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "4-layer",
@@ -31003,18 +31022,19 @@
       "source": "memory",
       "snippet": "Learning Context: Studied DFIR Report: BumbleBee → AdaptixC2 → Akira ransomware (44-hour kill chain); Deep dive on AdaptixC2 framework (Unit 42, Censys, CyberSecurityNews sources); DAF pivoted from learning to operational capability requirement",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-07T03:00:00.732Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "8a374ee0e66c"
       ],
       "recallDays": [
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "44-hour",
@@ -31035,18 +31055,19 @@
       "source": "memory",
       "snippet": "VORON-C2 Architecture — Sovereign Open-Source C2 Stack: **Time:** ~13:25 UTC **Session:** Telegram direct (640442208) **Authority:** DAF **Context:** Post-AdaptixC2 learning session, DAF directed operational requirement for full open-source C2 stack as national capability, future",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-07T03:00:00.732Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "8a374ee0e66c"
       ],
       "recallDays": [
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "voron-c2",
@@ -31067,18 +31088,19 @@
       "source": "memory",
       "snippet": "Key Decisions: Full open-source stack — no commercial licensing; National capability design (sovereign hosting, Malaysian-controlled infrastructure); Future GovSec TIP integration (phased approach — standalone first); Four-framework architecture: Mythic (primary), Sliver (workhor",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-07T03:00:00.732Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "8a374ee0e66c"
       ],
       "recallDays": [
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "open-source",
@@ -31099,18 +31121,19 @@
       "source": "memory",
       "snippet": "Deliverable: Architecture document: `strategic-cognitiveos/projects/voron-c2/VORON-C2-ARCHITECTURE.md`; 4-layer architecture: C2 Core → Infrastructure → Operations → Detection Engineering; 4-phase roadmap: Foundation (M1-3) → Expansion (M3-6) → Operationalization (M6-12) → GovSec",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-07T03:00:00.732Z",
-      "lastRecalledAt": "2026-08-09T03:00:00.619Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "8a374ee0e66c"
       ],
       "recallDays": [
         "2026-08-07",
-        "2026-08-09"
+        "2026-08-09",
+        "2026-08-10"
       ],
       "conceptTags": [
         "4-layer",
@@ -33956,17 +33979,18 @@
       "source": "memory",
       "snippet": "CognitiveOS → Strategic Comms Framework Mapping — Created: **Time:** ~14:10 UTC | **Authority:** DAF directed \"Review item in CognitiveOS to apply this to\"; **Deliverable:** `COGNITIVEOS-COMMS-MAPPING.md` — written to workspace root; **Scope:** Mapped all 19 initiatives, 6 engage",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-08T03:00:08.873Z",
-      "lastRecalledAt": "2026-08-08T03:00:08.873Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "e21ca30dd509"
       ],
       "recallDays": [
-        "2026-08-08"
+        "2026-08-08",
+        "2026-08-10"
       ],
       "conceptTags": [
         "cognitiveos-comms-mapping.md",
@@ -33987,17 +34011,18 @@
       "source": "memory",
       "snippet": "CognitiveOS → Strategic Comms Framework Mapping — Created: 6 of 19 initiatives have had any external communication (Touch 1+); 13 initiatives sitting in Pre-Touch 1 — no formal communication sent; 2 initiatives stuck at Touch 1 with overdue follow-ups (GovSec×CMERP, GovSec×TI — s",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-08T03:00:08.873Z",
-      "lastRecalledAt": "2026-08-08T03:00:08.873Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "e21ca30dd509"
       ],
       "recallDays": [
-        "2026-08-08"
+        "2026-08-08",
+        "2026-08-10"
       ],
       "conceptTags": [
         "pre-touch",
@@ -34018,17 +34043,18 @@
       "source": "memory",
       "snippet": "CognitiveOS → Strategic Comms Framework Mapping — Created: 1 proposed decision with no decision paper (CSM Mobilisation — CyberDSA); 1 commitment with no deadline (ELSA NDA — MTAI review); 0 outcomes — nothing has reached Touch 4 (Closure); **6 critical gaps identified for this w",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-08T03:00:08.873Z",
-      "lastRecalledAt": "2026-08-08T03:00:08.873Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "e21ca30dd509"
       ],
       "recallDays": [
-        "2026-08-08"
+        "2026-08-08",
+        "2026-08-10"
       ],
       "conceptTags": [
         "cognitiveos",
@@ -34049,17 +34075,18 @@
       "source": "memory",
       "snippet": "CognitiveOS → Strategic Comms Framework Mapping — Created: **6 missing Touch 1 communications** for long-horizon workstreams (A, B, C, E, F, CSCDC); **Priority actions sequenced:** This week (6 items), Next week (4 items), Long-horizon (6 items)",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-08T03:00:08.873Z",
-      "lastRecalledAt": "2026-08-08T03:00:08.873Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "e21ca30dd509"
       ],
       "recallDays": [
-        "2026-08-08"
+        "2026-08-08",
+        "2026-08-10"
       ],
       "conceptTags": [
         "long-horizon",
@@ -34080,17 +34107,18 @@
       "source": "memory",
       "snippet": "Pre-Compaction Memory Flush — 15:06 UTC: **Session context:** Extended Friday working session with DAF via Telegram direct; **Key deliverables produced this session:**; `THE-CLOSURE-PLAN.md` — 3-phase plan to shift from document generation to loop closure (3 initiatives targeted:",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-08T03:00:08.873Z",
-      "lastRecalledAt": "2026-08-08T03:00:08.873Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "e21ca30dd509"
       ],
       "recallDays": [
-        "2026-08-08"
+        "2026-08-08",
+        "2026-08-10"
       ],
       "conceptTags": [
         "pre-compaction",
@@ -34111,17 +34139,18 @@
       "source": "memory",
       "snippet": "Pre-Compaction Memory Flush — 15:06 UTC: `COGNITIVEOS-COMMS-MAPPING.md` — All 19 initiatives, 6 engagements, 2 commitments, 35 actions, 8 decisions mapped against comms framework; **Key decisions made:**; DAF corrected closure plan: some items are long-horizon strategic work, not",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-08T03:00:08.873Z",
-      "lastRecalledAt": "2026-08-08T03:00:08.873Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "e21ca30dd509"
       ],
       "recallDays": [
-        "2026-08-08"
+        "2026-08-08",
+        "2026-08-10"
       ],
       "conceptTags": [
         "pre-compaction",
@@ -34142,17 +34171,18 @@
       "source": "memory",
       "snippet": "Pre-Compaction Memory Flush — 15:06 UTC: VoronDRQ sales kit repo made public (https://github.com/ahmadfaurani/voron-drq-sales-kit); **Critical findings from CognitiveOS mapping:**; 6/19 initiatives have had any external communication; 2 overdue follow-ups (GovSec×CMERP, GovSec×TI",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-08-08T03:00:08.873Z",
-      "lastRecalledAt": "2026-08-08T03:00:08.873Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
       "queryHashes": [
         "e21ca30dd509"
       ],
       "recallDays": [
-        "2026-08-08"
+        "2026-08-08",
+        "2026-08-10"
       ],
       "conceptTags": [
         "pre-compaction",
@@ -46365,6 +46395,2898 @@
         "schedule",
         "truly",
         "regret"
+      ]
+    },
+    "memory:memory/2026-08-10.md:6:9": {
+      "key": "memory:memory/2026-08-10.md:6:9",
+      "path": "memory/2026-08-10.md",
+      "startLine": 6,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Operational Review Conducted: Full system status check across all components; OpenClaw gateway running (pid 2764552, systemd active); Model: GLM-5.2 (128k ctx) on vLLM; 64 active sessions, workspace 7.3GB",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a639fa28ae98"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "gateway",
+        "glm-5.2",
+        "7.3gb",
+        "operational",
+        "review",
+        "conducted",
+        "full",
+        "status"
+      ]
+    },
+    "memory:memory/2026-08-10.md:12:15": {
+      "key": "memory:memory/2026-08-10.md:12:15",
+      "path": "memory/2026-08-10.md",
+      "startLine": 12,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Response Failures Observed: Earlier sessions on Aug 9 (10:02 UTC and 23:45 UTC) logged 8+ `[assistant turn failed before producing content]` errors; DAF reported answers not rendering in full, delays in response; Likely cause: GLM-5.2 model inference failures (token limits, conte",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a639fa28ae98"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "glm-5.2",
+        "response",
+        "failures",
+        "observed",
+        "earlier",
+        "aug",
+        "utc",
+        "logged"
+      ]
+    },
+    "memory:memory/2026-08-10.md:18:21": {
+      "key": "memory:memory/2026-08-10.md:18:21",
+      "path": "memory/2026-08-10.md",
+      "startLine": 18,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Git Commit — Full Workspace Sweep: **Commit:** `1123f94c` on branch `phone-farm-intel`; **Stats:** 493 files, 171,163 insertions, 12,028 deletions; Pushed to origin; Captured: CognitiveOS governance, Red Team Division, VoronDRQ GTM, AIRecon skunkworks, security hardening, 13 cons",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a639fa28ae98"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "phone-farm-intel",
+        "git",
+        "commit",
+        "full",
+        "sweep",
+        "1123f94c",
+        "branch",
+        "phone"
+      ]
+    },
+    "memory:memory/2026-08-10.md:22:22": {
+      "key": "memory:memory/2026-08-10.md:22:22",
+      "path": "memory/2026-08-10.md",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Git Commit — Full Workspace Sweep: Excluded: Nested git repos (Strategic CognitiveOS, DUN-Profiling, HOI, Kempas, RISIK NS, RMIT), sensitive files (.env, keys, dreaming corpus)",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a639fa28ae98"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "dun-profiling",
+        "git",
+        "commit",
+        "full",
+        "sweep",
+        "excluded",
+        "nested",
+        "repos"
+      ]
+    },
+    "memory:memory/2026-08-10.md:25:28": {
+      "key": "memory:memory/2026-08-10.md:25:28",
+      "path": "memory/2026-08-10.md",
+      "startLine": 25,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Pending Items Identified: 🔴 UiTM R.I.S.I.K contact — deadline Aug 17 (8 days); 🟡 Workspace git hygiene — now resolved via commit; 🟡 SSH hardening Steps 2-3 — agreed but not executed (UFW done Aug 8); 🟡 AIRecon intern kickoff brief — not yet drafted",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a639fa28ae98"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "r.i.s.i.k",
+        "2-3",
+        "pending",
+        "items",
+        "identified",
+        "uitm",
+        "contact",
+        "deadline"
+      ]
+    },
+    "memory:memory/2026-08-10.md:29:30": {
+      "key": "memory:memory/2026-08-10.md:29:30",
+      "path": "memory/2026-08-10.md",
+      "startLine": 29,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Pending Items Identified: 🟢 OpenClaw update (2026.7.1-2) — available, not applied; 🟢 Political monitoring pipeline — never operationalized since June setup",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a639fa28ae98"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "2026.7.1-2",
+        "pending",
+        "items",
+        "identified",
+        "openclaw",
+        "update",
+        "2026.7.1",
+        "available"
+      ]
+    },
+    "memory:memory/2026-08-10.md:33:36": {
+      "key": "memory:memory/2026-08-10.md:33:36",
+      "path": "memory/2026-08-10.md",
+      "startLine": 33,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Security Posture: UFW: ✅ Active (Step 1 complete Aug 8); SSH hardening: ⏳ Pending (Steps 2-3); fail2ban: ❌ Not installed; Disk encryption: ❌ No LUKS",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a639fa28ae98"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "2-3",
+        "security",
+        "posture",
+        "ufw",
+        "active",
+        "step",
+        "complete",
+        "aug"
+      ]
+    },
+    "memory:memory/2026-08-10.md:37:37": {
+      "key": "memory:memory/2026-08-10.md:37:37",
+      "path": "memory/2026-08-10.md",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "Security Posture: OpenClaw audit: ⚠️ 5 issues flagged",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a639fa28ae98"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "security",
+        "posture",
+        "openclaw",
+        "audit",
+        "issues",
+        "flagged"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:78:78": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:78:78",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 78,
+      "endLine": 78,
+      "source": "memory",
+      "snippet": "Assistant: Now update all indexes:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "now",
+        "update",
+        "all",
+        "indexes"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:79:79": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:79:79",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 79,
+      "endLine": 79,
+      "source": "memory",
+      "snippet": "Assistant: Now check if there's a decision index:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "now",
+        "check",
+        "there's",
+        "decision",
+        "index"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:80:80": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:80:80",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 80,
+      "endLine": 80,
+      "source": "memory",
+      "snippet": "Assistant: Now check the executive portfolio index:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "now",
+        "check",
+        "executive",
+        "portfolio",
+        "index"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:81:81": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:81:81",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 81,
+      "endLine": 81,
+      "source": "memory",
+      "snippet": "Assistant: Now commit everything:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "now",
+        "commit",
+        "everything"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:82:82": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:82:82",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 82,
+      "endLine": 82,
+      "source": "memory",
+      "snippet": "Assistant: Commit `525e5a1` — 12 files, 692 insertions. 8 new records: • INIT-20260808-003 — Red Team Division — National Offensive Security Capability Builder (Flagship/Framed) • CONV-20260808-002 — Red Team Division — Structure, JDs, and Operational SOPs • DEC-20260808-001 — Di",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "init-20260808-003",
+        "flagship/framed",
+        "conv-20260808-002",
+        "dec-20260808-001",
+        "commit",
+        "525e5a1",
+        "insertions",
+        "new"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:83:83": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:83:83",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 83,
+      "endLine": 83,
+      "source": "memory",
+      "snippet": "Assistant: Team Division (INIT-20260808-003) elevates offensive security from Workstream B/2-role workstream to standalone Flagship division. Links to INIT-20260725-002 (Productisation), INIT-20260725-006 (Org Capability), and INIT-20260804-003 (GovSec TI — future integration tar",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "init-20260808-003",
+        "b/2-role",
+        "init-20260725-002",
+        "init-20260725-006",
+        "init-20260804-003",
+        "team",
+        "division",
+        "init"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:84:84": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:84:84",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 84,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "User: appreciate your understanding and patience. We look forward to your feedback and to delivering a meaningful session for your team. Note: I have removed En Roshdi from this email trail as this matter pertains to operational execution. Thank you for your continued support. Th",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "appreciate",
+        "understanding",
+        "patience",
+        "look",
+        "forward",
+        "feedback",
+        "delivering",
+        "meaningful"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:85:85": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:85:85",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 85,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "User: ZULFEKA BIN ZAINAL ABIDIN <zulfeka.zainal@cybersecurity.my>; AZRUL NAZIM BIN ABDUL AZIZ <azrul.aziz@cybersecurity.my>; BALAMURUGAN S/O NALLAPAN <balamurugan@cybersecurity.my> Cc: SITI AISHAH BINTI OMAR <siti.aishah@cybersecurity.my>; ROSHDI BIN HAJI AHMAD <roshdi@cybersecur",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "zulfeka.zainal",
+        "cybersecurity.my",
+        "azrul.aziz",
+        "s/o",
+        "siti.aishah",
+        "zulfeka",
+        "bin",
+        "zainal"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:86:86": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:86:86",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 86,
+      "endLine": 86,
+      "source": "memory",
+      "snippet": "User: 11AM > 1PM Please extend the calendar invite soonest possible, so that I can forward to the team. Best Regards, Mohammad Fahdzli Head of Cyber Solutions Department CyberSecurity Malaysia An Agency Under the Ministry of Digital DL : +603 8800 7089 Fax : +603 8008 7000 HP : +",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "11am",
+        "1pm",
+        "please",
+        "extend",
+        "calendar",
+        "invite",
+        "soonest",
+        "possible"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:87:87": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:87:87",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 87,
+      "endLine": 87,
+      "source": "memory",
+      "snippet": "User: ROSHAIMI BIN WAN ABDULLAH <roshaimi.abdullah@cybersecurity.my>; Farul Mohd Ghazali <farul@mtai.com.my>; Kenny Kok <kennykok@mtai.com.my>; Azzatullina Pawanchik <azza.pawanchik@wig.my>; Norshaza Hanis <norshaza.hanis@wig.my>; Said Farid Zainudin <said.farid@wig.my> Subject:",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "roshaimi.abdullah",
+        "cybersecurity.my",
+        "mtai.com.my",
+        "azza.pawanchik",
+        "wig.my",
+        "norshaza.hanis",
+        "said.farid",
+        "roshaimi"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:88:88": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:88:88",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 88,
+      "endLine": 88,
+      "source": "memory",
+      "snippet": "User: communicate the platform's value proposition. Proposed Session Coverage: • Core Features & Capabilities: Key functionalities and differentiators • Use Cases & Scenarios: Real-world applications aligned with government security requirements • Hands-on Demo: Live walkthrough",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "real-world",
+        "hands-on",
+        "communicate",
+        "platform's",
+        "value",
+        "proposition",
+        "proposed",
+        "coverage"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:89:89": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:89:89",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 89,
+      "endLine": 89,
+      "source": "memory",
+      "snippet": "User: suggestions, please do let us know—we are open to finding a time that best suits CSM. We also welcome any input on specific areas of focus based on your team's needs or any adjustments to the proposed coverage. Thank you for your continued support. We look forward to your f",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "suggestions",
+        "please",
+        "let",
+        "know",
+        "open",
+        "finding",
+        "time",
+        "best"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:90:90": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:90:90",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 90,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "User: BIN ABDUL AZIZ <azrul.aziz@cybersecurity.my>; MOHAMMAD FAHDZLI BIN ABDUL RAUF <mohammad.fahdzli@cybersecurity.my>; BALAMURUGAN S/O NALLAPAN <balamurugan@cybersecurity.my> Cc: SITI AISHAH BINTI OMAR <siti.aishah@cybersecurity.my>; ROSHDI BIN HAJI AHMAD <roshdi@cybersecurity.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "azrul.aziz",
+        "cybersecurity.my",
+        "mohammad.fahdzli",
+        "s/o",
+        "siti.aishah",
+        "bin",
+        "abdul",
+        "aziz"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:91:91": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:91:91",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 91,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "User: positive collaboration extended to the Aras Integrasi team. We truly appreciate the time and consideration given by CSM as we continue to shape the post-MoU mobilisation plan in a practical and coordinated manner. I would also like to gently support Hadri’s earlier follow-u",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "post-mou",
+        "follow-u",
+        "positive",
+        "collaboration",
+        "extended",
+        "aras",
+        "integrasi",
+        "team"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:92:92": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:92:92",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 92,
+      "endLine": 92,
+      "source": "memory",
+      "snippet": "User: resource allocation. This will help ensure that any joint activation is planned carefully, without rushing the execution or creating unnecessary coordination gaps later. If it is easier, we are happy to work with a preliminary version first, or even a simple list of confirm",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "resource",
+        "allocation",
+        "will",
+        "help",
+        "ensure",
+        "any",
+        "joint",
+        "activation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:93:93": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:93:93",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 93,
+      "endLine": 93,
+      "source": "memory",
+      "snippet": "User: daf@arasintegrasi.ai | HP: +6019 434 2727 From: Hadri <hadri@arasintegrasi.ai> Sent: Thursday, 2 July, 2026 11:28 AM To: ZULFEKA BIN ZAINAL ABIDIN <zulfeka.zainal@cybersecurity.my>; AZRUL NAZIM BIN ABDUL AZIZ <azrul.aziz@cybersecurity.my>; MOHAMMAD FAHDZLI BIN ABDUL RAUF <m",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "arasintegrasi.ai",
+        "zulfeka.zainal",
+        "cybersecurity.my",
+        "azrul.aziz",
+        "daf",
+        "hadri",
+        "sent",
+        "thursday"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:94:94": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:94:94",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 94,
+      "endLine": 94,
+      "source": "memory",
+      "snippet": "User: Malaysia : Post MOU Mobilization Plan Outline Assalamualaikum & Salam Sejahtera Tuan Zulfeka, Tuan Azrul, Tuan Fahdzli, Tuan Bala and respected CSM team, I hope this email finds you well. I am writing to kindly follow up on our previous email regarding the request for CSM's",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "malaysia",
+        "post",
+        "mou",
+        "mobilization",
+        "plan",
+        "outline",
+        "assalamualaikum",
+        "salam"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:95:95": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:95:95",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 95,
+      "endLine": 95,
+      "source": "memory",
+      "snippet": "User: Thank you for your continued support and partnership. We look forward to hearing from you. Thank you Wan Abdul Muhaimin Hadri Bin A. Rahman Solutions Architect - Cyber Security Practice Email: hadri@arasintegrasi.ai | HP: +6012-367-0360 Aras Integrasi Sdn Bhd Level 30, Nort",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "arasintegrasi.ai",
+        "6012-367-0360",
+        "thank",
+        "continued",
+        "support",
+        "partnership",
+        "look",
+        "forward"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Update",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "update"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: Are we good?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "good"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "User: Are we good?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "good"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: [assistant turn failed before producing content]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "turn",
+        "failed",
+        "producing",
+        "content"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: Are we good?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "good"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "User: Operational Review",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "operational",
+        "review"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: Let me pull the current state across all systems.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "let",
+        "pull",
+        "current",
+        "state",
+        "across",
+        "all",
+        "systems"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 🔥 **OPERATIONAL REVIEW — 2026-08-09 23:45 UTC** --- **1. SYSTEM STATUS** | Component | Status | |-----------|--------| | OpenClaw Gateway | ✅ Running (pid 2764552, systemd active) | | Telegram Channel | ✅ Operational | | Model | GLM-5.2 (128k ctx)",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "gateway",
+        "reply-to-current",
+        "glm-5.2",
+        "operational",
+        "review",
+        "utc",
+        "status",
+        "component"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: which suggests transient load on the vLLM backend rather than a persistent issue. --- **2. GIT & WORKSPACE HYGIENE** **Workspace repo** — last commit: `488164b6` (CJPM02 post-election collection). Since then: **6 modified files, 150+ untracked files/directories**. Mass",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "post-election",
+        "files/directories",
+        "which",
+        "suggests",
+        "transient",
+        "load",
+        "vllm",
+        "backend"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: SOPs) | | Aug 8 | VoronDRQ GTM Team Mobilisation — COO approval docs, CRM bootstrap checklist, analytical execution plan | | Aug 8 | VoronDRQ GTM resource requirements + 4 JDs for COO approval | | Aug 7 | UiTM R.I.S.I.K collaboration — 5 named staff, tri-sector structu",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "r.i.s.i.k",
+        "tri-sector",
+        "sops",
+        "aug",
+        "vorondrq",
+        "gtm",
+        "team",
+        "mobilisation"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: `skunkworks/airecon-intern-assessment-20260809.md`. --- **5. SECURITY POSTURE** | Item | Status | |------|--------| | UFW Firewall | ✅ Active (Step 1 complete, Aug 8) | | SSH Hardening | ⏳ Not done (Steps 2-3 agreed but not executed) | | fail2ban | ❌ Not installed | |",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "2-3",
+        "skunkworks",
+        "airecon",
+        "intern",
+        "assessment",
+        "security",
+        "posture",
+        "item"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: pipeline was never activated. --- **7. PENDING DECISIONS / ACTION ITEMS** | # | Item | Urgency | |---|------|---------| | 1 | UiTM R.I.S.I.K contact (deadline Aug 17) | 🔴 High | | 2 | Workspace git commit (150+ untracked files) | 🟡 Medium | | 3 | SSH hardening Steps",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "r.i.s.i.k",
+        "pipeline",
+        "was",
+        "never",
+        "activated",
+        "pending",
+        "decisions",
+        "action"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: first?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "first"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "User: Commit all work",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "commit",
+        "all"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "Assistant: 493 files staged, 171K insertions. Let me commit.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "staged",
+        "171k",
+        "insertions",
+        "let",
+        "commit"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: Now push to origin.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "now",
+        "push",
+        "origin"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "Assistant: ✅ **Done. All work committed and pushed.** **Commit:** `1123f94c` **Branch:** phone-farm-intel → origin **Stats:** 493 files, 171,163 insertions, 12,028 deletions **What was committed:** - CognitiveOS governance (CVS, Intake SOP, R.I.S.I.K) - Red Team Division (5 JDs,",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "phone-farm-intel",
+        "r.i.s.i.k",
+        "done",
+        "all",
+        "committed",
+        "pushed",
+        "commit",
+        "1123f94c"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "User: https://github.com/pikpikcu/airecon",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "github.com/pikpikcu/airecon",
+        "https",
+        "github.com",
+        "pikpikcu",
+        "airecon"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: **AIRecon** — autonomous pentesting agent that runs 100% local (Ollama + Kali Docker sandbox). No API keys, no cloud exfil. Why it might matter to you: - **Sovereign / air-gapped alignment** — local LLM + offline knowledge base (~1.09M records) fits the sovereign AI na",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "air-gapped",
+        "1.09m",
+        "airecon",
+        "autonomous",
+        "pentesting",
+        "runs",
+        "local",
+        "ollama"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "Assistant: community skill repo already has 57 additional CLI playbooks. That extensibility pattern might be worth borrowing if you're building any automation around VAPT reporting or PTES workflows. Want me to: 1. Deep-dive the architecture (TUI layout, tool calling schema, SQLi",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "deep-dive",
+        "community",
+        "skill",
+        "repo",
+        "already",
+        "has",
+        "additional",
+        "cli"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "User: This looked truncated",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "looked",
+        "truncated"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "Assistant: You're right — got cut off. Here's the full picture: --- ## AIRecon — Complete Overview **What it is:** An autonomous penetration testing agent combining: - **Self-hosted LLM** via Ollama (local, no API keys) - **Kali Linux Docker sandbox** (isolated execution environm",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "self-hosted",
+        "you're",
+        "right",
+        "got",
+        "cut",
+        "off",
+        "here's",
+        "full"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: **Local Persistence (no cloud):** - SQLite memory DB (`~/.airecon/memory/airecon.db`) — sessions, findings, patterns, target intel, tool usage - Adaptive learning state (`~/.airecon/learning/global_learning.json`) — tool performance stats, strategy patterns - Per-targe",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "airecon/memory/airecon.db",
+        "per-targe",
+        "local",
+        "persistence",
+        "cloud",
+        "sqlite",
+        "airecon",
+        "airecon.db"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "Assistant: without it are non-functional - Options for GPU-poor: Google Colab T4 bridge via cloudflared tunnel **Full Stack Tooling:** - Kali sandbox + browser automation - Custom fuzzer + Schemathesis API fuzzing - Semgrep SAST - Nmap, Nuclei, and standard Kali tooling --- ## Wh",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "non-functional",
+        "gpu-poor",
+        "without",
+        "non",
+        "functional",
+        "options",
+        "gpu",
+        "poor"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: operation + session resume + structured reporting = more palatable for gov clients who won't accept cloud-based pentest tools. | | **Commercial Development** | Colab bridge means you can demo flagship capability without standing up GPU infra. Low-fr POC for prospects.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "cloud-based",
+        "low-fr",
+        "operation",
+        "resume",
+        "structured",
+        "reporting",
+        "palatable",
+        "gov"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "Assistant: extensibility pattern is worth borrowing if you're building automation around VAPT reporting or PTES workflows. --- Want me to clone it and run a test recon against a target, or map specific features to your current product pipelines?",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "extensibility",
+        "pattern",
+        "worth",
+        "borrowing",
+        "you're",
+        "building",
+        "automation",
+        "around"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "User: Review if the above would be a good project candidate for my interns skunkworks division project",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "review",
+        "above",
+        "would",
+        "good",
+        "project",
+        "candidate",
+        "interns",
+        "skunkworks"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "Assistant: I'll evaluate AIRecon through the lens of your intern skunkworks program at Aras, weighing strategic fit against execution risk. --- ## Executive Summary **Verdict: CONDITIONAL YES — but not as a core build project. Better framed as a research, extension, and integrati",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "i'll",
+        "evaluate",
+        "airecon",
+        "lens",
+        "intern",
+        "skunkworks",
+        "program",
+        "aras"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: mirrors how you might architect GovSec TIP modules or VoronScout workflows. | | **Cluster A: Sovereign AI** | ★★★★★ | 100% offline, local LLM, no API keys, no cloud exfil — this is literally the sovereign AI narrative you're selling to PERJASA/JDN. | | **Cluster F: Org",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "perjasa/jdn",
+        "mirrors",
+        "how",
+        "might",
+        "architect",
+        "govsec",
+        "tip",
+        "modules"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:96:96": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:96:96",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 96,
+      "endLine": 96,
+      "source": "memory",
+      "snippet": "User: <siti.aishah@cybersecurity.my>; ROSHDI BIN HAJI AHMAD <roshdi@cybersecurity.my>; WAN ROSHAIMI BIN WAN ABDULLAH <roshaimi.abdullah@cybersecurity.my>; Farul Mohd Ghazali <farul@mtai.com.my>; Kenny Kok <kennykok@mtai.com.my>; Azzatullina Pawanchik <azza.pawanchik@wig.my>; Faur",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "siti.aishah",
+        "cybersecurity.my",
+        "roshaimi.abdullah",
+        "mtai.com.my",
+        "azza.pawanchik",
+        "wig.my",
+        "roshdi",
+        "bin"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:97:97": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:97:97",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 97,
+      "endLine": 97,
+      "source": "memory",
+      "snippet": "User: thorough internal consideration before progressing the respective workstreams. Request for 12-Month Event Calendar Following our ongoing collaboration between Aras Integrasi and CSM on GovSec readiness and broader ecosystem engagement initiatives, we would like to formally",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "12-month",
+        "thorough",
+        "internal",
+        "consideration",
+        "progressing",
+        "respective",
+        "workstreams",
+        "request"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:98:98": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:98:98",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 98,
+      "endLine": 98,
+      "source": "memory",
+      "snippet": "User: realistic preparation timelines for collateral, demos, and stakeholder engagement Measurable Outcomes Define success metrics aligned with each event’s objectives Resource Optimization Ensure CSM and Aras Integrasi resources are allocated efficiently Coordinated Execution Av",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "realistic",
+        "preparation",
+        "timelines",
+        "collateral",
+        "demos",
+        "stakeholder",
+        "engagement",
+        "measurable"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:99:99": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:99:99",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 99,
+      "endLine": 99,
+      "source": "memory",
+      "snippet": "User: CSM’s calendar evolves. We remain fully guided by CSM’s direction and are committed to advancing this initiative in a coordinated and outcome-driven manner to ensure that is done efficiently. Thank you once again for the trust, support, and partnership. We look forward to y",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "outcome-driven",
+        "csm’s",
+        "calendar",
+        "evolves",
+        "remain",
+        "fully",
+        "guided",
+        "direction"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:100:100": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:100:100",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 100,
+      "endLine": 100,
+      "source": "memory",
+      "snippet": "User: ZAINUDDIN <fathi.kamil@cybersecurity.my>; MOHAMAD HAFIZ BIN RAHMAN <hafiz.rahman@cybersecurity.my>; NAZRI BIN AHMAD ZAMANI <nazri.az@cybersecurity.my>; MOHAMMAD ZAHARUDIN BIN AHMAD DARUS <zaharudin@cybersecurity.my>; AZRUL NAZIM BIN ABDUL AZIZ <azrul.aziz@cybersecurity.my>;",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "fathi.kamil",
+        "cybersecurity.my",
+        "hafiz.rahman",
+        "nazri.az",
+        "azrul.aziz",
+        "zainuddin",
+        "mohamad",
+        "hafiz"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:101:101": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:101:101",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 101,
+      "endLine": 101,
+      "source": "memory",
+      "snippet": "User: Waalaikumsalam Mr. Faurani, Thank you for sharing the consolidated mobilization outline and for the team's continued commitment in driving the GovSec collaboration initiative forward. We appreciate the structured approach and proactive effort in translating the collaboratio",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "waalaikumsalam",
+        "faurani",
+        "thank",
+        "sharing",
+        "consolidated",
+        "mobilization",
+        "outline",
+        "team's"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:102:102": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:102:102",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 102,
+      "endLine": 102,
+      "source": "memory",
+      "snippet": "User: achievable milestones, and measurable outcomes that can be effectively supported by all stakeholders. We look forward to further discussions and close collaboration in advancing this initiative in a coordinated and outcome driven manner. Thank you. Best regards, Zulfeka Zai",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "achievable",
+        "milestones",
+        "measurable",
+        "outcomes",
+        "can",
+        "effectively",
+        "supported",
+        "all"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:103:103": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:103:103",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 103,
+      "endLine": 103,
+      "source": "memory",
+      "snippet": "User: <roshdi@cybersecurity.my>; WAN ROSHAIMI BIN WAN ABDULLAH <roshaimi.abdullah@cybersecurity.my> Cc: Azzatullina Pawanchik <azza.pawanchik@wig.my>; Hadri <hadri@arasintegrasi.ai>; Kenny Kok <kennykok@mtai.com.my>; SITI AISHAH BINTI OMAR <siti.aishah@cybersecurity.my>; BALAMURU",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "cybersecurity.my",
+        "roshaimi.abdullah",
+        "azza.pawanchik",
+        "wig.my",
+        "arasintegrasi.ai",
+        "mtai.com.my",
+        "siti.aishah",
+        "roshdi"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:104:104": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:104:104",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 104,
+      "endLine": 104,
+      "source": "memory",
+      "snippet": "User: milestone. Following our post-MoU signing discussion and the broader alignment on the CSM collaboration track, we have consolidated the key discussion points into the attached document: Attachment: Streamlined Consolidated Mobilization Outline –Collaboration, Commercial Act",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "post-mou",
+        "milestone",
+        "following",
+        "post",
+        "mou",
+        "signing",
+        "discussion",
+        "broader"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:105:105": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:105:105",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 105,
+      "endLine": 105,
+      "source": "memory",
+      "snippet": "User: Objective Establishing the immediate focus around market awareness, commercial pipeline creation, POC traction and eventual revenue conversion. 2. Product and Initiative Scope Positioning GovSec as a sovereign threat intelligence platform, Voron as a compliance-driven cyber",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "compliance-driven",
+        "objective",
+        "establishing",
+        "immediate",
+        "focus",
+        "around",
+        "market",
+        "awareness"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:106:106": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:106:106",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 106,
+      "endLine": 106,
+      "source": "memory",
+      "snippet": "User: onboarding free POCs and converting validated POCs into future commercial opportunities. 5. Marketing, Branding and Event Activation Outlining the need to align on NCSS / MyAISI participation, CSM-led branding, booth/demo approach, brochures, demo scripts, FAQ, battle cards",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "csm-led",
+        "booth/demo",
+        "onboarding",
+        "free",
+        "pocs",
+        "converting",
+        "validated",
+        "future"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-08.txt:107:107": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-08.txt:107:107",
+      "path": "memory/.dreams/session-corpus/2026-08-08.txt",
+      "startLine": 107,
+      "endLine": 107,
+      "source": "memory",
+      "snippet": "User: is not intended to pre-empt CSM’s internal direction or approval process. Rather, it is prepared as a working alignment paper to help both teams establish a practical execution baseline after the MoU signing and to ensure that the collaboration moves from positive technical",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "a5ecdf0e98e7"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "pre-empt",
+        "not",
+        "intended",
+        "pre",
+        "empt",
+        "csm’s",
+        "internal",
+        "direction"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "Assistant: and other nested git repos — these have their own remotes. **Excluded (sensitive/bulk):** Dreaming corpus, election data API key, `.env` files, `*.key`/`*.pem` — all in `.gitignore`.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "sensitive/bulk",
+        "other",
+        "nested",
+        "git",
+        "repos",
+        "own",
+        "remotes",
+        "excluded"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "Assistant: Interns) ### 1. Hardware Cliff The repo admits: 8B models have **20–40% tool-call error rates and hallucinations**. Reliable operation needs 32B+ models (20GB+ VRAM). Your intern skunkworks likely doesn't have A100s sitting around. - **Free Colab T4** = 12-hour session",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "tool-call",
+        "12-hour",
+        "interns",
+        "hardware",
+        "cliff",
+        "repo",
+        "admits",
+        "models"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: default helps, but the entire value proposition is the autonomous exploit phase. ### 3. Maturity Questions No visible CI/CD, no test suite referenced, no enterprise hardening. The \"adaptive learning\" is a JSON file of tool success/failure counts — not ML. The knowledge",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "ci/cd",
+        "success/failure",
+        "helps",
+        "but",
+        "entire",
+        "value",
+        "proposition",
+        "autonomous"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: sovereign reconnaissance pipeline,\"** it becomes viable. ### Recommended Skunkworks Scope (3–6 months) | Track | Deliverable | Value to Aras | |---|---|---| | **A. Malaysian Context Skills Pack** | Build 15–20 `airecon-skills` playbooks tailored for Malaysian gov/CNII",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "airecon-skills",
+        "gov/cnii",
+        "sovereign",
+        "reconnaissance",
+        "pipeline",
+        "becomes",
+        "viable",
+        "recommended"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: ingest AIRecon recon output into GovSec TIP data lake. Structured IOCs, endpoint maps, vulnerability findings → TIP database. | Connects skunkworks to your Tier 1 flagship. | | **D. Local Malay/Indon Dataset** | Fork `airecon-dataset` to index Malaysian CVE advisories",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "malay/indon",
+        "airecon-dataset",
+        "ingest",
+        "airecon",
+        "recon",
+        "output",
+        "govsec",
+        "tip"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "Assistant: suffice if interns work in shifts | | **Ollama + Docker** | Free | Open source | | **Caido license** | $30/month/proxy | If they need the proxy integration | | **Intern time** | 3–6 months | Tracks A+C could run in parallel with 2–3 interns | | **Supervision** | 2–4 hr",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "30/month/proxy",
+        "suffice",
+        "interns",
+        "shifts",
+        "ollama",
+        "docker",
+        "free",
+        "open"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: High | Very High — directly integrated with your Tier 1 | | **Offensive AI detection tool** (detects AI-generated phishing, deepfakes) | Medium | High | Medium — competitive space | | **R.I.S.I.K data ingestion pipeline** (for UiTM collab) | Low-Medium | Very High | Ve",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "ai-generated",
+        "r.i.s.i.k",
+        "low-medium",
+        "high",
+        "very",
+        "directly",
+        "integrated",
+        "tier"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: you: - A reusable sovereign recon module - Interns trained on Docker, LLM tool-calling, and structured security pipelines - IP that differentiates Aras from cloud-dependent competitors - A natural path to productisation if the prototype performs **If the goal is purely",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "tool-calling",
+        "cloud-dependent",
+        "reusable",
+        "sovereign",
+        "recon",
+        "module",
+        "interns",
+        "trained"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "User: Update",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "update"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "Assistant: I'll save this assessment to the project memory and give you the updated status.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "i'll",
+        "save",
+        "assessment",
+        "project",
+        "give",
+        "updated",
+        "status"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: **Updated.** Saved the full assessment to: - `skunkworks/airecon-intern-assessment-20260809.md` (detailed evaluation) - `MEMORY.md` (decision tracker appended) **Current status:** Awaiting your call on scope. | Option | Scope | Best For | |--------|-------|----------|",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "updated",
+        "saved",
+        "full",
+        "assessment",
+        "skunkworks",
+        "airecon",
+        "intern"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "User: Let's go with option 1",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "let's",
+        "option"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-09.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-09.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-08-09.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "Assistant: **Option A confirmed.** All tracks approved — full scope. --- ## ✅ Decision: Approve Tracks A–E (Full Scope) | Track | Deliverable | Timeline | |-------|-------------|----------| | **A** | Malaysian context skills pack (15–20 playbooks) | Month 1–2 | | **B** | Safe Mod",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "39aa3605a6d6"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "option",
+        "confirmed",
+        "all",
+        "tracks",
+        "approved",
+        "full",
+        "scope",
+        "decision"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Continue the OpenClaw runtime event.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "continue",
+        "openclaw",
+        "runtime",
+        "event"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "User: Each of the above actually have their own Workstream with their own git",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "each",
+        "above",
+        "actually",
+        "own",
+        "workstream",
+        "git"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: Got it — each nested repo needs its own commit and push. Let me identify all of them and handle each.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "got",
+        "each",
+        "nested",
+        "repo",
+        "needs",
+        "own",
+        "commit",
+        "push"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: 15 nested repos. Let me check each one's remote, branch, and status.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "nested",
+        "repos",
+        "let",
+        "check",
+        "each",
+        "one's",
+        "remote",
+        "branch"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: 3 repos with changes. Let me commit and push those.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "repos",
+        "changes",
+        "let",
+        "commit",
+        "push",
+        "those"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: Mr.Holmes is a third-party repo (Lucksi) — can't push. RMIT campaign needs a pull first. Let me fix.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "mr.holmes",
+        "third-party",
+        "third",
+        "party",
+        "repo",
+        "lucksi",
+        "can't",
+        "push"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: Now let me also check the CognitiveOS repo since it had recent commits — make sure it's pushed.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "now",
+        "let",
+        "check",
+        "cognitiveos",
+        "repo",
+        "had",
+        "recent",
+        "commits"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "Assistant: CognitiveOS is clean and pushed. Final summary: ✅ **All nested repos committed and pushed.** | Repo | Status | Commit | |------|--------|--------| | **cognitiveos-workspace** (main) | ✅ Pushed | `1123f94c` — 493 files | | **DUN-Profiling** | ✅ Pushed | `b779f4f` — SPR",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "cognitiveos-workspace",
+        "dun-profiling",
+        "cognitiveos",
+        "clean",
+        "pushed",
+        "final",
+        "summary",
+        "all"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: change the remote.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "change",
+        "remote"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: Pass me a list of the repo pushed.",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "pass",
+        "list",
+        "repo",
+        "pushed"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-08-10.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-08-10.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-08-10.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] **Repos pushed:** 1. `cognitiveos-workspace` → github.com/ahmadfaurani/cognitiveos-workspace.git Commit `1123f94c` — 493 files, 171K insertions 2. `DUN-Profiling` → github.com/ahmadfaurani/DUN-Profiling.git Commit `b779f4f` — SPR XLSX parser 3. `Vo",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-08-10T03:00:00.650Z",
+      "lastRecalledAt": "2026-08-10T03:00:00.650Z",
+      "queryHashes": [
+        "7457e6e2f56b"
+      ],
+      "recallDays": [
+        "2026-08-10"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "cognitiveos-workspace",
+        "dun-profiling",
+        "repos",
+        "pushed",
+        "cognitiveos",
+        "github.com",
+        "ahmadfaurani"
       ]
     }
   }

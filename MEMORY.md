@@ -602,3 +602,10 @@
 
 ---
 
+
+## Promoted From Short-Term Memory (2026-08-10)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-03.md:5:8 -->
+- **Time:** ~08:03 UTC **Session:** Telegram direct (640442208) **Channel:** Telegram **Authority:** DAF [score=0.877 recalls=0 avg=0.620 source=memory/2026-08-03.md:5-8]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-03.md:12:12 -->
+- DAF forwarded the complete email thread for the proposed ELSA–Aras Integrasi collaboration on an AI-assisted revenue recovery and tax compliance initiative for LHDN (Lembaga Hasil Dalam Negeri). DAF asked me to consume the data. [score=0.877 recalls=0 avg=0.620 source=memory/2026-08-03.md:12-12]
