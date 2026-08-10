@@ -20,7 +20,7 @@ All identified risks, grouped by status.
 | RSK-20260804-001 | Delivery capacity/resource contention (4 parallel CSM tracks) | delivery-capacity | INIT-20260804-001/002/003/004 | High | Critical | Critical | Active |
 | RSK-20260804-002 | Senior GovSec resource hiring delay (delivery-readiness) | resource-constraint | INIT-20260804-002/003 | High | Critical | Critical | Active |
 | RSK-20260804-003 | CyberDSA October milestone delivery timeline risk | timeline | INIT-20260804-002/003/001 | High | Critical | Critical | Active |
-| RSK-20260810-001 | Hadri onboarding & handover dependency risk for CyberDSA launch | resource-constraint | INIT-20260810-003 | Medium | Critical | Critical | Active |
+| RSK-20260810-001 | Hadi onboarding & GovSec Product Management dependency risk for CyberDSA launch | resource-constraint | INIT-20260810-003 | Medium | Critical | Critical | Active |
 
 ## Mitigating
 

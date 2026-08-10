@@ -31,9 +31,10 @@ All registered stakeholders, grouped by type.
 | ID | Name | Role | Relationship Status | Next Engagement |
 |----|------|------|--------------------|----------------|
 | STK-20260725-007 | Aras Integrasi Sdn Bhd | Employer — Cyber Security Practice | Active | Ongoing |
-| STK-20260803-007 | Hadri | Technical counterpart — ELSA-Aras LHDN / CSM training | Active | Training reschedule |
-| STK-20260804-003 | Ahmad Fuad | VoronDRQ Product Owner | Active | CMO Outreach Package product review |
-| STK-20260808-003 | Shuhada M. Halimi | Sales — account coordination | New | DAF to initiate coordination |
+| STK-20260803-007 | Hadri | Lead Architect | Aras Integrasi | Active | CyberDSA launch checklist + handover |
+| STK-20260804-003 | Ahmad Fuad | VoronDRQ Product Owner / Principal AI Security Architect | Aras Integrasi | Active | Handover documentation compilation |
+| STK-20260808-003 | Shuhada M. Halimi | Sales — account coordination | Aras Integrasi | New | DAF to initiate coordination |
+| STK-20260810-003 | Hadi | GovSec Product Manager (incoming) | Aras Integrasi | Pending Onboarding | Onboarding + CyberDSA product management |
 
 ## Partner
 
@@ -73,4 +74,4 @@ All registered stakeholders, grouped by type.
 
 ---
 
-_Updated 2026-08-04: Added STK-20260804-004 (Fathi Kamil, CSM), STK-20260804-005 (Izzatul Hazirah, CSM), STK-20260804-006 (Muhammad Imran, CSM), STK-20260804-007 (Nur Qurratu'aini, CSM), STK-20260804-008 (Lukman Hakim, CSM), STK-20260804-009 (Nur Syahidah, CSM), STK-20260804-010 (Mohamad Hafiz, CSM TI), STK-20260804-011 (Mohammad Zaharudin, CSM TI). Updated STK-20260803-006 (Farul, MTAI — GovSec engagement added). Updated 2026-08-04 (Intake 5): Added STK-20260804-012 (Nazri Bin Ahmad Zamani, CSM — Co-Design Lab recipient). Updated 2026-08-07: Added STK-20260807-001–004 (UiTM R.I.S.I.K team members). Updated STK-20260803-008/009 to Active (UiTM acceptance in principle). Updated 2026-08-08: Added STK-20260808-001 (Kenny Kok, COO MTAI), STK-20260808-002 (Azzatullina Pawanchik, Marketing WIG), STK-20260808-003 (Shuhada M. Halimi, Sales)._
+_Updated 2026-08-04: Added STK-20260804-004 (Fathi Kamil, CSM), STK-20260804-005 (Izzatul Hazirah, CSM), STK-20260804-006 (Muhammad Imran, CSM), STK-20260804-007 (Nur Qurratu'aini, CSM), STK-20260804-008 (Lukman Hakim, CSM), STK-20260804-009 (Nur Syahidah, CSM), STK-20260804-010 (Mohamad Hafiz, CSM TI), STK-20260804-011 (Mohammad Zaharudin, CSM TI). Updated STK-20260803-006 (Farul, MTAI — GovSec engagement added). Updated 2026-08-04 (Intake 5): Added STK-20260804-012 (Nazri Bin Ahmad Zamani, CSM — Co-Design Lab recipient). Updated 2026-08-07: Added STK-20260807-001–004 (UiTM R.I.S.I.K team members). Updated STK-20260803-008/009 to Active (UiTM acceptance in principle). Updated 2026-08-08: Added STK-20260808-001 (Kenny Kok, COO MTAI), STK-20260808-002 (Azzatullina Pawanchik, Marketing WIG), STK-20260808-003 (Shuhada M. Halimi, Sales). Updated 2026-08-10: Updated STK-20260803-007 (Hadri — Lead Architect, role corrected from Technical counterpart). Added STK-20260810-003 (Hadi — GovSec Product Manager, incoming)._
