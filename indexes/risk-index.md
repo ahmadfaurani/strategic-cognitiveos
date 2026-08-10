@@ -17,6 +17,10 @@ All identified risks, grouped by status.
 | RSK-20260802-009 | Cognitive switching and decision fatigue | resource-constraint | PRJ-20260725-F001 | High | Medium | Medium | Identified |
 | RSK-20260802-010 | Ambiguous authority in collaborative partnerships | stakeholder-alignment | PRJ-20260725-C001 | Medium | Medium | Medium | Identified |
 | RSK-20260803-001 | NDA scope language may not fully capture Aras technology scope | governance | INIT-20260803-001 | Medium | High | High | Identified |
+| RSK-20260804-001 | Delivery capacity/resource contention (4 parallel CSM tracks) | delivery-capacity | INIT-20260804-001/002/003/004 | High | Critical | Critical | Active |
+| RSK-20260804-002 | Senior GovSec resource hiring delay (delivery-readiness) | resource-constraint | INIT-20260804-002/003 | High | Critical | Critical | Active |
+| RSK-20260804-003 | CyberDSA October milestone delivery timeline risk | timeline | INIT-20260804-002/003/001 | High | Critical | Critical | Active |
+| RSK-20260810-001 | Hadri onboarding & handover dependency risk for CyberDSA launch | resource-constraint | INIT-20260810-003 | Medium | Critical | Critical | Active |
 
 ## Mitigating
 
