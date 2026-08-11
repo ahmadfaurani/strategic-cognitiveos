@@ -609,3 +609,98 @@
 - **Time:** ~08:03 UTC **Session:** Telegram direct (640442208) **Channel:** Telegram **Authority:** DAF [score=0.877 recalls=0 avg=0.620 source=memory/2026-08-03.md:5-8]
 <!-- openclaw-memory-promotion:memory:memory/2026-08-03.md:12:12 -->
 - DAF forwarded the complete email thread for the proposed ELSA–Aras Integrasi collaboration on an AI-assisted revenue recovery and tax compliance initiative for LHDN (Lembaga Hasil Dalam Negeri). DAF asked me to consume the data. [score=0.877 recalls=0 avg=0.620 source=memory/2026-08-03.md:12-12]
+
+### GovSec × CSM SiberSUITE Integration Session (10 Aug 2026)
+
+**Meeting:** 10 Aug 2026, 11:00 AM–2:00 PM (UTC+8), Menara CyberAxis
+**Participants:** DAF, Hadri, Ahmad Fuad (Aras) | Mohamad Hafiz, Mohammad Zaharudin (CSM) | Farul (MTAI)
+
+**Outcome:** Three immediate collaboration areas identified:
+1. **Telemetry Integration** — SiberSUITE telemetry consumed/correlated/analysed through GovSec
+2. **Cybersecurity Score Card Framework** — evidence-driven CNII sector scoring (new initiative: INIT-20260810-001)
+3. **CBOM Agent** — AI-enabled agent for continuous cyber component/dependency/vulnerability analysis (new initiative: INIT-20260810-002)
+
+**Pipeline vision:** SiberSUITE → Telemetry → GovSec Analytics → CBOM Agent → Cybersecurity Score Card
+
+**Strategic significance:** GovSec positioned as complementary analytics layer on top of SiberSUITE (not duplicating). Score Card addresses CNII national need. CBOM Agent introduces AI-native differentiator. All three feed toward CyberDSA Oct 2026 joint launch.
+
+**Next:** Hadri & Fuad coordinate technical follow-up (ACT-20260810-001, target Aug 17)
+
+**CognitiveOS records:** CONV-20260810-001, DEC-20260810-001, INIT-20260810-001–002, COM-20260810-001, ACT-20260810-001–004. INIT-20260804-003 advanced to Prototype.
+
+### GovSec Development Freeze & CyberDSA Launch Readiness (10 Aug 2026)
+
+**Directive:** DAF declared a development freeze on GovSec TIP effective immediately. Primary focus shifts to CyberDSA Product Launch Readiness (Oct 2026). Five priorities: (1) stabilise/harden v3.0 build, (2) close critical technical/security gaps, (3) validate E2E workflows/integrations, (4) complete Hadri handover, (5) prepare CyberDSA demo flow.
+
+**GovSec TIP v3.0 (August 2026):** Threat Visualization (Map + Graph), Executive Dashboard, Geographic Intelligence, Correlation Graph, Futuristic Login, Role-based Navigation. Tech stack: React + Node.js + PostgreSQL + RAG AI Analyst.
+
+**Version history:** v1.0 → v2.2 (Apr: TTP pivot, MITRE sync) → v2.4 (May: Core MVP) → v2.5 (Jul: AI Analyst, Threat Hunting, PDPA, Malaysian APT Library) → v3.0 (Aug: Threat Viz, Executive Dashboard)
+
+**Handover:** Fuad to compile comprehensive technical/development documentation for Hadri (architecture, changelog, components, issues, dependencies, deployment, priorities). Hadri tasked with producing CyberDSA Product Launch Checklist.
+
+**Risk:** RSK-20260810-001 — Hadi onboarding delay (GovSec Product Manager) compresses launch window. Medium likelihood, Critical impact.
+
+**Note:** Hadri (Lead Architect, STK-20260803-007) is already at Aras — NOT being onboarded. Hadi (GovSec Product Manager, STK-20260810-003) is the incoming person whose onboarding is the critical path dependency. Two different people.
+
+**CognitiveOS records:** CONV-20260810-002, DEC-20260810-002, INIT-20260810-003 (Flagship), ACT-20260810-005–007, COM-20260810-002, RSK-20260810-001. Product readiness index updated: GovSec TIP = Prototype → target Demo-ready.
+
+---
+
+## 🏗️ Cybersecurity Productisation — Expanded Development Freeze (Aug 11, 2026)
+
+### Expanded Development Freeze & Productisation Directive
+
+**Date:** 2026-08-11 | **Authority:** DAF | **Decision:** DEC-20260811-001
+
+DAF escalated the Aug 10 GovSec-only freeze (DEC-20260810-002) to ALL THREE Cybersecurity Flagship Products: VoronCitadel, GovSec TIP, and ChainSentry. No further feature development. Focus shifts to productisation, commercial readiness, and GTM execution.
+
+**Permitted development only:** Critical bug fixes, security remediation, demo/POC-affecting issues, previously committed integration requirements for commercialisation.
+
+**VoronCitadel = VoronDRQ (CONFIRMED).** Fuad's email (Aug 10) uses "VoronCitadel MVP document" in a thread titled "VoronDRQ MVP Specification". VoronCitadel is the productised name. All existing documentation needs name transition.
+
+**6-category productisation framework per product:**
+1. MVP Specification (✅ exists for all 3)
+2. Product Roadmap (❌ pending)
+3. Product Backlog (❌ pending)
+4. Commercialisation Readiness (varies: VoronCitadel=Ready, GovSec=Partial, ChainSentry=Partial)
+5. Sales & GTM Materials (varies: VoronCitadel=Ready, GovSec=Partial, ChainSentry=Partial)
+6. Product Governance (❌ pending — first-time establishment)
+
+**5 first outputs requested from Fuad (Hadri supporting):**
+1. Central repository structure for all 3 products
+2. Current documentation inventory
+3. Missing-document / readiness gap list
+4. Initial product roadmap for each product
+5. Recommended priorities before active GTM and customer POCs
+
+**Review gate:** Once baseline established → DAF reviews all 3 products collectively → agree commercialisation priorities, GTM readiness, next development cycle.
+
+**Objective:** "stabilise what we have, document it properly, package it as a product, and take it to market."
+
+**Execution bottlenecks identified (9 total):**
+- 🔴 CRITICAL: Fuad capacity overload (21 deliverables, 1 person)
+- 🟠 HIGH: VoronCitadel naming transition, no product governance framework, empty commercial workstream (E)
+- 🟡 MEDIUM: Hadri concurrent commitments, documentation scope vs timeline (18 deliverables)
+- 🟢 LOW: Syahir's role undefined, repository location unspecified
+- ⏰ TIME-SENSITIVE: DevSecOps intern notification due Aug 13
+
+**Key stakeholders:** Ahmad Fuad (delivery owner, STK-20260804-003), Hadri (overseer, STK-20260803-007), Syahir (new, STK-20260811-001, role TBD), Kenny Kok (COO MTAI, STK-20260808-001).
+
+**CognitiveOS records:** CONV-20260811-001, DEC-20260811-001, INIT-20260811-001 (Flagship), COM-20260811-001, STK-20260811-001, ACT-20260811-001–007, RSK-20260811-001. Execution bottleneck analysis: briefings/EXEC-BOTTLENECK-20260811.md.
+
+## Promoted From Short-Term Memory (2026-08-11)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-04.md:5:8 -->
+- **Time:** ~07:10 UTC **Authority:** DAF **Channel:** Telegram direct **Commit:** `2136ff14` [score=0.882 recalls=0 avg=0.620 source=memory/2026-08-04.md:5-8]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-04.md:10:10 -->
+- DAF delivered the full expanded R.I.S.I.K operating doctrine across multiple messages. Reviewed all 23 sections as they arrived. Document is now the canonical version. [score=0.882 recalls=0 avg=0.620 source=memory/2026-08-04.md:10-10]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-04.md:12:12 -->
+- **What changed from the earlier version:** [score=0.882 recalls=0 avg=0.620 source=memory/2026-08-04.md:12-12]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-04.md:14:17 -->
+- | Element | Old Version | New Version | |---------|------------|-------------| | Architecture | 3 layers | 4 layers (Collection separated from Analysis) | [score=0.882 recalls=0 avg=0.620 source=memory/2026-08-04.md:14-16]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-04.md:18:21 -->
+- | Issue lifecycle | 5 stages | 7 stages (+Latent, Recurring) | | Issue scoring | 8 dimensions | 10 dimensions (+Velocity, Exploitability) | [score=0.882 recalls=0 avg=0.620 source=memory/2026-08-04.md:18-19]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-04.md:22:25 -->
+- | Counter-narrative types | 9 types | 10 types (+Corrective Action Communication) | | KPIs | None | KPIs for every phase | | Data model | None | 3 structured record types (Issue, Narrative, Actor) | [score=0.882 recalls=0 avg=0.620 source=memory/2026-08-04.md:22-24]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-04.md:26:29 -->
+- | Dashboards | None | 3 views (Strategic, Operational, Measurement) | | Escalation triggers | None | 12 explicit triggers | | Decision matrix | None | 7-scenario intervention matrix | [score=0.882 recalls=0 avg=0.620 source=memory/2026-08-04.md:26-28]
