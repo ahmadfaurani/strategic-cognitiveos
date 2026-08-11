@@ -19,6 +19,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260808-002 | VoronDRQ GTM Team Mobilisation — COO Approval & Internal Comms | faurani-jaafar | — | Active | 2026-08-17 |
 | INIT-20260808-003 | Red Team Division — National Offensive Security Capability Builder | faurani-jaafar | — | Active | 2026-08-22 |
 | INIT-20260810-003 | GovSec CyberDSA Product Launch Readiness | faurani-jaafar | — | Active | Weekly (Aug–Oct) |
+| INIT-20260811-001 | Cybersecurity Flagship Product Consolidation & Productisation Programme | faurani-jaafar | — | Active | 2026-08-17 |
 
 ## Incubation
 
@@ -86,13 +87,20 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260810-005 | Compile technical & development documentation + full changelog for Hadri handover | ahmad-fuad | 2026-08-24 | Draft |
 | ACT-20260810-006 | Hadri: produce CyberDSA Product Launch Checklist | hadri | 2026-08-31 | Draft |
 | ACT-20260810-007 | Structure GovSec readiness plan around 5 CyberDSA priorities | faurani-jaafar | 2026-08-17 | Draft |
+| ACT-20260811-001 | Establish centralised product repository for all 3 flagship products | ahmad-fuad | 2026-08-18 | Draft |
+| ACT-20260811-002 | Compile Product Roadmap for each flagship product | ahmad-fuad | 2026-08-31 | Draft |
+| ACT-20260811-003 | Compile Product Backlog for each flagship product | ahmad-fuad | 2026-08-31 | Draft |
+| ACT-20260811-004 | Compile Commercialisation Readiness documentation for each product | ahmad-fuad | 2026-09-15 | Draft |
+| ACT-20260811-005 | Compile/complete Sales & GTM Materials for each product | ahmad-fuad | 2026-09-15 | Draft |
+| ACT-20260811-006 | Establish Product Governance for each product | faurani-jaafar | 2026-08-31 | Draft |
+| ACT-20260811-007 | Communicate dev freeze directive to devsecops intern | ahmad-fuad | 2026-08-13 | Draft |
 
 ## Workstream Cluster Overview
 
 | Workstream | Initiative ID | Focus Areas |
 |-----------|-------------|-------------|
 | A — Sovereign AI & Gov AI Adoption | INIT-20260725-001 | PERJASA, JDN/JDM, Perdana Digital, sovereign AI platform, PMO Data Lake, AI incubator |
-| B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260808-003, INIT-20260810-001, INIT-20260810-002, INIT-20260810-003 | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** + **GovSec × CMERP integration (Aug 12/13)** + **GovSec × TI integration — session conducted Aug 10, scope expanded to 3 areas** + **Cybersecurity Score Card Framework (Aug 10)** + **CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA Oct 2026 joint launch milestone (DEC-20260804-001)** + **Red Team Division established (Aug 8)** + **GovSec development freeze & CyberDSA launch readiness (Aug 10, DEC-20260810-002)** |
+| B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260808-003, INIT-20260810-001, INIT-20260810-002, INIT-20260810-003, INIT-20260811-001 | GovSec TIP, VoronDRQ/VoronCitadel, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** + **GovSec × CMERP integration (Aug 12/13)** + **GovSec × TI integration — session conducted Aug 10, scope expanded to 3 areas** + **Cybersecurity Score Card Framework (Aug 10)** + **CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA Oct 2026 joint launch milestone (DEC-20260804-001)** + **Red Team Division established (Aug 8)** + **GovSec development freeze & CyberDSA launch readiness (Aug 10, DEC-20260810-002)** + **Expanded development freeze across all 3 flagship products & productisation directive (Aug 11, DEC-20260811-001)** |
 | C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260810-001, INIT-20260810-002 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** + **GovSec × TI integration (Aug 4, session Aug 10)** + **Cybersecurity Score Card + CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA joint product launch (Oct 2026)** |
 | D — Political & Strategic Intelligence | INIT-20260725-004 | State elections, candidate profiling, PIRs, war rooms, sentiment analysis, R.I.S.I.K |
 | E — Commercial & Market Development | INIT-20260725-005 | Regional ASEAN, sales enablement, account development, licensing, pipelines |
@@ -106,6 +114,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | DEC-20260808-001 | Red Team Division structure and 5 JDs approved for HR firm distribution | faurani-jaafar | Active | 2026-08-08 |
 | DEC-20260810-001 | Three Immediate Collaboration Areas for GovSec × CSM SiberSUITE Integration | faurani-jaafar | Active | 2026-08-10 |
 | DEC-20260810-002 | GovSec Development Freeze & CyberDSA Launch Readiness Priority | faurani-jaafar | Active | 2026-08-10 |
+| DEC-20260811-001 | Expanded Development Freeze Across All Three Cybersecurity Flagship Products & Productisation Directive | faurani-jaafar | Active | 2026-08-11 |
 
 ## Risks
 

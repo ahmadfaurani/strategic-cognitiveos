@@ -35,6 +35,7 @@ All registered stakeholders, grouped by type.
 | STK-20260804-003 | Ahmad Fuad | VoronDRQ Product Owner / Principal AI Security Architect | Aras Integrasi | Active | Handover documentation compilation |
 | STK-20260808-003 | Shuhada M. Halimi | Sales — account coordination | Aras Integrasi | New | DAF to initiate coordination |
 | STK-20260810-003 | Hadi | GovSec Product Manager (incoming) | Aras Integrasi | Pending Onboarding | Onboarding + CyberDSA product management |
+| STK-20260811-001 | Syahir | TBD (cc'd on productisation directive) | Aras Integrasi | New | Role clarification |
 
 ## Partner
 
