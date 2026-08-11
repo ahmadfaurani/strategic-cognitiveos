@@ -73,6 +73,7 @@ This analysis flags every execution bottleneck that could prevent that objective
 - Update product-readiness-index to use VoronCitadel (with VoronDRQ as former name)
 - All new documentation uses VoronCitadel exclusively
 - Add "formerly VoronDRQ" notation in first reference of each document
+- Full product name to be standardised: "VoronCitadel (formerly VoronDRQ) — Integrated Governance, Risk & Compliance (DRQ) Platform"
 
 ---
 
@@ -130,6 +131,19 @@ This analysis flags every execution bottleneck that could prevent that objective
 - Clarify Hadri's time allocation between productisation support and CyberDSA
 - His primary value-add is the solution/deployment/customer-facing perspective — focus him there
 - Don't assign him documentation compilation; assign him review/validation only
+
+---
+
+## Bottleneck #10: 4-Month Gap Between MVP Spec and Productisation Directive — MEDIUM
+
+**The Problem:** Fuad submitted the VoronDRQ MVP Specification on April 20, 2026, with a platform demo on April 27 and a CSM capital market engagement in May. He flagged 5 operational dependencies for production rollout at that time. Yet the development freeze and productisation directive was not issued until August 11 — nearly 4 months later. The status of those 5 dependencies and the CSM engagement is unclear.
+
+**Impact:** 4 months of potential drift between MVP baseline and current state. The documentation Fuad compiles now may not reflect what was actually built since April. The 5 operational dependencies may have been partially addressed, fully addressed, or abandoned.
+
+**Recommendation:**
+- Fuad's documentation inventory (1st output #2) must include a status assessment of the 5 operational dependencies from the April email
+- Clarify what happened with the May CSM capital market engagement — is this the same CSM collaboration tracked under Workstream C?
+- The April 27 demo output should be referenced as the baseline starting point for the Product Roadmap
 
 ---
 
@@ -197,6 +211,7 @@ This analysis flags every execution bottleneck that could prevent that objective
 | 7 | Documentation scope vs timeline (18 deliverables) | 🟡 MEDIUM | Fuad | Sequence: 5 outputs first, then review gate |
 | 8 | Syahir's role undefined | 🟢 LOW | DAF | Clarify at meeting |
 | 9 | Repository location unspecified | 🟢 LOW | DAF | Decide at meeting |
+| 10 | 4-month gap: MVP spec (Apr) → freeze directive (Aug) | 🟡 MEDIUM | Fuad | Status assessment of 5 dependencies in doc inventory |
 
 ---
 
@@ -210,3 +225,4 @@ This analysis flags every execution bottleneck that could prevent that objective
 6. **Name transition** — VoronDRQ → VoronCitadel across all materials
 7. **Commercial workstream activation** — when does Workstream E start?
 8. **Review gate timing** — when do we expect to reach the collective review?
+9. **April dependencies status** — what happened with the 5 operational dependencies Fuad flagged in April? What happened with the May CSM engagement?
