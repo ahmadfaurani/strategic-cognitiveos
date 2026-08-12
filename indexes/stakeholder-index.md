@@ -25,7 +25,23 @@ All registered stakeholders, grouped by type.
 | STK-20260804-010 | Mohamad Hafiz Bin Rahman | MyCERT — TI integration lead (GovSec × TI) | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
 | STK-20260804-011 | Mohammad Zaharudin Bin Ahmad Darus | MyCERT — TI team | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
 | STK-20260804-012 | Nazri Bin Ahmad Zamani | MyCERT — Co-Design Lab recipient | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
-| STK-20260812-001 | Wan Roshaimi Bin Wan Abdullah | MyCERT Dept (cc'd on Co-Design Lab acceptance) | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
+| STK-20260812-001 | Wan Roshaimi Bin Wan Abdullah | MyCERT Dept — Co-Design Lab pilot | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
+| STK-20260812-002 | Kamarul Baharin Bin Khalid | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-003 | Ahmad Osman Bin Ahmad | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-004 | Mohd Hafiz Bin Mat Tabrani | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-005 | Imran Bin Hasnan | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-006 | Wan Lukman Bin Wan Junoh | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-007 | Norlinda Binti Jaafar | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-008 | Sarah Binti Abdul Rauf | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-009 | Nur Mohammad Kamil Bin Mohammad Alta | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-010 | Nur Afiqah Naqiah Binti Mohd Sabri | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-011 | Ahmad Aizuddin Aizat Bin Tajul Arif | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-012 | Nurshuhada Binti Mahfuz | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-013 | Nur Sarah Binti Jamaludin | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-014 | Muhammad Edwin Bin Ambo Rifai | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-015 | Muhammad Fitri Bin Mohd Sultan | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-016 | Fatahillah Bin Hashim | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260812-017 | Muhammad 'Allam Bin Omar | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
 
 ## Internal
 
