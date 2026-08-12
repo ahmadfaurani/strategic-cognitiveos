@@ -16,15 +16,16 @@ All registered stakeholders, grouped by type.
 | STK-20260803-011 | Dr. Noor Dasrafeezal Bin Abdul Shukur | PMO official | Prime Minister's Office | New | Role clarification |
 | STK-20260804-001 | Mohammad Fahdzli Bin Abdul Rauf | Head of Cyber Solutions Dept | CyberSecurity Malaysia | Active | Training reschedule confirmation |
 | STK-20260804-002 | Zulfeka Zainal Abidin | Senior (post-MoU mobilisation) | CyberSecurity Malaysia | Active | CSM internal review pending |
-| STK-20260804-004 | Fathi Kamil Bin Mohad Zainuddin | CSM integration lead (GovSec × CMERP) | CyberSecurity Malaysia | Active | Integration session confirmation |
+| STK-20260804-004 | Fathi Kamil Bin Mohad Zainuddin | Head, MyCERT Dept (GovSec × CMERP + Co-Design Lab) | CyberSecurity Malaysia | Active | Co-Design Lab onboarding (ACT-20260812-001) |
 | STK-20260804-005 | Izzatul Hazirah Binti Ishak | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
 | STK-20260804-006 | Muhammad Imran Bin Mohamad Fauzi | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
 | STK-20260804-007 | Nur Qurratu 'Aini Binti Rohizan | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
 | STK-20260804-008 | Lukman Hakim Bin Abd Rahman | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
 | STK-20260804-009 | Nur Syahidah Binti Yunos | CSM integration team member | CyberSecurity Malaysia | Active | Integration session (Aug 12/13) |
-| STK-20260804-010 | Mohamad Hafiz Bin Rahman | CSM TI integration lead (GovSec × TI) | CyberSecurity Malaysia | New | TI session confirmation (Aug 6/7/10) |
-| STK-20260804-011 | Mohammad Zaharudin Bin Ahmad Darus | CSM TI team (cc'd) | CyberSecurity Malaysia | New | TI session (Aug 6/7/10) |
-| STK-20260804-012 | Nazri Bin Ahmad Zamani | CSM team — Co-Design Lab recipient | CyberSecurity Malaysia | New | Co-Design Lab use case response |
+| STK-20260804-010 | Mohamad Hafiz Bin Rahman | MyCERT — TI integration lead (GovSec × TI) | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
+| STK-20260804-011 | Mohammad Zaharudin Bin Ahmad Darus | MyCERT — TI team | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
+| STK-20260804-012 | Nazri Bin Ahmad Zamani | MyCERT — Co-Design Lab recipient | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
+| STK-20260812-001 | Wan Roshaimi Bin Wan Abdullah | MyCERT Dept (cc'd on Co-Design Lab acceptance) | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
 
 ## Internal
 

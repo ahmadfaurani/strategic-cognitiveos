@@ -32,7 +32,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Active — Coordination | UITM acceptance in principle + working session | 2026-09-06 |
 | INIT-20260804-002 | GovSec × CMERP Platform Integration Continuation | faurani-jaafar | Active — Integration | Session confirmation (Aug 12/13) | 2026-08-13 |
 | INIT-20260804-003 | GovSec × Threat Intelligence (TI) Integration | faurani-jaafar | Active — Prototype | Session conducted Aug 10, scope expanded (3 areas) | 2026-08-17 |
-| INIT-20260804-004 | AI Systems Co-Design Lab (Cohort 01) — CSM Partnership | faurani-jaafar | Active — Framed | CSM use case submission | 2026-08-10 |
+| INIT-20260804-004 | AI Systems Co-Design Lab (Cohort 01) — CSM Partnership | faurani-jaafar | Active — Prototype | MyCERT accepted; personnel list pending review; onboarding (ACT-20260812-001/002) | 2026-08-17 |
 | INIT-20260810-001 | Cybersecurity Score Card Framework (CNII Sector Scoring) | faurani-jaafar | Active — Framed | Framework exploration document | 2026-08-17 |
 | INIT-20260810-002 | CBOM Agent — AI-Enabled Cyber Component Analysis | faurani-jaafar | Active — Framed | Feasibility assessment | 2026-08-17 |
 

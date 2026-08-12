@@ -15,3 +15,4 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260810-001 | Three Immediate Collaboration Areas for GovSec × CSM SiberSUITE Integration | 2026-08-10 | faurani-jaafar | Active | — |
 | DEC-20260810-002 | GovSec Development Freeze & CyberDSA Launch Readiness Priority | 2026-08-10 | faurani-jaafar | Active | — |
 | DEC-20260811-001 | Expanded Development Freeze Across All Three Cybersecurity Flagship Products & Productisation Directive | 2026-08-11 | faurani-jaafar | Active | — |
+| DEC-20260812-001 | CSM/MyCERT Accepts AI Systems Co-Design Lab Cohort 01 Invitation | 2026-08-12 | fathi-kamil | Active | — |

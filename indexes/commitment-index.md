@@ -11,6 +11,7 @@ All outstanding commitments, grouped by status.
 | COM-20260810-001 | Broader alignment vision: SiberSUITE → Telemetry → GovSec Analytics → CBOM Agent → Score Card | faurani-jaafar | STK-20260804-010 (CSM) | 2026-10-01 | Active | Medium |
 | COM-20260810-002 | GovSec Development Freeze — Minimise New Features, Focus on CyberDSA Launch Readiness | faurani-jaafar | STK-20260804-003 (Ahmad Fuad) | 2026-10-01 | Active | Medium |
 | COM-20260811-001 | Expanded Development Freeze Across All Three Flagship Products + Productisation Framework | faurani-jaafar | STK-20260804-003 (Ahmad Fuad) | 2026-10-01 | Active | Medium |
+| COM-20260812-001 | CSM/MyCERT Submits Personnel List for Co-Design Lab Pilot Phase | fathi-kamil | STK-20260803-007 (Hadri) | 2026-08-12 | In-progress | Low |
 
 ## Overdue
 
