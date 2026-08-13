@@ -42,6 +42,13 @@ All registered stakeholders, grouped by type.
 | STK-20260812-015 | Muhammad Fitri Bin Mohd Sultan | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
 | STK-20260812-016 | Fatahillah Bin Hashim | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
 | STK-20260812-017 | Muhammad 'Allam Bin Omar | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
+| STK-20260813-001 | PERJASA | Coordinating partner — Government AI Co-Design Lab | PERJASA | Developing | Document review + date confirmation |
+| STK-20260813-002 | Mohamed Kheirulnaim Bin Mohamed Danial | Penolong Pengarah Kanan, MyGPKI Sect | JDN | Active | Document review + date confirmation |
+| STK-20260813-003 | Razale bin Ibrahim | Ketua Penolong Pengarah Kanan, ICT Mgmt | JDN | Active | Document review + date confirmation |
+| STK-20260813-004 | Azwan bin Azmi | Penolong Pengarah Kanan, AI/ICT Operation | JDN | Active | Ice-breaking session |
+| STK-20260813-005 | Meor Mohd Shahrulnizam bin Meor Sepli | Ketua Penolong Pengarah, AI/ML | JDN | Active | Ice-breaking session |
+| STK-20260813-006 | Raja Mohammad Hafiz bin Raja Kamarudin | Penolong Pengarah Kanan, System Dev | MOH | Active | Ice-breaking session |
+| STK-20260813-007 | Hussein bin Mohamed | Penolong Pegawai TI Kanan, Cyber Security | SUK Negeri Sembilan | Active | Ice-breaking session |
 
 ## Internal
 

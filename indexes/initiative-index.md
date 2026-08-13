@@ -36,10 +36,11 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260804-004 | AI Systems Co-Design Lab (Cohort 01) — CSM Partnership | faurani-jaafar | Active | Prototype — MyCERT accepted, personnel list submitted | 2026-08-17 |
 | INIT-20260810-001 | Cybersecurity Score Card Framework (CNII Sector Scoring) | faurani-jaafar | Active | Framed | 2026-08-17 |
 | INIT-20260810-002 | CBOM Agent — AI-Enabled Cyber Component Analysis | faurani-jaafar | Active | Framed | 2026-08-17 |
+| INIT-20260813-001 | PERJASA × Aras Government AI Co-Design Lab (JDN Track) | faurani-jaafar | Active | Framed | 2026-08-27 |
 
 ## Watch List
 
-_— Updated 2026-08-10: INIT-20260804-003 advanced to Prototype (session conducted, scope expanded). Added INIT-20260810-001 (Cybersecurity Score Card Framework) and INIT-20260810-002 (CBOM Agent), both Incubation tier. 9 new records: 1 CONV, 1 DEC, 2 INIT, 1 COM, 4 ACT. Updated 2026-08-08: Added INIT-20260808-003 (Red Team Division, Flagship tier). Updated 2026-08-04: INIT-20260804-001 added to Flagship tier (GTM activation, pilot readiness). Updated 2026-08-04: INIT-20260804-002/003 patched with CyberDSA Oct 2026 milestone (DEC-20260804-001). 10 new records: 1 CONV, 1 DEC, 3 RSK, 5 ACT. Updated 2026-08-04 (Intake 5): Added INIT-20260804-004 (AI Systems Co-Design Lab, Incubation tier). 5 new records: 1 STK, 1 INIT, 1 CONV, 2 ACT. 7 PIRs (2C/4H/1M)._
+_— Updated 2026-08-13: Added INIT-20260813-001 (PERJASA × Aras Government AI Co-Design Lab, Incubation tier). 20 new records: 1 INIT, 1 CONV, 7 STK, 3 COM, 7 ACT, 1 RSK. Updated 2026-08-10: INIT-20260804-003 advanced to Prototype (session conducted, scope expanded). Added INIT-20260810-001 (Cybersecurity Score Card Framework) and INIT-20260810-002 (CBOM Agent), both Incubation tier. 9 new records: 1 CONV, 1 DEC, 2 INIT, 1 COM, 4 ACT. Updated 2026-08-08: Added INIT-20260808-003 (Red Team Division, Flagship tier). Updated 2026-08-04: INIT-20260804-001 added to Flagship tier (GTM activation, pilot readiness). Updated 2026-08-04: INIT-20260804-002/003 patched with CyberDSA Oct 2026 milestone (DEC-20260804-001). 10 new records: 1 CONV, 1 DEC, 3 RSK, 5 ACT. Updated 2026-08-04 (Intake 5): Added INIT-20260804-004 (AI Systems Co-Design Lab, Incubation tier). 5 new records: 1 STK, 1 INIT, 1 CONV, 2 ACT. 7 PIRs (2C/4H/1M)._
 
 | ID | Title | Owner | Status | Next Review |
 |----|-------|-------|--------|-------------|

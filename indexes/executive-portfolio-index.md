@@ -35,6 +35,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260804-004 | AI Systems Co-Design Lab (Cohort 01) — CSM Partnership | faurani-jaafar | Active — Prototype | MyCERT accepted; personnel list pending review; onboarding (ACT-20260812-001/002) | 2026-08-17 |
 | INIT-20260810-001 | Cybersecurity Score Card Framework (CNII Sector Scoring) | faurani-jaafar | Active — Framed | Framework exploration document | 2026-08-17 |
 | INIT-20260810-002 | CBOM Agent — AI-Enabled Cyber Component Analysis | faurani-jaafar | Active — Framed | Feasibility assessment | 2026-08-17 |
+| INIT-20260813-001 | PERJASA × Aras Government AI Co-Design Lab (JDN Track) | faurani-jaafar | Active — Framed | Full execution email sent; awaiting PERJASA review + date confirmation | 2026-08-27 |
 
 ## Watch List
 
