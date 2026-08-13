@@ -95,14 +95,21 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260811-005 | Compile/complete Sales & GTM Materials for each product | ahmad-fuad | 2026-09-15 | Draft |
 | ACT-20260811-006 | Establish Product Governance for each product | faurani-jaafar | 2026-08-31 | Draft |
 | ACT-20260811-007 | Communicate dev freeze directive to devsecops intern | ahmad-fuad | 2026-08-13 | Draft |
+| ACT-20260813-001 | PERJASA to review Workshop Agenda + Cohort Program docs | external-perjasa | 2026-08-27 | Draft |
+| ACT-20260813-002 | PERJASA to confirm workshop date (Sept 2–3) | external-perjasa | 2026-08-27 | Draft |
+| ACT-20260813-003 | Conduct coordination/alignment session with PERJASA | faurani-jaafar | 2026-08-30 | Draft |
+| ACT-20260813-004 | Set up GPU compute tokens for cohort nominees | hadri | 2026-09-01 | Draft |
+| ACT-20260813-005 | Prepare & conduct ice-breaking session with cohort | faurani-jaafar | 2026-08-30 | Draft |
+| ACT-20260813-006 | Finalise 2-Day Workshop Agenda based on PERJASA feedback | hadri | 2026-08-30 | Draft |
+| ACT-20260813-007 | Finalise Cohort Program Strategic Alignment Doc based on feedback | faurani-jaafar | 2026-08-30 | Draft |
 
 ## Workstream Cluster Overview
 
 | Workstream | Initiative ID | Focus Areas |
 |-----------|-------------|-------------|
-| A — Sovereign AI & Gov AI Adoption | INIT-20260725-001 | PERJASA, JDN/JDM, Perdana Digital, sovereign AI platform, PMO Data Lake, AI incubator |
+| A — Sovereign AI & Gov AI Adoption | INIT-20260725-001, INIT-20260813-001 | PERJASA, JDN/JDM, Perdana Digital, sovereign AI platform, PMO Data Lake, AI incubator — **PERJASA × Aras Government AI Co-Design Lab (Aug 13, INIT-20260813-001)** |
 | B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260808-003, INIT-20260810-001, INIT-20260810-002, INIT-20260810-003, INIT-20260811-001 | GovSec TIP, VoronDRQ/VoronCitadel, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** + **GovSec × CMERP integration (Aug 12/13)** + **GovSec × TI integration — session conducted Aug 10, scope expanded to 3 areas** + **Cybersecurity Score Card Framework (Aug 10)** + **CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA Oct 2026 joint launch milestone (DEC-20260804-001)** + **Red Team Division established (Aug 8)** + **GovSec development freeze & CyberDSA launch readiness (Aug 10, DEC-20260810-002)** + **Expanded development freeze across all 3 flagship products & productisation directive (Aug 11, DEC-20260811-001)** |
-| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260810-001, INIT-20260810-002 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** + **GovSec × TI integration (Aug 4, session Aug 10)** + **Cybersecurity Score Card + CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA joint product launch (Oct 2026)** |
+| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260810-001, INIT-20260810-002, INIT-20260813-001 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** + **GovSec × TI integration (Aug 4, session Aug 10)** + **Cybersecurity Score Card + CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA joint product launch (Oct 2026)** + **PERJASA Government AI Co-Design Lab (Aug 13)** |
 | D — Political & Strategic Intelligence | INIT-20260725-004 | State elections, candidate profiling, PIRs, war rooms, sentiment analysis, R.I.S.I.K |
 | E — Commercial & Market Development | INIT-20260725-005 | Regional ASEAN, sales enablement, account development, licensing, pipelines |
 | F — Organisational Capability Building | INIT-20260725-006, INIT-20260808-002, INIT-20260808-003 | Cybersecurity BU build-out, recruiting, KPIs, delivery accountability, knowledge management — **GTM Team Mobilisation (Aug 8)** + **Red Team Division 5 FTE (Aug 8)** |
@@ -124,3 +131,4 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | RSK-20260804-001 | Delivery capacity/resource contention (4 parallel CSM tracks) | Critical | Active | INIT-001/002/003/004 |
 | RSK-20260804-002 | Senior GovSec resource hiring delay (delivery-readiness) | Critical | Active | INIT-002/003, INIT-20260725-006 |
 | RSK-20260804-003 | CyberDSA October milestone delivery timeline risk | Critical | Active | INIT-002/003, INIT-001 |
+| RSK-20260813-001 | PERJASA workshop date confirmation delay (Sept 2–3 unconfirmed) | High | Active | INIT-20260813-001 |
