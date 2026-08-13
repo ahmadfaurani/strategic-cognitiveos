@@ -20,6 +20,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260808-003 | Red Team Division — National Offensive Security Capability Builder | faurani-jaafar | — | Active | 2026-08-22 |
 | INIT-20260810-003 | GovSec CyberDSA Product Launch Readiness | faurani-jaafar | — | Active | Weekly (Aug–Oct) |
 | INIT-20260811-001 | Cybersecurity Flagship Product Consolidation & Productisation Programme | faurani-jaafar | — | Active | 2026-08-17 |
+| INIT-20260813-005 | CSM–Aras Joint Operating Model — Strategic Cyber & Sovereign AI Programme | faurani-jaafar | — | Active | 2026-08-21 |
 
 ## Incubation
 
@@ -36,6 +37,9 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260810-001 | Cybersecurity Score Card Framework (CNII Sector Scoring) | faurani-jaafar | Active — Framed | Framework exploration document | 2026-08-17 |
 | INIT-20260810-002 | CBOM Agent — AI-Enabled Cyber Component Analysis | faurani-jaafar | Active — Framed | Feasibility assessment | 2026-08-17 |
 | INIT-20260813-001 | PERJASA × Aras Government AI Co-Design Lab (JDN Track) | faurani-jaafar | Active — Framed | Full execution email sent; awaiting PERJASA review + date confirmation | 2026-08-27 |
+| INIT-20260813-002 | CSM AI Instance / Token Allocation — Intelligence Platform Development | faurani-jaafar | Active — Framed | CSM formally requested AI instance access (Aug 13); endpoint + models identified | 2026-08-21 |
+| INIT-20260813-003 | CSM–Aras Sovereign AI PaaS Commercial Model | faurani-jaafar | Active — Framed | 4-layer PaaS architecture proposed; RM688k first-year envelope discussed | 2026-09-01 |
+| INIT-20260813-004 | UPM × CSM × Aras — Autonomous AI Cybersecurity (Purple Teaming) | faurani-jaafar | Active — Conceptual | Tripartite proposed; UPM validation checklist required before positioning | 2026-08-31 |
 
 ## Watch List
 
@@ -109,7 +113,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 |-----------|-------------|-------------|
 | A — Sovereign AI & Gov AI Adoption | INIT-20260725-001, INIT-20260813-001 | PERJASA, JDN/JDM, Perdana Digital, sovereign AI platform, PMO Data Lake, AI incubator — **PERJASA × Aras Government AI Co-Design Lab (Aug 13, INIT-20260813-001)** |
 | B — Cybersecurity Productisation | INIT-20260725-002, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260808-003, INIT-20260810-001, INIT-20260810-002, INIT-20260810-003, INIT-20260811-001 | GovSec TIP, VoronDRQ/VoronCitadel, ChainSentry, VoronScout, LE-UIP, SEC-AF — **VoronDRQ GTM activation (Aug 4)** + **GovSec × CMERP integration (Aug 12/13)** + **GovSec × TI integration — session conducted Aug 10, scope expanded to 3 areas** + **Cybersecurity Score Card Framework (Aug 10)** + **CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA Oct 2026 joint launch milestone (DEC-20260804-001)** + **Red Team Division established (Aug 8)** + **GovSec development freeze & CyberDSA launch readiness (Aug 10, DEC-20260810-002)** + **Expanded development freeze across all 3 flagship products & productisation directive (Aug 11, DEC-20260811-001)** |
-| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260810-001, INIT-20260810-002, INIT-20260813-001 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronDRQ GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** + **GovSec × TI integration (Aug 4, session Aug 10)** + **Cybersecurity Score Card + CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA joint product launch (Oct 2026)** + **PERJASA Government AI Co-Design Lab (Aug 13)** |
+| C — Government & Institutional Partnerships | INIT-20260725-003, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003, INIT-20260804-004, INIT-20260810-001, INIT-20260810-002, INIT-20260813-001, INIT-20260813-002, INIT-20260813-003, INIT-20260813-004, INIT-20260813-005 | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/defence, universities, CNII/financial — **CSM VoronCitadel GTM (Aug 4)** + **GovSec × CMERP integration (Aug 4)** + **GovSec × TI integration (Aug 4, session Aug 10)** + **Cybersecurity Score Card + CBOM Agent (Aug 10)** + **AI Co-Design Lab Cohort 01 (Aug 4)** + **CyberDSA joint product launch (Oct 2026)** + **PERJASA Government AI Co-Design Lab (Aug 13)** + **CSM AI Token Allocation (Aug 13)** + **Sovereign AI PaaS (Aug 13)** + **UPM × CSM × Aras Purple Teaming (Aug 13)** + **CSM–Aras Joint Operating Model (Aug 13)** |
 | D — Political & Strategic Intelligence | INIT-20260725-004 | State elections, candidate profiling, PIRs, war rooms, sentiment analysis, R.I.S.I.K |
 | E — Commercial & Market Development | INIT-20260725-005 | Regional ASEAN, sales enablement, account development, licensing, pipelines |
 | F — Organisational Capability Building | INIT-20260725-006, INIT-20260808-002, INIT-20260808-003 | Cybersecurity BU build-out, recruiting, KPIs, delivery accountability, knowledge management — **GTM Team Mobilisation (Aug 8)** + **Red Team Division 5 FTE (Aug 8)** |
@@ -132,3 +136,4 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | RSK-20260804-002 | Senior GovSec resource hiring delay (delivery-readiness) | Critical | Active | INIT-002/003, INIT-20260725-006 |
 | RSK-20260804-003 | CyberDSA October milestone delivery timeline risk | Critical | Active | INIT-002/003, INIT-001 |
 | RSK-20260813-001 | PERJASA workshop date confirmation delay (Sept 2–3 unconfirmed) | High | Active | INIT-20260813-001 |
+| RSK-20260813-002 | GTM Programme Management Gap — MQL Pipeline Without Joint Coordination Mechanism | High | Active | INIT-20260804-001 |
