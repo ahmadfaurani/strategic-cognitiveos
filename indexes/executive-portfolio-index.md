@@ -20,7 +20,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260808-003 | Red Team Division — National Offensive Security Capability Builder | faurani-jaafar | — | Active | 2026-08-22 |
 | INIT-20260810-003 | GovSec CyberDSA Product Launch Readiness | faurani-jaafar | — | Active | Weekly (Aug–Oct) |
 | INIT-20260811-001 | Cybersecurity Flagship Product Consolidation & Productisation Programme | faurani-jaafar | — | Active | 2026-08-17 |
-| INIT-20260813-005 | CSM–Aras Joint Operating Model — Strategic Cyber & Sovereign AI Programme | faurani-jaafar | — | Active | 2026-08-21 |
+| INIT-20260813-005 | CSM–Aras Joint Operating Model — Strategic Cyber & Sovereign AI Programme | faurani-jaafar | DEC-20260813-001 | Active | 2026-08-21 |
 
 ## Incubation
 

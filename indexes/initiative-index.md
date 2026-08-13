@@ -40,7 +40,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260813-002 | CSM AI Instance / Token Allocation — Intelligence Platform Development | faurani-jaafar | Active | Framed | 2026-08-21 |
 | INIT-20260813-003 | CSM–Aras Sovereign AI PaaS Commercial Model | faurani-jaafar | Active | Framed | 2026-09-01 |
 | INIT-20260813-004 | UPM × CSM × Aras — Autonomous AI Cybersecurity (Purple Teaming) | faurani-jaafar | Active | Conceptual | 2026-08-31 |
-| INIT-20260813-005 | CSM–Aras Joint Operating Model — Strategic Cyber & Sovereign AI Programme | faurani-jaafar | Active | Framed | 2026-08-21 |
+| INIT-20260813-005 | CSM–Aras Joint Operating Model — Strategic Cyber & Sovereign AI Programme | faurani-jaafar | Active | **Adopted** | 2026-08-21 |
 | INIT-20260813-006 | CyberDSA Stakeholder Coverage & Communication Ownership Plan | faurani-jaafar | Working Plan | Working Plan | 2026-08-21 |
 
 ## Watch List

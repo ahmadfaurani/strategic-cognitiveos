@@ -16,3 +16,4 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260810-002 | GovSec Development Freeze & CyberDSA Launch Readiness Priority | 2026-08-10 | faurani-jaafar | Active | — |
 | DEC-20260811-001 | Expanded Development Freeze Across All Three Cybersecurity Flagship Products & Productisation Directive | 2026-08-11 | faurani-jaafar | Active | — |
 | DEC-20260812-001 | CSM/MyCERT Accepts AI Systems Co-Design Lab Cohort 01 Invitation | 2026-08-12 | fathi-kamil | Active | — |
+| DEC-20260813-001 | Formal Adoption of 5-Pillar CSM–Aras Joint Operating Model | 2026-08-13 | faurani-jaafar | Active | — |
