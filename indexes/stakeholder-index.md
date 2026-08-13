@@ -62,10 +62,7 @@ All registered stakeholders, grouped by type.
 | STK-20260811-001 | Syahir | TBD (cc'd on productisation directive) | Aras Integrasi | New | Role clarification |
 | STK-20260811-002 | Nik Sarah Naqibah | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
 | STK-20260811-003 | Jasila Jalil | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
-| STK-20260813-013 | Encik Zulfelka | Commercial Coverage | Aras Integrasi (pending confirmation) | New | CyberDSA coverage confirmation |
-| STK-20260813-014 | Amelia Nadia | Event Activation Support | Aras Integrasi (pending confirmation) | New | Event operating plan assignment |
-| STK-20260813-015 | Rashid Bin Ramli | Event Activation Support | Aras Integrasi (pending confirmation) | New | Event operating plan assignment |
-| STK-20260813-016 | Said Farid Zainudin | Event Activation Support | Aras Integrasi (pending confirmation) | New | Event operating plan assignment |
+
 
 ## Partner
 
@@ -78,7 +75,10 @@ All registered stakeholders, grouped by type.
 | STK-20260803-005 | Samantha Lai | Legal counsel | MTAI | Active | NDA review completion |
 | STK-20260803-006 | Farul Mohd Ghazali | Legal advisor & AI infrastructure/platform architecture | MTAI | Active | CSM partnership AI infrastructure + NDA review |
 | STK-20260808-001 | Kenny Kok | COO | MTAI Sdn Bhd | Active | Working session (pending agreement) |
-| STK-20260808-002 | Azzatullina Pawanchik | Marketing | WIG (MTAI group) | New | Campaign guidance + working session |
+| STK-20260808-002 | Azzatullina Pawanchik | CMO | WIG/MTAI | New | Campaign guidance + working session |
+| STK-20260813-014 | Amelia Nadia | Event Activation Support | WIG/MTAI | New | Event operating plan assignment |
+| STK-20260813-015 | Rashid Bin Ramli | Event Activation Support | WIG/MTAI | New | Event operating plan assignment |
+| STK-20260813-016 | Said Farid Zainudin | Event Activation Support | WIG/MTAI | New | Event operating plan assignment |
 
 ## Prospect
 
@@ -108,6 +108,7 @@ All registered stakeholders, grouped by type.
 | STK-20260813-010 | Muhammad Amirul Bukhari Razak | Technical / AI / Intelligence | CyberSecurity Malaysia | New | AI infrastructure + intelligence platform |
 | STK-20260813-011 | Nurshahira Mohd | Technical / AI / Intelligence | CyberSecurity Malaysia | New | AI infrastructure + intelligence platform |
 | STK-20260813-012 | Suraya Hani Ahmad Zaki | Technical / AI / Intelligence | CyberSecurity Malaysia | New | AI infrastructure + intelligence platform |
+| STK-20260813-013 | Zulfelka | Head of Commercial | CyberSecurity Malaysia | Active | CyberDSA commercial coordination |
 
 ---
 
