@@ -62,6 +62,10 @@ All registered stakeholders, grouped by type.
 | STK-20260811-001 | Syahir | TBD (cc'd on productisation directive) | Aras Integrasi | New | Role clarification |
 | STK-20260811-002 | Nik Sarah Naqibah | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
 | STK-20260811-003 | Jasila Jalil | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
+| STK-20260813-013 | Encik Zulfelka | Commercial Coverage | Aras Integrasi (pending confirmation) | New | CyberDSA coverage confirmation |
+| STK-20260813-014 | Amelia Nadia | Event Activation Support | Aras Integrasi (pending confirmation) | New | Event operating plan assignment |
+| STK-20260813-015 | Rashid Bin Ramli | Event Activation Support | Aras Integrasi (pending confirmation) | New | Event operating plan assignment |
+| STK-20260813-016 | Said Farid Zainudin | Event Activation Support | Aras Integrasi (pending confirmation) | New | Event operating plan assignment |
 
 ## Partner
 
