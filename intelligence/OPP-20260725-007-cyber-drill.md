@@ -1,5 +1,5 @@
 ---
-id: OPP-20260725-007
+id: INT-20260725-007
 record_type: intelligence
 title: Opportunity — National Cyber Drill Simulation Design
 created_at: 2026-07-25T10:35:00Z
@@ -9,7 +9,7 @@ intelligence_type: market
 status: draft
 priority: medium
 sensitivity: confidential
-confidence: MEDIUM
+confidence: medium
 tags:
   - domain/cybersecurity
   - domain/governance
@@ -33,6 +33,8 @@ related_stakeholders:
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 17
+lifecycle_state: canonical
+summary: "See record body for intelligence summary."
 ---
 
 # Summary

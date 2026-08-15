@@ -1,3 +1,19 @@
+---
+id: INIT-20260813-004
+record_type: initiative
+title: "Job Description — Marketing Operations Specialist"
+created_at: 2026-08-13T00:00:00Z
+owner: faurani-jaafar
+status: active
+portfolio_tier: incubation
+readiness_level: concept
+summary: "Reference document — see body for details."
+sensitivity: internal
+lifecycle_state: canonical
+tags:
+  - type/reference-document
+---
+
 # Job Description — Marketing Operations Specialist
 
 **Role Title:** Marketing Operations Specialist — VoronDRQ GTM

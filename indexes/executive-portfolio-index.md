@@ -61,7 +61,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260802-008 | Clarify personal decision rights | faurani-jaafar | 2026-09-01 | Draft |
 | ACT-20260802-009 | Establish measurable conversion targets | faurani-jaafar | 2026-09-15 | Draft |
 | ACT-20260802-010 | Protect focused strategy time — 2 hours daily | faurani-jaafar | 2026-08-09 | Draft |
-| ACT-20260804-001 | Confirm Voron Citadel training reschedule with CSM | hadri | 2026-08-12 | Draft |
+| ACT-20260804-001 | Confirm Voron Citadel training reschedule with CSM | hadri | 2026-08-14 | ✅ Completed |
 | ACT-20260804-002 | Conduct VoronDRQ sales enablement session with CSM | faurani-jaafar | 2026-08-22 | Draft |
 | ACT-20260804-003 | First-wave account shortlisting (10–15 orgs) | faurani-jaafar | 2026-08-29 | Draft |
 | ACT-20260804-004 | Assign joint account ownership (1 CSM + 1 Aras per account) | faurani-jaafar | 2026-08-29 | Draft |
@@ -106,6 +106,11 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260813-005 | Prepare & conduct ice-breaking session with cohort | faurani-jaafar | 2026-08-30 | Draft |
 | ACT-20260813-006 | Finalise 2-Day Workshop Agenda based on PERJASA feedback | hadri | 2026-08-30 | Draft |
 | ACT-20260813-007 | Finalise Cohort Program Strategic Alignment Doc based on feedback | faurani-jaafar | 2026-08-30 | Draft |
+| ACT-20260815-001 | Schedule additional Voron Citadel technical training sessions for CSM | hadri | 2026-09-15 | Draft |
+| ACT-20260815-002 | Implement improvements/suggestions raised by CSM team during training | hadri | 2026-09-01 | Draft |
+| ACT-20260815-003 | Formalise Aisha as CSM-Aras communication PIC | faurani-jaafar | 2026-08-25 | Draft |
+| ACT-20260815-004 | Schedule CSM higher management meeting re: Aisha's PIC appointment | faurani-jaafar | 2026-08-22 | Draft |
+| ACT-20260815-005 | CSM Event Participation — Aras Integrasi Showcase Opportunity (placeholder) | faurani-jaafar | 2026-09-30 | Draft |
 
 ## Workstream Cluster Overview
 
@@ -137,3 +142,4 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | RSK-20260804-003 | CyberDSA October milestone delivery timeline risk | Critical | Active | INIT-002/003, INIT-001 |
 | RSK-20260813-001 | PERJASA workshop date confirmation delay (Sept 2–3 unconfirmed) | High | Active | INIT-20260813-001 |
 | RSK-20260813-002 | GTM Programme Management Gap — MQL Pipeline Without Joint Coordination Mechanism | High | Active | INIT-20260804-001 |
+| RSK-20260815-001 | Absence of designated PIC for CSM-Aras communication | Medium | Mitigating | INIT-20260804-001 |

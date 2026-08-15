@@ -1,3 +1,19 @@
+---
+id: INIT-20260813-003
+record_type: initiative
+title: "Job Description — GTM Delivery Owner"
+created_at: 2026-08-13T00:00:00Z
+owner: faurani-jaafar
+status: active
+portfolio_tier: incubation
+readiness_level: concept
+summary: "Reference document — see body for details."
+sensitivity: internal
+lifecycle_state: canonical
+tags:
+  - type/reference-document
+---
+
 # Job Description — GTM Delivery Owner
 
 **Role Title:** GTM Programme Delivery Owner

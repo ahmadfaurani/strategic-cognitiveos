@@ -1,3 +1,19 @@
+---
+id: INT-20260725-001
+record_type: intelligence
+title: "CSCDC Communication Framework Analysis"
+created_at: 2026-07-25T00:00:00Z
+owner: faurani-jaafar
+status: active
+intelligence_type: operational
+confidence: high
+sensitivity: confidential
+summary: "Analytical report — see body for full analysis."
+lifecycle_state: canonical
+tags:
+  - type/analytical-report
+---
+
 # Analytical Report: Rangka Kerja Komunikasi Keselamatan Siber Negara (CSCDC)
 
 **Document:** Strategic Cyber Security Communication Framework

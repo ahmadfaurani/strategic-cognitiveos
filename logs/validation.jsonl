@@ -1,0 +1,5 @@
+{"timestamp": "2026-08-15T09:07:07.285904+00:00", "total": 268, "passed": 0, "failed": 268, "warnings": 254, "index_issues": 60}
+{"timestamp": "2026-08-15T09:07:27.787698+00:00", "total": 268, "passed": 98, "failed": 170, "warnings": 254, "index_issues": 60}
+{"timestamp": "2026-08-15T09:11:56.990690+00:00", "total": 268, "passed": 210, "failed": 58, "warnings": 0, "index_issues": 60}
+{"timestamp": "2026-08-15T09:12:44.376699+00:00", "total": 268, "passed": 217, "failed": 51, "warnings": 0, "index_issues": 68}
+{"timestamp": "2026-08-15T09:13:07.261600+00:00", "total": 268, "passed": 268, "failed": 0, "warnings": 0, "index_issues": 62}

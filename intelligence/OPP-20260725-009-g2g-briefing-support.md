@@ -1,5 +1,5 @@
 ---
-id: OPP-20260725-009
+id: INT-20260725-009
 record_type: intelligence
 title: Opportunity — G2G Briefing & Speechwriting Support
 created_at: 2026-07-25T10:35:00Z
@@ -9,7 +9,7 @@ intelligence_type: market
 status: draft
 priority: medium
 sensitivity: confidential
-confidence: LOW
+confidence: low
 tags:
   - domain/governance
   - domain/stakeholder-engagement
@@ -32,6 +32,8 @@ related_stakeholders:
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 9
+lifecycle_state: canonical
+summary: "See record body for intelligence summary."
 ---
 
 # Summary
