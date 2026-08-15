@@ -19,3 +19,5 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260812-001 | CSM/MyCERT Accepts AI Systems Co-Design Lab Cohort 01 Invitation | 2026-08-12 | fathi-kamil | Active | — |
 | DEC-20260813-001 | Formal Adoption of 5-Pillar CSM–Aras Joint Operating Model | 2026-08-13 | faurani-jaafar | Active | — |
 | DEC-20260815-001 | R.I.S.I.K Programme Cost Structure formalised at RM5.0M for MCMC proposal | 2026-08-15 | faurani-jaafar | Active | — |
+| DEC-20260815-003 | CognitiveOS Prime Doctrine — Adopted as Canonical Operational Constitution | 2026-08-15 | faurani-jaafar | Active | — |
+| DEC-20260815-004 | CyberDSA 2026 War-Room Mode Activated | 2026-08-15 | faurani-jaafar | Active | — |
