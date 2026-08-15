@@ -20,5 +20,9 @@
     "HIGH": 1,
     "MEDIUM": 0,
     "LOW": 2
-  }
+  },
+  "_status": "RETIRED",
+  "_retired_date": "2026-08-15",
+  "_retired_reason": "Replaced by CVS Evidence Register (workspace-mlk/03-VERIFICATION/CVS-EVIDENCE-REGISTER.csv) as canonical signal tracking. Signal Registry was aspirational, never operationalized beyond 3 test signals. CVS Evidence Register has 210 active claims with 20-field validation.",
+  "_canonical_replacement": "workspace-mlk/03-VERIFICATION/CVS-EVIDENCE-REGISTER.csv"
 }
