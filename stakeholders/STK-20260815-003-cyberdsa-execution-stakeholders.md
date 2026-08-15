@@ -45,6 +45,7 @@ summary: "Execution stakeholder assignments for CyberDSA 2026 success criteria �
 | Azzatullina Pawanchik | Marketing / WIG | ✅ Active | 5 | 3, 4 |
 | Hadi | Incoming Product Manager | ⏳ Pending onboarding | 0 (future) | 1 (planned) |
 | Aisha | CSM-Aras PIC (proposed) | ⏳ Pending CSM confirmation | 0 (coordination) | 3 (supporting) |
+| Amelia Nadia | Event Lead — CyberDSA | ✅ Active | 1 | 5 (Execution) |
 | Kenny Kok | COO, MTAI | ✅ Active (authority) | 0 | — |
 | Programme Coordinator | UNFILLED | ❌ CRITICAL GAP | 0 | All (coordination) |
 
