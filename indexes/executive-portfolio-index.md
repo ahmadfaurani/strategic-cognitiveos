@@ -30,7 +30,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260711-001 | Ember Identity Architecture | faurani-jaafar | Active — Development | SOUL.md, IDENTITY.md deployed | Ongoing |
 | INIT-20260725-007 | CSCDC Communication Division — Strategic Partnership | faurani-jaafar | Draft — Framed | Leadership mapping complete | 2026-08-08 |
 | INIT-20260803-001 | ELSA–Aras LHDN AI-Assisted Revenue Recovery | faurani-jaafar | Draft — Framed | NDA execution | 2026-08-17 |
-| INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Active — Coordination | UITM acceptance in principle + working session | 2026-09-06 |
+| INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Active — Cost-Structured | UiTM acceptance in principle + RM5M cost structure formalised + MCMC target identified | 2026-09-06 |
 | INIT-20260804-002 | GovSec × CMERP Platform Integration Continuation | faurani-jaafar | Active — Integration | Session confirmation (Aug 12/13) | 2026-08-13 |
 | INIT-20260804-003 | GovSec × Threat Intelligence (TI) Integration | faurani-jaafar | Active — Prototype | Session conducted Aug 10, scope expanded (3 areas) | 2026-08-17 |
 | INIT-20260804-004 | AI Systems Co-Design Lab (Cohort 01) — CSM Partnership | faurani-jaafar | Active — Prototype | MyCERT accepted; personnel list pending review; onboarding (ACT-20260812-001/002) | 2026-08-17 |

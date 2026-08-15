@@ -17,6 +17,7 @@ All identified risks, grouped by status.
 | RSK-20260813-001 | PERJASA workshop date confirmation delay | timeline | INIT-20260813-001 | Medium | High | High | Active |
 | RSK-20260813-002 | GTM Programme Management Gap — MQL Pipeline Without Joint Coordination Mechanism | execution-coordination | INIT-20260804-001 | High | High | High | Active |
 | RSK-20260815-001 | Absence of designated PIC for CSM-Aras communication | communication-coordination | INIT-20260804-001 | Medium | Medium | Medium | Mitigating |
+| RSK-20260815-002 | MCMC funding approval risk — RM5M pricing sensitivity and budget cycle alignment | commercial-viability | INIT-20260803-002 | Medium | High | High | Identified |
 
 ## Mitigating
 

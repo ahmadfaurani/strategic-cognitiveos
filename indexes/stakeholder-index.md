@@ -50,6 +50,7 @@ All registered stakeholders, grouped by type.
 | STK-20260813-006 | Raja Mohammad Hafiz bin Raja Kamarudin | Penolong Pengarah Kanan, System Dev | MOH | Active | Ice-breaking session |
 | STK-20260813-007 | Hussein bin Mohamed | Penolong Pegawai TI Kanan, Cyber Security | SUK Negeri Sembilan | Active | Ice-breaking session |
 | STK-20260815-001 | Aisha | PA to En. Zulfeka (Head of Business Development & Industry Affairs) | CyberSecurity Malaysia | Proposed | CSM higher management meeting (week of Aug 18) |
+| STK-20260815-002 | MCMC | Target funder for R.I.S.I.K AI Platform (RM5M) | Malaysian Communications and Multimedia Commission | Identified | MCMC proposal preparation (ACT-20260815-006) |
 
 ## Internal
 
