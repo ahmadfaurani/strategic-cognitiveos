@@ -25,7 +25,11 @@
     "decision_owner": { "type": "string" },
     "status": {
       "type": "string",
-      "enum": ["draft", "validated", "approved", "active", "superseded", "archived"]
+      "enum": ["draft", "validated", "approved", "active", "proposed", "superseded", "archived"]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
     },
     "portfolio_tier": {
       "type": "string",

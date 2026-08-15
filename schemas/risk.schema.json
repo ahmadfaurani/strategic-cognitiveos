@@ -40,7 +40,11 @@
     "related_initiative": { "type": "string" },
     "status": {
       "type": "string",
-      "enum": ["identified", "mitigating", "monitoring", "realised", "closed"]
+      "enum": ["identified", "mitigating", "monitoring", "active", "realised", "closed"]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
     },
     "priority": {
       "type": "string",

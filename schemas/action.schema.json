@@ -29,7 +29,11 @@
     },
     "status": {
       "type": "string",
-      "enum": ["draft", "in-progress", "blocked", "completed", "overdue", "cancelled", "unresolved"]
+      "enum": ["draft", "in-progress", "active", "open", "proposed", "pending", "blocked", "completed", "overdue", "cancelled", "unresolved"]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
     },
     "sensitivity": {
       "type": "string",
@@ -37,7 +41,7 @@
     },
     "deadline": { "type": "string", "format": "date" },
     "dependency": { "type": "string" },
-    "required_output": { "type": "string" },
+    "required_output": { "type": ["string", "null"], "description": "Description of the expected deliverable. Can be null for records where output is implicit." },
     "attention_level": {
       "type": "string",
       "enum": ["owner", "approver", "consulted", "informed", "delegated", "deferred"]

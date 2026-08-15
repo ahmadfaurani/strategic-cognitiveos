@@ -26,7 +26,11 @@
     "expected_delivery_date": { "type": "string", "format": "date" },
     "status": {
       "type": "string",
-      "enum": ["draft", "in-progress", "blocked", "completed", "overdue", "cancelled"]
+      "enum": ["draft", "in-progress", "active", "blocked", "completed", "delivered", "overdue", "cancelled"]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
     },
     "priority": {
       "type": "string",

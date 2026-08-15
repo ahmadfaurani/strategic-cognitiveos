@@ -148,6 +148,10 @@
       "items": {
         "type": "string"
       }
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
     }
   },
   "required": [

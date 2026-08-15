@@ -48,6 +48,10 @@
     "last_engagement": { "type": "string" },
     "next_engagement": { "type": "string" },
     "relationship_owner": { "type": "string" },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
+    },
     "related_initiatives": { "type": "array", "items": { "type": "string" } },
     "sensitivity": {
       "type": "string",

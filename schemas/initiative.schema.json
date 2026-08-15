@@ -31,7 +31,11 @@
     },
     "status": {
       "type": "string",
-      "enum": ["draft", "in-progress", "active", "blocked", "deferred", "completed", "archived"]
+      "enum": ["draft", "in-progress", "active", "blocked", "deferred", "working-plan", "completed", "archived"]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
     },
     "priority": {
       "type": "string",
