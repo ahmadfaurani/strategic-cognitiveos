@@ -1,44 +1,51 @@
 ---
 id: INT-{{date}}-{{seq}}
 record_type: intelligence
-title: 
+title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
-owner: 
-intelligence_type: 
+owner: ""
+intelligence_type: ""
 status: draft
-priority: 
+priority: ""
 sensitivity: internal
-confidence: 
-tags: []
+lifecycle_state: candidate
+confidence: ""
+summary: ""
+strategic_significance: ""
 mission_alignment: []
 evidence: []
 related_initiatives: []
 related_stakeholders: []
+recommended_actions: []
+implications: []
+open_questions: []
+tags: []
 source:
-  type: 
-  reference: 
+  type: ""
+  reference: ""
+related_records: []
 ---
 
 # Summary
 
 <!-- Concise description of the intelligence finding -->
 
+# Intelligence Type
+
+<!-- stakeholder / political / market / technical / competitive / regulatory / security / operational -->
+
 # Strategic Significance
 
 <!-- Why this intelligence matters -->
 
-# Intelligence Type
-
-<!-- Stakeholder / Political / Market / Technical / Competitive / Regulatory / Security / Operational -->
-
 # Evidence
 
-<!-- Supporting facts, sources and intelligence inputs -->
+<!-- Supporting facts, sources, and intelligence inputs -->
 
 # Assessment
 
-<!-- Analytical assessment with confidence tag -->
+<!-- Analytical assessment -->
 
 # Confidence Level
 

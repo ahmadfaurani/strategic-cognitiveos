@@ -1,20 +1,23 @@
 ---
 id: ACT-{{date}}-{{seq}}
 record_type: action
-title: 
+title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
-owner: 
-related_initiative: 
-related_stakeholder: 
-priority: 
+owner: ""
+related_initiative: ""
+related_stakeholder: ""
+priority: ""
 status: draft
 sensitivity: internal
+lifecycle_state: candidate
+required_output: ""
+deadline: ""
+dependency: ""
+attention_level: ""
+completion_evidence: ""
 tags: []
-deadline: 
-dependency: 
-required_output: 
-attention_level: 
+related_records: []
 ---
 
 # Action Statement
@@ -29,6 +32,12 @@ attention_level:
 
 <!-- When this action must be completed -->
 
+# Required Output
+
+<!-- What deliverable or observable state proves this action is complete.
+     This field is MANDATORY. Every action must define its expected output.
+     Examples: "Signed proposal document", "Demonstration environment deployed", "Meeting scheduled and confirmed" -->
+
 # Related Initiative
 
 <!-- Which initiative this action supports -->
@@ -39,19 +48,16 @@ attention_level:
 
 # Priority
 
-<!-- Critical / High / Medium / Low -->
+<!-- critical / high / medium / low -->
 
 # Status
 
-<!-- Draft / In-progress / Blocked / Completed -->
+<!-- draft / in-progress / active / open / proposed / pending / blocked / completed / overdue / cancelled / unresolved
+     NOTE: Use hyphen (in-progress), NOT underscore (in_progress) -->
 
 # Dependency
 
 <!-- What must happen before this action can proceed -->
-
-# Required Output
-
-<!-- What the completed action should produce -->
 
 # Attention Level
 

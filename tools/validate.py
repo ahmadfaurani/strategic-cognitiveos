@@ -51,6 +51,7 @@ TYPE_TO_DIR = {
     "risk": "risks",
     "conversation": "engagements",
     "event": "engagements",
+    "organization": "organizations",
 }
 
 # Override: conversation records use CONV- prefix, events use EVT- prefix
@@ -64,6 +65,7 @@ DIR_TO_TYPES = {
     "intelligence": ["intelligence"],
     "risks": ["risk"],
     "engagements": ["conversation", "event"],
+    "organizations": ["organization"],
 }
 
 
@@ -197,6 +199,7 @@ def validate_record(fm: dict, body: str, filepath: Path, dir_name: str, schemas:
         "risk": "RSK-",
         "conversation": "CONV-",
         "event": "EVT-",
+        "organization": "ORG-",
     }
     expected_prefix = expected_prefixes.get(record_type, "")
     if expected_prefix and id_val and not id_val.startswith(expected_prefix):
@@ -228,6 +231,7 @@ def check_indexes(schemas: dict):
         "conversation": "conversation-index.md",
         "event": None,
         "intelligence": None,
+        "organization": None,  # No organization index yet
     }
     
     for record_type, index_file in type_to_index.items():

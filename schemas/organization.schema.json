@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "organization.schema.json",
+  "title": "Organization Record",
+  "description": "An institution, agency, company, or organisational entity — not an individual person.",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "org_type",
+    "sector",
+    "strategic_relevance",
+    "relationship_status",
+    "relationship_owner"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ORG-\\d{8}-\\d{3}$"
+    },
+    "record_type": { "const": "organization" },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Full official name of the organisation"
+    },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "owner": { "type": "string" },
+    "org_type": {
+      "type": "string",
+      "enum": [
+        "government-agency",
+        "government-ministry",
+        "regulatory-body",
+        "state-owned-enterprise",
+        "private-company",
+        "public-company",
+        "academic-institution",
+        "research-institute",
+        "non-profit",
+        "industry-association",
+        "international-organisation",
+        "military",
+        "law-enforcement",
+        "political-party",
+        "internal-division"
+      ]
+    },
+    "sector": {
+      "type": "string",
+      "enum": [
+        "government",
+        "defence",
+        "financial",
+        "telecommunications",
+        "energy",
+        "healthcare",
+        "education",
+        "critical-infrastructure",
+        "private-sector",
+        "cybersecurity",
+        "technology",
+        "consulting"
+      ]
+    },
+    "strategic_relevance": {
+      "type": "string",
+      "description": "Why this organisation matters to the portfolio"
+    },
+    "relationship_status": {
+      "type": "string",
+      "enum": ["new", "developing", "active", "trusted", "dormant", "at-risk"]
+    },
+    "engagement_objective": { "type": "string" },
+    "current_position": { "type": "string" },
+    "decision_authority": { "type": "string", "description": "Who in this organisation has decision authority" },
+    "key_contacts": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "STK record IDs of individual contact persons at this organisation"
+    },
+    "commitments_by_us": { "type": "array", "items": { "type": "string" } },
+    "commitments_by_org": { "type": "array", "items": { "type": "string" } },
+    "last_engagement": { "type": "string" },
+    "next_engagement": { "type": "string" },
+    "relationship_owner": { "type": "string" },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
+    },
+    "related_initiatives": { "type": "array", "items": { "type": "string" } },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "related_records": { "type": "array", "items": { "type": "string" } }
+  }
+}

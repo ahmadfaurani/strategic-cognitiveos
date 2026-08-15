@@ -1,19 +1,23 @@
 ---
 id: RSK-{{date}}-{{seq}}
 record_type: risk
-title: 
+title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
-owner: 
-risk_category: 
-related_initiative: 
-status: draft
-priority: 
+owner: ""
+risk_category: ""
+related_initiative: ""
+status: identified
+priority: ""
 sensitivity: internal
-probability: 
-impact: 
-mitigation_owner: 
+lifecycle_state: candidate
+probability: ""
+impact: ""
+mitigation_strategy: ""
+mitigation_owner: ""
+trigger_conditions: ""
 tags: []
+related_records: []
 ---
 
 # Risk Description
@@ -22,7 +26,7 @@ tags: []
 
 # Risk Category
 
-<!-- Delivery capacity / Sponsor gap / Product maturity / Commercial viability / Stakeholder alignment / Technical debt / Governance / Resource constraint / Timing / Dependency -->
+<!-- delivery-capacity / sponsor-gap / product-maturity / commercial-viability / stakeholder-alignment / technical-debt / governance / resource-constraint / timing / dependency -->
 
 # Related Initiative
 
@@ -30,11 +34,11 @@ tags: []
 
 # Probability
 
-<!-- High / Medium / Low — likelihood of occurrence -->
+<!-- high / medium / low — likelihood of occurrence -->
 
 # Impact
 
-<!-- High / Medium / Low — severity if it occurs -->
+<!-- high / medium / low — severity if it occurs -->
 
 # Risk Assessment
 
@@ -50,7 +54,7 @@ tags: []
 
 # Status
 
-<!-- Identified / Mitigating / Monitoring / Realised / Closed -->
+<!-- identified / mitigating / monitoring / active / realised / closed -->
 
 # Trigger Conditions
 

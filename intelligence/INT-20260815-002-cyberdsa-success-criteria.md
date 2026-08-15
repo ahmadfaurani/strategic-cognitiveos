@@ -5,8 +5,12 @@ title: "CyberDSA 2026 Workstream — Success Criteria Definition"
 created_at: 2026-08-15T16:10:00+00:00
 updated_at: 2026-08-15T16:10:00+00:00
 owner: faurani-jaafar
+intelligence_type: operational
+status: active
+priority: critical
 sensitivity: confidential
 lifecycle_state: canonical
+confidence: high
 tags:
   - domain/cybersecurity
   - domain/commercial-development

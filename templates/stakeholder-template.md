@@ -7,29 +7,50 @@ updated_at: {{datetime}}
 owner: 
 stakeholder_type: 
 organisation: 
+role: 
 influence_level: 
 interest_level: 
-relationship_status: 
+relationship_status: new
+strategic_relevance: 
+relationship_owner: 
 sensitivity: internal
-tags: []
+lifecycle_state: candidate
+engagement_objective: 
+current_position: 
+commitments_by_us: []
+commitments_by_stakeholder: []
+last_engagement: 
+next_engagement: 
 related_initiatives: []
+tags: []
+related_records: []
 ---
+
+# Stakeholder — Individual Person
+
+> **SCOPE:** This record type is for individual persons only.
+> Organisations, agencies, and institutions use the `organization` record type (ORG- prefix).
+> An individual's employer is captured in the `organisation` field below, not as a separate STK record.
 
 # Name
 
-<!-- Individual or organisation name -->
+<!-- Full name of the individual -->
 
 # Role
 
-<!-- Current position or institutional function -->
+<!-- Current position or title held by this person -->
 
 # Organisation
 
-<!-- Associated institution -->
+<!-- Name of the organisation this person works for (link ORG- record if exists) -->
+
+# Stakeholder Type
+
+<!-- government / internal / partner / prospect / academic / technical / political / defence / regulatory / industry -->
 
 # Strategic Relevance
 
-<!-- Why this relationship matters -->
+<!-- Why this relationship matters to the portfolio -->
 
 # Influence Level
 
@@ -45,7 +66,7 @@ related_initiatives: []
 
 # Current Position
 
-<!-- Known views, interests or priorities -->
+<!-- Known views, interests, or priorities -->
 
 # Commitments Made By Us
 

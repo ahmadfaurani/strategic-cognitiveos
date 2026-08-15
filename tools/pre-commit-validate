@@ -1,0 +1,90 @@
+#!/usr/bin/env python3
+"""
+CognitiveOS Pre-Commit Hook
+============================
+Runs schema validation on staged .md files in record directories.
+Blocks commit if any record fails validation.
+
+Installation:
+    cd strategic-cognitiveos
+    cp tools/pre-commit-validate .git/hooks/pre-commit
+    chmod +x .git/hooks/pre-commit
+
+Or via symlink:
+    ln -sf ../../tools/pre-commit-validate .git/hooks/pre-commit
+"""
+
+import subprocess
+import sys
+import re
+from pathlib import Path
+
+# Directories that contain typed records
+RECORD_DIRS = {
+    "actions", "commitments", "decisions", "engagements",
+    "initiatives", "intelligence", "organizations", "outcomes",
+    "risks", "stakeholders"
+}
+
+def get_staged_files():
+    """Get list of staged .md files."""
+    result = subprocess.run(
+        ["git", "diff", "--cached", "--name-only", "--diff-filter=ACM"],
+        capture_output=True, text=True
+    )
+    if result.returncode != 0:
+        return []
+    return result.stdout.strip().split("\n") if result.stdout.strip() else []
+
+def is_record_file(filepath):
+    """Check if a staged file is in a record directory."""
+    parts = Path(filepath).parts
+    if len(parts) < 2:
+        return False
+    return parts[0] in RECORD_DIRS and filepath.endswith(".md")
+
+def main():
+    staged = get_staged_files()
+    record_files = [f for f in staged if is_record_file(f)]
+    
+    if not record_files:
+        # No record files staged — allow commit
+        sys.exit(0)
+    
+    print(f"🔍 CognitiveOS pre-commit: validating {len(record_files)} record(s)...")
+    
+    # Run validator on each staged file
+    validator_path = Path(__file__).resolve().parent / "validate.py"
+    if not validator_path.exists():
+        print("⚠️  Validator not found at tools/validate.py — skipping validation")
+        sys.exit(0)
+    
+    all_passed = True
+    for filepath in record_files:
+        result = subprocess.run(
+            ["python3", str(validator_path), "--file", filepath, "--quiet"],
+            capture_output=True, text=True
+        )
+        if result.returncode != 0:
+            all_passed = False
+            print(f"  ❌ {filepath}")
+            # Print validator output (errors only)
+            for line in result.stderr.strip().split("\n"):
+                if line:
+                    print(f"     {line}")
+            for line in result.stdout.strip().split("\n"):
+                if "❌" in line or "ERROR" in line:
+                    print(f"     {line}")
+        else:
+            print(f"  ✅ {filepath}")
+    
+    if not all_passed:
+        print("\n🚫 COMMIT BLOCKED: One or more records failed schema validation.")
+        print("   Fix the errors above and re-stage, or use --no-verify to bypass (not recommended).")
+        sys.exit(1)
+    
+    print("✅ All records valid. Commit proceeding.")
+    sys.exit(0)
+
+if __name__ == "__main__":
+    main()

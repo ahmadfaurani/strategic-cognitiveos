@@ -1,3 +1,34 @@
+---
+id: CONV-20260815-004
+record_type: conversation
+title: "CyberDSA 2026 War-Room Activation — Tier 1 Internal Communication"
+created_at: 2026-08-15T18:00:00+00:00
+updated_at: 2026-08-15T18:00:00+00:00
+owner: faurani-jaafar
+decision_owner: faurani-jaafar
+status: active
+priority: critical
+sensitivity: confidential
+confidence: high
+tags:
+  - domain/cybersecurity
+  - domain/commercial-development
+  - domain/executive-governance
+  - milestone/cyberdsa-2026
+  - workstream/cybersec-products
+  - lifecycle/canonical
+  - priority/critical
+source:
+  type: email
+  platform: email
+  reference: DEC-20260815-004
+related_records:
+  - DEC-20260815-004
+  - INT-20260815-002
+  - INIT-20260811-001
+  - INIT-20260810-003
+---
+
 # CyberDSA 2026 War-Room Activation — Tier 1 Internal Communication
 
 **From:** DAF, Director – Cyber Security Practice, Aras Integrasi Sdn Bhd  

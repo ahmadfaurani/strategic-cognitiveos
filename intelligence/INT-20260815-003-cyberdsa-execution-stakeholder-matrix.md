@@ -1,12 +1,44 @@
 ---
-id: STK-20260815-003
-record_type: stakeholder
-title: "CyberDSA 2026 — Execution Stakeholder Matrix"
+id: INT-20260815-003
+record_type: intelligence
+title: "CyberDSA 2026 — Execution Stakeholder Matrix & RACI"
 created_at: 2026-08-15T16:55:00+00:00
 updated_at: 2026-08-15T16:55:00+00:00
 owner: faurani-jaafar
+intelligence_type: operational
+status: active
+priority: critical
 sensitivity: confidential
 lifecycle_state: canonical
+confidence: high
+summary: "Execution stakeholder assignments for CyberDSA 2026 success criteria — RACI matrix, capacity assessment, and critical gaps."
+strategic_significance: "Identifies single points of failure, critical gaps, and overload risks across 6 dimensions of CyberDSA execution."
+mission_alignment:
+  - productisation
+  - commercial-growth
+  - organisational-capability
+evidence:
+  - "DEC-20260815-004 War-Room activation"
+  - "INT-20260815-002 Success Criteria Definition"
+  - "CONV-20260815-003 DAF strategic directives"
+related_initiatives:
+  - INIT-20260811-001
+  - INIT-20260810-003
+  - INIT-20260804-001
+related_stakeholders:
+  - STK-20260815-004
+  - STK-20260815-005
+  - STK-20260815-006
+recommended_actions:
+  - "Appoint Programme Coordinator (highest leverage)"
+  - "Schedule demo scope lock meeting (Hadri + Fuad)"
+  - "Confirm Hadi onboarding date with Kenny"
+implications:
+  - "DAF carries 21 of 47 criteria (45%) — single point of failure"
+  - "Shuhada solo on 8 commercial pipeline criteria — concentration risk"
+open_questions:
+  - "DevSecOps intern availability for documentation support?"
+  - "CRM backup for Shuhada?"
 tags:
   - domain/cybersecurity
   - domain/commercial-development
@@ -16,7 +48,7 @@ tags:
   - lifecycle/canonical
   - priority/critical
 source:
-  type: operator-directive
+  type: internal-analysis
   reference: INT-20260815-002
 related_records:
   - INT-20260815-002
@@ -24,10 +56,9 @@ related_records:
   - INIT-20260811-001
   - INIT-20260810-003
   - INIT-20260804-001
-summary: "Execution stakeholder assignments for CyberDSA 2026 success criteria — RACI matrix, capacity assessment, and critical gaps."
 ---
 
-# CyberDSA 2026 — Execution Stakeholder Matrix
+# CyberDSA 2026 — Execution Stakeholder Matrix & RACI
 
 **Reference:** INT-20260815-002 (Success Criteria)
 **War-Room:** DEC-20260815-004
