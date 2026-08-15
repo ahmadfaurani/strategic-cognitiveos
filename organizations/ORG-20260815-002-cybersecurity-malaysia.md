@@ -13,7 +13,10 @@ relationship_owner: faurani-jaafar
 sensitivity: confidential
 lifecycle_state: canonical
 key_contacts:
-  - STK-20260725-008
+  - STK-20260815-010
+  - STK-20260815-012
+  - STK-20260815-013
+  - STK-20260815-015
   - STK-20260804-001
   - STK-20260804-002
   - STK-20260804-003
