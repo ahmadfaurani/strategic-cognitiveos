@@ -1,85 +1,78 @@
-# CyberDSA 2026 — Partner Invitation & Product Launch Notification
+# CyberDSA 2026 — Tier 2 Partner Communication
 
 **From:** DAF, Director – Cyber Security Practice, Aras Integrasi Sdn Bhd  
 **To:** Tier 2 Institutional Partners  
 **Date:** 15 August 2026  
 **Classification:** Partner — Confidential  
+**Reference:** DEC-20260815-004  
 
 ---
 
 ## Recipients
 
-| Name/Entity | Role | Organisation |
-|-------------|------|-------------|
-| Mohammad Fahdzli bin Abdul Rauf | Head of Cyber Solutions | CyberSecurity Malaysia |
-| Zulfeka Zainal Abidin | Head of Business Development & Industry Affairs | CyberSecurity Malaysia |
-| Samantha Lai | Legal Counsel | MTAI |
-| Farul Mohd Ghazali | Legal Advisor & AI Infrastructure | MTAI |
-| NACSA | National Cyber Security Agency | Government |
-| JDN | Jabatan Digital Negara | Government |
-| Khairil Hilmi bin Mokhtar | PMO Official | Prime Minister's Office |
-| Dr. Noor Dasrafeezal bin Abdul Shukur | PMO Official | Prime Minister's Office |
-| PERJASA | Public Sector Systems Analysts Association | Partner |
-| CSCDC | Cyber Security & Cryptology Development Centre | Government/JPM-MKN-NACSA |
+Mohammad Fahdzli bin Abdul Rauf (Head of Cyber Solutions, CSM), Zulfeka Zainal Abidin (Head of Business Development & Industry Affairs, CSM), Samantha Lai (Legal Counsel, MTAI), Farul Mohd Ghazali (Legal Advisor & AI Infrastructure, MTAI), NACSA, JDN, Khairil Hilmi bin Mokhtar (PMO), Dr. Noor Dasrafeezal bin Abdul Shukur (PMO), PERJASA, CSCDC
 
 ---
 
-## Subject: Aras Integrasi Product Launch at CyberDSA 2026 — 5–7 October, MITEC Kuala Lumpur
+## Subject: CyberDSA 2026 — Sovereign Technology Capabilities Showcase
 
-Dear partners,
+Dear colleagues and partners,
 
-Aras Integrasi Sdn Bhd (MTAI/WIG Group) will be launching three flagship cybersecurity products at **CyberDSA 2026**, held 5–7 October at the Malaysia International Trade and Exhibition Centre (MITEC), Kuala Lumpur.
+I am writing to share that Aras Integrasi will be presenting our sovereign cybersecurity and technology capabilities at CyberDSA 2026, held 5–7 October at the Malaysia International Trade and Exhibition Centre (MITEC).
 
-We would like to extend a formal invitation to your organisation to visit our exhibition, attend product demonstrations, and explore collaboration opportunities.
+Over the past year, the work we have been doing individually and collectively — across product development, institutional partnerships, government engagement and commercial readiness — has been building towards something I believe is worth bringing to your attention.
 
-### Products Being Launched
+CyberDSA gives us an opportunity to present not just individual products, but an integrated sovereign technology capability: a Malaysian-designed, Malaysian-operated cybersecurity stack spanning governance, risk and compliance, threat intelligence, and emerging security domains.
 
-**1. VoronCitadel (VoronDRQ)**  
-Governance, Risk & Compliance platform designed for Malaysian financial, regulated, and GLC-linked organisations. Features include regulatory mapping, risk scoring, compliance dashboards, and audit trail management. Sales enablement kit and 193-organisation prospect database are complete. Joint go-to-market activation with CyberSecurity Malaysia is underway under our post-MoU collaboration.
+I would like to invite your organisation to be part of that conversation.
 
-**2. GovSec TIP v3.0**  
-Sovereign Threat Intelligence Platform for government and CNII sector. Features include Threat Visualisation (map + graph), Executive Dashboard, AI Analyst (RAG-based), Threat Hunting Workbench, MITRE ATT&CK integration, Malaysian compliance framework (PDPA), and government organisational structure mapping. Developed jointly with CyberSecurity Malaysia as part of the GovSec programme.
+### What We Are Bringing Together
 
-**3. ChainSentry**  
-Blockchain security monitoring platform. Product details and demonstration scope to be confirmed.
+Three cybersecurity capabilities will be presented, each at a different stage of maturity but all developed with Malaysian regulatory, institutional and operational requirements in mind:
 
-### CyberSecurity Malaysia Partnership
+**VoronCitadel / VoronDRQ** — our governance, risk and compliance platform, which has been the focus of our recent joint go-to-market work with CyberSecurity Malaysia under the MoU. The sales enablement kit and a 193-organisation market database have been completed, and joint training with CSM was conducted on 14 August.
 
-CyberSecurity Malaysia (CSM) is our official Programme Partner for this launch, operating under our existing Memorandum of Understanding. Joint sales teams from both organisations have completed technical training on VoronCitadel (14 August 2026). CSM will participate in CyberDSA through the Foreign VIP Delegation Program, and we are coordinating stakeholder coverage and engagement activities.
+**GovSec TIP v3.0** — our sovereign threat intelligence platform, developed jointly with CSM as part of the GovSec programme. It incorporates threat visualisation, AI-assisted analysis, threat hunting and Malaysian compliance reporting.
 
-### What We Are Offering
+**ChainSentry** — our blockchain security monitoring capability, which adds an additional dimension to the overall technology story.
 
-- **Live product demonstrations** across all three platforms at our booth
-- **Executive briefings** for VIP delegates and partner organisations
-- **Discovery sessions** for organisations interested in pilot programmes or commercial engagement
-- **Technical deep-dives** for cybersecurity and risk management teams
+Alongside these, the wider Aras sovereign technology ecosystem — including AI infrastructure, platform services and institutional partnerships — forms the backdrop against which these products should be understood.
 
-### Schedule
+### Why I Am Reaching Out
 
-| Date | Activity |
-|------|----------|
-| 5–7 October 2026 | CyberDSA exhibition — MITEC, Kuala Lumpur |
-| Throughout event | Live demos, VIP briefings, partner meetings |
-| 8 October 2026 | Post-event follow-up and pipeline activation |
+Each of your organisations has a relationship with Aras that predates CyberDSA — whether through formal collaboration, institutional engagement, shared national-security objectives, or commercial alignment. I am not writing to invite you to a product demonstration.
 
-### Next Steps
+I am writing because I believe the work we have been doing separately is beginning to converge into something that is larger than any single product or engagement, and CyberDSA is a useful moment to make that visible.
 
-If your organisation is interested in:
-- **Scheduling a dedicated briefing** during CyberDSA — please confirm preferred date/time
-- **Exploring pilot or commercial engagement** — we will arrange a discovery session
-- **Participating as a strategic partner** in the launch — let's discuss alignment
+For CSM, this is a continuation of our ongoing collaboration under the MoU and an opportunity to demonstrate the joint capability we have been building together.
 
-Please direct responses to me or to our commercial team. We will follow up with meeting confirmations and detailed agendas closer to the event.
+For NACSA, JDN, PMO and CSCDC, this is an opportunity to see how the sovereign technology capabilities being developed within the Malaysian ecosystem align with national cybersecurity and digital governance priorities.
 
-We look forward to seeing you at CyberDSA 2026.
+For PERJASA, this represents the kind of domestic technology capability that supports the broader public-sector systems community.
 
----
+For Samantha and Farul, this provides context for the commercial and legal frameworks that will need to support the next phase of market engagement.
 
-**DAF**  
+### What Participation Looks Like
+
+Rather than prescribing a format, I would suggest a few possibilities:
+
+- A dedicated briefing during the event for your team or principals
+- A walkthrough of the product demonstrations with technical or commercial colleagues
+- A separate discovery session if there is interest in pilot engagement or deeper collaboration
+- Simply visiting and having a conversation — that is perfectly valuable as well
+
+I will be reaching out individually over the coming weeks to understand what level of involvement makes sense for your organisation.
+
+### A Note on What This Is Not
+
+This is not a sales exercise, and I am not asking for commitments at this stage. The intention is to make sure that the people and organisations we work with — and hope to work with more closely — have visibility of what is coming together and the opportunity to be part of it.
+
+If any of this is useful to discuss before CyberDSA, I am happy to arrange a conversation at your convenience.
+
+Best regards,
+
+**Faurani**
+
 Director – Cyber Security Practice  
 Aras Integrasi Sdn Bhd  
-MTAI/WIG Group  
-
----
-
-*Reference: DEC-20260815-004 (CyberDSA 2026 War-Room Activation)*
+MTAI/WIG Group
