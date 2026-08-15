@@ -816,8 +816,40 @@ Every significant interaction should leave the portfolio more coherent, more act
 
 ---
 
+## §49 Intake Protocol — Always-On Data Ingestion
+
+**Effective:** 2026-08-15  
+**Authority:** DAF  
+**Status:** CANONICAL SOP
+
+The CognitiveOS Intake Protocol is an **always-on data ingestion pipeline**. Its purpose is to consume incoming information — emails, conversations, documents, intelligence, meetings — and transform it into structured CognitiveOS records.
+
+**Core Principle:** Information shared is information to ingest. The protocol runs by default on all incoming data. It does not require a per-event directive from the Operator to activate.
+
+**The pipeline:**
+1. Receive & classify the source
+2. Extract & structure all entities
+3. Create records with permanent typed IDs (INIT/CONV/STK/ACT/DEC/COM/RSK/INT/OUT)
+4. Update indexes in the same commit
+5. Update daily memory log
+6. Commit with standard message format
+7. Push to GitHub
+8. Deliver confirmation notification (commit hash + file/insertion count + record IDs + indexes updated + key link + next triggers)
+9. Update MEMORY.md if strategically significant
+
+**Build-on-demand clarification:** The build-on-demand principle applies to *infrastructure, capabilities, and tools* — not to *data ingestion*. Data ingestion via the Intake Protocol is always operational. The pipeline consumes data automatically; capabilities to process that data are built when real work requires them.
+
+**Distinction:**
+- **Always on:** Intake Protocol (ingest → structure → record → index → commit → notify)
+- **On demand:** New tools, analysis frameworks, dashboards, specialist agents, slash commands
+
+**The Intake SOP does not ask permission to run.** It is the Modus Operandi.
+
+---
+
 *Document ingested 2026-08-15 12:12 UTC.*
 *§48 Communication Engineering added 2026-08-15 13:05 UTC (DAF directive).*
+*§49 Intake Protocol — Always-On Data Ingestion added 2026-08-15 17:00 UTC (DAF directive).*
 *Source: Athena (via DAF, Telegram direct).*
 *Classification: OPERATIONAL DOCTRINE — CANONICAL.*
 *CognitiveOS Record: DEC-20260815-003.*
