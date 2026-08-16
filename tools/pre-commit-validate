@@ -29,6 +29,7 @@ RECORD_DIRS = {
 # Governance files that must exist and be non-empty
 GOVERNANCE_FILES = {
     "governance/COGNITIVEOS-PRIME-DOCTRINE.md",
+    "governance/ADEP-001-agentic-diligence-execution-protocol.md",
     "governance/intake-sop.md",
     "governance/template-discipline-sop.md",
     "governance/cross-doctrinal-analysis-sop.md",

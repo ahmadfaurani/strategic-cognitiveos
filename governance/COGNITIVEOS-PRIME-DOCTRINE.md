@@ -909,6 +909,7 @@ No single analytical method captures all dimensions of a complex workstream. Thr
 *§48 Communication Engineering added 2026-08-15 13:05 UTC (DAF directive).*
 *§49 Intake Protocol — Always-On Data Ingestion added 2026-08-15 17:00 UTC (DAF directive).*
 *§50 Cross-Doctrinal Analysis Protocol added 2026-08-16 01:30 UTC (DAF directive). Pilot: CyberDSA 2026 (INT-006/007/008/009).*
+*§51 ADEP-001 Execution Layer adopted 2026-08-16 02:00 UTC (DAF directive). Core Governance Instruction — all agents, sub-agents, workflows, decisions. Full protocol: `governance/ADEP-001-agentic-diligence-execution-protocol.md`. Adoption record: DEC-20260816-001.*
 *Source: Athena (via DAF, Telegram direct).*
 *Classification: OPERATIONAL DOCTRINE — CANONICAL.*
 *CognitiveOS Record: DEC-20260815-003.*
