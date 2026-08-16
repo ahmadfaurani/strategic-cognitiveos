@@ -109,7 +109,7 @@ Each criterion has a defined owner, checkpoint alignment, and evidence standard.
 
 | # | Criterion | Tier | Owner | Checkpoint | Evidence |
 |---|-----------|------|-------|------------|----------|
-| 4.1 | CyberDSA positioning defined: "National-Grade, Full-Stack Sovereign Technology Deployment" | Minimum | DAF | CP1 (Aug 22) | Positioning statement approved by DAF |
+| 4.1 | CyberDSA positioning defined: "National-Grade, Full-Stack Sovereign Technology Deployment" | Minimum | DAF | CP1 (Aug 22) | ✅ **SIGNED OFF** — DEC-20260816-002, approved 2026-08-16 by DAF |
 | 4.2 | Product one-pager completed for each demonstrated product | Minimum | Azza | CP3 (Sep 19) | One-pager PDFs reviewed and approved |
 | 4.3 | Booth presence design confirmed (layout, screens, materials, staffing schedule) | Minimum | Azza | CP4 (Sep 28) | Booth plan confirmed with CyberDSA organisers |
 | 4.4 | Demo walkthrough materials prepared (narrative script, FAQ, technical backup) | Target | Azza + Fuad | CP3 (Sep 19) | Materials package delivered to Tier 1 |
