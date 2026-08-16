@@ -20,6 +20,8 @@ All identified risks, grouped by status.
 | RSK-20260815-002 | MCMC funding approval risk — RM5M pricing sensitivity and budget cycle alignment | commercial-viability | INIT-20260803-002 | Medium | High | High | Identified |
 | RSK-20260815-003 | Development freeze may delay product improvements needed for CyberDSA demo readiness | timing | INIT-20260811-001 | Medium | High | High | Identified |
 | RSK-20260816-001 | CyberDSA 2026 Silver Sponsorship budget approval pending (RM50K, dual approval) | commercial-viability | INIT-20260813-006 | Low | Medium | Medium | Identified |
+| RSK-20260816-002 | Email claim 'commercially viable product' unsupported by current product readiness state | commercial-viability | INIT-20260811-001 | High | Medium | Medium | Identified |
+| RSK-20260816-003 | 'Malaysia's First' media claim unsupported — reputational exposure | reputational | INIT-20260813-006 | Medium | High | High | Identified |
 
 ## Mitigating
 

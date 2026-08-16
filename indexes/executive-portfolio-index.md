@@ -116,6 +116,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260816-002 | Review and approve RM50K Silver Sponsorship Management Paper (DAF + Farul) | faurani-jaafar | 2026-08-22 | Open |
 | ACT-20260816-003 | Review booth mock-up/design from Aerosea Exhibitions | amelia-nadia | TBD | Pending |
 | ACT-20260816-004 | Confirm Flash Talk session details and requirements | amelia-nadia | TBD | Pending |
+| ACT-20260816-005 | Amelia: Assess media contact readiness + obtain substantiation brief before external 'Malaysia's First' claim | amelia-nadia | 2026-08-22 | Open |
 
 ## Workstream Cluster Overview
 
@@ -149,3 +150,5 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | RSK-20260813-002 | GTM Programme Management Gap — MQL Pipeline Without Joint Coordination Mechanism | High | Active | INIT-20260804-001 |
 | RSK-20260815-001 | Absence of designated PIC for CSM-Aras communication | Medium | Mitigating | INIT-20260804-001 |
 | RSK-20260816-001 | CyberDSA Silver Sponsorship budget approval pending (RM50K, dual approval) | Medium | Identified | INIT-20260813-006 |
+| RSK-20260816-002 | 'Commercially viable product' claim unsupported by product readiness | Medium | Identified | INIT-20260811-001 |
+| RSK-20260816-003 | 'Malaysia's First' media claim unsupported — reputational exposure | High | Identified | INIT-20260813-006 |
