@@ -847,9 +847,68 @@ The CognitiveOS Intake Protocol is an **always-on data ingestion pipeline**. Its
 
 ---
 
+## §50 Cross-Doctrinal Analysis Protocol — Triangulation Modus Operandi
+
+**Effective:** 2026-08-16  
+**Authority:** DAF  
+**Status:** CANONICAL SOP  
+**Full SOP:** `governance/cross-doctrinal-analysis-sop.md`
+
+### Purpose
+
+For every major workstream, produce validated intelligence by applying three independent analytical methods and synthesising their findings through convergence analysis.
+
+### The Triangulation Principle
+
+No single analytical method captures all dimensions of a complex workstream. Three methods — each with different blind spots — produce validated intelligence through convergence. When methods that see differently agree, the agreement is structural.
+
+### The Three Methods
+
+| Method | Doctrine | Question | Type |
+|--------|----------|----------|------|
+| 1. Cognitive Loop | §5–§6 | "What is happening?" | Diagnostic |
+| 2. Actionable Intelligence | §7–§8 | "What should we do?" | Prescriptive |
+| 3. Engineered Success | §9–§10 | "What must become true?" | Predictive |
+
+### Convergence Levels
+
+| Level | Confidence | Action |
+|-------|:----------:|--------|
+| 3/3 Triple | [HIGH] | Act immediately — structural property |
+| 2/3 Double | [MEDIUM-HIGH] | Act with moderate confidence |
+| 1/3 Single | [MEDIUM] | Monitor — may be blind spot or bias artifact |
+
+### Triggers
+
+- **Mandatory:** Checkpoint -7d, war-room activation, new INIT launch, critical RSK, post-checkpoint review
+- **Discretionary:** DAF request, major stakeholder change, dependency breakage, pattern recurrence
+
+### Output
+
+4 INT records per full cycle:
+1. `INT-*-cognitive-loop-analysis.md` (~30KB)
+2. `INT-*-actionable-intelligence-prioritisation.md` (~25KB)
+3. `INT-*-engineered-success.md` (~50KB)
+4. `INT-*-cross-doctrinal-synthesis.md` (~40KB)
+
+**Total per cycle:** ~9 hrs, ~145KB, 4 records.
+
+### Quality Standard
+
+- ≥80% triple convergence expected for high-confidence delivery
+- ≥70% ordinal convergence required for action framework execution
+- All findings mapped; all blind spots identified
+- CP projection (best/likely/worst) mandatory
+- Doctrine maturity assessment mandatory
+
+**Pilot result (CyberDSA 2026):** 80% triple convergence, 100% ordinal convergence (p<0.001), 3 Tier-1 actions validated, 6/6 doctrine sections operationalised.
+
+---
+
 *Document ingested 2026-08-15 12:12 UTC.*
 *§48 Communication Engineering added 2026-08-15 13:05 UTC (DAF directive).*
 *§49 Intake Protocol — Always-On Data Ingestion added 2026-08-15 17:00 UTC (DAF directive).*
+*§50 Cross-Doctrinal Analysis Protocol added 2026-08-16 01:30 UTC (DAF directive). Pilot: CyberDSA 2026 (INT-006/007/008/009).*
 *Source: Athena (via DAF, Telegram direct).*
 *Classification: OPERATIONAL DOCTRINE — CANONICAL.*
 *CognitiveOS Record: DEC-20260815-003.*

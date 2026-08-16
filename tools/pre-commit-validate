@@ -26,6 +26,15 @@ RECORD_DIRS = {
     "risks", "stakeholders"
 }
 
+# Governance files that must exist and be non-empty
+GOVERNANCE_FILES = {
+    "governance/COGNITIVEOS-PRIME-DOCTRINE.md",
+    "governance/intake-sop.md",
+    "governance/template-discipline-sop.md",
+    "governance/cross-doctrinal-analysis-sop.md",
+    "governance/contribution-standard.md",
+}
+
 def get_staged_files():
     """Get list of staged .md files."""
     result = subprocess.run(
@@ -43,12 +52,47 @@ def is_record_file(filepath):
         return False
     return parts[0] in RECORD_DIRS and filepath.endswith(".md")
 
+def is_governance_file(filepath):
+    """Check if a staged file is a governance document."""
+    return filepath in GOVERNANCE_FILES
+
+def check_governance_integrity():
+    """Verify all required governance files exist and are non-empty."""
+    issues = []
+    for gov_file in GOVERNANCE_FILES:
+        p = Path(gov_file)
+        if not p.exists():
+            issues.append(f"  ❌ Missing governance file: {gov_file}")
+        elif p.stat().st_size < 100:
+            issues.append(f"  ⚠️  Governance file suspiciously small: {gov_file} ({p.stat().st_size} bytes)")
+    return issues
+
 def main():
     staged = get_staged_files()
     record_files = [f for f in staged if is_record_file(f)]
+    gov_files = [f for f in staged if is_governance_file(f)]
+    
+    if not record_files and not gov_files:
+        # No record or governance files staged — run governance integrity check anyway
+        gov_issues = check_governance_integrity()
+        if gov_issues:
+            print("🔍 CognitiveOS pre-commit: governance integrity check...")
+            for issue in gov_issues:
+                print(issue)
+            # Warn but don't block for missing governance files on non-governance commits
+            sys.exit(0)
+        sys.exit(0)
+    
+    if gov_files:
+        print(f"🔍 CognitiveOS pre-commit: checking {len(gov_files)} governance file(s)...")
+        gov_issues = check_governance_integrity()
+        for issue in gov_issues:
+            print(issue)
+        if not gov_issues:
+            print("  ✅ All governance files present")
     
     if not record_files:
-        # No record files staged — allow commit
+        # Only governance files staged, no records to validate
         sys.exit(0)
     
     print(f"🔍 CognitiveOS pre-commit: validating {len(record_files)} record(s)...")
