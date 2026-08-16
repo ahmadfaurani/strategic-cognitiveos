@@ -34,6 +34,10 @@ GOVERNANCE_FILES = {
     "governance/template-discipline-sop.md",
     "governance/cross-doctrinal-analysis-sop.md",
     "governance/contribution-standard.md",
+    "governance/process-maturity-register.md",
+    "governance/closure-gate-checklist.md",
+    "governance/reporting-standard.md",
+    "governance/master-directive-quickref.md",
 }
 
 def get_staged_files():
