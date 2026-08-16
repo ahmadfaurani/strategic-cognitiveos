@@ -19,6 +19,7 @@ All identified risks, grouped by status.
 | RSK-20260815-001 | Absence of designated PIC for CSM-Aras communication | communication-coordination | INIT-20260804-001 | Medium | Medium | Medium | Mitigating |
 | RSK-20260815-002 | MCMC funding approval risk — RM5M pricing sensitivity and budget cycle alignment | commercial-viability | INIT-20260803-002 | Medium | High | High | Identified |
 | RSK-20260815-003 | Development freeze may delay product improvements needed for CyberDSA demo readiness | timing | INIT-20260811-001 | Medium | High | High | Identified |
+| RSK-20260816-001 | CyberDSA 2026 Silver Sponsorship budget approval pending (RM50K, dual approval) | commercial-viability | INIT-20260813-006 | Low | Medium | Medium | Identified |
 
 ## Mitigating
 

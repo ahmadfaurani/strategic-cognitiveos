@@ -21,6 +21,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260810-003 | GovSec CyberDSA Product Launch Readiness | faurani-jaafar | — | Active | Weekly (Aug–Oct) |
 | INIT-20260811-001 | Cybersecurity Flagship Product Consolidation & Productisation Programme | faurani-jaafar | — | Active | 2026-08-17 |
 | INIT-20260813-005 | CSM–Aras Joint Operating Model — Strategic Cyber & Sovereign AI Programme | faurani-jaafar | DEC-20260813-001 | Active | 2026-08-21 |
+| INIT-20260813-006 | CyberDSA 2026 Stakeholder Coverage & Communication Ownership Plan | faurani-jaafar | DEC-20260815-004 | Active | Weekly (Aug–Oct) |
 
 ## Incubation
 
@@ -111,6 +112,10 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260815-003 | Formalise Aisha as CSM-Aras communication PIC | faurani-jaafar | 2026-08-25 | Draft |
 | ACT-20260815-004 | Schedule CSM higher management meeting re: Aisha's PIC appointment | faurani-jaafar | 2026-08-22 | Draft |
 | ACT-20260815-005 | CSM Event Participation — Aras Integrasi Showcase Opportunity (placeholder) | faurani-jaafar | 2026-09-30 | Draft |
+| ACT-20260816-001 | Stakeholder engagement briefs for unblocked CyberDSA criteria | faurani-jaafar | 2026-08-20 | In-progress |
+| ACT-20260816-002 | Review and approve RM50K Silver Sponsorship Management Paper (DAF + Farul) | faurani-jaafar | 2026-08-22 | Open |
+| ACT-20260816-003 | Review booth mock-up/design from Aerosea Exhibitions | amelia-nadia | TBD | Pending |
+| ACT-20260816-004 | Confirm Flash Talk session details and requirements | amelia-nadia | TBD | Pending |
 
 ## Workstream Cluster Overview
 
@@ -143,3 +148,4 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | RSK-20260813-001 | PERJASA workshop date confirmation delay (Sept 2–3 unconfirmed) | High | Active | INIT-20260813-001 |
 | RSK-20260813-002 | GTM Programme Management Gap — MQL Pipeline Without Joint Coordination Mechanism | High | Active | INIT-20260804-001 |
 | RSK-20260815-001 | Absence of designated PIC for CSM-Aras communication | Medium | Mitigating | INIT-20260804-001 |
+| RSK-20260816-001 | CyberDSA Silver Sponsorship budget approval pending (RM50K, dual approval) | Medium | Identified | INIT-20260813-006 |
