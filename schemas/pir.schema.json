@@ -15,7 +15,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^PIR-\\\\d{8}-\\\\d{3}$"
+      "pattern": "^PIR-\\d{8}-\\d{3}$"
     },
     "record_type": {
       "const": "pir"
@@ -96,10 +96,7 @@
       "enum": [
         "high",
         "medium",
-        "low",
-        "HIGH",
-        "MEDIUM",
-        "LOW"
+        "low"
       ]
     },
     "tags": {

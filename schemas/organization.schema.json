@@ -28,6 +28,37 @@
     "created_at": { "type": "string", "format": "date-time" },
     "updated_at": { "type": "string", "format": "date-time" },
     "owner": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "active", "validated", "approved", "completed", "archived", "superseded"]
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low"]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "reference": { "type": "string" }
+      }
+    },
+    "summary": { "type": "string" },
+    "strategic_significance": { "type": "string" },
+    "mission_alignment": { "type": "array", "items": { "type": "string" } },
     "org_type": {
       "type": "string",
       "enum": [
@@ -86,16 +117,7 @@
     "last_engagement": { "type": "string" },
     "next_engagement": { "type": "string" },
     "relationship_owner": { "type": "string" },
-    "lifecycle_state": {
-      "type": "string",
-      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
-    },
     "related_initiatives": { "type": "array", "items": { "type": "string" } },
-    "sensitivity": {
-      "type": "string",
-      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
-    },
-    "tags": { "type": "array", "items": { "type": "string" } },
     "related_records": { "type": "array", "items": { "type": "string" } }
   }
 }

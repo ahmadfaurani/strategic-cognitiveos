@@ -64,6 +64,9 @@
     "lifecycle_state": {
       "type": "string",
       "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
-    }
+    },
+    "summary": { "type": "string" },
+    "strategic_significance": { "type": "string" },
+    "mission_alignment": { "type": "array", "items": { "type": "string" } }
   }
 }

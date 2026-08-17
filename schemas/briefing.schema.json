@@ -13,7 +13,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^BRIEF-\\\\d{8}-\\\\d{3}$"
+      "pattern": "^BRIEF-\\d{8}-\\d{3}$"
     },
     "record_type": {
       "const": "briefing"
@@ -94,10 +94,7 @@
       "enum": [
         "high",
         "medium",
-        "low",
-        "HIGH",
-        "MEDIUM",
-        "LOW"
+        "low"
       ]
     },
     "tags": {

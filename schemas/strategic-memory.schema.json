@@ -33,21 +33,20 @@
         "decision",
         "initiative",
         "stakeholder",
-        "engagement",
         "commitment",
         "action",
         "opportunity",
         "intelligence",
         "artifact",
         "risk",
-        "question",
         "outcome",
         "lesson",
         "assessment",
         "pir",
         "briefing",
         "draft",
-        "document"
+        "document",
+        "organization"
       ]
     },
     "title": {
@@ -257,6 +256,18 @@
     "next_review": {
       "type": "string",
       "format": "date"
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "structurally_valid",
+        "semantically_verified",
+        "approved",
+        "canonical",
+        "superseded",
+        "rejected"
+      ]
     },
     "related_records": {
       "type": "array",

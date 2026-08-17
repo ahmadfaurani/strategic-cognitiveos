@@ -66,6 +66,20 @@
     "mitigation_owner": { "type": "string" },
     "trigger_conditions": { "type": "string" },
     "tags": { "type": "array", "items": { "type": "string" } },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "reference": { "type": "string" }
+      }
+    },
+    "summary": { "type": "string" },
+    "strategic_significance": { "type": "string" },
+    "mission_alignment": { "type": "array", "items": { "type": "string" } },
     "related_records": { "type": "array", "items": { "type": "string" } }
   }
 }

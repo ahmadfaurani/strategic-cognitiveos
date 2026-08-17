@@ -48,6 +48,20 @@
     "escalation_date": { "type": "string", "format": "date" },
     "completion_evidence": { "type": "string" },
     "tags": { "type": "array", "items": { "type": "string" } },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "reference": { "type": "string" }
+      }
+    },
+    "summary": { "type": "string" },
+    "strategic_significance": { "type": "string" },
+    "mission_alignment": { "type": "array", "items": { "type": "string" } },
     "related_records": { "type": "array", "items": { "type": "string" } }
   }
 }

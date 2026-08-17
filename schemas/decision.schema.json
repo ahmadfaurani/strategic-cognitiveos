@@ -21,6 +21,9 @@
     },
     "record_type": { "const": "decision" },
     "title": { "type": "string", "minLength": 1 },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "owner": { "type": "string" },
     "decision_date": { "type": "string", "format": "date" },
     "decision_owner": { "type": "string" },
     "status": {
@@ -42,6 +45,10 @@
     "sensitivity": {
       "type": "string",
       "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
     },
     "context": { "type": "string" },
     "decision": { "type": "string" },
@@ -66,7 +73,8 @@
         "reference": { "type": "string" }
       }
     },
-    "created_at": { "type": "string", "format": "date-time" },
-    "updated_at": { "type": "string", "format": "date-time" }
+    "summary": { "type": "string" },
+    "strategic_significance": { "type": "string" },
+    "mission_alignment": { "type": "array", "items": { "type": "string" } }
   }
 }

@@ -66,6 +66,10 @@
     "next_review": { "type": "string", "format": "date" },
     "related_records": { "type": "array", "items": { "type": "string" } },
     "tags": { "type": "array", "items": { "type": "string" } },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
     "source": {
       "type": "object",
       "properties": {
