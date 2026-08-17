@@ -3,7 +3,7 @@ id: INT-20260725-007
 record_type: intelligence
 title: Opportunity — National Cyber Drill Simulation Design
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -35,8 +35,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: 2 Critical PIRs (2 resolved). CSCDC partnership workstream — gate prerequisites met.
 related_records: []
+pir_priority: critical
+pir_tier: CJ-5
+collection_cycle: daily
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj5-cyber-drill-2026-07-26_181548.md
+- intelligence/cron-output/cj5-cyber-drill-2026-07-27T1815+0800.md
+- intelligence/cron-output/cj5-cyber-drill-2026-07-28-1812.md
+- intelligence/cron-output/cj5-cyber-drill-2026-07-30_180921.md
+- intelligence/cron-output/cj5-cyber-drill-2026-07-31-1810.md
 ---
 
 # Summary
@@ -84,27 +95,32 @@ Market — exercise design and facilitation opportunity
 ## PIR-OPP007-001: Drill Scope & Objectives
 **Requirement:** Is the drill focused on communication response, technical response, or integrated (both) — and what are the specific learning objectives?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Drill Scope & Objectives — RESOLVED. X-MAYA (since 2008) is integrated; Locked Shields 2026 integrates comms+legal+decision-making. (Source: CJ-5, Aug 3 report)
 
 ## PIR-OPP007-002: MKN Drill Protocols
 **Requirement:** Does MKN have existing national drill frameworks (Arahan MKN) that this cyber drill must follow?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** MKN Drill Protocols — RESOLVED. Arahan MKN No.24 governs X-MAYA; Act 854 Sec.24 makes drill participation mandatory. (Source: CJ-5, Aug 3 report)
 
 ## PIR-OPP007-003: Participant Organisations
 **Requirement:** Which organisations will participate — just CSCDC units, or MKN, NACSA, CNII operators, PDRM, MCMC, foreign observers?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Drill designer/facilitator — RESOLVED. X-MAYA joint MKN/CSM; CSM CyberDrill service is methodology provider. (Source: CJ-5, Aug 3 report)
 
 ## PIR-OPP007-004: Scenario Types
 **Requirement:** What scenarios will be drilled — ransomware on CNII, data breach, critical infrastructure attack, deepfake disinformation, or other?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Participant agencies — RESOLVED. X-MAYA ≥100 CNII agencies; Act 854 NCII sector leads. (Source: CJ-5, Aug 3 report)
 
 ## PIR-OPP007-005: External Facilitation
 **Requirement:** Will the drill be designed and facilitated internally, or is external facilitation being sought?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** External facilitation — RESOLVED. CSM CyberDrill service confirmed as EXCON. (Source: CJ-5, Aug 3 report)
 
 ## PIR-OPP007-006: Previous Drills
 **Requirement:** Has Malaysia conducted previous national-level cyber drills — and what lessons learned exist?

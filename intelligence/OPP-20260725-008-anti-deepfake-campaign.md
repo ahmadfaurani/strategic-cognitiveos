@@ -3,7 +3,7 @@ id: INT-20260725-008
 record_type: intelligence
 title: Opportunity — Anti-Deepfake & AI Scams National Campaign
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -36,8 +36,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 10, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: 2 Critical PIRs (0 resolved). CSCDC partnership workstream — gate prerequisites pending.
 related_records: []
+pir_priority: critical
+pir_tier: CJ-4
+collection_cycle: 12h
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj4-campaign-watch-2026-07-26-1928.md
+- intelligence/cron-output/cj4-campaign-watch-2026-07-27T073803+0800.md
+- intelligence/cron-output/cj4-campaign-watch-2026-07-27T213244+0800.md
+- intelligence/cron-output/cj4-campaign-watch-2026-07-28T1109+0800.md
+- intelligence/cron-output/cj4-campaign-watch-2026-07-29-1129.md
 ---
 
 # Summary
@@ -93,12 +104,14 @@ Market — campaign strategy and production opportunity
 ## PIR-OPP008-001: Campaign Strategy Status
 **Requirement:** Has any campaign strategy, creative brief, or audience segmentation been developed, or is this starting from scratch?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Campaign Strategy — national legislative architecture crystallised (Cybercrimes Bill 2026, AI Governance Bill, ASEAN guidelines). No CSCDC-specific branded campaign exists. (Source: CJ-4, Aug 3 report)
 
 ## PIR-OPP008-002: Agency Selection
 **Requirement:** Will CSCDC use an external creative/media agency, or run the campaign entirely in-house with Unit 3 and Unit 7?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Agency Selection — LEAN IN-HOUSE signal + Walk Production identified as first concrete agency candidate. Panel status UNVERIFIED. (Source: CJ-4, Aug 3 report)
 
 ## PIR-OPP008-003: Audience Segmentation
 **Requirement:** What audience segments are prioritised — youth, elderly, B40, M40, urban, rural, specific industries?
@@ -108,7 +121,8 @@ Market — campaign strategy and production opportunity
 ## PIR-OPP008-004: Message Architecture
 **Requirement:** What key messages are being considered — fear-based (showing deepfake harm), empowerment-based (teaching detection), or mixed?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Existing MCMC campaigns — RESOLVED. Enforcement cadence quantified (42→54→65 investigations Apr 2026). (Source: CJ-4, Aug 3 report)
 
 ## PIR-OPP008-005: TV Airtime Procurement
 **Requirement:** Will TV prime-time airtime use free government quota (JAPEN/RTM) or paid commercial slots — and what is the split?

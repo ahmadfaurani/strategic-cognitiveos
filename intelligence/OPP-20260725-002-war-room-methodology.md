@@ -3,7 +3,7 @@ id: INT-20260725-002
 record_type: intelligence
 title: Opportunity — Crisis Communication War Room Setup & Methodology
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -37,8 +37,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 9, 14, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream — gate prerequisites met.
 related_records: []
+pir_priority: critical
+pir_tier: CJ-5
+collection_cycle: daily
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj5-cyber-drill-2026-07-26_181548.md
+- intelligence/cron-output/cj5-cyber-drill-2026-07-27T1815+0800.md
+- intelligence/cron-output/cj5-cyber-drill-2026-07-28-1812.md
+- intelligence/cron-output/cj5-cyber-drill-2026-07-30_180921.md
+- intelligence/cron-output/cj5-cyber-drill-2026-07-31-1810.md
 ---
 
 # Summary
@@ -87,12 +98,14 @@ Market — methodology transfer and infrastructure opportunity
 ## PIR-OPP002-001: Playbook Budget Allocation
 **Requirement:** Is the RM 150K for Cyber Crisis Communication Playbook allocated for external consultancy, internal development, or inter-agency collaboration (MKN/NACSA)?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Playbook Budget (RM 150K) — no public disclosure; inferred inter-agency-led (NACSA) + external consultancy. (Source: CJ-5, Aug 3 report)
 
 ## PIR-OPP002-002: Existing MKN Crisis Protocols
 **Requirement:** What existing crisis communication protocols does MKN already have that CSCDC's playbook must align with or replace?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Existing MKN crisis protocols — RESOLVED. NCCMP covers detection/response/communication/coordination. (Source: CJ-5, Aug 3 report)
 
 ## PIR-OPP002-003: War Room Physical Infrastructure
 **Requirement:** Does CSCDC have a physical War Room space, or must it be designed and built — and what are the technical specifications (secure communications, displays, monitoring walls)?
@@ -107,7 +120,8 @@ Market — methodology transfer and infrastructure opportunity
 ## PIR-OPP002-005: Historical Cyber Incidents
 **Requirement:** What previous national-level cyber incidents has Malaysia experienced, and how was communication handled — what lessons learned exist?
 **Priority:** Medium
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Historical cyber incidents — RESOLVED. 2024 breaches: MyKad 17M, ATM/Wisma Putra/KDN, Prasarana RansomHub. (Source: CJ-5, Aug 3 report)
 
 ## PIR-OPP002-006: Holding Statement Bank Scope
 **Requirement:** How many scenarios does the holding statement bank need to cover, and has any drafting begun?
@@ -117,7 +131,8 @@ Market — methodology transfer and infrastructure opportunity
 ## PIR-OPP002-007: Inter-Agency Crisis Coordination
 **Requirement:** How does CSCDC's War Room coordinate with MCMC (misinformation), PDRM (cybercrime), and MKN (national security) during a crisis?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Inter-agency crisis coordination — RESOLVED. NC4-led 4-pillar CERT ecosystem. (Source: CJ-5, Aug 3 report)
 
 ## PIR-OPP002-008: War Room Activation Threshold
 **Requirement:** What specific criteria trigger War Room activation — severity level, CNII impact, public data exposure, or other thresholds?

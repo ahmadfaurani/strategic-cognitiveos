@@ -3,7 +3,7 @@ id: INT-20260725-003
 record_type: intelligence
 title: Opportunity — Encrypted Alert Portal Development
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -36,8 +36,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 13, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: 1 Critical PIRs (1 resolved). CSCDC partnership workstream — gate prerequisites met.
 related_records: []
+pir_priority: critical
+pir_tier: CJ-3
+collection_cycle: daily
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj3-infra-watch-2026-07-29-1616.md
+- intelligence/cron-output/cj3-infra-watch-2026-07-30T1616.md
+- intelligence/cron-output/cj3-infra-watch-2026-08-01T1620.md
+- intelligence/cron-output/cj3-infra-watch-2026-08-04T16-04.md
+- intelligence/cron-output/cj3-infra-watch-20260726-1652.md
 ---
 
 # Summary
@@ -95,7 +106,8 @@ Market — product development opportunity
 ## PIR-OPP003-003: Classification Handling
 **Requirement:** What information classification levels will the portal handle — SULIT, Rahsia, or mixed — and what certification is required?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Classification (SULUT/Rahsia) — RESOLVED. OSA 1972 four levels; MyKriptografi governs crypto product classes; MyGovCloud@PDSA for classified hosting. (Source: CJ-3, Aug 3 report)
 
 ## PIR-OPP003-004: Existing Infrastructure
 **Requirement:** Does CSM or PTPKM have an existing portal infrastructure that CSCDC is upgrading, or is this a new build?
@@ -115,7 +127,8 @@ Market — product development opportunity
 ## PIR-OPP003-007: Hosting & Data Sovereignty
 **Requirement:** Must the portal be hosted on sovereign government cloud, or can it use certified third-party hosting?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Hosting & data sovereignty — RESOLVED. MyGovCloud@PDSA for classified; 4 Panel CSPs for less-sensitive. (Source: CJ-3, Aug 3 report)
 
 ## PIR-OPP003-008: Availability Requirements
 **Requirement:** What is the portal's uptime requirement — 99.9%, 99.99%, or higher — and is there a disaster recovery requirement?
@@ -125,7 +138,8 @@ Market — product development opportunity
 ## PIR-OPP003-009: Authentication Model
 **Requirement:** What authentication model is required — PKI, FIDO2, MIMOS MyGPKI, or custom — and who manages the certificate authority?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Authentication model — RESOLVED. MyGPKI mandated (Digital Signature Act 1997). (Source: CJ-3, Aug 3 report)
 
 ## PIR-OPP003-010: Existing Government Portal Standards
 **Requirement:** Are there existing Malaysian government portal standards (MAMPU, MDEC) that the alert portal must comply with?

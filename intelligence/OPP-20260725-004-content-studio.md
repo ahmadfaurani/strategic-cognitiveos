@@ -3,7 +3,7 @@ id: INT-20260725-004
 record_type: intelligence
 title: Opportunity — Content Studio & Multimedia Production Capability
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -36,8 +36,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 8, 10, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream — gate prerequisites met.
 related_records: []
+pir_priority: critical
+pir_tier: CJ-4
+collection_cycle: 12h
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj4-campaign-watch-2026-07-26-1928.md
+- intelligence/cron-output/cj4-campaign-watch-2026-07-27T073803+0800.md
+- intelligence/cron-output/cj4-campaign-watch-2026-07-27T213244+0800.md
+- intelligence/cron-output/cj4-campaign-watch-2026-07-28T1109+0800.md
+- intelligence/cron-output/cj4-campaign-watch-2026-07-29-1129.md
 ---
 
 # Summary
@@ -91,7 +102,8 @@ Market — infrastructure and managed services opportunity
 ## PIR-OPP004-002: In-House vs Outsourced Decision
 **Requirement:** Has CSCDC decided whether content production will be fully in-house, fully outsourced, or hybrid — and what is the split?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** In-House vs Outsourced — LEAN IN-HOUSE signal strengthened. Walk Production (KL agency) identified as first candidate for outsourced-peak layer. (Source: CJ-4, Aug 3 report)
 
 ## PIR-OPP004-003: Studio Physical Location
 **Requirement:** Where will the studio be physically located — in the consolidated CSM/PTPKM complex, or a new space?

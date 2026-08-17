@@ -158,7 +158,7 @@ All 16 Critical PIRs are covered by CJ-1 through CJ-6 collection cronjobs.
 | Record ID | Type | File | PIRs | Critical | High | Medium | Low |
 |-----------|------|------|------|----------|------|--------|-----|
 | STK-20260725-001 | Stakeholder | stakeholders/STK-20260725-001-cscdc.md | 10 | 2 | 4 | 3 | 1 |
-| INIT-20260725-007 | Initiative | initiatives/INIT-20260725-007-cscdc-partnership.md | 10 | 3 | 3 | 3 | 1 |
+| INIT-20260725-007 | Initiative | initiatives/INIT-20260725-007.md | 10 | 3 | 3 | 3 | 1 |
 | OPP-20260725-001 | Opportunity | intelligence/OPP-20260725-001-social-listening-infrastructure.md | 10 | 0 | 4 | 4 | 2 |
 | OPP-20260725-002 | Opportunity | intelligence/OPP-20260725-002-war-room-methodology.md | 10 | 1 | 3 | 4 | 2 |
 | OPP-20260725-003 | Opportunity | intelligence/OPP-20260725-003-encrypted-alert-portal.md | 10 | 1 | 6 | 3 | 0 |
@@ -167,7 +167,7 @@ All 16 Critical PIRs are covered by CJ-1 through CJ-6 collection cronjobs.
 | OPP-20260725-006 | Opportunity | intelligence/OPP-20260725-006-community-champions.md | 10 | 1 | 4 | 4 | 1 |
 | OPP-20260725-007 | Opportunity | intelligence/OPP-20260725-007-cyber-drill.md | 10 | 2 | 3 | 3 | 2 |
 | OPP-20260725-008 | Opportunity | intelligence/OPP-20260725-008-anti-deepfake-campaign.md | 10 | 2 | 3 | 4 | 1 |
-| OPP-20260725-009 | Opportunity | intelligence/OPP-20260725-009-g2g-briefing-capability.md | 10 | 0 | 4 | 4 | 2 |
+| OPP-20260725-009 | Opportunity | intelligence/OPP-20260725-009-g2g-briefing-support.md | 10 | 0 | 4 | 4 | 2 |
 | OPP-20260725-010 | Opportunity | intelligence/OPP-20260725-010-post-merger-integration.md | 10 | 1 | 3 | 3 | 3 |
 | **TOTAL** | | | **120** | **16** | **44** | **41** | **16** |
 

@@ -3,7 +3,7 @@ id: INT-20260725-006
 record_type: intelligence
 title: Opportunity — Community Champions Programme Design
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -38,8 +38,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 10, 16, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream — gate prerequisites met.
 related_records: []
+pir_priority: critical
+pir_tier: CJ-6
+collection_cycle: 12h
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj6-programme-2026-07-27T2138+0800.md
+- intelligence/cron-output/cj6-programme-2026-07-28T1111.md
+- intelligence/cron-output/cj6-programme-2026-07-28T2324+08.md
+- intelligence/cron-output/cj6-programme-2026-07-29T1143+08.md
+- intelligence/cron-output/cj6-programme-2026-07-29_2346.md
 ---
 
 # Summary
@@ -89,7 +100,8 @@ Market — programme design and methodology transfer opportunity
 ## PIR-OPP006-001: Curriculum Status
 **Requirement:** Does CSCDC have a draft curriculum for Community Champions training, or is this being designed from scratch?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Curriculum Status — no public curriculum draft located (exhaustive search). Greenfield confirmed with HIGH confidence. Building blocks mapped. (Source: CJ-6, Aug 3 report)
 
 ## PIR-OPP006-002: State-Level Coordination
 **Requirement:** How will state-level coordination work — through state NACSA offices, JAPEN, or a new structure?
@@ -109,7 +121,8 @@ Market — programme design and methodology transfer opportunity
 ## PIR-OPP006-005: Measurement Framework
 **Requirement:** How will the 30% literacy improvement KPI be measured — what is the baseline, instrument, and frequency?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** NGO/education partners — RESOLVED. KPM/MOE, MDEC, MCCO, SherpaSec, USM confirmed as ecosystem partners. (Source: CJ-6, Aug 3 report)
 
 ## PIR-OPP006-006: Budget Adequacy
 **Requirement:** Is RM 400K (training + tour) sufficient for 1,000 champions × 50 locations — and what is the per-champion cost target?
@@ -134,7 +147,8 @@ Market — programme design and methodology transfer opportunity
 ## PIR-OPP006-010: Sustainability Model
 **Requirement:** What happens after Year 1 — is there a Year 2 expansion plan, or is this a one-time programme?
 **Priority:** Medium
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** International community-champion models — RESOLVED. UK Cyber Champions, Singapore SG Cyber Youth/Div0, Australia Cyber Centa. (Source: CJ-6, Aug 3 report)
 
 # Related Records
 

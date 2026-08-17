@@ -3,7 +3,7 @@ id: INT-20260725-010
 record_type: intelligence
 title: Opportunity — Post-Merger Cultural Integration Support
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -38,8 +38,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 8
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream — gate prerequisites met.
 related_records: []
+pir_tier: CJ-6
+collection_cycle: 12h
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj6-programme-2026-07-27T2138+0800.md
+- intelligence/cron-output/cj6-programme-2026-07-28T1111.md
+- intelligence/cron-output/cj6-programme-2026-07-28T2324+08.md
+- intelligence/cron-output/cj6-programme-2026-07-29T1143+08.md
+- intelligence/cron-output/cj6-programme-2026-07-29_2346.md
+pir_priority: critical
 ---
 
 # Summary

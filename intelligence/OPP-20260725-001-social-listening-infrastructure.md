@@ -3,7 +3,7 @@ id: INT-20260725-001
 record_type: intelligence
 title: Opportunity — Social Listening Infrastructure Provisioning
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -36,8 +36,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 17, Sector 2
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: No Critical PIRs. Supporting workstream for CSCDC partnership.
 related_records: []
+pir_tier: CJ-3
+collection_cycle: daily
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj3-infra-watch-2026-07-29-1616.md
+- intelligence/cron-output/cj3-infra-watch-2026-07-30T1616.md
+- intelligence/cron-output/cj3-infra-watch-2026-08-01T1620.md
+- intelligence/cron-output/cj3-infra-watch-2026-08-04T16-04.md
+- intelligence/cron-output/cj3-infra-watch-20260726-1652.md
+pir_priority: high
 ---
 
 # Summary

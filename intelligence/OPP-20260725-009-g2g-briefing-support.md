@@ -3,7 +3,7 @@ id: INT-20260725-009
 record_type: intelligence
 title: Opportunity — G2G Briefing & Speechwriting Support
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -34,8 +34,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 9
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: No Critical PIRs. Supporting workstream for CSCDC partnership.
 related_records: []
+pir_priority: high
+pir_tier: CJ-6
+collection_cycle: 12h
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj6-programme-2026-07-27T2138+0800.md
+- intelligence/cron-output/cj6-programme-2026-07-28T1111.md
+- intelligence/cron-output/cj6-programme-2026-07-28T2324+08.md
+- intelligence/cron-output/cj6-programme-2026-07-29T1143+08.md
+- intelligence/cron-output/cj6-programme-2026-07-29_2346.md
 ---
 
 # Summary
@@ -84,17 +95,20 @@ Market — strategic advisory and content development opportunity
 ## PIR-OPP009-001: Internal Capacity
 **Requirement:** Does Unit 5 have staff with cybersecurity policy expertise, or is this a capability gap requiring external support?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** G2G briefing capability — RESOLVED. CSCDC under PM's Dept; NCSS 2026 + CYDES platforms (27 countries, 70 delegations). (Source: CJ-6, Aug 3 report)
 
 ## PIR-OPP009-002: International Engagement Calendar
 **Requirement:** What upcoming international forums (ASEAN, ITU, UN) require CSCDC positioning documents in the next 12 months?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** ASEAN positioning — RESOLVED. Malaysia leads ASEAN Cybersecurity Cooperation Strategy 2026-2030. (Source: CJ-6, Aug 3 report)
 
 ## PIR-OPP009-003: Parliamentary Briefing Schedule
 **Requirement:** Is there a scheduled or anticipated parliamentary briefing on cybersecurity in the upcoming session?
 **Priority:** Medium
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** ASEAN strategy — RESOLVED. Published Jul 2026. (Source: CJ-6, Aug 3 report)
 
 ## PIR-OPP009-004: Existing Speechwriting Arrangements
 **Requirement:** Who currently drafts cyber-related speeches for the PM and JPM Ministers — is this done internally or with external support?
@@ -124,12 +138,14 @@ Market — strategic advisory and content development opportunity
 ## PIR-OPP009-009: ITU Engagement
 **Requirement:** What is Malaysia's current engagement level with ITU on cybersecurity standards — and what reporting is required?
 **Priority:** Low
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** NCSS/CYDES engagement platform — RESOLVED. Confirmed. (Source: CJ-6, Aug 3 report)
 
 ## PIR-OPP009-010: Inter-Agency G2G Coordination
 **Requirement:** How does Unit 5's G2G function coordinate with Wisma Putera (MFA) on international cyber diplomacy?
 **Priority:** Medium
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Foreign delegation engagement — RESOLVED. CYDES 2025: 70 delegations/27 countries. (Source: CJ-6, Aug 3 report)
 
 # Related Records
 

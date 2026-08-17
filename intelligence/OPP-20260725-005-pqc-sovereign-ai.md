@@ -3,7 +3,7 @@ id: INT-20260725-005
 record_type: intelligence
 title: Opportunity — PQC Sandbox Strategic Positioning & Sovereign AI Intersection
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: 2026-07-25 10:35:00+00:00
+updated_at: '2026-08-17T17:36:54+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -40,8 +40,19 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 4, 9, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: null
+strategic_significance: 3 Critical PIRs (1 resolved). CSCDC partnership workstream — gate prerequisites met.
 related_records: []
+pir_priority: critical
+pir_tier: CJ-2
+collection_cycle: 12h
+last_collected: '2026-08-03'
+next_collection: paused — model config review
+related_intelligence:
+- intelligence/cron-output/cj2-pqc-monitor-2026-07-26-1915.md
+- intelligence/cron-output/cj2-pqc-monitor-2026-07-26T070752+0800.md
+- intelligence/cron-output/cj2-pqc-monitor-2026-07-27T0729.md
+- intelligence/cron-output/cj2-pqc-monitor-2026-07-28T1059.md
+- intelligence/cron-output/cj2-pqc-monitor-2026-07-28_2312.md
 ---
 
 # Summary
@@ -98,17 +109,20 @@ Market — strategic positioning and cross-workstream opportunity
 ## PIR-OPP005-001: PQC Sandbox Scope & Architecture
 **Requirement:** What is the PQC Sandbox's technical scope — which cryptographic algorithms, which systems, which use cases are being tested?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** PQC Sandbox Scope — international benchmark deeply expanded (FIPS 203/204/205, HQC, FALCON→FN-DSA). Malaysia Sandbox scope NOT public. (Source: CJ-2, Aug 3 report)
 
 ## PIR-OPP005-002: PQC Timeline & Milestones
 **Requirement:** What is the PQC Sandbox's development timeline — when does it launch, when does testing begin, when are results expected?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** PQC Timeline — international timeline resolved (U.S.: 2030/2031/2035). Malaysia Sandbox timeline NOT public. (Source: CJ-2, Aug 3 report)
 
 ## PIR-OPP005-003: Industry Engagement Model
 **Requirement:** How will private sector participate in the PQC Sandbox — open call, invited consortium, pilot cohort, or paid partnership?
 **Priority:** Critical
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Industry Engagement Model — RESOLVED. Grant-based POC cohort; templates expanded (PQCC, CISA, DHS, G7 coordinated approach). (Source: CJ-2, Aug 3 report)
 
 ## PIR-OPP005-004: Conference Scope & Audience
 **Requirement:** What is the PQC Sandbox Strategic Conference's scope, target audience, date, and format — national, regional, or international?
@@ -123,7 +137,8 @@ Market — strategic positioning and cross-workstream opportunity
 ## PIR-OPP005-006: International Partners
 **Requirement:** Which international partners (NSA, NIST, BSI, ANSSI, Singapore CSA) are involved in or being approached for the PQC Sandbox?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** International partners — RESOLVED. NIST, CISA, G7 PQC guidance. Singapore/BSI have NO PQC pages = first-mover window. (Source: CJ-2, Aug 3 report)
 
 ## PIR-OPP005-007: Budget Beyond Conference
 **Requirement:** Beyond the RM 300K conference allocation, what is the total PQC Sandbox programme budget — and is it in CSCDC's budget or a separate allocation?
@@ -133,7 +148,8 @@ Market — strategic positioning and cross-workstream opportunity
 ## PIR-OPP005-008: CNII Migration Timeline
 **Requirement:** Is there a mandated timeline for CNII operators to migrate to PQC — and what is the compliance framework?
 **Priority:** Medium
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** CNII migration timeline — RESOLVED. U.S. benchmark 2030/2031/2035 + DHS 7-step roadmap + G7 Financial Sector PQC Roadmap. (Source: CJ-2, Aug 3 report)
 
 ## PIR-OPP005-009: PQC Talent Pipeline
 **Requirement:** Does Malaysia have sufficient PQC expertise (cryptographers, implementation engineers) — and is there a talent development plan?
