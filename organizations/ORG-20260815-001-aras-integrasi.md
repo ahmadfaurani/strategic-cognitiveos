@@ -3,7 +3,7 @@ id: ORG-20260815-001
 record_type: organization
 title: Aras Integrasi Sdn Bhd
 created_at: 2026-08-15 17:35:00+00:00
-updated_at: 2026-08-15 17:35:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 org_type: internal-division
 sector: cybersecurity
@@ -36,14 +36,14 @@ related_records:
 - INIT-20260811-001
 - INIT-20260810-003
 - DEC-20260815-004
-status: null
-priority: null
-confidence: null
+status: active
+priority: medium
+confidence: medium
 source:
   type: null
   reference: null
-summary: null
-strategic_significance: null
+summary: internal-division in cybersecurity — Primary operating company — DAF's practice base. Cybersecurity practice lead, Vo
+strategic_significance: 'Primary operating company — DAF''s practice base. Cybersecurity practice lead, Voron product line owner, CSM partnership principal.. Relationship: active.'
 mission_alignment: []
 ---
 

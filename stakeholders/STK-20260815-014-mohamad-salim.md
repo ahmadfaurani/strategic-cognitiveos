@@ -3,7 +3,7 @@ id: STK-20260815-014
 record_type: stakeholder
 title: Tan Sri Mohamad Salim Fateh Din
 created_at: 2026-08-15 17:50:00+00:00
-updated_at: 2026-08-15 17:50:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Malaysian Communications and Multimedia Commission (MCMC)
@@ -37,11 +37,11 @@ source:
   type: intelligence-verified
   reference: 'CJ-1 cron intelligence: NQAIC MoU signing witnessed by PM Anwar; CSCDC launch attendance Bernama 4 Jun 2026; IRC 2026 conference attendance'
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: high
+confidence: medium
+summary: Tan Sri Mohamad Salim Fateh Din — Chairman of MCMC at Malaysian Communications and Multimedia Commission (MCMC).
+strategic_significance: 'Influence: high, Interest: high. Linked to 1 initiative(s).'
 mission_alignment: []
 ---
 

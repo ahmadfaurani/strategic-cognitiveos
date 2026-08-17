@@ -3,7 +3,7 @@ id: INT-20260815-001
 record_type: intelligence
 title: Integrated Workflow Analytical Review — Management Baseline for Email and Decision Assessment
 created_at: 2026-08-15 11:54:00+00:00
-updated_at: 2026-08-15 11:54:00+00:00
+updated_at: '2026-08-17T17:49:43+00:00'
 owner: faurani-jaafar
 authority: DAF
 sensitivity: confidential
@@ -26,7 +26,7 @@ source:
   document: document
   DAF-authored document, 13 sections, 3 messages: DAF-authored document, 13 sections, 3 messages
   telegram: telegram
-strategic_significance: null
+strategic_significance: Intelligence product.
 mission_alignment: []
 ---
 

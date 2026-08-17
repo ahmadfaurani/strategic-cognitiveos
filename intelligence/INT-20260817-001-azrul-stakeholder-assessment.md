@@ -3,7 +3,7 @@ id: INT-20260817-001
 record_type: intelligence
 title: Azrul Nazim Abdul Aziz — Stakeholder Engagement Assessment
 created_at: 2026-08-17 07:20:00+00:00
-updated_at: 2026-08-17 07:20:00+00:00
+updated_at: '2026-08-17T17:49:43+00:00'
 owner: faurani-jaafar
 intelligence_type: stakeholder
 status: validated
@@ -24,8 +24,8 @@ tags:
 source:
   type: null
   reference: null
-summary: null
-strategic_significance: null
+summary: Comprehensive review of En. Azrul Nazim Abdul Aziz's role, engagement trajectory, and strategic positioning within the CSM × Aras partnership. Assessment synthesizes all CognitiveOS records, email thr
+strategic_significance: Intelligence product.
 mission_alignment: []
 related_records: []
 ---

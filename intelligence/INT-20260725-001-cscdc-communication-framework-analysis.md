@@ -12,12 +12,12 @@ summary: Analytical report — see body for full analysis.
 lifecycle_state: canonical
 tags:
 - type/analytical-report
-updated_at: null
-priority: null
+updated_at: '2026-08-17T17:50:38+00:00'
+priority: high
 source:
   type: null
   reference: null
-strategic_significance: null
+strategic_significance: 'Intelligence analysis. # Analytical Report: Rangka Kerja Komunikasi Keselamatan Siber Negara (CSCDC) **Document:** Strategic Cyber Security Communication Framework **Origin:'
 mission_alignment: []
 related_records: []
 ---

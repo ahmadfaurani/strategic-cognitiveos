@@ -3,7 +3,7 @@ id: STK-20260815-008
 record_type: stakeholder
 title: Ir. Dr. Megat Zuhairy Megat Tajuddin
 created_at: 2026-08-15 17:42:00+00:00
-updated_at: 2026-08-15 17:42:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: National Cyber Security Agency (NACSA)
@@ -35,11 +35,11 @@ source:
   type: intelligence-verified
   reference: STK-20260725-001 body text; PKI Consortium PQC Conference 2025, NCSS 2026 programme
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: high
+confidence: high
+summary: Ir. Dr. Megat Zuhairy Megat Tajuddin — CEO of NACSA / Regulatory Shepherd for CSCDC at National Cyber Security Agency (NACSA).
+strategic_significance: 'Influence: high, Interest: high. Linked to 1 initiative(s).'
 mission_alignment: []
 ---
 

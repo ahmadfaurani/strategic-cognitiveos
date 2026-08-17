@@ -3,7 +3,7 @@ id: STK-20260815-015
 record_type: stakeholder
 title: Datuk Fabian Bigar
 created_at: 2026-08-15 17:50:00+00:00
-updated_at: 2026-08-15 17:50:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Ministry of Digital (KKD)
@@ -35,11 +35,11 @@ source:
   type: intelligence-verified
   reference: 'CJ-1 cron intelligence: CSM Board of Directors composition; NACSA Cyber Games 2025 officiation; CSCDC approval chain mapping'
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: high
+confidence: high
+summary: Datuk Fabian Bigar — Secretary-General, Ministry of Digital — CSM Board Director at Ministry of Digital (KKD).
+strategic_significance: 'Influence: high, Interest: medium. Linked to 1 initiative(s).'
 mission_alignment: []
 ---
 

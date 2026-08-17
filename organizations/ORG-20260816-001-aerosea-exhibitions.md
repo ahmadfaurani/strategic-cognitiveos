@@ -3,7 +3,7 @@ id: ORG-20260816-001
 record_type: organization
 title: Aerosea Exhibitions Sdn Bhd
 created_at: 2026-08-16 13:20:00+00:00
-updated_at: 2026-08-16 13:20:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 org_type: private-company
 sector: events-exhibitions
@@ -23,14 +23,14 @@ tags:
 - organisation/aerosea-exhibitions
 - domain/events
 - milestone/cyberdsa-2026
-status: null
-priority: null
-confidence: null
+status: active
+priority: medium
+confidence: medium
 source:
   type: null
   reference: null
-summary: null
-strategic_significance: null
+summary: private-company in events-exhibitions — Organiser of CyberDSA 2026 — the flagship cybersecurity event where Aras Integra
+strategic_significance: 'Organiser of CyberDSA 2026 — the flagship cybersecurity event where Aras Integrasi is securing Silver Sponsorship (RM50,000). Controls exhibition logistics, booth allocation, speaking slots, and event partnerships.. Relationship: active.'
 mission_alignment: []
 ---
 

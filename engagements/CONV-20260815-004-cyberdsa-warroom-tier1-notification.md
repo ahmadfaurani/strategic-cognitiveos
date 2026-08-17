@@ -3,7 +3,7 @@ id: CONV-20260815-004
 record_type: conversation
 title: CyberDSA 2026 War-Room Activation — Tier 1 Internal Communication
 created_at: 2026-08-15 18:00:00+00:00
-updated_at: 2026-08-15 18:00:00+00:00
+updated_at: '2026-08-17T17:49:43+00:00'
 owner: faurani-jaafar
 decision_owner: faurani-jaafar
 status: active
@@ -27,9 +27,9 @@ related_records:
 - INT-20260815-002
 - INIT-20260811-001
 - INIT-20260810-003
-lifecycle_state: null
-summary: null
-strategic_significance: null
+lifecycle_state: active
+summary: 'From: DAF, Director – Cyber Security Practice, Aras Integrasi Sdn Bhd To: Tier 1 War-Room Core Team Date: 15 August 2026 Classification: Internal — Confidential Reference: DEC-20260815-004 (War-Room A'
+strategic_significance: Operational conversation.
 mission_alignment: []
 ---
 

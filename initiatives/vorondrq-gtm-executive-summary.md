@@ -12,13 +12,13 @@ sensitivity: internal
 lifecycle_state: canonical
 tags:
 - type/reference-document
-updated_at: null
-priority: null
-confidence: null
+updated_at: '2026-08-17T17:50:23+00:00'
+priority: high
+confidence: medium
 source:
   type: null
   reference: null
-strategic_significance: null
+strategic_significance: 'Portfolio: incubation. Readiness: concept.'
 mission_alignment: []
 related_records: []
 ---

@@ -27,8 +27,8 @@ related_records:
 - governance/cross-doctrinal-analysis-sop.md
 - governance/intake-sop.md
 - governance/template-discipline-sop.md
-updated_at: null
-strategic_significance: null
+updated_at: '2026-08-17T17:49:43+00:00'
+strategic_significance: Intelligence product.
 mission_alignment: []
 ---
 

@@ -18,12 +18,12 @@ related_records:
 - DEC-20260811-001
 - INIT-20260811-001
 - RSK-20260811-001
-updated_at: null
-status: null
-priority: null
-lifecycle_state: null
-summary: null
-strategic_significance: null
+updated_at: '2026-08-17T17:50:22+00:00'
+status: active
+priority: medium
+lifecycle_state: active
+summary: 'Prepared for: DAF''s team meeting Date: 2026-08-11 Basis: Full workstream review (01:48 UTC) + DAF productisation directive (04:02 UTC)'
+strategic_significance: 'Briefing record. Priority: None.'
 mission_alignment: []
 ---
 

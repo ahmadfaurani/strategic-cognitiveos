@@ -3,7 +3,7 @@ id: STK-20260815-007
 record_type: stakeholder
 title: Tan Sri Shamsul Azri Abu Bakar
 created_at: 2026-08-15 17:42:00+00:00
-updated_at: 2026-08-15 17:42:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Jabatan Perdana Menteri (JPM)
@@ -36,11 +36,11 @@ source:
   type: intelligence-verified
   reference: STK-20260725-001 body text; Bernama, Berita Harian, Malaysia Gazette (4+ sources)
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: high
+confidence: high
+summary: Tan Sri Shamsul Azri Abu Bakar — Chief Secretary to the Government (KSN) / CSCDC Board Chairman at Jabatan Perdana Menteri (JPM).
+strategic_significance: 'Influence: high, Interest: high. Linked to 1 initiative(s).'
 mission_alignment: []
 ---
 

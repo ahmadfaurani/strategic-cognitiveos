@@ -3,7 +3,7 @@ id: STK-20260815-019
 record_type: stakeholder
 title: SUPERSEDED — Siti Aishah Omar = Aisha (STK-20260815-001)
 created_at: 2026-08-15 17:56:00+00:00
-updated_at: 2026-08-15 18:10:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: CyberSecurity Malaysia
@@ -28,14 +28,14 @@ tags:
 - lifecycle/superseded
 related_records:
 - STK-20260815-001
-status: null
-priority: null
-confidence: null
+status: active
+priority: medium
+confidence: medium
 source:
   type: null
   reference: null
-summary: null
-strategic_significance: null
+summary: SUPERSEDED — Siti Aishah Omar = Aisha (STK-20260815-001) — (see STK-20260815-001) at CyberSecurity Malaysia.
+strategic_significance: 'Influence: medium, Interest: high.'
 mission_alignment: []
 ---
 

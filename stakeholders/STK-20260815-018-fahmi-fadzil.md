@@ -3,7 +3,7 @@ id: STK-20260815-018
 record_type: stakeholder
 title: Datuk Fahmi Fadzil
 created_at: 2026-08-15 17:50:00+00:00
-updated_at: 2026-08-15 17:50:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Ministry of Communications (KKD)
@@ -37,11 +37,11 @@ source:
   type: intelligence-verified
   reference: 'CJ-1 cron intelligence: CSCDC launch attendance (Bernama 4 Jun 2026); ONSA deepfake enforcement announcements; IRC 2026 conference; Dewan Negara statements'
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: high
+confidence: medium
+summary: Datuk Fahmi Fadzil — Minister of Communications at Ministry of Communications (KKD).
+strategic_significance: 'Influence: high, Interest: high. Linked to 1 initiative(s).'
 mission_alignment: []
 ---
 

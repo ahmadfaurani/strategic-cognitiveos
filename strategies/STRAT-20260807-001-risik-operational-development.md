@@ -3,7 +3,7 @@ id: STRAT-20260807-001
 record_type: initiative
 title: R.I.S.I.K Operational Development Plan — From Doctrine to Operations
 created_at: 2026-08-07 08:30:00+00:00
-updated_at: 2026-08-07 08:30:00+00:00
+updated_at: '2026-08-17T17:50:22+00:00'
 owner: faurani-jaafar
 authority: DAF
 sensitivity: confidential
@@ -26,14 +26,14 @@ tags:
 - organisation/pmo
 - mission/political-intelligence
 - readiness/development
-priority: null
-lifecycle_state: null
-confidence: null
+priority: high
+lifecycle_state: draft
+confidence: medium
 source:
   type: null
   reference: null
-summary: null
-strategic_significance: null
+summary: 'Authority: DAF Date: 7 August 2026 Classification: Confidential — OSA 1972 Aware Parent Initiative: INIT-20260803-002 — UITM-Aras Strategic Collaboration on AI Enablement of the R.I.S.I.K Framework Pa'
+strategic_significance: Strategic initiative.
 mission_alignment: []
 related_records: []
 ---

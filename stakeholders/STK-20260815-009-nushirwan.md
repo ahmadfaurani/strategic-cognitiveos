@@ -3,7 +3,7 @@ id: STK-20260815-009
 record_type: stakeholder
 title: Raja Dato' Nushirwan Zainal Abidin
 created_at: 2026-08-15 17:42:00+00:00
-updated_at: 2026-08-15 17:42:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Majlis Keselamatan Negara (MKN)
@@ -36,11 +36,11 @@ source:
   type: intelligence-verified
   reference: STK-20260725-001 body text; NCSS 2026 official programme (Welcoming Speech)
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: high
+confidence: high
+summary: Raja Dato' Nushirwan Zainal Abidin — Director-General of National Security (MKN DG) / Operational Shepherd for CSCDC at Majlis Keselamatan Negara (MKN).
+strategic_significance: 'Influence: high, Interest: high. Linked to 1 initiative(s).'
 mission_alignment: []
 ---
 

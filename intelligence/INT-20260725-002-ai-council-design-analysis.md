@@ -12,12 +12,12 @@ summary: Analytical report — see body for full analysis.
 lifecycle_state: canonical
 tags:
 - type/analytical-report
-updated_at: null
-priority: null
+updated_at: '2026-08-17T17:50:38+00:00'
+priority: high
 source:
   type: null
   reference: null
-strategic_significance: null
+strategic_significance: 'Intelligence analysis. # AI Council Design — Analytical Report **Record ID:** INT-20260725-002 **Type:** Intelligence **Subject:** AI Council composition, candidate model ev'
 mission_alignment: []
 related_records: []
 ---

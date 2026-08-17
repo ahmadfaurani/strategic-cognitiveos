@@ -3,7 +3,7 @@ id: CONV-20260815-005
 record_type: conversation
 title: DAF shared CSM-Aras Stakeholder Coverage & Communication Ownership Plan
 created_at: 2026-08-15 17:56:00+00:00
-updated_at: 2026-08-15 17:56:00+00:00
+updated_at: '2026-08-17T17:50:22+00:00'
 owner: faurani-jaafar
 participants:
 - person/faurani-jaafar
@@ -29,9 +29,9 @@ summary: DAF shared a comprehensive Stakeholder Coverage & Communication Ownersh
 source:
   document-share: document-share
   CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan: CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx
-priority: null
-confidence: null
-strategic_significance: null
+priority: medium
+confidence: medium
+strategic_significance: Operational conversation.
 mission_alignment: []
 ---
 

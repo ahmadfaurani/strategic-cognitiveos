@@ -3,7 +3,7 @@ id: STK-20260815-017
 record_type: stakeholder
 title: Dennis Looi
 created_at: 2026-08-15 17:50:00+00:00
-updated_at: 2026-08-15 17:50:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: internal
 organisation: Aras Integrasi Sdn Bhd
@@ -35,11 +35,11 @@ source:
   type: intelligence-verified
   reference: 'CJ-1 cron intelligence: Aras Integrasi company profile confirming Deputy CEO; PIKOM CIO Conference 2026 attendance'
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: medium
+confidence: medium
+summary: Dennis Looi — Deputy CEO, Aras Integrasi Sdn Bhd at Aras Integrasi Sdn Bhd.
+strategic_significance: 'Influence: medium, Interest: high. Linked to 1 initiative(s).'
 mission_alignment: []
 ---
 

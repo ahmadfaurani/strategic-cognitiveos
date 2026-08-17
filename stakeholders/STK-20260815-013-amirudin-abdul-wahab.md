@@ -3,7 +3,7 @@ id: STK-20260815-013
 record_type: stakeholder
 title: Datuk Dr Amirudin Abdul Wahab
 created_at: 2026-08-15 17:50:00+00:00
-updated_at: 2026-08-15 17:50:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: CyberSecurity Malaysia (CSM) — Former CEO
@@ -35,11 +35,11 @@ source:
   type: intelligence-verified
   reference: 'CJ-1 cron intelligence: CSM Facebook announcement 13 Jan 2026; PolCyb bio; BusinessToday retirement notice'
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: medium
+confidence: medium
+summary: Datuk Dr Amirudin Abdul Wahab — Former CEO of CyberSecurity Malaysia (retired 13 Jan 2026) at CyberSecurity Malaysia (CSM) — Former CEO.
+strategic_significance: 'Influence: medium, Interest: medium. Linked to 1 initiative(s).'
 mission_alignment: []
 ---
 

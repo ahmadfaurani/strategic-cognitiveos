@@ -3,7 +3,7 @@ id: STK-20260815-010
 record_type: stakeholder
 title: Roshdi bin Haji Ahmad
 created_at: 2026-08-15 17:42:00+00:00
-updated_at: 2026-08-15 17:42:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: CyberSecurity Malaysia (CSM)
@@ -37,11 +37,11 @@ source:
   type: intelligence-verified
   reference: STK-20260725-001 body text; Malaysian Reserve, Business Today, Sun, CSM official FB, LinkedIn
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: high
+confidence: high
+summary: Roshdi bin Haji Ahmad — Acting CEO of CyberSecurity Malaysia / Transition Executive for CSCDC at CyberSecurity Malaysia (CSM).
+strategic_significance: 'Influence: high, Interest: high. Linked to 2 initiative(s).'
 mission_alignment: []
 ---
 

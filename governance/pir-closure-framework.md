@@ -3,7 +3,7 @@ id: GOV-PIR-CLOSURE-001
 record_type: document
 title: PIR Closure Framework
 created_at: 2026-08-17 16:36:00+00:00
-updated_at: 2026-08-17 16:50:00+00:00
+updated_at: '2026-08-17T17:50:23+00:00'
 owner: DAF
 authority: ADEP-001 §44 (Closure Gate) — derivative instrument for PIR-level closure
 classification: CANONICAL
@@ -19,16 +19,16 @@ tags:
 - governance/closure
 - workstream/cscdc
 - cvs/applied
-status: null
-priority: null
-sensitivity: null
-lifecycle_state: null
-confidence: null
+status: active
+priority: medium
+sensitivity: confidential
+lifecycle_state: active
+confidence: medium
 source:
   type: null
   reference: null
-summary: null
-strategic_significance: null
+summary: 'Purpose: Define the formal process by which an individual Priority Intelligence Requirement (PIR) transitions from active collection to a terminal state — fulfilled, cancelled, superseded, or deferred'
+strategic_significance: 'Document record. Priority: None.'
 mission_alignment: []
 related_records: []
 ---

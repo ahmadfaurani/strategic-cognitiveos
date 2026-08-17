@@ -3,7 +3,7 @@ id: INT-20260815-007
 record_type: intelligence
 title: CyberDSA 2026 — Actionable Intelligence Standard & Prioritisation Engine Applied Use Case
 created_at: 2026-08-15 18:40:00+00:00
-updated_at: 2026-08-15 18:40:00+00:00
+updated_at: '2026-08-17T17:49:43+00:00'
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -36,7 +36,7 @@ related_records:
 - DEC-20260815-004
 - DEC-20260815-005
 - INIT-20260810-003
-strategic_significance: null
+strategic_significance: Intelligence product.
 mission_alignment: []
 ---
 

@@ -3,7 +3,7 @@ id: INT-20260815-009
 record_type: intelligence
 title: 'CyberDSA 2026 — Cross-Doctrinal Synthesis: Convergence Analysis Across 3 Doctrine Applications'
 created_at: 2026-08-16 00:45:00+00:00
-updated_at: 2026-08-16 00:45:00+00:00
+updated_at: '2026-08-17T17:49:43+00:00'
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -41,7 +41,7 @@ related_records:
 - INIT-20260811-001
 - INIT-20260804-001
 - RSK-20260815-003
-strategic_significance: null
+strategic_significance: Intelligence product.
 mission_alignment: []
 ---
 

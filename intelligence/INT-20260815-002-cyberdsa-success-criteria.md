@@ -3,7 +3,7 @@ id: INT-20260815-002
 record_type: intelligence
 title: CyberDSA 2026 Workstream — Success Criteria Definition
 created_at: 2026-08-15 16:10:00+00:00
-updated_at: 2026-08-15 16:10:00+00:00
+updated_at: '2026-08-17T17:49:43+00:00'
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -28,7 +28,7 @@ related_records:
 - INIT-20260810-003
 - INIT-20260804-001
 summary: Structured success criteria for CyberDSA 2026 workstream across 6 dimensions with tiered evidence standards.
-strategic_significance: null
+strategic_significance: Intelligence product.
 mission_alignment: []
 ---
 

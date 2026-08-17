@@ -3,7 +3,7 @@ id: ORG-20260815-015
 record_type: organization
 title: Pejabat SUK Negeri Sembilan
 created_at: 2026-08-15 17:35:00+00:00
-updated_at: 2026-08-15 17:35:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 org_type: government-agency
 sector: government
@@ -20,14 +20,14 @@ tags:
 - domain/political
 - lifecycle/canonical
 related_records: []
-status: null
-priority: null
-confidence: null
+status: new
+priority: high
+confidence: medium
 source:
   type: null
   reference: null
-summary: null
-strategic_significance: null
+summary: 'government-agency in government — State government office. Stakeholder for state-level political intelligence and '
+strategic_significance: 'State government office. Stakeholder for state-level political intelligence and government engagement.. Relationship: new.'
 mission_alignment: []
 ---
 

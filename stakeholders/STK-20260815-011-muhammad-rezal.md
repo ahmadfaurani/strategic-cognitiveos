@@ -3,7 +3,7 @@ id: STK-20260815-011
 record_type: stakeholder
 title: Datuk Prof. Dr. Muhammad Rezal Kamel Ariffin
 created_at: 2026-08-15 17:42:00+00:00
-updated_at: 2026-08-15 17:42:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Pusat Teknologi Pengurusan dan Kriptologi Malaysia (PTPKM)
@@ -36,11 +36,11 @@ source:
   type: intelligence-verified
   reference: STK-20260725-001 body text; CJ-1 leadership watch cycles
 lifecycle_state: canonical
-status: null
-priority: null
-confidence: null
-summary: null
-strategic_significance: null
+status: active
+priority: high
+confidence: high
+summary: Datuk Prof. Dr. Muhammad Rezal Kamel Ariffin — PTPKM Director / Cryptology Authority for CSCDC at Pusat Teknologi Pengurusan dan Kriptologi Malaysia (PTPKM).
+strategic_significance: 'Influence: high, Interest: high. Linked to 1 initiative(s).'
 mission_alignment: []
 ---
 

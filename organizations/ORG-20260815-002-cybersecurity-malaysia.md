@@ -3,7 +3,7 @@ id: ORG-20260815-002
 record_type: organization
 title: CyberSecurity Malaysia (CSM)
 created_at: 2026-08-15 17:35:00+00:00
-updated_at: 2026-08-15 17:35:00+00:00
+updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 org_type: government-agency
 sector: cybersecurity
@@ -66,14 +66,14 @@ related_records:
 - INIT-20260811-001
 - CONV-20260815-001
 - CONV-20260815-003
-status: null
-priority: null
-confidence: null
+status: active
+priority: high
+confidence: medium
 source:
   type: null
   reference: null
-summary: null
-strategic_significance: null
+summary: government-agency in cybersecurity — MoU partner for Voron Citadel GTM. National cybersecurity authority. Training, e
+strategic_significance: 'MoU partner for Voron Citadel GTM. National cybersecurity authority. Training, event participation, and joint market access partner.. Relationship: active.'
 mission_alignment: []
 ---
 
