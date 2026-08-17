@@ -104,7 +104,11 @@ def main():
     print(f"🔍 CognitiveOS pre-commit: validating {len(record_files)} record(s)...")
     
     # Run validator on each staged file
-    validator_path = Path(__file__).resolve().parent / "validate.py"
+    git_root = subprocess.run(
+        ["git", "rev-parse", "--show-toplevel"],
+        capture_output=True, text=True
+    ).stdout.strip()
+    validator_path = Path(git_root) / "tools" / "validate.py"
     if not validator_path.exists():
         print("⚠️  Validator not found at tools/validate.py — skipping validation")
         sys.exit(0)
