@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "briefing.schema.json",
+  "title": "Briefing Record",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "owner",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^BRIEF-\\\\d{8}-\\\\d{3}$"
+    },
+    "record_type": {
+      "const": "briefing"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "in-progress",
+        "active",
+        "validated",
+        "approved",
+        "blocked",
+        "deferred",
+        "completed",
+        "overdue",
+        "cancelled",
+        "superseded",
+        "archived",
+        "ready_for_submission",
+        "ready_for_review",
+        "fulfilled",
+        "identified",
+        "open",
+        "proposed",
+        "pending",
+        "unresolved"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "structurally_valid",
+        "semantically_verified",
+        "approved",
+        "canonical",
+        "superseded",
+        "rejected"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        }
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "strategic_significance": {
+      "type": "string"
+    },
+    "mission_alignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "briefing_type": {
+      "type": "string",
+      "enum": [
+        "executive",
+        "operational",
+        "tactical",
+        "situational",
+        "strategic"
+      ]
+    },
+    "prepared_for": {
+      "type": "string"
+    },
+    "prepared_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "key_findings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

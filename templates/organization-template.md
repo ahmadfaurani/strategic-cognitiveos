@@ -1,84 +1,54 @@
 ---
+# === UNIVERSAL BASE ===
 id: ORG-{{date}}-{{seq}}
 record_type: organization
-title: 
+title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
-owner: 
-org_type: 
-sector: 
-strategic_relevance: 
-relationship_status: new
-relationship_owner: 
+owner: ""
+status: draft
+priority: ""
 sensitivity: internal
 lifecycle_state: candidate
+confidence: ""
+tags: []
+source:
+  type: ""
+  reference: ""
+summary: ""
+strategic_significance: ""
+mission_alignment: []
+related_records: []
+# === ORGANIZATION FIELDS [Strategic] ===
+org_type: ""
+sector: ""
+strategic_relevance: ""
+relationship_status: new
+relationship_owner: ""
 key_contacts: []
 related_initiatives: []
-tags: []
 ---
 
 # Organisation Name
 
 <!-- Full official name -->
 
-# Organisation Type
+## Organisation Type
 
 <!-- government-agency / government-ministry / regulatory-body / state-owned-enterprise / private-company / public-company / academic-institution / research-institute / non-profit / industry-association / international-organisation / military / law-enforcement / political-party / internal-division -->
 
-# Sector
+## Sector
 
 <!-- government / defence / financial / telecommunications / energy / healthcare / education / critical-infrastructure / private-sector / cybersecurity / technology / consulting -->
 
-# Strategic Relevance
+## Strategic Relevance
 
-<!-- Why this organisation matters to the portfolio -->
+<!-- Why this organisation matters to the mission -->
 
-# Engagement Objective
+## Key Contacts
 
-<!-- Intended relationship outcome -->
+<!-- Stakeholder IDs of key contact persons -->
 
-# Current Position
+## Related Records
 
-<!-- Known views, interests, or priorities -->
-
-# Decision Authority
-
-<!-- Who in this organisation has decision authority -->
-
-# Key Contacts
-
-<!-- STK record IDs of individual contact persons at this organisation -->
-
-- 
-
-# Commitments Made By Us
-
-- 
-
-# Commitments Made By Organisation
-
-- 
-
-# Last Engagement
-
-<!-- Most recent meaningful interaction — date and summary -->
-
-# Next Engagement
-
-<!-- Required follow-up — date and purpose -->
-
-# Relationship Owner
-
-<!-- Person accountable for this relationship -->
-
-# Related Initiatives
-
-- 
-
-# Notes
-
-<!-- Additional context -->
-
-# Related Records
-
-- 
+<!-- Links to initiatives, engagements, intelligence -->

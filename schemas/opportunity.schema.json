@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "opportunity.schema.json",
+  "title": "Opportunity Record",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "owner",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^OPP-\\\\d{8}-\\\\d{3}$"
+    },
+    "record_type": {
+      "const": "opportunity"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "in-progress",
+        "active",
+        "validated",
+        "approved",
+        "blocked",
+        "deferred",
+        "completed",
+        "overdue",
+        "cancelled",
+        "superseded",
+        "archived",
+        "ready_for_submission",
+        "ready_for_review",
+        "fulfilled",
+        "identified",
+        "open",
+        "proposed",
+        "pending",
+        "unresolved"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "structurally_valid",
+        "semantically_verified",
+        "approved",
+        "canonical",
+        "superseded",
+        "rejected"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        }
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "strategic_significance": {
+      "type": "string"
+    },
+    "mission_alignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "opportunity_type": {
+      "type": "string",
+      "enum": [
+        "commercial",
+        "partnership",
+        "strategic",
+        "technical",
+        "market"
+      ]
+    },
+    "source_stakeholder": {
+      "type": "string"
+    },
+    "potential_value": {
+      "type": "string"
+    },
+    "timeline": {
+      "type": "string"
+    },
+    "probability": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "related_initiative": {
+      "type": "string"
+    }
+  }
+}

@@ -1,76 +1,58 @@
 ---
+# === UNIVERSAL BASE ===
 id: INT-{{date}}-{{seq}}
 record_type: intelligence
 title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
 owner: ""
-intelligence_type: ""
 status: draft
 priority: ""
 sensitivity: internal
 lifecycle_state: candidate
 confidence: ""
-summary: ""
-strategic_significance: ""
-mission_alignment: []
-evidence: []
-related_initiatives: []
-related_stakeholders: []
-recommended_actions: []
-implications: []
-open_questions: []
 tags: []
 source:
   type: ""
   reference: ""
+summary: ""
+strategic_significance: ""
+mission_alignment: []
 related_records: []
+# === INTELLIGENCE FIELDS [Strategic + Tactical] ===
+intelligence_type: ""
+evidence: []
+implications: []
+open_questions: []
+recommended_actions: []
+related_initiatives: []
+related_stakeholders: []
 ---
 
 # Summary
 
-<!-- Concise description of the intelligence finding -->
+<!-- Concise intelligence summary -->
 
-# Intelligence Type
-
-<!-- stakeholder / political / market / technical / competitive / regulatory / security / operational -->
-
-# Strategic Significance
+## Strategic Significance
 
 <!-- Why this intelligence matters -->
 
-# Evidence
+## Evidence
 
-<!-- Supporting facts, sources, and intelligence inputs -->
+<!-- Source-backed evidence supporting this intelligence -->
 
-# Assessment
+## Implications
 
-<!-- Analytical assessment -->
+<!-- What this means for strategic objectives -->
 
-# Confidence Level
+## Open Questions
 
-<!-- HIGH / MEDIUM / LOW — with justification -->
+<!-- What remains unknown -->
 
-# Implications
+## Recommended Actions
 
-- 
+<!-- What should be done in response -->
 
-# Recommended Actions
+## Related Records
 
-- 
-
-# Related Initiatives
-
-- 
-
-# Related Stakeholders
-
-- 
-
-# Open Questions
-
-- 
-
-# Related Records
-
-- 
+<!-- Links to initiatives, stakeholders, PIRs -->

@@ -1,72 +1,54 @@
 ---
+# === UNIVERSAL BASE ===
 id: ACT-{{date}}-{{seq}}
 record_type: action
 title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
 owner: ""
-related_initiative: ""
-related_stakeholder: ""
-priority: ""
 status: draft
+priority: ""
 sensitivity: internal
 lifecycle_state: candidate
+confidence: ""
+tags: []
+source:
+  type: ""
+  reference: ""
+summary: ""
+strategic_significance: ""
+mission_alignment: []
+related_records: []
+# === ACTION FIELDS [Tactical] ===
 required_output: ""
 deadline: ""
 dependency: ""
 attention_level: ""
 completion_evidence: ""
-tags: []
-related_records: []
+related_initiative: ""
+related_stakeholder: 
 ---
 
-# Action Statement
+# Action
 
 <!-- Clear description of what needs to be done -->
 
-# Owner
+## Required Output
 
-<!-- Person responsible for executing this action -->
+<!-- What deliverable is expected -->
 
-# Deadline
+## Owner
 
-<!-- When this action must be completed -->
+<!-- Person responsible for execution -->
 
-# Required Output
+## Completion Evidence
 
-<!-- What deliverable or observable state proves this action is complete.
-     This field is MANDATORY. Every action must define its expected output.
-     Examples: "Signed proposal document", "Demonstration environment deployed", "Meeting scheduled and confirmed" -->
+<!-- What evidence proves this action is done -->
 
-# Related Initiative
+## Dependencies
 
-<!-- Which initiative this action supports -->
+<!-- What must happen first -->
 
-# Related Stakeholder
+## Related Records
 
-<!-- Which stakeholder is involved or affected -->
-
-# Priority
-
-<!-- critical / high / medium / low -->
-
-# Status
-
-<!-- draft / in-progress / active / open / proposed / pending / blocked / completed / overdue / cancelled / unresolved
-     NOTE: Use hyphen (in-progress), NOT underscore (in_progress) -->
-
-# Dependency
-
-<!-- What must happen before this action can proceed -->
-
-# Attention Level
-
-<!-- owner / approver / consulted / informed / delegated / deferred -->
-
-# Completion Evidence
-
-<!-- Evidence that this action is complete -->
-
-# Related Records
-
-- 
+<!-- Link to initiatives, stakeholders, decisions -->

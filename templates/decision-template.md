@@ -1,18 +1,34 @@
 ---
+# === UNIVERSAL BASE ===
 id: DEC-{{date}}-{{seq}}
 record_type: decision
-title: 
-decision_date: 
-decision_owner: 
+title: ""
+created_at: {{datetime}}
+updated_at: {{datetime}}
+owner: ""
 status: draft
-portfolio_tier: 
-priority: 
+priority: ""
 sensitivity: internal
-confidence: 
+lifecycle_state: candidate
+confidence: ""
 tags: []
 source:
-  type: 
-  reference: 
+  type: ""
+  reference: ""
+summary: ""
+strategic_significance: ""
+mission_alignment: []
+related_records: []
+# === DECISION FIELDS [Strategic] ===
+decision_date: ""
+decision_owner: ""
+portfolio_tier: ""
+context: ""
+decision: ""
+rationale: ""
+alternatives_considered: ""
+confirmed_by: ""
+confirmed_at: 
 ---
 
 # Context
@@ -29,48 +45,12 @@ source:
 
 # Alternatives Considered
 
-- 
+<!-- What other options were evaluated -->
 
-# Assumptions
+# Confirmation
 
-- 
-
-# Evidence
-
-- 
-
-# Expected Outcome
-
-<!-- What is expected to result from this decision -->
-
-# Consequences
-
-<!-- What follows from this decision — obligations, risks, changes -->
-
-# Risks Accepted
-
-- 
-
-# Implementation Owner
-
-- 
-
-# Implementation Actions
-
-- [ ] 
-
-# Review Trigger
-
-<!-- Conditions under which this decision should be revisited -->
+<!-- Who confirmed, when, how -->
 
 # Related Records
 
-- 
-
-# Supersedes
-
-<!-- Earlier decision records replaced by this one -->
-
-# Superseded By
-
-<!-- Later decision that replaces this one -->
+<!-- Links to initiatives, actions, conversations -->

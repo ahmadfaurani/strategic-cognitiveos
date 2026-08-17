@@ -42,7 +42,12 @@
         "risk",
         "question",
         "outcome",
-        "lesson"
+        "lesson",
+        "assessment",
+        "pir",
+        "briefing",
+        "draft",
+        "document"
       ]
     },
     "title": {
@@ -71,7 +76,12 @@
     },
     "portfolio_tier": {
       "type": "string",
-      "enum": ["flagship", "incubation", "watch-list", "operational"]
+      "enum": [
+        "flagship",
+        "incubation",
+        "watch-list",
+        "operational"
+      ]
     },
     "status": {
       "type": "string",
@@ -90,15 +100,30 @@
     },
     "priority": {
       "type": "string",
-      "enum": ["critical", "high", "medium", "low"]
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "sensitivity": {
       "type": "string",
-      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
     },
     "confidence": {
       "type": "string",
-      "enum": ["high", "medium", "low"]
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "tags": {
       "type": "array",
@@ -109,7 +134,9 @@
     },
     "source": {
       "type": "object",
-      "required": ["type"],
+      "required": [
+        "type"
+      ],
       "properties": {
         "type": {
           "type": "string",
@@ -126,34 +153,122 @@
             "internal-analysis"
           ]
         },
-        "platform": { "type": "string" },
-        "reference": { "type": "string" }
+        "platform": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        }
       }
     },
     "mission_alignment": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
-    "projects": { "type": "array", "items": { "type": "string" } },
-    "products": { "type": "array", "items": { "type": "string" } },
-    "stakeholders": { "type": "array", "items": { "type": "string" } },
-    "sponsor": { "type": "string" },
-    "decision_owner": { "type": "string" },
-    "delivery_owner": { "type": "string" },
-    "commercial_owner": { "type": "string" },
-    "decisions": { "type": "array", "items": { "type": "string" } },
-    "commitments": { "type": "array", "items": { "type": "string" } },
-    "actions": { "type": "array", "items": { "type": "string" } },
-    "dependencies": { "type": "array", "items": { "type": "string" } },
-    "risks": { "type": "array", "items": { "type": "string" } },
-    "assumptions": { "type": "array", "items": { "type": "string" } },
-    "evidence": { "type": "array", "items": { "type": "string" } },
-    "open_questions": { "type": "array", "items": { "type": "string" } },
-    "desired_outcome": { "type": "string" },
-    "success_metrics": { "type": "array", "items": { "type": "string" } },
-    "next_review": { "type": "string", "format": "date" },
-    "related_records": { "type": "array", "items": { "type": "string" } },
-    "supersedes": { "type": "string" },
-    "superseded_by": { "type": "string" }
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stakeholders": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sponsor": {
+      "type": "string"
+    },
+    "decision_owner": {
+      "type": "string"
+    },
+    "delivery_owner": {
+      "type": "string"
+    },
+    "commercial_owner": {
+      "type": "string"
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "commitments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "desired_outcome": {
+      "type": "string"
+    },
+    "success_metrics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_review": {
+      "type": "string",
+      "format": "date"
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supersedes": {
+      "type": "string"
+    },
+    "superseded_by": {
+      "type": "string"
+    }
   }
 }

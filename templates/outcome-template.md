@@ -1,15 +1,27 @@
 ---
+# === UNIVERSAL BASE ===
 id: OUT-{{date}}-{{seq}}
 record_type: outcome
-title: 
+title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
-owner: 
-related_initiative: 
-outcome_date: 
+owner: ""
 status: draft
+priority: ""
 sensitivity: internal
+lifecycle_state: candidate
+confidence: ""
 tags: []
+source:
+  type: ""
+  reference: ""
+summary: ""
+strategic_significance: ""
+mission_alignment: []
+related_records: []
+# === OUTCOME FIELDS [Operational] ===
+related_initiative: ""
+outcome_date: ""
 success_metrics: []
 ---
 
@@ -17,42 +29,18 @@ success_metrics: []
 
 <!-- What outcome was achieved -->
 
-# Related Initiative
+## Related Initiative
 
 <!-- Which initiative this outcome belongs to -->
 
-# Outcome Date
+## Outcome Date
 
 <!-- When this outcome was realised -->
 
-# Measured Results
+## Measured Results
 
 <!-- Quantitative or qualitative results -->
 
-# Success Metrics
+## Success Metrics
 
-- 
-
-# Assessment
-
-<!-- Did this meet expectations? -->
-
-# Lessons Learned
-
-- 
-
-# Reusable Methods
-
-- 
-
-# Patterns Identified
-
-<!-- Product, programme or institutional patterns that can be applied elsewhere -->
-
-# Evidence
-
-- 
-
-# Related Records
-
-- 
+<!-- How success was measured -->

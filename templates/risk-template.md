@@ -1,65 +1,54 @@
 ---
+# === UNIVERSAL BASE ===
 id: RSK-{{date}}-{{seq}}
 record_type: risk
 title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
 owner: ""
-risk_category: ""
-related_initiative: ""
-status: identified
+status: draft
 priority: ""
 sensitivity: internal
 lifecycle_state: candidate
+confidence: ""
+tags: []
+source:
+  type: ""
+  reference: ""
+summary: ""
+strategic_significance: ""
+mission_alignment: []
+related_records: []
+# === RISK FIELDS [Operational + Tactical] ===
+risk_category: ""
 probability: ""
 impact: ""
 mitigation_strategy: ""
 mitigation_owner: ""
 trigger_conditions: ""
-tags: []
-related_records: []
+related_initiative: 
 ---
 
 # Risk Description
 
 <!-- Clear description of the risk -->
 
-# Risk Category
+## Risk Category
 
-<!-- delivery-capacity / sponsor-gap / product-maturity / commercial-viability / stakeholder-alignment / technical-debt / governance / resource-constraint / timing / dependency -->
+<!-- delivery-capacity / sponsor-gap / product-maturity / commercial-viability / stakeholder-alignment / technical-debt / governance / resource-constraint / timing / dependency / reputational / compliance / security -->
 
-# Related Initiative
+## Probability & Impact
 
-<!-- Which initiative this risk affects -->
+<!-- Probability: low/medium/high | Impact: low/medium/high -->
 
-# Probability
+## Mitigation Strategy
 
-<!-- high / medium / low — likelihood of occurrence -->
+<!-- How this risk is being addressed -->
 
-# Impact
+## Trigger Conditions
 
-<!-- high / medium / low — severity if it occurs -->
+<!-- What signals that this risk is materialising -->
 
-# Risk Assessment
+## Related Records
 
-<!-- Combined probability × impact assessment -->
-
-# Mitigation Strategy
-
-<!-- What can be done to reduce probability or impact -->
-
-# Mitigation Owner
-
-<!-- Person responsible for mitigation -->
-
-# Status
-
-<!-- identified / mitigating / monitoring / active / realised / closed -->
-
-# Trigger Conditions
-
-<!-- What would indicate this risk is materialising -->
-
-# Related Records
-
-- 
+<!-- Links to initiatives, actions, decisions -->

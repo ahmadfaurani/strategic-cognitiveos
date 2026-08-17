@@ -1,72 +1,53 @@
 ---
+# === UNIVERSAL BASE ===
 id: CONV-{{date}}-{{seq}}
 record_type: conversation
-title: 
+title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
-owner: 
-decision_owner: 
-delivery_owner: 
-portfolio_tier: 
+owner: ""
 status: draft
-priority: 
+priority: ""
 sensitivity: internal
-confidence: 
+lifecycle_state: candidate
+confidence: ""
 tags: []
 source:
-  type: 
-  platform: 
-  reference: 
+  type: ""
+  reference: ""
+summary: ""
+strategic_significance: ""
+mission_alignment: []
+related_records: []
+# === CONVERSATION FIELDS [Operational] ===
+channel: ""
+participants: []
+decision_owner: ""
+delivery_owner: ""
+portfolio_tier: ""
+key_decisions: []
 ---
 
 # Summary
 
 <!-- Concise description of what was discussed -->
 
-# Strategic Significance
+## Strategic Significance
 
 <!-- Why this conversation matters strategically -->
 
-# Participants
+## Participants
 
 - 
 
-# Key Points
+## Key Decisions
 
-- 
+<!-- Any decisions made during this conversation -->
 
-# Decisions
+## Action Items
 
-- 
+<!-- Any actions arising from this conversation -->
 
-# Commitments
+## Related Records
 
-- 
-
-# Actions
-
-- [ ] 
-
-# Stakeholders Referenced
-
-- 
-
-# Projects Referenced
-
-- 
-
-# Risks Identified
-
-- 
-
-# Evidence
-
-- 
-
-# Open Questions
-
-- 
-
-# Related Records
-
-- 
+<!-- Links to decisions, actions, commitments -->

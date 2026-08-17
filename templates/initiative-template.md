@@ -1,99 +1,60 @@
 ---
+# === UNIVERSAL BASE ===
 id: INIT-{{date}}-{{seq}}
 record_type: initiative
-title: 
+title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
-owner: 
-sponsor: 
-delivery_owner: 
-commercial_owner: 
-portfolio_tier: 
+owner: ""
 status: draft
-priority: 
+priority: ""
 sensitivity: internal
-readiness_level: 
+lifecycle_state: candidate
+confidence: ""
 tags: []
+source:
+  type: ""
+  reference: ""
+summary: ""
+strategic_significance: ""
 mission_alignment: []
+related_records: []
+# === INITIATIVE FIELDS [Strategic] ===
+sponsor: ""
+delivery_owner: ""
+commercial_owner: ""
+portfolio_tier: ""
+readiness_level: ""
 stakeholders: []
 products: []
-source:
-  type: 
-  reference: 
 ---
 
 # Summary
 
 <!-- What is this initiative in one paragraph -->
 
-# Strategic Significance
+## Strategic Significance
 
 <!-- Why this initiative matters -->
 
-# Mission Alignment
+## Sponsor & Owners
 
-- 
+- **Sponsor:** 
+- **Delivery Owner:** 
+- **Commercial Owner:** 
 
-# Objectives
+## Readiness Level
 
-- 
+<!-- Current maturity: concept → framed → prototype → demo-ready → pilot-ready → delivery-ready → commercial-ready → scale-ready -->
 
-# Scope
+## Stakeholders
 
-<!-- What is in and out of scope -->
+<!-- Key stakeholders involved -->
 
-# Key Deliverables
+## Products
 
-- 
+<!-- Products or capabilities this initiative produces -->
 
-# Sponsor
+## Related Records
 
-<!-- Who is the institutional sponsor and what is their commitment level -->
-
-# Delivery Owner
-
-<!-- Who is accountable for execution -->
-
-# Stakeholders
-
-- 
-
-# Products
-
-- 
-
-# Commercial Model
-
-<!-- How this initiative creates value or revenue -->
-
-# Readiness Assessment
-
-<!-- Current readiness level and what's needed to advance -->
-
-# Dependencies
-
-- 
-
-# Risks
-
-- 
-
-# Key Decisions
-
-- 
-
-# Actions
-
-- [ ] 
-
-# Success Metrics
-
-- 
-
-# Next Review
-
-<!-- Date or trigger for next review -->
-
-# Related Records
-
-- 
+<!-- Links to actions, risks, decisions -->

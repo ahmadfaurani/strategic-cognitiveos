@@ -33,19 +33,30 @@ Layer 3: VALIDATOR (gate)
 
 ## 3. Record Type → Schema → Template Mapping
 
-| Record Type | ID Prefix | Schema File | Template File | Directory |
-|-------------|-----------|-------------|---------------|-----------|
-| action | ACT- | action.schema.json | action-template.md | actions/ |
-| commitment | COM- | commitment.schema.json | commitment-template.md | commitments/ |
-| conversation | CONV- | conversation.schema.json | conversation-template.md | engagements/ |
-| decision | DEC- | decision.schema.json | decision-template.md | decisions/ |
-| event | EVT- | event.schema.json | event-template.md | engagements/ |
-| initiative | INIT- | initiative.schema.json | initiative-template.md | initiatives/ |
-| intelligence | INT- | intelligence.schema.json | intelligence-template.md | intelligence/ |
-| organization | ORG- | organization.schema.json | organization-template.md | organizations/ |
-| outcome | OUT- | (strategic-memory.schema.json) | outcome-template.md | outcomes/ |
-| risk | RSK- | risk.schema.json | risk-template.md | risks/ |
-| stakeholder | STK- | stakeholder.schema.json | stakeholder-template.md | stakeholders/ |
+| Record Type | ID Prefix | Schema File | Template File | Directory | Tier |
+|-------------|-----------|-------------|---------------|-----------|------|
+| action | ACT- | action.schema.json | action-template.md | actions/ | Tactical |
+| assessment | ASSESS- | assessment.schema.json | assessment-template.md | assessments/ | Analytical |
+| artifact | ART- | artifact.schema.json | artifact-template.md | artifacts/ | Operational |
+| briefing | BRIEF- | briefing.schema.json | briefing-template.md | briefings/ | Strategic |
+| commitment | COM- | commitment.schema.json | commitment-template.md | commitments/ | Operational |
+| conversation | CONV- | conversation.schema.json | conversation-template.md | engagements/ | Operational |
+| decision | DEC- | decision.schema.json | decision-template.md | decisions/ | Strategic |
+| document | DOC- | document.schema.json | document-template.md | documents/ | Operational |
+| draft | DRAFT- | draft.schema.json | draft-template.md | drafts/ | Tactical |
+| initiative | INIT- | initiative.schema.json | initiative-template.md | initiatives/ | Strategic |
+| intelligence | INT- | intelligence.schema.json | intelligence-template.md | intelligence/ | Strategic |
+| lesson | LSN- | lesson.schema.json | lesson-template.md | (governance/) | Learning |
+| opportunity | OPP- | opportunity.schema.json | opportunity-template.md | opportunities/ | Strategic |
+| organization | ORG- | organization.schema.json | organization-template.md | organizations/ | Strategic |
+| outcome | OUT- | outcome.schema.json | outcome-template.md | outcomes/ | Operational |
+| pir | PIR- | pir.schema.json | pir-template.md | (intelligence/) | Strategic |
+| risk | RSK- | risk.schema.json | risk-template.md | risks/ | Operational |
+| stakeholder | STK- | stakeholder.schema.json | stakeholder-template.md | stakeholders/ | Operational |
+
+**Canonical record types: 18** (14 spec-defined + 4 operational: assessment, briefing, draft, document)
+
+**Retired types:** event (merged into conversation), engagement (conversation is canonical for engagements/ directory)
 
 ---
 

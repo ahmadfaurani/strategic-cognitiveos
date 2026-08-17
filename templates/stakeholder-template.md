@@ -1,105 +1,77 @@
 ---
+# === UNIVERSAL BASE ===
 id: STK-{{date}}-{{seq}}
 record_type: stakeholder
-title: 
+title: ""
 created_at: {{datetime}}
 updated_at: {{datetime}}
-owner: 
-stakeholder_type: 
-organisation: 
-role: 
-influence_level: 
-interest_level: 
-relationship_status: new
-strategic_relevance: 
-relationship_owner: 
+owner: ""
+status: draft
+priority: ""
 sensitivity: internal
 lifecycle_state: candidate
-engagement_objective: 
-current_position: 
+confidence: ""
+tags: []
+source:
+  type: ""
+  reference: ""
+summary: ""
+strategic_significance: ""
+mission_alignment: []
+related_records: []
+# === STAKEHOLDER FIELDS [Operational] ===
+stakeholder_type: ""
+organisation: ""
+role: ""
+influence_level: ""
+interest_level: ""
+relationship_status: new
+engagement_objective: ""
+current_position: ""
 commitments_by_us: []
 commitments_by_stakeholder: []
-last_engagement: 
-next_engagement: 
+last_engagement: ""
+next_engagement: ""
 related_initiatives: []
-tags: []
-related_records: []
 ---
-
-# Stakeholder — Individual Person
-
-> **SCOPE:** This record type is for individual persons only.
-> Organisations, agencies, and institutions use the `organization` record type (ORG- prefix).
-> An individual's employer is captured in the `organisation` field below, not as a separate STK record.
 
 # Name
 
-<!-- Full name of the individual -->
+<!-- Full name -->
 
-# Role
+## Role
 
-<!-- Current position or title held by this person -->
+<!-- Current role and position -->
 
-# Organisation
+## Organisation
 
-<!-- Name of the organisation this person works for (link ORG- record if exists) -->
+<!-- Which organisation they belong to -->
 
-# Stakeholder Type
+## Influence & Interest
 
-<!-- government / internal / partner / prospect / academic / technical / political / defence / regulatory / industry -->
+<!-- Influence: high/medium/low | Interest: high/medium/low -->
 
-# Strategic Relevance
+## Engagement Objective
 
-<!-- Why this relationship matters to the portfolio -->
+<!-- What we want to achieve with this stakeholder -->
 
-# Influence Level
+## Current Position
 
-<!-- High / Medium / Low — with justification -->
+<!-- Where they currently stand on our initiatives -->
 
-# Interest Level
+## Commitments
 
-<!-- High / Medium / Low — with justification -->
+### By Us
+<!-- What we've committed to this stakeholder -->
 
-# Engagement Objective
+### By Stakeholder
+<!-- What they've committed to us -->
 
-<!-- Intended relationship outcome -->
+## Engagement History
 
-# Current Position
+- **Last Engagement:** 
+- **Next Engagement:** 
 
-<!-- Known views, interests, or priorities -->
+## Related Records
 
-# Commitments Made By Us
-
-- 
-
-# Commitments Made By Stakeholder
-
-- 
-
-# Last Engagement
-
-<!-- Most recent meaningful interaction — date and summary -->
-
-# Next Engagement
-
-<!-- Required follow-up — date and purpose -->
-
-# Relationship Owner
-
-<!-- Person accountable for this relationship -->
-
-# Related Initiatives
-
-- 
-
-# Engagement History
-
-<!-- Chronological log of key engagements -->
-
-# Notes
-
-<!-- Additional context -->
-
-# Related Records
-
-- 
+<!-- Links to initiatives, conversations, intelligence -->
