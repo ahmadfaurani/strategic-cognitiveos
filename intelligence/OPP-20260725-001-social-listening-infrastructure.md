@@ -3,7 +3,7 @@ id: INT-20260725-001
 record_type: intelligence
 title: Opportunity — Social Listening Infrastructure Provisioning
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: '2026-08-17T17:36:54+00:00'
+updated_at: '2026-08-18T01:50:00+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -36,7 +36,7 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 17, Sector 2
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: No Critical PIRs. Supporting workstream for CSCDC partnership.
+strategic_significance: No Critical PIRs. 2 PIRs resolved, 2 partial (synced 2026-08-18, intel cutoff 2026-08-03). Supporting workstream for CSCDC partnership.
 related_records: []
 pir_tier: CJ-3
 collection_cycle: daily
@@ -96,12 +96,14 @@ Market — infrastructure provisioning opportunity
 ## PIR-OPP001-001: Meltwave/Brand24 Government Pricing
 **Requirement:** What is the actual enterprise licensing cost for Meltwater, Brand24, and CARMA for a Malaysian government agency with multilingual monitoring requirements?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Enterprise licensing cost mapped — Meltwater Enterprise from USD 130K/yr (public-sector discount available), Brand24 Enterprise from USD ~18K/yr (~RM 80K, fits RM 120K budget), CARMA mid-range (Carma Asia (MY) Sdn Bhd). RM 120K aligns with Brand24 Enterprise + margin or Meltwater Pro + discount. (Source: CJ-3, Aug 3 report)
 
 ## PIR-OPP001-002: Inter-Agency Sharing Feasibility
 **Requirement:** Does MCMC or JAPEN already have enterprise social listening infrastructure that CSCDC could share or access?
 **Priority:** High
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** MCMC has enforcement/complaint infrastructure (NEXUS analytics, CRP Portal, 43,618 scam posts removed Q1 2026) but NO dedicated social listening/sentiment platform found. JAPEN focused on content production/dissemination (IPPTAR), not listening analytics. Capability gap confirmed — opportunity for CSCDC. (Source: CJ-3, Aug 3 report)
 
 ## PIR-OPP001-003: CSCDC Monitoring Scope
 **Requirement:** What specific platforms, languages, and sentiment categories does CSCDC need to monitor — and at what volume/frequency?
@@ -126,7 +128,8 @@ Market — infrastructure provisioning opportunity
 ## PIR-OPP001-007: Data Sovereignty
 **Requirement:** Does CSCDC require social listening data to be stored on Malaysian soil (data sovereignty requirement)?
 **Priority:** High
-**Status:** Open
+**Status:** 🟢 Resolved (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** No strict data localisation for commercial data (PDPA cross-border transfer rules apply — equivalent protection, consent, or BCRs/SCCs). Government classified data governed by OSA 1972, not PDPA. For commercial social listening on public sentiment, no localisation mandate. (Source: CJ-3, Aug 3 report)
 
 ## PIR-OPP001-008: Crisis Monitoring Surge
 **Requirement:** During a national cyber crisis, what additional monitoring capacity does Unit 4 need beyond the day-to-day baseline?
@@ -141,7 +144,8 @@ Market — infrastructure provisioning opportunity
 ## PIR-OPP001-010: Competitor Analysis
 **Requirement:** Which social listening vendors are already on any existing government panel contracts that CSCDC could access?
 **Priority:** High
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** CARMA Asia (MY) Sdn Bhd has Malaysian corporate presence + government contract track record (Australian DFAT AUD 198K). Meltwater has KL office. ePerolehen is the registration gateway. Specific Malaysian government panel awards for social listening not publicly verified. (Source: CJ-3, Aug 3 report)
 
 # Related Records
 

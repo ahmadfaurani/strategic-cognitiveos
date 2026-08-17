@@ -3,7 +3,7 @@ id: INT-20260725-010
 record_type: intelligence
 title: Opportunity — Post-Merger Cultural Integration Support
 created_at: 2026-07-25 10:35:00+00:00
-updated_at: '2026-08-17T17:36:54+00:00'
+updated_at: '2026-08-18T01:50:00+00:00'
 owner: DAF
 intelligence_type: market
 status: draft
@@ -38,7 +38,7 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 8
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream — gate prerequisites met.
+strategic_significance: No Critical PIRs. 2 PIRs partial (synced 2026-08-18, intel cutoff 2026-08-03). Post-merger internal dynamics — OSNT-limited (Tier-1 stale).
 related_records: []
 pir_tier: CJ-6
 collection_cycle: 12h
@@ -98,7 +98,8 @@ Market — organisational design and change management opportunity
 ## PIR-OPP010-001: Integration Status
 **Requirement:** What is the current operational integration status between PTPKM and CSM — co-located, systems integrated, reporting unified, or still operating separately?
 **Priority:** High
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** CSCDC establishment confirmed — PM announcement 13 Feb 2026 (JKSN meeting), operational from 3 June 2026. Centralises PTPKM + CSM functions under NACSA/JPM. Detailed operational integration (co-location, systems, reporting unified) not publicly disclosed. (Source: CJ-1/CJ-6, Aug 3 report)
 
 ## PIR-OPP010-002: Cultural Assessment
 **Requirement:** Has any cultural assessment or integration diagnostic been conducted post-merger — and what were the findings?
@@ -108,7 +109,8 @@ Market — organisational design and change management opportunity
 ## PIR-OPP010-003: Leadership Structure
 **Requirement:** How is leadership composed — is it PTPKM-dominated, CSM-dominated, or balanced — and what tensions exist?
 **Priority:** High
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-03)
+**Intelligence:** Leadership identified — Board Chairman KSN Tan Sri Shamsul Azri, NACSA CE Dr Megat Zuhairy, MKN DG Raja Nushirwan, CSM Acting CEO Roshdi Ahmad, PTPKM Director Prof Dr Muhammad Rezal, CSM CTO Wan Roshaimi. PTPKM vs CSM balance and internal tensions not publicly known. (Source: CJ-1, Aug 3 report)
 
 ## PIR-OPP010-004: Process Harmonisation
 **Requirement:** Have operational processes (procurement, reporting, approval chains, HR) been harmonised, or do PTPKM and CSM staff follow different protocols?
