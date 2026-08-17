@@ -1,0 +1,3540 @@
+================================================================================
+PHASE 2 MIGRATION MANIFEST — DRY RUN
+Generated: 2026-08-17T17:17:10.201071+00:00
+================================================================================
+
+## SUMMARY
+  Records scanned: 392
+  Records with renames: 27 (31 total rename ops)
+  Records with CONFLICTS: 28 (28 conflict ops)
+  Records with source nesting: 11 (20 ops)
+  Records with empty field inserts: 388 (2285 total inserts)
+  Records with type reclassification: 5
+
+================================================================================
+## BLOCKER: VALUE-MISMATCH CONFLICTS (require manual decision)
+================================================================================
+  28 conflicts found across 28 records.
+  Policy: canonical field value wins, legacy field deleted.
+  BUT if values differ, DAF must review.
+
+  FILE: risks/RSK-20260810-002.md
+    ID: RSK-20260810-002
+    OLD: likelihood = high
+    NEW: probability = medium
+    DECISION: keep 'probability' (canonical), delete 'likelihood'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: risks/RSK-20260804-001.md
+    ID: RSK-20260804-001
+    OLD: likelihood = high
+    NEW: probability = medium
+    DECISION: keep 'probability' (canonical), delete 'likelihood'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: risks/RSK-20260810-003.md
+    ID: RSK-20260810-003
+    OLD: likelihood = high
+    NEW: probability = medium
+    DECISION: keep 'probability' (canonical), delete 'likelihood'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: commitments/COM-20260817-002.md
+    ID: COM-20260817-002
+    OLD: commitment_maker = person/faurani-jaafar
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'commitment_maker'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: commitments/COM-20260817-001.md
+    ID: COM-20260817-001
+    OLD: commitment_maker = STK-20260803-007
+    NEW: owner = hadri
+    DECISION: keep 'owner' (canonical), delete 'commitment_maker'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: commitments/COM-20260817-003.md
+    ID: COM-20260817-003
+    OLD: commitment_maker = STK-20260803-007
+    NEW: owner = hadri
+    DECISION: keep 'owner' (canonical), delete 'commitment_maker'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: stakeholders/STK-20260813-013.md
+    ID: STK-20260813-013
+    OLD: name = Zulfeka Zainal Abidin
+    NEW: title = See record body
+    DECISION: keep 'title' (canonical), delete 'name'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: stakeholders/STK-20260813-016.md
+    ID: STK-20260813-016
+    OLD: name = Said Farid Zainudin
+    NEW: title = See record body
+    DECISION: keep 'title' (canonical), delete 'name'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: stakeholders/STK-20260813-015.md
+    ID: STK-20260813-015
+    OLD: name = Rashid Bin Ramli
+    NEW: title = See record body
+    DECISION: keep 'title' (canonical), delete 'name'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: stakeholders/STK-20260813-014.md
+    ID: STK-20260813-014
+    OLD: name = Amelia Nadia Azharul Nahar
+    NEW: title = Sr. Stakeholder Engagement & Strategic Marketing Executive
+    DECISION: keep 'title' (canonical), delete 'name'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260813-009.md
+    ID: ACT-20260813-009
+    OLD: assignee = hadri
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assignee'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260808-002.md
+    ID: ACT-20260808-002
+    OLD: assignee = azzatullina-pawanchik
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assignee'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260808-003.md
+    ID: ACT-20260808-003
+    OLD: assignee = kenny-kok
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assignee'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260811-010.md
+    ID: ACT-20260811-010
+    OLD: assigned_to = Marketing
+    NEW: owner = azzatullina-pawanchik
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260811-012.md
+    ID: ACT-20260811-012
+    OLD: assigned_to = Joint Team
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260811-009.md
+    ID: ACT-20260811-009
+    OLD: assigned_to = Sales
+    NEW: owner = shuhada-m-halimi
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260815-008.md
+    ID: ACT-20260815-008
+    OLD: assigned_to = ahmad-fuad
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260811-011.md
+    ID: ACT-20260811-011
+    OLD: assigned_to = Cybersecurity Practice/Product Team
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260815-011.md
+    ID: ACT-20260815-011
+    OLD: assigned_to = azzatullina-pawanchik
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260817-003.md
+    ID: ACT-20260817-003
+    OLD: assignee = STK-20260804-001
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assignee'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260815-007.md
+    ID: ACT-20260815-007
+    OLD: assignee = ember
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assignee'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260811-013.md
+    ID: ACT-20260811-013
+    OLD: assigned_to = Joint Team
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260815-010.md
+    ID: ACT-20260815-010
+    OLD: assigned_to = hadri
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260815-013.md
+    ID: ACT-20260815-013
+    OLD: assigned_to = amelia-nadia
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260816-005.md
+    ID: ACT-20260816-005
+    OLD: assigned_to = amelia-nadia
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260815-009.md
+    ID: ACT-20260815-009
+    OLD: assigned_to = ahmad-fuad
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260811-008.md
+    ID: ACT-20260811-008
+    OLD: assigned_to = Sales + Cybersecurity Practice
+    NEW: owner = faurani-jaafar
+    DECISION: keep 'owner' (canonical), delete 'assigned_to'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+  FILE: actions/ACT-20260817-001.md
+    ID: ACT-20260817-001
+    OLD: assignee = STK-20260803-007
+    NEW: owner = hadri
+    DECISION: keep 'owner' (canonical), delete 'assignee'?
+    ===> VALUES DIFFER — REVIEW REQUIRED
+
+
+================================================================================
+## SAFE RENAMES (no conflicts)
+================================================================================
+  31 safe rename operations:
+
+  RSK-20260816-003                         | likelihood                -> probability               | rename
+  RSK-20260816-002                         | likelihood                -> probability               | rename
+  RSK-20260804-002                         | likelihood                -> probability               | delete_duplicate
+  RSK-20260810-001                         | likelihood                -> probability               | delete_duplicate
+  RSK-20260804-003                         | likelihood                -> probability               | delete_duplicate
+  COM-20260817-002                         | commitment_receiver       -> receiving_stakeholder     | rename
+  COM-20260817-001                         | commitment_receiver       -> receiving_stakeholder     | rename
+  COM-20260817-003                         | commitment_receiver       -> receiving_stakeholder     | rename
+  STK-20260811-002                         | influence                 -> influence_level           | rename
+  STK-20260811-002                         | interest                  -> interest_level            | rename
+  STK-20260811-002                         | engagement_level          -> engagement_objective      | rename
+  STK-20260811-003                         | influence                 -> influence_level           | rename
+  STK-20260811-003                         | interest                  -> interest_level            | rename
+  STK-20260811-003                         | engagement_level          -> engagement_objective      | rename
+  DEC-20260813-001                         | decision_maker            -> decision_owner            | delete_duplicate
+  DEC-20260817-001                         | decision_maker            -> decision_owner            | rename
+  ACT-20260815-006                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260813-012                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260817-002                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260808-001                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260817-007                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260817-004                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260808-005                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260813-011                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260817-008                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260816-001                         | assigned_to               -> owner                     | delete_duplicate
+  ACT-20260817-006                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260813-008                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260813-010                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260808-004                         | assignee                  -> owner                     | delete_duplicate
+  ACT-20260815-012                         | assigned_to               -> owner                     | delete_duplicate
+
+================================================================================
+## SOURCE FIELD NESTING
+================================================================================
+  20 source nesting operations:
+
+  INT-20260815-001                         | source_type               -> source.document           | create_source_object
+  INT-20260815-001                         | source_reference          -> source.DAF-authored document, 13 sections, 3 messages | create_source_object
+  INT-20260815-001                         | source_platform           -> source.telegram           | create_source_object
+  COM-20260817-002                         | source_type               -> source.email-confirmation | create_source_object
+  COM-20260817-002                         | source_reference          -> source.Hadri status tracking email (Aug 17, 2026) — P1 #6 | create_source_object
+  COM-20260817-001                         | source_type               -> source.email-confirmation | create_source_object
+  COM-20260817-001                         | source_reference          -> source.Hadri status tracking email (Aug 17, 2026) — P0 #3 | create_source_object
+  COM-20260817-003                         | source_type               -> source.email-confirmation | create_source_object
+  COM-20260817-003                         | source_reference          -> source.Hadri status tracking email (Aug 17, 2026) — P1 #5 | create_source_object
+  DOC-20260814-001                         | source_type               -> source.docx-upload        | create_source_object
+  DOC-20260814-003                         | source_type               -> source.docx-upload        | create_source_object
+  DOC-20260814-002                         | source_type               -> source.docx-upload        | create_source_object
+  CONV-20260817-002                        | source_type               -> source.email-thread       | create_source_object
+  CONV-20260817-002                        | source_reference          -> source.Email thread: Top 7 Priority Items Status Tracking (Aug 17, 2026) | create_source_object
+  CONV-20260817-001                        | source_type               -> source.email-thread       | create_source_object
+  CONV-20260817-001                        | source_reference          -> source.Email thread: CyberDSA 2026 – Partnership, Marketing & Commercial Alignment (Aug 17, 2026) | create_source_object
+  CONV-20260815-005                        | source_type               -> source.document-share     | create_source_object
+  CONV-20260815-005                        | source_reference          -> source.CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx | create_source_object
+  DEC-20260817-001                         | source_type               -> source.email-confirmation | create_source_object
+  DEC-20260817-001                         | source_reference          -> source.Hadri status tracking email (Aug 17, 2026) — Item P1 #7 | create_source_object
+
+================================================================================
+## EMPTY FIELD INSERTIONS
+================================================================================
+  Total insertions by field:
+    strategic_significance        :  388 records
+    mission_alignment             :  347 records
+    confidence                    :  321 records
+    summary                       :  315 records
+    related_records               :  275 records
+    source                        :  220 records
+    priority                      :  160 records
+    status                        :  115 records
+    lifecycle_state               :   42 records
+    updated_at                    :   39 records
+    owner                         :   27 records
+    created_at                    :   13 records
+    sensitivity                   :   13 records
+    tags                          :   10 records
+
+  Empty value types:
+    confidence                    : None
+    created_at                    : None
+    lifecycle_state               : None
+    mission_alignment             : []
+    owner                         : None
+    priority                      : None
+    related_records               : []
+    sensitivity                   : None
+    source                        : {'type': None, 'reference': None}
+    status                        : None
+    strategic_significance        : None
+    summary                       : None
+    tags                          : []
+    updated_at                    : None
+
+================================================================================
+## TYPE RECLASSIFICATION
+================================================================================
+  STRAT-20260807-001                       | strategy -> initiative
+  PIR-STATUS-2026-07-27                    | index -> artifact
+  PIR-INVENTORY-001                        | index -> artifact
+  PIR-STATUS-2026-08-03                    | index -> artifact
+  GOV-PIR-CLOSURE-001                      | governance -> document
+
+================================================================================
+## NON-CANONICAL FIELDS (preserved, not deleted)
+================================================================================
+  59 distinct non-canonical fields preserved:
+    email                                   :  22 records
+    related_initiatives                     :  18 records
+    department                              :  18 records
+    initiative                              :  14 records
+    classification                          :   8 records
+    authority                               :   7 records
+    related_stakeholders                    :   7 records
+    date                                    :   6 records
+    parent_initiative                       :   5 records
+    dependencies                            :   5 records
+    delegated_by                            :   5 records
+    risk_type                               :   4 records
+    channel                                 :   4 records
+    portfolio_tier                          :   3 records
+    context                                 :   3 records
+    rationale                               :   3 records
+    product                                 :   3 records
+    category                                :   3 records
+    source_authority                        :   3 records
+    risks                                   :   3 records
+    co_owner                                :   3 records
+    previous_owner                          :   3 records
+    delegated_to                            :   3 records
+    related_initiative                      :   2 records
+    generated_by                            :   2 records
+    schedule                                :   2 records
+    first_seen                              :   2 records
+    target_readiness                        :   2 records
+    data_sources                            :   2 records
+    delivery_owner                          :   2 records
+    parent_workstream                       :   1 records
+    exposure                                :   1 records
+    mitigations                             :   1 records
+    related_stakeholder                     :   1 records
+    committed_by                            :   1 records
+    committed_to                            :   1 records
+    deadline                                :   1 records
+    engagement_history                      :   1 records
+    phone                                   :   1 records
+    address                                 :   1 records
+    decision_type                           :   1 records
+    decision_weight                         :   1 records
+    confirmation_note                       :   1 records
+    related_decisions                       :   1 records
+    participants                            :   1 records
+    product_manager                         :   1 records
+    delivery_owner_current                  :   1 records
+    tier                                    :   1 records
+    parent_initiatives                      :   1 records
+    workstream                              :   1 records
+    note_readiness                          :   1 records
+    predecessor                             :   1 records
+    projects                                :   1 records
+    products                                :   1 records
+    stakeholders                            :   1 records
+    decisions                               :   1 records
+    actions                                 :   1 records
+    supersedes                              :   1 records
+    related                                 :   1 records
+
+================================================================================
+## PER-RECORD CHANGE DETAIL
+================================================================================
+
+  [action] ACT-20260802-001 — actions/ACT-20260802-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260802-002 — actions/ACT-20260802-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260802-003 — actions/ACT-20260802-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260802-004 — actions/ACT-20260802-004.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260802-005 — actions/ACT-20260802-005.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260802-006 — actions/ACT-20260802-006.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260802-007 — actions/ACT-20260802-007.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260802-008 — actions/ACT-20260802-008.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260802-009 — actions/ACT-20260802-009.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260802-010 — actions/ACT-20260802-010.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260803-001 — actions/ACT-20260803-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260803-002 — actions/ACT-20260803-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260803-003 — actions/ACT-20260803-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260803-004 — actions/ACT-20260803-004.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260803-005 — actions/ACT-20260803-005.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260803-006 — actions/ACT-20260803-006.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260803-007 — actions/ACT-20260803-007.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260803-008 — actions/ACT-20260803-008.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-001 — actions/ACT-20260804-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-002 — actions/ACT-20260804-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-003 — actions/ACT-20260804-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-004 — actions/ACT-20260804-004.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-005 — actions/ACT-20260804-005.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-006 — actions/ACT-20260804-006.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-007 — actions/ACT-20260804-007.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-008 — actions/ACT-20260804-008.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-009 — actions/ACT-20260804-009.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-010 — actions/ACT-20260804-010.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-011 — actions/ACT-20260804-011.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-012 — actions/ACT-20260804-012.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-013 — actions/ACT-20260804-013.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-014 — actions/ACT-20260804-014.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-015 — actions/ACT-20260804-015.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-016 — actions/ACT-20260804-016.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260804-017 — actions/ACT-20260804-017.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260807-001 — actions/ACT-20260807-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260807-002 — actions/ACT-20260807-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260807-003 — actions/ACT-20260807-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-001 — actions/ACT-20260808-001.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: updated_at = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-002 — actions/ACT-20260808-002.md
+    CONFLICT: assignee=azzatullina-pawanchik vs owner=faurani-jaafar
+    INSERT: updated_at = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-003 — actions/ACT-20260808-003.md
+    CONFLICT: assignee=kenny-kok vs owner=faurani-jaafar
+    INSERT: updated_at = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-004 — actions/ACT-20260808-004.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: updated_at = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-005 — actions/ACT-20260808-005.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: updated_at = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-006 — actions/ACT-20260808-006.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-007 — actions/ACT-20260808-007.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-008 — actions/ACT-20260808-008.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-009 — actions/ACT-20260808-009.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260808-010 — actions/ACT-20260808-010.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260810-001 — actions/ACT-20260810-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260810-002 — actions/ACT-20260810-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260810-003 — actions/ACT-20260810-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260810-004 — actions/ACT-20260810-004.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260810-005 — actions/ACT-20260810-005.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260810-006 — actions/ACT-20260810-006.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260810-007 — actions/ACT-20260810-007.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-001 — actions/ACT-20260811-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-002 — actions/ACT-20260811-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-003 — actions/ACT-20260811-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-004 — actions/ACT-20260811-004.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-005 — actions/ACT-20260811-005.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-006 — actions/ACT-20260811-006.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-007 — actions/ACT-20260811-007.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-008 — actions/ACT-20260811-008.md
+    CONFLICT: assigned_to=Sales + Cybersecurity Practice vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-009 — actions/ACT-20260811-009.md
+    CONFLICT: assigned_to=Sales vs owner=shuhada-m-halimi
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-010 — actions/ACT-20260811-010.md
+    CONFLICT: assigned_to=Marketing vs owner=azzatullina-pawanchik
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-011 — actions/ACT-20260811-011.md
+    CONFLICT: assigned_to=Cybersecurity Practice/Product Team vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-012 — actions/ACT-20260811-012.md
+    CONFLICT: assigned_to=Joint Team vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260811-013 — actions/ACT-20260811-013.md
+    CONFLICT: assigned_to=Joint Team vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260812-001 — actions/ACT-20260812-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260812-002 — actions/ACT-20260812-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260812-003 — actions/ACT-20260812-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-001 — actions/ACT-20260813-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-002 — actions/ACT-20260813-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-003 — actions/ACT-20260813-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-004 — actions/ACT-20260813-004.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-005 — actions/ACT-20260813-005.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-006 — actions/ACT-20260813-006.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-007 — actions/ACT-20260813-007.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-008 — actions/ACT-20260813-008.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-009 — actions/ACT-20260813-009.md
+    CONFLICT: assignee=hadri vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-010 — actions/ACT-20260813-010.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-011 — actions/ACT-20260813-011.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260813-012 — actions/ACT-20260813-012.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-001 — actions/ACT-20260815-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-002 — actions/ACT-20260815-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-003 — actions/ACT-20260815-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-004 — actions/ACT-20260815-004.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-005 — actions/ACT-20260815-005.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-006 — actions/ACT-20260815-006.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260815-007 — actions/ACT-20260815-007.md
+    CONFLICT: assignee=ember vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260815-008 — actions/ACT-20260815-008.md
+    CONFLICT: assigned_to=ahmad-fuad vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-009 — actions/ACT-20260815-009.md
+    CONFLICT: assigned_to=ahmad-fuad vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-010 — actions/ACT-20260815-010.md
+    CONFLICT: assigned_to=hadri vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-011 — actions/ACT-20260815-011.md
+    CONFLICT: assigned_to=azzatullina-pawanchik vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-012 — actions/ACT-20260815-012.md
+    RENAME: assigned_to -> owner (delete_duplicate)
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260815-013 — actions/ACT-20260815-013.md
+    CONFLICT: assigned_to=amelia-nadia vs owner=faurani-jaafar
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260816-001 — actions/ACT-20260816-001.md
+    RENAME: assigned_to -> owner (delete_duplicate)
+    INSERT: lifecycle_state = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260816-002 — actions/ACT-20260816-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260816-003 — actions/ACT-20260816-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260816-004 — actions/ACT-20260816-004.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260816-005 — actions/ACT-20260816-005.md
+    CONFLICT: assigned_to=amelia-nadia vs owner=faurani-jaafar
+    INSERT: lifecycle_state = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260817-001 — actions/ACT-20260817-001.md
+    CONFLICT: assignee=STK-20260803-007 vs owner=hadri
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260817-002 — actions/ACT-20260817-002.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260817-003 — actions/ACT-20260817-003.md
+    CONFLICT: assignee=STK-20260804-001 vs owner=faurani-jaafar
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260817-004 — actions/ACT-20260817-004.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260817-005 — actions/ACT-20260817-005.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [action] ACT-20260817-006 — actions/ACT-20260817-006.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260817-007 — actions/ACT-20260817-007.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [action] ACT-20260817-008 — actions/ACT-20260817-008.md
+    RENAME: assignee -> owner (delete_duplicate)
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [assessment] ASSESS-20260817-001 — assessments/ASSESS-20260817-001.md
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [briefing] BRIEF-20260811-002 — briefings/BRIEF-20260811-002.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [briefing] EXEC-BOTTLENECK-20260811 — briefings/EXEC-BOTTLENECK-20260811.md
+    INSERT: updated_at = None
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [briefing] EXEC-PLAN-20260811 — briefings/EXEC-PLAN-20260811.md
+    INSERT: updated_at = None
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [commitment] COM-20260803-001 — commitments/COM-20260803-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [commitment] COM-20260807-001 — commitments/COM-20260807-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [commitment] COM-20260810-001 — commitments/COM-20260810-001.md
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [commitment] COM-20260810-002 — commitments/COM-20260810-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [commitment] COM-20260811-001 — commitments/COM-20260811-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [commitment] COM-20260812-001 — commitments/COM-20260812-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [commitment] COM-20260813-001 — commitments/COM-20260813-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [commitment] COM-20260813-002 — commitments/COM-20260813-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [commitment] COM-20260813-003 — commitments/COM-20260813-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [commitment] COM-20260817-001 — commitments/COM-20260817-001.md
+    RENAME: commitment_receiver -> receiving_stakeholder (rename)
+    CONFLICT: commitment_maker=STK-20260803-007 vs owner=hadri
+    SOURCE: source_type -> source.email-confirmation (create_source_object)
+    SOURCE: source_reference -> source.Hadri status tracking email (Aug 17, 2026) — P0 #3 (create_source_object)
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [commitment] COM-20260817-002 — commitments/COM-20260817-002.md
+    RENAME: commitment_receiver -> receiving_stakeholder (rename)
+    CONFLICT: commitment_maker=person/faurani-jaafar vs owner=faurani-jaafar
+    SOURCE: source_type -> source.email-confirmation (create_source_object)
+    SOURCE: source_reference -> source.Hadri status tracking email (Aug 17, 2026) — P1 #6 (create_source_object)
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [commitment] COM-20260817-003 — commitments/COM-20260817-003.md
+    RENAME: commitment_receiver -> receiving_stakeholder (rename)
+    CONFLICT: commitment_maker=STK-20260803-007 vs owner=hadri
+    SOURCE: source_type -> source.email-confirmation (create_source_object)
+    SOURCE: source_reference -> source.Hadri status tracking email (Aug 17, 2026) — P1 #5 (create_source_object)
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260627-001 — memory/CONV-20260627-001.md
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260710-001 — memory/CONV-20260710-001.md
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260711-001 — memory/CONV-20260711-001.md
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260724-001 — memory/CONV-20260724-001.md
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260802-001 — memory/CONV-20260802-001.md
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260802-002 — memory/CONV-20260802-002.md
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+
+  [conversation] CONV-20260803-001 — memory/CONV-20260803-001.md
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260803-002 — memory/CONV-20260803-002.md
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260804-001 — engagements/CONV-20260804-001.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260804-002 — engagements/CONV-20260804-002.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260804-003 — engagements/CONV-20260804-003.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260804-004 — engagements/CONV-20260804-004.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260804-005 — engagements/CONV-20260804-005.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260807-001 — engagements/CONV-20260807-001.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260808-001 — engagements/CONV-20260808-001.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260808-002 — engagements/CONV-20260808-002.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260810-001 — engagements/CONV-20260810-001.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260810-002 — engagements/CONV-20260810-002.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260811-001 — engagements/CONV-20260811-001.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260811-002 — engagements/CONV-20260811-002.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260812-001 — engagements/CONV-20260812-001.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260813-001 — engagements/CONV-20260813-001.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260813-002 — engagements/CONV-20260813-002.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260815-001 — engagements/CONV-20260815-001.md
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [conversation] CONV-20260815-003 — engagements/CONV-20260815-003.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260815-004 — engagements/CONV-20260815-004-cyberdsa-warroom-tier1-notification.md
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260815-005 — engagements/CONV-20260815-005-csm-aras-stakeholder-coverage-plan.md
+    SOURCE: source_type -> source.document-share (create_source_object)
+    SOURCE: source_reference -> source.CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx (create_source_object)
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260816-001 — engagements/CONV-20260816-001.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260816-002 — engagements/CONV-20260816-002.md
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260817-001 — engagements/CONV-20260817-001.md
+    SOURCE: source_type -> source.email-thread (create_source_object)
+    SOURCE: source_reference -> source.Email thread: CyberDSA 2026 – Partnership, Marketing & Commercial Alignment (Aug 17, 2026) (create_source_object)
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260817-002 — engagements/CONV-20260817-002.md
+    SOURCE: source_type -> source.email-thread (create_source_object)
+    SOURCE: source_reference -> source.Email thread: Top 7 Priority Items Status Tracking (Aug 17, 2026) (create_source_object)
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260817-003 — engagements/CONV-20260817-003.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260817-004 — engagements/CONV-20260817-004.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [conversation] CONV-20260817-005 — engagements/CONV-20260817-005.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [decision] DEC-20260628-001 — decisions/DEC-20260628-001.md
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [decision] DEC-20260710-001 — decisions/DEC-20260710-001.md
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [decision] DEC-20260712-001 — decisions/DEC-20260712-001.md
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [decision] DEC-20260724-001 — decisions/DEC-20260724-001.md
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [decision] DEC-20260725-001 — decisions/DEC-20260725-001.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260802-001 — decisions/DEC-20260802-001.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260804-001 — decisions/DEC-20260804-001.md
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260807-001 — decisions/DEC-20260807-001.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260808-001 — decisions/DEC-20260808-001.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260810-001 — decisions/DEC-20260810-001.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260810-002 — decisions/DEC-20260810-002.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260811-001 — decisions/DEC-20260811-001.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260812-001 — decisions/DEC-20260812-001.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260813-001 — decisions/DEC-20260813-001.md
+    RENAME: decision_maker -> decision_owner (delete_duplicate)
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260815-001 — decisions/DEC-20260815-001.md
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [decision] DEC-20260815-003 — decisions/DEC-20260815-003.md
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260815-004 — decisions/DEC-20260815-004.md
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260815-005 — decisions/DEC-20260815-005.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [decision] DEC-20260816-001 — decisions/DEC-20260816-001.md
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: lifecycle_state = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [decision] DEC-20260816-002 — decisions/DEC-20260816-002.md
+    INSERT: lifecycle_state = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [decision] DEC-20260817-001 — decisions/DEC-20260817-001.md
+    RENAME: decision_maker -> decision_owner (rename)
+    SOURCE: source_type -> source.email-confirmation (create_source_object)
+    SOURCE: source_reference -> source.Hadri status tracking email (Aug 17, 2026) — Item P1 #7 (create_source_object)
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [document] DOC-20260814-001 — products/chainsentry/MVP_SPECIFICATION.md
+    SOURCE: source_type -> source.docx-upload (create_source_object)
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [document] DOC-20260814-002 — products/voroncitadel/MVP_SPECIFICATION.md
+    SOURCE: source_type -> source.docx-upload (create_source_object)
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [document] DOC-20260814-003 — products/govsec-tip/MVP_SPECIFICATION.md
+    SOURCE: source_type -> source.docx-upload (create_source_object)
+    INSERT: created_at = None
+    INSERT: updated_at = None
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [draft] EMAIL-DRAFT-20260817-001 — drafts/EMAIL-DRAFT-20260817-001.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [governance] GOV-PIR-CLOSURE-001 — governance/pir-closure-framework.md
+    RECLASSIFY: governance -> document
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [index] PIR-INVENTORY-001 — indexes/pir-inventory-index.md
+    RECLASSIFY: index -> artifact
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [index] PIR-STATUS-2026-07-27 — indexes/pir-status-report-2026-07-27.md
+    RECLASSIFY: index -> artifact
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [index] PIR-STATUS-2026-08-03 — indexes/pir-status-report-2026-08-03.md
+    RECLASSIFY: index -> artifact
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260611-001 — initiatives/INIT-20260611-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260627-001 — initiatives/INIT-20260627-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260710-001 — initiatives/INIT-20260710-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260710-002 — initiatives/INIT-20260710-002.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260711-001 — initiatives/INIT-20260711-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260724-001 — initiatives/INIT-20260724-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260725-001 — initiatives/INIT-20260725-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260725-002 — initiatives/INIT-20260725-002.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260725-003 — initiatives/INIT-20260725-003.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260725-004 — initiatives/INIT-20260725-004.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260725-005 — initiatives/INIT-20260725-005.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260725-006 — initiatives/INIT-20260725-006.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260725-007 — initiatives/INIT-20260725-007.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260803-001 — initiatives/INIT-20260803-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260803-002 — initiatives/INIT-20260803-002.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260804-001 — initiatives/INIT-20260804-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260804-002 — initiatives/INIT-20260804-002.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260804-003 — initiatives/INIT-20260804-003.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260804-004 — initiatives/INIT-20260804-004.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260808-002 — initiatives/INIT-20260808-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260808-003 — initiatives/INIT-20260808-003.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260810-001 — initiatives/INIT-20260810-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260810-002 — initiatives/INIT-20260810-002.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260810-003 — initiatives/INIT-20260810-003.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260811-001 — initiatives/INIT-20260811-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-001 — initiatives/VORONCRM-v1-execution-plan.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-001 — initiatives/INIT-20260813-001.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-002 — initiatives/INIT-20260813-002.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-002 — initiatives/jd-account-owner.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-003 — initiatives/INIT-20260813-003.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-003 — initiatives/jd-gtm-delivery-owner.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-004 — initiatives/INIT-20260813-004.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-004 — initiatives/jd-marketing-operations-specialist.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-005 — initiatives/jd-poc-engineer.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-005 — initiatives/INIT-20260813-005.md
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-006 — initiatives/vorondrq-gtm-crm-bootstrap-checklist.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-006 — initiatives/INIT-20260813-006.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-007 — initiatives/vorondrq-gtm-crm-recommendation.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-008 — initiatives/vorondrq-gtm-executive-summary.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-009 — initiatives/vorondrq-gtm-internal-communications-plan.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [initiative] INIT-20260813-010 — initiatives/vorondrq-gtm-resource-requirements.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-001 — intelligence/INT-20260725-001-cscdc-communication-framework-analysis.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-001 — intelligence/OPP-20260725-001-social-listening-infrastructure.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-002 — intelligence/INT-20260725-002-ai-council-design-analysis.md
+    INSERT: updated_at = None
+    INSERT: priority = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-002 — intelligence/OPP-20260725-002-war-room-methodology.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-003 — intelligence/OPP-20260725-003-encrypted-alert-portal.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-004 — intelligence/OPP-20260725-004-content-studio.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-005 — intelligence/OPP-20260725-005-pqc-sovereign-ai.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-006 — intelligence/OPP-20260725-006-community-champions.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-007 — intelligence/OPP-20260725-007-cyber-drill.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-008 — intelligence/OPP-20260725-008-anti-deepfake-campaign.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-009 — intelligence/OPP-20260725-009-g2g-briefing-support.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260725-010 — intelligence/OPP-20260725-010-post-merger-integration.md
+    INSERT: strategic_significance = None
+    INSERT: related_records = []
+
+  [intelligence] INT-20260815-001 — intelligence/INT-20260815-001-integrated-workflow-review.md
+    SOURCE: source_type -> source.document (create_source_object)
+    SOURCE: source_reference -> source.DAF-authored document, 13 sections, 3 messages (create_source_object)
+    SOURCE: source_platform -> source.telegram (create_source_object)
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [intelligence] INT-20260815-002 — intelligence/INT-20260815-002-cyberdsa-success-criteria.md
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [intelligence] INT-20260815-007 — intelligence/INT-20260815-007-cyberdsa-actionable-intelligence-prioritisation-use-case.md
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [intelligence] INT-20260815-008 — intelligence/INT-20260815-008-cyberdsa-engineered-success-use-case.md
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [intelligence] INT-20260815-009 — intelligence/INT-20260815-009-cyberdsa-cross-doctrinal-synthesis.md
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [intelligence] INT-20260816-001 — intelligence/INT-20260816-001-adep-001-operationalization-analysis.md
+    INSERT: updated_at = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [intelligence] INT-20260817-001 — intelligence/INT-20260817-001-azrul-stakeholder-assessment.md
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [organization] ORG-20260815-001 — organizations/ORG-20260815-001-aras-integrasi.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-002 — organizations/ORG-20260815-002-cybersecurity-malaysia.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-003 — organizations/ORG-20260815-003-nacsa.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-004 — organizations/ORG-20260815-004-mcmc.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-005 — organizations/ORG-20260815-005-jdn.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-006 — organizations/ORG-20260815-006-pmo.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-007 — organizations/ORG-20260815-007-perjasa.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-008 — organizations/ORG-20260815-008-lhdn.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-009 — organizations/ORG-20260815-009-wig.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-010 — organizations/ORG-20260815-010-mtai.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-011 — organizations/ORG-20260815-011-elsa.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-012 — organizations/ORG-20260815-012-cscdc.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-013 — organizations/ORG-20260815-013-moh.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-014 — organizations/ORG-20260815-014-uitm.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-015 — organizations/ORG-20260815-015-suk-negeri-sembilan.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-016 — organizations/ORG-20260815-016-cscdc.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260815-017 — organizations/ORG-20260815-017-mkn.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [organization] ORG-20260816-001 — organizations/ORG-20260816-001-aerosea-exhibitions.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [outcome] OUT-20260815-001 — outcomes/OUT-20260815-001.md
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-001 — risks/RSK-20260802-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-002 — risks/RSK-20260802-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-003 — risks/RSK-20260802-003.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-004 — risks/RSK-20260802-004.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-005 — risks/RSK-20260802-005.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-006 — risks/RSK-20260802-006.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-007 — risks/RSK-20260802-007.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-008 — risks/RSK-20260802-008.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-009 — risks/RSK-20260802-009.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260802-010 — risks/RSK-20260802-010.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260803-001 — risks/RSK-20260803-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260804-001 — risks/RSK-20260804-001.md
+    CONFLICT: likelihood=high vs probability=medium
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260804-002 — risks/RSK-20260804-002.md
+    RENAME: likelihood -> probability (delete_duplicate)
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260804-003 — risks/RSK-20260804-003.md
+    RENAME: likelihood -> probability (delete_duplicate)
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260810-001 — risks/RSK-20260810-001.md
+    RENAME: likelihood -> probability (delete_duplicate)
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260810-002 — risks/RSK-20260810-002.md
+    CONFLICT: likelihood=high vs probability=medium
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260810-003 — risks/RSK-20260810-003.md
+    CONFLICT: likelihood=high vs probability=medium
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260811-001 — risks/RSK-20260811-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260813-001 — risks/RSK-20260813-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260813-002 — risks/RSK-20260813-002.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260815-001 — risks/RSK-20260815-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260815-002 — risks/RSK-20260815-002.md
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [risk] RSK-20260815-003 — risks/RSK-20260815-003.md
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [risk] RSK-20260816-001 — risks/RSK-20260816-001.md
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [risk] RSK-20260816-002 — risks/RSK-20260816-002.md
+    RENAME: likelihood -> probability (rename)
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [risk] RSK-20260816-003 — risks/RSK-20260816-003.md
+    RENAME: likelihood -> probability (rename)
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260725-001 — stakeholders/STK-20260725-001-cscdc.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260725-007 — stakeholders/STK-20260725-007.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260725-008 — stakeholders/STK-20260725-008.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260725-009 — stakeholders/STK-20260725-009.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260725-010 — stakeholders/STK-20260725-010.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260725-011 — stakeholders/STK-20260725-011.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260725-012 — stakeholders/STK-20260725-012.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-001 — stakeholders/STK-20260803-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-002 — stakeholders/STK-20260803-002.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-003 — stakeholders/STK-20260803-003.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-004 — stakeholders/STK-20260803-004.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-005 — stakeholders/STK-20260803-005.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-006 — stakeholders/STK-20260803-006.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-007 — stakeholders/STK-20260803-007.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-008 — stakeholders/STK-20260803-008.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-009 — stakeholders/STK-20260803-009.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-010 — stakeholders/STK-20260803-010.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260803-011 — stakeholders/STK-20260803-011.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260804-001 — stakeholders/STK-20260804-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260804-002 — stakeholders/STK-20260804-002.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260804-003 — stakeholders/STK-20260804-003.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260804-004 — stakeholders/STK-20260804-004.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260804-005 — stakeholders/STK-20260804-005.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260804-006 — stakeholders/STK-20260804-006.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260804-007 — stakeholders/STK-20260804-007.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260804-008 — stakeholders/STK-20260804-008.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260804-009 — stakeholders/STK-20260804-009.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260804-010 — stakeholders/STK-20260804-010.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260804-011 — stakeholders/STK-20260804-011.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260804-012 — stakeholders/STK-20260804-012.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260807-001 — stakeholders/STK-20260807-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260807-002 — stakeholders/STK-20260807-002.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260807-003 — stakeholders/STK-20260807-003.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260807-004 — stakeholders/STK-20260807-004.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260808-001 — stakeholders/STK-20260808-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260808-002 — stakeholders/STK-20260808-002.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260808-003 — stakeholders/STK-20260808-003.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260810-003 — stakeholders/STK-20260810-003.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260811-001 — stakeholders/STK-20260811-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260811-002 — stakeholders/STK-20260811-002.md
+    RENAME: influence -> influence_level (rename)
+    RENAME: interest -> interest_level (rename)
+    RENAME: engagement_level -> engagement_objective (rename)
+    INSERT: owner = None
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260811-003 — stakeholders/STK-20260811-003.md
+    RENAME: influence -> influence_level (rename)
+    RENAME: interest -> interest_level (rename)
+    RENAME: engagement_level -> engagement_objective (rename)
+    INSERT: owner = None
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-001 — stakeholders/STK-20260812-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-002 — stakeholders/STK-20260812-002.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-003 — stakeholders/STK-20260812-003.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-004 — stakeholders/STK-20260812-004.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-005 — stakeholders/STK-20260812-005.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-006 — stakeholders/STK-20260812-006.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-007 — stakeholders/STK-20260812-007.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-008 — stakeholders/STK-20260812-008.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-009 — stakeholders/STK-20260812-009.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-010 — stakeholders/STK-20260812-010.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-011 — stakeholders/STK-20260812-011.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-012 — stakeholders/STK-20260812-012.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-013 — stakeholders/STK-20260812-013.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-014 — stakeholders/STK-20260812-014.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-015 — stakeholders/STK-20260812-015.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-016 — stakeholders/STK-20260812-016.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260812-017 — stakeholders/STK-20260812-017.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-001 — stakeholders/STK-20260813-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260813-002 — stakeholders/STK-20260813-002.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-003 — stakeholders/STK-20260813-003.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-004 — stakeholders/STK-20260813-004.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-005 — stakeholders/STK-20260813-005.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-006 — stakeholders/STK-20260813-006.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-007 — stakeholders/STK-20260813-007.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-008 — stakeholders/STK-20260813-008.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-009 — stakeholders/STK-20260813-009.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-010 — stakeholders/STK-20260813-010.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-011 — stakeholders/STK-20260813-011.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-012 — stakeholders/STK-20260813-012.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-013 — stakeholders/STK-20260813-013.md
+    CONFLICT: name=Zulfeka Zainal Abidin vs title=See record body
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-014 — stakeholders/STK-20260813-014.md
+    CONFLICT: name=Amelia Nadia Azharul Nahar vs title=Sr. Stakeholder Engagement & Strategic Marketing Executive
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-015 — stakeholders/STK-20260813-015.md
+    CONFLICT: name=Rashid Bin Ramli vs title=See record body
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260813-016 — stakeholders/STK-20260813-016.md
+    CONFLICT: name=Said Farid Zainudin vs title=See record body
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260815-001 — stakeholders/STK-20260815-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-002 — stakeholders/STK-20260815-002.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-004 — stakeholders/STK-20260815-004.md
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260815-005 — stakeholders/STK-20260815-005.md
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260815-006 — stakeholders/STK-20260815-006.md
+    INSERT: owner = None
+    INSERT: priority = None
+    INSERT: sensitivity = None
+    INSERT: confidence = None
+    INSERT: tags = []
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [stakeholder] STK-20260815-007 — stakeholders/STK-20260815-007-shamsul-azri.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-008 — stakeholders/STK-20260815-008-megat-zuhairy.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-009 — stakeholders/STK-20260815-009-nushirwan.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-010 — stakeholders/STK-20260815-010-roshdi-ahmad.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-011 — stakeholders/STK-20260815-011-muhammad-rezal.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-012 — stakeholders/STK-20260815-012-wan-roshaimi.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-013 — stakeholders/STK-20260815-013-amirudin-abdul-wahab.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-014 — stakeholders/STK-20260815-014-mohamad-salim.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-015 — stakeholders/STK-20260815-015-fabian-bigar.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-016 — stakeholders/STK-20260815-016-che-nasir.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-017 — stakeholders/STK-20260815-017-dennis-looi.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-018 — stakeholders/STK-20260815-018-fahmi-fadzil.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260815-019 — stakeholders/STK-20260815-019-siti-aishah-omar.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260816-001 — stakeholders/STK-20260816-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+
+  [stakeholder] STK-20260817-001 — stakeholders/STK-20260817-001.md
+    INSERT: status = None
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+  [strategy] STRAT-20260807-001 — strategies/STRAT-20260807-001-risik-operational-development.md
+    RECLASSIFY: strategy -> initiative
+    INSERT: priority = None
+    INSERT: lifecycle_state = None
+    INSERT: confidence = None
+    INSERT: source = {'type': None, 'reference': None}
+    INSERT: summary = None
+    INSERT: strategic_significance = None
+    INSERT: mission_alignment = []
+    INSERT: related_records = []
+
+================================================================================
+END OF MANIFEST
+================================================================================

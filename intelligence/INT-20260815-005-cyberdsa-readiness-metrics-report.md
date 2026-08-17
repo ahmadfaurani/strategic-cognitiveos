@@ -1,9 +1,9 @@
 ---
 id: INT-20260815-005
 record_type: intelligence
-title: "CyberDSA 2026 — Readiness Metrics Analytical Report"
-created_at: 2026-08-15T18:15:00+00:00
-updated_at: 2026-08-15T18:15:00+00:00
+title: CyberDSA 2026 — Readiness Metrics Analytical Report
+created_at: 2026-08-15 18:15:00+00:00
+updated_at: 2026-08-15 18:15:00+00:00
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -11,48 +11,48 @@ priority: critical
 sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
-summary: "Detailed analytical assessment of the 8 readiness metrics from the CSM-Aras Stakeholder Coverage & Communication Ownership Plan against current operational state, with gap analysis, risk assessment, and remediation recommendations."
-strategic_significance: "Readiness metrics define the operational threshold for CyberDSA stakeholder coverage. 3 of 8 metrics currently unmet. Report identifies specific blockers, owners, and remediation paths for each metric."
+summary: Detailed analytical assessment of the 8 readiness metrics from the CSM-Aras Stakeholder Coverage & Communication Ownership Plan against current operational state, with gap analysis, risk assessment, and remediation recommendations.
+strategic_significance: Readiness metrics define the operational threshold for CyberDSA stakeholder coverage. 3 of 8 metrics currently unmet. Report identifies specific blockers, owners, and remediation paths for each metric.
 mission_alignment:
-  - cybersecurity
-  - stakeholder-engagement
-  - organisational-capability
-  - commercial-development
+- cybersecurity
+- stakeholder-engagement
+- organisational-capability
+- commercial-development
 evidence:
-  - "INT-20260815-004: CSM-Aras Stakeholder Coverage & Communication Ownership Plan"
-  - "INT-20260815-003: Execution Stakeholder Matrix & RACI"
-  - "INT-20260815-002: CyberDSA Success Criteria Definition"
-  - "CONV-20260815-005: Document intake record"
-  - "DEC-20260815-004: War-room activation"
+- 'INT-20260815-004: CSM-Aras Stakeholder Coverage & Communication Ownership Plan'
+- 'INT-20260815-003: Execution Stakeholder Matrix & RACI'
+- 'INT-20260815-002: CyberDSA Success Criteria Definition'
+- 'CONV-20260815-005: Document intake record'
+- 'DEC-20260815-004: War-room activation'
 recommended_actions:
-  - "Create stakeholder coverage tracker (Metric 7 blocker)"
-  - "Implement pre/during/post meeting protocol (Metric 6 blocker)"
-  - "Appoint Programme Coordinator (Metric 8 — SPOF elimination)"
-  - "Begin specialist relationship activation (Metric 3 reinforcement)"
+- Create stakeholder coverage tracker (Metric 7 blocker)
+- Implement pre/during/post meeting protocol (Metric 6 blocker)
+- Appoint Programme Coordinator (Metric 8 — SPOF elimination)
+- Begin specialist relationship activation (Metric 3 reinforcement)
 related_records:
-  - INT-20260815-004
-  - INT-20260815-003
-  - INT-20260815-002
-  - CONV-20260815-005
-  - DEC-20260815-004
-  - INIT-20260810-003
+- INT-20260815-004
+- INT-20260815-003
+- INT-20260815-002
+- CONV-20260815-005
+- DEC-20260815-004
+- INIT-20260810-003
 implications:
-  - "3 of 8 readiness metrics at 0% — all require execution, not planning"
-  - "5 of 8 metrics met by plan design — but require operational enforcement"
-  - "Weekly review cadence (Action #7) is the enforcement mechanism for all metrics"
-  - "Programme Coordinator appointment remains highest-leverage SPOF intervention"
+- 3 of 8 readiness metrics at 0% — all require execution, not planning
+- 5 of 8 metrics met by plan design — but require operational enforcement
+- 'Weekly review cadence (Action #7) is the enforcement mechanism for all metrics'
+- Programme Coordinator appointment remains highest-leverage SPOF intervention
 open_questions:
-  - "Who creates and maintains the stakeholder coverage tracker?"
-  - "What is the format for pre/during/post meeting owner assignment?"
-  - "Can Hadri absorb tracker ownership on top of 9 existing criteria?"
+- Who creates and maintains the stakeholder coverage tracker?
+- What is the format for pre/during/post meeting owner assignment?
+- Can Hadri absorb tracker ownership on top of 9 existing criteria?
 tags:
-  - domain/cybersecurity
-  - domain/stakeholder-engagement
-  - domain/organisational-capability
-  - milestone/cyberdsa-2026
-  - workstream/cybersec-products
-  - lifecycle/canonical
-  - priority/critical
+- domain/cybersecurity
+- domain/stakeholder-engagement
+- domain/organisational-capability
+- milestone/cyberdsa-2026
+- workstream/cybersec-products
+- lifecycle/canonical
+- priority/critical
 source:
   type: internal-analysis
   reference: INT-20260815-004

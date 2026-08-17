@@ -1,71 +1,80 @@
 ---
 id: ORG-20260815-002
 record_type: organization
-title: "CyberSecurity Malaysia (CSM)"
-created_at: 2026-08-15T17:35:00+00:00
-updated_at: 2026-08-15T17:35:00+00:00
+title: CyberSecurity Malaysia (CSM)
+created_at: 2026-08-15 17:35:00+00:00
+updated_at: 2026-08-15 17:35:00+00:00
 owner: faurani-jaafar
 org_type: government-agency
 sector: cybersecurity
-strategic_relevance: "MoU partner for Voron Citadel GTM. National cybersecurity authority. Training, event participation, and joint market access partner."
+strategic_relevance: MoU partner for Voron Citadel GTM. National cybersecurity authority. Training, event participation, and joint market access partner.
 relationship_status: active
 relationship_owner: faurani-jaafar
 sensitivity: confidential
 lifecycle_state: canonical
 key_contacts:
-  - STK-20260815-010
-  - STK-20260815-012
-  - STK-20260815-013
-  - STK-20260815-015
-  - STK-20260804-001
-  - STK-20260804-002
-  - STK-20260804-003
-  - STK-20260804-004
-  - STK-20260804-005
-  - STK-20260804-006
-  - STK-20260804-007
-  - STK-20260804-008
-  - STK-20260804-009
-  - STK-20260804-010
-  - STK-20260804-011
-  - STK-20260804-012
-  - STK-20260812-001
-  - STK-20260812-002
-  - STK-20260812-003
-  - STK-20260812-004
-  - STK-20260812-005
-  - STK-20260812-006
-  - STK-20260812-007
-  - STK-20260812-008
-  - STK-20260812-009
-  - STK-20260812-010
-  - STK-20260812-011
-  - STK-20260812-012
-  - STK-20260812-013
-  - STK-20260812-014
-  - STK-20260812-015
-  - STK-20260812-016
-  - STK-20260812-017
-  - STK-20260813-008
-  - STK-20260813-009
-  - STK-20260813-010
-  - STK-20260813-011
-  - STK-20260813-012
-  - STK-20260813-013
-  - STK-20260815-001
+- STK-20260815-010
+- STK-20260815-012
+- STK-20260815-013
+- STK-20260815-015
+- STK-20260804-001
+- STK-20260804-002
+- STK-20260804-003
+- STK-20260804-004
+- STK-20260804-005
+- STK-20260804-006
+- STK-20260804-007
+- STK-20260804-008
+- STK-20260804-009
+- STK-20260804-010
+- STK-20260804-011
+- STK-20260804-012
+- STK-20260812-001
+- STK-20260812-002
+- STK-20260812-003
+- STK-20260812-004
+- STK-20260812-005
+- STK-20260812-006
+- STK-20260812-007
+- STK-20260812-008
+- STK-20260812-009
+- STK-20260812-010
+- STK-20260812-011
+- STK-20260812-012
+- STK-20260812-013
+- STK-20260812-014
+- STK-20260812-015
+- STK-20260812-016
+- STK-20260812-017
+- STK-20260813-008
+- STK-20260813-009
+- STK-20260813-010
+- STK-20260813-011
+- STK-20260813-012
+- STK-20260813-013
+- STK-20260815-001
 related_initiatives:
-  - INIT-20260804-001
-  - INIT-20260811-001
+- INIT-20260804-001
+- INIT-20260811-001
 tags:
-  - domain/cybersecurity
-  - workstream/cybersec-products
-  - lifecycle/canonical
-  - domain/partnership
+- domain/cybersecurity
+- workstream/cybersec-products
+- lifecycle/canonical
+- domain/partnership
 related_records:
-  - INIT-20260804-001
-  - INIT-20260811-001
-  - CONV-20260815-001
-  - CONV-20260815-003
+- INIT-20260804-001
+- INIT-20260811-001
+- CONV-20260815-001
+- CONV-20260815-003
+status: null
+priority: null
+confidence: null
+source:
+  type: null
+  reference: null
+summary: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # CyberSecurity Malaysia (CSM)

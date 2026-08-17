@@ -1,9 +1,9 @@
 ---
 id: INT-20260815-006
 record_type: intelligence
-title: "CyberDSA 2026 — Cognitive Loop Analysis (8-Step Full Cycle)"
-created_at: 2026-08-15T18:25:00+00:00
-updated_at: 2026-08-15T18:25:00+00:00
+title: CyberDSA 2026 — Cognitive Loop Analysis (8-Step Full Cycle)
+created_at: 2026-08-15 18:25:00+00:00
+updated_at: 2026-08-15 18:25:00+00:00
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -11,62 +11,62 @@ priority: critical
 sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
-summary: "Full 8-step Cognitive Loop (Sense→Classify→Correlate→Pattern Recognition→Prioritise→Act→Verify→Learn) applied to CyberDSA 2026 workstream. Identifies 3 bottleneck chains, 4 leverage points, 3 strategic windows closing within 7 days, and 3 compounding opportunities. Produces 7 prioritised actions with owners, verification, and learning extraction framework."
-strategic_significance: "First full application of CognitiveOS Prime Doctrine §5 Cognitive Loop against a live operational workstream. Establishes the template for continuous loop-based intelligence."
+summary: Full 8-step Cognitive Loop (Sense→Classify→Correlate→Pattern Recognition→Prioritise→Act→Verify→Learn) applied to CyberDSA 2026 workstream. Identifies 3 bottleneck chains, 4 leverage points, 3 strategic windows closing within 7 days, and 3 compounding opportunities. Produces 7 prioritised actions with owners, verification, and learning extraction framework.
+strategic_significance: First full application of CognitiveOS Prime Doctrine §5 Cognitive Loop against a live operational workstream. Establishes the template for continuous loop-based intelligence.
 mission_alignment:
-  - cybersecurity
-  - commercial-development
-  - product-management
-  - stakeholder-engagement
-  - organisational-capability
+- cybersecurity
+- commercial-development
+- product-management
+- stakeholder-engagement
+- organisational-capability
 evidence:
-  - "INT-20260815-002: Success Criteria (47 criteria, 6 dimensions)"
-  - "INT-20260815-003: Execution Stakeholder Matrix & RACI"
-  - "INT-20260815-004: CSM-Aras Stakeholder Coverage Plan"
-  - "INT-20260815-005: Readiness Metrics Report"
-  - "DEC-20260815-004: War-Room activation"
-  - "RSK-20260815-003: Development freeze risk"
-  - "INIT-20260810-003: GovSec CyberDSA Launch Readiness"
-  - "INIT-20260811-001: Flagship Product Consolidation"
-  - "INIT-20260804-001: CSM × Aras Voron Citadel GTM"
+- 'INT-20260815-002: Success Criteria (47 criteria, 6 dimensions)'
+- 'INT-20260815-003: Execution Stakeholder Matrix & RACI'
+- 'INT-20260815-004: CSM-Aras Stakeholder Coverage Plan'
+- 'INT-20260815-005: Readiness Metrics Report'
+- 'DEC-20260815-004: War-Room activation'
+- 'RSK-20260815-003: Development freeze risk'
+- 'INIT-20260810-003: GovSec CyberDSA Launch Readiness'
+- 'INIT-20260811-001: Flagship Product Consolidation'
+- 'INIT-20260804-001: CSM × Aras Voron Citadel GTM'
 recommended_actions:
-  - "DAF: Sign off positioning statement 4.1 TODAY"
-  - "DAF: Appoint Programme Coordinator this week"
-  - "Ember: Deliver 193-org segmentation framework within 48 hours"
-  - "Hadri+Fuad: Schedule demo scope lock meeting immediately"
-  - "DAF/Kenny: Confirm Hadi onboarding date (target Aug 25)"
-  - "Hadri/Shuhada: Create stakeholder coverage tracker (Action #4)"
-  - "DAF: Confirm CSM meeting for Aisha PIC (week of Aug 18)"
+- 'DAF: Sign off positioning statement 4.1 TODAY'
+- 'DAF: Appoint Programme Coordinator this week'
+- 'Ember: Deliver 193-org segmentation framework within 48 hours'
+- 'Hadri+Fuad: Schedule demo scope lock meeting immediately'
+- 'DAF/Kenny: Confirm Hadi onboarding date (target Aug 25)'
+- 'Hadri/Shuhada: Create stakeholder coverage tracker (Action #4)'
+- 'DAF: Confirm CSM meeting for Aisha PIC (week of Aug 18)'
 related_records:
-  - INT-20260815-002
-  - INT-20260815-003
-  - INT-20260815-004
-  - INT-20260815-005
-  - DEC-20260815-004
-  - RSK-20260815-003
-  - INIT-20260810-003
-  - INIT-20260811-001
-  - INIT-20260804-001
+- INT-20260815-002
+- INT-20260815-003
+- INT-20260815-004
+- INT-20260815-005
+- DEC-20260815-004
+- RSK-20260815-003
+- INIT-20260810-003
+- INIT-20260811-001
+- INIT-20260804-001
 implications:
-  - "3 bottleneck chains converge on CP1 (Aug 22) — all share DAF as dependency"
-  - "4 leverage points identified — Programme Coordinator is highest leverage"
-  - "3 strategic windows close within 7 days — positioning, segmentation, CSM PIC"
-  - "3 compounding opportunities — if executed, increase probability across multiple criteria"
+- 3 bottleneck chains converge on CP1 (Aug 22) — all share DAF as dependency
+- 4 leverage points identified — Programme Coordinator is highest leverage
+- 3 strategic windows close within 7 days — positioning, segmentation, CSM PIC
+- 3 compounding opportunities — if executed, increase probability across multiple criteria
 open_questions:
-  - "Can DAF delegate positioning sign-off to Hadri/Fuad for review?"
-  - "Is Kenny available this week for Hadi onboarding confirmation?"
-  - "Does Shuhada have bandwidth for tracker creation alongside 2.1/2.2?"
+- Can DAF delegate positioning sign-off to Hadri/Fuad for review?
+- Is Kenny available this week for Hadi onboarding confirmation?
+- Does Shuhada have bandwidth for tracker creation alongside 2.1/2.2?
 tags:
-  - domain/cybersecurity
-  - domain/commercial-development
-  - domain/product-management
-  - domain/stakeholder-engagement
-  - domain/organisational-capability
-  - milestone/cyberdsa-2026
-  - workstream/cybersec-products
-  - cognitive-loop/full-cycle
-  - lifecycle/canonical
-  - priority/critical
+- domain/cybersecurity
+- domain/commercial-development
+- domain/product-management
+- domain/stakeholder-engagement
+- domain/organisational-capability
+- milestone/cyberdsa-2026
+- workstream/cybersec-products
+- cognitive-loop/full-cycle
+- lifecycle/canonical
+- priority/critical
 source:
   type: internal-analysis
   reference: COGNITIVEOS-PRIME-DOCTRINE.md §5-§6

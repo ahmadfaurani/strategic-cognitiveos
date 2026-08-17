@@ -1,17 +1,28 @@
 ---
 id: PIR-STATUS-2026-08-03
-record_type: index
+record_type: artifact
 title: Weekly PIR Status Report — CSCDC Partnership Workstream
-created_at: 2026-08-03T20:09:00+08:00
-updated_at: 2026-08-03T20:09:00+08:00
+created_at: 2026-08-03 20:09:00+08:00
+updated_at: 2026-08-03 20:09:00+08:00
 owner: DAF
 generated_by: CJ-7 PIR Status Tracker Agent (meta-monitor)
 schedule: Weekly Monday 09:00 MYT
 sensitivity: confidential
 tags:
-  - index/pir-status
-  - workstream/cscdc
-  - meta-monitor/weekly
+- index/pir-status
+- workstream/cscdc
+- meta-monitor/weekly
+status: null
+priority: null
+lifecycle_state: null
+confidence: null
+source:
+  type: null
+  reference: null
+summary: null
+strategic_significance: null
+mission_alignment: []
+related_records: []
 ---
 
 # WEEKLY PIR STATUS REPORT — CSCDC Partnership Workstream

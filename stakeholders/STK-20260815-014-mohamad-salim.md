@@ -1,9 +1,9 @@
 ---
 id: STK-20260815-014
 record_type: stakeholder
-title: "Tan Sri Mohamad Salim Fateh Din"
-created_at: 2026-08-15T17:50:00+00:00
-updated_at: 2026-08-15T17:50:00+00:00
+title: Tan Sri Mohamad Salim Fateh Din
+created_at: 2026-08-15 17:50:00+00:00
+updated_at: 2026-08-15 17:50:00+00:00
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Malaysian Communications and Multimedia Commission (MCMC)
@@ -11,32 +11,38 @@ role: Chairman of MCMC
 influence_level: high
 interest_level: high
 relationship_status: new
-strategic_relevance: "MCMC Chairman — co-signed NACSA-MCMC-IBM MoU for NQAIC (National Quantum and AI Centre of Excellence). Attended CSCDC launch. MCMC is target funder for R.I.S.I.K RM5M programme. Regulatory authority over digital content, social media platforms, and misinformation counter-strategies."
-engagement_objective: "MCMC as target funder for R.I.S.I.K AI Platform (RM5M). Regulatory alignment for information warfare / strategic intelligence platform."
-current_position: "MCMC Chairman. Co-signed NQAIC MoU with NACSA and IBM. Attended CSCDC launch (4 Jun 2026). Spearheading deepfake enforcement via ONSA subsidiary instruments."
+strategic_relevance: MCMC Chairman — co-signed NACSA-MCMC-IBM MoU for NQAIC (National Quantum and AI Centre of Excellence). Attended CSCDC launch. MCMC is target funder for R.I.S.I.K RM5M programme. Regulatory authority over digital content, social media platforms, and misinformation counter-strategies.
+engagement_objective: MCMC as target funder for R.I.S.I.K AI Platform (RM5M). Regulatory alignment for information warfare / strategic intelligence platform.
+current_position: MCMC Chairman. Co-signed NQAIC MoU with NACSA and IBM. Attended CSCDC launch (4 Jun 2026). Spearheading deepfake enforcement via ONSA subsidiary instruments.
 commitments_by_us: []
 commitments_by_stakeholder: []
-last_engagement: "None direct — identified via intelligence cycles"
-next_engagement: "TBD — MCMC proposal/pitch preparation (ACT-20260815-006)"
+last_engagement: None direct — identified via intelligence cycles
+next_engagement: TBD — MCMC proposal/pitch preparation (ACT-20260815-006)
 relationship_owner: faurani-jaafar
 related_initiatives:
-  - INIT-20260803-002
+- INIT-20260803-002
 sensitivity: confidential
 tags:
-  - domain/government
-  - domain/regulatory
-  - domain/cybersecurity
-  - domain/information-warfare
-  - lifecycle/canonical
-  - priority/high
+- domain/government
+- domain/regulatory
+- domain/cybersecurity
+- domain/information-warfare
+- lifecycle/canonical
+- priority/high
 related_records:
-  - ORG-20260815-004
-  - INIT-20260803-002
-  - ACT-20260815-006
+- ORG-20260815-004
+- INIT-20260803-002
+- ACT-20260815-006
 source:
   type: intelligence-verified
-  reference: "CJ-1 cron intelligence: NQAIC MoU signing witnessed by PM Anwar; CSCDC launch attendance Bernama 4 Jun 2026; IRC 2026 conference attendance"
+  reference: 'CJ-1 cron intelligence: NQAIC MoU signing witnessed by PM Anwar; CSCDC launch attendance Bernama 4 Jun 2026; IRC 2026 conference attendance'
 lifecycle_state: canonical
+status: null
+priority: null
+confidence: null
+summary: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Name

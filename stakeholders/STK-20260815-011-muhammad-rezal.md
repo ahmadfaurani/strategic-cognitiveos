@@ -1,9 +1,9 @@
 ---
 id: STK-20260815-011
 record_type: stakeholder
-title: "Datuk Prof. Dr. Muhammad Rezal Kamel Ariffin"
-created_at: 2026-08-15T17:42:00+00:00
-updated_at: 2026-08-15T17:42:00+00:00
+title: Datuk Prof. Dr. Muhammad Rezal Kamel Ariffin
+created_at: 2026-08-15 17:42:00+00:00
+updated_at: 2026-08-15 17:42:00+00:00
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Pusat Teknologi Pengurusan dan Kriptologi Malaysia (PTPKM)
@@ -11,31 +11,37 @@ role: PTPKM Director / Cryptology Authority for CSCDC
 influence_level: high
 interest_level: high
 relationship_status: new
-strategic_relevance: "PTPKM Director — cryptology authority being consolidated into CSCDC. Controls the cryptography/PQC portfolio including PQC Sandbox (RM 300K). Sovereign AI intersection point."
-engagement_objective: "Engage on PQC Sandbox and sovereign AI infrastructure intersection. Position Aras Integrasi capabilities in cryptology and post-quantum cryptography context."
-current_position: "Confirmed PTPKM Director. Being consolidated into CSCDC under JPM."
+strategic_relevance: PTPKM Director — cryptology authority being consolidated into CSCDC. Controls the cryptography/PQC portfolio including PQC Sandbox (RM 300K). Sovereign AI intersection point.
+engagement_objective: Engage on PQC Sandbox and sovereign AI infrastructure intersection. Position Aras Integrasi capabilities in cryptology and post-quantum cryptography context.
+current_position: Confirmed PTPKM Director. Being consolidated into CSCDC under JPM.
 commitments_by_us: []
 commitments_by_stakeholder: []
-last_engagement: "None direct — identified via intelligence (CJ-1 leadership watch)"
-next_engagement: "TBD — target Q3 2026"
+last_engagement: None direct — identified via intelligence (CJ-1 leadership watch)
+next_engagement: TBD — target Q3 2026
 relationship_owner: faurani-jaafar
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 sensitivity: confidential
 tags:
-  - domain/government
-  - domain/cybersecurity
-  - domain/cryptography
-  - domain/research
-  - priority/high
-  - lifecycle/canonical
+- domain/government
+- domain/cybersecurity
+- domain/cryptography
+- domain/research
+- priority/high
+- lifecycle/canonical
 related_records:
-  - ORG-20260815-012
-  - INIT-20260725-007
+- ORG-20260815-012
+- INIT-20260725-007
 source:
   type: intelligence-verified
-  reference: "STK-20260725-001 body text; CJ-1 leadership watch cycles"
+  reference: STK-20260725-001 body text; CJ-1 leadership watch cycles
 lifecycle_state: canonical
+status: null
+priority: null
+confidence: null
+summary: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Name

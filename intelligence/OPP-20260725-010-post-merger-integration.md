@@ -2,8 +2,8 @@
 id: INT-20260725-010
 record_type: intelligence
 title: Opportunity — Post-Merger Cultural Integration Support
-created_at: 2026-07-25T10:35:00Z
-updated_at: 2026-07-25T10:35:00Z
+created_at: 2026-07-25 10:35:00+00:00
+updated_at: 2026-07-25 10:35:00+00:00
 owner: DAF
 intelligence_type: market
 status: draft
@@ -11,33 +11,35 @@ priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-  - domain/governance
-  - domain/organisational-design
-  - sector/government
-  - mission/organisational-capability
-  - mission/strategic-communications
-  - mission/institutional-partnerships
-  - intelligence/market
-  - commercial/opportunity-identification
+- domain/governance
+- domain/organisational-design
+- sector/government
+- mission/organisational-capability
+- mission/strategic-communications
+- mission/institutional-partnerships
+- intelligence/market
+- commercial/opportunity-identification
 mission_alignment:
-  - organisational-capability
-  - strategic-communications
-  - institutional-partnerships
+- organisational-capability
+- strategic-communications
+- institutional-partnerships
 evidence:
-  - "CSCDC Framework v2.0, Unit 2: Komunikasi Dalaman & Integrasi Budaya — 'Memastikan keselarasan pemahaman, penyeragaman mesej, dan penyatuan budaya kerja warga CSCDC pasca-penggabungan PTPKM dan CSM'"
-  - "Unit 2 function 1: saluran pengumuman dalaman rasmi"
-  - "Unit 2 function 2: Buletin Siber bulanan"
-  - "Unit 2 function 3: Townhall berkala"
-  - "Unit 2 function 4: Internal InfoSec Awareness"
+- 'CSCDC Framework v2.0, Unit 2: Komunikasi Dalaman & Integrasi Budaya — ''Memastikan keselarasan pemahaman, penyeragaman mesej, dan penyatuan budaya kerja warga CSCDC pasca-penggabungan PTPKM dan CSM'''
+- 'Unit 2 function 1: saluran pengumuman dalaman rasmi'
+- 'Unit 2 function 2: Buletin Siber bulanan'
+- 'Unit 2 function 3: Townhall berkala'
+- 'Unit 2 function 4: Internal InfoSec Awareness'
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 8
 lifecycle_state: canonical
-summary: "See record body for intelligence summary."
+summary: See record body for intelligence summary.
+strategic_significance: null
+related_records: []
 ---
 
 # Summary

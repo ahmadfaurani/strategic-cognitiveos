@@ -1,9 +1,9 @@
 ---
 id: INT-20260815-007
 record_type: intelligence
-title: "CyberDSA 2026 — Actionable Intelligence Standard & Prioritisation Engine Applied Use Case"
-created_at: 2026-08-15T18:40:00+00:00
-updated_at: 2026-08-15T18:40:00+00:00
+title: CyberDSA 2026 — Actionable Intelligence Standard & Prioritisation Engine Applied Use Case
+created_at: 2026-08-15 18:40:00+00:00
+updated_at: 2026-08-15 18:40:00+00:00
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -11,31 +11,33 @@ priority: critical
 sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
-summary: "Doctrine §7 (Actionable Intelligence Standard) and §8 (Prioritisation Engine) applied to CyberDSA 2026 workstream as a structured use case. Demonstrates how raw signals become prioritised, owned, verifiable action packages through the 10-element intelligence standard and 7-dimension weighted scoring model."
-context: "DAF requested a focused application of §7 and §8 against the CyberDSA workstream. This is distinct from INT-006 (full 8-step Cognitive Loop) — this is a deep-dive on the intelligence-to-action pipeline specifically."
-rationale: "Demonstrates the core CognitiveOS value chain: raw signal → classified intelligence → weighted prioritisation → owned action → verifiable outcome. Shows how the doctrine prevents ad-hoc task generation and forces evidence-based, leverage-optimised execution."
+summary: Doctrine §7 (Actionable Intelligence Standard) and §8 (Prioritisation Engine) applied to CyberDSA 2026 workstream as a structured use case. Demonstrates how raw signals become prioritised, owned, verifiable action packages through the 10-element intelligence standard and 7-dimension weighted scoring model.
+context: DAF requested a focused application of §7 and §8 against the CyberDSA workstream. This is distinct from INT-006 (full 8-step Cognitive Loop) — this is a deep-dive on the intelligence-to-action pipeline specifically.
+rationale: 'Demonstrates the core CognitiveOS value chain: raw signal → classified intelligence → weighted prioritisation → owned action → verifiable outcome. Shows how the doctrine prevents ad-hoc task generation and forces evidence-based, leverage-optimised execution.'
 tags:
-  - domain/cybersecurity
-  - domain/commercial-development
-  - domain/product-management
-  - domain/stakeholder-engagement
-  - milestone/cyberdsa-2026
-  - workstream/cybersec-products
-  - cognitive-doctrine/application
-  - lifecycle/canonical
-  - priority/critical
+- domain/cybersecurity
+- domain/commercial-development
+- domain/product-management
+- domain/stakeholder-engagement
+- milestone/cyberdsa-2026
+- workstream/cybersec-products
+- cognitive-doctrine/application
+- lifecycle/canonical
+- priority/critical
 source:
   type: operator-directive
-  reference: "Telegram direct, DAF, 2026-08-15 18:40 UTC"
+  reference: Telegram direct, DAF, 2026-08-15 18:40 UTC
 related_records:
-  - INT-20260815-002
-  - INT-20260815-003
-  - INT-20260815-004
-  - INT-20260815-005
-  - INT-20260815-006
-  - DEC-20260815-004
-  - DEC-20260815-005
-  - INIT-20260810-003
+- INT-20260815-002
+- INT-20260815-003
+- INT-20260815-004
+- INT-20260815-005
+- INT-20260815-006
+- DEC-20260815-004
+- DEC-20260815-005
+- INIT-20260810-003
+strategic_significance: null
+mission_alignment: []
 ---
 
 # CyberDSA 2026 — Actionable Intelligence & Prioritisation Applied Use Case

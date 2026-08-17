@@ -1,9 +1,9 @@
 ---
 id: INT-20260815-001
 record_type: intelligence
-title: "Integrated Workflow Analytical Review — Management Baseline for Email and Decision Assessment"
-created_at: 2026-08-15T11:54:00Z
-updated_at: 2026-08-15T11:54:00Z
+title: Integrated Workflow Analytical Review — Management Baseline for Email and Decision Assessment
+created_at: 2026-08-15 11:54:00+00:00
+updated_at: 2026-08-15 11:54:00+00:00
 owner: faurani-jaafar
 authority: DAF
 sensitivity: confidential
@@ -12,19 +12,22 @@ status: active
 priority: critical
 lifecycle_state: canonical
 intelligence_type: market
-source_type: document
-source_platform: telegram
-source_reference: "DAF-authored document, 13 sections, 3 messages"
 confidence: high
-summary: "Programme governance framework establishing 5-layer portfolio operating model, 7 management priorities, 5-tier execution hierarchy, product freeze discipline, CSM 4-interface governance model, and R.I.S.I.K upgrade to formal programme. Three dominant themes: execution governance, resource prioritisation, commercial conversion."
+summary: 'Programme governance framework establishing 5-layer portfolio operating model, 7 management priorities, 5-tier execution hierarchy, product freeze discipline, CSM 4-interface governance model, and R.I.S.I.K upgrade to formal programme. Three dominant themes: execution governance, resource prioritisation, commercial conversion.'
 related_records:
-  - DEC-20260815-002
+- DEC-20260815-002
 tags:
-  - domain/portfolio-governance
-  - domain/strategic-planning
-  - domain/commercial-development
-  - domain/productisation
-  - organisation/aras-integrasi
+- domain/portfolio-governance
+- domain/strategic-planning
+- domain/commercial-development
+- domain/productisation
+- organisation/aras-integrasi
+source:
+  document: document
+  DAF-authored document, 13 sections, 3 messages: DAF-authored document, 13 sections, 3 messages
+  telegram: telegram
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Integrated Workflow Analytical Review

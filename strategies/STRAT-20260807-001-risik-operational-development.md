@@ -1,9 +1,9 @@
 ---
 id: STRAT-20260807-001
-record_type: strategy
-title: "R.I.S.I.K Operational Development Plan — From Doctrine to Operations"
-created_at: 2026-08-07T08:30:00Z
-updated_at: 2026-08-07T08:30:00Z
+record_type: initiative
+title: R.I.S.I.K Operational Development Plan — From Doctrine to Operations
+created_at: 2026-08-07 08:30:00+00:00
+updated_at: 2026-08-07 08:30:00+00:00
 owner: faurani-jaafar
 authority: DAF
 sensitivity: confidential
@@ -12,20 +12,30 @@ status: draft
 parent_initiative: INIT-20260803-002
 parent_workstream: INIT-20260725-004
 tags:
-  - domain/information-warfare
-  - domain/artificial-intelligence
-  - domain/political-intelligence
-  - domain/narrative-intelligence
-  - domain/sentiment-analysis
-  - domain/influence-operations
-  - domain/counter-narrative
-  - domain/national-security
-  - domain/strategic-communications
-  - organisation/aras-integrasi
-  - organisation/uitm
-  - organisation/pmo
-  - mission/political-intelligence
-  - readiness/development
+- domain/information-warfare
+- domain/artificial-intelligence
+- domain/political-intelligence
+- domain/narrative-intelligence
+- domain/sentiment-analysis
+- domain/influence-operations
+- domain/counter-narrative
+- domain/national-security
+- domain/strategic-communications
+- organisation/aras-integrasi
+- organisation/uitm
+- organisation/pmo
+- mission/political-intelligence
+- readiness/development
+priority: null
+lifecycle_state: null
+confidence: null
+source:
+  type: null
+  reference: null
+summary: null
+strategic_significance: null
+mission_alignment: []
+related_records: []
 ---
 
 # R.I.S.I.K Operational Development Plan

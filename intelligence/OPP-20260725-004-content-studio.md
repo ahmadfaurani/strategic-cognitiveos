@@ -2,8 +2,8 @@
 id: INT-20260725-004
 record_type: intelligence
 title: Opportunity — Content Studio & Multimedia Production Capability
-created_at: 2026-07-25T10:35:00Z
-updated_at: 2026-07-25T10:35:00Z
+created_at: 2026-07-25 10:35:00+00:00
+updated_at: 2026-07-25 10:35:00+00:00
 owner: DAF
 intelligence_type: market
 status: draft
@@ -11,31 +11,33 @@ priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-  - domain/cybersecurity
-  - domain/governance
-  - sector/government
-  - mission/strategic-communications
-  - mission/productisation
-  - mission/commercial-growth
-  - intelligence/market
-  - commercial/opportunity-identification
+- domain/cybersecurity
+- domain/governance
+- sector/government
+- mission/strategic-communications
+- mission/productisation
+- mission/commercial-growth
+- intelligence/market
+- commercial/opportunity-identification
 mission_alignment:
-  - strategic-communications
-  - productisation
-  - commercial-growth
+- strategic-communications
+- productisation
+- commercial-growth
 evidence:
-  - "CSCDC Framework v2.0, Sector 2: RM 150,000 for Corporate Content Studio Lab (4K cameras, mics, studio lighting, video editing, green screen)"
-  - "Unit 3 function 3: bangunkan aset grafik, infografik, klip multimedia, video penerangan pendek"
-  - "Unit 7 requires content for anti-deepfake/anti-scam campaigns across TikTok, YouTube Shorts"
+- 'CSCDC Framework v2.0, Sector 2: RM 150,000 for Corporate Content Studio Lab (4K cameras, mics, studio lighting, video editing, green screen)'
+- 'Unit 3 function 3: bangunkan aset grafik, infografik, klip multimedia, video penerangan pendek'
+- Unit 7 requires content for anti-deepfake/anti-scam campaigns across TikTok, YouTube Shorts
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 8, 10, 17
 lifecycle_state: canonical
-summary: "See record body for intelligence summary."
+summary: See record body for intelligence summary.
+strategic_significance: null
+related_records: []
 ---
 
 # Summary

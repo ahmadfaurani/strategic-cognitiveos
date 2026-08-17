@@ -1,23 +1,30 @@
 ---
 id: EXEC-BOTTLENECK-20260811
 record_type: briefing
-title: "Execution Bottleneck Analysis — Cybersecurity Flagship Productisation Programme"
-created_at: 2026-08-11T04:30:00+00:00
+title: Execution Bottleneck Analysis — Cybersecurity Flagship Productisation Programme
+created_at: 2026-08-11 04:30:00+00:00
 owner: faurani-jaafar
 sensitivity: confidential
 confidence: HIGH
 tags:
-  - domain/cybersecurity-productisation
-  - domain/product-management
-  - meeting/team-meeting
-  - priority/critical
+- domain/cybersecurity-productisation
+- domain/product-management
+- meeting/team-meeting
+- priority/critical
 source:
   type: analysis
-  reference: "Based on full workstream review (01:48 UTC) + DAF productisation directive (04:02 UTC)"
+  reference: Based on full workstream review (01:48 UTC) + DAF productisation directive (04:02 UTC)
 related_records:
-  - DEC-20260811-001
-  - INIT-20260811-001
-  - RSK-20260811-001
+- DEC-20260811-001
+- INIT-20260811-001
+- RSK-20260811-001
+updated_at: null
+status: null
+priority: null
+lifecycle_state: null
+summary: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Execution Bottleneck Analysis

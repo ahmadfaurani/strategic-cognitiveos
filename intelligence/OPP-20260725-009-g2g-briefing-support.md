@@ -2,8 +2,8 @@
 id: INT-20260725-009
 record_type: intelligence
 title: Opportunity — G2G Briefing & Speechwriting Support
-created_at: 2026-07-25T10:35:00Z
-updated_at: 2026-07-25T10:35:00Z
+created_at: 2026-07-25 10:35:00+00:00
+updated_at: 2026-07-25 10:35:00+00:00
 owner: DAF
 intelligence_type: market
 status: draft
@@ -11,29 +11,31 @@ priority: medium
 sensitivity: confidential
 confidence: low
 tags:
-  - domain/governance
-  - domain/stakeholder-engagement
-  - sector/government
-  - mission/strategic-communications
-  - mission/institutional-partnerships
-  - intelligence/market
-  - commercial/opportunity-identification
+- domain/governance
+- domain/stakeholder-engagement
+- sector/government
+- mission/strategic-communications
+- mission/institutional-partnerships
+- intelligence/market
+- commercial/opportunity-identification
 mission_alignment:
-  - strategic-communications
-  - institutional-partnerships
+- strategic-communications
+- institutional-partnerships
 evidence:
-  - "CSCDC Framework v2.0, Unit 5 function 1: Menyediakan teks ucapan eksklusif, kertas taklimat kabinet, dan talking points strategik untuk Perdana Menteri, Menteri di JPM, dan KSN"
-  - "Unit 5 function 3: Menghasilkan laporan kedudukan diplomasi siber kebangsaan untuk persidangan antarabangsa (ASEAN, PBB, ITU)"
-  - "Unit 5 function 4: Menguruskan taklimat komunikasi khas untuk Ahli Parlimen"
+- 'CSCDC Framework v2.0, Unit 5 function 1: Menyediakan teks ucapan eksklusif, kertas taklimat kabinet, dan talking points strategik untuk Perdana Menteri, Menteri di JPM, dan KSN'
+- 'Unit 5 function 3: Menghasilkan laporan kedudukan diplomasi siber kebangsaan untuk persidangan antarabangsa (ASEAN, PBB, ITU)'
+- 'Unit 5 function 4: Menguruskan taklimat komunikasi khas untuk Ahli Parlimen'
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 9
 lifecycle_state: canonical
-summary: "See record body for intelligence summary."
+summary: See record body for intelligence summary.
+strategic_significance: null
+related_records: []
 ---
 
 # Summary

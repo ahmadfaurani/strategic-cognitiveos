@@ -1,17 +1,26 @@
 ---
 id: INIT-20260813-005
 record_type: initiative
-title: "Job Description — POC Engineer"
-created_at: 2026-08-13T00:00:00Z
+title: Job Description — POC Engineer
+created_at: 2026-08-13 00:00:00+00:00
 owner: faurani-jaafar
 status: active
 portfolio_tier: incubation
 readiness_level: concept
-summary: "Reference document — see body for details."
+summary: Reference document — see body for details.
 sensitivity: internal
 lifecycle_state: canonical
 tags:
-  - type/reference-document
+- type/reference-document
+updated_at: null
+priority: null
+confidence: null
+source:
+  type: null
+  reference: null
+strategic_significance: null
+mission_alignment: []
+related_records: []
 ---
 
 # Job Description — POC Engineer

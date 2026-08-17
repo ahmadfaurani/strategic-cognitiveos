@@ -2,8 +2,8 @@
 id: INT-20260725-005
 record_type: intelligence
 title: Opportunity — PQC Sandbox Strategic Positioning & Sovereign AI Intersection
-created_at: 2026-07-25T10:35:00Z
-updated_at: 2026-07-25T10:35:00Z
+created_at: 2026-07-25 10:35:00+00:00
+updated_at: 2026-07-25 10:35:00+00:00
 owner: DAF
 intelligence_type: market
 status: draft
@@ -11,35 +11,37 @@ priority: critical
 sensitivity: confidential
 confidence: medium
 tags:
-  - domain/cybersecurity
-  - domain/artificial-intelligence
-  - sector/government
-  - sector/critical-infrastructure
-  - mission/national-cybersecurity
-  - mission/sovereign-ai
-  - mission/strategic-communications
-  - mission/institutional-partnerships
-  - intelligence/market
-  - commercial/opportunity-identification
+- domain/cybersecurity
+- domain/artificial-intelligence
+- sector/government
+- sector/critical-infrastructure
+- mission/national-cybersecurity
+- mission/sovereign-ai
+- mission/strategic-communications
+- mission/institutional-partnerships
+- intelligence/market
+- commercial/opportunity-identification
 mission_alignment:
-  - national-cybersecurity
-  - sovereign-ai
-  - strategic-communications
-  - institutional-partnerships
+- national-cybersecurity
+- sovereign-ai
+- strategic-communications
+- institutional-partnerships
 evidence:
-  - "CSCDC Framework v2.0, Page 4: PQC Sandbox mentioned as national priority for post-quantum cryptography readiness"
-  - "Sector 3: RM 300,000 allocated for PQC Sandbox Strategic Conference & Launch"
-  - "Unit 6 function 3: menjalankan kempen publisiti strategik untuk menarik penyertaan industri swasta dalam PQC Sandbox"
-  - "DAF's Sovereign AI workstream (PRJ-A001) covers AI infrastructure, sovereign platforms, PMO Data Lake"
+- 'CSCDC Framework v2.0, Page 4: PQC Sandbox mentioned as national priority for post-quantum cryptography readiness'
+- 'Sector 3: RM 300,000 allocated for PQC Sandbox Strategic Conference & Launch'
+- 'Unit 6 function 3: menjalankan kempen publisiti strategik untuk menarik penyertaan industri swasta dalam PQC Sandbox'
+- DAF's Sovereign AI workstream (PRJ-A001) covers AI infrastructure, sovereign platforms, PMO Data Lake
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 4, 9, 17
 lifecycle_state: canonical
-summary: "See record body for intelligence summary."
+summary: See record body for intelligence summary.
+strategic_significance: null
+related_records: []
 ---
 
 # Summary

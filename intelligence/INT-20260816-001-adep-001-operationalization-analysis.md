@@ -1,8 +1,8 @@
 ---
 id: INT-20260816-001
 record_type: intelligence
-title: "ADEP-001 Operationalization Analysis — Granular Section-by-Section Mapping to CognitiveOS"
-created_at: 2026-08-16T02:00:00Z
+title: ADEP-001 Operationalization Analysis — Granular Section-by-Section Mapping to CognitiveOS
+created_at: 2026-08-16 02:00:00+00:00
 owner: Ember
 intelligence_type: operational
 status: active
@@ -10,18 +10,26 @@ priority: critical
 sensitivity: internal
 lifecycle_state: structurally_valid
 confidence: high
-summary: "Comprehensive granular analysis of all 47 ADEP-001 sections mapped against CognitiveOS Prime Doctrine (§1-§50) and existing SOPs. Identifies 12 overlaps, 18 extensions, 7 gaps, and 10 operationalization mechanisms required. Produces ADEP-CognitiveOS integration architecture and compliance checklist."
-tags: [adep-001, governance, doctrine-integration, operationalization, execution-discipline]
+summary: Comprehensive granular analysis of all 47 ADEP-001 sections mapped against CognitiveOS Prime Doctrine (§1-§50) and existing SOPs. Identifies 12 overlaps, 18 extensions, 7 gaps, and 10 operationalization mechanisms required. Produces ADEP-CognitiveOS integration architecture and compliance checklist.
+tags:
+- adep-001
+- governance
+- doctrine-integration
+- operationalization
+- execution-discipline
 source:
   type: analysis
-  reference: "ADEP-001 (47 sections) × CognitiveOS Prime Doctrine (50 sections) × 3 existing SOPs"
+  reference: ADEP-001 (47 sections) × CognitiveOS Prime Doctrine (50 sections) × 3 existing SOPs
 related_records:
-  - DEC-20260816-001
-  - DEC-20260815-003
-  - governance/ADEP-001-agentic-diligence-execution-protocol.md
-  - governance/cross-doctrinal-analysis-sop.md
-  - governance/intake-sop.md
-  - governance/template-discipline-sop.md
+- DEC-20260816-001
+- DEC-20260815-003
+- governance/ADEP-001-agentic-diligence-execution-protocol.md
+- governance/cross-doctrinal-analysis-sop.md
+- governance/intake-sop.md
+- governance/template-discipline-sop.md
+updated_at: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # ADEP-001 Operationalization Analysis

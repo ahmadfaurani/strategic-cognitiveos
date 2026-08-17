@@ -2,8 +2,8 @@
 id: INT-20260817-001
 record_type: intelligence
 title: Azrul Nazim Abdul Aziz — Stakeholder Engagement Assessment
-created_at: 2026-08-17T07:20:00+00:00
-updated_at: 2026-08-17T07:20:00+00:00
+created_at: 2026-08-17 07:20:00+00:00
+updated_at: 2026-08-17 07:20:00+00:00
 owner: faurani-jaafar
 intelligence_type: stakeholder
 status: validated
@@ -14,13 +14,20 @@ related_initiative: INIT-20260804-001
 related_stakeholder: STK-20260813-008
 lifecycle_state: canonical
 tags:
-  - domain/cybersecurity
-  - domain/cybersecurity-productisation
-  - domain/strategic-partnership
-  - org/csm
-  - role/strategic-management
-  - role/industry-engagement
-  - lifecycle/active-development
+- domain/cybersecurity
+- domain/cybersecurity-productisation
+- domain/strategic-partnership
+- org/csm
+- role/strategic-management
+- role/industry-engagement
+- lifecycle/active-development
+source:
+  type: null
+  reference: null
+summary: null
+strategic_significance: null
+mission_alignment: []
+related_records: []
 ---
 
 # Assessment Summary

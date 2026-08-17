@@ -1,9 +1,9 @@
 ---
 id: INT-20260815-009
 record_type: intelligence
-title: "CyberDSA 2026 — Cross-Doctrinal Synthesis: Convergence Analysis Across 3 Doctrine Applications"
-created_at: 2026-08-16T00:45:00+00:00
-updated_at: 2026-08-16T00:45:00+00:00
+title: 'CyberDSA 2026 — Cross-Doctrinal Synthesis: Convergence Analysis Across 3 Doctrine Applications'
+created_at: 2026-08-16 00:45:00+00:00
+updated_at: 2026-08-16 00:45:00+00:00
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -11,36 +11,38 @@ priority: critical
 sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
-summary: "Cross-doctrinal synthesis of INT-006 (Cognitive Loop), INT-007 (Actionable Intelligence & Prioritisation), and INT-008 (Engineered Success). Analyses convergence patterns, validates findings through multi-method triangulation, maps blind spots, and produces a unified action framework with confidence tiers. All three methods independently arrive at the same 3 priority actions — structural confirmation of correctness."
-context: "DAF requested a detailed structured analytical report based on the findings of all 3 doctrine application use cases. This report synthesises 108KB of analysis (INT-006: 33KB, INT-007: 24KB, INT-008: 48KB) into a single coherent assessment."
-rationale: "Three independent analytical methods applied to the same workstream produce convergent findings. This report validates that convergence, identifies blind spots each method alone cannot see, and produces the unified action framework that DAF should operate from."
+summary: Cross-doctrinal synthesis of INT-006 (Cognitive Loop), INT-007 (Actionable Intelligence & Prioritisation), and INT-008 (Engineered Success). Analyses convergence patterns, validates findings through multi-method triangulation, maps blind spots, and produces a unified action framework with confidence tiers. All three methods independently arrive at the same 3 priority actions — structural confirmation of correctness.
+context: 'DAF requested a detailed structured analytical report based on the findings of all 3 doctrine application use cases. This report synthesises 108KB of analysis (INT-006: 33KB, INT-007: 24KB, INT-008: 48KB) into a single coherent assessment.'
+rationale: Three independent analytical methods applied to the same workstream produce convergent findings. This report validates that convergence, identifies blind spots each method alone cannot see, and produces the unified action framework that DAF should operate from.
 tags:
-  - domain/cybersecurity
-  - domain/commercial-development
-  - domain/product-management
-  - domain/stakeholder-engagement
-  - domain/organisational-capability
-  - milestone/cyberdsa-2026
-  - cognitive-doctrine/synthesis
-  - lifecycle/canonical
-  - priority/critical
+- domain/cybersecurity
+- domain/commercial-development
+- domain/product-management
+- domain/stakeholder-engagement
+- domain/organisational-capability
+- milestone/cyberdsa-2026
+- cognitive-doctrine/synthesis
+- lifecycle/canonical
+- priority/critical
 source:
   type: operator-directive
-  reference: "Telegram direct, DAF, 2026-08-16 00:39 UTC"
+  reference: Telegram direct, DAF, 2026-08-16 00:39 UTC
 related_records:
-  - INT-20260815-002
-  - INT-20260815-003
-  - INT-20260815-004
-  - INT-20260815-005
-  - INT-20260815-006
-  - INT-20260815-007
-  - INT-20260815-008
-  - DEC-20260815-004
-  - DEC-20260815-005
-  - INIT-20260810-003
-  - INIT-20260811-001
-  - INIT-20260804-001
-  - RSK-20260815-003
+- INT-20260815-002
+- INT-20260815-003
+- INT-20260815-004
+- INT-20260815-005
+- INT-20260815-006
+- INT-20260815-007
+- INT-20260815-008
+- DEC-20260815-004
+- DEC-20260815-005
+- INIT-20260810-003
+- INIT-20260811-001
+- INIT-20260804-001
+- RSK-20260815-003
+strategic_significance: null
+mission_alignment: []
 ---
 
 # CyberDSA 2026 — Cross-Doctrinal Synthesis

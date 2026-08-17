@@ -1,17 +1,25 @@
 ---
 id: INT-20260725-002
 record_type: intelligence
-title: "AI Council Design Analysis"
-created_at: 2026-07-25T00:00:00Z
+title: AI Council Design Analysis
+created_at: 2026-07-25 00:00:00+00:00
 owner: faurani-jaafar
 status: active
 intelligence_type: operational
 confidence: high
 sensitivity: confidential
-summary: "Analytical report — see body for full analysis."
+summary: Analytical report — see body for full analysis.
 lifecycle_state: canonical
 tags:
-  - type/analytical-report
+- type/analytical-report
+updated_at: null
+priority: null
+source:
+  type: null
+  reference: null
+strategic_significance: null
+mission_alignment: []
+related_records: []
 ---
 
 # AI Council Design — Analytical Report

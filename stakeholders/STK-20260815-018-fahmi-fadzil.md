@@ -1,9 +1,9 @@
 ---
 id: STK-20260815-018
 record_type: stakeholder
-title: "Datuk Fahmi Fadzil"
-created_at: 2026-08-15T17:50:00+00:00
-updated_at: 2026-08-15T17:50:00+00:00
+title: Datuk Fahmi Fadzil
+created_at: 2026-08-15 17:50:00+00:00
+updated_at: 2026-08-15 17:50:00+00:00
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Ministry of Communications (KKD)
@@ -11,32 +11,38 @@ role: Minister of Communications
 influence_level: high
 interest_level: high
 relationship_status: new
-strategic_relevance: "Communications Minister — attended CSCDC launch alongside NACSA CEO. Leading deepfake enforcement via ONSA subsidiary instruments. Implemented under-16 social media ban (1 Jun 2026). Policy overlap with R.I.S.I.K programme and MCMC regulatory direction."
-engagement_objective: "Policy alignment for information warfare counter-strategies. Ministerial-level engagement for R.I.S.I.K programme if MCMC funding materialises."
-current_position: "Active Communications Minister. Leading online safety enforcement, deepfake regulation, and ASEAN-level digital safety coordination."
+strategic_relevance: Communications Minister — attended CSCDC launch alongside NACSA CEO. Leading deepfake enforcement via ONSA subsidiary instruments. Implemented under-16 social media ban (1 Jun 2026). Policy overlap with R.I.S.I.K programme and MCMC regulatory direction.
+engagement_objective: Policy alignment for information warfare counter-strategies. Ministerial-level engagement for R.I.S.I.K programme if MCMC funding materialises.
+current_position: Active Communications Minister. Leading online safety enforcement, deepfake regulation, and ASEAN-level digital safety coordination.
 commitments_by_us: []
 commitments_by_stakeholder: []
-last_engagement: "None direct — identified via intelligence cycles"
-next_engagement: "TBD — via MCMC engagement pathway or policy channels"
+last_engagement: None direct — identified via intelligence cycles
+next_engagement: TBD — via MCMC engagement pathway or policy channels
 relationship_owner: faurani-jaafar
 related_initiatives:
-  - INIT-20260803-002
+- INIT-20260803-002
 sensitivity: confidential
 tags:
-  - domain/government
-  - domain/regulatory
-  - domain/information-warfare
-  - domain/strategic-communications
-  - lifecycle/canonical
-  - priority/medium
+- domain/government
+- domain/regulatory
+- domain/information-warfare
+- domain/strategic-communications
+- lifecycle/canonical
+- priority/medium
 related_records:
-  - ORG-20260815-004
-  - STK-20260815-014
-  - INIT-20260803-002
+- ORG-20260815-004
+- STK-20260815-014
+- INIT-20260803-002
 source:
   type: intelligence-verified
-  reference: "CJ-1 cron intelligence: CSCDC launch attendance (Bernama 4 Jun 2026); ONSA deepfake enforcement announcements; IRC 2026 conference; Dewan Negara statements"
+  reference: 'CJ-1 cron intelligence: CSCDC launch attendance (Bernama 4 Jun 2026); ONSA deepfake enforcement announcements; IRC 2026 conference; Dewan Negara statements'
 lifecycle_state: canonical
+status: null
+priority: null
+confidence: null
+summary: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Name

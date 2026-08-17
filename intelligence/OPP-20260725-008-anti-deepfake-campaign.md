@@ -2,8 +2,8 @@
 id: INT-20260725-008
 record_type: intelligence
 title: Opportunity — Anti-Deepfake & AI Scams National Campaign
-created_at: 2026-07-25T10:35:00Z
-updated_at: 2026-07-25T10:35:00Z
+created_at: 2026-07-25 10:35:00+00:00
+updated_at: 2026-07-25 10:35:00+00:00
 owner: DAF
 intelligence_type: market
 status: draft
@@ -11,31 +11,33 @@ priority: high
 sensitivity: confidential
 confidence: medium
 tags:
-  - domain/cybersecurity
-  - domain/artificial-intelligence
-  - sector/government
-  - mission/national-cybersecurity
-  - mission/strategic-communications
-  - mission/sovereign-ai
-  - intelligence/market
-  - commercial/opportunity-identification
+- domain/cybersecurity
+- domain/artificial-intelligence
+- sector/government
+- mission/national-cybersecurity
+- mission/strategic-communications
+- mission/sovereign-ai
+- intelligence/market
+- commercial/opportunity-identification
 mission_alignment:
-  - national-cybersecurity
-  - strategic-communications
-  - sovereign-ai
+- national-cybersecurity
+- strategic-communications
+- sovereign-ai
 evidence:
-  - "CSCDC Framework v2.0, Sector 4: RM 500,000 for National Anti-Deepfake & AI Scams Campaign"
-  - "Campaign scope: TV prime-time, digital billboards, micro-targeted social media"
-  - "Unit 7 function 2: kesedaran kebangsaan terhadap AI Deepfake Scams, kecurian identiti digital, dan social engineering"
+- 'CSCDC Framework v2.0, Sector 4: RM 500,000 for National Anti-Deepfake & AI Scams Campaign'
+- 'Campaign scope: TV prime-time, digital billboards, micro-targeted social media'
+- 'Unit 7 function 2: kesedaran kebangsaan terhadap AI Deepfake Scams, kecurian identiti digital, dan social engineering'
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 10, 17
 lifecycle_state: canonical
-summary: "See record body for intelligence summary."
+summary: See record body for intelligence summary.
+strategic_significance: null
+related_records: []
 ---
 
 # Summary

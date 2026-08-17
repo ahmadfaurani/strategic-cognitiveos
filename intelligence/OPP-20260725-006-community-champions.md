@@ -2,8 +2,8 @@
 id: INT-20260725-006
 record_type: intelligence
 title: Opportunity — Community Champions Programme Design
-created_at: 2026-07-25T10:35:00Z
-updated_at: 2026-07-25T10:35:00Z
+created_at: 2026-07-25 10:35:00+00:00
+updated_at: 2026-07-25 10:35:00+00:00
 owner: DAF
 intelligence_type: market
 status: draft
@@ -11,33 +11,35 @@ priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-  - domain/cybersecurity
-  - domain/governance
-  - sector/government
-  - sector/education
-  - mission/national-cybersecurity
-  - mission/strategic-communications
-  - mission/organisational-capability
-  - intelligence/market
-  - commercial/opportunity-identification
+- domain/cybersecurity
+- domain/governance
+- sector/government
+- sector/education
+- mission/national-cybersecurity
+- mission/strategic-communications
+- mission/organisational-capability
+- intelligence/market
+- commercial/opportunity-identification
 mission_alignment:
-  - national-cybersecurity
-  - strategic-communications
-  - organisational-capability
+- national-cybersecurity
+- strategic-communications
+- organisational-capability
 evidence:
-  - "CSCDC Framework v2.0, Sector 4: RM 200,000 for Community & Educational Institution Literacy Tour (50 urban/rural locations with KPM/KPT)"
-  - "Sector 4: RM 200,000 for Cyber Security Community Champions Training & Management"
-  - "Unit 7 function 3: Program Sukarelawan & Duta Siber (Cyber Security Community Champions) di setiap negeri"
-  - "KPI: minimum 1,000 Community Champions trained in Year 1"
+- 'CSCDC Framework v2.0, Sector 4: RM 200,000 for Community & Educational Institution Literacy Tour (50 urban/rural locations with KPM/KPT)'
+- 'Sector 4: RM 200,000 for Cyber Security Community Champions Training & Management'
+- 'Unit 7 function 3: Program Sukarelawan & Duta Siber (Cyber Security Community Champions) di setiap negeri'
+- 'KPI: minimum 1,000 Community Champions trained in Year 1'
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 10, 16, 17
 lifecycle_state: canonical
-summary: "See record body for intelligence summary."
+summary: See record body for intelligence summary.
+strategic_significance: null
+related_records: []
 ---
 
 # Summary

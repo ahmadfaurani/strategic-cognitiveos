@@ -1,9 +1,9 @@
 ---
 id: STK-20260815-015
 record_type: stakeholder
-title: "Datuk Fabian Bigar"
-created_at: 2026-08-15T17:50:00+00:00
-updated_at: 2026-08-15T17:50:00+00:00
+title: Datuk Fabian Bigar
+created_at: 2026-08-15 17:50:00+00:00
+updated_at: 2026-08-15 17:50:00+00:00
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Ministry of Digital (KKD)
@@ -11,30 +11,36 @@ role: Secretary-General, Ministry of Digital — CSM Board Director
 influence_level: high
 interest_level: medium
 relationship_status: new
-strategic_relevance: "Sec-Gen Ministry of Digital sits on CSM Board of Directors. Ministry of Digital retains influence over CSM-side assets being absorbed into CSCDC. Officiated NACSA Cyber Games 2025. Relevant for CSM-asset decisions and digital policy oversight."
-engagement_objective: "Ministry of Digital alignment for CSCDC transition. CSM board-level engagement pathway."
-current_position: "Active Sec-Gen Ministry of Digital. CSM Board Director. Officiated NACSA Cyber Games 2025 (May 2026) on behalf of Minister Gobind Singh Deo."
+strategic_relevance: Sec-Gen Ministry of Digital sits on CSM Board of Directors. Ministry of Digital retains influence over CSM-side assets being absorbed into CSCDC. Officiated NACSA Cyber Games 2025. Relevant for CSM-asset decisions and digital policy oversight.
+engagement_objective: Ministry of Digital alignment for CSCDC transition. CSM board-level engagement pathway.
+current_position: Active Sec-Gen Ministry of Digital. CSM Board Director. Officiated NACSA Cyber Games 2025 (May 2026) on behalf of Minister Gobind Singh Deo.
 commitments_by_us: []
 commitments_by_stakeholder: []
-last_engagement: "None direct — identified via intelligence cycles"
-next_engagement: "TBD — via CSM board or Ministry of Digital channels"
+last_engagement: None direct — identified via intelligence cycles
+next_engagement: TBD — via CSM board or Ministry of Digital channels
 relationship_owner: faurani-jaafar
 related_initiatives:
-  - INIT-20260804-001
+- INIT-20260804-001
 sensitivity: confidential
 tags:
-  - domain/government
-  - domain/digital-policy
-  - domain/cybersecurity
-  - lifecycle/canonical
-  - priority/medium
+- domain/government
+- domain/digital-policy
+- domain/cybersecurity
+- lifecycle/canonical
+- priority/medium
 related_records:
-  - ORG-20260815-002
-  - ORG-20260815-013
+- ORG-20260815-002
+- ORG-20260815-013
 source:
   type: intelligence-verified
-  reference: "CJ-1 cron intelligence: CSM Board of Directors composition; NACSA Cyber Games 2025 officiation; CSCDC approval chain mapping"
+  reference: 'CJ-1 cron intelligence: CSM Board of Directors composition; NACSA Cyber Games 2025 officiation; CSCDC approval chain mapping'
 lifecycle_state: canonical
+status: null
+priority: null
+confidence: null
+summary: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Name

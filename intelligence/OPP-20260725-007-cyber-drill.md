@@ -2,8 +2,8 @@
 id: INT-20260725-007
 record_type: intelligence
 title: Opportunity — National Cyber Drill Simulation Design
-created_at: 2026-07-25T10:35:00Z
-updated_at: 2026-07-25T10:35:00Z
+created_at: 2026-07-25 10:35:00+00:00
+updated_at: 2026-07-25 10:35:00+00:00
 owner: DAF
 intelligence_type: market
 status: draft
@@ -11,30 +11,32 @@ priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-  - domain/cybersecurity
-  - domain/governance
-  - sector/government
-  - sector/critical-infrastructure
-  - mission/national-cybersecurity
-  - mission/strategic-communications
-  - intelligence/market
-  - commercial/opportunity-identification
+- domain/cybersecurity
+- domain/governance
+- sector/government
+- sector/critical-infrastructure
+- mission/national-cybersecurity
+- mission/strategic-communications
+- intelligence/market
+- commercial/opportunity-identification
 mission_alignment:
-  - national-cybersecurity
-  - strategic-communications
+- national-cybersecurity
+- strategic-communications
 evidence:
-  - "CSCDC Framework v2.0, Sector 3: RM 200,000 allocated for National Cyber Drill Simulation"
-  - "Framework states War Room must be rehearsed — drill is likely the primary rehearsal vehicle"
-  - "Unit 4 function 1: Cyber Crisis Communication Playbook must be 'selaras dengan Arahan MKN'"
+- 'CSCDC Framework v2.0, Sector 3: RM 200,000 allocated for National Cyber Drill Simulation'
+- Framework states War Room must be rehearsed — drill is likely the primary rehearsal vehicle
+- 'Unit 4 function 1: Cyber Crisis Communication Playbook must be ''selaras dengan Arahan MKN'''
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 17
 lifecycle_state: canonical
-summary: "See record body for intelligence summary."
+summary: See record body for intelligence summary.
+strategic_significance: null
+related_records: []
 ---
 
 # Summary

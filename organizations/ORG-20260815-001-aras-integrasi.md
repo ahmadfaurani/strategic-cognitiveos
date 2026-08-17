@@ -1,41 +1,50 @@
 ---
 id: ORG-20260815-001
 record_type: organization
-title: "Aras Integrasi Sdn Bhd"
-created_at: 2026-08-15T17:35:00+00:00
-updated_at: 2026-08-15T17:35:00+00:00
+title: Aras Integrasi Sdn Bhd
+created_at: 2026-08-15 17:35:00+00:00
+updated_at: 2026-08-15 17:35:00+00:00
 owner: faurani-jaafar
 org_type: internal-division
 sector: cybersecurity
-strategic_relevance: "Primary operating company — DAF's practice base. Cybersecurity practice lead, Voron product line owner, CSM partnership principal."
+strategic_relevance: Primary operating company — DAF's practice base. Cybersecurity practice lead, Voron product line owner, CSM partnership principal.
 relationship_status: active
 relationship_owner: faurani-jaafar
 sensitivity: internal
 lifecycle_state: canonical
 key_contacts:
-  - STK-20260815-016
-  - STK-20260815-017
-  - STK-20260803-007
-  - STK-20260804-003
-  - STK-20260808-003
-  - STK-20260810-003
-  - STK-20260811-001
-  - STK-20260811-002
-  - STK-20260811-003
-  - STK-20260815-006
+- STK-20260815-016
+- STK-20260815-017
+- STK-20260803-007
+- STK-20260804-003
+- STK-20260808-003
+- STK-20260810-003
+- STK-20260811-001
+- STK-20260811-002
+- STK-20260811-003
+- STK-20260815-006
 related_initiatives:
-  - INIT-20260804-001
-  - INIT-20260811-001
-  - INIT-20260810-003
+- INIT-20260804-001
+- INIT-20260811-001
+- INIT-20260810-003
 tags:
-  - domain/cybersecurity
-  - workstream/cybersec-products
-  - lifecycle/canonical
+- domain/cybersecurity
+- workstream/cybersec-products
+- lifecycle/canonical
 related_records:
-  - INIT-20260804-001
-  - INIT-20260811-001
-  - INIT-20260810-003
-  - DEC-20260815-004
+- INIT-20260804-001
+- INIT-20260811-001
+- INIT-20260810-003
+- DEC-20260815-004
+status: null
+priority: null
+confidence: null
+source:
+  type: null
+  reference: null
+summary: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Aras Integrasi Sdn Bhd

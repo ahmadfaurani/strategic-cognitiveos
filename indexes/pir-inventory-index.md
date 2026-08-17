@@ -1,15 +1,26 @@
 ---
 id: PIR-INVENTORY-001
-record_type: index
+record_type: artifact
 title: PIR Inventory — CSCDC Partnership Workstream
-created_at: 2026-07-25T11:00:00Z
-updated_at: 2026-07-25T11:00:00Z
+created_at: 2026-07-25 11:00:00+00:00
+updated_at: 2026-07-25 11:00:00+00:00
 owner: DAF
 sensitivity: confidential
 tags:
-  - index/pir
-  - workstream/cscdc
-  - priority/critical
+- index/pir
+- workstream/cscdc
+- priority/critical
+status: null
+priority: null
+lifecycle_state: null
+confidence: null
+source:
+  type: null
+  reference: null
+summary: null
+strategic_significance: null
+mission_alignment: []
+related_records: []
 ---
 
 # PIR Inventory — CSCDC Partnership Workstream

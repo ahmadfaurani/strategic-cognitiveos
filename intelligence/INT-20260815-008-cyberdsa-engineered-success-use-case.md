@@ -1,9 +1,9 @@
 ---
 id: INT-20260815-008
 record_type: intelligence
-title: "CyberDSA 2026 — Engineered Success Framework Applied Use Case"
-created_at: 2026-08-15T18:48:00+00:00
-updated_at: 2026-08-15T18:48:00+00:00
+title: CyberDSA 2026 — Engineered Success Framework Applied Use Case
+created_at: 2026-08-15 18:48:00+00:00
+updated_at: 2026-08-15 18:48:00+00:00
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -11,36 +11,38 @@ priority: critical
 sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
-summary: "Doctrine §9 (Engineered Success Framework) and §10 (Objective Decomposition) applied to CyberDSA 2026 workstream as a structured use case. Demonstrates the full 12-element framework: Objective, Definition of Done, Success/Failure Conditions, Dependencies, Critical Path, Ownership, Resources, Checkpoints, Leading/Lagging Indicators, and Verification — with objective decomposition from strategic objective through to individual actions and evidence standards."
-context: "DAF requested a focused application of §9 and §10 against the CyberDSA workstream. This is the third in a doctrine application series: INT-006 (full Cognitive Loop), INT-007 (Actionable Intelligence & Prioritisation), INT-008 (Engineered Success)."
-rationale: "Demonstrates how a complex multi-dimensional workstream is engineered for success rather than managed reactively. Shows the decomposition chain from strategic objective to individual actions with verifiable evidence. Provides the structural template that makes the Cognitive Loop and Prioritisation Engine effective — without this framework, there is nothing to loop over or prioritise against."
+summary: 'Doctrine §9 (Engineered Success Framework) and §10 (Objective Decomposition) applied to CyberDSA 2026 workstream as a structured use case. Demonstrates the full 12-element framework: Objective, Definition of Done, Success/Failure Conditions, Dependencies, Critical Path, Ownership, Resources, Checkpoints, Leading/Lagging Indicators, and Verification — with objective decomposition from strategic objective through to individual actions and evidence standards.'
+context: 'DAF requested a focused application of §9 and §10 against the CyberDSA workstream. This is the third in a doctrine application series: INT-006 (full Cognitive Loop), INT-007 (Actionable Intelligence & Prioritisation), INT-008 (Engineered Success).'
+rationale: Demonstrates how a complex multi-dimensional workstream is engineered for success rather than managed reactively. Shows the decomposition chain from strategic objective to individual actions with verifiable evidence. Provides the structural template that makes the Cognitive Loop and Prioritisation Engine effective — without this framework, there is nothing to loop over or prioritise against.
 tags:
-  - domain/cybersecurity
-  - domain/commercial-development
-  - domain/product-management
-  - domain/stakeholder-engagement
-  - domain/organisational-capability
-  - milestone/cyberdsa-2026
-  - workstream/cybersec-products
-  - cognitive-doctrine/application
-  - lifecycle/canonical
-  - priority/critical
+- domain/cybersecurity
+- domain/commercial-development
+- domain/product-management
+- domain/stakeholder-engagement
+- domain/organisational-capability
+- milestone/cyberdsa-2026
+- workstream/cybersec-products
+- cognitive-doctrine/application
+- lifecycle/canonical
+- priority/critical
 source:
   type: operator-directive
-  reference: "Telegram direct, DAF, 2026-08-15 18:44 UTC"
+  reference: Telegram direct, DAF, 2026-08-15 18:44 UTC
 related_records:
-  - INT-20260815-002
-  - INT-20260815-003
-  - INT-20260815-004
-  - INT-20260815-005
-  - INT-20260815-006
-  - INT-20260815-007
-  - DEC-20260815-004
-  - DEC-20260815-005
-  - INIT-20260810-003
-  - INIT-20260811-001
-  - INIT-20260804-001
-  - RSK-20260815-003
+- INT-20260815-002
+- INT-20260815-003
+- INT-20260815-004
+- INT-20260815-005
+- INT-20260815-006
+- INT-20260815-007
+- DEC-20260815-004
+- DEC-20260815-005
+- INIT-20260810-003
+- INIT-20260811-001
+- INIT-20260804-001
+- RSK-20260815-003
+strategic_significance: null
+mission_alignment: []
 ---
 
 # CyberDSA 2026 — Engineered Success Framework Applied Use Case

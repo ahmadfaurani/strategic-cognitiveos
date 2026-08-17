@@ -1,9 +1,9 @@
 ---
 id: STK-20260815-017
 record_type: stakeholder
-title: "Dennis Looi"
-created_at: 2026-08-15T17:50:00+00:00
-updated_at: 2026-08-15T17:50:00+00:00
+title: Dennis Looi
+created_at: 2026-08-15 17:50:00+00:00
+updated_at: 2026-08-15 17:50:00+00:00
 owner: faurani-jaafar
 stakeholder_type: internal
 organisation: Aras Integrasi Sdn Bhd
@@ -11,30 +11,36 @@ role: Deputy CEO, Aras Integrasi Sdn Bhd
 influence_level: medium
 interest_level: high
 relationship_status: active
-strategic_relevance: "Deputy CEO of Aras Integrasi. Part of NACSA ecosystem via Aras-hosted AISE26 (NACSA CEO keynote) and CSM-hosted Showcase Solusi AI. Active in PIKOM CIO Conference 2026."
-engagement_objective: "Aras Integrasi leadership team — supports cybersecurity practice strategy and sovereign AI positioning."
-current_position: "Active Deputy CEO. Represented Aras at PIKOM CIO Conference 2026 (2 Jul 2026)."
+strategic_relevance: Deputy CEO of Aras Integrasi. Part of NACSA ecosystem via Aras-hosted AISE26 (NACSA CEO keynote) and CSM-hosted Showcase Solusi AI. Active in PIKOM CIO Conference 2026.
+engagement_objective: Aras Integrasi leadership team — supports cybersecurity practice strategy and sovereign AI positioning.
+current_position: Active Deputy CEO. Represented Aras at PIKOM CIO Conference 2026 (2 Jul 2026).
 commitments_by_us: []
 commitments_by_stakeholder: []
-last_engagement: "Ongoing — internal Aras Integrasi leadership"
-next_engagement: "Ongoing internal alignment"
+last_engagement: Ongoing — internal Aras Integrasi leadership
+next_engagement: Ongoing internal alignment
 relationship_owner: faurani-jaafar
 related_initiatives:
-  - INIT-20260804-001
+- INIT-20260804-001
 sensitivity: internal
 tags:
-  - domain/cybersecurity
-  - domain/sovereign-ai
-  - lifecycle/canonical
-  - priority/medium
-  - organisation/aras-integrasi
+- domain/cybersecurity
+- domain/sovereign-ai
+- lifecycle/canonical
+- priority/medium
+- organisation/aras-integrasi
 related_records:
-  - ORG-20260815-001
-  - STK-20260815-016
+- ORG-20260815-001
+- STK-20260815-016
 source:
   type: intelligence-verified
-  reference: "CJ-1 cron intelligence: Aras Integrasi company profile confirming Deputy CEO; PIKOM CIO Conference 2026 attendance"
+  reference: 'CJ-1 cron intelligence: Aras Integrasi company profile confirming Deputy CEO; PIKOM CIO Conference 2026 attendance'
 lifecycle_state: canonical
+status: null
+priority: null
+confidence: null
+summary: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Name

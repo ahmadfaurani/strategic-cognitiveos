@@ -1,9 +1,9 @@
 ---
 id: INT-20260815-002
 record_type: intelligence
-title: "CyberDSA 2026 Workstream — Success Criteria Definition"
-created_at: 2026-08-15T16:10:00+00:00
-updated_at: 2026-08-15T16:10:00+00:00
+title: CyberDSA 2026 Workstream — Success Criteria Definition
+created_at: 2026-08-15 16:10:00+00:00
+updated_at: 2026-08-15 16:10:00+00:00
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -12,22 +12,24 @@ sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
 tags:
-  - domain/cybersecurity
-  - domain/commercial-development
-  - domain/product-management
-  - milestone/cyberdsa-2026
-  - workstream/cybersec-products
-  - lifecycle/canonical
-  - priority/critical
+- domain/cybersecurity
+- domain/commercial-development
+- domain/product-management
+- milestone/cyberdsa-2026
+- workstream/cybersec-products
+- lifecycle/canonical
+- priority/critical
 source:
   type: operator-directive
   reference: DEC-20260815-004
 related_records:
-  - DEC-20260815-004
-  - INIT-20260811-001
-  - INIT-20260810-003
-  - INIT-20260804-001
-summary: "Structured success criteria for CyberDSA 2026 workstream across 6 dimensions with tiered evidence standards."
+- DEC-20260815-004
+- INIT-20260811-001
+- INIT-20260810-003
+- INIT-20260804-001
+summary: Structured success criteria for CyberDSA 2026 workstream across 6 dimensions with tiered evidence standards.
+strategic_significance: null
+mission_alignment: []
 ---
 
 # CyberDSA 2026 — Success Criteria Definition

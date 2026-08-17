@@ -1,33 +1,38 @@
 ---
 id: CONV-20260815-005
 record_type: conversation
-title: "DAF shared CSM-Aras Stakeholder Coverage & Communication Ownership Plan"
-created_at: 2026-08-15T17:56:00+00:00
-updated_at: 2026-08-15T17:56:00+00:00
+title: DAF shared CSM-Aras Stakeholder Coverage & Communication Ownership Plan
+created_at: 2026-08-15 17:56:00+00:00
+updated_at: 2026-08-15 17:56:00+00:00
 owner: faurani-jaafar
 participants:
-  - person/faurani-jaafar
+- person/faurani-jaafar
 channel: telegram
-source_type: document-share
-source_reference: "CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx"
 sensitivity: confidential
 status: active
 lifecycle_state: canonical
 tags:
-  - domain/cybersecurity
-  - domain/stakeholder-engagement
-  - domain/commercial-development
-  - milestone/cyberdsa-2026
-  - workstream/cybersec-products
-  - lifecycle/canonical
+- domain/cybersecurity
+- domain/stakeholder-engagement
+- domain/commercial-development
+- milestone/cyberdsa-2026
+- workstream/cybersec-products
+- lifecycle/canonical
 related_records:
-  - INT-20260815-002
-  - INT-20260815-003
-  - INIT-20260810-003
-  - INIT-20260811-001
-  - INIT-20260804-001
-  - DEC-20260815-004
-summary: "DAF shared a comprehensive Stakeholder Coverage & Communication Ownership Plan for CSM-Aras CyberDSA product launch. Defines multi-layer coverage model, RACI, communication ownership, engagement flow, readiness metrics, and 8 immediate actions."
+- INT-20260815-002
+- INT-20260815-003
+- INIT-20260810-003
+- INIT-20260811-001
+- INIT-20260804-001
+- DEC-20260815-004
+summary: DAF shared a comprehensive Stakeholder Coverage & Communication Ownership Plan for CSM-Aras CyberDSA product launch. Defines multi-layer coverage model, RACI, communication ownership, engagement flow, readiness metrics, and 8 immediate actions.
+source:
+  document-share: document-share
+  CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan: CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx
+priority: null
+confidence: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Conversation Record

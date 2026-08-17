@@ -2,8 +2,8 @@
 id: INT-20260725-001
 record_type: intelligence
 title: Opportunity — Social Listening Infrastructure Provisioning
-created_at: 2026-07-25T10:35:00Z
-updated_at: 2026-07-25T10:35:00Z
+created_at: 2026-07-25 10:35:00+00:00
+updated_at: 2026-07-25 10:35:00+00:00
 owner: DAF
 intelligence_type: market
 status: draft
@@ -11,31 +11,33 @@ priority: high
 sensitivity: confidential
 confidence: medium
 tags:
-  - domain/cybersecurity
-  - domain/governance
-  - sector/government
-  - mission/national-cybersecurity
-  - mission/strategic-communications
-  - mission/commercial-growth
-  - intelligence/market
-  - commercial/opportunity-identification
+- domain/cybersecurity
+- domain/governance
+- sector/government
+- mission/national-cybersecurity
+- mission/strategic-communications
+- mission/commercial-growth
+- intelligence/market
+- commercial/opportunity-identification
 mission_alignment:
-  - national-cybersecurity
-  - strategic-communications
-  - commercial-growth
+- national-cybersecurity
+- strategic-communications
+- commercial-growth
 evidence:
-  - "CSCDC Framework v2.0, Sector 2: RM 120,000 allocated for enterprise social listening (Meltwater/Brand24/CARMA)"
-  - "Framework states Unit 3 requires 24/7 media monitoring using analytics software"
-  - "RM 120K is likely insufficient for enterprise-grade national government social listening"
+- 'CSCDC Framework v2.0, Sector 2: RM 120,000 allocated for enterprise social listening (Meltwater/Brand24/CARMA)'
+- Framework states Unit 3 requires 24/7 media monitoring using analytics software
+- RM 120K is likely insufficient for enterprise-grade national government social listening
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 17, Sector 2
 lifecycle_state: canonical
-summary: "See record body for intelligence summary."
+summary: See record body for intelligence summary.
+strategic_significance: null
+related_records: []
 ---
 
 # Summary

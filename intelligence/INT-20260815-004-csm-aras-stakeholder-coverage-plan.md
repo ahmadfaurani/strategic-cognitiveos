@@ -1,9 +1,9 @@
 ---
 id: INT-20260815-004
 record_type: intelligence
-title: "CSM-Aras Stakeholder Coverage & Communication Ownership Plan — CyberDSA 2026"
-created_at: 2026-08-15T17:56:00+00:00
-updated_at: 2026-08-15T17:56:00+00:00
+title: CSM-Aras Stakeholder Coverage & Communication Ownership Plan — CyberDSA 2026
+created_at: 2026-08-15 17:56:00+00:00
+updated_at: 2026-08-15 17:56:00+00:00
 owner: faurani-jaafar
 intelligence_type: operational
 status: active
@@ -11,53 +11,53 @@ priority: critical
 sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
-summary: "DAF shared a comprehensive Stakeholder Coverage & Communication Ownership Plan for CSM-Aras CyberDSA product launch. Defines multi-layer coverage model, RACI, communication ownership, engagement flow, readiness metrics, and 8 immediate actions."
+summary: DAF shared a comprehensive Stakeholder Coverage & Communication Ownership Plan for CSM-Aras CyberDSA product launch. Defines multi-layer coverage model, RACI, communication ownership, engagement flow, readiness metrics, and 8 immediate actions.
 tags:
-  - domain/cybersecurity
-  - domain/stakeholder-engagement
-  - domain/commercial-development
-  - milestone/cyberdsa-2026
-  - workstream/cybersec-products
-  - lifecycle/canonical
-  - priority/critical
+- domain/cybersecurity
+- domain/stakeholder-engagement
+- domain/commercial-development
+- milestone/cyberdsa-2026
+- workstream/cybersec-products
+- lifecycle/canonical
+- priority/critical
 source:
   type: operator-directive
   reference: CONV-20260815-005
 related_records:
-  - CONV-20260815-005
-  - INT-20260815-002
-  - INT-20260815-003
-  - INIT-20260810-003
-  - INIT-20260811-001
-  - INIT-20260804-001
-  - DEC-20260815-004
-strategic_significance: "Replaces one-to-one CSM relationship model with multi-layer four-tier coverage architecture. Directly addresses DAF SPOF risk (45% of CyberDSA criteria) by distributing relationship ownership across 9 Aras stakeholders. Defines communication ownership, engagement flow, and readiness metrics for CyberDSA product launch."
+- CONV-20260815-005
+- INT-20260815-002
+- INT-20260815-003
+- INIT-20260810-003
+- INIT-20260811-001
+- INIT-20260804-001
+- DEC-20260815-004
+strategic_significance: Replaces one-to-one CSM relationship model with multi-layer four-tier coverage architecture. Directly addresses DAF SPOF risk (45% of CyberDSA criteria) by distributing relationship ownership across 9 Aras stakeholders. Defines communication ownership, engagement flow, and readiness metrics for CyberDSA product launch.
 mission_alignment:
-  - cybersecurity
-  - stakeholder-engagement
-  - commercial-development
-  - organisational-capability
+- cybersecurity
+- stakeholder-engagement
+- commercial-development
+- organisational-capability
 evidence:
-  - "Document: CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx (13 Aug 2026)"
-  - "10 CSM stakeholders with named Aras coverage"
-  - "9 Aras stakeholder roles defined"
-  - "8 readiness metrics, all targeting 100%/0 SPOF"
-  - "8 immediate actions with owners and outputs"
+- 'Document: CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx (13 Aug 2026)'
+- 10 CSM stakeholders with named Aras coverage
+- 9 Aras stakeholder roles defined
+- 8 readiness metrics, all targeting 100%/0 SPOF
+- 8 immediate actions with owners and outputs
 recommended_actions:
-  - "STK-20260815-019 created in error (duplicate of STK-001) — reclassified as superseded"
-  - "Update STK-20260815-004 (Shuhada) with formalised account operations role"
-  - "Update INT-20260815-003 execution stakeholder matrix with coverage plan data"
-  - "Create stakeholder coverage tracker (Action #4 from plan)"
-  - "Cross-reference plan's RACI with INT-20260815-003 RACI for consistency"
+- STK-20260815-019 created in error (duplicate of STK-001) — reclassified as superseded
+- Update STK-20260815-004 (Shuhada) with formalised account operations role
+- Update INT-20260815-003 execution stakeholder matrix with coverage plan data
+- 'Create stakeholder coverage tracker (Action #4 from plan)'
+- Cross-reference plan's RACI with INT-20260815-003 RACI for consistency
 implications:
-  - "DAF load reduction: plan distributes coverage but DAF remains primary on 4 of 10 CSM stakeholders"
-  - "Zulfelka formally brought into commercial progression path — needs STK record if not existing"
-  - "Siti Aishah Omar identified as market activation lead — no STK record yet"
-  - "Plan aligns with but does not replace Programme Coordinator need — tracker ownership still open"
+- 'DAF load reduction: plan distributes coverage but DAF remains primary on 4 of 10 CSM stakeholders'
+- Zulfelka formally brought into commercial progression path — needs STK record if not existing
+- Siti Aishah Omar identified as market activation lead — no STK record yet
+- Plan aligns with but does not replace Programme Coordinator need — tracker ownership still open
 open_questions:
-  - "Does Zulfelka already have a STK record? (STK-20260804-002 is Zulfeka Zainal Abidin — different person or same?)"
-  - "Siti Aishah Omar confirmed as same person as Aisha (STK-20260815-001) — DAF confirmed 15 Aug 2026"
-  - "When does specialist relationship activation begin? (Action #3 — no date specified)"
+- Does Zulfelka already have a STK record? (STK-20260804-002 is Zulfeka Zainal Abidin — different person or same?)
+- Siti Aishah Omar confirmed as same person as Aisha (STK-20260815-001) — DAF confirmed 15 Aug 2026
+- 'When does specialist relationship activation begin? (Action #3 — no date specified)'
 ---
 
 # CSM-Aras Stakeholder Coverage & Communication Ownership Plan

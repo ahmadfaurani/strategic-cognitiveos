@@ -2,8 +2,8 @@
 id: INT-20260725-003
 record_type: intelligence
 title: Opportunity — Encrypted Alert Portal Development
-created_at: 2026-07-25T10:35:00Z
-updated_at: 2026-07-25T10:35:00Z
+created_at: 2026-07-25 10:35:00+00:00
+updated_at: 2026-07-25 10:35:00+00:00
 owner: DAF
 intelligence_type: market
 status: draft
@@ -11,31 +11,33 @@ priority: high
 sensitivity: confidential
 confidence: medium
 tags:
-  - domain/cybersecurity
-  - domain/governance
-  - sector/government
-  - mission/national-cybersecurity
-  - mission/productisation
-  - mission/commercial-growth
-  - intelligence/market
-  - commercial/opportunity-identification
+- domain/cybersecurity
+- domain/governance
+- sector/government
+- mission/national-cybersecurity
+- mission/productisation
+- mission/commercial-growth
+- intelligence/market
+- commercial/opportunity-identification
 mission_alignment:
-  - national-cybersecurity
-  - productisation
-  - commercial-growth
+- national-cybersecurity
+- productisation
+- commercial-growth
 evidence:
-  - "CSCDC Framework v2.0, Sector 2: RM 180,000 allocated for Encrypted Information Portal Upgrade (high-grade cyber alert sub-portal)"
-  - "Portal function: real-time threat advisories, incident status, policy publications"
-  - "Sub-portal function: high-grade vulnerability notifications and technical advisories"
+- 'CSCDC Framework v2.0, Sector 2: RM 180,000 allocated for Encrypted Information Portal Upgrade (high-grade cyber alert sub-portal)'
+- 'Portal function: real-time threat advisories, incident status, policy publications'
+- 'Sub-portal function: high-grade vulnerability notifications and technical advisories'
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 source:
   type: document
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 13, 17
 lifecycle_state: canonical
-summary: "See record body for intelligence summary."
+summary: See record body for intelligence summary.
+strategic_significance: null
+related_records: []
 ---
 
 # Summary

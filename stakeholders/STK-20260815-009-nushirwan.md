@@ -1,9 +1,9 @@
 ---
 id: STK-20260815-009
 record_type: stakeholder
-title: "Raja Dato' Nushirwan Zainal Abidin"
-created_at: 2026-08-15T17:42:00+00:00
-updated_at: 2026-08-15T17:42:00+00:00
+title: Raja Dato' Nushirwan Zainal Abidin
+created_at: 2026-08-15 17:42:00+00:00
+updated_at: 2026-08-15 17:42:00+00:00
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: Majlis Keselamatan Negara (MKN)
@@ -11,31 +11,37 @@ role: Director-General of National Security (MKN DG) / Operational Shepherd for 
 influence_level: high
 interest_level: high
 relationship_status: new
-strategic_relevance: "MKN DG — operational authority for CSCDC. Controls the operational deployment and inter-agency coordination for national cybersecurity."
-engagement_objective: "Position Aras Integrasi within MKN's operational framework for CSCDC deployment."
-current_position: "Confirmed as MKN DG. Operational shepherd for CSCDC. Identified via NCSS 2026 official programme."
+strategic_relevance: MKN DG — operational authority for CSCDC. Controls the operational deployment and inter-agency coordination for national cybersecurity.
+engagement_objective: Position Aras Integrasi within MKN's operational framework for CSCDC deployment.
+current_position: Confirmed as MKN DG. Operational shepherd for CSCDC. Identified via NCSS 2026 official programme.
 commitments_by_us: []
 commitments_by_stakeholder: []
-last_engagement: "None direct — identified via intelligence (NCSS 2026, 7-9 Jul 2026)"
-next_engagement: "TBD — target Q3 2026"
+last_engagement: None direct — identified via intelligence (NCSS 2026, 7-9 Jul 2026)
+next_engagement: TBD — target Q3 2026
 relationship_owner: faurani-jaafar
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 sensitivity: confidential
 tags:
-  - domain/government
-  - domain/cybersecurity
-  - domain/defence
-  - priority/critical
-  - lifecycle/canonical
+- domain/government
+- domain/cybersecurity
+- domain/defence
+- priority/critical
+- lifecycle/canonical
 related_records:
-  - ORG-20260815-003
-  - ORG-20260815-012
-  - INIT-20260725-007
+- ORG-20260815-003
+- ORG-20260815-012
+- INIT-20260725-007
 source:
   type: intelligence-verified
-  reference: "STK-20260725-001 body text; NCSS 2026 official programme (Welcoming Speech)"
+  reference: STK-20260725-001 body text; NCSS 2026 official programme (Welcoming Speech)
 lifecycle_state: canonical
+status: null
+priority: null
+confidence: null
+summary: null
+strategic_significance: null
+mission_alignment: []
 ---
 
 # Name
