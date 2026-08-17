@@ -117,6 +117,11 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | ACT-20260816-003 | Review booth mock-up/design from Aerosea Exhibitions | amelia-nadia | TBD | Pending |
 | ACT-20260816-004 | Confirm Flash Talk session details and requirements | amelia-nadia | TBD | Pending |
 | ACT-20260816-005 | Amelia: Assess media contact readiness + obtain substantiation brief before external 'Malaysia's First' claim | amelia-nadia | 2026-08-22 | Open |
+| ACT-20260817-001 | Hadri coordinate alignment session dates | faurani-jaafar | 2026-08-22 | Open |
+| ACT-20260817-002 | Aras consolidate launch narrative & commercial activation plan | faurani-jaafar | 2026-08-29 | Open |
+| ACT-20260817-003 | CSM identify focal points for four workstream areas | faurani-jaafar | 2026-08-29 | Open |
+| ACT-20260817-004 | NACSA endorsement status update and preparation | faurani-jaafar | 2026-08-29 | Open |
+| ACT-20260817-005 | Convert Azrul's Industry Engagement role into concrete CyberDSA deliverable | faurani-jaafar | 2026-08-22 | Proposed |
 
 ## Workstream Cluster Overview
 
