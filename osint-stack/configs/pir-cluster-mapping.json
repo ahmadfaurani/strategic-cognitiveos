@@ -1,0 +1,214 @@
+{
+  "architecture": "outsourced-pir-execution",
+  "version": "1.0",
+  "created": "2026-08-17",
+  "description": "All PIR execution outsourced to DeerFlow + OSINT stack. Hermes cronjobs are orchestrators only.",
+
+  "deerflow_config": {
+    "url": "http://localhost:2026",
+    "gateway_url": "http://localhost:2026",
+    "langgraph_url": "http://localhost:2026/api/langgraph",
+    "default_mode": "ultra",
+    "timeout_seconds": 900
+  },
+
+  "osint_stack": {
+    "firecrawl": {
+      "url": "http://localhost:3002",
+      "mcp_available": true,
+      "use_for": ["web_search", "page_scraping", "structured_extraction"]
+    },
+    "searxng": {
+      "url": "http://127.0.0.1:8080",
+      "use_for": ["federated_search", "news_aggregation"],
+      "fallback_only": true,
+      "note": "IP-blocked engines — use as secondary to Firecrawl"
+    },
+    "web_extract": {
+      "use_for": ["direct_url_extraction", "pdf_extraction"],
+      "always_available": true
+    }
+  },
+
+  "pir_clusters": [
+    {
+      "cluster_id": "CSCDC-01",
+      "name": "CSCDC Leadership & Approval Watch",
+      "cronjob_id": "95af59753d01",
+      "schedule": "every 360m",
+      "deerflow_mode": "ultra",
+      "pir_count": 10,
+      "pir_priorities": ["Critical:2", "High:4", "Medium:3", "Low:1"],
+      "source_records": ["STK-20260725-001", "INIT-20260725-007"],
+      "output_dir": "intelligence/cron-output/",
+      "deliver": "telegram"
+    },
+    {
+      "cluster_id": "CSCDC-02",
+      "name": "PQC Sandbox & Sovereign AI Monitor",
+      "cronjob_id": "0a0770f21820",
+      "schedule": "every 720m",
+      "deerflow_mode": "pro",
+      "pir_count": 10,
+      "pir_priorities": ["Critical:3", "High:4", "Medium:2", "Low:1"],
+      "source_records": ["OPP-20260725-005"],
+      "output_dir": "intelligence/cron-output/",
+      "deliver": "local"
+    },
+    {
+      "cluster_id": "CSCDC-03",
+      "name": "Gov Infrastructure & Procurement Watch",
+      "cronjob_id": "ee49690d9b66",
+      "schedule": "0 8 * * *",
+      "deerflow_mode": "pro",
+      "pir_count": 10,
+      "pir_priorities": ["Critical:1", "High:5", "Medium:3", "Low:1"],
+      "source_records": ["OPP-20260725-001", "OPP-20260725-003"],
+      "output_dir": "intelligence/cron-output/",
+      "deliver": "local"
+    },
+    {
+      "cluster_id": "CSCDC-04",
+      "name": "Anti-Deepfake & Campaign Strategy Watch",
+      "cronjob_id": "bb5795421110",
+      "schedule": "every 720m",
+      "deerflow_mode": "pro",
+      "pir_count": 10,
+      "pir_priorities": ["Critical:1", "High:4", "Medium:4", "Low:1"],
+      "source_records": ["OPP-20260725-008", "OPP-20260725-004"],
+      "output_dir": "intelligence/cron-output/",
+      "deliver": "local"
+    },
+    {
+      "cluster_id": "CSCDC-05",
+      "name": "Cyber Drill & Crisis Protocol Monitor",
+      "cronjob_id": "efb27cfe4011",
+      "schedule": "0 10 * * *",
+      "deerflow_mode": "pro",
+      "pir_count": 10,
+      "pir_priorities": ["High:5", "Medium:4", "Low:1"],
+      "source_records": ["OPP-20260725-007", "OPP-20260725-002"],
+      "output_dir": "intelligence/cron-output/",
+      "deliver": "local"
+    },
+    {
+      "cluster_id": "CSCDC-06",
+      "name": "CSCDC Programme & Community Champions Monitor",
+      "cronjob_id": "656efb0feade",
+      "schedule": "every 720m",
+      "deerflow_mode": "standard",
+      "pir_count": 10,
+      "pir_priorities": ["Medium:6", "Low:4"],
+      "source_records": ["OPP-20260725-006", "OPP-20260725-009", "OPP-20260725-010"],
+      "output_dir": "intelligence/cron-output/",
+      "deliver": "local"
+    },
+    {
+      "cluster_id": "CSCDC-07",
+      "name": "Strategic CognitiveOS PIR Status Tracker",
+      "cronjob_id": "ed94da585cad",
+      "schedule": "0 9 * * 1",
+      "deerflow_mode": "standard",
+      "pir_count": 120,
+      "description": "Weekly PIR status synthesis across all clusters",
+      "output_dir": "indexes/",
+      "deliver": "origin"
+    },
+    {
+      "cluster_id": "MLK-01",
+      "name": "PRN Melaka — Executive Leadership & Governance",
+      "cronjob_id": "1f4f54158118",
+      "schedule": "every 720m",
+      "deerflow_mode": "ultra",
+      "pir_count": 3,
+      "pir_priorities": ["Critical:2", "High:1"],
+      "source_records": ["STK-MLK-*"],
+      "output_dir": "intelligence/cron-output/",
+      "deliver": "telegram"
+    },
+    {
+      "cluster_id": "MLK-02",
+      "name": "PRN Melaka — Defence, Parliament & Federal Portfolios",
+      "cronjob_id": "c5166035c993",
+      "schedule": "every 720m",
+      "deerflow_mode": "pro",
+      "pir_count": 3,
+      "pir_priorities": ["Critical:1", "High:2"],
+      "output_dir": "intelligence/cron-output/",
+      "deliver": "local"
+    },
+    {
+      "cluster_id": "MLK-03",
+      "name": "PRN Melaka — Coalition Dynamics & Electoral Strategy",
+      "cronjob_id": "14f2a2f63fe7",
+      "schedule": "every 720m",
+      "deerflow_mode": "ultra",
+      "pir_count": 3,
+      "pir_priorities": ["Critical:2", "High:1"],
+      "deliver": "telegram"
+    },
+    {
+      "cluster_id": "MLK-04",
+      "name": "PRN Melaka — Grassroots & Secondary POI",
+      "cronjob_id": "3632c493e6ab",
+      "schedule": "0 0 * * *",
+      "deerflow_mode": "standard",
+      "pir_count": 3,
+      "pir_priorities": ["Medium:3"],
+      "deliver": "local"
+    },
+    {
+      "cluster_id": "MLK-05",
+      "name": "PRN Melaka — Daily Intelligence Brief & PIR Tracker",
+      "cronjob_id": "870cb75c45ac",
+      "schedule": "0 4 * * *",
+      "deerflow_mode": "ultra",
+      "description": "Daily synthesis of all MLK cronjob outputs",
+      "deliver": "telegram"
+    },
+    {
+      "cluster_id": "MLK-09",
+      "name": "PRN Melaka — Campaign Trail Tracker",
+      "cronjob_id": "c2efb2bb5822",
+      "schedule": "every 360m",
+      "deerflow_mode": "ultra",
+      "description": "Event-driven tracking of marginal seats",
+      "deliver": "telegram"
+    },
+    {
+      "cluster_id": "MLK-10",
+      "name": "PRN Melaka — Weekly Deep-Dive Analysis",
+      "cronjob_id": "ccadd5f79ae1",
+      "schedule": "0 8 * * 1",
+      "deerflow_mode": "ultra",
+      "description": "Weekly comprehensive synthesis + trend analysis",
+      "deliver": "telegram"
+    },
+    {
+      "cluster_id": "TH-01",
+      "name": "Tabung Haji RCI — Parliamentary Impact Watch",
+      "cronjob_id": "25b1b7a9d17f",
+      "schedule": "every 180m",
+      "deerflow_mode": "ultra",
+      "description": "High-frequency parliamentary monitoring",
+      "deliver": "telegram"
+    }
+  ],
+
+  "infrastructure_cronjobs": [
+    {"id": "5f92c372dd4d", "name": "CognitiveOS Git Sync", "type": "script-only"},
+    {"id": "884c3de01f28", "name": "PRN NS Git Sync", "type": "script-only"},
+    {"id": "54e02bb3cf89", "name": "PRN Melaka Git Sync", "type": "script-only"},
+    {"id": "68d249802b0d", "name": "MLK Entity Extraction", "type": "script-only"},
+    {"id": "3180b5d1b5d3", "name": "MLK Sentiment Analysis", "type": "script-only"},
+    {"id": "2069ba3a2d4a", "name": "TH-RCI Git Sync", "type": "script-only"},
+    {"id": "83e8c5e0b196", "name": "CVS Weekly Validation Review", "type": "agent"}
+  ],
+
+  "fallback_hierarchy": [
+    "Primary: DeerFlow (ultra/pro/standard) → OSINT stack (Firecrawl + SearXNG)",
+    "Secondary: Hermes web_search + Firecrawl MCP + web_extract (inline)",
+    "Tertiary: Hermes web_search + web_extract only",
+    "Quaternary: Skip cycle, log failure, retry next schedule"
+  ]
+}
