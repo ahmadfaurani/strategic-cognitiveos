@@ -115,7 +115,7 @@ Every session, every task, every heartbeat runs this cycle.
 
 **Effective:** 2026-08-04 | **Authority:** DAF | **SOP:** `strategic-cognitiveos/governance/intake-sop.md`
 
-All CognitiveOS intake events (email threads, conversations, documents, intelligence, meetings) must follow the standardized 9-step SOP:
+All CognitiveOS intake events (email threads, conversations, documents, intelligence, meetings) must follow the standardized 9-step SOP. **The Intake Protocol is always-on.** Information shared is information to ingest — it does not require a per-event directive from the Operator to activate. The pipeline runs by default on all incoming data:
 
 1. **Receive & classify** the source
 2. **Extract & structure** all entities
