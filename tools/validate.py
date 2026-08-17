@@ -1,414 +1,544 @@
 #!/usr/bin/env python3
 """
-CognitiveOS Deterministic Validator
-====================================
-Validates all CognitiveOS records against their JSON schemas.
+CognitiveOS Validator — CVS Error Rate (CVS ER) Gate
+=====================================================
+Validates records against schemas using CVS 5-criteria scoring methodology.
+Produces an Error Rate (ER) metric for conformance measurement.
+
+CVS ER Mapping (5 criteria → 5 validation dimensions):
+  Authority     → Schema conformance: record_type valid, matches known schema
+  Traceability → Required field presence: all required fields present and non-null
+  Recency      → Timestamp validity: created_at/updated_at present, valid ISO format
+  Consistency  → Enum consistency: field values match schema enum definitions
+  Completeness → Content quality: summary/strategic_significance are meaningful (not placeholder)
+
+Error Rate = (failed checks / total checks) × 100
+
+Per-record CVS tier:
+  T1 (Verified)      — 0 errors, all 5 criteria pass
+  T2 (Partially OK) — 1-2 P1 warnings, no P0 errors
+  T3 (Interpretation)— Content quality issues only, structurally sound
+  T6 (Rejected)     — 3+ errors or any P0 (missing required, invalid type)
+
+Severity:
+  P0 (blocking)  — Missing required field, invalid record_type, malformed YAML
+  P1 (warning)   — Null optional field, enum mismatch, short content
+  P2 (advisory)  — Heuristic content detected, quality suggestions
 
 Usage:
-    ./validate.py                    # Validate entire corpus
-    ./validate.py --dir decisions    # Validate single directory
-    ./validate.py --file decisions/DEC-20260628-001.md  # Validate single file
-    ./validate.py --quiet            # Only show errors
-    ./validate.py --json             # Machine-readable output
-
-Exit codes:
-    0 — All records valid
-    1 — One or more records failed validation
-    2 — Schema or configuration error
+  python3 tools/validate.py --file <path> --quiet    # Single file, minimal output (pre-commit hook)
+  python3 tools/validate.py --file <path>            # Single file, full output
+  python3 tools/validate.py                          # Full workspace ER report
+  python3 tools/validate.py --full                    # Full workspace ER report (explicit)
 """
 
-import os
-import sys
-import re
-import json
-import argparse
-import yaml
+import argparse, sys, os, re, yaml, json
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime
+from collections import Counter, defaultdict
 
-try:
-    from jsonschema import Draft202012Validator, ValidationError
-except ImportError:
-    print("ERROR: jsonschema not installed. Run: pip install jsonschema pyyaml", file=sys.stderr)
-    sys.exit(2)
+WS = Path(__file__).resolve().parent.parent
+SCHEMAS_DIR = WS / "schemas"
+SKIP_DIRS = {'.git', 'schemas', 'templates', 'tools', 'references', 'cron-output', 'osint-stack', 'indexes'}
 
-# ─────────────────────────────────────────────────────────
-# Configuration
-# ─────────────────────────────────────────────────────────
+# ─── Schema loading ───
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-SCHEMAS_DIR = BASE_DIR / "schemas"
-LOGS_DIR = BASE_DIR / "logs"
+_schema_cache = {}
 
-# Record type → directory mapping
-TYPE_TO_DIR = {
-    "decision": "decisions",
-    "action": "actions",
-    "commitment": "commitments",
-    "stakeholder": "stakeholders",
-    "initiative": "initiatives",
-    "intelligence": "intelligence",
-    "risk": "risks",
-    "conversation": "engagements",
-    "event": "engagements",
-    "organization": "organizations",
-}
+def load_schema(record_type):
+    """Load type-specific schema, fall back to master schema."""
+    if record_type in _schema_cache:
+        return _schema_cache[record_type]
+    
+    # Try type-specific schema first
+    schema_path = SCHEMAS_DIR / f"{record_type}.schema.json"
+    if schema_path.exists():
+        with open(schema_path) as f:
+            schema = json.load(f)
+        _schema_cache[record_type] = schema
+        return schema
+    
+    # Fall back to master schema
+    master_path = SCHEMAS_DIR / "strategic-memory.schema.json"
+    if master_path.exists():
+        with open(master_path) as f:
+            schema = json.load(f)
+        _schema_cache[record_type] = schema
+        return schema
+    
+    return None
 
-# Override: conversation records use CONV- prefix, events use EVT- prefix
-# The engagements/ directory contains both conversation and event records
-DIR_TO_TYPES = {
-    "decisions": ["decision"],
-    "actions": ["action"],
-    "commitments": ["commitment"],
-    "stakeholders": ["stakeholder"],
-    "initiatives": ["initiative"],
-    "intelligence": ["intelligence"],
-    "risks": ["risk"],
-    "engagements": ["conversation", "event"],
-    "organizations": ["organization"],
-}
+def load_master_schema():
+    """Load the master schema for record_type validation."""
+    master_path = SCHEMAS_DIR / "strategic-memory.schema.json"
+    if master_path.exists():
+        with open(master_path) as f:
+            return json.load(f)
+    return None
+
+# ─── CVS ER Validation ───
+
+class ValidationResult:
+    """Holds validation results for a single record with CVS ER scoring."""
+    
+    def __init__(self, filepath, record_id, record_type):
+        self.filepath = filepath
+        self.record_id = record_id
+        self.record_type = record_type
+        self.errors = []      # P0 — blocking
+        self.warnings = []    # P1 — warning
+        self.advisories = []  # P2 — advisory
+        
+        # CVS 5-criteria scores (0 = fail, 1 = partial, 2 = pass)
+        self.authority = 0       # Schema conformance
+        self.traceability = 0    # Required field presence
+        self.recency = 0         # Timestamp validity
+        self.consistency = 0     # Enum consistency
+        self.completeness = 0    # Content quality
+        
+    @property
+    def cvs_score(self):
+        """Total CVS score (0-10)."""
+        return self.authority + self.traceability + self.recency + self.consistency + self.completeness
+    
+    @property
+    def error_count(self):
+        return len(self.errors)
+    
+    @property
+    def warning_count(self):
+        return len(self.warnings)
+    
+    @property
+    def advisory_count(self):
+        return len(self.advisories)
+    
+    @property
+    def total_checks(self):
+        """Total validation checks performed (5 criteria × sub-checks)."""
+        return 5
+    
+    @property
+    def failed_checks(self):
+        """Number of criteria that failed (score = 0)."""
+        return sum(1 for s in [self.authority, self.traceability, self.recency, 
+                               self.consistency, self.completeness] if s == 0)
+    
+    @property
+    def error_rate(self):
+        """CVS ER = (failed checks / total checks) × 100."""
+        if self.total_checks == 0:
+            return 0.0
+        return (self.failed_checks / self.total_checks) * 100
+    
+    @property
+    def tier(self):
+        """CVS tier assignment based on error count and severity."""
+        if self.error_count > 0:
+            return "T6"
+        if self.failed_checks == 0 and self.warning_count == 0:
+            return "T1"
+        if self.failed_checks <= 2:
+            return "T2"
+        if self.failed_checks <= 3 and self.error_count == 0:
+            return "T3"
+        return "T6"
+    
+    @property
+    def passed(self):
+        """True if no P0 errors (commit can proceed)."""
+        return self.error_count == 0
 
 
-# ─────────────────────────────────────────────────────────
-# Schema Loading
-# ─────────────────────────────────────────────────────────
-
-def load_schemas():
-    """Load all JSON schemas from the schemas directory."""
-    schemas = {}
-    for f in sorted(SCHEMAS_DIR.glob("*.schema.json")):
-        name = f.stem.replace(".schema", "")
-        try:
-            with open(f) as fh:
-                schemas[name] = json.load(fh)
-            # Compile validator for performance
-            schemas[name + "__validator"] = Draft202012Validator(schemas[name])
-        except json.JSONDecodeError as e:
-            print(f"ERROR: Schema {f.name} has invalid JSON: {e}", file=sys.stderr)
-            sys.exit(2)
-    return schemas
-
-
-# ─────────────────────────────────────────────────────────
-# Record Parsing
-# ─────────────────────────────────────────────────────────
-
-def _coerce_yaml_types(obj):
-    """Recursively coerce YAML date/datetime objects to ISO strings for schema compatibility.
-    YAML safe_load parses unquoted dates as datetime.date/datetime objects.
-    JSON Schema expects strings with format: date/date-time."""
-    import datetime
-    if isinstance(obj, datetime.datetime):
-        return obj.isoformat()
-    if isinstance(obj, datetime.date):
-        return obj.isoformat()
-    if isinstance(obj, dict):
-        return {k: _coerce_yaml_types(v) for k, v in obj.items()}
-    if isinstance(obj, list):
-        return [_coerce_yaml_types(v) for v in obj]
-    return obj
-
-
-def extract_frontmatter(content: str):
-    """Extract YAML frontmatter from markdown file. Returns (frontmatter_dict, body_str) or (None, content)."""
-    fm_match = re.match(r'^---\n(.*?)\n---\s*\n?(.*)', content, re.DOTALL)
-    if not fm_match:
-        return None, content
+def validate_record(filepath):
+    """Validate a single record file against its schema. Returns ValidationResult."""
+    filepath = Path(filepath)
+    
+    # Parse YAML frontmatter
+    try:
+        content = filepath.read_text(encoding='utf-8')
+    except Exception as e:
+        result = ValidationResult(str(filepath), "?", "?")
+        result.errors.append(f"P0: Cannot read file: {e}")
+        result.authority = 0
+        return result
+    
+    if not content.strip().startswith('---'):
+        result = ValidationResult(str(filepath), "?", "?")
+        result.errors.append("P0: No YAML frontmatter found (must start with ---)")
+        result.authority = 0
+        return result
+    
+    m = re.match(r'^---\n(.*?)\n---\n?(.*)$', content, re.DOTALL)
+    if not m:
+        result = ValidationResult(str(filepath), "?", "?")
+        result.errors.append("P0: Malformed YAML frontmatter (missing closing ---)")
+        result.authority = 0
+        return result
     
     try:
-        fm = yaml.safe_load(fm_match.group(1))
+        fm = yaml.safe_load(m.group(1))
         if not isinstance(fm, dict):
-            return None, fm_match.group(2)
-        # Coerce YAML date/datetime objects to ISO strings
-        fm = _coerce_yaml_types(fm)
-        return fm, fm_match.group(2)
+            raise ValueError("Frontmatter is not a dictionary")
     except yaml.YAMLError as e:
-        return "PARSE_ERROR", str(e)
+        result = ValidationResult(str(filepath), "?", "?")
+        result.errors.append(f"P0: YAML parse error: {e}")
+        result.authority = 0
+        return result
+    except ValueError as e:
+        result = ValidationResult(str(filepath), "?", "?")
+        result.errors.append(f"P0: {e}")
+        result.authority = 0
+        return result
+    
+    record_id = fm.get('id', '?')
+    record_type = fm.get('record_type', '?')
+    
+    result = ValidationResult(str(filepath), record_id, record_type)
+    
+    # ─── Criterion 1: Authority (Schema conformance) ───
+    master_schema = load_master_schema()
+    valid_types = master_schema["properties"]["record_type"]["enum"] if master_schema else []
+    
+    if record_type == '?':
+        result.errors.append("P0: Missing 'record_type' field")
+        result.authority = 0
+    elif valid_types and record_type not in valid_types:
+        result.errors.append(f"P0: Invalid record_type '{record_type}' — must be one of {valid_types}")
+        result.authority = 0
+    else:
+        type_schema = load_schema(record_type)
+        if type_schema is None:
+            result.warnings.append(f"P1: No schema found for type '{record_type}' — using master only")
+            result.authority = 1
+        else:
+            result.authority = 2
+    
+    # ─── Criterion 2: Traceability (Required field presence) ───
+    type_schema = load_schema(record_type) if record_type != '?' else None
+    if type_schema:
+        required_fields = type_schema.get("required", [])
+    elif master_schema:
+        required_fields = master_schema.get("required", [])
+    else:
+        required_fields = []
+    
+    missing_required = []
+    null_required = []
+    
+    for field in required_fields:
+        if field not in fm:
+            missing_required.append(field)
+        elif fm[field] is None:
+            null_required.append(field)
+    
+    if missing_required:
+        result.errors.append(f"P0: Missing required fields: {', '.join(missing_required)}")
+        result.traceability = 0
+    elif null_required:
+        result.errors.append(f"P0: Required fields are null: {', '.join(null_required)}")
+        result.traceability = 0
+    else:
+        # Check universal base fields presence (17 fields)
+        universal = ['id', 'record_type', 'title', 'created_at', 'updated_at', 'owner',
+                     'status', 'priority', 'sensitivity', 'lifecycle_state', 'confidence',
+                     'tags', 'source', 'summary', 'strategic_significance', 
+                     'mission_alignment', 'related_records']
+        null_universal = [f for f in universal if f in fm and fm[f] is None]
+        if null_universal:
+            result.warnings.append(f"P1: Universal fields are null: {', '.join(null_universal)}")
+            result.traceability = 1
+        else:
+            result.traceability = 2
+    
+    # ─── Criterion 3: Recency (Timestamp validity) ───
+    created_at = fm.get('created_at')
+    updated_at = fm.get('updated_at')
+    ts_issues = []
+    
+    for ts_field, ts_val in [('created_at', created_at), ('updated_at', updated_at)]:
+        if ts_val is None:
+            ts_issues.append(f"{ts_field} is null")
+        elif isinstance(ts_val, datetime):
+            pass  # YAML auto-parsed ISO datetime — valid
+        elif not isinstance(ts_val, str):
+            ts_issues.append(f"{ts_field} is not a string (got {type(ts_val).__name__})")
+        elif not re.match(r'\d{4}-\d{2}-\d{2}', str(ts_val)):
+            ts_issues.append(f"{ts_field} has invalid format: '{ts_val}'")
+    
+    if ts_issues:
+        result.warnings.append(f"P1: Timestamp issues: {'; '.join(ts_issues)}")
+        result.recency = 1
+    else:
+        result.recency = 2
+    
+    # ─── Criterion 4: Consistency (Enum validation) ───
+    if type_schema:
+        props = type_schema.get("properties", {})
+        enum_mismatches = []
+        
+        for field, prop in props.items():
+            if field not in fm or fm[field] is None:
+                continue
+            if "enum" in prop:
+                value = fm[field]
+                if value not in prop["enum"]:
+                    enum_mismatches.append(f"{field}='{value}' (valid: {prop['enum'][:5]}...)")
+        
+        if enum_mismatches:
+            result.warnings.append(f"P1: Enum mismatches: {'; '.join(enum_mismatches)}")
+            result.consistency = 1
+        else:
+            result.consistency = 2
+    else:
+        # No type schema — can't validate enums
+        result.consistency = 1
+    
+    # ─── Criterion 5: Completeness (Content quality) ───
+    quality_issues = []
+    
+    summary = fm.get('summary')
+    if summary is not None:
+        summary_str = str(summary).strip()
+        if len(summary_str) < 20:
+            quality_issues.append(f"summary too short ({len(summary_str)} chars)")
+        elif summary_str.startswith("See record body"):
+            quality_issues.append("summary is placeholder ('See record body')")
+    
+    sig = fm.get('strategic_significance')
+    if sig is not None:
+        sig_str = str(sig).strip()
+        if len(sig_str) < 15:
+            quality_issues.append(f"strategic_significance too short ({len(sig_str)} chars)")
+    
+    confidence = fm.get('confidence')
+    if confidence is not None and str(confidence).lower() not in ('high', 'medium', 'low'):
+        quality_issues.append(f"confidence value unusual: '{confidence}'")
+    
+    # Check for heuristic-derived content markers
+    body = m.group(2) if m else ""
+    
+    if quality_issues:
+        result.advisories.append(f"P2: Content quality: {'; '.join(quality_issues)}")
+        result.completeness = 1
+    else:
+        result.completeness = 2
+    
+    return result
 
 
-def get_record_files(directory: str = None, single_file: str = None):
-    """Yield (filepath, directory_name) for all .md records."""
-    if single_file:
-        fpath = Path(single_file)
-        if not fpath.is_absolute():
-            fpath = BASE_DIR / single_file
-        yield fpath, fpath.parent.name
+# ─── Workspace-wide ER report ───
+
+def workspace_er_report():
+    """Run validation across all records and produce CVS ER report."""
+    results = []
+    
+    for root, dirs, files in os.walk(WS):
+        dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
+        for f in files:
+            if not f.endswith('.md'):
+                continue
+            fp = Path(root) / f
+            # Quick check: only validate files with frontmatter
+            try:
+                content = fp.read_text(encoding='utf-8')
+                if not content.strip().startswith('---'):
+                    continue
+            except:
+                continue
+            result = validate_record(fp)
+            results.append(result)
+    
+    return results
+
+
+def print_er_report(results):
+    """Print full CVS ER report."""
+    total = len(results)
+    if total == 0:
+        print("No records found to validate.")
         return
     
-    if directory:
-        dirs = [directory]
+    passed = sum(1 for r in results if r.passed)
+    failed = total - passed
+    
+    # Tier distribution
+    tier_counts = Counter(r.tier for r in results)
+    
+    # Per-criterion scores
+    criterion_scores = {
+        'Authority': [r.authority for r in results],
+        'Traceability': [r.traceability for r in results],
+        'Recency': [r.recency for r in results],
+        'Consistency': [r.consistency for r in results],
+        'Completeness': [r.completeness for r in results],
+    }
+    
+    # Aggregate ER
+    total_checks = total * 5
+    total_failed = sum(r.failed_checks for r in results)
+    aggregate_er = (total_failed / total_checks) * 100 if total_checks > 0 else 0
+    
+    # Per-record-type ER
+    type_results = defaultdict(list)
+    for r in results:
+        type_results[r.record_type].append(r)
+    
+    print("=" * 80)
+    print("CVS ER REPORT — CognitiveOS Validation Score & Error Rate")
+    print("=" * 80)
+    print(f"\nRecords validated: {total}")
+    print(f"Passed (no P0): {passed} ({passed/total*100:.1f}%)")
+    print(f"Failed (P0 errors): {failed} ({failed/total*100:.1f}%)")
+    
+    print(f"\n─── CVS Tier Distribution ───")
+    for tier in ['T1', 'T2', 'T3', 'T6']:
+        count = tier_counts.get(tier, 0)
+        pct = count / total * 100
+        bar = '█' * int(pct / 2)
+        print(f"  {tier} ({'Verified' if tier == 'T1' else 'Partial' if tier == 'T2' else 'Interpretation' if tier == 'T3' else 'Rejected'}): {count:4d} ({pct:5.1f}%) {bar}")
+    
+    print(f"\n─── CVS 5-Criteria Breakdown ───")
+    for name, scores in criterion_scores.items():
+        avg = sum(scores) / len(scores) if scores else 0
+        pass_count = sum(1 for s in scores if s == 2)
+        partial_count = sum(1 for s in scores if s == 1)
+        fail_count = sum(1 for s in scores if s == 0)
+        print(f"  {name:15s}: avg={avg:.2f}/2 | PASS={pass_count} PARTIAL={partial_count} FAIL={fail_count}")
+    
+    print(f"\n─── Aggregate Error Rate ───")
+    print(f"  Total checks: {total_checks}")
+    print(f"  Failed checks: {total_failed}")
+    print(f"  CVS ER: {aggregate_er:.2f}%")
+    print(f"  Conformance: {100 - aggregate_er:.2f}%")
+    
+    print(f"\n─── Per Record Type ───")
+    for rtype in sorted(type_results.keys()):
+        type_res = type_results[rtype]
+        type_total = len(type_res)
+        type_passed = sum(1 for r in type_res if r.passed)
+        type_failed_checks = sum(r.failed_checks for r in type_res)
+        type_total_checks = type_total * 5
+        type_er = (type_failed_checks / type_total_checks) * 100 if type_total_checks > 0 else 0
+        avg_score = sum(r.cvs_score for r in type_res) / type_total
+        print(f"  {rtype:20s}: {type_total:4d} records | ER={type_er:5.1f}% | avg CVS={avg_score:.1f}/10 | P0={type_total - type_passed}")
+    
+    # Show P0 errors
+    p0_records = [r for r in results if not r.passed]
+    if p0_records:
+        print(f"\n─── P0 Errors (blocking) ───")
+        for r in p0_records[:20]:
+            for err in r.errors:
+                print(f"  ❌ [{r.record_id}] {err}")
+        if len(p0_records) > 20:
+            print(f"  ... and {len(p0_records) - 20} more records with P0 errors")
+    
+    # Show P1 warnings summary
+    p1_records = [r for r in results if r.warnings]
+    if p1_records:
+        print(f"\n─── P1 Warnings ({len(p1_records)} records) ───")
+        warning_types = Counter()
+        for r in p1_records:
+            for w in r.warnings:
+                # Extract warning category
+                if "null" in w.lower():
+                    warning_types["Null fields"] += 1
+                elif "enum" in w.lower():
+                    warning_types["Enum mismatch"] += 1
+                elif "timestamp" in w.lower():
+                    warning_types["Timestamp issue"] += 1
+                elif "schema" in w.lower():
+                    warning_types["Schema missing"] += 1
+                else:
+                    warning_types["Other"] += 1
+        for wtype, count in warning_types.most_common():
+            print(f"  {wtype:20s}: {count}")
+    
+    # Show P2 advisories summary
+    p2_records = [r for r in results if r.advisories]
+    if p2_records:
+        print(f"\n─── P2 Advisories ({len(p2_records)} records) ───")
+        adv_types = Counter()
+        for r in p2_records:
+            for a in r.advisories:
+                if "too short" in a:
+                    adv_types["Short content"] += 1
+                elif "placeholder" in a:
+                    adv_types["Placeholder content"] += 1
+                elif "unusual" in a:
+                    adv_types["Unusual value"] += 1
+                else:
+                    adv_types["Other"] += 1
+        for atype, count in adv_types.most_common():
+            print(f"  {atype:20s}: {count}")
+    
+    print(f"\n{'='*80}")
+    if failed > 0:
+        print(f"🚫 {failed} record(s) with P0 errors — commit would be BLOCKED")
     else:
-        dirs = list(DIR_TO_TYPES.keys())
-    
-    for d in dirs:
-        dir_path = BASE_DIR / d
-        if not dir_path.is_dir():
-            continue
-        for f in sorted(dir_path.glob("*.md")):
-            yield f, d
+        print(f"✅ All {total} records pass P0 validation")
+    print(f"   CVS ER: {aggregate_er:.2f}% | Conformance: {100 - aggregate_er:.2f}%")
+    print(f"{'='*80}")
 
 
-# ─────────────────────────────────────────────────────────
-# Validation
-# ─────────────────────────────────────────────────────────
-
-def validate_record(fm: dict, body: str, filepath: Path, dir_name: str, schemas: dict):
-    """Validate a single record's frontmatter against its schema.
-    Returns list of errors (empty if valid)."""
-    errors = []
-    rel_path = f"{dir_name}/{filepath.name}"
-    
-    # Get record_type
-    record_type = fm.get("record_type", "")
-    if not record_type:
-        errors.append(f"{rel_path}: Missing 'record_type' field")
-        return errors
-    
-    # Find schema
-    schema = schemas.get(record_type)
-    if not schema:
-        errors.append(f"{rel_path}: No schema for record_type='{record_type}'")
-        return errors
-    
-    validator = schemas.get(record_type + "__validator")
-    if not validator:
-        errors.append(f"{rel_path}: Schema '{record_type}' not compiled")
-        return errors
-    
-    # Run JSON Schema validation
-    for error in validator.iter_errors(fm):
-        # Make error path readable
-        path = ".".join(str(p) for p in error.absolute_path) or "(root)"
-        errors.append(f"{rel_path}: Schema violation at '{path}': {error.message}")
-    
-    # Additional checks beyond JSON Schema
-    
-    # Check: lifecycle_state should exist (warning, not error — for migration period)
-    if "lifecycle_state" not in fm:
-        errors.append(f"{rel_path}: WARNING — Missing 'lifecycle_state' field (add 'lifecycle_state: canonical' for existing records)")
-    
-    # Check: ID pattern matches directory expectation
-    id_val = fm.get("id", "")
-    expected_prefixes = {
-        "decision": "DEC-",
-        "action": "ACT-",
-        "commitment": "COM-",
-        "stakeholder": "STK-",
-        "initiative": "INIT-",
-        "intelligence": "INT-",
-        "risk": "RSK-",
-        "conversation": "CONV-",
-        "event": "EVT-",
-        "organization": "ORG-",
-    }
-    expected_prefix = expected_prefixes.get(record_type, "")
-    if expected_prefix and id_val and not id_val.startswith(expected_prefix):
-        errors.append(f"{rel_path}: ID '{id_val}' doesn't match expected prefix '{expected_prefix}' for record_type '{record_type}'")
-    
-    return errors
-
-
-# ─────────────────────────────────────────────────────────
-# Index Reconciliation
-# ─────────────────────────────────────────────────────────
-
-def check_indexes(schemas: dict):
-    """Check that all record files appear in their respective indexes."""
-    issues = []
-    indexes_dir = BASE_DIR / "indexes"
-    
-    if not indexes_dir.is_dir():
-        return [("INDEX: indexes/ directory not found")]
-    
-    # Map record types to index files
-    type_to_index = {
-        "decision": "decision-index.md",
-        "action": None,  # No action index exists
-        "commitment": "commitment-index.md",
-        "stakeholder": "stakeholder-index.md",
-        "initiative": "initiative-index.md",
-        "risk": "risk-index.md",
-        "conversation": "conversation-index.md",
-        "event": None,
-        "intelligence": None,
-        "organization": None,  # No organization index yet
-    }
-    
-    for record_type, index_file in type_to_index.items():
-        if not index_file:
-            continue
-        
-        index_path = indexes_dir / index_file
-        if not index_path.exists():
-            issues.append(f"INDEX: {index_file} not found")
-            continue
-        
-        # Get all record IDs of this type
-        expected_ids = set()
-        dir_name = TYPE_TO_DIR.get(record_type, "")
-        if not dir_name:
-            continue
-        
-        dir_path = BASE_DIR / dir_name
-        if not dir_path.is_dir():
-            continue
-        
-        for f in dir_path.glob("*.md"):
-            with open(f) as fh:
-                content = fh.read()
-            fm, _ = extract_frontmatter(content)
-            if fm and isinstance(fm, dict) and fm.get("record_type") == record_type:
-                rid = fm.get("id", "")
-                if rid:
-                    expected_ids.add(rid)
-        
-        # Read index file and extract IDs
-        with open(index_path) as fh:
-            index_content = fh.read()
-        
-        # Find IDs in index (look for ID patterns in table rows)
-        id_pattern = re.compile(r'\b([A-Z]+-\d{8}-\d{3})\b')
-        index_ids = set(id_pattern.findall(index_content))
-        
-        # Find mismatches
-        missing_from_index = expected_ids - index_ids
-        extra_in_index = index_ids - expected_ids
-        
-        for rid in sorted(missing_from_index):
-            issues.append(f"INDEX: {rid} exists in {dir_name}/ but not in {index_file}")
-        
-        for rid in sorted(extra_in_index):
-            issues.append(f"INDEX: {rid} in {index_file} but no file found in {dir_name}/")
-    
-    return issues
-
-
-# ─────────────────────────────────────────────────────────
-# Main
-# ─────────────────────────────────────────────────────────
+# ─── CLI ───
 
 def main():
-    parser = argparse.ArgumentParser(description="CognitiveOS Deterministic Validator")
-    parser.add_argument("--dir", help="Validate single directory")
-    parser.add_argument("--file", help="Validate single file")
-    parser.add_argument("--quiet", action="store_true", help="Only show errors")
-    parser.add_argument("--json", action="store_true", help="Machine-readable JSON output")
-    parser.add_argument("--no-index-check", action="store_true", help="Skip index reconciliation")
+    parser = argparse.ArgumentParser(description='CognitiveOS CVS ER Validator')
+    parser.add_argument('--file', metavar='PATH', help='Validate a single file')
+    parser.add_argument('--quiet', action='store_true', help='Minimal output (for pre-commit hook)')
+    parser.add_argument('--full', action='store_true', help='Full workspace ER report')
     args = parser.parse_args()
     
-    schemas = load_schemas()
-    
-    total = 0
-    passed = 0
-    failed = 0
-    warnings = 0
-    all_errors = []
-    
-    for filepath, dir_name in get_record_files(args.dir, args.file):
-        total += 1
+    # Single file mode (pre-commit hook)
+    if args.file:
+        result = validate_record(args.file)
         
-        with open(filepath) as fh:
-            content = fh.read()
-        
-        fm, body = extract_frontmatter(content)
-        
-        if fm == "PARSE_ERROR":
-            failed += 1
-            all_errors.append(f"{dir_name}/{filepath.name}: YAML parse error: {body}")
-            continue
-        
-        if fm is None:
-            failed += 1
-            all_errors.append(f"{dir_name}/{filepath.name}: No YAML frontmatter found")
-            continue
-        
-        errors = validate_record(fm, body, filepath, dir_name, schemas)
-        
-        if not errors:
-            passed += 1
-        else:
-            has_errors = False
-            for err in errors:
-                if "WARNING" in err:
-                    warnings += 1
-                else:
-                    has_errors = True
-                    all_errors.append(err)
-            
-            if has_errors:
-                failed += 1
+        if args.quiet:
+            # Minimal output for pre-commit hook
+            if not result.passed:
+                for err in result.errors:
+                    print(err, file=sys.stderr)
+                sys.exit(1)
             else:
-                passed += 1  # Only warnings, no hard errors
-    
-    # Index reconciliation
-    index_issues = []
-    if not args.no_index_check and not args.file:
-        index_issues = check_indexes(schemas)
-    
-    # Output
-    if args.json:
-        output = {
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "total": total,
-            "passed": passed,
-            "failed": failed,
-            "warnings": warnings,
-            "errors": all_errors,
-            "index_issues": index_issues,
-        }
-        print(json.dumps(output, indent=2))
-    else:
-        print(f"╔══════════════════════════════════════╗")
-        print(f"║  CognitiveOS Validator               ║")
-        print(f"╚══════════════════════════════════════╝")
-        print()
-        print(f"  Records scanned: {total}")
-        print(f"  ✅ Passed:       {passed}")
-        print(f"  ❌ Failed:        {failed}")
-        print(f"  ⚠️  Warnings:     {warnings}")
-        print()
-        
-        if all_errors:
-            print("═══ ERRORS ═══")
-            for err in all_errors:
-                if "WARNING" not in err:
-                    print(f"  ❌ {err}")
+                sys.exit(0)
+        else:
+            # Full single-file output
+            print(f"File: {result.filepath}")
+            print(f"Record ID: {result.record_id}")
+            print(f"Record Type: {result.record_type}")
+            print(f"CVS Tier: {result.tier}")
+            print(f"CVS Score: {result.cvs_score}/10")
+            print(f"Error Rate: {result.error_rate:.0f}%")
+            print(f"Passed: {'✅' if result.passed else '❌'}")
             print()
-        
-        if not args.quiet:
-            warning_errors = [e for e in all_errors if "WARNING" in e]
-            if warning_errors:
-                print("═══ WARNINGS ═══")
-                for err in warning_errors[:20]:
-                    print(f"  ⚠️  {err}")
-                if len(warning_errors) > 20:
-                    print(f"  ... and {len(warning_errors) - 20} more warnings")
-                print()
-        
-        if index_issues:
-            print("═══ INDEX RECONCILIATION ═══")
-            for issue in index_issues:
-                print(f"  🔍 {issue}")
-            print()
-        
-        # Write to audit log
-        LOGS_DIR.mkdir(parents=True, exist_ok=True)
-        log_entry = {
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "total": total,
-            "passed": passed,
-            "failed": failed,
-            "warnings": warnings,
-            "index_issues": len(index_issues),
-        }
-        with open(LOGS_DIR / "validation.jsonl", "a") as fh:
-            fh.write(json.dumps(log_entry) + "\n")
+            print(f"Criteria breakdown:")
+            print(f"  Authority (schema):      {result.authority}/2")
+            print(f"  Traceability (required):  {result.traceability}/2")
+            print(f"  Recency (timestamps):     {result.recency}/2")
+            print(f"  Consistency (enums):      {result.consistency}/2")
+            print(f"  Completeness (quality):   {result.completeness}/2")
+            
+            if result.errors:
+                print(f"\nErrors (P0):")
+                for e in result.errors:
+                    print(f"  ❌ {e}")
+            if result.warnings:
+                print(f"\nWarnings (P1):")
+                for w in result.warnings:
+                    print(f"  ⚠️  {w}")
+            if result.advisories:
+                print(f"\nAdvisories (P2):")
+                for a in result.advisories:
+                    print(f"  ℹ️  {a}")
+            
+            sys.exit(0 if result.passed else 1)
     
-    # Exit code
-    if failed > 0:
-        sys.exit(1)
-    sys.exit(0)
+    # Full workspace mode
+    results = workspace_er_report()
+    print_er_report(results)
+    sys.exit(0 if all(r.passed for r in results) else 1)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

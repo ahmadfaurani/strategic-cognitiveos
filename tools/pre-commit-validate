@@ -21,9 +21,10 @@ from pathlib import Path
 
 # Directories that contain typed records
 RECORD_DIRS = {
-    "actions", "commitments", "decisions", "engagements",
-    "initiatives", "intelligence", "organizations", "outcomes",
-    "risks", "stakeholders"
+    "actions", "assessments", "briefings", "commitments", "conversations",
+    "decisions", "documents", "drafts", "engagements", "initiatives",
+    "intelligence", "organizations", "outcomes", "risks", "stakeholders",
+    "strategies", "artifacts", "lessons"
 }
 
 # Governance files that must exist and be non-empty

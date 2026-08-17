@@ -3,7 +3,7 @@ id: STRAT-20260807-001
 record_type: initiative
 title: R.I.S.I.K Operational Development Plan — From Doctrine to Operations
 created_at: 2026-08-07 08:30:00+00:00
-updated_at: '2026-08-17T17:50:22+00:00'
+updated_at: '2026-08-17T17:56:20+00:00'
 owner: faurani-jaafar
 authority: DAF
 sensitivity: confidential
@@ -36,6 +36,7 @@ summary: 'Authority: DAF Date: 7 August 2026 Classification: Confidential — OS
 strategic_significance: Strategic initiative.
 mission_alignment: []
 related_records: []
+portfolio_tier: strategic
 ---
 
 # R.I.S.I.K Operational Development Plan
