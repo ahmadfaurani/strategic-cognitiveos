@@ -564,6 +564,34 @@
 
 **CognitiveOS records:** CONV-20260807-001, DEC-20260807-001, STK-20260807-001–004, ACT-20260807-001–003, COM-20260807-001
 
+## 💰 R.I.S.I.K Cost Structure & MCMC Selling Price (2026-08-15)
+
+**Initiative:** INIT-20260803-002 (updated: readiness advanced from Coordination → Cost-Structured)
+**Decision:** DEC-20260815-001 — RM5.0M, 12-month, 9-component cost structure formalised
+**Target Funder:** MCMC (Malaysian Communications and Multimedia Commission) — STK-20260815-002
+
+**Cost Architecture:**
+1. Framework & IP — RM750K (15%)
+2. AI Engineering — RM900K (18%)
+3. 7-Person Team — RM1.8M (36%)
+4. AI Infrastructure & Tooling — RM550K (11%)
+5. Data/Integration/Deployment — RM450K (9%)
+6. Cybersecurity & AI Assurance — RM200K (4%)
+7. Training & KT — RM100K (2%)
+8. Governance/IP/Legal — RM100K (2%)
+9. Contingency — RM150K (3%)
+
+**Key details:** 69% to IP/AI/human capital, 31% to operationalisation. 5 stage gates (G1-G5). RM150K/month team burn. Positioned as investment in reusable strategic intelligence capability, not software dev fee. MCMC aligns naturally — regulatory mandate covers digital content governance, misinformation counter-strategies, social media regulation.
+
+**Risk:** RSK-20260815-002 — MCMC not yet engaged; pricing sensitivity, budget cycle alignment, referral pathway (PMO vs direct vs UiTM) all unresolved.
+
+**Next milestones:**
+- Prepare MCMC proposal/pitch (ACT-20260815-006)
+- MCMC stakeholder engagement pathway identification
+- UiTM working session (still pending)
+
+**CognitiveOS records:** CONV-20260815-002, DEC-20260815-001, STK-20260815-002, ACT-20260815-006/007, RSK-20260815-002
+
 ## Promoted From Short-Term Memory (2026-08-08)
 
 <!-- openclaw-memory-promotion:memory:memory/2026-08-02.md:5:6 -->
@@ -704,3 +732,60 @@ DAF escalated the Aug 10 GovSec-only freeze (DEC-20260810-002) to ALL THREE Cybe
 - | Counter-narrative types | 9 types | 10 types (+Corrective Action Communication) | | KPIs | None | KPIs for every phase | | Data model | None | 3 structured record types (Issue, Narrative, Actor) | [score=0.882 recalls=0 avg=0.620 source=memory/2026-08-04.md:22-24]
 <!-- openclaw-memory-promotion:memory:memory/2026-08-04.md:26:29 -->
 - | Dashboards | None | 3 views (Strategic, Operational, Measurement) | | Escalation triggers | None | 12 explicit triggers | | Decision matrix | None | 7-scenario intervention matrix | [score=0.882 recalls=0 avg=0.620 source=memory/2026-08-04.md:26-28]
+
+## Promoted From Short-Term Memory (2026-08-12)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-03.md:25:25 -->
+- **MTAI (legal/advisory):** [score=0.859 recalls=0 avg=0.620 source=memory/2026-08-03.md:25-25]
+<!-- openclaw-memory-promotion:memory:memory/2026-08-06.md:5:8 -->
+- **Time:** ~13:25 UTC **Session:** Telegram direct (640442208) **Authority:** DAF [score=0.851 recalls=0 avg=0.620 source=memory/2026-08-06.md:5-7]
+
+## Promoted From Short-Term Memory (2026-08-14)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-08.md:5:7 -->
+- **Channel:** Telegram (DAF forwarded email thread) **Authority:** DAF **Source:** Email thread spanning May 15 – Aug 8, 2026 [score=0.904 recalls=0 avg=0.620 source=memory/2026-08-08.md:5-7]
+
+## Promoted From Short-Term Memory (2026-08-15)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-08.md:11:11 -->
+- DAF forwarded the full email thread covering the post-MoU CSM collaboration evolution, culminating in the Aug 8 GTM Outreach Programme proposal to Kenny Kok (COO, MTAI), Hadri, and Azzatullina Pawanchik (Marketing, WIG). [score=0.861 recalls=0 avg=0.620 source=memory/2026-08-08.md:11-11]
+
+## CSM × Aras Voron Citadel GTM — Training Completed & PIC Proposed (15 Aug 2026)
+
+**Commit:** `625a067` (intake) + `a33e8b5` (P0 schema backfill)
+
+Post-MOU Voron Citadel technical training delivered Aug 14 to joint Aras-CSM sales teams. Training covered product overview, architecture, capabilities, use cases, target customers, positioning. CSM requested additional training sessions after improvements/suggestions are implemented.
+
+**Key developments:**
+- **Aisha** (PA to En. Zulfeka, Head of Business Development & Industry Affairs) proposed as dedicated CSM-Aras communication PIC. Subject to formal confirmation by CSM higher management — meeting expected week of Aug 18.
+- **CSM Event Participation** — separate from CyberDSA. CSM proposed Aras showcase/sell products at upcoming CSM event. Details pending. Tracked as ACT-20260815-005 (placeholder).
+- **En. Azrul** (STK-20260813-008, Industry Engagement) attended training — supports alignment between technical, sales, and industry engagement dimensions of Voron Citadel GTM.
+- **RSK-20260815-001** — Communication PIC gap identified; partially mitigated by Aisha's proposal.
+
+**CognitiveOS P0 milestone:** All 268 records pass schema validation. Backfill applied (551 fixes across 256 files). Validator + backfill tools deployed.
+
+## CyberDSA 2026 — Partnership, Marketing & Commercial Alignment Proposed (17 Aug 2026)
+
+**Commit:** `847f52e`
+
+DAF sent a new email to CSM (Fahdzli, Hadri) with 15 recipients proposing a formal Partnership, Marketing & Commercial Stakeholder Synchronisation Session for CyberDSA 2026. This is a strategic escalation from bilateral training to multi-stakeholder market activation.
+
+**Key new disclosures to CSM:**
+- **Three CSM co-branded, national-grade, full-stack sovereign technology offerings** to launch at CyberDSA — first explicit mention in the CSM thread
+- **NACSA endorsement** — Aras is in active discussion seeking potential endorsement of all 3 co-developed products (new to CSM)
+
+**Four focus areas proposed:**
+1. Partnership — Joint CyberDSA positioning, NACSA endorsement track
+2. Marketing & Media — Joint communications, media coverage, focal point identification
+3. Commercial — Priority government, GLC and enterprise stakeholders
+4. Post-Launch — Demonstrations, POCs, commercial follow-up
+
+**Positioning:** CSM × Aras Integrasi: Partnership → Sovereign Technology Development → National Market Activation
+
+**Actions generated:**
+- ACT-20260817-001: Hadri to coordinate alignment session dates (due Aug 22)
+- ACT-20260817-002: Aras to consolidate launch narrative & commercial activation plan (due Aug 29)
+- ACT-20260817-003: CSM teams to identify focal points for four workstream areas (due Aug 29)
+- ACT-20260817-004: NACSA endorsement status update and preparation (due Aug 29)
+
+**Notable:** Roshdi re-added to this strategic thread (previously removed by Hadri for operational matters). Thread spans May 15 – Aug 17, 2026 covering full CSM-Aras collaboration evolution from GovSec MVP announcement through to CyberDSA market activation proposal.
