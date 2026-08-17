@@ -792,6 +792,10 @@ Post-MOU Voron Citadel technical training delivered Aug 14 to joint Aras-CSM sal
 
 ## CyberDSA 2026 — Partnership, Marketing & Commercial Alignment Proposed (17 Aug 2026)
 
+### Azrul Stakeholder Assessment (INT-20260817-001) — 17 Aug
+
+Full cognitive loop on Azrul Nazim Abdul Aziz completed. Assessment: cross-functional value HIGH, conversion gap MEDIUM. Present in 4 workstream lanes (strategy, readiness, market activation, commercial) but owns nothing concrete. ACT-20260817-005 raised — DAF to select scope (target accounts / commercial qualification / industry vertical leadership). STK-20260813-008 status New→Active.
+
 **Commit:** `847f52e`
 
 DAF sent a new email to CSM (Fahdzli, Hadri) with 15 recipients proposing a formal Partnership, Marketing & Commercial Stakeholder Synchronisation Session for CyberDSA 2026. This is a strategic escalation from bilateral training to multi-stakeholder market activation.
