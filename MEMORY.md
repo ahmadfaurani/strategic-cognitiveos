@@ -750,6 +750,32 @@ DAF escalated the Aug 10 GovSec-only freeze (DEC-20260810-002) to ALL THREE Cybe
 <!-- openclaw-memory-promotion:memory:memory/2026-08-08.md:11:11 -->
 - DAF forwarded the full email thread covering the post-MoU CSM collaboration evolution, culminating in the Aug 8 GTM Outreach Programme proposal to Kenny Kok (COO, MTAI), Hadri, and Azzatullina Pawanchik (Marketing, WIG). [score=0.861 recalls=0 avg=0.620 source=memory/2026-08-08.md:11-11]
 
+## Promoted From Short-Term Memory (2026-08-17)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-16.md:2:5 -->
+- **CyberDSA Positioning Statement SIGNED OFF by DAF.** DEC-20260816-002 status: PROPOSED → APPROVED. Criterion 4.1: ⏳ PENDING → ✅ DONE. Commit `2e6fb03`. 339/339 validated. Unblocks 4 downstream criteria (4.2 one-pagers, 4.4 demo materials, 4.5 sovereign narrative, 4.6 campaign launch). [score=0.907 recalls=0 avg=0.620 source=memory/2026-08-16.md:2-5]
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-16.md:12:14 -->
+- **Two new standing operating directives from DAF:** (1) "Always proceed with draft generation whenever you realized there is a required need" — do not ask permission to execute on obvious needs. (2) "All drafts output here [Telegram] and synch to Github as artifact" — DAF reviews drafts in Telegram chat; artifacts still pushed to CognitiveOS repo. [score=0.873 recalls=0 avg=0.620 source=memory/2026-08-16.md:12-14]
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-16.md:80:91 -->
+- **Kimi K3 × CognitiveOS Compatibility Analysis completed.** Conditionally compatible — 6/8 requirements ✅, 2/8 ⚠️. 1M context fits entire repo. 99.6% JSON Schema pass. Critical risk: 51% hallucination rate — manageable only if human approval gate never bypassed. K3 PROPOSE mode only, never autonomous MERGE. Report: memory/kimi-k3-cognitiveos-compatibility-report-20260816.md. [score=0.844 recalls=0 avg=0.620 source=memory/2026-08-16.md:80-91]
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-16.md:99:106 -->
+- **CyberDSA 2026 Silver Sponsorship RM50K Management Paper submitted** (Hadri Aug 15). Silver package: premium booth, TV/display, branding, 15-20 min Flash Talk slot. Dual approval (DAF + Farul) required by Aug 22. 7 records created (CONV-20260816-001, STK-20260816-001, ORG-20260816-001, ACT-20260816-002–004, RSK-20260816-001). [score=0.857 recalls=0 avg=0.620 source=memory/2026-08-16.md:99-106]
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-16.md:107:122 -->
+- **ADEP-001 D3 review of CyberDSA soft activation email.** Two risks flagged: RSK-20260816-002 (MEDIUM) — "commercially viable product" claim unsupported; contradicts RSK-20260810-003. RSK-20260816-003 (HIGH) — "Malaysia's First" media claim unsupported, needs external validation before Amelia engages media contacts. [score=0.839 recalls=0 avg=0.620 source=memory/2026-08-16.md:107-122]
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-17.md:1:5 -->
+- **CyberDSA 2026 Partnership, Marketing & Commercial Alignment email sent to CSM** (DAF, Aug 17). Strategic escalation from bilateral training to multi-stakeholder market activation. Three CSM co-branded sovereign technology offerings mentioned for first time in CSM thread. NACSA endorsement disclosed. 4 actions (ACT-20260817-001–004). Commit `847f52e`. [score=0.901 recalls=0 avg=0.620 source=memory/2026-08-17.md:1-5]
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-17-0153.md:1:6 -->
+- **CSM Engagement Overview — full workstream summary (4 workstreams A-D).** A: Voron Citadel Joint GTM (training done, PIC pending). B: SiberSUITE × GovSec Integration (telemetry, score card, CBOM agent). C: CyberDSA 2026 Coordination (war-room activated). D: CSM Event Participation (pending). Key risk: Aisha PIC confirmation (week of Aug 18). [score=0.866 recalls=0 avg=0.620 source=memory/2026-08-17-0153.md:1-6]
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-17-0053.md:1:8 -->
+- **Weekly workplan Aug 17–21: 13 deadlines, 7 overdue, CP1 checkpoint Friday Aug 22.** Three decisive actions: (1) CSM alignment, (2) Farul sponsorship + role buy-in, (3) Product repo + dev freeze. UTC+8 standardized as canonical timezone. Top 5 initiatives: GovSec launch, flagship consolidation, CSM GTM, SiberSUITE integration, CyberDSA. [score=0.858 recalls=0 avg=0.620 source=memory/2026-08-17-0053.md:1-8]
+
 ## CSM × Aras Voron Citadel GTM — Training Completed & PIC Proposed (15 Aug 2026)
 
 **Commit:** `625a067` (intake) + `a33e8b5` (P0 schema backfill)
