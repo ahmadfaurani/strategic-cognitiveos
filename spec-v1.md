@@ -591,7 +591,7 @@ Uncontrolled tags should not be introduced without updating the central taxonomy
 | domain/ | Knowledge or operating domain | domain/cybersecurity |
 | project/ | Project or programme | project/govsec-tip |
 | product/ | Product or platform | product/vorondrq |
-| organisation/ | Organisation or institution | organisation/cybersecurity-malaysia |
+| org/ | Organisation or institution | org/cybersecurity-malaysia |
 | person/ | Named individual | person/farul-mohd-ghazali |
 | stakeholder-type/ | Stakeholder category | stakeholder-type/government |
 | capability/ | Required capability | capability/threat-intelligence |

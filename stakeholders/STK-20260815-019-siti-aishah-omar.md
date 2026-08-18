@@ -24,7 +24,7 @@ lifecycle_state: superseded
 tags:
 - person/siti-aishah-omar
 - person/aisha
-- organisation/cybersecurity-malaysia
+- org/cybersecurity-malaysia
 - lifecycle/superseded
 related_records:
 - STK-20260815-001

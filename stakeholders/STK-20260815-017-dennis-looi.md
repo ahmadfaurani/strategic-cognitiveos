@@ -27,7 +27,7 @@ tags:
 - domain/sovereign-ai
 - lifecycle/canonical
 - priority/medium
-- organisation/aras-integrasi
+- org/aras-integrasi
 related_records:
 - ORG-20260815-001
 - STK-20260815-016

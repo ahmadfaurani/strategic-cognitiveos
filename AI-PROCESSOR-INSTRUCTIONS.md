@@ -513,7 +513,7 @@ Tags follow the `namespace/value` format using lowercase kebab-case. The control
 | `lifecycle/` | Lifecycle stage | `lifecycle/active-development` |
 | `project/` | Project identifier | `project/govsec-threat-intelligence` |
 | `product/` | Product identifier | `product/govsec-tip` |
-| `organisation/` | Named organisation | `organisation/cybersecurity-malaysia` |
+| `org/` | Named organisation | `org/cybersecurity-malaysia` |
 | `person/` | Named individual | `person/faurani-jaafar` |
 | `stakeholder-type/` | Stakeholder category | `stakeholder/government` |
 | `capability/` | Capability type | `capability/strategic-framing` |

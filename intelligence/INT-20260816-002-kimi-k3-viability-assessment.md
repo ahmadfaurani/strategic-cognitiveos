@@ -1,3 +1,27 @@
+---
+id: INT-20260816-002
+record_type: intelligence
+title: Kimi K3 Viability Assessment for CognitiveOS Git-as-Memory Harness
+created_at: 2026-08-16T14:00:00+08:00
+updated_at: 2026-08-18T17:15:00+08:00
+owner: laras
+summary: "Assessment of Kimi K3 as primary CognitiveOS model. Verdict — non-viable due to uncontrollable thinking mode consuming token budget."
+strategic_significance: Model selection decision for CognitiveOS infrastructure — determines execution capability.
+status: active
+source:
+  type: internal-testing
+  reference: ARAS endpoint live API testing, 2026-08-16
+confidence: high
+intelligence_type: technical
+priority: medium
+sensitivity: restricted
+lifecycle_state: canonical
+tags:
+  - domain/artificial-intelligence
+  - domain/infrastructure
+---
+
+
 # KIMI K3 VIABILITY ASSESSMENT FOR COGNITIVEOS GIT-AS-MEMORY-HARNESS
 
 **Classification:** TLP:AMBER  

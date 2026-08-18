@@ -20,7 +20,7 @@ related_records:
 - CONV-20260816-001
 - STK-20260816-001
 tags:
-- organisation/aerosea-exhibitions
+- org/aerosea-exhibitions
 - domain/events
 - milestone/cyberdsa-2026
 status: active

@@ -21,7 +21,7 @@ tags:
 - domain/strategic-planning
 - domain/commercial-development
 - domain/productisation
-- organisation/aras-integrasi
+- org/aras-integrasi
 source:
   document: document
   DAF-authored document, 13 sections, 3 messages: DAF-authored document, 13 sections, 3 messages

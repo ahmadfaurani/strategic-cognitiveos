@@ -17,69 +17,203 @@
       "type": "string",
       "pattern": "^STK-\\d{8}-\\d{3}$"
     },
-    "record_type": { "const": "stakeholder" },
-    "title": { "type": "string", "minLength": 1 },
-    "created_at": { "type": "string", "format": "date-time" },
-    "updated_at": { "type": "string", "format": "date-time" },
-    "owner": { "type": "string" },
+    "record_type": {
+      "const": "stakeholder"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "owner": {
+      "type": "string"
+    },
     "status": {
       "type": "string",
-      "enum": ["draft", "active", "validated", "approved", "completed", "archived", "superseded"]
+      "enum": [
+        "draft",
+        "active",
+        "validated",
+        "approved",
+        "completed",
+        "archived",
+        "superseded"
+      ]
     },
     "priority": {
       "type": "string",
-      "enum": ["critical", "high", "medium", "low"]
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "sensitivity": {
       "type": "string",
-      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
     },
     "lifecycle_state": {
       "type": "string",
-      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
+      "enum": [
+        "candidate",
+        "structurally_valid",
+        "semantically_verified",
+        "approved",
+        "canonical",
+        "superseded",
+        "rejected"
+      ]
     },
     "confidence": {
       "type": "string",
-      "enum": ["high", "medium", "low"]
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
     },
-    "tags": { "type": "array", "items": { "type": "string" } },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "source": {
       "type": "object",
       "properties": {
-        "type": { "type": "string" },
-        "reference": { "type": "string" }
+        "type": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        }
       }
     },
-    "summary": { "type": "string" },
-    "strategic_significance": { "type": "string" },
-    "mission_alignment": { "type": "array", "items": { "type": "string" } },
+    "summary": {
+      "type": "string"
+    },
+    "strategic_significance": {
+      "type": "string"
+    },
+    "mission_alignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "stakeholder_type": {
       "type": "string",
-      "enum": ["government", "internal", "partner", "prospect", "academic", "technical", "political", "defence", "regulatory", "industry"]
+      "enum": [
+        "government",
+        "internal",
+        "internal-team",
+        "partner",
+        "prospect",
+        "academic",
+        "technical",
+        "political",
+        "defence",
+        "regulatory",
+        "industry",
+        "regulator",
+        "private-sector",
+        "international-partner",
+        "vendor",
+        "customer",
+        "law-enforcement",
+        "military",
+        "non-profit",
+        "industry-association"
+      ]
     },
-    "organisation": { "type": "string" },
-    "role": { "type": "string" },
+    "organisation": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
     "influence_level": {
       "type": "string",
-      "enum": ["high", "medium", "low"]
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "interest_level": {
       "type": "string",
-      "enum": ["high", "medium", "low"]
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "relationship_status": {
       "type": "string",
-      "enum": ["new", "developing", "active", "trusted", "dormant", "at-risk"]
+      "enum": [
+        "new",
+        "developing",
+        "active",
+        "trusted",
+        "dormant",
+        "at-risk"
+      ]
     },
-    "strategic_relevance": { "type": "string" },
-    "engagement_objective": { "type": "string" },
-    "current_position": { "type": "string" },
-    "commitments_by_us": { "type": "array", "items": { "type": "string" } },
-    "commitments_by_stakeholder": { "type": "array", "items": { "type": "string" } },
-    "last_engagement": { "type": "string" },
-    "next_engagement": { "type": "string" },
-    "relationship_owner": { "type": "string" },
-    "related_initiatives": { "type": "array", "items": { "type": "string" } },
-    "related_records": { "type": "array", "items": { "type": "string" } }
+    "strategic_relevance": {
+      "type": "string"
+    },
+    "engagement_objective": {
+      "type": "string"
+    },
+    "current_position": {
+      "type": "string"
+    },
+    "commitments_by_us": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "commitments_by_stakeholder": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_engagement": {
+      "type": "string"
+    },
+    "next_engagement": {
+      "type": "string"
+    },
+    "relationship_owner": {
+      "type": "string"
+    },
+    "related_initiatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
   }
 }

@@ -16,52 +16,153 @@
       "type": "string",
       "pattern": "^ACT-\\d{8}-\\d{3}$"
     },
-    "record_type": { "const": "action" },
-    "title": { "type": "string", "minLength": 1 },
-    "created_at": { "type": "string", "format": "date-time" },
-    "updated_at": { "type": "string", "format": "date-time" },
-    "owner": { "type": "string" },
-    "related_initiative": { "type": "string" },
-    "related_stakeholder": { "type": "string" },
+    "record_type": {
+      "const": "action"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "related_initiative": {
+      "type": "string"
+    },
+    "related_stakeholder": {
+      "type": "string"
+    },
     "priority": {
       "type": "string",
-      "enum": ["critical", "high", "medium", "low"]
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "status": {
       "type": "string",
-      "enum": ["draft", "in-progress", "active", "open", "proposed", "pending", "blocked", "completed", "overdue", "cancelled", "unresolved"]
+      "enum": [
+        "draft",
+        "in-progress",
+        "validated",
+        "approved",
+        "active",
+        "blocked",
+        "deferred",
+        "completed",
+        "superseded",
+        "archived",
+        "captured",
+        "open",
+        "proposed",
+        "pending",
+        "overdue",
+        "cancelled",
+        "unresolved"
+      ]
     },
     "lifecycle_state": {
       "type": "string",
-      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
+      "enum": [
+        "candidate",
+        "structurally_valid",
+        "semantically_verified",
+        "approved",
+        "canonical",
+        "superseded",
+        "rejected"
+      ]
     },
     "sensitivity": {
       "type": "string",
-      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
     },
-    "deadline": { "type": "string", "format": "date" },
-    "dependency": { "type": "string" },
-    "required_output": { "type": ["string", "null"], "description": "Description of the expected deliverable. Can be null for records where output is implicit." },
+    "deadline": {
+      "type": "string",
+      "format": "date"
+    },
+    "dependency": {
+      "type": "string"
+    },
+    "required_output": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Description of the expected deliverable. Can be null for records where output is implicit."
+    },
     "attention_level": {
       "type": "string",
-      "enum": ["owner", "approver", "consulted", "informed", "delegated", "deferred"]
+      "enum": [
+        "owner",
+        "approver",
+        "consulted",
+        "informed",
+        "delegated",
+        "deferred"
+      ]
     },
-    "completion_evidence": { "type": "string" },
-    "tags": { "type": "array", "items": { "type": "string" } },
+    "completion_evidence": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "confidence": {
       "type": "string",
-      "enum": ["high", "medium", "low"]
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "source": {
       "type": "object",
       "properties": {
-        "type": { "type": "string" },
-        "reference": { "type": "string" }
+        "type": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        }
       }
     },
-    "summary": { "type": "string" },
-    "strategic_significance": { "type": "string" },
-    "mission_alignment": { "type": "array", "items": { "type": "string" } },
-    "related_records": { "type": "array", "items": { "type": "string" } }
+    "summary": {
+      "type": "string"
+    },
+    "strategic_significance": {
+      "type": "string"
+    },
+    "mission_alignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
   }
 }

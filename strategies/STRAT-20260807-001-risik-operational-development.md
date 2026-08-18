@@ -21,9 +21,9 @@ tags:
 - domain/counter-narrative
 - domain/national-security
 - domain/strategic-communications
-- organisation/aras-integrasi
-- organisation/uitm
-- organisation/pmo
+- org/aras-integrasi
+- org/uitm
+- org/pmo
 - mission/political-intelligence
 - readiness/development
 priority: high

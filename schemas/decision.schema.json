@@ -19,62 +19,187 @@
       "type": "string",
       "pattern": "^DEC-\\d{8}-\\d{3}$"
     },
-    "record_type": { "const": "decision" },
-    "title": { "type": "string", "minLength": 1 },
-    "created_at": { "type": "string", "format": "date-time" },
-    "updated_at": { "type": "string", "format": "date-time" },
-    "owner": { "type": "string" },
-    "decision_date": { "type": "string", "format": "date" },
-    "decision_owner": { "type": "string" },
+    "record_type": {
+      "const": "decision"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "decision_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "decision_owner": {
+      "type": "string"
+    },
     "status": {
       "type": "string",
-      "enum": ["draft", "validated", "approved", "active", "proposed", "superseded", "archived"]
+      "enum": [
+        "draft",
+        "in-progress",
+        "validated",
+        "approved",
+        "active",
+        "blocked",
+        "deferred",
+        "completed",
+        "superseded",
+        "archived",
+        "captured",
+        "proposed"
+      ]
     },
     "lifecycle_state": {
       "type": "string",
-      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
+      "enum": [
+        "candidate",
+        "structurally_valid",
+        "semantically_verified",
+        "approved",
+        "canonical",
+        "superseded",
+        "rejected"
+      ]
     },
     "portfolio_tier": {
       "type": "string",
-      "enum": ["flagship", "incubation", "watch-list", "operational"]
+      "enum": [
+        "flagship",
+        "incubation",
+        "watch-list",
+        "operational"
+      ]
     },
     "priority": {
       "type": "string",
-      "enum": ["critical", "high", "medium", "low"]
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "sensitivity": {
       "type": "string",
-      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
     },
     "confidence": {
       "type": "string",
-      "enum": ["high", "medium", "low"]
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
     },
-    "context": { "type": "string" },
-    "decision": { "type": "string" },
-    "rationale": { "type": "string" },
-    "alternatives_considered": { "type": "array", "items": { "type": "string" } },
-    "assumptions": { "type": "array", "items": { "type": "string" } },
-    "evidence": { "type": "array", "items": { "type": "string" } },
-    "expected_outcome": { "type": "string" },
-    "consequences": { "type": "string" },
-    "risks": { "type": "array", "items": { "type": "string" } },
-    "implementation_owner": { "type": "string" },
-    "implementation_actions": { "type": "array", "items": { "type": "string" } },
-    "review_trigger": { "type": "string" },
-    "related_records": { "type": "array", "items": { "type": "string" } },
-    "supersedes": { "type": "string" },
-    "superseded_by": { "type": "string" },
-    "tags": { "type": "array", "items": { "type": "string" } },
+    "context": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "string"
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "alternatives_considered": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_outcome": {
+      "type": "string"
+    },
+    "consequences": {
+      "type": "string"
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "implementation_owner": {
+      "type": "string"
+    },
+    "implementation_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_trigger": {
+      "type": "string"
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "supersedes": {
+      "type": "string"
+    },
+    "superseded_by": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "source": {
       "type": "object",
       "properties": {
-        "type": { "type": "string" },
-        "reference": { "type": "string" }
+        "type": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        }
       }
     },
-    "summary": { "type": "string" },
-    "strategic_significance": { "type": "string" },
-    "mission_alignment": { "type": "array", "items": { "type": "string" } }
+    "summary": {
+      "type": "string"
+    },
+    "strategic_significance": {
+      "type": "string"
+    },
+    "mission_alignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
   }
 }

@@ -12,11 +12,9 @@ lifecycle_state: structurally_valid
 confidence: high
 summary: Comprehensive granular analysis of all 47 ADEP-001 sections mapped against CognitiveOS Prime Doctrine (§1-§50) and existing SOPs. Identifies 12 overlaps, 18 extensions, 7 gaps, and 10 operationalization mechanisms required. Produces ADEP-CognitiveOS integration architecture and compliance checklist.
 tags:
-- adep-001
-- governance
-- doctrine-integration
-- operationalization
-- execution-discipline
+
+- domain/governance
+
 source:
   type: analysis
   reference: ADEP-001 (47 sections) × CognitiveOS Prime Doctrine (50 sections) × 3 existing SOPs

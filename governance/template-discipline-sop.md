@@ -235,7 +235,7 @@ Determine the correct record type BEFORE writing. Use this decision tree:
 ```
 Is this about an individual person?
   → YES → stakeholder (STK-)
-  → NO → Is this about an organisation/institution?
+  → NO → Is this about an org/institution?
            → YES → organization (ORG-)
            → NO → Is this a task someone needs to do?
                     → YES → action (ACT-)

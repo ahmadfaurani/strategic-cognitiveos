@@ -1,8 +1,12 @@
 # Status Taxonomy
 # Strategic CognitiveOS — Phase 1
+# Expanded 2026-08-18: type-specific lifecycle statuses added (DEC-20260818-013)
+# Design: universal statuses apply to all records; type-specific statuses extend
+# the universal set for record types with distinct lifecycle semantics.
 
-statuses:
-  # Record lifecycle
+# ── Universal statuses (apply to all record types) ──
+
+universal:
   - status: draft
     description: "Record created but not yet validated"
     color: "gray"
@@ -42,3 +46,103 @@ statuses:
   - status: archived
     description: "Record is no longer active and has been archived"
     color: "gray"
+
+  - status: captured
+    description: "Information recorded but not yet processed"
+    color: "gray"
+
+# ── Type-specific statuses (extend universal for record types
+#    with distinct lifecycle semantics) ──
+
+type_specific:
+
+  # Risk records: lifecycle from identification through realisation/closure
+  risk:
+    - status: identified
+      description: "Risk has been identified and logged but no mitigation action taken"
+      color: "yellow"
+    - status: mitigating
+      description: "Active mitigation strategy is being executed"
+      color: "blue"
+    - status: monitoring
+      description: "Risk is being watched; mitigation not yet needed or already in place"
+      color: "cyan"
+    - status: realised
+      description: "Risk has materialised — impact has occurred"
+      color: "red"
+    - status: closed
+      description: "Risk is no longer relevant — resolved, accepted, or no longer applicable"
+      color: "green"
+
+  # Action records: workflow from proposal through resolution
+  action:
+    - status: open
+      description: "Action has been created and is awaiting start"
+      color: "yellow"
+    - status: proposed
+      description: "Action has been suggested but not yet accepted by the owner"
+      color: "gray"
+    - status: pending
+      description: "Action is awaiting a prerequisite or decision before proceeding"
+      color: "orange"
+    - status: overdue
+      description: "Deadline has passed without completion"
+      color: "red"
+    - status: cancelled
+      description: "Action has been withdrawn or is no longer needed"
+      color: "gray"
+    - status: unresolved
+      description: "Action was executed but outcome is unclear or contested"
+      color: "red"
+
+  # Commitment records: delivery lifecycle
+  commitment:
+    - status: delivered
+      description: "Commitment has been fulfilled and accepted by the recipient"
+      color: "green"
+
+  # Initiative records: programme lifecycle
+  initiative:
+    - status: working-plan
+      description: "Initiative has an active working plan being executed"
+      color: "blue"
+
+  # Decision records: proposal lifecycle
+  decision:
+    - status: proposed
+      description: "Decision has been proposed but not yet deliberated"
+      color: "yellow"
+
+  # Bulk work-product records (artifact, assessment, briefing, document, draft,
+  # lesson, opportunity, pir): shared workflow statuses
+  work_product:
+    - status: ready_for_submission
+      description: "Work product is complete and ready for submission to reviewer"
+      color: "cyan"
+    - status: ready_for_review
+      description: "Work product has been submitted and is awaiting review"
+      color: "yellow"
+    - status: fulfilled
+      description: "Work product has been delivered and accepted"
+      color: "green"
+    - status: open
+      description: "Work product task is created and awaiting action"
+      color: "yellow"
+    - status: proposed
+      description: "Work product has been suggested but not yet accepted"
+      color: "gray"
+    - status: pending
+      description: "Work product is awaiting a prerequisite before proceeding"
+      color: "orange"
+    - status: overdue
+      description: "Work product deadline has passed without completion"
+      color: "red"
+    - status: cancelled
+      description: "Work product has been withdrawn"
+      color: "gray"
+    - status: unresolved
+      description: "Work product was executed but outcome is unclear"
+      color: "red"
+    - status: identified
+      description: "Work product need has been identified but not yet started"
+      color: "yellow"

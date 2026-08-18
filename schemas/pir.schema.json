@@ -40,24 +40,25 @@
       "enum": [
         "draft",
         "in-progress",
-        "active",
         "validated",
         "approved",
+        "active",
         "blocked",
         "deferred",
         "completed",
-        "overdue",
-        "cancelled",
         "superseded",
         "archived",
+        "captured",
         "ready_for_submission",
         "ready_for_review",
         "fulfilled",
-        "identified",
         "open",
         "proposed",
         "pending",
-        "unresolved"
+        "overdue",
+        "cancelled",
+        "unresolved",
+        "identified"
       ]
     },
     "priority": {

@@ -2,482 +2,767 @@
 # Controlled Tagging Taxonomy
 # Strategic CognitiveOS — Phase 1
 # All tags use lowercase kebab-case. No uncontrolled tags without updating this file.
-
+#
+# Updates 2026-08-18 (DEC-20260818-013, Cognitive Loop taxonomy analysis):
+#   - organisation/ namespace renamed to org/ (normalisation)
+#   - milestone/ and initiative/ namespaces added (formalised from practice)
+#   - Merge-debt duplicates removed (portfolio: tier-1-flagship, tier-2-incubation,
+#     tier-3-watchlist; readiness: proposition, scaled)
+#   - All namespaces expanded to absorb values already in active use (Learning 3)
+#   - New namespaces: role, type, channel, mechanism, framework, outcome, cognitive-doctrine,
+#     meeting, application, cluster, deadline, doctrine, cognitive-loop, method
+#   - stakeholder_type expanded to match schema + taxonomy
+#   - risk namespace expanded to match schema + taxonomy + practice
 namespaces:
   mission:
-    description: "Strategic mission supported"
+    description: Strategic mission supported
     values:
-      - sovereign-ai
-      - national-cybersecurity
-      - intelligence-enablement
-      - government-ai-adoption
-      - productisation
-      - institutional-partnerships
-      - commercial-growth
-      - organisational-capability
-      - strategic-communications
-      - asean-ecosystem
-
+    - sovereign-ai
+    - national-cybersecurity
+    - intelligence-enablement
+    - government-ai-adoption
+    - productisation
+    - institutional-partnerships
+    - commercial-growth
+    - organisational-capability
+    - strategic-communications
+    - asean-ecosystem
+    - political-intelligence
   domain:
-    description: "Knowledge or operating domain"
+    description: Knowledge or operating domain
     values:
-      # CognitiveOS original values
-      - cybersecurity
-      - artificial-intelligence
-      - intelligence
-      - governance
-      - product-management
-      - commercial-strategy
-      - stakeholder-engagement
-      - knowledge-management
-      - decision-intelligence
-      - risk-management
-      - compliance
-      - data-infrastructure
-      - political-strategy
-      - organisational-design
-      # PI-OS additions
-      - sovereign-ai
-      - strategic-planning
-      - threat-intelligence
-      - vulnerability-management
-      - incident-response
-      - cloud-security
-      - network-security
-      - application-security
-      - data-protection
-      - privacy
-      - supply-chain-security
-      - security-architecture
-      - security-operations
-      - deception-technology
-      - political-intelligence
-      - elections
-      - public-policy
-      - economic-development
-      - organisational-development
-      - organisational-capability
-      - cybersecurity-productisation
-      - government-partnerships
-      - commercial-development
-      - executive-governance
-      - intelligence-operations
-      - law-enforcement-enablement
-      - defence-enablement
-      - cognitive-operations
-      - software-engineering
-      - devops
-      - infrastructure
-      - research-and-development
-
+    - cybersecurity
+    - artificial-intelligence
+    - intelligence
+    - governance
+    - product-management
+    - commercial-strategy
+    - stakeholder-engagement
+    - knowledge-management
+    - decision-intelligence
+    - risk-management
+    - compliance
+    - data-infrastructure
+    - political-strategy
+    - organisational-design
+    - sovereign-ai
+    - strategic-planning
+    - threat-intelligence
+    - vulnerability-management
+    - incident-response
+    - cloud-security
+    - network-security
+    - application-security
+    - data-protection
+    - privacy
+    - supply-chain-security
+    - security-architecture
+    - security-operations
+    - deception-technology
+    - political-intelligence
+    - elections
+    - public-policy
+    - economic-development
+    - organisational-development
+    - organisational-capability
+    - cybersecurity-productisation
+    - government-partnerships
+    - commercial-development
+    - executive-governance
+    - intelligence-operations
+    - law-enforcement-enablement
+    - defence-enablement
+    - cognitive-operations
+    - software-engineering
+    - devops
+    - infrastructure
+    - research-and-development
+    - ai-infrastructure
+    - ai-agents
+    - ai-enablement
+    - ai-research
+    - ai-ml
+    - academic
+    - academic-partnership
+    - academic-research
+    - architecture
+    - automation
+    - brand-strategy
+    - capacity-building
+    - capability-mapping
+    - cognitiveos-operations
+    - commercial
+    - communication-coordination
+    - communication-planning
+    - communications
+    - counter-narrative
+    - cryptography
+    - csm-partnership
+    - cyberdsa-2026
+    - cyber-security
+    - data-collection
+    - data-integration
+    - defence
+    - development-governance
+    - digital-policy
+    - digital-transformation
+    - doctrine-analysis
+    - event-activation
+    - event-coordination
+    - event-participation
+    - event-production
+    - events
+    - execution-management
+    - financial
+    - funding
+    - government
+    - government-ai-adoption
+    - government-institutional
+    - gtm
+    - gtm-execution
+    - healthcare
+    - ict-management
+    - influence-operations
+    - information-warfare
+    - kkom
+    - legal
+    - marketing
+    - media-relations
+    - narrative-intelligence
+    - national-security
+    - partnership
+    - pilot-design
+    - platform-architecture
+    - political
+    - portfolio-governance
+    - portfolio-management
+    - post-quantum-cryptography
+    - product-improvement
+    - productisation
+    - quality-assurance
+    - regulatory
+    - research
+    - revenue-recovery
+    - risik
+    - risk-scoring
+    - robotics
+    - sales
+    - sales-enablement
+    - security-hardening
+    - sentiment-analysis
+    - sovereign-technology
+    - strategic
+    - strategic-communications
+    - strategic-partnership
+    - system-architecture
+    - system-development
+    - talent
+    - tax-compliance
+    - technical-integration
+    - technology
+    - training
+    - ai-ict-operations
+    - cluster
   workstream:
-    description: "DAF's six workstream clusters"
+    description: DAF's six workstream clusters
     values:
-      - sovereign-ai-adoption
-      - cybersec-products
-      - govt-partnerships
-      - political-intel
-      - commercial-dev
-      - org-capability
-
+    - sovereign-ai-adoption
+    - cybersec-products
+    - govt-partnerships
+    - political-intel
+    - commercial-dev
+    - org-capability
+    - sovereign-ai
+    - commercial-development
+    - political-strategic-intelligence
+    - organisational-capability
+    - cybersecurity-productisation
+    - cscdc
+    - commercial-market-development
+    - post-merger-integration
+    - g2g-briefing
+    - cscdc-partnership
+    - community-champions
+    - anti-deepfake-campaign
   engagement:
-    description: "Stakeholder engagement stage"
+    description: Stakeholder engagement stage
     values:
-      - strategic-alignment
-      - structured-scope
-      - pilot
-      - institutional-collaboration
-      - productisation
-      - scaled-adoption
-
+    - strategic-alignment
+    - structured-scope
+    - pilot
+    - institutional-collaboration
+    - productisation
+    - scaled-adoption
   lifecycle:
-    description: "Stage of work"
+    description: Stage of work
     values:
-      - concept
-      - pilot
-      - active-development
-      - delivery-ready
-      - scaled
-      - maintenance
-      - sunset
-
+    - concept
+    - pilot
+    - active-development
+    - delivery-ready
+    - scaled
+    - maintenance
+    - sunset
+    - candidate
+    - canonical
+    - framed
+    - active
+    - superseded
   project:
-    description: "Project or programme identifier"
-    pattern: "project/<slug>"
+    description: Project or programme identifier
+    pattern: project/<slug>
     known_values:
-      - personal-intelligence-os
-      - govsec-threat-intelligence
-      - vorondrq
-      - chainsentry
-      - voronscout
-      - le-uip
-      - sec-af
-      - deerflow
-      - csm-collaboration
-      - prn-johor-2026
-      - strategic-data-lake
-      - cybersecurity-hiring
-      - sovereign-ai
-      - perjasa
-      - perdana-digital
-      - ai-incubator
-      - attack-vector-registry
-      - unified-scraper
-      - aras-integrasi
-      - nacsa-engagement
-      - jdn-engagement
-      - lhdn-engagement
-
+    - personal-intelligence-os
+    - govsec-threat-intelligence
+    - vorondrq
+    - chainsentry
+    - voronscout
+    - le-uip
+    - sec-af
+    - deerflow
+    - csm-collaboration
+    - prn-johor-2026
+    - strategic-data-lake
+    - cybersecurity-hiring
+    - sovereign-ai
+    - perjasa
+    - perdana-digital
+    - ai-incubator
+    - attack-vector-registry
+    - unified-scraper
+    - aras-integrasi
+    - nacsa-engagement
+    - jdn-engagement
+    - lhdn-engagement
   product:
-    description: "Product or platform identifier"
-    pattern: "product/<slug>"
+    description: Product or platform identifier
+    pattern: product/<slug>
     known_values:
-      - github
-      - obsidian
-      - notion
-      - openclaw
-      - telegram
-      - deer-flow
-      - mr-holmes
-      - govsec-tip
-      - vorondrq
-      - chainsentry
-      - voronscout
-      - le-uip
-      - sec-af
-
-  organisation:
-    description: "Organisation or institution"
-    pattern: "organisation/<slug>"
-    known_values:
-      - aras-integrasi
-      - cybersecurity-malaysia
-      - nacsa
-      - jdn
-      - jdm
-      - pmo
-      - lhdn
-      - pkr
-      - umno
-      - pas
-      - bersatu
-      - muda
-      - ph
-      - bn
-      - pn
-      - government
-
+    - github
+    - obsidian
+    - notion
+    - openclaw
+    - telegram
+    - deer-flow
+    - mr-holmes
+    - govsec-tip
+    - vorondrq
+    - chainsentry
+    - voronscout
+    - le-uip
+    - sec-af
   person:
-    description: "Named individual"
-    pattern: "person/<slug>"
+    description: Named individual
+    pattern: person/<slug>
     known_values:
-      - faurani-jaafar
-      - athena
-      - ember
-
+    - faurani-jaafar
+    - athena
+    - ember
   stakeholder-type:
-    description: "Stakeholder category"
+    description: Stakeholder category
     values:
-      - government
-      - internal
-      - internal-team
-      - partner
-      - prospect
-      - academic
-      - technical
-      - political
-      - defence
-      - regulatory
-      - industry
-      - regulator
-      - private-sector
-      - international-partner
-      - vendor
-      - customer
-
+    - government
+    - internal
+    - internal-team
+    - partner
+    - prospect
+    - academic
+    - technical
+    - political
+    - defence
+    - regulatory
+    - industry
+    - regulator
+    - private-sector
+    - international-partner
+    - vendor
+    - customer
+    - law-enforcement
+    - military
+    - non-profit
+    - industry-association
   capability:
-    description: "Required capability"
+    description: Required capability
     values:
-      # CognitiveOS original values
-      - threat-intelligence
-      - strategic-planning
-      - decision-intelligence
-      - stakeholder-management
-      - portfolio-governance
-      - product-readiness
-      - commercial-development
-      - delivery-management
-      - risk-assessment
-      - intelligence-collection
-      - evidence-analysis
-      - narrative-development
-      - partnership-orchestration
-      # PI-OS additions
-      - strategic-framing
-      - cross-domain-translation
-      - network-orchestration
-      - opportunity-recognition
-      - mission-commitment
-      - memory-retrieval
-      - knowledge-graph
-      - data-collection
-      - signal-processing
-      - stakeholder-engagement
-      - decision-support
-      - operational-planning
-      - content-generation
-      - automation
-      - monitoring
-      - productisation
-      - partnership-mobilisation
-
+    - threat-intelligence
+    - strategic-planning
+    - decision-intelligence
+    - stakeholder-management
+    - portfolio-governance
+    - product-readiness
+    - commercial-development
+    - delivery-management
+    - risk-assessment
+    - intelligence-collection
+    - evidence-analysis
+    - narrative-development
+    - partnership-orchestration
+    - strategic-framing
+    - cross-domain-translation
+    - network-orchestration
+    - opportunity-recognition
+    - mission-commitment
+    - memory-retrieval
+    - knowledge-graph
+    - data-collection
+    - signal-processing
+    - stakeholder-engagement
+    - decision-support
+    - operational-planning
+    - content-generation
+    - automation
+    - monitoring
+    - productisation
+    - partnership-mobilisation
   leadership:
-    description: "Leadership responsibility"
+    description: Leadership responsibility
     values:
-      - strategic-direction
-      - strategic-mobiliser
-      - portfolio-ownership
-      - stakeholder-ownership
-      - commercial-ownership
-      - delivery-ownership
-      - governance-ownership
-
+    - strategic-direction
+    - strategic-mobiliser
+    - portfolio-ownership
+    - stakeholder-ownership
+    - commercial-ownership
+    - delivery-ownership
+    - governance-ownership
   portfolio:
-    description: "Portfolio classification"
+    description: Portfolio classification
     values:
-      - flagship
-      - incubation
-      - watch-list
-      - operational
-      - tier-1-flagship
-      - tier-2-incubation
-      - tier-3-watchlist
-
+    - flagship
+    - incubation
+    - watch-list
+    - operational
   commercial:
-    description: "Commercial stage or activity"
+    description: Commercial stage or activity
     values:
-      - opportunity-identification
-      - qualification
-      - proposition-development
-      - pilot-development
-      - pilot-delivery
-      - contracting
-      - revenue-generation
-      - account-expansion
-
+    - opportunity-identification
+    - qualification
+    - proposition-development
+    - pilot-development
+    - pilot-delivery
+    - contracting
+    - revenue-generation
+    - account-expansion
   readiness:
-    description: "Product or programme maturity"
+    description: Product or programme maturity
     values:
-      - concept
-      - framed
-      - prototype
-      - demo-ready
-      - pilot-ready
-      - delivery-ready
-      - commercial-ready
-      - scale-ready
-      - proposition
-      - scaled
-
+    - concept
+    - framed
+    - prototype
+    - demo-ready
+    - pilot-ready
+    - delivery-ready
+    - commercial-ready
+    - scale-ready
+    - development
+    - collaboration-framework-agreed
   decision:
-    description: "Decision category"
+    description: Decision category
     values:
-      # CognitiveOS original values
-      - investment
-      - partnership
-      - product-architecture
-      - product-readiness
-      - commercial-model
-      - stakeholder-commitment
-      - governance
-      - organisational-structure
-      - hiring
-      - data-handling
-      - security
-      - delivery-escalation
-      - portfolio-prioritisation
-      - strategic-direction
-      # PI-OS additions
-      - architecture
-      - technology-selection
-      - process
-      - resource-allocation
-      - priority
-      - scope
-      - vendor-selection
-      - portfolio-gating
-      - delegation
-      - commercial-pathway
-      - partnership-formation
-      - truth-validation
-      - repository-architecture
-      - identity-formalisation
-      - system-architecture
-
+    - investment
+    - partnership
+    - product-architecture
+    - product-readiness
+    - commercial-model
+    - stakeholder-commitment
+    - governance
+    - organisational-structure
+    - hiring
+    - data-handling
+    - security
+    - delivery-escalation
+    - portfolio-prioritisation
+    - strategic-direction
+    - architecture
+    - technology-selection
+    - process
+    - resource-allocation
+    - priority
+    - scope
+    - vendor-selection
+    - portfolio-gating
+    - delegation
+    - commercial-pathway
+    - partnership-formation
+    - truth-validation
+    - repository-architecture
+    - identity-formalisation
+    - system-architecture
+    - development-freeze
+    - integration-scope
+    - mobilisation
+    - productisation
   commitment:
-    description: "Commitment type"
+    description: Commitment type
     values:
-      - stakeholder-follow-up
-      - deliverable
-      - meeting
-      - briefing
-      - document-submission
-      - pilot-delivery
-      - review
-      - decision
-
+    - stakeholder-follow-up
+    - deliverable
+    - meeting
+    - briefing
+    - document-submission
+    - pilot-delivery
+    - review
+    - decision
+    - strategic-alignment
   action:
-    description: "Action category"
+    description: Action category
     values:
-      # CognitiveOS original values
-      - executive-brief
-      - document-drafting
-      - stakeholder-outreach
-      - product-development
-      - research
-      - analysis
-      - review
-      - approval
-      - escalation
-      - follow-up
-      - coordination
-      # PI-OS additions
-      - implementation
-      - documentation
-      - deployment
-      - testing
-      - outreach
-
+    - executive-brief
+    - document-drafting
+    - stakeholder-outreach
+    - product-development
+    - research
+    - analysis
+    - review
+    - approval
+    - escalation
+    - follow-up
+    - coordination
+    - implementation
+    - documentation
+    - deployment
+    - testing
+    - outreach
+    - planning
+    - preparation
+    - working-session
+    - stakeholder-coordination
+    - strategic-alignment
+    - external-confirmation
+    - training-coordination
+    - alignment
+    - alignment-session
+    - assignment
+    - backlog
+    - blueprint
+    - calendar
+    - commercial-alignment
+    - commercialisation
+    - communication
+    - delegation
+    - delivery-readiness
+    - document-refinement
+    - enablement-session
+    - feasibility-assessment
+    - framework-design
+    - gtm-materials
+    - hiring-escalation
+    - interim
+    - legal-review
+    - master-register
+    - media-activation
+    - opportunity-tracking
+    - pilot-scoping
+    - priority
+    - product-feedback
+    - product-governance
+    - programme-management
+    - repository
+    - resource-deployment
+    - roadmap
+    - stakeholder-activation
+    - stakeholder-clarification
+    - stakeholder-mapping
+    - strategic-review
+    - technical-coordination
+    - technical-delivery
+    - technical-scoping
+    - technical-validation
+    - account-targeting
+    - external-response
   intelligence:
-    description: "Intelligence type"
+    description: Intelligence type
     values:
-      - stakeholder
-      - political
-      - market
-      - technical
-      - competitive
-      - regulatory
-      - security
-      - operational
-
+    - stakeholder
+    - political
+    - market
+    - technical
+    - competitive
+    - regulatory
+    - security
+    - operational
+    - cron-output
   risk:
-    description: "Risk category"
+    description: Risk category
     values:
-      # CognitiveOS original values
-      - delivery-capacity
-      - sponsor-gap
-      - product-maturity
-      - commercial-viability
-      - stakeholder-alignment
-      - technical-debt
-      - governance
-      - resource-constraint
-      - timing
-      - dependency
-      # PI-OS additions
-      - delivery
-      - technical
-      - strategic
-      - operational
-      - reputational
-      - compliance
-      - security
-      - resource
-      - schedule
-
+    - delivery-capacity
+    - sponsor-gap
+    - product-maturity
+    - commercial-viability
+    - stakeholder-alignment
+    - technical-debt
+    - governance
+    - resource-constraint
+    - timing
+    - dependency
+    - delivery
+    - technical
+    - strategic
+    - operational
+    - reputational
+    - compliance
+    - security
+    - resource
+    - schedule
+    - capacity
+    - claim-credibility
+    - delivery-dependency
+    - delivery-readiness
+    - execution-coordination
+    - hiring-delay
+    - market-entry
+    - milestone-delivery
+    - resource-contention
+    - timeline
   artifact:
-    description: "Artifact type"
+    description: Artifact type
     values:
-      # CognitiveOS original values
-      - proposal
-      - report
-      - deck
-      - repository
-      - specification
-      - framework
-      - brief
-      - contract
-      - template
-      - schema
-      # PI-OS additions
-      - conversation
-      - presentation
-      - governance-document
-      - analysis
-      - plan
-      - dataset
-      - api
-
+    - proposal
+    - report
+    - deck
+    - repository
+    - specification
+    - framework
+    - brief
+    - contract
+    - template
+    - schema
+    - conversation
+    - presentation
+    - governance-document
+    - analysis
+    - plan
+    - dataset
+    - api
   status:
-    description: "Current condition"
+    description: Current condition
     values:
-      - draft
-      - in-progress
-      - validated
-      - approved
-      - active
-      - blocked
-      - deferred
-      - completed
-      - superseded
-      - archived
-      - captured
-
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - open
+    - proposed
+    - fulfilled
+    - delivered
+    - complete
+    - ready_for_submission
+    - review-complete
   priority:
-    description: "Importance"
+    description: Importance
     values:
-      - critical
-      - high
-      - medium
-      - low
-
+    - critical
+    - high
+    - medium
+    - low
+    - p0
+    - p1
   sensitivity:
-    description: "Information classification"
+    description: Information classification
     values:
-      - public
-      - internal
-      - confidential
-      - restricted
-      - controlled
-
+    - public
+    - internal
+    - confidential
+    - restricted
+    - controlled
   geography:
-    description: "Geographic scope"
+    description: Geographic scope
     values:
-      # CognitiveOS original values
-      - malaysia
-      - asean
-      - johor
-      - negeri-sembilan
-      - kuala-lumpur
-      - putrajaya
-      - sabah
-      - sarawak
-      - regional
-      # PI-OS additions
-      - selangor
-      - penang
-      - southeast-asia
-      - global
-
+    - malaysia
+    - asean
+    - johor
+    - negeri-sembilan
+    - kuala-lumpur
+    - putrajaya
+    - sabah
+    - sarawak
+    - regional
+    - selangor
+    - penang
+    - southeast-asia
+    - global
   sector:
-    description: "Market or institutional sector"
+    description: Market or institutional sector
     values:
-      - government
-      - defence
-      - financial
-      - telecommunications
-      - energy
-      - healthcare
-      - education
-      - critical-infrastructure
-      - private-sector
-
+    - government
+    - defence
+    - financial
+    - telecommunications
+    - energy
+    - healthcare
+    - education
+    - critical-infrastructure
+    - private-sector
+    - academic
+    - regulatory
   timeframe:
-    description: "Planning horizon"
+    description: Planning horizon
     values:
-      - immediate
-      - near-term
-      - mid-term
-      - long-term
-      - ongoing
-      - completed
+    - immediate
+    - near-term
+    - mid-term
+    - long-term
+    - ongoing
+    - completed
+  org:
+    description: Organisation or institution
+    pattern: org/<slug>
+    known_values:
+    - aras-integrasi
+    - cybersecurity-malaysia
+    - nacsa
+    - jdn
+    - jdm
+    - pmo
+    - lhdn
+    - pkr
+    - umno
+    - pas
+    - bersatu
+    - muda
+    - ph
+    - bn
+    - pn
+    - government
+    - mycert
+    - uitm
+    - uitm-cmiws
+    - mcmc
+    - elsa
+    - mtai
+    - upm
+    - aerosea-exhibitions
+    - wig
+    - cscdc
+    - mkn
+    - jpm
+  milestone:
+    description: Named milestone or deadline event
+    pattern: milestone/<slug>
+    known_values:
+    - cyberdsa-2026
+    - alignment-session-prep
+    - codesign-lab
+    - collaboration-framework
+    - daily-intake-summary
+    - document-review
+  initiative:
+    description: Cross-cutting initiative identifier
+    pattern: initiative/<slug>
+    known_values:
+    - ai-codesign-lab
+    - cbom-agent
+    - csm-vorondrq-gtm
+    - cyber-security-and-disaster-response-and-recovery
+    - cybersecurity-score-card
+    - govsec-cmerp-integration
+    - govsec-csmerp-integration
+    - govsec-ti-integration
+    - whole-government-digital-services
+  role:
+    description: Role or responsibility designation
+    pattern: role/<slug>
+    known_values:
+    - integration-team
+    - technical-ai-intelligence
+    - tbd
+    - strategic-management
+    - threat-intelligence
+    - poc-engineer
+    - technical-integration-lead
+    - qc-engineer
+    - principal-investigator
+    - industry-engagement
+    - division-head
+  type:
+    description: Record or document type qualifier
+    pattern: type/<slug>
+    known_values:
+    - reference-document
+    - email-draft
+    - analytical-report
+  channel:
+    description: Communication channel
+    pattern: channel/<slug>
+    known_values:
+    - email
+    - telegram
+    - discord
+    - signal
+    - whatsapp
+    - in-person
+    - phone
+    - video-call
+  mechanism:
+    description: Operational mechanism or process device
+    pattern: mechanism/<slug>
+    known_values:
+    - recurring-meeting
+  framework:
+    description: Analytical or governance framework
+    pattern: framework/<slug>
+    known_values:
+    - engineered-success
+  outcome:
+    description: Outcome type
+    pattern: outcome/<slug>
+    known_values:
+    - training-delivered
+  cognitive-doctrine:
+    description: CognitiveOS doctrine reference
+    pattern: cognitive-doctrine/<slug>
+    known_values:
+    - application
+  meeting:
+    description: Meeting type
+    pattern: meeting/<slug>
+    known_values:
+    - team-meeting
+  application:
+    description: Application or use-case context
+    pattern: application/<slug>
+    known_values:
+    - email-draft-assessment
+  cluster:
+    description: Cluster or grouping identifier
+    pattern: cluster/<slug>
+    known_values: []
+  deadline:
+    description: Deadline urgency marker
+    pattern: deadline/<slug>
+    known_values:
+    - today
+    - overdue
+    - this-week
+    - next-week
+  doctrine:
+    description: Doctrine reference
+    pattern: doctrine/<slug>
+    known_values:
+    - cognitiveos-prime
+  cognitive-loop:
+    description: Cognitive Loop cycle reference
+    pattern: cognitive-loop/<slug>
+    known_values:
+    - full-cycle
+    - sense
+    - classify
+    - correlate
+    - pattern-recognition
+    - prioritise
+    - act
+    - verify
+    - learn
+  method:
+    description: Methodology or technique
+    pattern: method/<slug>
+    known_values:
+    - deerflow-pro-websearch-fallback
+    - cross-doctrinal-analysis
+    - engineered-success

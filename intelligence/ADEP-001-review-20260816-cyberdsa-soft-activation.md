@@ -1,3 +1,28 @@
+---
+id: INT-20260816-003
+record_type: intelligence
+title: ADEP-001 Due Diligence Review — DAF Final CyberDSA Activation Email
+created_at: 2026-08-16T12:00:00+08:00
+updated_at: 2026-08-18T17:15:00+08:00
+owner: ember
+summary: D3 diligence review of DAF's final CyberDSA activation email. Verifies strategic claims against portfolio evidence.
+strategic_significance: Validates CyberDSA positioning claims against actual portfolio readiness — gates public messaging.
+status: active
+source:
+  type: email
+  reference: DAF CyberDSA activation email, 2026-08-16
+confidence: high
+intelligence_type: stakeholder
+priority: high
+sensitivity: confidential
+lifecycle_state: canonical
+tags:
+  - domain/cybersecurity
+  - domain/strategic-planning
+  - milestone/cyberdsa-2026
+---
+
+
 # ADEP-001 Due Diligence Review — DAF Final CyberDSA Activation Email
 
 **Date:** 2026-08-16  

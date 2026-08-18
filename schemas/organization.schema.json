@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "organization.schema.json",
   "title": "Organization Record",
-  "description": "An institution, agency, company, or organisational entity — not an individual person.",
+  "description": "An institution, agency, company, or organisational entity \u2014 not an individual person.",
   "type": "object",
   "required": [
     "id",
@@ -19,46 +19,105 @@
       "type": "string",
       "pattern": "^ORG-\\d{8}-\\d{3}$"
     },
-    "record_type": { "const": "organization" },
+    "record_type": {
+      "const": "organization"
+    },
     "title": {
       "type": "string",
       "minLength": 1,
       "description": "Full official name of the organisation"
     },
-    "created_at": { "type": "string", "format": "date-time" },
-    "updated_at": { "type": "string", "format": "date-time" },
-    "owner": { "type": "string" },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "owner": {
+      "type": "string"
+    },
     "status": {
       "type": "string",
-      "enum": ["draft", "active", "validated", "approved", "completed", "archived", "superseded"]
+      "enum": [
+        "draft",
+        "active",
+        "validated",
+        "approved",
+        "completed",
+        "archived",
+        "superseded"
+      ]
     },
     "priority": {
       "type": "string",
-      "enum": ["critical", "high", "medium", "low"]
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "sensitivity": {
       "type": "string",
-      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
     },
     "lifecycle_state": {
       "type": "string",
-      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
+      "enum": [
+        "candidate",
+        "structurally_valid",
+        "semantically_verified",
+        "approved",
+        "canonical",
+        "superseded",
+        "rejected"
+      ]
     },
     "confidence": {
       "type": "string",
-      "enum": ["high", "medium", "low"]
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
     },
-    "tags": { "type": "array", "items": { "type": "string" } },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "source": {
       "type": "object",
       "properties": {
-        "type": { "type": "string" },
-        "reference": { "type": "string" }
+        "type": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        }
       }
     },
-    "summary": { "type": "string" },
-    "strategic_significance": { "type": "string" },
-    "mission_alignment": { "type": "array", "items": { "type": "string" } },
+    "summary": {
+      "type": "string"
+    },
+    "strategic_significance": {
+      "type": "string"
+    },
+    "mission_alignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "org_type": {
       "type": "string",
       "enum": [
@@ -102,22 +161,64 @@
     },
     "relationship_status": {
       "type": "string",
-      "enum": ["new", "developing", "active", "trusted", "dormant", "at-risk"]
+      "enum": [
+        "new",
+        "developing",
+        "active",
+        "trusted",
+        "dormant",
+        "at-risk"
+      ]
     },
-    "engagement_objective": { "type": "string" },
-    "current_position": { "type": "string" },
-    "decision_authority": { "type": "string", "description": "Who in this organisation has decision authority" },
+    "engagement_objective": {
+      "type": "string"
+    },
+    "current_position": {
+      "type": "string"
+    },
+    "decision_authority": {
+      "type": "string",
+      "description": "Who in this organisation has decision authority"
+    },
     "key_contacts": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "STK record IDs of individual contact persons at this organisation"
     },
-    "commitments_by_us": { "type": "array", "items": { "type": "string" } },
-    "commitments_by_org": { "type": "array", "items": { "type": "string" } },
-    "last_engagement": { "type": "string" },
-    "next_engagement": { "type": "string" },
-    "relationship_owner": { "type": "string" },
-    "related_initiatives": { "type": "array", "items": { "type": "string" } },
-    "related_records": { "type": "array", "items": { "type": "string" } }
+    "commitments_by_us": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "commitments_by_org": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_engagement": {
+      "type": "string"
+    },
+    "next_engagement": {
+      "type": "string"
+    },
+    "relationship_owner": {
+      "type": "string"
+    },
+    "related_initiatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
   }
 }

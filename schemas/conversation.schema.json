@@ -16,57 +16,161 @@
       "type": "string",
       "pattern": "^CONV-\\d{8}-\\d{3}$"
     },
-    "record_type": { "const": "conversation" },
-    "title": { "type": "string", "minLength": 1 },
-    "created_at": { "type": "string", "format": "date-time" },
-    "updated_at": { "type": "string", "format": "date-time" },
-    "date": { "type": "string", "format": "date" },
-    "owner": { "type": "string" },
-    "decision_owner": { "type": "string" },
-    "delivery_owner": { "type": "string" },
+    "record_type": {
+      "const": "conversation"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "decision_owner": {
+      "type": "string"
+    },
+    "delivery_owner": {
+      "type": "string"
+    },
     "channel": {
       "type": "string",
-      "enum": ["telegram", "email", "discord", "signal", "whatsapp", "in-person", "phone", "video-call", "other"]
+      "enum": [
+        "telegram",
+        "email",
+        "discord",
+        "signal",
+        "whatsapp",
+        "in-person",
+        "phone",
+        "video-call",
+        "other"
+      ]
     },
-    "participants": { "type": "array", "items": { "type": "string" } },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "status": {
       "type": "string",
-      "enum": ["draft", "active", "validated", "completed", "archived"]
+      "enum": [
+        "draft",
+        "active",
+        "validated",
+        "completed",
+        "archived"
+      ]
     },
     "priority": {
       "type": "string",
-      "enum": ["critical", "high", "medium", "low"]
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "sensitivity": {
       "type": "string",
-      "enum": ["public", "internal", "confidential", "restricted", "controlled"]
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
     },
     "confidence": {
       "type": "string",
-      "enum": ["high", "medium", "low"]
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
     },
     "portfolio_tier": {
       "type": "string",
-      "enum": ["flagship", "incubation", "watch-list", "operational"]
+      "enum": [
+        "flagship",
+        "incubation",
+        "watch-list",
+        "operational"
+      ]
     },
-    "key_decisions": { "type": "array", "items": { "type": "string" } },
-    "related_initiatives": { "type": "array", "items": { "type": "string" } },
-    "related_records": { "type": "array", "items": { "type": "string" } },
-    "tags": { "type": "array", "items": { "type": "string" } },
+    "key_decisions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_initiatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "source": {
       "type": "object",
       "properties": {
-        "type": { "type": "string" },
-        "platform": { "type": "string" },
-        "reference": { "type": "string" }
+        "type": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        },
+        "reference": {
+          "type": "string"
+        }
       }
     },
     "lifecycle_state": {
       "type": "string",
-      "enum": ["candidate", "structurally_valid", "semantically_verified", "approved", "canonical", "superseded", "rejected"]
+      "enum": [
+        "candidate",
+        "structurally_valid",
+        "semantically_verified",
+        "approved",
+        "canonical",
+        "superseded",
+        "rejected"
+      ]
     },
-    "summary": { "type": "string" },
-    "strategic_significance": { "type": "string" },
-    "mission_alignment": { "type": "array", "items": { "type": "string" } }
+    "summary": {
+      "type": "string"
+    },
+    "strategic_significance": {
+      "type": "string"
+    },
+    "mission_alignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
   }
 }
