@@ -41,14 +41,15 @@ related_records: []
 pir_priority: critical
 pir_tier: CJ-4
 collection_cycle: 12h
-last_collected: '2026-08-03'
-next_collection: paused — model config review
+last_collected: '2026-08-18'
+next_collection: '2026-08-19'
 related_intelligence:
 - intelligence/cron-output/cj4-campaign-watch-2026-07-26-1928.md
 - intelligence/cron-output/cj4-campaign-watch-2026-07-27T073803+0800.md
 - intelligence/cron-output/cj4-campaign-watch-2026-07-27T213244+0800.md
 - intelligence/cron-output/cj4-campaign-watch-2026-07-28T1109+0800.md
 - intelligence/cron-output/cj4-campaign-watch-2026-07-29-1129.md
+- intelligence/cron-output/cj4-campaign-watch-2026-08-18T1008.md
 ---
 
 # Summary
