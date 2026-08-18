@@ -20,8 +20,8 @@ tags:
 - workstream/commercial-development
 source:
   type: direct
-  reference: "Telegram direct from DAF, 2026-08-18 15:56 UTC"
-summary: "Comprehensive media and brand narrative for CyberDSA 2026. Directs branding team to frame the story as Malaysian sovereign technology capability — not three individual products. CyberDSA is the proof point; products are evidence. Includes message house, 5 priority narratives, technology proof points, recommended headlines, executive soundbites, brand language, messaging to avoid, visual brand narrative, target audience messaging, and strategic campaign line."
+  reference: "Telegram direct from DAF, 2026-08-18 15:56 UTC — DAF designates this as primary reference document"
+summary: "Comprehensive media and brand narrative for CyberDSA 2026 — DAF's primary reference document for all branding and communications. Directs branding team to frame the story as Malaysian sovereign technology capability — not three individual products. CyberDSA is the proof point; products are evidence. Includes message house, 5 priority narratives, technology proof points, recommended headlines, executive soundbites, brand language, messaging to avoid, visual brand narrative, target audience messaging, and strategic campaign line."
 strategic_significance: "Defines the overarching media and communications framework for CyberDSA 2026. Supersedes product-level positioning with capability-level positioning. Directly addresses RSK-20260816-003 (claim credibility) by providing messaging guardrails. Enables all downstream branding, PR, and stakeholder communications."
 mission_alignment:
 - INIT-20260810-003
