@@ -1,23 +1,34 @@
 ---
 id: DOC-20260814-001
 record_type: document
-title: "ChainSentry MVP Product Specification v3.0"
+title: ChainSentry MVP Product Specification v3.0
 product: chainsentry
 initiative: INIT-20260811-001
 category: mvp-specification
-version: "3.0"
+version: '3.0'
 date: 2026-08-14
-source_type: docx-upload
 source_authority: DAF
 sensitivity: confidential
 status: canonical
 tags:
-  - domain/cybersecurity
-  - domain/blockchain-forensics
-  - domain/cybersecurity-productisation
-  - product/chainsentry
-  - workstream/cybersec-products
-  - portfolio/flagship
+- domain/cybersecurity
+- domain/blockchain-forensics
+- domain/cybersecurity-productisation
+- product/chainsentry
+- workstream/cybersec-products
+- portfolio/flagship
+source:
+  docx-upload: docx-upload
+created_at: '2026-08-14T00:00:00+00:00'
+updated_at: '2026-08-17T17:50:22+00:00'
+owner: DAF
+priority: medium
+lifecycle_state: canonical
+confidence: medium
+summary: '> Canonical baseline document - uploaded by DAF, 14 August 2026 > > Blockchain Forensics & Investigative Intelligence Workbench > CONFIDENTIAL - FOR EXECUTIVE AND ENGINEERING REVIEW'
+strategic_significance: 'Document record. Priority: None.'
+mission_alignment: []
+related_records: []
 ---
 
 # ChainSentry MVP Product Specification v3.0

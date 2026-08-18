@@ -1,23 +1,34 @@
 ---
 id: DOC-20260814-002
 record_type: document
-title: "VoronCitadel MVP Product Specification"
+title: VoronCitadel MVP Product Specification
 product: voroncitadel
 initiative: INIT-20260811-001
 category: mvp-specification
 version: canonical
 date: 2026-08-14
-source_type: docx-upload
 source_authority: DAF
 sensitivity: confidential
 status: canonical
 tags:
-  - domain/cybersecurity
-  - domain/attack-surface-management
-  - domain/cybersecurity-productisation
-  - product/voroncitadel
-  - workstream/cybersec-products
-  - portfolio/flagship
+- domain/cybersecurity
+- domain/attack-surface-management
+- domain/cybersecurity-productisation
+- product/voroncitadel
+- workstream/cybersec-products
+- portfolio/flagship
+source:
+  docx-upload: docx-upload
+created_at: '2026-08-14T00:00:00+00:00'
+updated_at: '2026-08-17T17:50:22+00:00'
+owner: DAF
+priority: medium
+lifecycle_state: canonical
+confidence: medium
+summary: '> Canonical baseline document - uploaded by DAF, 14 August 2026 > > CONFIDENTIAL - FOR EXECUTIVE AND ENGINEERING REVIEW'
+strategic_significance: 'Document record. Priority: None.'
+mission_alignment: []
+related_records: []
 ---
 
 # VoronCitadel MVP Product Specification

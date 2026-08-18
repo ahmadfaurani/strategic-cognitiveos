@@ -22,3 +22,6 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260815-003 | CognitiveOS Prime Doctrine — Adopted as Canonical Operational Constitution | 2026-08-15 | faurani-jaafar | Active | — |
 | DEC-20260815-004 | CyberDSA 2026 War-Room Mode Activated | 2026-08-15 | faurani-jaafar | Active | — |
 | DEC-20260817-001 | Weekly Portfolio, GTM & Delivery Review Cadence Established (Tuesday 2:30 PM) | 2026-08-17 | faurani-jaafar | Active | — |
+| DEC-20260818-007 | POC Engineer Role Delegated to Syahir — No External Hire | 2026-08-18 | faurani-jaafar | Active | — |
+| DEC-20260818-008 | All Product Critical Documents (PCD) Due August 28 — Single Deadline | 2026-08-18 | faurani-jaafar | Active | — |
+| DEC-20260818-009 | Claims QC Deadline Set to T-7 Before CyberDSA (September 28) | 2026-08-18 | faurani-jaafar | Active | — |

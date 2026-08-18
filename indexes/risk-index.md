@@ -13,7 +13,7 @@ All identified risks, grouped by status.
 | RSK-20260810-001 | Hadi onboarding & GovSec Product Management dependency risk for CyberDSA launch | resource-constraint | INIT-20260810-003 | Medium | Critical | Critical | Active |
 | RSK-20260810-002 | GovSec TIP Security Hardening Gap — cybersecurity product without security validation | security | INIT-20260810-003 | High | Critical | Critical | Active |
 | RSK-20260810-003 | CyberDSA Commercial Readiness Gap — no pricing, packaging, or post-demo conversion path | commercial-viability | INIT-20260810-003 | High | High | High | Active |
-| RSK-20260811-001 | Productisation Documentation Effort vs CyberDSA Delivery Capacity Contention | resource-constraint | INIT-20260811-001 | Medium | High | High | Active |
+| RSK-20260811-001 | Productisation Documentation Effort vs CyberDSA Delivery Capacity Contention | resource-constraint | INIT-20260811-001 | Medium | High | High | Mitigated |
 | RSK-20260813-001 | PERJASA workshop date confirmation delay | timeline | INIT-20260813-001 | Medium | High | High | Active |
 | RSK-20260813-002 | GTM Programme Management Gap — MQL Pipeline Without Joint Coordination Mechanism | execution-coordination | INIT-20260804-001 | High | High | High | Active |
 | RSK-20260815-001 | Absence of designated PIC for CSM-Aras communication | communication-coordination | INIT-20260804-001 | Medium | Medium | Medium | Mitigating |
