@@ -30,7 +30,7 @@ All initiatives, grouped by portfolio tier.
 |----|-------|-------|--------|-----------|-------------|
 | INIT-20260725-007 | CSCDC Communication Division — Strategic Partnership | faurani-jaafar | Draft | Framed | 2026-08-08 |
 | INIT-20260803-001 | ELSA–Aras Integrasi LHDN AI-Assisted Revenue Recovery | faurani-jaafar | Draft | Framed | 2026-08-17 |
-| INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Active | **Collaboration Framework Agreed** — Four-pillar operating model formally agreed; 3 working documents received; Operational Development Alignment Session proposed; Cohort Programme + Centre of Excellence acknowledged | 2026-09-06 |
+| INIT-20260803-002 | UITM-Aras R.I.S.I.K Framework AI Enablement | faurani-jaafar | Active | **Collaboration Framework Agreed** — Four-pillar operating model formally agreed; 3 working documents received; doctrine analysis + KKOM discovery + AI capability mapping completed; Operational Development Alignment Session proposed; KKOM target system identified (8-screen prototype live); 3 priority AI use cases defined | 2026-09-06 |
 | INIT-20260804-002 | GovSec × CMERP Platform Integration Continuation | faurani-jaafar | Active | Integration-phase | 2026-08-13 |
 | INIT-20260804-003 | GovSec × Threat Intelligence (TI) Integration | faurani-jaafar | Active | Prototype — session conducted, scope expanded | 2026-08-17 |
 | INIT-20260804-004 | AI Systems Co-Design Lab (Cohort 01) — CSM Partnership | faurani-jaafar | Active | Prototype — MyCERT accepted, personnel list submitted | 2026-08-17 |
