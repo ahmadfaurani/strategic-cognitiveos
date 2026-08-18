@@ -39,7 +39,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260813-001 | PERJASA × Aras Government AI Co-Design Lab (JDN Track) | faurani-jaafar | Active | Framed | 2026-08-27 |
 | INIT-20260813-002 | CSM AI Instance / Token Allocation — Intelligence Platform Development | faurani-jaafar | Active | Framed | 2026-08-21 |
 | INIT-20260813-003 | CSM–Aras Sovereign AI PaaS Commercial Model | faurani-jaafar | Active | Framed | 2026-09-01 |
-| INIT-20260813-004 | UPM × CSM × Aras — Autonomous AI Cybersecurity (Purple Teaming) | faurani-jaafar | Active | Conceptual | 2026-08-31 |
+| INIT-20260813-004 | UPM × CSM × Aras — Autonomous AI Cybersecurity (Purple Teaming) | faurani-jaafar | Active | **Proposal Stage** — CSM formal letter Aug 18; 6-component proposal requested; deadline Sep 11; Aras designated infrastructure funder | 2026-09-11 |
 | INIT-20260813-005 | CSM–Aras Joint Operating Model — Strategic Cyber & Sovereign AI Programme | faurani-jaafar | Active | **Adopted** | 2026-08-21 |
 | INIT-20260813-006 | CyberDSA Stakeholder Coverage & Communication Ownership Plan | faurani-jaafar | Working Plan | Working Plan | 2026-08-21 |
 | INIT-20260813-007 | VoronDRQ GTM CRM Recommendation | faurani-jaafar | Active | Framed | — |

@@ -51,6 +51,7 @@ All registered stakeholders, grouped by type.
 | STK-20260813-007 | Hussein bin Mohamed | Penolong Pegawai TI Kanan, Cyber Security | SUK Negeri Sembilan | Active | Ice-breaking session |
 | STK-20260815-001 | Aisha | PA to En. Zulfeka (Head of Business Development & Industry Affairs) | CyberSecurity Malaysia | Proposed | CSM higher management meeting (week of Aug 18) |
 | STK-20260815-002 | MCMC | Target funder for R.I.S.I.K AI Platform (RM5M) | Malaysian Communications and Multimedia Commission | Identified | MCMC proposal preparation (ACT-20260815-006) |
+| STK-20260818-002 | Fazlan Bin Abdullah | Ketua Bahagian Teknologi & Perkhidmatan Pre-Emptif (Division Head) | CyberSecurity Malaysia | Active | CSM evaluation of UPM proposal (post Sep 11) |
 
 ## Internal
 
@@ -101,6 +102,7 @@ All registered stakeholders, grouped by type.
 | STK-20260807-002 | En. Antashah Bin Mohd Nor | UiTM Centre for Media and Information Warfare Studies | New |
 | STK-20260807-003 | En. Muhd Faiz Bin Fiezal | UiTM Centre for Media and Information Warfare Studies | New |
 | STK-20260807-004 | En. Al Faliq Bin Ahmad Zahari | UiTM Centre for Media and Information Warfare Studies | New |
+| STK-20260818-001 | Dr. Azree Shahrel Bin Ahmad Nazri | UPM — Institut Penyelidikan Matematik | Active |
 
 ## Technical
 
