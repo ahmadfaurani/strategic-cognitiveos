@@ -27,3 +27,4 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260818-009 | Claims QC Deadline Set to T-7 Before CyberDSA (September 28) | 2026-08-18 | faurani-jaafar | Active | — |
 | DEC-20260818-010 | CSM Formally Requests UPM 6-Component Technical Proposal; Aras Designated Infrastructure Funder | 2026-08-18 | faurani-jaafar | Active | — |
 | DEC-20260818-011 | CyberDSA 2026 Media Narrative — Broaden from Product Launch to Sovereign Capability Story | 2026-08-18 | faurani-jaafar | Active | — |
+| DEC-20260818-012 | Four-Pillar Collaboration Framework Formally Agreed — Aras × CMIWS R.I.S.I.K Operating Model | 2026-08-18 | joint-agreement | Active | — |
