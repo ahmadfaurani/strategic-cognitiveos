@@ -41,14 +41,15 @@ related_records: []
 pir_priority: critical
 pir_tier: CJ-3
 collection_cycle: daily
-last_collected: '2026-08-03'
-next_collection: paused — model config review
+last_collected: '2026-08-18'
+next_collection: 2026-08-19
 related_intelligence:
 - intelligence/cron-output/cj3-infra-watch-2026-07-29-1616.md
 - intelligence/cron-output/cj3-infra-watch-2026-07-30T1616.md
 - intelligence/cron-output/cj3-infra-watch-2026-08-01T1620.md
 - intelligence/cron-output/cj3-infra-watch-2026-08-04T16-04.md
 - intelligence/cron-output/cj3-infra-watch-20260726-1652.md
+- intelligence/cron-output/cj3-infra-watch-20260818-1001.md
 ---
 
 # Summary
