@@ -42,14 +42,16 @@ related_records: []
 pir_priority: critical
 pir_tier: CJ-5
 collection_cycle: daily
-last_collected: '2026-08-03'
-next_collection: paused — model config review
+last_collected: '2026-08-18'
+next_collection: scheduled — daily
 related_intelligence:
 - intelligence/cron-output/cj5-cyber-drill-2026-07-26_181548.md
 - intelligence/cron-output/cj5-cyber-drill-2026-07-27T1815+0800.md
 - intelligence/cron-output/cj5-cyber-drill-2026-07-28-1812.md
 - intelligence/cron-output/cj5-cyber-drill-2026-07-30_180921.md
 - intelligence/cron-output/cj5-cyber-drill-2026-07-31-1810.md
+- intelligence/cron-output/cj5-cyber-drill-2026-08-02_181234.md
+- intelligence/cron-output/cj5-cyber-drill-2026-08-18_1024.md
 ---
 
 # Summary
@@ -126,7 +128,8 @@ Market — methodology transfer and infrastructure opportunity
 ## PIR-OPP002-006: Holding Statement Bank Scope
 **Requirement:** How many scenarios does the holding statement bank need to cover, and has any drafting begun?
 **Priority:** Medium
-**Status:** Open
+**Status:** 🟡 Partial (synced 2026-08-18, intel cutoff 2026-08-18)
+**Intelligence:** Holding Statement Bank — PARTIAL. CYDES conference Session 12 "Malaysia's National Cyber Crisis Playbook: Are We Ready for a Major Cyber Attack?" confirms playbook is a live national agenda item. (Source: CJ-5, Aug 18 report)
 
 ## PIR-OPP002-007: Inter-Agency Crisis Coordination
 **Requirement:** How does CSCDC's War Room coordinate with MCMC (misinformation), PDRM (cybercrime), and MKN (national security) during a crisis?

@@ -40,14 +40,16 @@ related_records: []
 pir_priority: critical
 pir_tier: CJ-5
 collection_cycle: daily
-last_collected: '2026-08-03'
-next_collection: paused — model config review
+last_collected: '2026-08-18'
+next_collection: scheduled — daily
 related_intelligence:
 - intelligence/cron-output/cj5-cyber-drill-2026-07-26_181548.md
 - intelligence/cron-output/cj5-cyber-drill-2026-07-27T1815+0800.md
 - intelligence/cron-output/cj5-cyber-drill-2026-07-28-1812.md
 - intelligence/cron-output/cj5-cyber-drill-2026-07-30_180921.md
 - intelligence/cron-output/cj5-cyber-drill-2026-07-31-1810.md
+- intelligence/cron-output/cj5-cyber-drill-2026-08-02_181234.md
+- intelligence/cron-output/cj5-cyber-drill-2026-08-18_1024.md
 ---
 
 # Summary
