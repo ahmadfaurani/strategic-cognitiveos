@@ -1,6 +1,6 @@
 # Portfolio Register — Cohort Programmes
 
-**Created:** 2026-08-18 | **Authority:** DAF | **Review cadence:** Weekly (Sunday)
+**Created:** 2026-08-18 | **Authority:** DAF | **Review cadence:** Weekly (Monday 09:00 UTC+8 / 01:00 UTC)
 
 ---
 
@@ -35,7 +35,7 @@
 1. **No programme without a kill date.** Every initiative has a finite shelf life.
 2. **No programme without a named owner.** "DAF" is current state, not target state. Delegation is a development goal.
 3. **Parked programmes free cognitive capacity.** Zombies drain it.
-4. **Weekly review:** Sunday 09:00 UTC. Update status, check deadlines, enforce kills.
+4. **Weekly review:** Monday 09:00 UTC+8 (01:00 UTC). Update status, check deadlines, enforce kills.
 5. **New programmes must enter the register before work begins.** No shadow portfolios.
 
 ---
