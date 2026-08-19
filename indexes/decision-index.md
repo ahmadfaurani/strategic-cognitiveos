@@ -31,3 +31,4 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260818-013 | Taxonomy Expansion — Cognitive Loop Analysis Execution (Expand as Recommended) | 2026-08-18 | ember | Active | — |
 | DEC-20260819-001 | Halt Hermes Embedding Backfill; cognitiveos Workspace is Deriver Target | 2026-08-19 | DAF | Active | CONV-20260819-001 |
 | DEC-20260819-002 | HOI-Intelligence-Operations Repo Decommissioned from CognitiveOS Canonical Build | 2026-08-19 | DAF | Active | CONV-20260819-001 |
+| DEC-20260819-003 | Honcho Model Routing — Three-Model Tiering | 2026-08-19 | DAF | Active | — |
