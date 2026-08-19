@@ -41,3 +41,8 @@ All conversation records, chronological.
 | CONV-20260818-006 | Aras × CMIWS R.I.S.I.K Collaboration Operating Model — Four-Pillar Framework Agreed + Alignment Session Proposed | 2026-08-18 | Email | DEC-20260818-012 — Four-pillar framework formally agreed; 3 working documents received; Operational Development Alignment Session proposed | INIT-20260803-002, DEC-20260807-001, DEC-20260815-001 |
 | CONV-20260819-001 | Honcho Phase 1 Execution Session | 2026-08-19 | Telegram | DEC-20260819-001, DEC-20260819-002 | INIT-20260818-001 (Honcho integration) |
 | CONV-20260819-002 | Azrul Nazim Working Stakeholder Profile Definition | 2026-08-19 | Telegram | DEC-20260819-004 (Partnership & Alliance Anchor mandate) | INIT-20260813-005, INIT-20260813-006 |
+| CONV-20260819-003 | CyberDSA 2026 Executive Stakeholder Engagement & Activation Framework Intake | 2026-08-19 | Telegram | DEC-20260819-005 | INIT-20260813-006, DOC-20260819-001 |
+
+---
+
+_Changelog: 2026-08-19 — Added CONV-20260819-003 (CyberDSA 2026 Activation Framework intake)._

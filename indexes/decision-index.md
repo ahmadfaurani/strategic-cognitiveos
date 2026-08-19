@@ -33,3 +33,8 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260819-002 | HOI-Intelligence-Operations Repo Decommissioned from CognitiveOS Canonical Build | 2026-08-19 | DAF | Active | CONV-20260819-001 |
 | DEC-20260819-003 | Honcho Model Routing — Three-Model Tiering | 2026-08-19 | DAF | Active | — |
 | DEC-20260819-004 | Azrul Mandate — Partnership & Alliance Anchor (NOT Technical POC) | 2026-08-19 | DAF | Active | CONV-20260819-002 |
+| DEC-20260819-005 | Adopt CyberDSA 2026 Executive Stakeholder Engagement & Activation Framework | 2026-08-19 | DAF | Confirmed (High) | DOC-20260819-001 (6-stakeholder dependency chain, 6 gates, 6 waves) |
+
+---
+
+_Changelog: 2026-08-19 — Added DEC-20260819-005 (Framework adoption)._
