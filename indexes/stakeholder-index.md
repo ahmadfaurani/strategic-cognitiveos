@@ -53,7 +53,7 @@ All registered stakeholders, grouped by type.
 | STK-20260815-002 | MCMC | Target funder for R.I.S.I.K AI Platform (RM5M) | Malaysian Communications and Multimedia Commission | Identified | MCMC proposal preparation (ACT-20260815-006) |
 | STK-20260818-002 | Fazlan Bin Abdullah | Ketua Bahagian Teknologi & Perkhidmatan Pre-Emptif (Division Head) | CyberSecurity Malaysia | Active | CSM evaluation of UPM proposal (post Sep 11) |
 | STK-20260818-003 | Shageenderan (Shaggy) | TBD | MTAI | New | R.I.S.I.K alignment session (cc'd on framework email) |
-| STK-20260819-001 | Dr. Megat | National Strategic Alignment (Gate 6, high influence) | NACSA | New | Gate 6 stakeholder engagement (DEC-20260819-005) |
+| STK-20260819-001 | Ir. Dr. Megat Zuhairy bin Megat Tajuddin | Chief Executive (Tier-1, Gate 6, VERY HIGH sovereign alignment) | NACSA | New | Gate 6 — after CSM gates 1-5 (ACT-20260819-008) |
 
 ## Internal
 
