@@ -29,3 +29,5 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260818-011 | CyberDSA 2026 Media Narrative — Broaden from Product Launch to Sovereign Capability Story | 2026-08-18 | faurani-jaafar | Active | — |
 | DEC-20260818-012 | Four-Pillar Collaboration Framework Formally Agreed — Aras × CMIWS R.I.S.I.K Operating Model | 2026-08-18 | joint-agreement | Active | — |
 | DEC-20260818-013 | Taxonomy Expansion — Cognitive Loop Analysis Execution (Expand as Recommended) | 2026-08-18 | ember | Active | — |
+| DEC-20260819-001 | Halt Hermes Embedding Backfill; cognitiveos Workspace is Deriver Target | 2026-08-19 | DAF | Active | CONV-20260819-001 |
+| DEC-20260819-002 | HOI-Intelligence-Operations Repo Decommissioned from CognitiveOS Canonical Build | 2026-08-19 | DAF | Active | CONV-20260819-001 |
