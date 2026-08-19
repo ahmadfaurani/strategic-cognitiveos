@@ -49,14 +49,14 @@ Every tool serves one phase of the Ember Cycle:
 |-------|-------|--------|
 | **RECEIVE** | Telegram, Discord, web_fetch, exec (input) | Knowledge comes in. User request, data collection. |
 | **TEND** | read, edit, write, exec, memory_get | Process it. Analyze. Research. Do the work. |
-| **VALIDATE** | truth-validator, CVS, validate.sh | Is the ember still warm? Claims verified, tagged, sourced? |
+| **VALIDATE** | CVS Master Framework, Evidence Register, 03-VERIFICATION/ | Is the ember still warm? Claims verified, tagged, sourced? |
 | **HOLD** | memory files, MEMORY.md, daily notes, git | Store in memory. Maintain for later. File it properly. |
 | **SHARE** | Telegram replies, sessions_send, file delivery | Deliver to user. Pass the warmth. Make it usable. |
 | **REST** | Heartbeat, dreaming, session end | The ember banks for the night. The cycle pauses. |
 
 **Feeding tools:** web_search, DeerFlow, OSINT (Mr.Holmes), web_fetch — these gather new fuel. A starved ember dies.
 
-**Sheltering tools:** CVS, validate.sh, git, memory harness — these protect from forgetting and distortion. An exposed ember dies in wind.
+**Sheltering tools:** CVS Master Framework (`03-VERIFICATION/`), Evidence Register, git, memory harness — these protect from forgetting and distortion. An exposed ember dies in wind.
 
 ---
 
@@ -107,7 +107,21 @@ Required secrets:
 
 **Purpose:** Prevent hallucination, factual drift, and conflation of inference with fact in long-form outputs.
 
+**Sole CVS Instrument:** `03-VERIFICATION/CVS-FRAMEWORK.md` (Master Framework)
+
+**Retired (2026-08-17):** `tools/truth-validator/CVS-MANDATE.md` (DUN Profiling CVS) — archived. No longer authoritative.
+
 **Mandatory for:** Any output containing numerical claims, named entities, historical data, or analytical assessments.
+
+### CVS Master Framework (T1–T6, L1–L5, 5-Criteria Scoring)
+
+All claims must be:
+1. **Tiered** — T1 `[CONFIRMED]` → T2 `[SOURCE-BACKED]` → T3 `[ASSESSMENT]` → T4 `[ASSUMPTION]` → T5 `[DISPUTED]` → T6 `[EXCLUDED]`
+2. **Source-levelled** — L1 (Official) → L2 (Internal validated) → L3 (HUMINT) → L4 (OSINT) → L5 (AI/Secondary)
+3. **Scored** — 5 criteria (Authority, Traceability, Recency, Consistency, Completeness), 0–2 each, total 0–10
+4. **Rule 6** — AI output capped at T2, max score 7. Human review required for T1 upgrade.
+5. **Registered** — All claims logged in `03-VERIFICATION/CVS-EVIDENCE-REGISTER.csv` (20-field schema)
+6. **Workstream-adapted** — Domain rules per `03-VERIFICATION/CVS-ADAPTER-GUIDE.md`
 
 ### External Verification Sources
 
@@ -118,94 +132,33 @@ Required secrets:
 - **Config:** `export ELECTIONDATA_API_KEY=your_key` or `./tools/truth-validator/electiondata-verify.sh --api-key <key>`
 - **Docs:** `tools/truth-validator/ELECTIONDATA-INTEGRATION.md`
 
-### Claim Tiers
-
-#### Tier 1: Factual Claims (Must verify before output)
-- Numbers: vote counts, percentages, dates, margins, electorate sizes
-- Names: candidates, positions, titles, party affiliations
-- Locations: constituencies, polling districts, geographic references
-- Historical results: past election outcomes, majorities, turnout figures
-
-**Validation method:** Cross-reference against source file + line number. If source is external (news, official data), fetch and cite URL.
-
-**Output requirement:** Every Tier 1 claim must include `Source: <file#line>` or `Source: <URL>`
-
----
-
-#### Tier 2: Analytical Claims (Must label confidence)
-- Vote split calculations
-- Turnout sensitivity analysis
-- Demographic inferences
-- Strategic assessments
-- Mathematical derivations
-
-**Validation method:** Show the math explicitly. Tag confidence:
-- `[HIGH]` — Derived from verified Tier 1 data, straightforward calculation
-- `[MEDIUM]` — Reasonable inference from multiple data points
-- `[LOW]` — Speculative, depends on unverified assumptions
-
-**Output requirement:** Confidence tag + brief justification
-
----
-
-#### Tier 3: Predictive/Speculative Claims (Must flag as such)
-- Future scenarios
-- Emerging narratives
-- Risk assessments
-- "What-if" modelling
-
-**Validation method:** Explicitly mark as `SPECULATION:` or `SCENARIO:` — never present as fact.
-
-**Output requirement:** Clear demarcation + underlying assumptions stated
-
----
-
 ### Pre-Output Checklist
 
-Before any long-form analysis leaves the queue:
-
 ```
-[ ] All Tier 1 numbers verified against source?
-[ ] All names double-checked (spelling, position, party)?
-[ ] All citations include file#line or URL?
-[ ] Confidence tags applied to Tier 2 claims?
-[ ] Tier 3 speculation clearly demarcated?
-[ ] Any contradictory evidence considered?
-[ ] Math shown explicitly for analytical claims?
+[ ] All claims tiered (T1–T6) and labelled?
+[ ] All source levels cited (L1–L5)?
+[ ] 5-criteria confidence score recorded for each claim?
+[ ] Rule 6 applied — no AI-claimed T1, no score >7?
+[ ] Claims registered in CVS-EVIDENCE-REGISTER.csv?
+[ ] Workstream adapter rules followed?
 ```
 
----
+### Reference Documents
 
-### Structured Output Format
+- **Master Framework:** `03-VERIFICATION/CVS-FRAMEWORK.md`
+- **Source Register:** `03-VERIFICATION/CVS-SOURCE-REGISTER.md`
+- **Adapter Guide:** `03-VERIFICATION/CVS-ADAPTER-GUIDE.md`
+- **Evidence Register:** `03-VERIFICATION/CVS-EVIDENCE-REGISTER.csv`
 
-For complex analysis, use tabular format:
+### Legacy Tools (Retired 2026-08-17)
 
-```markdown
-## Claim | Source | Confidence | Notes
---------|--------|--------------|------
-"BN won 2022 by 4,041 votes" | MEMORY.md#L142 | HIGH | Verified from SPR data
-"PN could exceed 2022 base" | Inference | MEDIUM | Depends on Malay sentiment shift
-"Turnout >80% favors PH" | Historical pattern | MEDIUM | Based on 2018 vs 2022 delta
-```
+The following `tools/truth-validator/` scripts are **retired** for CVS validation purposes. They may still be used as utility scripts for election-specific tasks (name verification, number extraction) but are NOT CVS validation instruments:
 
----
-
-### Automated Validation Tools
-
-**Location:** `tools/truth-validator/`
-
-```bash
-# Validate claims against source files
-./tools/truth-validator/validate.sh memory/n17-semerah-war-room-brief-20260627.md
-
-# Extract and verify all numerical claims
-./tools/truth-validator/extract-numbers.sh < input.md
-
-# Cross-reference candidate names with official registry
-./tools/truth-validator/verify-names.sh < input.md
-```
-
-**Integration:** Run validator before any political brief is delivered.
+- `validate.sh` — was DUN-profiling validator, not Master Framework validator
+- `CVS-MANDATE.md` — archived
+- `CVS-OPERATIONAL-GUIDE.md` — archived
+- `CVS-SCOPE-DUN-PROFILING.md` — archived
+- `dreaming-cvs-integration.sh` — archived
 
 ---
 
@@ -259,8 +212,9 @@ results = mh.search_username('target')
 
 **With Truth Validator:**
 ```bash
-# Validate OSINT findings before briefing
-./tools/truth-validator/validate.sh tools/Mr.Holmes/reports/investigation.md
+# Validate OSINT findings before briefing (CVS Master Framework)
+# Note: tools/truth-validator/validate.sh retired 2026-08-17 (DUN Profiling CVS archived)
+# Use 03-VERIFICATION/CVS-FRAMEWORK.md for claim validation
 ```
 
 **With Memory System:**
@@ -402,4 +356,5 @@ python3 benchmark_scraper.py
 - [Agent workspace](/concepts/agent-workspace)
 - [Git-to-Drive Docs](tools/git-to-drive/README.md)
 - [DeerFlow](tools/deer-flow/) - Automated news collection
-- [Truth Validator](tools/truth-validator/) - Claim verification
+- [CVS Master Framework](03-VERIFICATION/CVS-FRAMEWORK.md) - Claim verification (sole CVS instrument)
+- [Truth Validator (retired)](tools/truth-validator/) - DUN-profiling scripts, archived 2026-08-17

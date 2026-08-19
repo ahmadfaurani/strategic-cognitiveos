@@ -22,6 +22,39 @@ Do not manually reread startup files unless:
 2. The provided context is missing something you need
 3. You need a deeper follow-up read beyond the provided startup context
 
+### Honcho Semantic Recall (Main Session)
+
+At session start (main session only), after processing startup context, run a Honcho recall query to surface relevant strategic context that file injection may have missed:
+
+```bash
+bash tools/honcho-connector/recall.sh "current strategic priorities and active initiatives" 2>/dev/null
+```
+
+- **Fail-open:** If Honcho is down, the recall returns "UNAVAILABLE" — session continues with file injection only. No error, no crash.
+- **Scope:** Returns messages, conclusions, and DAF peer context from the cognitiveos workspace.
+- **Use:** Supplements (not replaces) the file-based memory system. If recall surfaces something relevant not in the injected context, use it. If it's redundant, ignore it.
+- **D-level:** D1 (routine, log only — no gate required)
+
+### ADEP-001 Operational Gate (D2+ Tasks)
+
+For any task at D2 or above, run the pre-task gate before execution:
+
+```bash
+bash tools/honcho-connector/gate.sh pre --level <D2|D3|D4> --task "description" --owner <owner> [--assumptions "..."] [--failure-modes "..."]
+```
+
+And the closure gate before declaring done:
+
+```bash
+bash tools/honcho-connector/gate.sh close --level <D2|D3|D4> --task "description" --result PASS|BLOCK [--exceptions "..."]
+```
+
+- D1: No gate, log only
+- D2: Owner + dependencies required
+- D3: Above + assumptions + failure modes required
+- D4: Above + human approval + rollback plan required
+- Compliance records logged to Honcho automatically
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
@@ -52,30 +85,45 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 
 ## 🔥 Core Truth Validation System (CVS) — MANDATORY
 
-**Effective:** 2026-06-28 | **Scope:** ALL sessions, ALL outputs, ALL agents | **Authority:** DAF
+**Effective:** 2026-06-28 (upgraded to Master Framework 2026-08-17) | **Scope:** ALL sessions, ALL outputs, ALL agents | **Authority:** DAF
+
+### Instrument
+
+**Sole CVS instrument:** `03-VERIFICATION/CVS-FRAMEWORK.md` (Master Framework, TLP:AMBER)
+
+**Retired (2026-08-17):** `tools/truth-validator/CVS-MANDATE.md` (DUN Profiling CVS) — archived. No longer authoritative. Do not apply.
 
 ### Non-Negotiable Rules
 
-1. **Multi-Source Verification** — All Tier 1 claims (numbers, names, dates, locations) require ≥2 independent sources + citation (`Source: <file#line>` or `Source: <URL>`)
-2. **Confidence Assertion Tags** — All analytical claims must be tagged: `[HIGH]` / `[MEDIUM]` / `[LOW]` with justification
-3. **Speculation Demarcation** — All predictive claims must be flagged: `SPECULATION:` or `SCENARIO:`
-4. **Conflict Resolution** — When sources disagree, tag `[CONFLICTING]`, show both values, request human review
-5. **Validation Gate** — All output must pass: `./tools/truth-validator/validate.sh <output>.md || exit 1`
+1. **Claim Tiering** — All claims must be tiered T1–T6:
+   - T1 `[CONFIRMED]` — Verified fact (requires human validation)
+   - T2 `[SOURCE-BACKED]` — Supported by L1/L2 evidence, not yet human-validated
+   - T3 `[ASSESSMENT]` — Analytical interpretation derived from facts
+   - T4 `[ASSUMPTION]` — Used for planning only, not fact
+   - T5 `[DISPUTED]` — Conflicting sources, human review needed
+   - T6 `[EXCLUDED]` — Rejected claim, logged for audit trail
+2. **Source Levels** — Every claim must cite source level:
+   - L1: Official/System-of-Record | L2: Internal validated records | L3: HUMINT/attributed | L4: OSINT/traceable | L5: AI-generated/Secondary
+3. **Confidence Scoring** — 5-criteria model (0–2 each, total 0–10):
+   - Authority · Traceability · Recency · Consistency · Completeness
+4. **Rule 6 (AI Cap)** — AI-generated claims max out at T2, score 7. AI cannot self-certify T1. Human review required for T1 upgrade.
+5. **Evidence Register** — All claims registered in `03-VERIFICATION/CVS-EVIDENCE-REGISTER.csv` (20-field schema per CVS §6)
+6. **Workstream Adapter** — Domain-specific rules per `03-VERIFICATION/CVS-ADAPTER-GUIDE.md` (Claim ID format: `CVS-<WORKSTREAM>-NNN`)
 
 ### Pre-Output Checklist (MANDATORY)
 
 ```
-[ ] All Tier 1 numbers verified against ≥2 sources?
-[ ] All names double-checked (spelling, position, party)?
-[ ] All citations include file#line or URL?
-[ ] All analytical claims have confidence tags?
-[ ] All predictive claims flagged as SPECULATION: or SCENARIO:?
-[ ] Math shown explicitly for analytical claims?
+[ ] All claims tiered (T1–T6) and labelled?
+[ ] All source levels cited (L1–L5)?
+[ ] 5-criteria confidence score recorded for each claim?
+[ ] Rule 6 applied — no AI-claimed T1, no score >7?
+[ ] Claims registered in CVS-EVIDENCE-REGISTER.csv?
+[ ] Workstream adapter rules followed (CVS-ADAPTER-GUIDE.md)?
 ```
 
 **If any box is unchecked, DO NOT SEND. Fix it first.**
 
-**Full documentation:** `tools/truth-validator/CVS-MANDATE.md` + `tools/truth-validator/CVS-SYSTEM-PROMPT.md`
+**Full documentation:** `03-VERIFICATION/CVS-FRAMEWORK.md` (Master) + `03-VERIFICATION/CVS-ADAPTER-GUIDE.md` (workstream adapters) + `03-VERIFICATION/CVS-SOURCE-REGISTER.md` (source hierarchy)
 
 **Non-compliance:** Output blocked by validation gate → Feedback captured → Monthly review triggers tighter gates
 
@@ -139,7 +187,7 @@ All CognitiveOS intake events (email threads, conversations, documents, intellig
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
-- **Don't bypass CVS. Ever.**
+- **Don't bypass CVS. Ever.** The Master Framework (`03-VERIFICATION/CVS-FRAMEWORK.md`) is the sole CVS instrument. The DUN Profiling CVS (`tools/truth-validator/`) is retired (2026-08-17). Do not apply it.
 
 ## External vs Internal
 

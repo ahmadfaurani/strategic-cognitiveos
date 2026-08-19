@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-08-19T06:31:02.303754Z",
+  "total_records_parsed": 400,
+  "total_messages_uploaded": 134,
+  "upload_errors": 0,
+  "parse_errors": 0,
+  "session_breakdown": {
+    "cognitiveos-ops": 0,
+    "productisation": 0,
+    "sovereign-ai-perjasa": 0,
+    "csm-partnership": 74,
+    "risk-uitm": 0,
+    "cyberdsa-2026": 60
+  },
+  "errors": []
+}

@@ -40,8 +40,11 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 - **Signal Registry:** RETIRED 2026-08-15. CVS Evidence Register canonical (`03-VERIFICATION/CVS-EVIDENCE-REGISTER.csv`)
 - **Hermes:** 15 active cron jobs, 3 workstreams. Config: `~/.hermes/config.yaml`
 - **DeerFlow venv:** `/home/p62operator/tools/deer-flow/.venv`
-- **Memory infrastructure (assessed 2026-08-17):** Honcho API (:8000) + Deriver worker running. PostgreSQL+pgvector (:5432) healthy, VECTOR_STORE_MIGRATED=false. Redis 8.2 (:6379) healthy. Model endpoint Qwen3.5-397B configured. All deployed 5+ weeks, all idle — no clients writing. Path: migrate vector store → verify Honcho API → build OpenClaw→Honcho connector → ingest records → wire into session bootstrap.
+- **Memory infrastructure (LIVE 2026-08-19):** TEI (bge-m3, :8082) deployed → 1024-dim embeddings, ~53ms inference. TEI startup flags: `--model-id BAAI/bge-m3 --max-batch-tokens 8192 --max-concurrent-requests 32 --max-batch-requests 64` (added 04:18 UTC — deriver sends batches of 50, TEI default max-batch-requests=32 caused 422 stall). Honcho API (:8000) configured for TEI, healthy. Deriver completed full queue: 833/833 work units across 6 sessions (04:59 UTC). PostgreSQL+pgvector (:5432) column altered vector(1536)→vector(1024), healthy. Redis 8.2 (:6379) healthy. Migration completed via heartbeat cron auto-fix (previous session failed mid-migration; `docker compose up -d --force-recreate` needed, not `docker restart`). (Assessed 2026-08-17, TEI deployed 2026-08-18 23:56, auto-fixed 2026-08-19 02:17, batch fix 04:18, queue complete 04:59)
+- **Honcho connector (OPERATIONAL 2026-08-19):** Phase 3 (scripts) + Phase 4 (gates) complete. Scripts: recall.sh (bootstrap recall), query.sh (mid-session search), ingest.sh (write-back), gate.sh (ADEP-001 pre-task/closure gates), audit.sh (daily compliance audit). All tested, fail-open verified. 4 bugs fixed in Phase 3 (bare-list API response, missing observer/observed, wrong peer context direction, ingest ID parse). Duplicates fixed (395 from double ingestion + 134 from dedup guard pagination bug). Dedup guard added to ingest-cognitiveos.py with pagination. AGENTS.md wired: recall.sh at session start, gate.sh for D2+ tasks. HEARTBEAT.md wired: daily audit.sh. 3 compliance records in Honcho. DB clean: csm-partnership 124, cyberdsa-2026 110, cognitiveos-ops 55, risk-uitm 50, sovereign-ai-perjasa 35, productisation 32. (Phase 3 complete 05:28, Phase 4 complete 06:33)
 - **CognitiveOS operational review (2026-08-17):** 🟡 OPERATIONAL WITH GAPS. Doctrine ✅, Intake 🟡, Memory ✅, CVS ✅, Collection ✅, OSINT ✅, Orchestration 🟡, Stakeholder tracking 🟡, Portfolio governance 🔴. Key gap: orchestration automation. 90-day roadmap: P1 stabilization, P2 automation, P3 optimization.
+- **CognitiveOS taxonomy (expanded 2026-08-18):** 43 namespaces (was 25), 586 controlled values (was ~200). 0 violations (was 500+). Validator: `tools/validate_taxonomy.py`. 72 files normalised (organisation/→org/). 16 schemas synced. DEC-20260818-013.
+- **Cognitive Loop as default practice:** DAF now applies the Cognitive Loop to most topics. The loop is the default analytical method, not a special request. SOP-CL-001 codified (Cognitive Loop Review Against Strategic Objective, 7 steps, Monday 10:30 AM UTC+8 via Hermes cron `5bb8217c7f9d`).
 
 ### Repositories
 - `cognitiveos-workspace` — Technical workspace, skills, memory
@@ -50,6 +53,8 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 - `HOI-Intelligence-Operations` — 100 gov agencies, 10 PIRs, daily briefs
 - `th-rci-parliamentary-watch` — TH RCI parliamentary watch (public). Case file + suspect deep dive. RM19.6B losses, 14+ individuals, 3 arrest waves. Critical: Aug 19 remand expiry.
 - `strategic-cognitiveos` — CognitiveOS governance, records, indexes. Git author: DAF (rewritten from PKR War Room, 2026-08-17).
+- `cohort-programme` — Cohort programme operational workspace: strategic objective, IP framework, portfolio register, participant templates, gate forms, Joint IP Register. Weekly Monday 10:30 AM UTC+8 review via Hermes.
+- `cyberdsa-media` — CyberDSA 2026 brand narrative workspace: 13 section directories, templates (press release, social media, one-pager), QC checklist, brand glossary. TLP:AMBER.
 
 ---
 
@@ -61,13 +66,22 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 - **SiberSUITE × GovSec integration:** Telemetry → GovSec Analytics → CBOM Agent → Cyber Score Card
 - **Three co-branded sovereign tech offerings** for CyberDSA launch
 - **NACSA endorsement** in active discussion
+- **193-org segmentation (SEG-20260818-001):** 93 A-Target, 35 B-Engage, 44 C-Monitor, 19 D-Watch. Top 15 VIP shortlist. Shuhada execution framework: 2.1 by Aug 20, 2.2 by Aug 21, meeting requests by Aug 22.
+- **Stakeholder coverage (TRK-20260818-001):** 94 records, 53 (56.4%) with no recorded contact
+- **Internal org structure:** DAF (Director, strategic + commercial) + Fuad (Practice Technical Authority, technical across products, built 2 of 3) + Hadri (Blockchain Lead Architect + COO within practice, operational co-leader + ChainSentry owner), Syahir (POC Engineer, delegated by DAF DEC-20260818-007). Farul = CTO (MTAI, org-level above practice). 3-person leadership team + Syahir as support.
+- **Hadri meeting:** Aug 20 (not Aug 19 — first weekly review day). Cross-product support model deferred post-PCD (Aug 28).
 
 ### CyberDSA 2026 (Oct)
 - **Silver Sponsorship RM50K** — dual approval needed by Aug 22
 - **Positioning statement SIGNED OFF** (DEC-20260816-002, commit `2e6fb03`)
+- **Brand Narrative (DOC-20260818-002):** 13-section framework, primary reference for all materials. Campaign line: "Built in Malaysia. Integrated for Malaysia. Engineered for Sovereignty." Corporate positioning: "Aras Integrasi — Malaysian Sovereign Technology Integrator." Hierarchy: Sovereign Capability → Integrated Stack → Technology Pillars → Individual Features. Repo: `cyberdsa-media`.
+- **193-org segmentation framework (SEG-20260818-001):** 93 A-Target, 35 B-Engage, 44 C-Monitor, 19 D-Watch. Top 15 VIP shortlist. Unblocks 6 CyberDSA criteria.
+- **Stakeholder Coverage Tracker (TRK-20260818-001):** 94 records, 53 with no recorded contact (56.4%)
 - **4 focus areas:** Partnership, Marketing/Media, Commercial, Post-Launch
-- **Actions:** ACT-20260817-001 (Hadri, due Aug 22), -002/-003/-004 (due Aug 29)
-- **Risks:** RSK-20260816-002 ("commercially viable" claim), RSK-20260816-003 ("Malaysia's First" claim)
+- **Actions:** ACT-20260817-001 (Hadri, due Aug 22), -002/-003/-004 (due Aug 29), ACT-20260818-004 (branding team adopt narrative, due Sep 1), -005 (visual/booth design, due Sep 15)
+- **Risks:** RSK-20260816-002 ("commercially viable" claim), RSK-20260816-003 ("Malaysia's First" claim → Mitigating via §9 guardrails)
+- **ChainSentry assessment:** 6 critical technical gaps, zero pilot agreements, sales kit complete but zero pipeline conversion. Critical path: Hadri PCD Aug 28 → gaps Sep 5 → demo-ready Sep 15 → Oct 5. Zero slack.
+- **Key decision needed:** ChainSentry vs GovSec TIP hardening priority (recommendation: ChainSentry first — sovereign blockchain story more differentiated)
 
 ### Productisation — Development Freeze (Aug 11)
 - **Freeze on all 3 flagships:** VoronCitadel (=VoronDRQ), GovSec TIP, ChainSentry
@@ -77,10 +91,16 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 - GovSec TIP v3.0: Threat Viz, Executive Dashboard, RAG AI Analyst
 
 ### R.I.S.I.K (UiTM Collaboration)
-- **INIT-20260803-002** — UiTM agreed in principle (Prof. Suhaimee + 5 team members)
+- **INIT-20260803-002** — UiTM agreed in principle (Prof. Suhaimee + 5 team members). Readiness: Collaboration Framework Agreed (10/16 checkpoints passed).
 - **Cost structure:** RM5.0M, 12-month, 9-component (DEC-20260815-001)
 - **Target funder:** MCMC (STK-20260815-002)
-- **Next:** MCMC proposal prep (ACT-20260815-006), UiTM working session
+- **Four-pillar framework (agreed):** Core IP, Derivative IP, Joint Research, Government Activation
+- **Doctrine analysis (2026-08-18):** Five-layer methodology (R→I→S→I→K closed cycle), §2.5 AI rules (AI is NOT a fourth discipline, analyst accountability, source tracing), narrative escalation ladder (5 rungs), source grading A-F
+- **KKOM system:** GovComms Command Center, 8-screen prototype live, 7-step pathway, TULIS→BINA→SEMAK→LULUS governance cycle
+- **3 AI use cases:** (1) Signal Collection & Grading Engine, (2) Issue Decomposition Assistant, (3) Reference Poisoning Monitor (first-mover)
+- **17 questions prepared for CMIWS**
+- **§2.5 as self-governance:** AI rules apply to Ember's own work — accountability stays with DAF, AI output is T3 max, declare AI influence, treat monitored content as untrusted
+- **Next:** Internal review (ACT-20260818-006, Aug 29), alignment session (ACT-20260818-007, Sep 5), MCMC proposal prep
 
 ### PERJASA Government AI Workshop
 - **Status:** CONFIRMED Sep 2-3, 2026 (ACT-20260813-002 closed)
@@ -93,6 +113,17 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 - **Risk resolved:** RSK-20260813-001 (first risk to reach resolved status)
 - **5 downstream actions unblocked:** ACT-20260813-003 through -007
 - **PERJASA review:** Agenda transmitted, review pending on their side (ACT-20260813-001 → pending)
+- **Resource collision:** PERJASA Sep 2-3 competes with CyberDSA hardening window for Hadri/Fuad/DAF. No mitigation decision yet.
+
+### Cohort Programme Governance (built 2026-08-18)
+- **Strategic Objective (canonical):** Alumni community as primary; co-development & joint IP creation for sovereign technology deployment as major focus
+- **Pathway:** Cohort → Alumni Community → Co-Development → Joint IP → Validation → Pilot → Commercialisation → Sovereign Deployment → Enduring Strategic Ecosystem
+- **Proposition:** Bring Your IP. Build With Aras. Own What We Create Together.
+- **IP Framework:** WIPO-aligned, 6-layer architecture, 50:50 Foreground IP, 7-gate IP governance (MyIPO-aligned), revenue separated by component
+- **Portfolio Register:** 5 programmes with kill dates. PMO (Aug 25) and CSM-Aras (Aug 25) kill dates first to enforce.
+- **SOP-CL-001:** Cognitive Loop Review Against Strategic Objective — 7-step process, Monday 10:30 AM UTC+8 via Hermes cron `5bb8217c7f9d`. First run Aug 24.
+- **Repo separation:** Cohort repo = operational workspace. CognitiveOS repo = governance reference only.
+- **Key principle:** DAF sets strategy, Ember builds architecture. The review measures pathway stage progression, not just execution status.
 
 ### Skunkworks — AIRecon
 - **APPROVED** Option A (Tracks A-E). 32x B200 + 12x A100 available — zero hardware constraint
@@ -106,14 +137,16 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 |------------|--------|-------------|
 | GovSec TIP | Dev freeze → CyberDSA launch | Hardening + demo flow |
 | VoronCitadel/DRQ | Productisation | Naming transition + GTM |
-| ChainSentry | Productisation | Regulator use-case deck |
-| CSM × Aras GTM | Active | Aisha PIC confirmation (Aug 18) |
-| CyberDSA 2026 | War-room | Silver sponsorship approval (Aug 22) + Brand narrative framework adopted (DEC-20260818-011) |
-| R.I.S.I.K | Cost-structured | MCMC proposal + UiTM session |
+| ChainSentry | Productisation — 6 critical gaps | Decide hardening priority (ChainSentry vs GovSec) by Aug 20 |
+| CSM × Aras GTM | Active | Aisha PIC confirmation (week of Aug 18) |
+| CyberDSA 2026 | War-room | Silver sponsorship approval (Aug 22); branding team adoption (Sep 1) |
+| R.I.S.I.K | Collaboration Framework Agreed | Internal review (Aug 29) + alignment session (Sep 5) |
 | PERJASA Workshop | ✅ Confirmed Sep 2-3 | Logistics execution (5 downstream actions unblocked) |
+| Cohort Programme | Governance architecture built | First automated review Aug 24 (SOP-CL-001) |
 | UPM Purple Teaming | Proposal Stage | UPM proposal due Sep 11; Aras evaluation framework prep |
 | TH-RCI Watch | Active | Aug 19 remand expiry monitoring |
-| CognitiveOS | 🟡 Operational with gaps | 268 records, 551 fixes. Orchestration automation gap. |
+| CognitiveOS | 🟡 Operational with gaps | Taxonomy expanded (43 namespaces, 0 violations). Memory infra LIVE. |
+| Memory Infrastructure | ✅ LIVE (TEI→Honcho→pgvector) | Build OpenClaw→Honcho connector (step 3 of 5) |
 
 ## Action Pipeline Status (as of 2026-08-18 02:42 UTC)
 
@@ -124,11 +157,14 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 | Risks resolved | 1 |
 | Top 10 addressed | 6 of 10 |
 
-**Remaining Tuesday review items:**
+**Remaining Tuesday review items (stale — 2 cycles no movement):**
 1. CSM-Aras AI Token session (DAF calendar block, 2 hrs)
 2. GTM programme mechanism (DAF 2-hour drafting session)
 3. Tech docs handover (confirm Fuad capacity)
 4. CyberDSA launch checklist (confirm Hadri acknowledgment)
+5. **NEW:** Decide ChainSentry vs GovSec TIP hardening priority for CyberDSA (by Aug 20)
+6. **NEW:** Hadri meeting (Aug 20, not Aug 19 — COO role, CyberDSA readiness, ChainSentry PCD)
+7. **NEW:** Shuhada meeting (Aug 20 — account ownership model, 193-org framework handoff)
 
 ---
 
@@ -150,7 +186,8 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 - **2026-08-15:** R.I.S.I.K cost structure RM5M formalised. MCMC target funder.
 - **2026-08-16:** CyberDSA positioning signed off. Kimi K3 compatibility analysis (conditional). Silver sponsorship RM50K submitted. Two new DAF directives: (1) auto-draft on identified need, (2) drafts to Telegram + sync to GitHub.
 - **2026-08-17:** CSM partnership alignment email sent (4 actions). Azrul stakeholder assessment completed. Weekly workplan Aug 17-21: 13 deadlines, 7 overdue. CognitiveOS operational review completed (🟡 operational with gaps). Three-validation-architecture doctrine clarified by DAF (separate by design). Memory infrastructure assessed (Honcho+pgvector+Redis idle). Git author identity rewritten (PKR War Room → DAF, 107 commits).
-- **2026-08-18:** PERJASA workshop confirmed Sep 2-3. Agenda delivered and shared. ACT-20260813-006 + ACT-20260813-002 closed. RSK-20260813-001 resolved (first risk to reach resolved). 5 downstream PERJASA actions unblocked. Action pipeline: 9 completed (8.3%), 60 in draft, 1 risk resolved. Top 10: 6 addressed, 4 remaining for Tuesday review (CSM-Aras token session, GTM mechanism, tech docs handover, CyberDSA launch checklist). TH-RCI parliamentary watch repo made public — case file + suspect deep dive (14+ individuals, 3 arrest waves, 2 fugitives, RM19.6B losses). Critical date: Aug 19 remand expiry. CSM formal letter (Suraya Hani → Dr. Azree, UPM) requesting 6-component technical proposal for Autonomous AI Cyber Security Purple Teaming by Sep 11. Aras formally designated as infrastructure funder — first written acknowledgement. INIT-20260813-004 upgraded Concept → Proposal Stage. 7 new records, 4 indexes updated. CyberDSA 2026 Key Media & Brand Narrative delivered by DAF — complete 13-section framework directing branding team to frame story as Malaysian sovereign technology capability (not products). Campaign line: "Built in Malaysia. Integrated for Malaysia. Engineered for Sovereignty." Corporate positioning: "Aras Integrasi — Malaysian Sovereign Technology Integrator." Branding hierarchy: Sovereign Capability → Integrated Stack → Technology Pillars → Individual Features. RSK-20260816-003 ("Malaysia's First" claim risk) upgraded to Mitigating via §9 messaging guardrails. 5 new records, 3 indexes updated.
+- **2026-08-18:** Cohort programme governance architecture built in one session (portfolio register, strategic objective, IP framework, participant artefacts, SOP-CL-001, repo, Hermes cron). 193-org segmentation framework delivered (72hrs late, 93 A-Target, 35 B-Engage). Stakeholder coverage tracker created (94 records, 56.4% no contact). CyberDSA Key Media & Brand Narrative delivered by DAF — 13-section framework, campaign line "Built in Malaysia. Integrated for Malaysia. Engineered for Sovereignty." `cyberdsa-media` repo created. RSK-20260816-003 upgraded to Mitigating. CSM formal letter (Suraya Hani → Dr. Azree, UPM) requesting 6-component Purple Teaming proposal by Sep 11. Aras formally designated infrastructure funder. INIT-20260813-004 → Proposal Stage. CognitiveOS taxonomy expanded: 25→43 namespaces, 500+→0 violations, validator built. 72 files normalised. R.I.S.I.K deep analysis: doctrine (five-layer, §2.5 AI rules), KKOM system discovery (TULIS→BINA→SEMAK→LULUS), 3 AI use cases (Signal Collection, Issue Decomposition, Reference Poisoning Monitor), 17 questions for CMIWS. 10 new records across 2 commits. ChainSentry Cognitive Loop: 6 critical gaps, zero pilot agreements, sales kit complete but zero pipeline conversion. Hadri = COO within practice (corrected). Cross-product support model deferred post-PCD (Aug 28). Hadri meeting scheduled Aug 20. Shuhada meeting designed (Meeting 3). 3 actions closed (ACT-20260802-001, -002, ACT-20260816-001). Product repo deadline extended to Aug 28. Hadri org structure updated (STK-20260803-007, commit `d5f771e`).
+- **2026-08-19:** TEI (bge-m3) deployed → Honcho configured → pgvector column altered → embeddings generating. Memory infrastructure transitioned from "deployed but idle" to LIVE. Previous session (23:56 UTC) failed mid-migration; heartbeat cron auto-detected and auto-fixed at 02:17 UTC. Root cause: `docker restart` doesn't pick up new `.env` values — needed `docker compose up -d --force-recreate`. TEI batch fix at 04:18 (added `--max-batch-requests 64` — deriver sends batches of 50, TEI default 32 caused 422 stall). Deriver queue complete 833/833 at 04:59. Phase 3 connector scripts built and tested (recall.sh, query.sh, ingest.sh — 4 bugs fixed). Phase 4 operational gates built (gate.sh, audit.sh — ADEP-001 enforcement wired into AGENTS.md + HEARTBEAT.md). Duplicates fixed (395 from double ingestion + 134 from dedup guard pagination bug). Dedup guard added with pagination fix. AGENTS.md wired: recall.sh at session start, gate.sh for D2+ tasks. All containers healthy: TEI (:8082, 1024-dim, 53ms), Honcho API (:8000), Deriver, PostgreSQL (:5432), Redis (:6379). DB clean: 406 messages across 6 sessions. Memory infrastructure FULLY OPERATIONAL.
 
 ---
 

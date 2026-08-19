@@ -55,28 +55,38 @@ Heartbeat = checking the ember's temperature. Each task is an act of tending: ke
 
 - **Hermes Config:** `/home/p62operator/.hermes/config.yaml` (model: GLM-5.2, web: Firecrawl)
 - **Hermes Cron Jobs:** `/home/p62operator/.hermes/cron/jobs.json` (23 jobs: 13 enabled, 10 recently deleted)
-- **CVS Evidence Register:** `workspace-mlk/03-VERIFICATION/CVS-EVIDENCE-REGISTER.csv` (210 claims, 20-field validation) — CANONICAL
-- ~~**Signal Registry:**~~ `memory/signals/` — **RETIRED 2026-08-15** (replaced by CVS Evidence Register)
-- ~~**Truth Validation:**~~ `tools/truth-validator/` — exists but NOT integrated (Hermes has its own CVS skill)
+- **CVS Evidence Register:** `03-VERIFICATION/CVS-EVIDENCE-REGISTER.csv` — Framework institutionalized, register NOT YET populated (1 example row only). Designed for OSINT data collection claim verification (T1-T6 tiers, L1-L5 sources, 20-field schema).
+- ~~**Signal Registry:**~~ `memory/signals/` — **RETIRED 2026-08-15**
+- **Truth Validation:** `03-VERIFICATION/CVS-FRAMEWORK.md` (Master Framework) — sole CVS instrument. `tools/truth-validator/` retired 2026-08-17 (DUN Profiling CVS archived)
 - **DeerFlow venv:** `/home/p62operator/tools/deer-flow/.venv` (Crawl4AI 0.9.2 + unified_scraper.py)
 - **Crawl4AI Bridge:** `/home/p62operator/.hermes/scripts/crawl4ai-bridge.sh` (Hermes → Crawl4AI stealth mode)
 - **DeerFlow Skills:** 30 skills bridged to Hermes via `skills.external_dirs` in config.yaml
 
-### Truth Validation Gate
+### Three Validation Layers — Separate Use Cases (NOT a Gap)
 
-> **⚠️ NOT OPERATIONAL:** `validate.sh` exists but is NOT integrated into any pipeline. Hermes has its own CVS validation embedded in job prompts (T1-T6 tiering, 20-field evidence register). The `validate.sh` tool is designated as OpenClaw Director's audit tool (Phase 2 of debt closure plan).
+**1. Intake SOP (9-step)** — CognitiveOS workstream management & cataloging. How incoming data gets structured, typed, stored, committed. Operational.
 
-```bash
-# Validation gate (fails on errors, warns on unverified claims)
-./tools/truth-validator/validate.sh memory/<brief-file>.md || exit 1
-```
+**2. CVS Evidence Register** — Core truth validation for OSINT data collection. Claim-level verification with T1-T6 tiers, L1-L5 source scoring, 20-field schema. Framework institutionalized; register population is the next milestone.
 
-**Validation requirements:**
-1. All numerical claims cite source (MEMORY.md#L### or URL)
-2. All analytical claims tagged with confidence [HIGH/MEDIUM/LOW]
-3. All predictive claims flagged as SPECULATION: or SCENARIO:
-4. Zero errors, warnings reviewed before delivery
+**3. Hermes Inline CVS** — Condensed validation for cronjobs. T1-T6 tiering embedded in collection prompts. Fit-for-purpose for automated cron context. Operational.
 
+**validate.sh** — RETIRED 2026-08-17. Was DUN-profiling validator, not Master Framework validator. Do not use for CVS validation. Use `03-VERIFICATION/CVS-FRAMEWORK.md` as sole CVS instrument.
+
+Each serves a distinct checkpoint. They are separate by design, not a gap to close.
+
+
+### ADEP-001 Compliance Audit (Daily, first heartbeat after 00:00 UTC)
+
+- [ ] Run daily compliance audit
+  ```bash
+  bash tools/honcho-connector/audit.sh --hours 24 --threshold 80
+  ```
+  - Queries Honcho for compliance records from past 24h
+  - Reports PASS/BLOCK score per diligence level
+  - Flags exceptions and below-threshold compliance
+  - If below threshold: surface to DAF in heartbeat response
+
+---
 
 ## Related
 
@@ -86,7 +96,8 @@ Heartbeat = checking the ember's temperature. Each task is an act of tending: ke
 
 - [ ] Run CVS validation on REM phase candidates
   ```bash
-  ./tools/truth-validator/dreaming-cvs-integration.sh --verbose
+  # NOTE: dreaming-cvs-integration.sh retired 2026-08-17 (DUN Profiling CVS archived)
+  # CVS validation now per 03-VERIFICATION/CVS-FRAMEWORK.md (Master Framework)
   ```
 - [ ] Review `memory/dreaming-validation.jsonl` for FAILED candidates
 - [ ] If PASSED: `openclaw memory promote --apply`
