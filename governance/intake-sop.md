@@ -1,6 +1,6 @@
 # CognitiveOS Intake SOP — Standard Operating Procedure
 
-> **Version:** 1.0  
+> **Version:** 1.1  
 > **Authority:** Ahmad Faurani Jaafar (DAF)  
 > **Status:** Active — institutionalized 2026-08-04  
 > **Scope:** All CognitiveOS ingestion events, all sessions, all agents  

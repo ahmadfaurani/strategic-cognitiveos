@@ -528,6 +528,8 @@ The following directories exist in CognitiveOS but do NOT contain typed records 
 
 ---
 
+## 5. Mandatory Authoring Process
+
 ### Step 1: Select Record Type
 
 Determine the correct record type BEFORE writing. Use this decision tree:
@@ -682,15 +684,6 @@ When a new record type is added:
 
 ---
 
-## 11. Revision History
-
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | 2026-08-04 | DAF (authority), Ember (drafter) | Initial institutionalization. Three-layer system defined. 8 record types with §4 field specs. Pre-commit hook (schema-only). |
-| 1.1 | 2026-08-19 | DAF (authority), Laras (drafter) | YAML frontmatter added (governance doc now passes its own validation). §4 expanded from 8 to 18 types (added CONV, DOC, DRAFT, ASSESS, BRIEF, ART, OUT, OPP, LSN, PIR — all derived from schemas/*.schema.json). §5 Step 5: scoped `git add` with path whitelist added (Lesson #6 enforcement). §6: pre-commit hook updated to v2 (both `validate.py` and `validate_taxonomy.py`). §8: maintenance protocol updated with taxonomy validator + `RECORD_DIRS` harmonization requirement + version-lock with Intake SOP. Non-Record Directories section added after §3. Root cause: Intake SOP upgraded to v1.1 without version-locking the paired Template SOP — same recurring meta-pattern of one governance instrument updated while its paired instrument stays stale. |
-
----
-
 ## 10. Quick Reference Card
 
 ```
@@ -710,3 +703,12 @@ REMEMBER:
   - All enum values are lowercase
   - title field is required on every record type
 ```
+
+---
+
+## 11. Revision History
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | 2026-08-04 | DAF (authority), Ember (drafter) | Initial institutionalization. Three-layer system defined. 8 record types with §4 field specs. Pre-commit hook (schema-only). |
+| 1.1 | 2026-08-19 | DAF (authority), Laras (drafter) | YAML frontmatter added (governance doc now passes its own validation). §4 expanded from 8 to 18 types (added CONV, DOC, DRAFT, ASSESS, BRIEF, ART, OUT, OPP, LSN, PIR — all derived from schemas/*.schema.json). §5 Step 5: scoped `git add` with path whitelist added (Lesson #6 enforcement). §6: pre-commit hook updated to v2 (both `validate.py` and `validate_taxonomy.py`). §8: maintenance protocol updated with taxonomy validator + `RECORD_DIRS` harmonization requirement + version-lock with Intake SOP. Non-Record Directories section added after §3. Root cause: Intake SOP upgraded to v1.1 without version-locking the paired Template SOP — same recurring meta-pattern of one governance instrument updated while its paired instrument stays stale. |
