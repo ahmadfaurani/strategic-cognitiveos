@@ -7,7 +7,7 @@ All action records, grouped by status.
 | ID | Action | Assignee | Due | Priority | Related |
 |----|--------|----------|-----|----------|---------|
 | ACT-20260819-001 | Execute Phase 2: Batch Ingest 355 CognitiveOS Records into Honcho | Ember | 2026-08-19 | High | DEC-20260819-001, OUT-20260819-001 |
-| ACT-20260819-002 | Monitor deriver throughput with Qwen3.6-35B-A3B | Ember | 2026-08-20 | Medium | DEC-20260819-003, OUT-20260819-002 |
+| ACT-20260819-002 | Monitor deriver throughput with Qwen3.6-27B | Ember | 2026-08-20 | Medium | DEC-20260819-003, OUT-20260819-002 |
 | ACT-20260819-003 | Engage Azrul on CyberDSA 2026 Joint Activation Framing (Gate 1 / Wave 1, P0-01/P0-02) | DAF | 2026-08-24 | High (P0-01/P0-02) | DEC-20260819-004, DEC-20260819-005, CONV-20260819-002 |
 
 ## Pending
