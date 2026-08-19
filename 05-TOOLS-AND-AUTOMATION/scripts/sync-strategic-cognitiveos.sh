@@ -73,14 +73,25 @@ except Exception as e:
     print(f'Config export skipped: {e}')
 "
 
-# STEP 2: Git sync
+# STEP 2: Git sync (scoped add — NEVER use git add -A, per SOUL.md Lesson #6)
 TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 CHANGES=$(git status --porcelain | wc -l)
 
 if [ "$CHANGES" -gt 0 ]; then
-    git add -A
-    git commit -m "auto: strategic-cognitiveos git-sync $TIMESTAMP"
-    git push origin main 2>&1 && echo "✅ Pushed $CHANGES files to strategic-cognitiveos" || echo "⚠️ Committed locally, push deferred (auth pending)"
+    # Scoped git add — record directories + governance + schemas + taxonomy + indexes only
+    git add initiatives/ stakeholders/ engagements/ actions/ decisions/ \
+           commitments/ risks/ intelligence/ outcomes/ artifacts/ \
+           assessments/ briefings/ documents/ drafts/ organizations/ \
+           opportunities/ lessons/ indexes/ governance/ schemas/ taxonomy/ \
+           tools/ 05-TOOLS-AND-AUTOMATION/ 2>/dev/null || true
+
+    STAGED=$(git diff --cached --name-only | wc -l)
+    if [ "$STAGED" -gt 0 ]; then
+        git commit -m "auto: strategic-cognitiveos git-sync $TIMESTAMP"
+        git push origin main 2>&1 && echo "✅ Pushed $STAGED files to strategic-cognitiveos" || echo "⚠️ Committed locally, push deferred (auth pending)"
+    else
+        echo "No record-directory changes to sync — strategic-cognitiveos"
+    fi
 else
     echo "No changes to sync — strategic-cognitiveos"
 fi

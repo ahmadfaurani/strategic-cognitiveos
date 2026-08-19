@@ -70,9 +70,20 @@ Every intake must update all relevant indexes in the same commit:
 
 ### Step 6: Commit
 
+**NEVER use `git add -A`.** This sweeps non-record files from shared workspaces into the commit (Lesson #6, SOUL.md). Use scoped `git add` with an explicit path whitelist:
+
 ```bash
 cd strategic-cognitiveos
-git add -A
+
+# Stage ONLY the record directories that were modified
+git add initiatives/ stakeholders/ engagements/ actions/ decisions/ \
+       commitments/ risks/ intelligence/ outcomes/ artifacts/ \
+       assessments/ briefings/ documents/ drafts/ organizations/ \
+       opportunities/ lessons/ indexes/ governance/ schemas/ taxonomy/
+
+# Verify what is staged BEFORE committing
+git diff --cached --stat
+
 git commit -m "CognitiveOS: <brief description> — <record count> records
 
 New records:
@@ -81,6 +92,8 @@ New records:
 
 Indexes updated: <list>"
 ```
+
+**Pre-commit validation:** The pre-commit hook runs BOTH `tools/validate.py` (schema conformance) AND `tools/validate_taxonomy.py` (tag conformance against `taxonomy/tags.yaml`). If either validator fails, the commit is blocked. Do not bypass with `--no-verify` unless explicitly authorised.
 
 ### Step 7: Push
 
@@ -100,6 +113,8 @@ If the intake contains significant strategic information, update `MEMORY.md` wit
 
 ## 3. Record Type Matrix
 
+All 18 active record types. Each has a schema in `schemas/`, a template in `templates/`, and a canonical directory. Records must be placed in their canonical directory — no exceptions.
+
 | Type | Prefix | Directory | Schema | When to Create |
 |------|--------|-----------|--------|----------------|
 | Initiative | `INIT-` | `initiatives/` | `initiative.schema.json` | New project, workstream, or strategic initiative |
@@ -111,6 +126,34 @@ If the intake contains significant strategic information, update `MEMORY.md` wit
 | Risk | `RSK-` | `risks/` | `risk.schema.json` | Identified risk or threat |
 | Intelligence | `INT-` | `intelligence/` | `intelligence.schema.json` | Intelligence product or assessment |
 | Outcome | `OUT-` | `outcomes/` | `outcome.schema.json` | Result or delivered outcome |
+| Artifact | `ART-` | `artifacts/` | `artifact.schema.json` | Deliverable file, document, or produced asset |
+| Assessment | `ASSESS-` | `assessments/` | `assessment.schema.json` | Analytical assessment of a situation, entity, or initiative |
+| Briefing | `BRIEF-` | `briefings/` | `briefing.schema.json` | Executive or operational briefing document |
+| Document | `DOC-` | `documents/` | `document.schema.json` | External or reference document ingested into CognitiveOS |
+| Draft | `DRAFT-` | `drafts/` | `draft.schema.json` | Draft communication, document, or deliverable in progress |
+| Organization | `ORG-` | `organizations/` | `organization.schema.json` | New organization entity tracked in CognitiveOS |
+| Opportunity | `OPP-` | `opportunities/` | `opportunity.schema.json` | New strategic or commercial opportunity |
+| Lesson | `LSN-` | `lessons/` | `lesson.schema.json` | Lesson learned from execution, success, or failure |
+| PIR | `PIR-` | `intelligence/` | `pir.schema.json` | Priority Intelligence Requirement (standalone or embedded in parent record) |
+
+### Non-Record Directories
+
+The following directories exist in CognitiveOS but do NOT contain typed records and are NOT covered by the Record Type Matrix:
+
+| Directory | Purpose |
+|-----------|---------|
+| `portfolio/` | Governance tier classification structure (tags: `portfolio/flagship`, `portfolio/incubation`, etc.). NOT a record directory — initiative tier is set via tags, not directory placement. |
+| `products/` | Product documentation containers (e.g., `chainsentry/`, `govsec-tip/`, `voroncitadel/`). Not typed records. |
+| `projects/` | Project documentation containers (e.g., `red-team-division/`, `voron-c2/`). Not typed records. |
+| `profiles/` | Profile/reference materials. Not typed records. |
+| `strategies/` `strategy/` | Strategic direction documents. Not typed records. |
+| `governance/` | SOPs, doctrines, standards. Not typed records. |
+| `indexes/` | Auto-generated index files. Updated during intake, not created as records. |
+| `memory/` | Daily memory logs and long-term memory. Not typed records. |
+| `taxonomy/` | Controlled vocabulary definitions. Not typed records. |
+| `templates/` | Record authoring templates. Not typed records. |
+| `schemas/` | JSON schemas for validation. Not typed records. |
+| `tools/` | Validation scripts and utilities. Not typed records. |
 
 ### ID Convention
 
@@ -205,12 +248,13 @@ Before committing any intake:
 [ ] All mandatory schema fields are completed
 [ ] All records have owners assigned
 [ ] All records have sensitivity classified
-[ ] All tags are from controlled taxonomy
+[ ] All tags are from controlled taxonomy — VALIDATED by `tools/validate_taxonomy.py` (not aspirational — enforced at pre-commit)
 [ ] All related records are cross-linked
 [ ] All relevant indexes are updated
 [ ] Daily memory log entry written
 [ ] Commit message follows the standard format
 [ ] Confirmation notification prepared
+[ ] No `git add -A` used — scoped `git add` with path whitelist only
 ```
 
 If any box is unchecked, the intake is not complete.
@@ -237,3 +281,4 @@ Any intake that fails to produce the confirmation notification should be treated
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-08-04 | DAF (authority), Ember (drafter) | Initial institutionalization. Confirmation format standardized based on UITM (Aug 3) and CSM VoronDRQ GTM (Aug 4) intake precedents. |
+| 1.1 | 2026-08-19 | DAF (authority), Laras (drafter) | §3 Record Type Matrix expanded from 9 to 18 types (added ART, ASSESS, BRIEF, DOC, DRAFT, LSN, OPP, ORG, PIR). Non-Record Directories section added. §6 `git add -A` replaced with scoped `git add` path whitelist (Lesson #6 enforcement). Taxonomy validation added to Quality Checklist as enforced step. `outcome.schema.json` created (was missing). Root cause: schemas expanded to 18 types but SOP never updated — recurring meta-pattern of canonical layer evolving without enforcement layer following. |

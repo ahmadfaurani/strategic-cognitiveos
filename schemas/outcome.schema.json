@@ -1,0 +1,180 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Outcome Record",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "title",
+    "created_at",
+    "updated_at",
+    "owner",
+    "status",
+    "priority",
+    "sensitivity",
+    "lifecycle_state",
+    "confidence",
+    "tags",
+    "source",
+    "summary",
+    "strategic_significance",
+    "mission_alignment",
+    "related_records"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^OUT-\\d{8}-\\d{3}$"
+    },
+    "record_type": {
+      "type": "string",
+      "enum": [
+        "outcome"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "in-progress",
+        "validated",
+        "approved",
+        "active",
+        "blocked",
+        "deferred",
+        "completed",
+        "superseded",
+        "archived",
+        "achieved",
+        "missed"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "sensitivity": {
+      "type": "string",
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted",
+        "controlled"
+      ]
+    },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "validated",
+        "approved",
+        "active",
+        "completed",
+        "blocked",
+        "deferred",
+        "superseded",
+        "archived",
+        "canonical"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "direct",
+            "inferred",
+            "osint",
+            "humint",
+            "system",
+            "reference"
+          ]
+        },
+        "reference": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "reference"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "strategic_significance": {
+      "type": "string"
+    },
+    "mission_alignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_initiative": {
+      "type": "string",
+      "description": "ID of the initiative this outcome delivers"
+    },
+    "outcome_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the outcome was achieved"
+    },
+    "success_metrics": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "description": "Quantitative or qualitative metrics proving the outcome"
+    },
+    "linked_acts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Action IDs that produced this outcome"
+    }
+  },
+  "additionalProperties": true
+}

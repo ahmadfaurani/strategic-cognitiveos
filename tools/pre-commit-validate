@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """
-CognitiveOS Pre-Commit Hook
-============================
-Runs schema validation on staged .md files in record directories.
-Blocks commit if any record fails validation.
+CognitiveOS Pre-Commit Hook (v2 — Schema + Taxonomy Validation)
+================================================================
+Runs BOTH schema validation (tools/validate.py) AND taxonomy validation
+(tools/validate_taxonomy.py) on staged .md files in record directories.
+Blocks commit if either validator fails.
+
+RECORD_DIRS harmonized with validate_taxonomy.py — 17 canonical record dirs
+matching SOP §3 Record Type Matrix (v1.1, 2026-08-19).
 
 Installation:
     cd strategic-cognitiveos
@@ -16,15 +20,14 @@ Or via symlink:
 
 import subprocess
 import sys
-import re
 from pathlib import Path
 
-# Directories that contain typed records
+# ─── Canonical record directories (SOP §3 v1.1 — 17 dirs, PIR shares intelligence/) ───
 RECORD_DIRS = {
-    "actions", "assessments", "briefings", "commitments", "conversations",
-    "decisions", "documents", "drafts", "engagements", "initiatives",
-    "intelligence", "organizations", "outcomes", "risks", "stakeholders",
-    "strategies", "artifacts", "lessons"
+    "actions", "assessments", "briefings", "commitments", "decisions",
+    "documents", "drafts", "engagements", "initiatives", "intelligence",
+    "lessons", "opportunities", "organizations", "outcomes", "risks",
+    "stakeholders", "artifacts"
 }
 
 # Governance files that must exist and be non-empty
@@ -77,7 +80,7 @@ def main():
     staged = get_staged_files()
     record_files = [f for f in staged if is_record_file(f)]
     gov_files = [f for f in staged if is_governance_file(f)]
-    
+
     if not record_files and not gov_files:
         # No record or governance files staged — run governance integrity check anyway
         gov_issues = check_governance_integrity()
@@ -85,10 +88,9 @@ def main():
             print("🔍 CognitiveOS pre-commit: governance integrity check...")
             for issue in gov_issues:
                 print(issue)
-            # Warn but don't block for missing governance files on non-governance commits
             sys.exit(0)
         sys.exit(0)
-    
+
     if gov_files:
         print(f"🔍 CognitiveOS pre-commit: checking {len(gov_files)} governance file(s)...")
         gov_issues = check_governance_integrity()
@@ -96,48 +98,67 @@ def main():
             print(issue)
         if not gov_issues:
             print("  ✅ All governance files present")
-    
+
     if not record_files:
         # Only governance files staged, no records to validate
         sys.exit(0)
-    
-    print(f"🔍 CognitiveOS pre-commit: validating {len(record_files)} record(s)...")
-    
-    # Run validator on each staged file
+
     git_root = subprocess.run(
         ["git", "rev-parse", "--show-toplevel"],
         capture_output=True, text=True
     ).stdout.strip()
+
+    # ─── Phase 1: Schema validation (tools/validate.py) ───
+    print(f"🔍 CognitiveOS pre-commit: schema validation on {len(record_files)} record(s)...")
+
     validator_path = Path(git_root) / "tools" / "validate.py"
     if not validator_path.exists():
-        print("⚠️  Validator not found at tools/validate.py — skipping validation")
-        sys.exit(0)
-    
-    all_passed = True
-    for filepath in record_files:
-        result = subprocess.run(
-            ["python3", str(validator_path), "--file", filepath, "--quiet"],
+        print("⚠️  Schema validator not found at tools/validate.py — skipping schema validation")
+    else:
+        all_passed = True
+        for filepath in record_files:
+            result = subprocess.run(
+                ["python3", str(validator_path), "--file", filepath, "--quiet"],
+                capture_output=True, text=True
+            )
+            if result.returncode != 0:
+                all_passed = False
+                print(f"  ❌ SCHEMA: {filepath}")
+                for line in result.stderr.strip().split("\n"):
+                    if line:
+                        print(f"     {line}")
+                for line in result.stdout.strip().split("\n"):
+                    if "❌" in line or "ERROR" in line:
+                        print(f"     {line}")
+            else:
+                print(f"  ✅ SCHEMA: {filepath}")
+
+        if not all_passed:
+            print("\n🚫 COMMIT BLOCKED: One or more records failed SCHEMA validation.")
+            print("   Fix the errors above and re-stage, or use --no-verify to bypass (not recommended).")
+            sys.exit(1)
+
+    # ─── Phase 2: Taxonomy validation (tools/validate_taxonomy.py) ───
+    print(f"🔍 CognitiveOS pre-commit: taxonomy validation on {len(record_files)} record(s)...")
+
+    taxonomy_validator_path = Path(git_root) / "tools" / "validate_taxonomy.py"
+    if not taxonomy_validator_path.exists():
+        print("⚠️  Taxonomy validator not found at tools/validate_taxonomy.py — skipping taxonomy validation")
+    else:
+        # Run taxonomy validator on all staged record files
+        taxonomy_result = subprocess.run(
+            ["python3", str(taxonomy_validator_path)] + record_files,
             capture_output=True, text=True
         )
-        if result.returncode != 0:
-            all_passed = False
-            print(f"  ❌ {filepath}")
-            # Print validator output (errors only)
-            for line in result.stderr.strip().split("\n"):
-                if line:
-                    print(f"     {line}")
-            for line in result.stdout.strip().split("\n"):
-                if "❌" in line or "ERROR" in line:
-                    print(f"     {line}")
+        if taxonomy_result.returncode != 0:
+            print("\n🚫 COMMIT BLOCKED: One or more records failed TAXONOMY validation.")
+            print(taxonomy_result.stdout.strip())
+            print("\n   Fix the tags above and re-stage, or use --no-verify to bypass (not recommended).")
+            sys.exit(1)
         else:
-            print(f"  ✅ {filepath}")
-    
-    if not all_passed:
-        print("\n🚫 COMMIT BLOCKED: One or more records failed schema validation.")
-        print("   Fix the errors above and re-stage, or use --no-verify to bypass (not recommended).")
-        sys.exit(1)
-    
-    print("✅ All records valid. Commit proceeding.")
+            print(f"  ✅ TAXONOMY: All {len(record_files)} record(s) pass tag validation")
+
+    print("✅ All records valid (schema + taxonomy). Commit proceeding.")
     sys.exit(0)
 
 if __name__ == "__main__":
