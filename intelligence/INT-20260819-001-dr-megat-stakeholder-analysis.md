@@ -1,7 +1,7 @@
 ---
 id: INT-20260819-001
 record_type: intelligence
-intelligence_type: stakeholder-analysis
+intelligence_type: stakeholder
 title: "Strategic Stakeholder Analytical Report — Ir. Dr. Megat Zuhairy bin Megat Tajuddin (NACSA CE)"
 created_at: 2026-08-19T11:00:00+00:00
 updated_at: 2026-08-19T11:00:00+00:00
@@ -11,7 +11,7 @@ priority: critical
 sensitivity: confidential
 lifecycle_state: active
 confidence: T2-SOURCE-BACKED
-tags: [stakeholder-analysis, nacsa, national-strategic-alignment, cyberdsa-2026, sovereign-capability, ai-security, cryptography, ncii, tier-1]
+tags: [domain/cybersecurity, org/nacsa, domain/sovereign-technology, domain/artificial-intelligence, domain/cryptography, sector/critical-infrastructure, milestone/cyberdsa-2026, lifecycle/active]
 source:
   type: analytical-report
   reference: "DAF-provided Strategic Stakeholder Analytical Report, 19 August 2026. Public-source stakeholder, institutional influence and strategic-alignment analysis."
