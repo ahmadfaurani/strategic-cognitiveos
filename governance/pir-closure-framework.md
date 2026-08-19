@@ -15,10 +15,9 @@ related:
 - process-maturity-register.md (readiness gates)
 - 03-VERIFICATION/CVS-FRAMEWORK.md (CVS Master Framework)
 tags:
-- governance/pir
-- governance/closure
-- workstream/cscdc
-- cvs/applied
+  - domain/intelligence-operations
+  - domain/cognitiveos-operations
+  - domain/governance
 status: active
 priority: medium
 sensitivity: confidential
@@ -73,9 +72,8 @@ This framework closes that gap.
 
 ## 2. PIR Lifecycle States
 
-The PIR schema defines 20 status values `[SOURCE-BACKED]`. This framework organises them into **five lifecycle phases** `[ASSESSMENT]` (structural design based on schema analysis).
-
-> `[SOURCE: pir.schema.json, properties.status.enum, verified programmatically 2026-08-17]` — 20 status values confirmed.
+The PIR schema defines 21 status values `[SOURCE-BACKED]`. This framework organises them into **five lifecycle phases** `[ASSESSMENT]` (structural design based on schema analysis).
+> `[SOURCE: pir.schema.json, properties.status.enum, verified programmatically 2026-08-19]` — 21 status values confirmed.
 > `[SOURCE: CVS-SOURCE-REGISTER.md, L2 — Strategic CognitiveOS records]` — PIR schema is an L2 internal validated source.
 
 ```
@@ -456,26 +454,26 @@ Is the PIR's intelligence question answered?
 
 | # | Claim | Tier | Label | Sources (L-level) | Score | Rule 6 Cap | Register ID |
 |---|-------|------|-------|-------------------|-------|------------|-------------|
-| 1 | 120 total PIRs in CSCDC workstream | T2 | `[SOURCE-BACKED]` | `pir-inventory-index.md` (L2), `pir-status-report-2026-08-03.md` (L2) | 7 | Yes — AI-verified | CVS-COG-001 |
-| 2 | 90 PIRs intelligence-resolved or partially resolved | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L36` (L2), `#L46` (L2) | 7 | Yes | CVS-COG-002 |
-| 3 | 1 PIR synced to record layer | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L37` (L2), `#L46` (L2) | 7 | Yes | CVS-COG-003 |
-| 4 | 16 Critical PIRs in inventory | T2 | `[SOURCE-BACKED]` | `pir-inventory-index.md#L25` (L2), `#L39` (L2) | 7 | Yes | CVS-COG-004 |
-| 5 | 20 status values in PIR schema | T2 | `[SOURCE-BACKED]` | `pir.schema.json` (L2), verified programmatically 2026-08-17 | 7 | Yes | CVS-COG-005 |
-| 6 | 6 active collection cronjobs (CJ-1→CJ-6) | T2 | `[SOURCE-BACKED]` | `pir-inventory-index.md#L108-113` (L2), `#L117` (L2) | 7 | Yes | CVS-COG-006 |
-| 7 | 12 Tier-1 OSINT-unresolvable PIRs | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L176` (L2), `#L86` (L2) | 7 | Yes | CVS-COG-007 |
-| 8 | 3 OSINT-unresolvable Critical PIRs | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L86` (L2), `#L69-72` (L2) | 7 | Yes | CVS-COG-008 |
-| 9 | 30 Resolved / 60 Partial / 30 Open | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L32-34` (L2) | 7 | Yes | CVS-COG-009 |
-| 10 | Workstream created 2026-07-25 | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L23` (L2), `pir-inventory-index.md` updated_at (L2) | 7 | Yes | CVS-COG-010 |
-| 11 | ADEP-001 §44 governs Closure Gate | T2 | `[SOURCE-BACKED]` | `closure-gate-checklist.md#L6` (L2) | 7 | Yes | CVS-COG-011 |
-| 12 | PIR closure is prerequisite to 16-point gate | T3 | `[ASSESSMENT]` | Derived from ADEP-001 §44 structural design | 5 | N/A — analytical | CVS-COG-012 |
-| 13 | Five lifecycle phases organise the 20 statuses | T3 | `[ASSESSMENT]` | Schema enum analysis (L2) | 5 | N/A | CVS-COG-013 |
-| 14 | Minimum evidence thresholds by priority | T3 | `[ASSESSMENT]` | Designed to align with CVS §3 (L1 governance doc) | 5 | N/A | CVS-COG-014 |
-| 15 | Authority exception for Low/Medium auto-fulfil | T3 | `[ASSESSMENT]` | Operational design choice | 4 | N/A | CVS-COG-015 |
-| 16 | SLA targets (TTFI/TTC) | T4 | `[ASSUMPTION]` | Designed targets, no empirical baseline | 3 | N/A — projection | CVS-COG-016 |
-| 17 | Auto-escalation triggers (§3.4, §7) | T4 | `[ASSUMPTION]` | Requires CJ-7 logic not yet implemented | 2 | N/A | CVS-COG-017 |
-| 18 | Implementation roadmap dates (§13) | T4 | `[ASSUMPTION]` | Target dates, pending DAF availability | 3 | N/A | CVS-COG-018 |
-| 19 | KPI targets (§11) | T4 | `[ASSUMPTION]` | Designed targets, no baseline data | 3 | N/A | CVS-COG-019 |
-| 20 | 30/60/90/180 max deferral periods | T4 | `[ASSUMPTION]` | Designed to mirror TTC hard limits | 3 | N/A | CVS-COG-020 |
+| 1 | 120 total PIRs in CSCDC workstream | T2 | `[SOURCE-BACKED]` | `pir-inventory-index.md` (L2), `pir-status-report-2026-08-03.md` (L2) | 7 | Yes — AI-verified | CVS-COG-1094 |
+| 2 | 90 PIRs intelligence-resolved or partially resolved | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L36` (L2), `#L46` (L2) | 7 | Yes | CVS-COG-1095 |
+| 3 | 1 PIR synced to record layer | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L37` (L2), `#L46` (L2) | 7 | Yes | CVS-COG-1096 |
+| 4 | 16 Critical PIRs in inventory | T2 | `[SOURCE-BACKED]` | `pir-inventory-index.md#L25` (L2), `#L39` (L2) | 7 | Yes | CVS-COG-1097 |
+| 5 | 21 status values in PIR schema | T2 | `[SOURCE-BACKED]` | `pir.schema.json` (L2), verified programmatically 2026-08-19 | 7 | Yes | CVS-COG-1098 |
+| 6 | 6 active collection cronjobs (CJ-1→CJ-6) | T2 | `[SOURCE-BACKED]` | `pir-inventory-index.md#L108-113` (L2), `#L117` (L2) | 7 | Yes | CVS-COG-1099 |
+| 7 | 12 Tier-1 OSINT-unresolvable PIRs | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L176` (L2), `#L86` (L2) | 7 | Yes | CVS-COG-1100 |
+| 8 | 3 OSINT-unresolvable Critical PIRs | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L86` (L2), `#L69-72` (L2) | 7 | Yes | CVS-COG-1101 |
+| 9 | 30 Resolved / 60 Partial / 30 Open | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L32-34` (L2) | 7 | Yes | CVS-COG-1102 |
+| 10 | Workstream created 2026-07-25 | T2 | `[SOURCE-BACKED]` | `pir-status-report-2026-08-03.md#L23` (L2), `pir-inventory-index.md` updated_at (L2) | 7 | Yes | CVS-COG-1103 |
+| 11 | ADEP-001 §44 governs Closure Gate | T2 | `[SOURCE-BACKED]` | `closure-gate-checklist.md#L6` (L2) | 7 | Yes | CVS-COG-1104 |
+| 12 | PIR closure is prerequisite to 16-point gate | T3 | `[ASSESSMENT]` | Derived from ADEP-001 §44 structural design | 5 | N/A — analytical | CVS-COG-1105 |
+| 13 | Five lifecycle phases organise the 21 statuses | T3 | `[ASSESSMENT]` | Schema enum analysis (L2) | 5 | N/A | CVS-COG-1106 |
+| 14 | Minimum evidence thresholds by priority | T3 | `[ASSESSMENT]` | Designed to align with CVS §3 (L1 governance doc) | 5 | N/A | CVS-COG-1107 |
+| 15 | Authority exception for Low/Medium auto-fulfil | T3 | `[ASSESSMENT]` | Operational design choice | 4 | N/A | CVS-COG-1108 |
+| 16 | SLA targets (TTFI/TTC) | T4 | `[ASSUMPTION]` | Designed targets, no empirical baseline | 3 | N/A — projection | CVS-COG-1109 |
+| 17 | Auto-escalation triggers (§3.4, §7) | T4 | `[ASSUMPTION]` | Requires CJ-7 logic not yet implemented | 2 | N/A | CVS-COG-1110 |
+| 18 | Implementation roadmap dates (§13) | T4 | `[ASSUMPTION]` | Target dates, pending DAF availability | 3 | N/A | CVS-COG-1111 |
+| 19 | KPI targets (§11) | T4 | `[ASSUMPTION]` | Designed targets, no baseline data | 3 | N/A | CVS-COG-1112 |
+| 20 | 30/60/90/180 max deferral periods | T4 | `[ASSUMPTION]` | Designed to mirror TTC hard limits | 3 | N/A | CVS-COG-1113 |
 
 ### Score Breakdown (5-Criteria Model)
 

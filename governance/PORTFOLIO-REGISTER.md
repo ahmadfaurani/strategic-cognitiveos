@@ -1,3 +1,34 @@
+---
+id: GOV-PORTFOLIO-REGISTER-001
+record_type: document
+title: "Portfolio Register — Cohort Programmes"
+created_at: 2026-08-04T00:00:00+00:00
+updated_at: 2026-08-19T16:00:00+00:00
+owner: DAF
+status: active
+priority: high
+sensitivity: internal
+lifecycle_state: active
+confidence: high
+tags:
+  - domain/portfolio-governance
+  - domain/governance
+source:
+  type: direct
+  reference: "DAF authority"
+summary: "Governance reference document for Portfolio Register — Cohort Programmes."
+strategic_significance: "Governs CognitiveOS operational standards and procedures."
+mission_alignment:
+  - sovereign-ai
+  - intelligence-enablement
+related_records:
+  - GOV-INTAKE-SOP-001
+document_type: reference
+file_path: "governance/PORTFOLIO-REGISTER.md"
+version: "1.0"
+author: DAF
+---
+
 # Portfolio Register — Cohort Programmes
 
 **Created:** 2026-08-18 | **Authority:** DAF | **Review cadence:** Weekly (Monday 09:00 UTC+8 / 01:00 UTC)

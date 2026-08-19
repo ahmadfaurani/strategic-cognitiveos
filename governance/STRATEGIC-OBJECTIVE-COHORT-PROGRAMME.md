@@ -1,3 +1,34 @@
+---
+id: GOV-STRATEGIC-OBJECTIVE-COHORT-PROGRAMME-001
+record_type: document
+title: "Cohort Programme — Strategic Objective (Canonical)"
+created_at: 2026-08-04T00:00:00+00:00
+updated_at: 2026-08-19T16:00:00+00:00
+owner: DAF
+status: active
+priority: high
+sensitivity: internal
+lifecycle_state: active
+confidence: high
+tags:
+  - domain/strategic-planning
+  - domain/governance
+source:
+  type: direct
+  reference: "DAF authority"
+summary: "Governance reference document for Cohort Programme — Strategic Objective (Canonical)."
+strategic_significance: "Governs CognitiveOS operational standards and procedures."
+mission_alignment:
+  - sovereign-ai
+  - intelligence-enablement
+related_records:
+  - GOV-INTAKE-SOP-001
+document_type: reference
+file_path: "governance/STRATEGIC-OBJECTIVE-COHORT-PROGRAMME.md"
+version: "1.0"
+author: DAF
+---
+
 # Cohort Programme — Strategic Objective (Canonical)
 
 **Authority:** DAF | **Established:** 2026-08-18 | **Last refined:** 2026-08-18 | **TLP:** AMBER

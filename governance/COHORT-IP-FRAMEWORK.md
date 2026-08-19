@@ -1,3 +1,34 @@
+---
+id: GOV-COHORT-IP-FRAMEWORK-001
+record_type: document
+title: "Aras Cohort Joint IP Framework"
+created_at: 2026-08-04T00:00:00+00:00
+updated_at: 2026-08-19T16:00:00+00:00
+owner: DAF
+status: active
+priority: high
+sensitivity: internal
+lifecycle_state: active
+confidence: high
+tags:
+  - domain/strategic-planning
+  - domain/governance
+source:
+  type: direct
+  reference: "DAF authority"
+summary: "Governance reference document for Aras Cohort Joint IP Framework."
+strategic_significance: "Governs CognitiveOS operational standards and procedures."
+mission_alignment:
+  - sovereign-ai
+  - intelligence-enablement
+related_records:
+  - GOV-INTAKE-SOP-001
+document_type: reference
+file_path: "governance/COHORT-IP-FRAMEWORK.md"
+version: "1.0"
+author: DAF
+---
+
 # Aras Cohort Joint IP Framework
 
 **Authority:** DAF | **Established:** 2026-08-18 | **TLP:** AMBER | **Status:** Canonical

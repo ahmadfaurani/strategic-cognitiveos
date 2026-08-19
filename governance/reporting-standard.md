@@ -1,3 +1,34 @@
+---
+id: GOV-REPORTING-STANDARD-001
+record_type: document
+title: "Execution State Reporting Standard"
+created_at: 2026-08-04T00:00:00+00:00
+updated_at: 2026-08-19T16:00:00+00:00
+owner: DAF
+status: active
+priority: high
+sensitivity: internal
+lifecycle_state: active
+confidence: high
+tags:
+  - domain/development-governance
+  - domain/governance
+source:
+  type: direct
+  reference: "DAF authority"
+summary: "Governance reference document for Execution State Reporting Standard."
+strategic_significance: "Governs CognitiveOS operational standards and procedures."
+mission_alignment:
+  - sovereign-ai
+  - intelligence-enablement
+related_records:
+  - GOV-INTAKE-SOP-001
+document_type: reference
+file_path: "governance/reporting-standard.md"
+version: "1.0"
+author: DAF
+---
+
 # Execution State Reporting Standard
 
 **Created:** 2026-08-16  

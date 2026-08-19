@@ -1,3 +1,34 @@
+---
+id: GOV-DECISION-RIGHTS-001
+record_type: document
+title: "Decision Rights"
+created_at: 2026-08-04T00:00:00+00:00
+updated_at: 2026-08-19T16:00:00+00:00
+owner: DAF
+status: active
+priority: high
+sensitivity: internal
+lifecycle_state: active
+confidence: high
+tags:
+  - domain/executive-governance
+  - domain/governance
+source:
+  type: direct
+  reference: "DAF authority"
+summary: "Governance reference document for Decision Rights."
+strategic_significance: "Governs CognitiveOS operational standards and procedures."
+mission_alignment:
+  - sovereign-ai
+  - intelligence-enablement
+related_records:
+  - GOV-INTAKE-SOP-001
+document_type: reference
+file_path: "governance/decision-rights.md"
+version: "1.0"
+author: DAF
+---
+
 # Decision Rights
 
 ## Attention Level Classification
