@@ -40,6 +40,7 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260820-003 | 2026-08-20 | Azrul Kicks Off VoronCitadel POC for Bursa Malaysia — Monday Deep Dive Proposed | Azrul | Active | CONV-20260820-003 |
 | DEC-20260820-004 | 2026-08-20 | DAF Commits to 8-Section Consolidated POC Document — Monday Reframed as Pre-Flight Check | DAF | Active | CONV-20260820-004 |
 | DEC-20260820-005 | 2026-08-20 | RADAR Assumes Governance of All Cronjobs — RMR Marking Mandatory on All Intakes | DAF | Active | INIT-20260820-002, ORG-20260820-004, DOC-20260820-002 |
+| DEC-20260820-006 | 2026-08-20 | RADAR Operationally Managed by LARAS | DAF | Active | INIT-20260820-002, ORG-20260820-004 |
 
 ---
 
