@@ -27,7 +27,8 @@ All action records, grouped by status.
 | ACT-20260820-003 | Schedule & Hold CSM-Aras Working Group Sync-Up (Week of Aug 25) | Amelia Nadia | 2026-08-29 | High |
 | ACT-20260820-004 | Prepare VoronCitadel POC Project Brief for Bursa Malaysia (Monday 10am MYT) | DAF/Hadri | 2026-08-24 | Critical |
 | ACT-20260820-005 | Attend VoronCitadel POC Deep Dive with Azrul/CSM — Monday 10am MYT | Amelia/DAF/Hadri | 2026-08-24 | Critical |
+| ACT-20260820-006 | Evaluate Defensia WAF & Production-Grade Infrastructure Hardening — Route to Head of Engineering | DAF | 2026-08-27 | High |
 
 ---
 
-_Changelog: 2026-08-20 — Added ACT-20260820-001 (CRC 2026 customised package engagement), ACT-20260820-002 (finance payment confirmation), ACT-20260820-003 (CSM-Aras working group sync-up), ACT-20260820-004 (VoronCitadel POC brief for Bursa), ACT-20260820-005 (attend Bursa POC deep dive).
+_Changelog: 2026-08-20 — Added ACT-20260820-001 (CRC 2026 customised package engagement), ACT-20260820-002 (finance payment confirmation), ACT-20260820-003 (CSM-Aras working group sync-up), ACT-20260820-004 (VoronCitadel POC brief for Bursa), ACT-20260820-005 (attend Bursa POC deep dive), ACT-20260820-006 (Defensia WAF & infrastructure hardening evaluation).
