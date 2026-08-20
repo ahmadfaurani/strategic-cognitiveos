@@ -3,7 +3,7 @@ id: GOV-SOP-COGNITIVE-LOOP-REVIEW-001
 record_type: document
 title: "SOP: Cognitive Loop Review Against Strategic Objective"
 created_at: 2026-08-04T00:00:00+00:00
-updated_at: 2026-08-19T16:00:00+00:00
+updated_at: 2026-08-20T07:38:00+00:00
 owner: DAF
 status: active
 priority: high
@@ -25,8 +25,9 @@ related_records:
   - GOV-INTAKE-SOP-001
 document_type: sop
 file_path: "governance/SOP-COGNITIVE-LOOP-REVIEW.md"
-version: "1.0"
+version: "1.1"
 author: DAF
+changelog: "v1.1 (2026-08-20): WIP integrated into Step 3 as sub-steps 3a-3b (full due diligence mode). v1.0 (2026-08-18): Initial SOP."
 ---
 
 # SOP: Cognitive Loop Review Against Strategic Objective
@@ -78,7 +79,9 @@ This is not the most urgent programme deadline — it's the structural gap that,
 
 Output: one gap, named clearly, with explanation of why it blocks the objective.
 
-### Step 3: Identify Secondary Patterns
+### Step 3: Identify Secondary Patterns + Workflow Identification Protocol (WIP)
+
+#### 3a: Secondary Patterns
 
 Look for patterns across programmes:
 - Are multiple programmes stuck at the same pathway stage?
@@ -86,6 +89,56 @@ Look for patterns across programmes:
 - Are there structural issues (single-point dependency, no delegation, no community infrastructure) affecting multiple programmes?
 
 Output: 2-3 secondary patterns, each with affected programmes named.
+
+#### 3b: Workflow Identification Protocol (WIP) — Document Discovery
+
+For any document mentioned for the first time during Cognitive Loop execution, apply the full WIP due diligence:
+
+**3b.1 — Identify Ownership**
+- Who is the creation owner(s)? (Who writes/created the document)
+- Do NOT default to DAF as author. Check originator explicitly. Workspace documents may be authored by Athena, Ember, sub-agents, or team members.
+- Who is the audience? (Primary recipients, reviewers, approvers — external and internal)
+
+**3b.2 — Classify Three-Layer Importance**
+- **Strategic:** How does this document advance strategic objectives? Which gates, initiatives, or portfolio items does it unlock?
+- **Operational:** How does this document enable operational execution? What workflows depend on it?
+- **Tactical:** What is the immediate tactical value? What is the next use case and deadline?
+
+**3b.3 — Apply 7-Working-Day Turnaround Timeline (TAT)**
+
+| Phase | Owner | Duration | Purpose |
+|-------|------|----------|---------|
+| Creation | Creation owner(s) | 3 working days | Author draft, structure, content |
+| QC / Review | Reviewer(s) | 2 working days | Quality control, technical validation, product review |
+| Approval / Finalise | Approval owner | 1 working day | Sign-off, finalise version |
+| **Total** | | **7 working days** | |
+
+- Assess current status against TAT: Is the document on track, ahead, or compressed?
+- If timeline is compressed (deadline < 7 working days from creation), flag the compression risk explicitly.
+- Identify critical path: which phase is currently active, and what blocks it from completing?
+
+**3b.4 — Execution Responsibility Alignment**
+
+For each document, identify who holds execution responsibility within the relevant practice/department. This may differ from the creation owner. For example:
+- Athena may author the document (creation owner)
+- DAF may approve it (approval owner)
+- A Practice PM (FTE) may hold execution responsibility for sections within the Cyber Security Practice
+- Hadri may hold technical advisory role but not section ownership
+
+Map: Creation Owner → QC Reviewer → Approval Owner → Execution Owner. All four roles must be identified. If any role is TBA, flag it.
+
+**3b.5 — Output**
+
+For each new document identified during the Cognitive Loop, produce:
+- Document identification (title, version, date, status, classification)
+- Creation owner(s) — checked, not assumed
+- Audience — primary and secondary
+- Three-layer importance assessment (strategic, operational, tactical)
+- 7-working-day TAT assessment with current status
+- Execution responsibility alignment map
+- Critical path item (what blocks completion right now?)
+
+This WIP output is part of Step 3's deliverable and feeds into Step 4 (ranking) and Step 5 (three actions).
 
 ### Step 4: Rank Gaps by Strategic Impact
 
