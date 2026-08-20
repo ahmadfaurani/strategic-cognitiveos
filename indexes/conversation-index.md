@@ -43,7 +43,8 @@ All conversation records, chronological.
 | CONV-20260819-002 | Azrul Nazim Working Stakeholder Profile Definition | 2026-08-19 | Telegram | DEC-20260819-004 (Partnership & Alliance Anchor mandate) | INIT-20260813-005, INIT-20260813-006 |
 | CONV-20260819-003 | CyberDSA 2026 Executive Stakeholder Engagement & Activation Framework Intake | 2026-08-19 | Telegram | DEC-20260819-005 | INIT-20260813-006, DOC-20260819-001 |
 | CONV-20260819-004 | 2026-08-19 | CyberDSA 2026 (T-49) Market Positioning Alignment — Rashid ask + DAF definitive 6-layer narrative | DAF, Rashid Bin Ramli, WIG team | Active | High |
+| CONV-20260820-001 | CRC 2026 Sponsorship — Invitation, Strategic Framing & Finance Confirmation | 2026-08-20 | Email | DEC-20260820-001 — RM5K sponsorship approved (reduced from RM10K); customised package directed by DAF | INIT-20260820-001 |
 
 ---
 
-_Changelog: 2026-08-19 — Added CONV-20260819-003 (CyberDSA 2026 Activation Framework intake). Added CONV-20260819-004 (CyberDSA 2026 Market Positioning Alignment)._
+_Changelog: 2026-08-20 — Added CONV-20260820-001 (CRC 2026 sponsorship email thread, 3-part).

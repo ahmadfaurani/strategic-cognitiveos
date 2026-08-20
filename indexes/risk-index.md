@@ -38,6 +38,7 @@ All identified risks, grouped by status.
 | RSK-20260804-001 | Delivery capacity/resource contention (4 parallel CSM tracks) | Dev freeze + Hadri + CSM track owners assigned; still 4 parallel tracks but structured | faurani-jaafar | 2026-10-01 |
 | RSK-20260804-002 | Senior GovSec resource hiring delay (Partially Mitigated by Hadri) | Hadri mitigates technical dimension; Hadi onboarding (RSK-20260810-001) covers PM dimension; intern as interim | faurani-jaafar | 2026-08-31 (Hadi onboarding) |
 | RSK-20260804-003 | CyberDSA October 2026 Launch Milestone — Delivery Timeline Risk | Dev freeze + 5-priority framework + Hadri handover + INIT-20260810-003; timeline still tight (~8 weeks) | faurani-jaafar | 2026-10-01 (launch date) |
+| RSK-20260820-001 | CRC 2026 Customised Package Negotiation Window — T-12 Days | DAF directed customised package Jul 15; no evidence of negotiation as of Aug 19; conference Sep 1 | DAF | 2026-08-28 |
 
 ## Monitoring
 

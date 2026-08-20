@@ -22,7 +22,9 @@ All action records, grouped by status.
 | ACT-20260819-009 | P0-08 Weekly executive status dashboard | DAF | Weekly to CyberDSA | Medium |
 | ACT-20260819-010 | 2026-08-24 | Finalize CyberDSA 2026 messaging implementation with WIG team | DAF / Rashid (WIG) | Pending | High |
 | ACT-20260819-011 | 2026-08-21 | DAF ↔ Azzatullina synch up — CyberDSA 2026 creative/branding direction | DAF | Pending | High |
+| ACT-20260820-001 | Engage CRC 2026 Organising Committee re: Customised Participation Package | DAF | 2026-08-28 | High |
+| ACT-20260820-002 | Confirm RM5K CRC 2026 Sponsorship Payment Processed by Finance | Hadri | 2026-08-29 | High |
 
 ---
 
-_Changelog: 2026-08-19 — Added ACT-20260819-004 through 009 (P0-03 to P0-08). Updated ACT-20260819-003 with Gate 1 / Wave 1 specifics. Added ACT-20260819-010 (WIG messaging finalization) and ACT-20260819-011 (DAF ↔ Azzatullina creative synch up)._
+_Changelog: 2026-08-20 — Added ACT-20260820-001 (CRC 2026 customised package engagement) and ACT-20260820-002 (finance payment confirmation).

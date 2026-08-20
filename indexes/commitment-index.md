@@ -15,6 +15,7 @@ All outstanding commitments, grouped by status.
 | COM-20260813-001 | Deliver 2-Day Government Sector AI Co-Design Lab Workshop (Sept 2–3) | faurani-jaafar | STK-20260813-001 (PERJASA) | 2026-09-03 | In-progress | Medium |
 | COM-20260813-002 | GPU Compute Token Setup for Initial Cohort Participants | faurani-jaafar | STK-20260813-001 (PERJASA) | 2026-09-01 | Draft | Low |
 | COM-20260813-003 | 90-Day Post-Workshop Action Plan Execution | faurani-jaafar | STK-20260813-001 (PERJASA) | 2026-12-02 | Draft | Medium |
+| COM-20260820-001 | RM5K CRC 2026 Sponsorship Payment — Finance Processing | Hadri | CRC 2026 Organising Committee (via Orange Ng) | 2026-08-29 | Active | Low |
 
 ## Overdue
 

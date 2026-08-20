@@ -46,6 +46,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260813-008 | VoronDRQ GTM Executive Summary | faurani-jaafar | Active | Framed | — |
 | INIT-20260813-009 | VoronDRQ GTM Internal Communications Plan | faurani-jaafar | Active | Framed | — |
 | INIT-20260813-010 | VoronDRQ GTM Resource Requirements | faurani-jaafar | Active | Framed | — |
+| INIT-20260820-001 | CRC 2026 — Aras Integrasi Sponsored Participation | DAF | Active | Framed — RM5K sponsorship approved; customised package negotiation pending (T-12 days) | 2026-08-28 |
 
 ## Watch List
 

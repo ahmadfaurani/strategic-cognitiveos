@@ -87,6 +87,8 @@ All registered stakeholders, grouped by type.
 | STK-20260813-016 | Said Farid Zainudin | Event Activation Support | WIG/MTAI | New | Event operating plan assignment |
 | STK-20260815-004 | Norshaza Hanis | Marketing Team | WIG | New | Role clarification |
 | STK-20260815-005 | Muhamad Danish | TBD | WIG | New | Role clarification |
+| STK-20260820-001 | Dr. Ji-Jian Chin | University of Plymouth / CRC 2026 Organising Committee | New | Customised participation package discussion |
+| STK-20260820-002 | Orange Ng | WIG | New | Finance payment confirmation |
 
 ## Prospect
 
