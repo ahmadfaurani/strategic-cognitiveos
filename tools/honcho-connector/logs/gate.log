@@ -1,0 +1,5 @@
+2026-08-19T11:15:27Z | gate | PASS | pre D2 task=CognitiveOS Structural Drift Remediation: SOP §3 rewrite (18 types), file migration, taxonomy validator wiring, git sync fix
+2026-08-19T11:20:02Z | gate | PASS | close D2 task=CognitiveOS Structural Drift Remediation: SOP §3 rewrite (18 types), file migration, taxonomy validator wiring, git sync fix
+2026-08-19T15:57:34Z | gate | PASS | pre D2 task=Gap 1 remediation: add governance/ to validation scope, frontmatter to 19 governance docs, fix PIR Closure Framework P0s, append CVS claims to Evidence Register
+2026-08-19T16:03:45Z | gate | BLOCK | close D2 task=Gap 1 remediation
+2026-08-19T16:03:48Z | gate | PASS | close D2 task=Gap 1 remediation
