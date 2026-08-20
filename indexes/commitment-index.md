@@ -17,6 +17,7 @@ All outstanding commitments, grouped by status.
 | COM-20260813-003 | 90-Day Post-Workshop Action Plan Execution | faurani-jaafar | STK-20260813-001 (PERJASA) | 2026-12-02 | Draft | Medium |
 | COM-20260820-001 | RM5K CRC 2026 Sponsorship Payment — Finance Processing | Hadri | CRC 2026 Organising Committee (via Orange Ng) | 2026-08-29 | Active | Low |
 | COM-20260820-002 | Zulfeka to Check Schedule & Coordinate Working Group Sync-Up via Aishah | Zulfeka | DAF / Aras Integrasi | 2026-08-27 | Active | Low |
+| COM-20260820-003 | DAF Commits to Prepare 8-Section Consolidated POC Document for Monday Pre-Flight Check | DAF | Azrul / CSM | 2026-08-24 | Active | Medium |
 
 ## Overdue
 
