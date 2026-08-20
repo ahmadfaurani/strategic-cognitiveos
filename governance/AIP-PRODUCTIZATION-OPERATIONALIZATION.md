@@ -1,6 +1,6 @@
 ---
 id: GOV-AIP-PROD-OPS-001
-record_type: protocol
+record_type: document
 title: "Actionable Intelligence Protocol — Productization & Operationalization Enablement"
 created_at: 2026-08-20T11:42:00+00:00
 updated_at: 2026-08-20T11:42:00+00:00
@@ -31,7 +31,7 @@ related_records:
   - DOC-20260814-001 (ChainSentry MVP v3.0)
   - DOC-20260814-002 (VoronCitadel MVP v2.0)
   - DOC-20260814-003 (GovSec TIP MVP v3.0)
-document_type: protocol
+document_type: sop
 file_path: "governance/AIP-PRODUCTIZATION-OPERATIONALIZATION.md"
 version: "1.0"
 author: DAF

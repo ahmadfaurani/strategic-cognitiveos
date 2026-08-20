@@ -1,6 +1,6 @@
 ---
 id: GOV-TBH-REGISTRY-001
-record_type: registry
+record_type: document
 title: "TBH Registry — Roles To Be Hired"
 created_at: 2026-08-20T08:32:00+00:00
 updated_at: 2026-08-20T11:14:00+00:00
@@ -25,7 +25,7 @@ mission_alignment:
 related_records:
   - GOV-PORTFOLIO-REGISTER-001
   - SOP-COGNITIVE-LOOP-REVIEW-001
-document_type: register
+document_type: reference
 file_path: "governance/TBH-REGISTRY.md"
 version: "1.1"
 author: DAF
