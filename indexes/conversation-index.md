@@ -45,7 +45,8 @@ All conversation records, chronological.
 | CONV-20260819-004 | 2026-08-19 | CyberDSA 2026 (T-49) Market Positioning Alignment — Rashid ask + DAF definitive 6-layer narrative | DAF, Rashid Bin Ramli, WIG team | Active | High |
 | CONV-20260820-001 | CRC 2026 Sponsorship — Invitation, Strategic Framing & Finance Confirmation | 2026-08-20 | Email | DEC-20260820-001 — RM5K sponsorship approved (reduced from RM10K); customised package directed by DAF | INIT-20260820-001 |
 | CONV-20260820-002 | CSM × Aras Working Group Sync-Up Proposed & Accepted — Post-MOU Mobilization Thread | 2026-08-20 | Email | DEC-20260820-002 — Zulfeka agrees to smaller working group; Amelia introduced; Aishah confirmed as CSM coordinator | INIT-20260813-005 |
+| CONV-20260820-003 | Azrul Responds — VoronCitadel POC for Bursa Malaysia Proposed (Gate 1 Activation) | 2026-08-20 | Email | DEC-20260820-003 — Azrul kicks off VoronCitadel POC for Bursa Malaysia; Monday 10am deep dive proposed | INIT-20260804-001 |
 
 ---
 
-_Changelog: 2026-08-20 — Added CONV-20260820-001 (CRC 2026 sponsorship email thread). Added CONV-20260820-002 (CSM-Aras working group sync-up, Post-MOU thread).
+_Changelog: 2026-08-20 — Added CONV-20260820-001 (CRC 2026 sponsorship email thread). Added CONV-20260820-002 (CSM-Aras working group sync-up, Post-MOU thread). Added CONV-20260820-003 (Azrul Gate 1 activation — Bursa Malaysia VoronCitadel POC).

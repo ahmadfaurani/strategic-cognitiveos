@@ -25,7 +25,9 @@ All action records, grouped by status.
 | ACT-20260820-001 | Engage CRC 2026 Organising Committee re: Customised Participation Package | DAF | 2026-08-28 | High |
 | ACT-20260820-002 | Confirm RM5K CRC 2026 Sponsorship Payment Processed by Finance | Hadri | 2026-08-29 | High |
 | ACT-20260820-003 | Schedule & Hold CSM-Aras Working Group Sync-Up (Week of Aug 25) | Amelia Nadia | 2026-08-29 | High |
+| ACT-20260820-004 | Prepare VoronCitadel POC Project Brief for Bursa Malaysia (Monday 10am MYT) | DAF/Hadri | 2026-08-24 | Critical |
+| ACT-20260820-005 | Attend VoronCitadel POC Deep Dive with Azrul/CSM — Monday 10am MYT | Amelia/DAF/Hadri | 2026-08-24 | Critical |
 
 ---
 
-_Changelog: 2026-08-20 — Added ACT-20260820-001 (CRC 2026 customised package engagement), ACT-20260820-002 (finance payment confirmation), and ACT-20260820-003 (CSM-Aras working group sync-up).
+_Changelog: 2026-08-20 — Added ACT-20260820-001 (CRC 2026 customised package engagement), ACT-20260820-002 (finance payment confirmation), ACT-20260820-003 (CSM-Aras working group sync-up), ACT-20260820-004 (VoronCitadel POC brief for Bursa), ACT-20260820-005 (attend Bursa POC deep dive).
