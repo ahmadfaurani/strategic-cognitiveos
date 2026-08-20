@@ -29,6 +29,7 @@ All identified risks, grouped by status.
 | RSK-20260820-005 | ChainSentry: Four supplier credentials exposed and unrotated — Critical exposure window open | security | INIT-20260811-001 | Occurred | Critical | Critical | Active |
 | RSK-20260820-006 | ChainSentry: Address-security integration stubbed on trunk but live on deployment — regression risk | technical-debt | INIT-20260811-001 | High | High | Critical | Active |
 | RSK-20260820-007 | ChainSentry: Deployment not describable — 43 uncommitted mods, no migration ledger, 29 commits behind trunk | technical-debt | INIT-20260811-001 | Occurred | High | Critical | Active |
+| RSK-20260820-008 | Monday Aug 24 Convergence — 3 strategic tracks converging on same week | timing | INIT-20260811-001 | High | Medium | High | Active |
 
 ## Mitigating
 
