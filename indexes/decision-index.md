@@ -36,7 +36,8 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260819-005 | Adopt CyberDSA 2026 Executive Stakeholder Engagement & Activation Framework | 2026-08-19 | DAF | Confirmed (High) | DOC-20260819-001 (6-stakeholder dependency chain, 6 gates, 6 waves) |
 | DEC-20260819-006 | 2026-08-19 | Adopt 'National-Grade, Full-Stack Sovereign Technology Deployment' as CyberDSA 2026 market positioning narrative | DAF | Approved | Critical |
 | DEC-20260820-001 | 2026-08-20 | RM5K CRC 2026 Sponsorship Approved — Finance Processing | DAF | Active | CONV-20260820-001 |
+| DEC-20260820-002 | 2026-08-20 | CSM-Aras Smaller Working Group Established — Zulfeka Accepts Sync-Up | Zulfeka | Active | CONV-20260820-002 |
 
 ---
 
-_Changelog: 2026-08-20 — Added DEC-20260820-001 (CRC 2026 RM5K sponsorship approval).
+_Changelog: 2026-08-20 — Added DEC-20260820-001 (CRC 2026 RM5K sponsorship approval). Added DEC-20260820-002 (CSM-Aras working group accepted by Zulfeka).

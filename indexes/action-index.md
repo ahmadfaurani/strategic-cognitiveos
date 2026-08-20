@@ -24,7 +24,8 @@ All action records, grouped by status.
 | ACT-20260819-011 | 2026-08-21 | DAF ↔ Azzatullina synch up — CyberDSA 2026 creative/branding direction | DAF | Pending | High |
 | ACT-20260820-001 | Engage CRC 2026 Organising Committee re: Customised Participation Package | DAF | 2026-08-28 | High |
 | ACT-20260820-002 | Confirm RM5K CRC 2026 Sponsorship Payment Processed by Finance | Hadri | 2026-08-29 | High |
+| ACT-20260820-003 | Schedule & Hold CSM-Aras Working Group Sync-Up (Week of Aug 25) | Amelia Nadia | 2026-08-29 | High |
 
 ---
 
-_Changelog: 2026-08-20 — Added ACT-20260820-001 (CRC 2026 customised package engagement) and ACT-20260820-002 (finance payment confirmation).
+_Changelog: 2026-08-20 — Added ACT-20260820-001 (CRC 2026 customised package engagement), ACT-20260820-002 (finance payment confirmation), and ACT-20260820-003 (CSM-Aras working group sync-up).
