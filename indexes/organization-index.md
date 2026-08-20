@@ -7,6 +7,7 @@ All registered organization records, chronological.
 | ORG-20260820-001 | CyberSecurity Malaysia | government-agency | cybersecurity | Active | STK-20260804-001, STK-20260804-002 |
 | ORG-20260820-002 | Nexuscorpgroup Sdn Bhd | private-company | law-enforcement | None (intelligence subject) | STK-20260820-005 |
 | ORG-20260820-003 | Al Khairi Group Berhad | private-company | private-sector | None (intelligence subject) | STK-20260820-004 |
+| ORG-20260820-004 | Data Research Acquisition & Development (RADAR) | internal-division | government | Active | faurani-jaafar |
 
 ---
 

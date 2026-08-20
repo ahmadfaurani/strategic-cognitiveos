@@ -60,4 +60,4 @@ _— Updated 2026-08-13 (Intake 2): Added INIT-20260813-002 (CSM AI Token Alloca
 
 | ID | Title | Owner | Status | Next Review |
 |----|-------|-------|--------|-------------|
-| — | *Pending* | — | — | — |
+| INIT-20260820-002 | RADAR — Data Research Acquisition & Development Agency | faurani-jaafar | Draft | — |
