@@ -90,6 +90,15 @@ All registered stakeholders, grouped by type.
 | STK-20260820-001 | Dr. Ji-Jian Chin | University of Plymouth / CRC 2026 Organising Committee | New | Customised participation package discussion |
 | STK-20260820-002 | Orange Ng | WIG | New | Finance payment confirmation |
 
+## Intelligence Subjects (OSINT — no direct engagement)
+
+| ID | Name | Role | Organisation | Relationship Status | Source |
+|----|------|------|--------------|--------------------|--------|
+| STK-20260820-003 | Sayed Amir Muzzakkir Al Sayed Mohamad | Defendant — MACC corruption trial (RM350K, PDRM RMPNet) | Former political secretary to ex-Home Minister | None (intelligence subject) | DOC-20260820-001 |
+| STK-20260820-004 | Datuk Seri Mohd Khairi Mat Jahya | MD — 15th prosecution witness | Al Khairi Group Berhad | None (intelligence subject) | DOC-20260820-001 |
+| STK-20260820-005 | Wan Azhar Mohamed Yusof | MD — bribe payer | Nexuscorpgroup Sdn Bhd | None (intelligence subject) | DOC-20260820-001 |
+| STK-20260820-006 | Datuk Seri Hamzah Zainudin | Former Home Minister — named in testimony | Ministry of Home Affairs (former) | None (intelligence subject) | DOC-20260820-001 |
+
 ## Prospect
 
 | ID | Name | Organisation | Relationship Status | Next Engagement |
