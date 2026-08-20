@@ -100,12 +100,7 @@
       }
     },
     "risk_of_non_delivery": {
-      "type": "string",
-      "enum": [
-        "high",
-        "medium",
-        "low"
-      ]
+      "type": "string"
     },
     "escalation_date": {
       "type": "string",

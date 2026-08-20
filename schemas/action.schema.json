@@ -115,7 +115,12 @@
         "consulted",
         "informed",
         "delegated",
-        "deferred"
+        "deferred",
+        "critical",
+        "high",
+        "medium",
+        "strategic",
+        "monitored"
       ]
     },
     "completion_evidence": {

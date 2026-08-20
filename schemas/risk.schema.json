@@ -121,7 +121,8 @@
       "enum": [
         "high",
         "medium",
-        "low"
+        "low",
+        "occurred"
       ]
     },
     "impact": {
@@ -129,7 +130,8 @@
       "enum": [
         "high",
         "medium",
-        "low"
+        "low",
+        "critical"
       ]
     },
     "mitigation_strategy": {

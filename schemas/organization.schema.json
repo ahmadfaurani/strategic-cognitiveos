@@ -46,8 +46,7 @@
         "validated",
         "approved",
         "completed",
-        "archived",
-        "superseded"
+        "in-progress"
       ]
     },
     "priority": {
@@ -126,16 +125,10 @@
         "regulatory-body",
         "state-owned-enterprise",
         "private-company",
-        "public-company",
-        "academic-institution",
-        "research-institute",
-        "non-profit",
+        "financial-exchange-cnii",
+        "internal-division",
         "industry-association",
-        "international-organisation",
-        "military",
-        "law-enforcement",
-        "political-party",
-        "internal-division"
+        "academic-institution"
       ]
     },
     "sector": {
@@ -146,13 +139,15 @@
         "financial",
         "telecommunications",
         "energy",
-        "healthcare",
-        "education",
-        "critical-infrastructure",
-        "private-sector",
+        "events-exhibitions",
+        "law-enforcement",
         "cybersecurity",
         "technology",
-        "consulting"
+        "consulting",
+        "healthcare",
+        "financial-services",
+        "private-sector",
+        "education"
       ]
     },
     "strategic_relevance": {
@@ -167,7 +162,7 @@
         "active",
         "trusted",
         "dormant",
-        "at-risk"
+        "none"
       ]
     },
     "engagement_objective": {

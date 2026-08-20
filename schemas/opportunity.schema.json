@@ -143,7 +143,9 @@
         "partnership",
         "strategic",
         "technical",
-        "market"
+        "market",
+        "poc-commercial-conversion",
+        "new-product"
       ]
     },
     "source_stakeholder": {
@@ -156,12 +158,7 @@
       "type": "string"
     },
     "probability": {
-      "type": "string",
-      "enum": [
-        "low",
-        "medium",
-        "high"
-      ]
+      "type": "string"
     },
     "related_initiative": {
       "type": "string"

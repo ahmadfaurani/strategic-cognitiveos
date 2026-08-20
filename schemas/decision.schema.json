@@ -79,7 +79,11 @@
         "flagship",
         "incubation",
         "watch-list",
-        "operational"
+        "operational",
+        "strategic",
+        "infrastructure",
+        "tier-1-flagship",
+        "tier-2-incubation"
       ]
     },
     "priority": {

@@ -123,21 +123,10 @@
         "internal-team",
         "partner",
         "prospect",
+        "external",
+        "business",
         "academic",
-        "technical",
-        "political",
-        "defence",
-        "regulatory",
-        "industry",
-        "regulator",
-        "private-sector",
-        "international-partner",
-        "vendor",
-        "customer",
-        "law-enforcement",
-        "military",
-        "non-profit",
-        "industry-association"
+        "political"
       ]
     },
     "organisation": {
@@ -151,7 +140,8 @@
       "enum": [
         "high",
         "medium",
-        "low"
+        "low",
+        "tier-1"
       ]
     },
     "interest_level": {
@@ -170,7 +160,7 @@
         "active",
         "trusted",
         "dormant",
-        "at-risk"
+        "none"
       ]
     },
     "strategic_relevance": {

@@ -147,7 +147,11 @@
         "sop",
         "reference",
         "presentation",
-        "analysis"
+        "analysis",
+        "agenda",
+        "brand-strategy",
+        "news-article",
+        "registry-log"
       ]
     },
     "file_path": {

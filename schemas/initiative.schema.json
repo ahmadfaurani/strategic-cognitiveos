@@ -50,7 +50,10 @@
         "flagship",
         "incubation",
         "watch-list",
-        "operational"
+        "operational",
+        "strategic",
+        "tier-1-flagship",
+        "tier-2-incubation"
       ]
     },
     "status": {
@@ -109,8 +112,9 @@
         "prototype",
         "demo-ready",
         "pilot-ready",
+        "collaboration-framework-agreed",
+        "proposal-stage",
         "delivery-ready",
-        "commercial-ready",
         "scale-ready"
       ]
     },

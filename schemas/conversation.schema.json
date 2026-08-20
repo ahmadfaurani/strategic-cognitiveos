@@ -106,8 +106,12 @@
       "enum": [
         "flagship",
         "incubation",
-        "watch-list",
-        "operational"
+        "infrastructure",
+        "operational",
+        "strategic",
+        "tier-1-flagship",
+        "tier-2-incubation",
+        "watch-list"
       ]
     },
     "key_decisions": {
