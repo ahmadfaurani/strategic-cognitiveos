@@ -1,2 +1,22 @@
 claim_id,workstream,claim,source_name,source_type,source_url,source_date,evidence_type,tier,validation_status,confidence_score,authority,traceability,recency,consistency,completeness,issue_gap,owner,action_required,last_reviewed
 CVS-MAST-001,MASTER,Example: CVS framework deployed as universal standard,Head of Intelligence directive,,2026-08-04,Internal document,T1,Verified,10,2,2,2,2,2,None,DAF,None,2026-08-04
+CVS-COG-001,CogOS,120 total PIRs in CSCDC workstream,pir-inventory-index.md,L2,,2026-07-25,Internal record,T2,Partially Verified,7,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-002,CogOS,90 PIRs intelligence-resolved or partially resolved,pir-status-report-2026-08-03.md,L2,,2026-08-03,Internal report,T2,Partially Verified,7,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-003,CogOS,1 PIR synced to record layer,pir-status-report-2026-08-03.md,L2,,2026-08-03,Internal report,T2,Partially Verified,7,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-004,CogOS,16 Critical PIRs in inventory,pir-inventory-index.md,L2,,2026-07-25,Internal record,T2,Partially Verified,7,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-005,CogOS,20 status values in PIR schema,pir.schema.json,L2,,2026-07-25,Schema file,T2,Partially Verified,7,2,2,2,1,1,None,Ember,None,2026-08-17
+CVS-COG-006,CogOS,6 active collection cronjobs CJ-1 through CJ-6,pir-inventory-index.md,L2,,2026-07-25,Internal record,T2,Partially Verified,7,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-007,CogOS,12 Tier-1 OSINT-unresolvable PIRs,pir-status-report-2026-08-03.md,L2,,2026-08-03,Internal report,T2,Partially Verified,7,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-008,CogOS,3 OSINT-unresolvable Critical PIRs,pir-status-report-2026-08-03.md,L2,,2026-08-03,Internal report,T2,Partially Verified,7,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-009,CogOS,30 Resolved 60 Partial 30 Open PIRs,pir-status-report-2026-08-03.md,L2,,2026-08-03,Internal report,T2,Partially Verified,7,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-010,CogOS,Workstream created 2026-07-25,pir-status-report-2026-08-03.md,L2,,2026-08-03,Internal report,T2,Partially Verified,7,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-011,CogOS,ADEP-001 §44 governs Closure Gate,closure-gate-checklist.md,L2,,2026-08-16,Governance doc,T2,Partially Verified,7,2,2,2,1,1,None,Ember,None,2026-08-17
+CVS-COG-012,CogOS,PIR closure is prerequisite to 16-point gate,ADEP-001 §44 structural design,L2,,2026-08-16,Governance doc,T3,Inferred,5,2,2,1,1,0,None,Ember,None,2026-08-17
+CVS-COG-013,CogOS,Five lifecycle phases organise 20 statuses,pir.schema.json analysis,L2,,2026-08-17,Schema analysis,T3,Inferred,5,2,2,2,1,0,None,Ember,None,2026-08-17
+CVS-COG-014,CogOS,Minimum evidence thresholds by priority,CVS-FRAMEWORK.md §3,L1,,2026-08-04,Governance doc,T3,Inferred,5,2,2,1,1,1,None,Ember,None,2026-08-17
+CVS-COG-015,CogOS,Authority exception for Low/Medium auto-fulfil,Operational design choice,L5,,2026-08-17,Design decision,T3,Inferred,4,0,1,2,1,0,None,Ember,None,2026-08-17
+CVS-COG-016,CogOS,SLA targets TTFI/TTC,Designed targets,L5,,2026-08-17,Design decision,T4,Pending Validation,3,0,0,1,1,1,None,Ember,Empirical calibration needed,2026-08-17
+CVS-COG-017,CogOS,Auto-escalation triggers §3.4 §7,CJ-7 enforcement logic,L5,,2026-08-17,Design decision,T4,Pending Validation,2,0,0,0,1,1,Not implemented,Ember,Implementation required,2026-08-17
+CVS-COG-018,CogOS,Implementation roadmap dates §13,Target dates,L5,,2026-08-17,Planning,T4,Pending Validation,3,0,1,0,1,1,Pending DAF availability,Ember,None,2026-08-17
+CVS-COG-019,CogOS,KPI targets §11,Designed targets,L5,,2026-08-17,Design decision,T4,Pending Validation,3,0,0,0,1,1,No baseline data,Ember,Data collection needed,2026-08-17
+CVS-COG-020,CogOS,30/60/90/180 max deferral periods,Designed to mirror TTC limits,L5,,2026-08-17,Design decision,T4,Pending Validation,3,0,1,0,1,1,None,Ember,None,2026-08-17
