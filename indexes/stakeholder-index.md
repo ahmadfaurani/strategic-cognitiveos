@@ -82,7 +82,7 @@ All registered stakeholders, grouped by type.
 | STK-20260803-006 | Farul Mohd Ghazali | Legal advisor & AI infrastructure/platform architecture | MTAI | Active | CSM partnership AI infrastructure + NDA review |
 | STK-20260808-001 | Kenny Kok | COO | MTAI Sdn Bhd | Active | Working session (pending agreement) |
 | STK-20260808-002 | Azzatullina Pawanchik | CMO | WIG/MTAI | New | Campaign guidance + working session |
-| STK-20260813-014 | Amelia Nadia Azharul Nahar | Sr. Stakeholder Engagement & Strategic Marketing Executive (Event Lead — CyberDSA) | WIG | Active | CSM coordination + CyberDSA event lead |
+| STK-20260813-014 | Amelia Nadia Azharul Nahar | **Cybersecurity Practice Strategic Stakeholder Engagement Lead** (DEC-20260820-010) | WIG | Active | CSM working group sync-up (week of Aug 25) + Monday POC pre-flight (Aug 24) |
 | STK-20260813-015 | Rashid Bin Ramli | Event Activation Support | WIG/MTAI | New | Event operating plan assignment |
 | STK-20260813-016 | Said Farid Zainudin | Event Activation Support | WIG/MTAI | New | Event operating plan assignment |
 | STK-20260815-004 | Norshaza Hanis | Marketing Team | WIG | New | Role clarification |
