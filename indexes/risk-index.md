@@ -24,6 +24,8 @@ All identified risks, grouped by status.
 | RSK-20260816-003 | 'Malaysia's First' media claim unsupported — reputational exposure | reputational | INIT-20260813-006 | Medium | High | High | Mitigating — DOC-20260818-002 §9 provides messaging guardrails; ACT-20260818-004 enforces |
 | RSK-20260819-001 | Personality-dependent CSM relationship — auto-aligning contacts before requirement definition | strategic | INIT-20260813-005 | Medium | High | Medium | Active |
 | RSK-20260820-002 | PDRM Procurement Integrity Risk — Political Intermediation in Police Technology Tenders | reputational | — | Medium | Medium | Medium | Identified |
+| RSK-20260820-003 | No Head of Engineering — Blocks VoronCitadel POC Scaling | operational | INIT-20260820-003 | High | High | Critical | Active |
+| RSK-20260820-004 | Hadri HoE Dual-Role Risk — CSM Tracks Lose Owner if Promoted | operational | INIT-20260820-003 | Medium | High | High | Active |
 
 ## Mitigating
 

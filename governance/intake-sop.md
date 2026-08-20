@@ -31,7 +31,7 @@ author: DAF
 
 # CognitiveOS Intake SOP — Standard Operating Procedure
 
-> **Version:** 1.1  
+> **Version:** 1.2  
 > **Authority:** Ahmad Faurani Jaafar (DAF)  
 > **Status:** Active — institutionalized 2026-08-04  
 > **Scope:** All CognitiveOS ingestion events, all sessions, all agents  
@@ -267,6 +267,26 @@ CognitiveOS intake is triggered when any of the following are received:
 | Partner or client communication | Email/letter | CONV, STK, ACT, COM (if commitments made) |
 | Internal decision or determination | Conversation | DEC, ACT |
 | Risk identification | Analysis | RSK, ACT (mitigation actions) |
+| **"That's it" trigger** | **Telegram (DAF)** | **Session-wide intake — all entities, decisions, risks, and actions from the entire conversation** |
+
+### "That's it" Trigger — Standard Modus Operandi
+
+**Authority:** DAF (2026-08-20)
+**Status:** Institutionalized as standard operating procedure
+
+When DAF sends the message **"that's it"** (or close variant), the agent MUST:
+
+1. **Review the entire session** — scan all conversation content from the session
+2. **Extract all entities** — initiatives, stakeholders, decisions, risks, actions, documents, assessments, organizations, lessons learned
+3. **Create or update records** following the 9-step Intake Workflow (§2)
+4. **Update all indexes** in the same commit
+5. **Commit with scoped `git add`** (never `git add -A`)
+6. **Push to remote**
+7. **Deliver confirmation notification** (§4 format)
+
+This trigger is **always-on** — it does not require a per-event directive to activate. The session IS the intake event. Every decision, risk, action, and entity discussed during the session is material for CognitiveOS ingestion.
+
+**Key principle:** The "that's it" trigger is the session-level analog of the email intake trigger. Just as a forwarded email triggers intake of that email's content, "that's it" triggers intake of the entire session's strategic content.
 
 ---
 
@@ -313,3 +333,4 @@ Any intake that fails to produce the confirmation notification should be treated
 |---------|------|--------|---------|
 | 1.0 | 2026-08-04 | DAF (authority), Ember (drafter) | Initial institutionalization. Confirmation format standardized based on UITM (Aug 3) and CSM VoronDRQ GTM (Aug 4) intake precedents. |
 | 1.1 | 2026-08-19 | DAF (authority), Laras (drafter) | §3 Record Type Matrix expanded from 9 to 18 types (added ART, ASSESS, BRIEF, DOC, DRAFT, LSN, OPP, ORG, PIR). Non-Record Directories section added. §6 `git add -A` replaced with scoped `git add` path whitelist (Lesson #6 enforcement). Taxonomy validation added to Quality Checklist as enforced step. `outcome.schema.json` created (was missing). Root cause: schemas expanded to 18 types but SOP never updated — recurring meta-pattern of canonical layer evolving without enforcement layer following. |
+| 1.2 | 2026-08-20 | DAF (authority), Laras (drafter) | §5 "That's it" trigger added as standard modus operandi — session-level intake trigger. When DAF sends "that's it", the entire session is ingested as a CognitiveOS intake event. Institutionalized as always-on SOP. |

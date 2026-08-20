@@ -23,6 +23,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260808-003 | Red Team Division — National Offensive Security Capability Builder | faurani-jaafar | Active | Framed | 2026-08-22 |
 | INIT-20260810-003 | GovSec CyberDSA Product Launch Readiness | faurani-jaafar | Active | Prototype | Weekly (Aug–Oct) |
 | INIT-20260811-001 | Cybersecurity Flagship Product Consolidation & Productisation Programme | faurani-jaafar | Active | Concept — Three co-branded products defined for CyberDSA launch; alignment session proposed | 2026-08-22 |
+| INIT-20260820-003 | VoronCitadel POC Mode Activation — 6-7 POC + 3 Paying | DAF | Active | Framed — FTE model built, Teras as infra layer, HoE hire gates activation | 2026-08-27 |
 
 ## Incubation
 
