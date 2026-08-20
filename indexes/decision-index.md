@@ -43,7 +43,10 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260820-006 | 2026-08-20 | RADAR Operationally Managed by LARAS | DAF | Active | INIT-20260820-002, ORG-20260820-004 |
 | DEC-20260820-007 | 2026-08-20 | Organizational Architecture: CTO Farul / Teras Infrastructure / CyberSecurity Practice Sovereign | DAF | Active | INIT-20260820-003, STK-20260803-006, STK-20260804-003 |
 | DEC-20260820-008 | 2026-08-20 | Teras AI Platform as Infrastructure Layer for VoronCitadel POC Deployments | DAF | Active | INIT-20260820-003, DOC-20260820-003, ASSESS-20260820-001 |
+| DEC-20260820-009 | 2026-08-20 | Teras as Infrastructure Layer for ALL CyberSecurity Practice Products — VoronCitadel, GovSec-TIP, ChainSentry | DAF | Active | DEC-20260820-007, DEC-20260820-008, DOC-20260820-003, INIT-20260820-003 |
+| DEC-20260820-010 | 2026-08-20 | ChainSentry rebranded to chain:SENTRY — new product family with chain:HARVEST | Hadri | Active | CONV-20260820-006, OPP-20260820-002, INIT-20260811-001 |
+| DEC-20260820-011 | 2026-08-20 | DAF directive: documentation drive with deadlines for all product documentation | DAF | Active | CONV-20260820-006, INIT-20260811-001, DEC-20260811-001, ACT-20260820-013 |
 
 ---
 
-_Changelog: 2026-08-20 — Added DEC-20260820-001 through 004 (CRC 2026 sponsorship, CSM-Aras working group, Bursa POC kick-off, 8-section POC document commitment). Added DEC-20260820-005 (RADAR cronjob governance + RMR marking mandatory).
+_Changelog: 2026-08-20 — Added DEC-20260820-001 through 004 (CRC 2026 sponsorship, CSM-Aras working group, Bursa POC kick-off, 8-section POC document commitment). Added DEC-20260820-005 (RADAR cronjob governance + RMR marking mandatory). Added DEC-20260820-010 (chain:SENTRY rebrand + chain:HARVEST). Added DEC-20260820-011 (DAF documentation drive directive).
