@@ -1,39 +1,45 @@
 ---
 id: GOV-AIP-PROD-OPS-001
 record_type: document
-title: "Actionable Intelligence Protocol — Productization & Operationalization Enablement"
-created_at: 2026-08-20T11:42:00+00:00
-updated_at: 2026-08-20T11:42:00+00:00
+title: Actionable Intelligence Protocol — Productization & Operationalization Enablement
+created_at: 2026-08-20 11:42:00+00:00
+updated_at: 2026-08-20 11:42:00+00:00
 owner: DAF
 status: active
 priority: critical
 sensitivity: internal
-lifecycle_state: active
+lifecycle_state: canonical
 confidence: high
 tags:
-  - domain/governance
-  - domain/portfolio-governance
-  - domain/productization
-  - domain/operationalization
-  - domain/cybersecurity-productisation
+- domain/governance
+- domain/portfolio-governance
+- domain/productization
+- domain/operationalization
+- domain/cybersecurity-productisation
 source:
   type: direct
-  reference: "DAF directive 2026-08-20 11:40 UTC — post-MVP portfolio review"
-summary: "Protocol converting the 3-product MVP portfolio review into sequenced, gated, actionable productization and operationalization tracks. Covers product delivery, organisational capacity, commercial activation, and operational readiness."
-strategic_significance: "The portfolio has 3 MVP specs but no unified productization pathway. VoronCitadel is production-deployed but GTM-stalled. GovSec TIP targets CyberDSA Oct 2026 with 11 deferrals. ChainSentry has 4 critical gaps blocking pilot. This protocol converts those gaps into sequenced action tracks with gates, owners, and exit criteria."
+  reference: DAF directive 2026-08-20 11:40 UTC — post-MVP portfolio review
+summary: Protocol converting the 3-product MVP portfolio review into sequenced, gated,
+  actionable productization and operationalization tracks. Covers product delivery,
+  organisational capacity, commercial activation, and operational readiness.
+strategic_significance: The portfolio has 3 MVP specs but no unified productization
+  pathway. VoronCitadel is production-deployed but GTM-stalled. GovSec TIP targets
+  CyberDSA Oct 2026 with 11 deferrals. ChainSentry has 4 critical gaps blocking pilot.
+  This protocol converts those gaps into sequenced action tracks with gates, owners,
+  and exit criteria.
 mission_alignment:
-  - cybersecurity-productisation
-  - organisational-capability
-  - portfolio-governance
+- cybersecurity-productisation
+- organisational-capability
+- portfolio-governance
 related_records:
-  - GOV-PORTFOLIO-REGISTER-001
-  - GOV-TBH-REGISTRY-001
-  - DOC-20260814-001 (ChainSentry MVP v3.0)
-  - DOC-20260814-002 (VoronCitadel MVP v2.0)
-  - DOC-20260814-003 (GovSec TIP MVP v3.0)
+- GOV-PORTFOLIO-REGISTER-001
+- GOV-TBH-REGISTRY-001
+- DOC-20260814-001 (ChainSentry MVP v3.0)
+- DOC-20260814-002 (VoronCitadel MVP v2.0)
+- DOC-20260814-003 (GovSec TIP MVP v3.0)
 document_type: sop
-file_path: "governance/AIP-PRODUCTIZATION-OPERATIONALIZATION.md"
-version: "1.0"
+file_path: governance/AIP-PRODUCTIZATION-OPERATIONALIZATION.md
+version: '1.0'
 author: DAF
 ---
 

@@ -1,33 +1,36 @@
 ---
 id: GOV-TBH-REGISTRY-001
 record_type: document
-title: "TBH Registry — Roles To Be Hired"
-created_at: 2026-08-20T08:32:00+00:00
-updated_at: 2026-08-20T11:14:00+00:00
+title: TBH Registry — Roles To Be Hired
+created_at: 2026-08-20 08:32:00+00:00
+updated_at: 2026-08-20 11:14:00+00:00
 owner: DAF
 status: active
 priority: high
 sensitivity: internal
-lifecycle_state: active
+lifecycle_state: canonical
 confidence: high
 tags:
-  - domain/governance
-  - domain/portfolio-governance
-  - domain/organisational-design
+- domain/governance
+- domain/portfolio-governance
+- domain/organisational-design
 source:
   type: direct
-  reference: "DAF authority — created per directive 2026-08-20 08:32 UTC"
-summary: "Registry of roles that are identified as required but not yet hired. Each entry tracks the role, its scope, what it blocks, and hiring status."
-strategic_significance: "Prevents portfolio governance gaps from remaining invisible. A TBH role that blocks critical actions is a structural risk — this registry makes it visible and trackable."
+  reference: DAF authority — created per directive 2026-08-20 08:32 UTC
+summary: Registry of roles that are identified as required but not yet hired. Each
+  entry tracks the role, its scope, what it blocks, and hiring status.
+strategic_significance: Prevents portfolio governance gaps from remaining invisible.
+  A TBH role that blocks critical actions is a structural risk — this registry makes
+  it visible and trackable.
 mission_alignment:
-  - organisational-capability
-  - portfolio-governance
+- organisational-capability
+- portfolio-governance
 related_records:
-  - GOV-PORTFOLIO-REGISTER-001
-  - SOP-COGNITIVE-LOOP-REVIEW-001
+- GOV-PORTFOLIO-REGISTER-001
+- SOP-COGNITIVE-LOOP-REVIEW-001
 document_type: reference
-file_path: "governance/TBH-REGISTRY.md"
-version: "1.1"
+file_path: governance/TBH-REGISTRY.md
+version: '1.1'
 author: DAF
 ---
 

@@ -27,8 +27,10 @@ related_records:
 - INT-20260815-002
 - INIT-20260811-001
 - INIT-20260810-003
-lifecycle_state: active
-summary: 'From: DAF, Director – Cyber Security Practice, Aras Integrasi Sdn Bhd To: Tier 1 War-Room Core Team Date: 15 August 2026 Classification: Internal — Confidential Reference: DEC-20260815-004 (War-Room A'
+lifecycle_state: canonical
+summary: 'From: DAF, Director – Cyber Security Practice, Aras Integrasi Sdn Bhd To:
+  Tier 1 War-Room Core Team Date: 15 August 2026 Classification: Internal — Confidential
+  Reference: DEC-20260815-004 (War-Room A'
 strategic_significance: Operational conversation.
 mission_alignment: []
 ---

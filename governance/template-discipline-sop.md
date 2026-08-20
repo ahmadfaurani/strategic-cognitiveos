@@ -2,31 +2,35 @@
 id: GOV-TEMPLATE-DISCIPLINE-001
 record_type: document
 title: Template Discipline SOP
-created_at: 2026-08-04T00:00:00+00:00
-updated_at: 2026-08-19T12:00:00+00:00
+created_at: 2026-08-04 00:00:00+00:00
+updated_at: 2026-08-19 12:00:00+00:00
 owner: DAF
 status: active
 priority: high
 sensitivity: internal
-lifecycle_state: active
+lifecycle_state: canonical
 confidence: high
 tags:
-  - domain/cognitiveos-operations
-  - domain/governance
-  - domain/development-governance
+- domain/cognitiveos-operations
+- domain/governance
+- domain/development-governance
 source:
   type: direct
-  reference: "DAF authority, 2026-08-04"
-summary: "Mandatory process for CognitiveOS record creation — template selection, field completion, and validation before commit. Governs the three-layer system: schema (source of truth) → template (authoring interface) → validator (gate)."
-strategic_significance: "Template discipline is the structural integrity layer of CognitiveOS. Without it, records enter git with missing fields, wrong enum values, and broken cross-references — degrading the entire knowledge base."
+  reference: DAF authority, 2026-08-04
+summary: 'Mandatory process for CognitiveOS record creation — template selection,
+  field completion, and validation before commit. Governs the three-layer system:
+  schema (source of truth) → template (authoring interface) → validator (gate).'
+strategic_significance: Template discipline is the structural integrity layer of CognitiveOS.
+  Without it, records enter git with missing fields, wrong enum values, and broken
+  cross-references — degrading the entire knowledge base.
 mission_alignment:
-  - sovereign-ai
-  - intelligence-enablement
+- sovereign-ai
+- intelligence-enablement
 related_records:
-  - GOV-INTAKE-SOP-001
+- GOV-INTAKE-SOP-001
 document_type: sop
-file_path: "governance/template-discipline-sop.md"
-version: "1.1"
+file_path: governance/template-discipline-sop.md
+version: '1.1'
 author: DAF
 ---
 

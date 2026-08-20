@@ -9,7 +9,7 @@ version: canonical
 date: 2026-08-14
 source_authority: DAF
 sensitivity: confidential
-status: canonical
+status: archived
 tags:
 - domain/cybersecurity
 - domain/attack-surface-management
@@ -25,7 +25,8 @@ owner: DAF
 priority: medium
 lifecycle_state: canonical
 confidence: medium
-summary: '> Canonical baseline document - uploaded by DAF, 14 August 2026 > > CONFIDENTIAL - FOR EXECUTIVE AND ENGINEERING REVIEW'
+summary: '> Canonical baseline document - uploaded by DAF, 14 August 2026 > > CONFIDENTIAL
+  - FOR EXECUTIVE AND ENGINEERING REVIEW'
 strategic_significance: 'Document record. Priority: None.'
 mission_alignment: []
 related_records: []

@@ -1,33 +1,35 @@
 ---
 id: GOV-SOP-COGNITIVE-LOOP-REVIEW-001
 record_type: document
-title: "SOP: Cognitive Loop Review Against Strategic Objective"
-created_at: 2026-08-04T00:00:00+00:00
-updated_at: 2026-08-20T07:38:00+00:00
+title: 'SOP: Cognitive Loop Review Against Strategic Objective'
+created_at: 2026-08-04 00:00:00+00:00
+updated_at: 2026-08-20 07:38:00+00:00
 owner: DAF
 status: active
 priority: high
 sensitivity: internal
-lifecycle_state: active
+lifecycle_state: canonical
 confidence: high
 tags:
-  - domain/cognitiveos-operations
-  - domain/governance
+- domain/cognitiveos-operations
+- domain/governance
 source:
   type: direct
-  reference: "DAF authority"
-summary: "Governance reference document for SOP: Cognitive Loop Review Against Strategic Objective."
-strategic_significance: "Governs CognitiveOS operational standards and procedures."
+  reference: DAF authority
+summary: 'Governance reference document for SOP: Cognitive Loop Review Against Strategic
+  Objective.'
+strategic_significance: Governs CognitiveOS operational standards and procedures.
 mission_alignment:
-  - sovereign-ai
-  - intelligence-enablement
+- sovereign-ai
+- intelligence-enablement
 related_records:
-  - GOV-INTAKE-SOP-001
+- GOV-INTAKE-SOP-001
 document_type: sop
-file_path: "governance/SOP-COGNITIVE-LOOP-REVIEW.md"
-version: "1.1"
+file_path: governance/SOP-COGNITIVE-LOOP-REVIEW.md
+version: '1.1'
 author: DAF
-changelog: "v1.1 (2026-08-20): WIP integrated into Step 3 as sub-steps 3a-3b (full due diligence mode). v1.0 (2026-08-18): Initial SOP."
+changelog: 'v1.1 (2026-08-20): WIP integrated into Step 3 as sub-steps 3a-3b (full
+  due diligence mode). v1.0 (2026-08-18): Initial SOP.'
 ---
 
 # SOP: Cognitive Loop Review Against Strategic Objective

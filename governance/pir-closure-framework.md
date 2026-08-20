@@ -15,18 +15,20 @@ related:
 - process-maturity-register.md (readiness gates)
 - 03-VERIFICATION/CVS-FRAMEWORK.md (CVS Master Framework)
 tags:
-  - domain/intelligence-operations
-  - domain/cognitiveos-operations
-  - domain/governance
+- domain/intelligence-operations
+- domain/cognitiveos-operations
+- domain/governance
 status: active
 priority: medium
 sensitivity: confidential
-lifecycle_state: active
+lifecycle_state: canonical
 confidence: medium
 source:
   type: null
   reference: null
-summary: 'Purpose: Define the formal process by which an individual Priority Intelligence Requirement (PIR) transitions from active collection to a terminal state — fulfilled, cancelled, superseded, or deferred'
+summary: 'Purpose: Define the formal process by which an individual Priority Intelligence
+  Requirement (PIR) transitions from active collection to a terminal state — fulfilled,
+  cancelled, superseded, or deferred'
 strategic_significance: 'Document record. Priority: None.'
 mission_alignment: []
 related_records: []

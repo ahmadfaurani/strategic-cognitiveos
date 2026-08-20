@@ -2,21 +2,42 @@
 id: INT-20260819-001
 record_type: intelligence
 intelligence_type: stakeholder
-title: "Strategic Stakeholder Analytical Report — Ir. Dr. Megat Zuhairy bin Megat Tajuddin (NACSA CE)"
-created_at: 2026-08-19T11:00:00+00:00
-updated_at: 2026-08-19T11:00:00+00:00
+title: Strategic Stakeholder Analytical Report — Ir. Dr. Megat Zuhairy bin Megat Tajuddin
+  (NACSA CE)
+created_at: 2026-08-19 11:00:00+00:00
+updated_at: 2026-08-19 11:00:00+00:00
 owner: faurani-jaafar
 status: active
 priority: critical
 sensitivity: confidential
-lifecycle_state: active
-confidence: T2-SOURCE-BACKED
-tags: [domain/cybersecurity, org/nacsa, domain/sovereign-technology, domain/artificial-intelligence, domain/cryptography, sector/critical-infrastructure, milestone/cyberdsa-2026, lifecycle/active]
+lifecycle_state: canonical
+confidence: high
+tags:
+- domain/cybersecurity
+- org/nacsa
+- domain/sovereign-technology
+- domain/artificial-intelligence
+- domain/cryptography
+- sector/critical-infrastructure
+- milestone/cyberdsa-2026
+- lifecycle/active
 source:
   type: analytical-report
-  reference: "DAF-provided Strategic Stakeholder Analytical Report, 19 August 2026. Public-source stakeholder, institutional influence and strategic-alignment analysis."
-summary: "Comprehensive public-source analytical report on Ir. Dr. Megat Zuhairy bin Megat Tajuddin, Chief Executive of NACSA. Assesses institutional authority (Cyber Security Act 2024, CE Directives), observable strategic doctrine (sovereign resilience, AI security, cryptography/PQC, public-private collaboration), CyberDSA 2026 narrative alignment (VERY HIGH), power/interest (Tier 1, 5/5 across 7 dimensions), recommended engagement architecture (4-stage progressive model), and key risks. Analytical confidence: HIGH."
-strategic_significance: "Establishes Dr. Megat as Tier-1 national cybersecurity stakeholder with VERY HIGH alignment to sovereign cybersecurity capability proposition. Key finding: sovereign resilience is already part of NACSA's vocabulary — engagement should frame Aras capability as implementation contribution to existing national direction, not as vendor pitch. Critical input for Gate 6 (ACT-20260819-008) of CyberDSA 2026 activation framework."
+  reference: DAF-provided Strategic Stakeholder Analytical Report, 19 August 2026.
+    Public-source stakeholder, institutional influence and strategic-alignment analysis.
+summary: 'Comprehensive public-source analytical report on Ir. Dr. Megat Zuhairy bin
+  Megat Tajuddin, Chief Executive of NACSA. Assesses institutional authority (Cyber
+  Security Act 2024, CE Directives), observable strategic doctrine (sovereign resilience,
+  AI security, cryptography/PQC, public-private collaboration), CyberDSA 2026 narrative
+  alignment (VERY HIGH), power/interest (Tier 1, 5/5 across 7 dimensions), recommended
+  engagement architecture (4-stage progressive model), and key risks. Analytical confidence:
+  HIGH.'
+strategic_significance: 'Establishes Dr. Megat as Tier-1 national cybersecurity stakeholder
+  with VERY HIGH alignment to sovereign cybersecurity capability proposition. Key
+  finding: sovereign resilience is already part of NACSA''s vocabulary — engagement
+  should frame Aras capability as implementation contribution to existing national
+  direction, not as vendor pitch. Critical input for Gate 6 (ACT-20260819-008) of
+  CyberDSA 2026 activation framework.'
 mission_alignment:
 - sovereign-capability
 - nacsa-alignment
@@ -33,7 +54,8 @@ related_records:
 - CONV-20260819-003
 analytical_confidence: HIGH
 assessment_date: 2026-08-19
-assessment_type: "Public-source stakeholder, institutional influence and strategic-alignment analysis"
+assessment_type: Public-source stakeholder, institutional influence and strategic-alignment
+  analysis
 ---
 
 # INT-20260819-001 — Strategic Stakeholder Analytical Report: Dr. Megat Zuhairy (NACSA CE)

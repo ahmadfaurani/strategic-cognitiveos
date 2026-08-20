@@ -1,31 +1,31 @@
 ---
 id: GOV-STRATEGIC-OPERATING-PRINCIPLES-001
 record_type: document
-title: "Strategic Operating Principles"
-created_at: 2026-08-04T00:00:00+00:00
-updated_at: 2026-08-19T16:00:00+00:00
+title: Strategic Operating Principles
+created_at: 2026-08-04 00:00:00+00:00
+updated_at: 2026-08-19 16:00:00+00:00
 owner: DAF
 status: active
 priority: high
 sensitivity: internal
-lifecycle_state: active
+lifecycle_state: canonical
 confidence: high
 tags:
-  - domain/strategic-planning
-  - domain/governance
+- domain/strategic-planning
+- domain/governance
 source:
   type: direct
-  reference: "DAF authority"
-summary: "Governance reference document for Strategic Operating Principles."
-strategic_significance: "Governs CognitiveOS operational standards and procedures."
+  reference: DAF authority
+summary: Governance reference document for Strategic Operating Principles.
+strategic_significance: Governs CognitiveOS operational standards and procedures.
 mission_alignment:
-  - sovereign-ai
-  - intelligence-enablement
+- sovereign-ai
+- intelligence-enablement
 related_records:
-  - GOV-INTAKE-SOP-001
+- GOV-INTAKE-SOP-001
 document_type: reference
-file_path: "governance/strategic-operating-principles.md"
-version: "1.0"
+file_path: governance/strategic-operating-principles.md
+version: '1.0'
 author: DAF
 ---
 

@@ -1,20 +1,25 @@
 ---
 id: DOC-20260818-001
 record_type: document
-title: "PERJASA Government AI Systems Co-Design Workshop — Final Agenda"
-created_at: 2026-08-18T01:40:00+00:00
-updated_at: 2026-08-18T01:40:00+00:00
+title: PERJASA Government AI Systems Co-Design Workshop — Final Agenda
+created_at: 2026-08-18 01:40:00+00:00
+updated_at: 2026-08-18 01:40:00+00:00
 owner: faurani-jaafar
-status: final
+status: completed
 priority: high
 sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
 source:
   type: direct
-  reference: "Telegram direct from DAF, 2026-08-18 01:40 UTC (Adobe Scan PDF)"
-summary: "Comprehensive 8-page workshop agenda for PERJASA Government AI Systems Co-Design Workshop, Sep 2-3, 2026. Covers Discover→Design→Build→Validate delivery model, 4 focus areas (AI Infrastructure, AI Development, AI Cybersecurity, AI Productivity), 24-32 participants in 4 multidisciplinary teams, 3 decision gates, 100-point evaluation framework, 90-day post-workshop continuation pathway."
-strategic_significance: "Primary deliverable for INIT-20260813-001 (PERJASA × Aras Government AI Co-Design Lab). Gates all workshop logistics and participant preparation."
+  reference: Telegram direct from DAF, 2026-08-18 01:40 UTC (Adobe Scan PDF)
+summary: Comprehensive 8-page workshop agenda for PERJASA Government AI Systems Co-Design
+  Workshop, Sep 2-3, 2026. Covers Discover→Design→Build→Validate delivery model, 4
+  focus areas (AI Infrastructure, AI Development, AI Cybersecurity, AI Productivity),
+  24-32 participants in 4 multidisciplinary teams, 3 decision gates, 100-point evaluation
+  framework, 90-day post-workshop continuation pathway.
+strategic_significance: Primary deliverable for INIT-20260813-001 (PERJASA × Aras
+  Government AI Co-Design Lab). Gates all workshop logistics and participant preparation.
 mission_alignment:
 - INIT-20260813-001
 - INIT-20260725-001
@@ -26,11 +31,10 @@ related_records:
 - ACT-20260813-006
 - COM-20260813-001
 - STK-20260813-001
-# === DOCUMENT FIELDS [Operational] ===
 document_type: agenda
-file_path: "documents/DOC-20260818-001-perjasa-workshop-agenda.pdf"
+file_path: documents/DOC-20260818-001-perjasa-workshop-agenda.pdf
 related_initiative: INIT-20260813-001
-version: "Final — 12 August 2026"
+version: Final — 12 August 2026
 author: faurani-jaafar
 ---
 

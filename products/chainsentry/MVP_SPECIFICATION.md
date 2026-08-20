@@ -9,7 +9,7 @@ version: '3.0'
 date: 2026-08-14
 source_authority: DAF
 sensitivity: confidential
-status: canonical
+status: archived
 tags:
 - domain/cybersecurity
 - domain/blockchain-forensics
@@ -25,7 +25,9 @@ owner: DAF
 priority: medium
 lifecycle_state: canonical
 confidence: medium
-summary: '> Canonical baseline document - uploaded by DAF, 14 August 2026 > > Blockchain Forensics & Investigative Intelligence Workbench > CONFIDENTIAL - FOR EXECUTIVE AND ENGINEERING REVIEW'
+summary: '> Canonical baseline document - uploaded by DAF, 14 August 2026 > > Blockchain
+  Forensics & Investigative Intelligence Workbench > CONFIDENTIAL - FOR EXECUTIVE
+  AND ENGINEERING REVIEW'
 strategic_significance: 'Document record. Priority: None.'
 mission_alignment: []
 related_records: []

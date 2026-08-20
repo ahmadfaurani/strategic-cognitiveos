@@ -1,11 +1,11 @@
 ---
 id: DOC-20260818-002
 record_type: document
-title: "CyberDSA 2026 — Key Media & Brand Narrative"
-created_at: 2026-08-18T15:56:00+00:00
-updated_at: 2026-08-18T15:56:00+00:00
+title: CyberDSA 2026 — Key Media & Brand Narrative
+created_at: 2026-08-18 15:56:00+00:00
+updated_at: 2026-08-18 15:56:00+00:00
 owner: faurani-jaafar
-status: final
+status: completed
 priority: critical
 sensitivity: internal
 lifecycle_state: canonical
@@ -20,9 +20,19 @@ tags:
 - workstream/commercial-development
 source:
   type: direct
-  reference: "Telegram direct from DAF, 2026-08-18 15:56 UTC — DAF designates this as primary reference document"
-summary: "Comprehensive media and brand narrative for CyberDSA 2026 — DAF's primary reference document for all branding and communications. Directs branding team to frame the story as Malaysian sovereign technology capability — not three individual products. CyberDSA is the proof point; products are evidence. Includes message house, 5 priority narratives, technology proof points, recommended headlines, executive soundbites, brand language, messaging to avoid, visual brand narrative, target audience messaging, and strategic campaign line."
-strategic_significance: "Defines the overarching media and communications framework for CyberDSA 2026. Supersedes product-level positioning with capability-level positioning. Directly addresses RSK-20260816-003 (claim credibility) by providing messaging guardrails. Enables all downstream branding, PR, and stakeholder communications."
+  reference: Telegram direct from DAF, 2026-08-18 15:56 UTC — DAF designates this
+    as primary reference document
+summary: Comprehensive media and brand narrative for CyberDSA 2026 — DAF's primary
+  reference document for all branding and communications. Directs branding team to
+  frame the story as Malaysian sovereign technology capability — not three individual
+  products. CyberDSA is the proof point; products are evidence. Includes message house,
+  5 priority narratives, technology proof points, recommended headlines, executive
+  soundbites, brand language, messaging to avoid, visual brand narrative, target audience
+  messaging, and strategic campaign line.
+strategic_significance: Defines the overarching media and communications framework
+  for CyberDSA 2026. Supersedes product-level positioning with capability-level positioning.
+  Directly addresses RSK-20260816-003 (claim credibility) by providing messaging guardrails.
+  Enables all downstream branding, PR, and stakeholder communications.
 mission_alignment:
 - INIT-20260810-003
 - INIT-20260811-001
@@ -36,11 +46,10 @@ related_records:
 - INIT-20260810-003
 - INIT-20260811-001
 - INIT-20260813-006
-# === DOCUMENT FIELDS [Operational] ===
 document_type: brand-strategy
-file_path: "documents/DOC-20260818-002-cyberdsa-media-brand-narrative.md"
+file_path: documents/DOC-20260818-002-cyberdsa-media-brand-narrative.md
 related_initiative: INIT-20260810-003
-version: "1.0 — 18 August 2026"
+version: 1.0 — 18 August 2026
 author: faurani-jaafar
 ---
 

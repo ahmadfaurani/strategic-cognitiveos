@@ -27,12 +27,14 @@ tags:
 - mission/political-intelligence
 - readiness/development
 priority: high
-lifecycle_state: draft
+lifecycle_state: structurally_valid
 confidence: medium
 source:
   type: null
   reference: null
-summary: 'Authority: DAF Date: 7 August 2026 Classification: Confidential — OSA 1972 Aware Parent Initiative: INIT-20260803-002 — UITM-Aras Strategic Collaboration on AI Enablement of the R.I.S.I.K Framework Pa'
+summary: 'Authority: DAF Date: 7 August 2026 Classification: Confidential — OSA 1972
+  Aware Parent Initiative: INIT-20260803-002 — UITM-Aras Strategic Collaboration on
+  AI Enablement of the R.I.S.I.K Framework Pa'
 strategic_significance: Strategic initiative.
 mission_alignment: []
 related_records: []

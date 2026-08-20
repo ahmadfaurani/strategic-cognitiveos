@@ -12,10 +12,10 @@ tags:
 - index/pir-status
 - workstream/cscdc
 - meta-monitor/weekly
-status: null
-priority: null
-lifecycle_state: null
-confidence: null
+status: active
+priority: medium
+lifecycle_state: canonical
+confidence: medium
 source:
   type: null
   reference: null

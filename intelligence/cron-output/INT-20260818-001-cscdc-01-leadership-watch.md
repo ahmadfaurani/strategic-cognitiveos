@@ -1,67 +1,98 @@
 ---
 id: INT-20260818-001
 record_type: intelligence
-title: "PIR Collection: CSCDC Leadership & Approval Watch — 18 Aug 2026"
-created_at: 2026-08-18T09:43:00+08:00
-updated_at: 2026-08-18T09:43:00+08:00
+title: 'PIR Collection: CSCDC Leadership & Approval Watch — 18 Aug 2026'
+created_at: 2026-08-18 09:43:00+08:00
+updated_at: 2026-08-18 09:43:00+08:00
 owner: DAF
 status: draft
 priority: critical
 sensitivity: confidential
 lifecycle_state: candidate
-confidence: 5
+confidence: high
 tags:
-  - intelligence/cron-output
-  - workstream/cscdc
-  - cluster/cscdc-01
+- intelligence/cron-output
+- workstream/cscdc
+- cluster/cscdc-01
 source:
   type: osint
-  reference: "DeerFlow ultra mode + Hermes inline web_extract — 2026-08-18T09:43:00+08:00"
-summary: "Hybrid collection cycle: DeerFlow dispatch succeeded but its internal search APIs were token-blocked; Hermes inline web_extract supplemented with real OSINT from NACSA.gov.my, CyberSecurity.my, and 10 news sources. New findings: MyKriptografi Action Plan 2026-2030 operational, NCCMP framework exists, Cyber Security Service Provider Licensing open, CSM now under Ministry of Digital. Leadership gaps unchanged — dedicated CSCDC CEO and CCO remain unfilled in public domain."
-strategic_significance: "CSCDC leadership architecture is structurally incomplete — CEO and CCO positions unfilled block the four-signature approval chain. However, NACSA's published framework ecosystem (MCSS 2025-2030, MyKriptografi Action Plan, NCCMP, AISCF, licensing regime) provides the regulatory and operational scaffolding CSCDC inherits. CSM's existing service portfolio (PQC initiatives, CyberDrill, Digital Risk Monitoring) represents inherited capability that may reduce greenfield infrastructure needs."
+  reference: DeerFlow ultra mode + Hermes inline web_extract — 2026-08-18T09:43:00+08:00
+summary: 'Hybrid collection cycle: DeerFlow dispatch succeeded but its internal search
+  APIs were token-blocked; Hermes inline web_extract supplemented with real OSINT
+  from NACSA.gov.my, CyberSecurity.my, and 10 news sources. New findings: MyKriptografi
+  Action Plan 2026-2030 operational, NCCMP framework exists, Cyber Security Service
+  Provider Licensing open, CSM now under Ministry of Digital. Leadership gaps unchanged
+  — dedicated CSCDC CEO and CCO remain unfilled in public domain.'
+strategic_significance: CSCDC leadership architecture is structurally incomplete —
+  CEO and CCO positions unfilled block the four-signature approval chain. However,
+  NACSA's published framework ecosystem (MCSS 2025-2030, MyKriptografi Action Plan,
+  NCCMP, AISCF, licensing regime) provides the regulatory and operational scaffolding
+  CSCDC inherits. CSM's existing service portfolio (PQC initiatives, CyberDrill, Digital
+  Risk Monitoring) represents inherited capability that may reduce greenfield infrastructure
+  needs.
 mission_alignment:
-  - mission/intelligence-enablement
-  - mission/national-cybersecurity
-  - mission/strategic-communications
+- mission/intelligence-enablement
+- mission/national-cybersecurity
+- mission/strategic-communications
 related_records:
-  - STK-20260725-001
-  - INIT-20260725-007
+- STK-20260725-001
+- INIT-20260725-007
 intelligence_type: pir-collection
 evidence:
-  - "NACSA published MyKriptografi Action Plan 2026-2030 — operationalizes National Cryptography Policy into measurable roadmap (nacsa.gov.my, accessed 18 Aug 2026)"
-  - "NCCMP (National Cyber Crisis Management Plan) exists — provides national-level cyber crisis response steps/tasks (nacsa.gov.my)"
-  - "Cyber Security Service Provider Licensing open under Act 854 — SOC monitoring + penetration testing (nacsa.gov.my)"
-  - "CSM is now under Ministry of Digital (KD) — governance transition from MCMC/PMO (cybersecurity.my/portal-main/career)"
-  - "CSM has existing PQC initiatives: MyCV, MySEAL, PKTN, MyCANE, Post-Quantum Cryptography Initiatives (cybersecurity.my/portal-main/career)"
-  - "CSM has CyberDrill Exercise service and Digital Risk Monitoring service (cybersecurity.my)"
-  - "MCSS 2025-2030 is national cyber security strategy covering 5-year horizon (nacsa.gov.my)"
-  - "AISCF (AI Systems Cyber Security Framework) addresses data poisoning, prompt injection, adversarial attacks, model theft (nacsa.gov.my)"
-  - "AI & Cybersecurity Leaders Summit: ASEAN held 6 Aug 2026 in KL (cybersecurity.my/portal-main/events)"
-  - "Bernama confirms CSCDC establishment 4 Jun 2026, KSN Shamsul Azri as Board Chairman (bernama.com/en/general/news.php?id=2564763)"
-  - "DeerFlow ultra dispatch succeeded (20,757 bytes) but internal search APIs returned Unauthorized — analytical projection applied"
+- NACSA published MyKriptografi Action Plan 2026-2030 — operationalizes National Cryptography
+  Policy into measurable roadmap (nacsa.gov.my, accessed 18 Aug 2026)
+- NCCMP (National Cyber Crisis Management Plan) exists — provides national-level cyber
+  crisis response steps/tasks (nacsa.gov.my)
+- Cyber Security Service Provider Licensing open under Act 854 — SOC monitoring +
+  penetration testing (nacsa.gov.my)
+- CSM is now under Ministry of Digital (KD) — governance transition from MCMC/PMO
+  (cybersecurity.my/portal-main/career)
+- 'CSM has existing PQC initiatives: MyCV, MySEAL, PKTN, MyCANE, Post-Quantum Cryptography
+  Initiatives (cybersecurity.my/portal-main/career)'
+- CSM has CyberDrill Exercise service and Digital Risk Monitoring service (cybersecurity.my)
+- MCSS 2025-2030 is national cyber security strategy covering 5-year horizon (nacsa.gov.my)
+- AISCF (AI Systems Cyber Security Framework) addresses data poisoning, prompt injection,
+  adversarial attacks, model theft (nacsa.gov.my)
+- 'AI & Cybersecurity Leaders Summit: ASEAN held 6 Aug 2026 in KL (cybersecurity.my/portal-main/events)'
+- Bernama confirms CSCDC establishment 4 Jun 2026, KSN Shamsul Azri as Board Chairman
+  (bernama.com/en/general/news.php?id=2564763)
+- DeerFlow ultra dispatch succeeded (20,757 bytes) but internal search APIs returned
+  Unauthorized — analytical projection applied
 implications:
-  - "NCCMP framework provides the war room activation protocol basis that PIR-CSCDC-007 seeks — the national crisis response plan exists but internal details remain unpublished"
-  - "Cyber Security Service Provider Licensing creates a regulatory vendor panel — licensed providers under Act 854 are the identifiable competitor set for PIR-CSCDC-010"
-  - "CSM's existing PQC initiatives (MyCV, MySEAL, PKTN) form the technical backbone for PIR-CSCDC-006's PQC Sandbox — not a greenfield build"
-  - "CSM's Digital Risk Monitoring service may satisfy PIR-CSCDC-005's social listening requirement via inter-agency sharing rather than new procurement"
-  - "CSM under Ministry of Digital (KD) creates a new governance relationship for PIR-CSCDC-009 — inter-agency channels now include KD as stakeholder"
-  - "Four-signature approval chain remains structurally incomplete — CCO (1st signatory) and CSCDC CEO (2nd signatory) both unfilled"
+- NCCMP framework provides the war room activation protocol basis that PIR-CSCDC-007
+  seeks — the national crisis response plan exists but internal details remain unpublished
+- Cyber Security Service Provider Licensing creates a regulatory vendor panel — licensed
+  providers under Act 854 are the identifiable competitor set for PIR-CSCDC-010
+- CSM's existing PQC initiatives (MyCV, MySEAL, PKTN) form the technical backbone
+  for PIR-CSCDC-006's PQC Sandbox — not a greenfield build
+- CSM's Digital Risk Monitoring service may satisfy PIR-CSCDC-005's social listening
+  requirement via inter-agency sharing rather than new procurement
+- CSM under Ministry of Digital (KD) creates a new governance relationship for PIR-CSCDC-009
+  — inter-agency channels now include KD as stakeholder
+- Four-signature approval chain remains structurally incomplete — CCO (1st signatory)
+  and CSCDC CEO (2nd signatory) both unfilled
 open_questions:
-  - "Has CSCDC appointed a dedicated CEO in the 14-day gap (Aug 4 → Aug 18)?"
-  - "Has the CCO position been advertised on SPA or filled?"
-  - "Has Communication Framework v2.0 been approved and 90-day mobilisation clock started?"
-  - "Does CSM's Digital Risk Monitoring service transfer to CSCDC, or will CSCDC procure independently?"
-  - "Does the NCCMP define the war room activation protocol, or is a CSCDC-specific protocol still needed?"
+- Has CSCDC appointed a dedicated CEO in the 14-day gap (Aug 4 → Aug 18)?
+- Has the CCO position been advertised on SPA or filled?
+- Has Communication Framework v2.0 been approved and 90-day mobilisation clock started?
+- Does CSM's Digital Risk Monitoring service transfer to CSCDC, or will CSCDC procure
+  independently?
+- Does the NCCMP define the war room activation protocol, or is a CSCDC-specific protocol
+  still needed?
 recommended_actions:
-  - "Priority 1: Activate HUMINT channel for PIR-CSCDC-002 (approval timeline), PIR-CSCDC-003 (budget), PIR-CSCDC-004 (CCO appointment)"
-  - "Priority 2: Monitor SPA (spa.gov.my) for CCO job posting — Jusa C/B grade, RM 18K/month"
-  - "Priority 3: Review NCCMP documentation for war room activation protocol details (PIR-CSCDC-007)"
-  - "Priority 4: Obtain Cyber Security Service Provider Licensing registry — licensed providers are the competitor set for PIR-CSCDC-010"
-  - "Priority 5: Assess CSM Digital Risk Monitoring as inter-agency sharing option for PIR-CSCDC-005 social listening requirement"
+- 'Priority 1: Activate HUMINT channel for PIR-CSCDC-002 (approval timeline), PIR-CSCDC-003
+  (budget), PIR-CSCDC-004 (CCO appointment)'
+- 'Priority 2: Monitor SPA (spa.gov.my) for CCO job posting — Jusa C/B grade, RM 18K/month'
+- 'Priority 3: Review NCCMP documentation for war room activation protocol details
+  (PIR-CSCDC-007)'
+- 'Priority 4: Obtain Cyber Security Service Provider Licensing registry — licensed
+  providers are the competitor set for PIR-CSCDC-010'
+- 'Priority 5: Assess CSM Digital Risk Monitoring as inter-agency sharing option for
+  PIR-CSCDC-005 social listening requirement'
 related_initiatives:
-  - INIT-20260725-007
+- INIT-20260725-007
 related_stakeholders:
-  - STK-20260725-001
+- STK-20260725-001
 pir_cluster: CSCDC-01
 pir_count: 10
 deerflow_mode: ultra

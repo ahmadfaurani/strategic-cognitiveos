@@ -9,7 +9,7 @@ intelligence_type: stakeholder
 status: validated
 priority: medium
 sensitivity: confidential
-confidence: HIGH
+confidence: high
 related_initiative: INIT-20260804-001
 related_stakeholder: STK-20260813-008
 lifecycle_state: canonical
@@ -24,7 +24,9 @@ tags:
 source:
   type: null
   reference: null
-summary: Comprehensive review of En. Azrul Nazim Abdul Aziz's role, engagement trajectory, and strategic positioning within the CSM × Aras partnership. Assessment synthesizes all CognitiveOS records, email thr
+summary: Comprehensive review of En. Azrul Nazim Abdul Aziz's role, engagement trajectory,
+  and strategic positioning within the CSM × Aras partnership. Assessment synthesizes
+  all CognitiveOS records, email thr
 strategic_significance: Intelligence product.
 mission_alignment: []
 related_records: []

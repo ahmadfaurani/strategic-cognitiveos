@@ -7,7 +7,8 @@ updated_at: '2026-08-17T17:49:42+00:00'
 owner: faurani-jaafar
 org_type: government-agency
 sector: government
-strategic_relevance: State government office. Stakeholder for state-level political intelligence and government engagement.
+strategic_relevance: State government office. Stakeholder for state-level political
+  intelligence and government engagement.
 relationship_status: new
 relationship_owner: faurani-jaafar
 sensitivity: confidential
@@ -20,14 +21,16 @@ tags:
 - domain/political
 - lifecycle/canonical
 related_records: []
-status: new
+status: draft
 priority: high
 confidence: medium
 source:
   type: null
   reference: null
-summary: 'government-agency in government — State government office. Stakeholder for state-level political intelligence and '
-strategic_significance: 'State government office. Stakeholder for state-level political intelligence and government engagement.. Relationship: new.'
+summary: 'government-agency in government — State government office. Stakeholder for
+  state-level political intelligence and '
+strategic_significance: 'State government office. Stakeholder for state-level political
+  intelligence and government engagement.. Relationship: new.'
 mission_alignment: []
 ---
 
