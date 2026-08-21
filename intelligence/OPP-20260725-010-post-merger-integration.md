@@ -4,28 +4,30 @@ record_type: intelligence
 title: Opportunity — Post-Merger Cultural Integration Support
 created_at: 2026-07-25 10:35:00+00:00
 updated_at: '2026-08-18T01:50:00+00:00'
-owner: DAF
+owner: faurani-jaafar
 intelligence_type: market
 status: draft
 priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-  - commercial/opportunity-identification
-  - domain/csm-partnership
-  - domain/governance
-  - domain/organisational-design
-  - intelligence/market
-  - mission/institutional-partnerships
-  - mission/organisational-capability
-  - mission/strategic-communications
-  - sector/government
+- commercial/opportunity-identification
+- domain/csm-partnership
+- domain/governance
+- domain/organisational-design
+- intelligence/market
+- mission/institutional-partnerships
+- mission/organisational-capability
+- mission/strategic-communications
+- sector/government
 mission_alignment:
 - organisational-capability
 - strategic-communications
 - institutional-partnerships
 evidence:
-- 'CSCDC Framework v2.0, Unit 2: Komunikasi Dalaman & Integrasi Budaya — ''Memastikan keselarasan pemahaman, penyeragaman mesej, dan penyatuan budaya kerja warga CSCDC pasca-penggabungan PTPKM dan CSM'''
+- 'CSCDC Framework v2.0, Unit 2: Komunikasi Dalaman & Integrasi Budaya — ''Memastikan
+  keselarasan pemahaman, penyeragaman mesej, dan penyatuan budaya kerja warga CSCDC
+  pasca-penggabungan PTPKM dan CSM'''
 - 'Unit 2 function 1: saluran pengumuman dalaman rasmi'
 - 'Unit 2 function 2: Buletin Siber bulanan'
 - 'Unit 2 function 3: Townhall berkala'
@@ -39,7 +41,8 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 8
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: No Critical PIRs. 2 PIRs partial (synced 2026-08-18, intel cutoff 2026-08-03). Post-merger internal dynamics — OSNT-limited (Tier-1 stale).
+strategic_significance: No Critical PIRs. 2 PIRs partial (synced 2026-08-18, intel
+  cutoff 2026-08-03). Post-merger internal dynamics — OSNT-limited (Tier-1 stale).
 related_records: []
 pir_tier: CJ-6
 collection_cycle: 12h

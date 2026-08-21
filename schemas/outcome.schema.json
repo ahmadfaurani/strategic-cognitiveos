@@ -176,5 +176,5 @@
       "description": "Action IDs that produced this outcome"
     }
   },
-  "additionalProperties": true
+  "additionalProperties": false
 }

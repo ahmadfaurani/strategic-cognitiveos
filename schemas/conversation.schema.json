@@ -176,5 +176,6 @@
         "type": "string"
       }
     }
-  }
+  },
+  "additionalProperties": false
 }

@@ -153,5 +153,6 @@
     "content_summary": {
       "type": "string"
     }
-  }
+  },
+  "additionalProperties": false
 }

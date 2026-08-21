@@ -4,29 +4,31 @@ record_type: intelligence
 title: Opportunity — Crisis Communication War Room Setup & Methodology
 created_at: 2026-07-25 10:35:00+00:00
 updated_at: '2026-08-17T17:36:54+00:00'
-owner: DAF
+owner: faurani-jaafar
 intelligence_type: market
 status: draft
 priority: high
 sensitivity: confidential
 confidence: medium
 tags:
-  - commercial/opportunity-identification
-  - domain/cybersecurity
-  - domain/governance
-  - domain/political-intelligence
-  - intelligence/market
-  - mission/commercial-growth
-  - mission/national-cybersecurity
-  - mission/strategic-communications
-  - sector/government
+- commercial/opportunity-identification
+- domain/cybersecurity
+- domain/governance
+- domain/political-intelligence
+- intelligence/market
+- mission/commercial-growth
+- mission/national-cybersecurity
+- mission/strategic-communications
+- sector/government
 mission_alignment:
 - national-cybersecurity
 - strategic-communications
 - commercial-growth
 evidence:
-- 'CSCDC Framework v2.0, Unit 4: War Room Communication activation on national-level critical incident signal'
-- Framework states 30-minute holding statement target — requires pre-built infrastructure and rehearsed protocols
+- 'CSCDC Framework v2.0, Unit 4: War Room Communication activation on national-level
+  critical incident signal'
+- Framework states 30-minute holding statement target — requires pre-built infrastructure
+  and rehearsed protocols
 - RM 150K allocated for Cyber Crisis Communication Playbook development (Sector 3)
 - 'Technical-to-communication interface undefined (Gap #1 in analysis)'
 related_initiatives:
@@ -38,7 +40,8 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 9, 14, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream — gate prerequisites met.
+strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream
+  — gate prerequisites met.
 related_records: []
 pir_priority: critical
 pir_tier: CJ-5

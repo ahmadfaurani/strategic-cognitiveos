@@ -163,5 +163,6 @@
     "related_initiative": {
       "type": "string"
     }
-  }
+  },
+  "additionalProperties": false
 }

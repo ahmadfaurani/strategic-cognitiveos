@@ -166,6 +166,13 @@
       "items": {
         "type": "string"
       }
+    },
+    "assessed_by": {
+      "type": "string"
+    },
+    "subject_period": {
+      "type": "string"
     }
-  }
+  },
+  "additionalProperties": false
 }

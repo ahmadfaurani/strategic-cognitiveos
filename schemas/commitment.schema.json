@@ -151,6 +151,34 @@
       "items": {
         "type": "string"
       }
+    },
+    "committed_by": {
+      "type": "string"
+    },
+    "committed_to": {
+      "type": "string"
+    },
+    "related_initiative": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deadline": {
+      "type": "string"
+    },
+    "commitment_maker": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
-  }
+  },
+  "additionalProperties": false
 }

@@ -185,6 +185,49 @@
       "items": {
         "type": "string"
       }
+    },
+    "portfolio_tier": {
+      "type": "string"
+    },
+    "risk_type": {
+      "type": "string"
+    },
+    "mitigation_status": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "exposure": {
+      "type": "string"
+    },
+    "parent_initiative": {
+      "type": "string"
+    },
+    "mitigations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mitigation_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_level": {
+      "type": "string"
+    },
+    "mitigation": {
+      "type": "string"
+    },
+    "owner_mitigation": {
+      "type": "string"
     }
-  }
+  },
+  "additionalProperties": false
 }

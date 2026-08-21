@@ -4,30 +4,31 @@ record_type: intelligence
 title: Opportunity — Encrypted Alert Portal Development
 created_at: 2026-07-25 10:35:00+00:00
 updated_at: '2026-08-17T17:36:54+00:00'
-owner: DAF
+owner: faurani-jaafar
 intelligence_type: market
 status: draft
 priority: high
 sensitivity: confidential
 confidence: medium
 tags:
-  - commercial/opportunity-identification
-  - domain/commercial-development
-  - domain/csm-partnership
-  - domain/cybersecurity
-  - domain/cybersecurity-productisation
-  - domain/governance
-  - intelligence/market
-  - mission/commercial-growth
-  - mission/national-cybersecurity
-  - mission/productisation
-  - sector/government
+- commercial/opportunity-identification
+- domain/commercial-development
+- domain/csm-partnership
+- domain/cybersecurity
+- domain/cybersecurity-productisation
+- domain/governance
+- intelligence/market
+- mission/commercial-growth
+- mission/national-cybersecurity
+- mission/productisation
+- sector/government
 mission_alignment:
 - national-cybersecurity
 - productisation
 - commercial-growth
 evidence:
-- 'CSCDC Framework v2.0, Sector 2: RM 180,000 allocated for Encrypted Information Portal Upgrade (high-grade cyber alert sub-portal)'
+- 'CSCDC Framework v2.0, Sector 2: RM 180,000 allocated for Encrypted Information
+  Portal Upgrade (high-grade cyber alert sub-portal)'
 - 'Portal function: real-time threat advisories, incident status, policy publications'
 - 'Sub-portal function: high-grade vulnerability notifications and technical advisories'
 related_initiatives:
@@ -39,7 +40,8 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 13, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: 1 Critical PIRs (1 resolved). CSCDC partnership workstream — gate prerequisites met.
+strategic_significance: 1 Critical PIRs (1 resolved). CSCDC partnership workstream
+  — gate prerequisites met.
 related_records: []
 pir_priority: critical
 pir_tier: CJ-3

@@ -168,6 +168,13 @@
     },
     "created_by": {
       "type": "string"
+    },
+    "portfolio_tier": {
+      "type": "string"
+    },
+    "readiness_level": {
+      "type": "string"
     }
-  }
+  },
+  "additionalProperties": false
 }

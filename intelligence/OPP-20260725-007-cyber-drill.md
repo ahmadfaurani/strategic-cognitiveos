@@ -4,29 +4,31 @@ record_type: intelligence
 title: Opportunity — National Cyber Drill Simulation Design
 created_at: 2026-07-25 10:35:00+00:00
 updated_at: '2026-08-17T17:36:54+00:00'
-owner: DAF
+owner: faurani-jaafar
 intelligence_type: market
 status: draft
 priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-  - commercial/opportunity-identification
-  - domain/csm-partnership
-  - domain/cybersecurity
-  - domain/governance
-  - intelligence/market
-  - mission/national-cybersecurity
-  - mission/strategic-communications
-  - sector/critical-infrastructure
-  - sector/government
+- commercial/opportunity-identification
+- domain/csm-partnership
+- domain/cybersecurity
+- domain/governance
+- intelligence/market
+- mission/national-cybersecurity
+- mission/strategic-communications
+- sector/critical-infrastructure
+- sector/government
 mission_alignment:
 - national-cybersecurity
 - strategic-communications
 evidence:
 - 'CSCDC Framework v2.0, Sector 3: RM 200,000 allocated for National Cyber Drill Simulation'
-- Framework states War Room must be rehearsed — drill is likely the primary rehearsal vehicle
-- 'Unit 4 function 1: Cyber Crisis Communication Playbook must be ''selaras dengan Arahan MKN'''
+- Framework states War Room must be rehearsed — drill is likely the primary rehearsal
+  vehicle
+- 'Unit 4 function 1: Cyber Crisis Communication Playbook must be ''selaras dengan
+  Arahan MKN'''
 related_initiatives:
 - INIT-20260725-007
 related_stakeholders:
@@ -36,7 +38,8 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: 2 Critical PIRs (2 resolved). CSCDC partnership workstream — gate prerequisites met.
+strategic_significance: 2 Critical PIRs (2 resolved). CSCDC partnership workstream
+  — gate prerequisites met.
 related_records: []
 pir_priority: critical
 pir_tier: CJ-5

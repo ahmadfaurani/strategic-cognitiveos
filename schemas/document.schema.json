@@ -173,5 +173,6 @@
     "author": {
       "type": "string"
     }
-  }
+  },
+  "additionalProperties": false
 }

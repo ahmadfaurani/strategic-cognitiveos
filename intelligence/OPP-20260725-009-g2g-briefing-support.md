@@ -4,27 +4,30 @@ record_type: intelligence
 title: Opportunity — G2G Briefing & Speechwriting Support
 created_at: 2026-07-25 10:35:00+00:00
 updated_at: '2026-08-17T17:36:54+00:00'
-owner: DAF
+owner: faurani-jaafar
 intelligence_type: market
 status: draft
 priority: medium
 sensitivity: confidential
 confidence: low
 tags:
-  - commercial/opportunity-identification
-  - domain/commercial-development
-  - domain/governance
-  - domain/stakeholder-engagement
-  - intelligence/market
-  - mission/institutional-partnerships
-  - mission/strategic-communications
-  - sector/government
+- commercial/opportunity-identification
+- domain/commercial-development
+- domain/governance
+- domain/stakeholder-engagement
+- intelligence/market
+- mission/institutional-partnerships
+- mission/strategic-communications
+- sector/government
 mission_alignment:
 - strategic-communications
 - institutional-partnerships
 evidence:
-- 'CSCDC Framework v2.0, Unit 5 function 1: Menyediakan teks ucapan eksklusif, kertas taklimat kabinet, dan talking points strategik untuk Perdana Menteri, Menteri di JPM, dan KSN'
-- 'Unit 5 function 3: Menghasilkan laporan kedudukan diplomasi siber kebangsaan untuk persidangan antarabangsa (ASEAN, PBB, ITU)'
+- 'CSCDC Framework v2.0, Unit 5 function 1: Menyediakan teks ucapan eksklusif, kertas
+  taklimat kabinet, dan talking points strategik untuk Perdana Menteri, Menteri di
+  JPM, dan KSN'
+- 'Unit 5 function 3: Menghasilkan laporan kedudukan diplomasi siber kebangsaan untuk
+  persidangan antarabangsa (ASEAN, PBB, ITU)'
 - 'Unit 5 function 4: Menguruskan taklimat komunikasi khas untuk Ahli Parlimen'
 related_initiatives:
 - INIT-20260725-007

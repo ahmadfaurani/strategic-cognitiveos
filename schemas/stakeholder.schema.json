@@ -204,6 +204,55 @@
       "items": {
         "type": "string"
       }
+    },
+    "pir_priority": {
+      "type": "string"
+    },
+    "pir_tier": {
+      "type": "string"
+    },
+    "collection_cycle": {
+      "type": "string"
+    },
+    "last_collected": {
+      "type": "string"
+    },
+    "next_collection": {
+      "type": "string"
+    },
+    "related_intelligence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "department": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "first_seen": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "engagement_history": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "name": {
+      "type": "string"
     }
-  }
+  },
+  "additionalProperties": false
 }

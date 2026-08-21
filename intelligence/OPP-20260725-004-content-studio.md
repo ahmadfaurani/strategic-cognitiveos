@@ -4,31 +4,34 @@ record_type: intelligence
 title: Opportunity — Content Studio & Multimedia Production Capability
 created_at: 2026-07-25 10:35:00+00:00
 updated_at: '2026-08-17T17:36:54+00:00'
-owner: DAF
+owner: faurani-jaafar
 intelligence_type: market
 status: draft
 priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-  - commercial/opportunity-identification
-  - domain/csm-partnership
-  - domain/cybersecurity
-  - domain/cybersecurity-productisation
-  - domain/governance
-  - intelligence/market
-  - mission/commercial-growth
-  - mission/productisation
-  - mission/strategic-communications
-  - sector/government
+- commercial/opportunity-identification
+- domain/csm-partnership
+- domain/cybersecurity
+- domain/cybersecurity-productisation
+- domain/governance
+- intelligence/market
+- mission/commercial-growth
+- mission/productisation
+- mission/strategic-communications
+- sector/government
 mission_alignment:
 - strategic-communications
 - productisation
 - commercial-growth
 evidence:
-- 'CSCDC Framework v2.0, Sector 2: RM 150,000 for Corporate Content Studio Lab (4K cameras, mics, studio lighting, video editing, green screen)'
-- 'Unit 3 function 3: bangunkan aset grafik, infografik, klip multimedia, video penerangan pendek'
-- Unit 7 requires content for anti-deepfake/anti-scam campaigns across TikTok, YouTube Shorts
+- 'CSCDC Framework v2.0, Sector 2: RM 150,000 for Corporate Content Studio Lab (4K
+  cameras, mics, studio lighting, video editing, green screen)'
+- 'Unit 3 function 3: bangunkan aset grafik, infografik, klip multimedia, video penerangan
+  pendek'
+- Unit 7 requires content for anti-deepfake/anti-scam campaigns across TikTok, YouTube
+  Shorts
 related_initiatives:
 - INIT-20260725-007
 related_stakeholders:
@@ -38,7 +41,8 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 8, 10, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream — gate prerequisites met.
+strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream
+  — gate prerequisites met.
 related_records: []
 pir_priority: critical
 pir_tier: CJ-4

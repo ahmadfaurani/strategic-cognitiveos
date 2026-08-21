@@ -4,29 +4,30 @@ record_type: intelligence
 title: Opportunity — Social Listening Infrastructure Provisioning
 created_at: 2026-07-25 10:35:00+00:00
 updated_at: '2026-08-18T01:50:00+00:00'
-owner: DAF
+owner: faurani-jaafar
 intelligence_type: market
 status: draft
 priority: high
 sensitivity: confidential
 confidence: medium
 tags:
-  - commercial/opportunity-identification
-  - domain/csm-partnership
-  - domain/cybersecurity
-  - domain/governance
-  - intelligence/market
-  - mission/commercial-growth
-  - mission/national-cybersecurity
-  - mission/strategic-communications
-  - outcome/evidence-confirmed
-  - sector/government
+- commercial/opportunity-identification
+- domain/csm-partnership
+- domain/cybersecurity
+- domain/governance
+- intelligence/market
+- mission/commercial-growth
+- mission/national-cybersecurity
+- mission/strategic-communications
+- outcome/evidence-confirmed
+- sector/government
 mission_alignment:
 - national-cybersecurity
 - strategic-communications
 - commercial-growth
 evidence:
-- 'CSCDC Framework v2.0, Sector 2: RM 120,000 allocated for enterprise social listening (Meltwater/Brand24/CARMA)'
+- 'CSCDC Framework v2.0, Sector 2: RM 120,000 allocated for enterprise social listening
+  (Meltwater/Brand24/CARMA)'
 - Framework states Unit 3 requires 24/7 media monitoring using analytics software
 - RM 120K is likely insufficient for enterprise-grade national government social listening
 related_initiatives:
@@ -38,7 +39,8 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Page 17, Sector 2
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: No Critical PIRs. 2 PIRs resolved, 2 partial (synced 2026-08-18, intel cutoff 2026-08-03). Supporting workstream for CSCDC partnership.
+strategic_significance: No Critical PIRs. 2 PIRs resolved, 2 partial (synced 2026-08-18,
+  intel cutoff 2026-08-03). Supporting workstream for CSCDC partnership.
 related_records: []
 pir_tier: CJ-3
 collection_cycle: daily

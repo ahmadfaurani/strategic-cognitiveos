@@ -169,6 +169,58 @@
           "type": "string"
         }
       }
+    },
+    "authority": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "context": {
+      "type": "string"
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "related_initiative": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_stakeholder": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "assessment_date": {
+      "type": "string"
+    },
+    "pir_tier": {
+      "type": "string"
+    },
+    "collection_cycle": {
+      "type": "string"
+    },
+    "last_collected": {
+      "type": "string"
+    },
+    "next_collection": {
+      "type": "string"
+    },
+    "related_intelligence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pir_priority": {
+      "type": "string"
+    },
+    "assessment_type": {
+      "type": "string"
     }
-  }
+  },
+  "additionalProperties": false
 }

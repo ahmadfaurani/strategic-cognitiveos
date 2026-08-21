@@ -224,6 +224,52 @@
           "type": "string"
         }
       }
+    },
+    "pir_priority": {
+      "type": "string"
+    },
+    "pir_tier": {
+      "type": "string"
+    },
+    "collection_cycle": {
+      "type": "string"
+    },
+    "last_collected": {
+      "type": "string"
+    },
+    "next_collection": {
+      "type": "string"
+    },
+    "related_intelligence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "data_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "note_readiness": {
+      "type": "string"
+    },
+    "product_manager": {
+      "type": "string"
+    },
+    "delivery_owner_current": {
+      "type": "string"
+    },
+    "target_readiness": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "string"
+    },
+    "workstream": {
+      "type": "string"
     }
-  }
+  },
+  "additionalProperties": false
 }

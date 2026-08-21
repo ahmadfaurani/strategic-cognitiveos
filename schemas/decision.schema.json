@@ -204,6 +204,46 @@
       "items": {
         "type": "string"
       }
+    },
+    "authority": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "decision_type": {
+      "type": "string"
+    },
+    "decision_weight": {
+      "type": "string"
+    },
+    "parent_initiative": {
+      "type": "string"
+    },
+    "confirmed_by": {
+      "type": "string"
+    },
+    "confirmed_at": {
+      "type": "string"
+    },
+    "confirmation_note": {
+      "type": "string"
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "channel": {
+      "type": "string"
+    },
+    "implications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
-  }
+  },
+  "additionalProperties": false
 }

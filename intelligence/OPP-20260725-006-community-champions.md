@@ -4,32 +4,34 @@ record_type: intelligence
 title: Opportunity — Community Champions Programme Design
 created_at: 2026-07-25 10:35:00+00:00
 updated_at: '2026-08-17T17:36:54+00:00'
-owner: DAF
+owner: faurani-jaafar
 intelligence_type: market
 status: draft
 priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-  - commercial/opportunity-identification
-  - domain/csm-partnership
-  - domain/cybersecurity
-  - domain/governance
-  - domain/political-intelligence
-  - intelligence/market
-  - mission/national-cybersecurity
-  - mission/organisational-capability
-  - mission/strategic-communications
-  - sector/education
-  - sector/government
+- commercial/opportunity-identification
+- domain/csm-partnership
+- domain/cybersecurity
+- domain/governance
+- domain/political-intelligence
+- intelligence/market
+- mission/national-cybersecurity
+- mission/organisational-capability
+- mission/strategic-communications
+- sector/education
+- sector/government
 mission_alignment:
 - national-cybersecurity
 - strategic-communications
 - organisational-capability
 evidence:
-- 'CSCDC Framework v2.0, Sector 4: RM 200,000 for Community & Educational Institution Literacy Tour (50 urban/rural locations with KPM/KPT)'
+- 'CSCDC Framework v2.0, Sector 4: RM 200,000 for Community & Educational Institution
+  Literacy Tour (50 urban/rural locations with KPM/KPT)'
 - 'Sector 4: RM 200,000 for Cyber Security Community Champions Training & Management'
-- 'Unit 7 function 3: Program Sukarelawan & Duta Siber (Cyber Security Community Champions) di setiap negeri'
+- 'Unit 7 function 3: Program Sukarelawan & Duta Siber (Cyber Security Community Champions)
+  di setiap negeri'
 - 'KPI: minimum 1,000 Community Champions trained in Year 1'
 related_initiatives:
 - INIT-20260725-007
@@ -40,7 +42,8 @@ source:
   reference: INT-20260725-001 — CSCDC Framework v2.0, Pages 10, 16, 17
 lifecycle_state: canonical
 summary: See record body for intelligence summary.
-strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream — gate prerequisites met.
+strategic_significance: 1 Critical PIRs (0 resolved). CSCDC partnership workstream
+  — gate prerequisites met.
 related_records: []
 pir_priority: critical
 pir_tier: CJ-6

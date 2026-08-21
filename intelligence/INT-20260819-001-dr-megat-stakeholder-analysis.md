@@ -11,18 +11,20 @@ status: active
 priority: critical
 sensitivity: confidential
 lifecycle_state: canonical
-confidence: high
+confidence:
+- high
+- HIGH
 tags:
-  - domain/artificial-intelligence
-  - domain/cryptography
-  - domain/cyberdsa-2026
-  - domain/cybersecurity
-  - domain/cybersecurity-productisation
-  - domain/sovereign-technology
-  - lifecycle/active
-  - milestone/cyberdsa-2026
-  - org/nacsa
-  - sector/critical-infrastructure
+- domain/artificial-intelligence
+- domain/cryptography
+- domain/cyberdsa-2026
+- domain/cybersecurity
+- domain/cybersecurity-productisation
+- domain/sovereign-technology
+- lifecycle/active
+- milestone/cyberdsa-2026
+- org/nacsa
+- sector/critical-infrastructure
 source:
   type: analytical-report
   reference: DAF-provided Strategic Stakeholder Analytical Report, 19 August 2026.
@@ -54,7 +56,6 @@ related_records:
 - ACT-20260819-008
 - ORG-20260815-003
 - CONV-20260819-003
-analytical_confidence: HIGH
 assessment_date: 2026-08-19
 assessment_type: Public-source stakeholder, institutional influence and strategic-alignment
   analysis
