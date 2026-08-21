@@ -31,4 +31,11 @@ All outstanding commitments, grouped by status.
 |----|-----------|-------|-----------------|----------|
 | COM-20260817-001 | Hadri to Send MyCERT Co-Design Lab Onboarding Email to Farul (MTAI) | hadri | 2026-08-17 | Status email confirmation (CONV-20260817-002) |
 | COM-20260817-002 | DAF to Validate 10–15 Lighthouse Accounts and Assign Account Owners (Email to Shu) | faurani-jaafar | 2026-08-13 | Status email confirmation (CONV-20260817-002) |
+| COM-20260821-001 | Weekly Strategic Brief — every Monday before 10am MYT | ember | 2026-08-24 | Cron 289218cc scheduled |
+| COM-20260821-002 | Pre-meeting Prep Briefs — before Gate 0, POC briefs, working groups | ember | 2026-08-24 | First: VoronCitadel POC prep |
+
+## Completed (Recent)
+
+| ID | Commitment | Owner | Completion Date | Evidence |
+|----|-----------|-------|-----------------|----------|
 | COM-20260817-003 | Hadri to Propose MyCERT GenAI Alignment Workshop to CSM (Email Sent Aug 13) | hadri | 2026-08-13 | Status email confirmation (CONV-20260817-002) |
