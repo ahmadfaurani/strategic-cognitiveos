@@ -49,6 +49,7 @@ namespaces:
     - strategic-planning
     - threat-intelligence
     - vulnerability-management
+    - honcho-integration
     - incident-response
     - cloud-security
     - network-security
@@ -168,6 +169,7 @@ namespaces:
     description: DAF's six workstream clusters
     values:
     - sovereign-ai-adoption
+    - cyberdsa-2026
     - cybersec-products
     - govt-partnerships
     - political-intel
@@ -380,6 +382,8 @@ namespaces:
     - priority
     - scope
     - vendor-selection
+    - infrastructure
+    - repository-governance
     - portfolio-gating
     - delegation
     - commercial-pathway
@@ -710,16 +714,31 @@ namespaces:
     pattern: framework/<slug>
     known_values:
     - engineered-success
+    - cognitive-loop
+    - actionable-intelligence-protocol
+    - workflow-identification-protocol
+    - action-validation
   outcome:
-    description: Outcome type
+    description: Outcome type — §9 DoD item states and evidence status
     pattern: outcome/<slug>
     known_values:
     - training-delivered
+    - dod-pending
+    - dod-completed
+    - dod-failed
+    - dod-blocked
+    - checkpoint-passed
+    - checkpoint-missed
+    - evidence-confirmed
+    - evidence-missing
   cognitive-doctrine:
     description: CognitiveOS doctrine reference
     pattern: cognitive-doctrine/<slug>
     known_values:
     - application
+    - cognitiveos-prime
+    - adep-001
+    - cvs-master-framework
   meeting:
     description: Meeting type
     pattern: meeting/<slug>
@@ -735,20 +754,30 @@ namespaces:
     pattern: cluster/<slug>
     known_values: []
   deadline:
-    description: Deadline urgency marker
+    description: Deadline urgency marker — TAT phases and gate status
     pattern: deadline/<slug>
     known_values:
     - today
     - overdue
     - this-week
     - next-week
+    - tat-creation
+    - tat-qc
+    - tat-approval
+    - tat-execution
+    - gate-approaching
+    - gate-overdue
+    - gate-passed
+    - gate-failed
   doctrine:
     description: Doctrine reference
     pattern: doctrine/<slug>
     known_values:
     - cognitiveos-prime
+    - adep-001
+    - cvs-master-framework
   cognitive-loop:
-    description: Cognitive Loop cycle reference
+    description: Cognitive Loop cycle reference — SOP-CL-001 review phases
     pattern: cognitive-loop/<slug>
     known_values:
     - full-cycle
@@ -760,6 +789,12 @@ namespaces:
     - act
     - verify
     - learn
+    - stage-mapping
+    - gap-identification
+    - secondary-pattern
+    - kill-date-enforcement
+    - self-assessment
+    - week-over-week-delta
   method:
     description: Methodology or technique
     pattern: method/<slug>
@@ -767,3 +802,6 @@ namespaces:
     - deerflow-pro-websearch-fallback
     - cross-doctrinal-analysis
     - engineered-success
+    - triangulation
+    - pre-mortem
+    - post-action-learning
