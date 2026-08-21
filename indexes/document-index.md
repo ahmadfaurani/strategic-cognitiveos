@@ -15,7 +15,8 @@ All document records, chronological.
 | DOC-20260820-004 | 2026-08-20 | ChainSentry MVP Product Specification v4.1 | hadri | Active | High |
 | DOC-20260820-005 | 2026-08-20 | ChainSentry Platform Roadmap v2.0 | hadri | Active | High |
 | DOC-20260820-006 | 2026-08-20 | Strategic Stakeholder Engagement Lead — Operational Role Definition | DAF | Active | High |
+| DOC-20260821-003 | 2026-08-21 | CVS ER — Paired SOP Version-Lock Alignment (GOV-INTAKE-SOP-001 v1.3 + GOV-TEMPLATE-DISCIPLINE-001 v1.2) | laras | Active | High |
 
 ---
 
-_Changelog: 2026-08-19 — Created document-index.md with DOC-20260818-001 through DOC-20260818-003, DOC-20260819-001, DOC-20260819-002. Updated 2026-08-20: Added DOC-20260820-001 (NST court report — PDRM RMPNet corruption trial). Added DOC-20260820-004 (ChainSentry Spec v4.1). Added DOC-20260820-005 (ChainSentry Roadmap v2.0). Added DOC-20260820-006 (Strategic Stakeholder Engagement Lead — Operational Role Definition)._
+_Changelog: 2026-08-19 — Created document-index.md with DOC-20260818-001 through DOC-20260818-003, DOC-20260819-001, DOC-20260819-002. Updated 2026-08-20: Added DOC-20260820-001 (NST court report — PDRM RMPNet corruption trial). Added DOC-20260820-004 (ChainSentry Spec v4.1). Added DOC-20260820-005 (ChainSentry Roadmap v2.0). Added DOC-20260820-006 (Strategic Stakeholder Engagement Lead — Operational Role Definition). Updated 2026-08-21: Added DOC-20260821-003 (CVS ER — Paired SOP Version-Lock Alignment)._
