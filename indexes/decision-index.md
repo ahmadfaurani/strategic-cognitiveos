@@ -49,6 +49,12 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260820-011 | 2026-08-20 | DAF directive: documentation drive with deadlines for all product documentation | DAF | Active | CONV-20260820-006, INIT-20260811-001, DEC-20260811-001, ACT-20260820-013 |
 | DEC-20260820-012 | 2026-08-20 | Amelia Nadia Formalized as Cybersecurity Practice Strategic Stakeholder Engagement Lead | DAF | Active | STK-20260813-014, DEC-20260815-005 (superseded) |
 
+| DEC-20260821-001 | Adopt Athena's Cross-Out Register Format for Weekly Operational Reviews | 2026-08-21 | faurani-jaafar | Active | — |
+| DEC-20260821-002 | Merged Pending Register (14 Items) — Authoritative Next-Week Execution List | 2026-08-21 | faurani-jaafar | Active | — |
+| DEC-20260821-003 | Engineering Resourcing Flagged as THE Binding Constraint Decision | 2026-08-21 | faurani-jaafar | Active | — |
+| DEC-20260821-004 | Monday Aug 24 Week Sequencing — POC Mon → Phase 0 Tue → CSM Sync Thu/Fri | 2026-08-21 | faurani-jaafar | Active | — |
+| DEC-20260821-005 | CognitiveOS Formal Documentation Deliberately Deferred — Git as Living Architecture | 2026-08-21 | faurani-jaafar | Active | — |
+
 ---
 
-_Changelog: 2026-08-20 — Added DEC-20260820-001 through 004 (CRC 2026 sponsorship, CSM-Aras working group, Bursa POC kick-off, 8-section POC document commitment). Added DEC-20260820-005 (RADAR cronjob governance + RMR marking mandatory). Added DEC-20260820-010 (chain:SENTRY rebrand + chain:HARVEST). Added DEC-20260820-011 (DAF documentation drive directive). Added DEC-20260815-005 (retroactively, was missing — superseded by DEC-20260820-012). Added DEC-20260820-012 (Amelia formalized as Cybersecurity Practice SSE Lead).
+_Changelog: 2026-08-20 — Added DEC-20260820-001 through 004 (CRC 2026 sponsorship, CSM-Aras working group, Bursa POC kick-off, 8-section POC document commitment). Added DEC-20260820-005 (RADAR cronjob governance + RMR marking mandatory). Added DEC-20260820-010 (chain:SENTRY rebrand + chain:HARVEST). Added DEC-20260820-011 (DAF documentation drive directive). Added DEC-20260815-005 (retroactively, was missing — superseded by DEC-20260820-012). Added DEC-20260820-012 (Amelia formalized as Cybersecurity Practice SSE Lead). Added 2026-08-21: DEC-20260821-001 through 005 (Cross-Out Register format, merged pending register, engineering resourcing as binding constraint, Aug 24 week sequencing, CognitiveOS documentation deferral).

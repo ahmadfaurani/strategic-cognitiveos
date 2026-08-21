@@ -50,6 +50,8 @@ All conversation records, chronological.
 | CONV-20260820-005 | Fuad Technical Recommendation — Production-Grade WAF & Infrastructure Hardening for Engineering Team | 2026-08-20 | Telegram | Fuad recommends Defensia WAF (free, 94K rules) + clustering/LB + Linux hardening | INIT-20260810-003, INIT-20260804-001 |
 | CONV-20260820-006 | ChainSentry Spec v4.1 & Roadmap v2.0 — Hadri Email Thread (May–Aug 2026) | 2026-08-20 | Email | DEC-20260820-010 (chain:SENTRY rebrand + chain:HARVEST), DEC-20260820-011 (documentation drive directive) | INIT-20260811-001, INIT-20260725-002 |
 
+| CONV-20260821-001 | Weekly Operational Review Comparison Session — Ember × Athena (Aug 17–21) | 2026-08-21 | Telegram | DEC-20260821-001 through 005; dual-review convergence; merged 14-item pending register | — |
+
 ---
 
-_Changelog: 2026-08-20 — Added CONV-20260820-001 (CRC 2026 sponsorship). Added CONV-20260820-002 (CSM-Aras working group). Added CONV-20260820-003 (Azrul Gate 1 / Bursa POC). Added CONV-20260820-004 (DAF pre-flight reframing + 8-section document). Added CONV-20260820-005 (Fuad production-grade WAF recommendation). Added CONV-20260820-006 (ChainSentry Spec v4.1 & Roadmap v2.0 email thread).
+_Changelog: 2026-08-20 — Added CONV-20260820-001 (CRC 2026 sponsorship). Added CONV-20260820-002 (CSM-Aras working group). Added CONV-20260820-003 (Azrul Gate 1 / Bursa POC). Added CONV-20260820-004 (DAF pre-flight reframing + 8-section document). Added CONV-20260820-005 (Fuad production-grade WAF recommendation). Added CONV-20260820-006 (ChainSentry Spec v4.1 & Roadmap v2.0 email thread). Added 2026-08-21: CONV-20260821-001 (Weekly Operational Review Comparison — Ember × Athena).
