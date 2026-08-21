@@ -3,7 +3,7 @@ id: GOV-TEMPLATE-DISCIPLINE-001
 record_type: document
 title: Template Discipline SOP
 created_at: 2026-08-04 00:00:00+00:00
-updated_at: 2026-08-19 12:00:00+00:00
+updated_at: 2026-08-21T15:00:00+08:00
 owner: DAF
 status: active
 priority: high
@@ -28,19 +28,21 @@ mission_alignment:
 - intelligence-enablement
 related_records:
 - GOV-INTAKE-SOP-001
+paired_sops:
+- GOV-INTAKE-SOP-001
 document_type: sop
 file_path: governance/template-discipline-sop.md
-version: '1.1'
+version: '1.2'
 author: DAF
 ---
 
 # Template Discipline SOP
 
-> **Version:** 1.1  
+> **Version:** 1.2  
 > **Authority:** DAF  
 > **Status:** ACTIVE — Mandatory for all CognitiveOS record creation  
 > **Scope:** All agents, all sessions, all record types  
-> **Related:** `governance/contribution-standard.md`, `governance/intake-sop.md`, `schemas/`, `templates/`, `taxonomy/tags.yaml`
+> **Related:** `governance/contribution-standard.md`, `governance/intake-sop.md` (paired), `schemas/`, `templates/`, `taxonomy/tags.yaml`
 
 ---
 
@@ -674,7 +676,13 @@ When a new record type is added:
 4. Add type-to-dir mapping in `tools/validate.py`
 5. Add to `RECORD_DIRS` in BOTH `tools/validate.py` AND `tools/validate_taxonomy.py` — **critical: both validators must have the same `RECORD_DIRS` set**
 6. Add to §3 and §4 of this SOP
-7. Add to Intake SOP §3 Record Type Matrix (version-lock both SOPs in the same commit)
+7. Add to Intake SOP §3 Record Type Matrix (version-lock both SOPs in the same commit — see §11)
+
+When any shared surface between this SOP and Intake SOP changes:
+1. Update both SOPs in the same commit
+2. Align version numbers (both bump to the same minor version)
+3. Update `paired_sops` in both YAML frontmatters if the pairing relationship changes
+4. Verify shared surfaces are consistent before committing
 8. Test with a sample record (must pass both validators)
 
 ---
@@ -710,9 +718,26 @@ REMEMBER:
 
 ---
 
-## 11. Revision History
+## 11. Paired SOP Version-Locking
+
+**Principle:** This SOP is paired with `GOV-INTAKE-SOP-001` (Intake SOP). Both govern the same CognitiveOS intake pipeline. When a change to either SOP affects a shared surface — record type matrix, validation rules, git staging procedures, pre-commit hook configuration, or directory structure — both SOPs must be updated in the same commit with aligned version numbers.
+
+**Shared surfaces:**
+- §3 Record Type → Schema → Template Mapping ↔ Intake SOP §3 Record Type Matrix
+- §6 Pre-Commit Hook v2 ↔ Intake SOP §6 Quality Checklist (pre-commit validation)
+- §5 Step 5 scoped `git add` ↔ Intake SOP §6 scoped `git add` path whitelist
+- Non-Record Directories list (identical in both SOPs)
+
+**Procedure:** Before committing a change to this SOP, check whether the change touches a shared surface. If yes, update the paired SOP in the same commit. If no (SOP-specific change), an independent update is correct — no version-lock required.
+
+**Field:** `paired_sops` in YAML frontmatter lists all SOPs that share governance surfaces with this SOP.
+
+---
+
+## 12. Revision History
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-08-04 | DAF (authority), Ember (drafter) | Initial institutionalization. Three-layer system defined. 8 record types with §4 field specs. Pre-commit hook (schema-only). |
 | 1.1 | 2026-08-19 | DAF (authority), Laras (drafter) | YAML frontmatter added (governance doc now passes its own validation). §4 expanded from 8 to 18 types (added CONV, DOC, DRAFT, ASSESS, BRIEF, ART, OUT, OPP, LSN, PIR — all derived from schemas/*.schema.json). §5 Step 5: scoped `git add` with path whitelist added (Lesson #6 enforcement). §6: pre-commit hook updated to v2 (both `validate.py` and `validate_taxonomy.py`). §8: maintenance protocol updated with taxonomy validator + `RECORD_DIRS` harmonization requirement + version-lock with Intake SOP. Non-Record Directories section added after §3. Root cause: Intake SOP upgraded to v1.1 without version-locking the paired Template SOP — same recurring meta-pattern of one governance instrument updated while its paired instrument stays stale. |
+| 1.2 | 2026-08-21 | DAF (authority), Laras (drafter) | `paired_sops` field added to YAML frontmatter. §8 Step 7 broadened from new-record-type-specific to general version-locking procedure (applies to all shared-surface changes, not just new record types). §11 Paired SOP Version-Locking section added — mirrors Intake SOP §8. Version-locking principle now visible from both SOPs with bidirectional `paired_sops` metadata. Revision History renumbered §11→§12. Root cause: LSN-20260821-005 — governance drift in paired SOPs. |

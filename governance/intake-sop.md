@@ -3,7 +3,7 @@ id: GOV-INTAKE-SOP-001
 record_type: document
 title: CognitiveOS Intake SOP — Standard Operating Procedure
 created_at: 2026-08-04 00:00:00+00:00
-updated_at: 2026-08-19 16:00:00+00:00
+updated_at: 2026-08-21T15:00:00+08:00
 owner: DAF
 status: active
 priority: high
@@ -24,19 +24,22 @@ mission_alignment:
 - intelligence-enablement
 related_records:
 - GOV-INTAKE-SOP-001
+- GOV-TEMPLATE-DISCIPLINE-001
+paired_sops:
+- GOV-TEMPLATE-DISCIPLINE-001
 document_type: sop
 file_path: governance/intake-sop.md
-version: '1.0'
+version: '1.3'
 author: DAF
 ---
 
 # CognitiveOS Intake SOP — Standard Operating Procedure
 
-> **Version:** 1.2  
+> **Version:** 1.3  
 > **Authority:** Ahmad Faurani Jaafar (DAF)  
 > **Status:** Active — institutionalized 2026-08-04  
 > **Scope:** All CognitiveOS ingestion events, all sessions, all agents  
-> **Related:** `governance/contribution-standard.md`, `AI-PROCESSOR-INSTRUCTIONS.md`, `schemas/`
+> **Related:** `governance/contribution-standard.md`, `governance/template-discipline-sop.md` (paired), `AI-PROCESSOR-INSTRUCTIONS.md`, `schemas/`
 
 ---
 
@@ -328,10 +331,27 @@ Any intake that fails to produce the confirmation notification should be treated
 
 ---
 
-## 8. Revision History
+## 8. Paired SOP Version-Locking
+
+**Principle:** This SOP is paired with `GOV-TEMPLATE-DISCIPLINE-001` (Template Discipline SOP). Both govern the same CognitiveOS intake pipeline. When a change to either SOP affects a shared surface — record type matrix, validation rules, git staging procedures, pre-commit hook configuration, or directory structure — both SOPs must be updated in the same commit with aligned version numbers.
+
+**Shared surfaces:**
+- §3 Record Type Matrix ↔ Template SOP §3 Record Type → Schema → Template Mapping
+- §6 Quality Checklist (pre-commit validation) ↔ Template SOP §6 Pre-Commit Hook v2
+- §6 scoped `git add` path whitelist ↔ Template SOP §5 Step 5 scoped `git add`
+- Non-Record Directories list (identical in both SOPs)
+
+**Procedure:** Before committing a change to this SOP, check whether the change touches a shared surface. If yes, update the paired SOP in the same commit. If no (SOP-specific change like the v1.2 "that's it" trigger), an independent update is correct — no version-lock required.
+
+**Field:** `paired_sops` in YAML frontmatter lists all SOPs that share governance surfaces with this SOP.
+
+---
+
+## 9. Revision History
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-08-04 | DAF (authority), Ember (drafter) | Initial institutionalization. Confirmation format standardized based on UITM (Aug 3) and CSM VoronDRQ GTM (Aug 4) intake precedents. |
 | 1.1 | 2026-08-19 | DAF (authority), Laras (drafter) | §3 Record Type Matrix expanded from 9 to 18 types (added ART, ASSESS, BRIEF, DOC, DRAFT, LSN, OPP, ORG, PIR). Non-Record Directories section added. §6 `git add -A` replaced with scoped `git add` path whitelist (Lesson #6 enforcement). Taxonomy validation added to Quality Checklist as enforced step. `outcome.schema.json` created (was missing). Root cause: schemas expanded to 18 types but SOP never updated — recurring meta-pattern of canonical layer evolving without enforcement layer following. |
 | 1.2 | 2026-08-20 | DAF (authority), Laras (drafter) | §5 "That's it" trigger added as standard modus operandi — session-level intake trigger. When DAF sends "that's it", the entire session is ingested as a CognitiveOS intake event. Institutionalized as always-on SOP. |
+| 1.3 | 2026-08-21 | DAF (authority), Laras (drafter) | YAML `version` field corrected from stale 1.0 → 1.3 (was not updated through v1.1/v1.2 body changes). `GOV-TEMPLATE-DISCIPLINE-001` added to `related_records` (fixes asymmetric pairing — Template SOP already referenced Intake SOP). `paired_sops` field added to YAML frontmatter. §8 Paired SOP Version-Locking section added — mirrors Template SOP §8 Step 7 but broadens from new-record-type-specific to all shared-surface changes. Version-locking principle now visible from both SOPs. Root cause: LSN-20260821-005 — governance drift in paired SOPs. |
