@@ -2,12 +2,12 @@
 id: INT-20260821-002
 record_type: intelligence
 intelligence_type: operational
-title: "VoronCitadel POC Bursa Malaysia Pre-Flight Readiness Assessment"
+title: "VoronCitadel POC Bursa Malaysia — Success Trigger Assessment (Re-engineered)"
 created_at: 2026-08-21T16:50:00+00:00
-updated_at: 2026-08-21T16:50:00+00:00
+updated_at: 2026-08-21T16:57:00+00:00
 owner: ember
 status: active
-priority: critical
+priority: high
 sensitivity: internal
 lifecycle_state: canonical
 confidence: high
@@ -17,134 +17,145 @@ tags:
   - domain/commercial-development
   - product/voroncitadel
   - type/readiness-assessment
+  - type/success-trigger
   - type/poc
 source:
   type: email
-  reference: CONV-20260821-002, ACT-20260820-004, COM-20260820-003
-summary: "8-section readiness assessment for Bursa POC document. Overall readiness ~38%. Substantial raw material exists but zero Bursa-specific synthesis. 20-28hrs weekend sprint needed. DAF owns 5 sections, Hadri 3, Fuad validates."
-strategic_significance: "First client-facing POC document from CSM channel. Quality directly affects POC conversion probability."
+  reference: CONV-20260821-002, ACT-20260820-004, COM-20260820-003, DAF directive Aug 21 16:56 UTC
+summary: "Re-engineered assessment framing the 8-section POC document as a success trigger instrument, not a deadline deliverable. DAF has already drafted the document. Fuad's technical validation is the gating step. Monday is Azrul's CSM-internal briefing, not a Bursa-facing session. No POC date set. Each section must be engineered to trigger a specific decision or action from Bursa technical stakeholders."
+strategic_significance: "The document is a strategic instrument — its purpose is to make the POC the obvious, low-friction next step for Bursa. Quality of engineering matters more than speed of delivery."
 mission_alignment:
   - csm-partnership
   - cybersecurity-productisation
+  - commercial-development
 related_records:
   - CONV-20260821-002
   - ACT-20260820-004
   - COM-20260820-003
   - RSK-20260820-008
+  - DEC-20260820-012
 ---
 
-# VoronCitadel POC — Bursa Malaysia Pre-Flight Readiness Assessment
+# VoronCitadel POC — Bursa Malaysia Success Trigger Assessment
 
-**Date:** 2026-08-21 16:50 UTC (Aug 22 00:50 MYT)
-**Prepared by:** Ember
-**Classification:** TLP:AMBER — Internal Operational Use
-**CVS:** T3 [ASSESSMENT] / L2 (internal validated records) / Confidence 7/10
-**Trigger:** DAF email thread Aug 19–21 (4 emails), ACT-20260820-004, COM-20260820-003
-
----
-
-## Context
-
-CSM (Azrul Nazim) confirmed VoronCitadel POC for Bursa Malaysia, deep-dive Monday Aug 24 10:00 MYT. DAF escalated to Fuad for validated positioning document. 8-section POC documentation framework requested. This assessment maps existing material against the 8 sections, identifies gaps, and recommends weekend action plan.
+**Date:** 2026-08-21 16:57 UTC (Aug 22 00:57 MYT)
+**Revision:** v2 — re-engineered from sprint-framed to success-trigger-framed per DAF directive
 
 ---
 
-## 8-Section Readiness Matrix
+## Corrected Context
 
-| # | Section | Existing Material | Readiness | Gap | Owner |
-|---|---------|------------------|-----------|-----|-------|
-| 1 | POC Project Brief | Product Baseline Summary, MVP Spec Executive Summary, GTM Outreach Package | **40%** | No Bursa-specific brief. Generic product positioning exists but needs translation to Bursa context (stock exchange, capital market infrastructure, NCII) | DAF |
-| 2 | POC Scope & Use Cases | MVP Spec (full feature set), Bursa Cybersecurity Controls (61 requirements in framework), CSM POC Target Analysis | **35%** | Bursa-specific use cases not defined. Which of the 4 domains (GRC, DRM, ASM, TPRM) are in scope? Which of 61 Bursa controls to target? | Hadri + Fuad |
-| 3 | POC Implementation Plan | ASSESS-20260820-001 (POC FTE model, 8-week POC load math, timeline acceleration with Teras), Teras architecture (DEC-20260820-008) | **45%** | Generic POC timeline exists (8 weeks, 80-120 hrs). Needs Bursa-specific phasing, dependencies, milestones. Teras-as-infrastructure changes deployment model. | Hadri |
-| 4 | Success Criteria & Acceptance Framework | GTM Outreach Package (POC targets), CSM POC Target Analysis (30-day metrics), MVP Spec (production-verified features) | **25%** | No Bursa-specific acceptance criteria. What does "successful POC" mean for Bursa? Which controls demonstrated? What evidence? | DAF |
-| 5 | Testing / Validation Plan | MVP Spec (production-verified feature set, 45 tables, 295 requirements) | **20%** | No POC-specific testing plan. Which workflows to demonstrate? What evidence per control? User validation approach? | Hadri |
-| 6 | POC Roles & RACI | GTM Outreach Package (RACI), COM-20260820-003 (DAF owns 5 sections, Hadri 3), ASSESS-20260820-001 (team model), Amelia as SSE Lead (DEC-20260820-012) | **55%** | Aras internal RACI clear. Missing: CSM role, Bursa role. 3-party RACI needed (Aras × CSM × Bursa). Amelia's role in POC coordination? | DAF |
-| 7 | Risks, Assumptions & Dependencies | RSK-20260820-008 (convergence risk), CSM POC Target Analysis (risk assessment), MVP Spec (Phase 2 deferrals), ChainSentry Phase 0 blockers (credential rotation) | **50%** | Generic risks identified. Missing: Bursa-specific assumptions (data access, environment, stakeholders), CSM dependency as channel, Teras infrastructure readiness | DAF |
-| 8 | Post-POC Pathway | CSM POC Target Analysis (upsell RM 500K-1M), ASSESS-20260820-001 (break-even 4 paying, RM 138K/yr per customer), VoronCitadel POC Mode (6-7 POCs + 3 paying) | **40%** | Commercial model exists. Missing: Bursa-specific progression (POC → pilot → production → commercial), pricing for Bursa, deployment timeline, Bursa-specific commercial terms | DAF |
-
-**Overall Readiness: ~38%** — substantial raw material, zero Bursa-specific synthesis.
+| Parameter | Previous (Wrong) | Corrected |
+|-----------|------------------|-----------|
+| Monday Aug 24 | Bursa-facing deep dive | Azrul's CSM-internal briefing |
+| POC date | Implied Monday | Not set — pre-POC positioning phase |
+| Document status | Needs creation (38% ready) | DAF has drafted it; Fuad validation is the gate |
+| Amelia's role | General SSE | CyberDSA stakeholder activation specifically |
+| Urgency framing | Weekend panic sprint | Engineer for success trigger quality |
+| Document purpose | POC documentation | Instrument to initiate direct Bursa technical stakeholder engagement |
 
 ---
 
-## What Can Be Reused Directly
+## Success Trigger Framework
 
-| Source Document | Reuse Value |
-|----------------|-------------|-------------|
-| MVP Product Specification v2.0 | Sections 1-4 of POC doc can draw heavily on architecture, feature sets, compliance frameworks. The 61 Bursa Cybersecurity Controls requirement set is directly relevant. |
-| Product Baseline Summary | Executive overview language, differentiators, production status. Reusable for Section 1 (Project Brief). |
-| GTM Outreach Package | RACI structure, POC qualification criteria, success metrics framework. Reusable for Sections 4 and 6. |
-| ASSESS-20260820-001 (FTE Model) | POC load math (80-120 hrs over 8 weeks), team capacity, timeline acceleration with Teras. Reusable for Section 3. |
-| Teras AI Platform (DEC-20260820-008) | Infrastructure layer explanation. Deployment model. Reusable for Section 3 and Section 7. |
-| CSM POC Target Analysis | Risk patterns, competitive landscape, regulatory drivers. Reusable for Section 7. |
+The 8-section document is not documentation. It is an instrument engineered to produce a specific outcome: **when Azrul or DAF puts it in front of Bursa's technical stakeholders, the POC becomes the obvious, low-friction next step.**
 
----
+Every section has a trigger function — a specific cognitive shift it must produce in the reader. If a section doesn't trigger a decision or action, it's dead weight.
 
-## What Must Be Produced (Net New)
+### Section-by-Section Trigger Engineering
 
-| Section | Net New Content Required | Estimated Effort |
-|---------|------------------------|-----------------|
-| 1. POC Project Brief | Bursa-specific objectives, Bursa context (stock exchange, NCII, regulatory drivers), engagement model (Aras-CSM-Bursa), proposed outcome | 3-4 hrs (DAF) |
-| 2. POC Scope & Use Cases | Select 2-3 high-impact Bursa use cases from 4 domains. Map to Bursa Cybersecurity Controls (61 requirements). Define in-scope vs out-of-scope explicitly. | 4-6 hrs (Hadri + Fuad) |
-| 3. POC Implementation Plan | Bursa-specific phasing (Week 1-8), dependencies (Bursa env access, CSM coordination), milestones, responsibilities | 3-4 hrs (Hadri) |
-| 4. Success Criteria | Measurable outcomes per use case. Definition of "successful POC completion." Evidence requirements. Validation criteria. | 2-3 hrs (DAF) |
-| 5. Testing / Validation Plan | Which workflows demonstrated, test scenarios, user validation steps, evidence artifacts per control | 3-4 hrs (Hadri) |
-| 6. POC Roles & RACI | 3-party RACI: Aras × CSM × Bursa. Named roles. Amelia's coordination role. | 1-2 hrs (DAF) |
-| 7. Risks, Assumptions & Dependencies | Bursa-specific assumptions (data access, env, stakeholder availability), CSM as channel dependency, Teras readiness, resource contention (RSK-20260820-008) | 2 hrs (DAF) |
-| 8. Post-POC Pathway | Bursa-specific: POC → pilot → production. Pricing model. Deployment on Teras. Commercial terms. Timeline to production. | 2-3 hrs (DAF) |
+#### Section 1: POC Project Brief
+- **Trigger:** "This team understands our context — we're not just another account"
+- **Engineering requirement:** Must reference Bursa-specific context (stock exchange, capital market infrastructure, NCII designation, Bursa Cybersecurity Controls) — not generic GRC positioning
+- **Validation question for Fuad:** Are the product capability claims accurate and production-verified?
+- **Existing material to draw from:** Product Baseline Summary, MVP Spec Executive Summary
 
-**Total estimated effort: 20-28 hours over 2-3 days (weekend)**
+#### Section 2: POC Scope & Use Cases
+- **Trigger:** "These use cases map to our actual problems — not a vendor's product roadmap"
+- **Engineering requirement:** 2-3 Bursa-specific use cases, each mapped to Bursa Cybersecurity Controls (61 requirements already in platform). In-scope and out-of-scope explicit.
+- **Validation question for Fuad:** Are the use cases technically feasible with current production features? Any that require Phase 2 capabilities?
+- **Existing material:** MVP Spec (full feature set), 61 Bursa Cybersecurity Controls in production database
 
----
+#### Section 3: POC Implementation Plan
+- **Trigger:** "This is feasible and low-risk to start — we're not signing up for a science project"
+- **Engineering requirement:** Phased plan with clear dependencies, minimal Bursa-side effort, Teras as infrastructure layer (sovereign deployment, no foreign endpoints). Timeline that respects Bursa's operational constraints.
+- **Validation question for Fuad:** Is the Teras-VoronCitadel deployment model accurate? Are the infrastructure assumptions correct?
+- **Existing material:** ASSESS-20260820-001 (POC load math), Teras architecture (DEC-20260820-008)
 
-## Recommended Bursa Use Cases (Initial — for Hadri/Fuad Validation)
+#### Section 4: Success Criteria & Acceptance Framework
+- **Trigger:** "We know what 'done' looks like — measurable, not vibes"
+- **Engineering requirement:** Measurable outcomes per use case. Binary criteria (met/not met). Evidence artifacts defined. No vague "demonstrate capability" language.
+- **Validation question for Fuad:** Can the platform actually produce the evidence artifacts specified? Are the acceptance criteria technically achievable within POC scope?
+- **Existing material:** GTM Outreach Package (success metrics framework), MVP Spec (production-verified features)
 
-Based on Bursa Malaysia's profile as a capital market infrastructure operator and NCII entity:
+#### Section 5: Testing / Validation Plan
+- **Trigger:** "We'll see real evidence against our own environment — not a canned demo"
+- **Engineering requirement:** Test scenarios using Bursa-relevant data (or simulated equivalent). User validation steps. Evidence per control. Live VoronScout scan as the compelling visual.
+- **Validation question for Fuad:** Are the test scenarios achievable with current production capabilities? Does VoronScout work against Bursa's external footprint? Any technical constraints?
+- **Existing material:** MVP Spec (production-verified feature set, 45 tables, 295 requirements)
 
-### Use Case 1: Bursa Cybersecurity Controls Compliance Monitoring
-- **Domain:** GRC + Compliance
-- **Value:** 61 Bursa Cybersecurity Controls already in the platform. Demonstrate continuous compliance monitoring against Bursa-specific framework.
-- **Why:** Directly addresses Bursa's own regulatory requirements. Shows "built for you" not "generic tool."
-- **Effort:** Low — framework already loaded in production.
+#### Section 6: POC Roles & RACI
+- **Trigger:** "Roles are clear — nobody's confused about who does what"
+- **Engineering requirement:** 3-party RACI: Aras × CSM × Bursa. Named roles (not "Team"). Amelia's CyberDSA activation role distinct from POC execution. CSM as channel, not delivery layer.
+- **Validation question for Fuad:** Are the Aras technical roles and responsibilities accurate? Does the RACI reflect actual engineering capacity (3-person team, no HoE yet)?
+- **Existing material:** GTM Outreach Package (RACI), ASSESS-20260820-001 (team model), DEC-20260820-012 (Amelia as SSE Lead)
 
-### Use Case 2: Third-Party Risk Assessment (TPRA) for Bursa's Vendors
-- **Domain:** TPRM
-- **Value:** Bursa depends on trading platform vendors, clearing house, data vendors. Automated 6-hourly TPRA monitoring demonstrates continuous vendor risk visibility.
-- **Why:** Supply chain risk is a BNM RMiT mandate (2026 Q3). Bursa has complex vendor ecosystem.
-- **Effort:** Medium — needs Bursa vendor list (sample 5-10 vendors).
+#### Section 7: Risks, Assumptions & Dependencies
+- **Trigger:** "They've thought about what could go wrong — and how to prevent it"
+- **Engineering requirement:** Bursa-specific assumptions (data access, environment, stakeholder availability). CSM dependency as channel. Teras readiness. Resource constraints acknowledged honestly — not hidden.
+- **Validation question for Fuad:** Are the technical risks accurately stated? Any missing technical dependencies (integration points, data formats, network requirements)?
+- **Existing material:** RSK-20260820-008 (convergence risk), CSM POC Target Analysis, MVP Spec (Phase 2 deferrals)
 
-### Use Case 3: Attack Surface Management (VoronScout)
-- **Domain:** ASM
-- **Value:** Outside-in discovery of Bursa's externally exposed digital footprint. Real-time scan during POC demo.
-- **Why:** Stock exchange = high-value target. Live ASM demo is visually compelling.
-- **Effort:** Low — VoronScout is production-ready. Scan Bursa domains live.
-
----
-
-## Weekend Action Plan (Aug 22-23)
-
-| Day | DAF | Hadri | Fuad |
-|-----|-----|-------|------|
-| **Sat Aug 22** | Sections 1, 4, 6, 7, 8 (drafts) | Sections 2, 3, 5 (start) | Section 2 input (use case selection, capability mapping) |
-| **Sun Aug 23** | Review all sections, consolidate, finalize | Submit 3 sections by noon | Review technical sections, validate product claims |
-| **Sun evening** | **Single consolidated document ready** | | |
-
-**Deliverable:** 8-section POC document, consolidated, ready for Monday 10:00 MYT pre-flight check with Azrul/CSM.
+#### Section 8: Post-POC Pathway
+- **Trigger:** "There's a path forward — not just an experiment that ends with a report"
+- **Engineering requirement:** POC → pilot → production → commercial. Pricing model. Deployment on Teras (sovereign infrastructure). Bursa-specific commercial terms. Timeline that shows institutional commitment, not transactional thinking.
+- **Validation question for Fuad:** Is the deployment model technically sound? Are the production-readiness assumptions accurate?
+- **Existing material:** ASSESS-20260820-001 (break-even model), CSM POC Target Analysis (upsell path), VoronCitadel POC Mode
 
 ---
 
-## Strategic Positioning Notes
+## What Fuad Needs to Validate
 
-1. **Bursa is NOT in the original top-5 POC targets** (CSM POC Target Analysis listed BNM, NACSA, EPF, TNB, MOH). Bursa comes through CSM channel — first named POC from the CSM partnership.
+Since DAF has already drafted the document, the assessment is not about what to create — it's about what Fuad must verify:
 
-2. **CSM's role is channel + credibility, not execution.** Azrul opens the door. Aras carries execution. Amelia's email confirms this framing.
+| Validation Area | What Fuad Checks | Why It Matters |
+|----------------|-----------------|----------------|
+| **Product capability claims** | Every feature claimed in the document exists in production | A single false claim destroys credibility with technical stakeholders |
+| **Use case feasibility** | Each Bursa use case is achievable with current production features (not Phase 2) | Overpromising Phase 1 capabilities = failed POC |
+| **Bursa Cybersecurity Controls accuracy** | 61 requirements in platform, mapping is correct | This is the "built for you" evidence — must be airtight |
+| **Teras deployment model** | VoronCitadel-on-Teras is technically sound, not aspirational | Bursa will ask "how does this deploy?" — answer must be confident |
+| **Testing plan technical soundness** | Test scenarios are executable, evidence artifacts are producible | A test plan that can't be executed = no POC |
+| **Infrastructure requirements** | Network, compute, data access assumptions are realistic | Bursa infra team will scrutinize this |
+| **Phase 2 boundary clarity** | What's NOT in scope is as accurate as what IS | Scope creep kills POCs |
 
-3. **The Monday session is a "deep dive project brief," not a POC kickoff.** The objective is to present a credible POC framework and identify what Bursa needs to provide (data access, environment, stakeholders). Not to have everything finished.
+---
 
-4. **DAF's second email (Aug 21) escalates urgency.** He wants a "validated document I can highlight to initiate direct engagement with Bursa Technical Stakeholder." This means the document must be technically credible, not just strategically framed.
+## Existing Material Available to Fuad for Validation
 
-5. **Teras changes the deployment story.** VoronCitadel on Teras = sovereign infrastructure, no foreign endpoints, air-gapped capability. This is a major differentiator for a stock exchange.
+| Document | Location | Validation Use |
+|----------|----------|----------------|
+| MVP Product Specification v2.0 | `products/voroncitadel/MVP_SPECIFICATION.md` | Authoritative feature reference — every claim should trace here |
+| Product Baseline Summary | `products/voroncitadel/PRODUCT_BASELINE.md` | Executive-level capability summary |
+| Teras AI Platform | `documents/DOC-20260820-003.md` | Infrastructure layer validation |
+| FTE Model & Financial Analysis | `assessments/ASSESS-20260820-001.md` | POC load math, team capacity |
+| Convergence Risk | `risks/RSK-20260820-008.md` | Resource contention context |
+| CSM POC Target Analysis | `govsec-docs/intelligence/CSM-POC-TARGET-ANALYSIS.md` | Regulatory drivers, competitive landscape |
 
-6. **The 5 BNM RMiT compliance frameworks (including Bursa Cybersecurity Controls, 61 requirements) are already loaded in production.** This is the strongest "built for you" evidence point.
+---
+
+## Strategic Positioning Notes (Unchanged)
+
+1. **Bursa is the first named POC from the CSM channel** — not in the original top-5 target list. Comes through CSM partnership, not direct outreach.
+
+2. **CSM's role is channel + credibility.** Azrul opens the door. Aras carries execution. Amelia confirmed this framing explicitly.
+
+3. **Monday is Azrul's briefing — CSM-internal.** The document positions Aras for when Azrul (or DAF) engages Bursa's technical stakeholders directly. No Bursa-facing deadline.
+
+4. **The 5 compliance frameworks including Bursa Cybersecurity Controls (61 requirements) are already loaded in production.** This is the strongest "built for you" evidence point. Fuad must validate this is accurate and demonstrable.
+
+5. **Teras changes the deployment story.** Sovereign infrastructure, no foreign endpoints, air-gapped capability. Major differentiator for a stock exchange. Fuad must validate Teras-VoronCitadel integration is real, not aspirational.
+
+6. **The document is a success trigger, not a deliverable.** Its purpose is to make the POC the obvious next step. Every section engineered for a specific trigger. If it doesn't trigger, it doesn't go in.
 
 ---
 
@@ -153,7 +164,6 @@ Based on Bursa Malaysia's profile as a capital market infrastructure operator an
 | Field | Value |
 |------|-------|
 | Claim Tier | T3 [ASSESSMENT] |
-| Source Level | L2 (internal validated records) |
+| Source Level | L2 (internal validated records + DAF directive) |
 | Confidence Score | 7/10 (Authority 2, Traceability 2, Recency 1, Consistency 1, Completeness 1) |
 | Rule 6 Check | ✅ AI-generated, capped at T2. T3 per §7 analytical interpretation from L2 evidence. |
-| Evidence Register | Entry to be logged |
