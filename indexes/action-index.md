@@ -42,7 +42,7 @@ All action records, grouped by status.
 | ACT-20260821-004 | Present Merged 14-Item Pending Register at Tuesday 2:30 PM Weekly Review | DAF | 2026-08-25 | High | CONV-20260821-001, DEC-20260817-001, DEC-20260821-002 |
 | ACT-20260821-007 | Define CyberDSA 2026 Demo Preparation Workstream — Demo Script, VIP Walkthrough, Booth Environment, Rehearsal Schedule | DAF/Fuad | 2026-08-28 | Critical | DOC-20260821-004, INIT-20260810-003 |
 | ACT-20260821-008 | Accelerate Hiring — Post HoE/CSE/Junior Backend Roles This Week, Shortlist by Sep 1, Interview Sep 1-5 | DAF | 2026-08-28 | Critical | DOC-20260821-004, ACT-20260820-007/008/009 |
-| ACT-20260821-009 | Prepare CSM SOAR Integration Scoping Document for Aug 25 Working Group Sync | DAF/Amelia | 2026-08-25 | High | DOC-20260821-004, ACT-20260820-003 |
+| ACT-20260821-009 | RECLASSIFIED: CSM SOAR Integration Timing Mismatch — Intelligence Flag (Not Execution Action) | — | — | Low | DOC-20260821-004, GOV-AIP-PROD-OPS-001 |
 
 ---
 
