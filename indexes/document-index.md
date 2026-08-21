@@ -15,7 +15,7 @@ All document records, chronological.
 | DOC-20260820-004 | 2026-08-20 | ChainSentry MVP Product Specification v4.1 | hadri | Active | High |
 | DOC-20260820-005 | 2026-08-20 | ChainSentry Platform Roadmap v2.0 | hadri | Active | High |
 | DOC-20260820-006 | 2026-08-20 | Strategic Stakeholder Engagement Lead — Operational Role Definition | DAF | Active | High |
-| DOC-20260821-003 | 2026-08-21 | CVS ER — Paired SOP Version-Lock Alignment (GOV-INTAKE-SOP-001 v1.3 + GOV-TEMPLATE-DISCIPLINE-001 v1.2) | laras | Active | High |
+| DOC-20260821-003 | 2026-08-21 | CVS ER — Paired SOP Version-Lock Alignment (AI Council Review — Laras/Athena/Ember/DAF) | laras | Active | High |
 
 ---
 
