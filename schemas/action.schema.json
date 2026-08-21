@@ -11,6 +11,7 @@
     "status",
     "required_output"
   ],
+  "additionalProperties": false,
   "properties": {
     "id": {
       "type": "string",
@@ -31,14 +32,64 @@
       "type": "string",
       "format": "date-time"
     },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when action was completed. Required when status=completed."
+    },
     "owner": {
-      "type": "string"
+      "type": "string",
+      "description": "Accountable owner."
+    },
+    "assignee": {
+      "type": "string",
+      "description": "Person executing the action. Distinct from owner (accountable)."
+    },
+    "co_owner": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Additional shared owners."
+    },
+    "previous_owner": {
+      "type": "string",
+      "description": "Prior owner before transfer."
+    },
+    "delegated_by": {
+      "type": "string",
+      "description": "Who delegated this action."
+    },
+    "action_type": {
+      "type": "string",
+      "enum": [
+        "hiring",
+        "delivery",
+        "validation",
+        "governance",
+        "engagement",
+        "analysis",
+        "administrative"
+      ],
+      "description": "Category of action."
     },
     "related_initiative": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Links to INIT records. Array to support multiple initiatives."
     },
     "related_stakeholder": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Links to STK records. Array to support multiple stakeholders."
+    },
+    "predecessor": {
+      "type": "string",
+      "description": "Prior action in a sequence (ACT-ID)."
     },
     "priority": {
       "type": "string",
@@ -93,12 +144,20 @@
         "controlled"
       ]
     },
+    "classification": {
+      "type": "string",
+      "description": "Formal classification marking (e.g., OSA-1972-aware). Distinct from sensitivity."
+    },
     "deadline": {
       "type": "string",
       "format": "date"
     },
     "dependency": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "What must happen first. Array to support multiple dependencies."
     },
     "required_output": {
       "type": [
@@ -110,21 +169,24 @@
     "attention_level": {
       "type": "string",
       "enum": [
-        "owner",
-        "approver",
-        "consulted",
-        "informed",
-        "delegated",
-        "deferred",
+        "immediate",
         "critical",
         "high",
         "medium",
+        "low",
+        "monitored",
         "strategic",
-        "monitored"
-      ]
+        "deferred"
+      ],
+      "description": "Urgency/attention level. 'immediate' for time-critical actions."
     },
     "completion_evidence": {
-      "type": "string"
+      "type": "string",
+      "description": "What proves the action is done. Required when status=completed."
+    },
+    "validation_note": {
+      "type": "string",
+      "description": "SOP-AV-001 validation evidence and rule reference."
     },
     "tags": {
       "type": "array",
