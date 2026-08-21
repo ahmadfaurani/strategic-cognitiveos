@@ -1,0 +1,24 @@
+# CognitiveOS Pair-Lock Registry
+# ==============================
+# Declares mandatory paired-SOP relationships that must remain intact.
+# The pair-lock validator checks this registry on every commit.
+# Removing paired_sops metadata from both files simultaneously does NOT
+# bypass this registry — the pair is still mandatory here.
+#
+# To add a new mandatory pair:
+#   1. Add paired_sops field to both files' YAML frontmatter (reciprocal)
+#   2. Add the pair declaration below
+#   3. Commit both changes together
+#
+# To retire a mandatory pair:
+#   1. Remove the pair declaration from this registry
+#   2. Remove paired_sops from both files' YAML frontmatter
+#   3. Document the retirement in revision history of both files
+#   4. Commit all changes together with rationale
+
+mandatory_pairs:
+  - pair: [GOV-INTAKE-SOP-001, GOV-TEMPLATE-DISCIPLINE-001]
+    type: sop-version-lock
+    established: "2026-08-21"
+    authority: DAF
+    rationale: "Intake SOP and Template Discipline SOP share governance surfaces (record type matrix, pre-commit hook, git staging, non-record directories). Version-locking ensures changes to shared surfaces are reflected in both SOPs."

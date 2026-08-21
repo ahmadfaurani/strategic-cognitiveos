@@ -136,6 +136,13 @@
         "type": "string"
       }
     },
+    "paired_sops": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
     "document_type": {
       "type": "string",
       "enum": [
