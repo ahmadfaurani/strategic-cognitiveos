@@ -11,11 +11,15 @@ sensitivity: confidential
 lifecycle_state: canonical
 tags:
   - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity-productisation
   - domain/stakeholder-engagement
-  - milestone/cyberdsa-2026
-  - workstream/cybersec-products
+  - framework/actionable-intelligence-protocol
   - lifecycle/canonical
+  - milestone/cyberdsa-2026
   - priority/critical
+  - workstream/cybersec-products
 related_records:
   - INT-20260815-002
   - INT-20260815-003

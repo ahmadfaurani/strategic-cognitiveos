@@ -11,8 +11,14 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/intelligence-operations
-- domain/governance
+  - doctrine/adep-001
+  - domain/cognitiveos-operations
+  - domain/cyberdsa-2026
+  - domain/development-governance
+  - domain/governance
+  - domain/intelligence-operations
+  - framework/engineered-success
+  - outcome/evidence-confirmed
 source:
   type: direct
   reference: DAF authority

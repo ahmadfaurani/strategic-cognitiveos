@@ -12,13 +12,17 @@ sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cybersecurity
-- domain/commercial-development
-- domain/product-management
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- lifecycle/canonical
-- priority/critical
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/product-management
+  - framework/actionable-intelligence-protocol
+  - lifecycle/canonical
+  - milestone/cyberdsa-2026
+  - priority/critical
+  - workstream/cybersec-products
 source:
   type: operator-directive
   reference: DEC-20260815-004

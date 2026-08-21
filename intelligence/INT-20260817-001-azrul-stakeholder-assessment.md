@@ -14,13 +14,17 @@ related_initiative: INIT-20260804-001
 related_stakeholder: STK-20260813-008
 lifecycle_state: canonical
 tags:
-- domain/cybersecurity
-- domain/cybersecurity-productisation
-- domain/strategic-partnership
-- org/csm
-- role/strategic-management
-- role/industry-engagement
-- lifecycle/active-development
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/stakeholder-engagement
+  - domain/strategic-partnership
+  - lifecycle/active-development
+  - org/csm
+  - role/industry-engagement
+  - role/strategic-management
 source:
   type: null
   reference: null

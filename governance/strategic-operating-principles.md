@@ -11,8 +11,11 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/strategic-planning
-- domain/governance
+  - domain/cognitiveos-operations
+  - domain/governance
+  - domain/strategic-planning
+  - framework/engineered-success
+  - outcome/evidence-confirmed
 source:
   type: direct
   reference: DAF authority

@@ -11,15 +11,17 @@ priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-- domain/cybersecurity
-- domain/governance
-- sector/government
-- sector/education
-- mission/national-cybersecurity
-- mission/strategic-communications
-- mission/organisational-capability
-- intelligence/market
-- commercial/opportunity-identification
+  - commercial/opportunity-identification
+  - domain/csm-partnership
+  - domain/cybersecurity
+  - domain/governance
+  - domain/political-intelligence
+  - intelligence/market
+  - mission/national-cybersecurity
+  - mission/organisational-capability
+  - mission/strategic-communications
+  - sector/education
+  - sector/government
 mission_alignment:
 - national-cybersecurity
 - strategic-communications

@@ -13,13 +13,15 @@ lifecycle_state: canonical
 confidence: high
 summary: DAF shared a comprehensive Stakeholder Coverage & Communication Ownership Plan for CSM-Aras CyberDSA product launch. Defines multi-layer coverage model, RACI, communication ownership, engagement flow, readiness metrics, and 8 immediate actions.
 tags:
-- domain/cybersecurity
-- domain/stakeholder-engagement
-- domain/commercial-development
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- lifecycle/canonical
-- priority/critical
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/stakeholder-engagement
+  - lifecycle/canonical
+  - milestone/cyberdsa-2026
+  - priority/critical
+  - workstream/cybersec-products
 source:
   type: operator-directive
   reference: CONV-20260815-005

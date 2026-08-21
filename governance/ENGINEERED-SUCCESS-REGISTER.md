@@ -11,9 +11,27 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cognitiveos-operations
-- domain/engineered-success
-- domain/governance
+  - cognitive-loop/kill-date-enforcement
+  - cognitive-loop/self-assessment
+  - deadline/gate-approaching
+  - deadline/gate-failed
+  - deadline/gate-passed
+  - doctrine/adep-001
+  - doctrine/cognitiveos-prime
+  - domain/cognitiveos-operations
+  - domain/cybersecurity-productisation
+  - domain/data-infrastructure
+  - domain/development-governance
+  - domain/engineered-success
+  - domain/governance
+  - domain/organisational-capability
+  - framework/action-validation
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - framework/workflow-identification-protocol
+  - method/engineered-success
+  - outcome/evidence-confirmed
 source:
   type: direct
   reference: "DAF directive, 2026-08-21 15:40 UTC"

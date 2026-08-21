@@ -11,7 +11,11 @@ sensitivity: confidential
 summary: Analytical report — see body for full analysis.
 lifecycle_state: canonical
 tags:
-- type/analytical-report
+  - domain/csm-partnership
+  - domain/cybersecurity-productisation
+  - domain/sovereign-ai
+  - framework/workflow-identification-protocol
+  - type/analytical-report
 updated_at: '2026-08-17T17:50:38+00:00'
 priority: high
 source:

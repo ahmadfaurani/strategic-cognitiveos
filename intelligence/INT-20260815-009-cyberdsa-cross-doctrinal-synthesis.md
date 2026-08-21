@@ -15,15 +15,27 @@ summary: Cross-doctrinal synthesis of INT-006 (Cognitive Loop), INT-007 (Actiona
 context: 'DAF requested a detailed structured analytical report based on the findings of all 3 doctrine application use cases. This report synthesises 108KB of analysis (INT-006: 33KB, INT-007: 24KB, INT-008: 48KB) into a single coherent assessment.'
 rationale: Three independent analytical methods applied to the same workstream produce convergent findings. This report validates that convergence, identifies blind spots each method alone cannot see, and produces the unified action framework that DAF should operate from.
 tags:
-- domain/cybersecurity
-- domain/commercial-development
-- domain/product-management
-- domain/stakeholder-engagement
-- domain/organisational-capability
-- milestone/cyberdsa-2026
-- cognitive-doctrine/synthesis
-- lifecycle/canonical
-- priority/critical
+  - cognitive-doctrine/synthesis
+  - cognitive-loop/full-cycle
+  - doctrine/cognitiveos-prime
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/governance
+  - domain/organisational-capability
+  - domain/product-management
+  - domain/stakeholder-engagement
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - lifecycle/canonical
+  - method/engineered-success
+  - method/triangulation
+  - milestone/cyberdsa-2026
+  - outcome/evidence-confirmed
+  - priority/critical
 source:
   type: operator-directive
   reference: Telegram direct, DAF, 2026-08-16 00:39 UTC

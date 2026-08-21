@@ -57,16 +57,24 @@ open_questions:
 - Is Kenny available this week for Hadi onboarding confirmation?
 - Does Shuhada have bandwidth for tracker creation alongside 2.1/2.2?
 tags:
-- domain/cybersecurity
-- domain/commercial-development
-- domain/product-management
-- domain/stakeholder-engagement
-- domain/organisational-capability
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- cognitive-loop/full-cycle
-- lifecycle/canonical
-- priority/critical
+  - cognitive-loop/full-cycle
+  - deadline/gate-failed
+  - doctrine/cognitiveos-prime
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/organisational-capability
+  - domain/product-management
+  - domain/stakeholder-engagement
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - lifecycle/canonical
+  - milestone/cyberdsa-2026
+  - outcome/evidence-confirmed
+  - priority/critical
+  - workstream/cybersec-products
 source:
   type: internal-analysis
   reference: COGNITIVEOS-PRIME-DOCTRINE.md §5-§6

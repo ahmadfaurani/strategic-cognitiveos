@@ -57,10 +57,14 @@ related_initiatives:
 - INIT-20260804-001
 - INIT-20260811-001
 tags:
-- domain/cybersecurity
-- workstream/cybersec-products
-- lifecycle/canonical
-- domain/partnership
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/partnership
+  - lifecycle/canonical
+  - workstream/cybersec-products
 related_records:
 - INIT-20260804-001
 - INIT-20260811-001

@@ -11,9 +11,14 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/governance
-- domain/portfolio-governance
-- domain/organisational-design
+  - domain/cognitiveos-operations
+  - domain/cybersecurity-productisation
+  - domain/governance
+  - domain/organisational-capability
+  - domain/organisational-design
+  - domain/portfolio-governance
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
 source:
   type: direct
   reference: DAF authority — created per directive 2026-08-20 08:32 UTC

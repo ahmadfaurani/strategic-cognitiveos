@@ -15,15 +15,22 @@ summary: Doctrine §7 (Actionable Intelligence Standard) and §8 (Prioritisation
 context: DAF requested a focused application of §7 and §8 against the CyberDSA workstream. This is distinct from INT-006 (full 8-step Cognitive Loop) — this is a deep-dive on the intelligence-to-action pipeline specifically.
 rationale: 'Demonstrates the core CognitiveOS value chain: raw signal → classified intelligence → weighted prioritisation → owned action → verifiable outcome. Shows how the doctrine prevents ad-hoc task generation and forces evidence-based, leverage-optimised execution.'
 tags:
-- domain/cybersecurity
-- domain/commercial-development
-- domain/product-management
-- domain/stakeholder-engagement
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- cognitive-doctrine/application
-- lifecycle/canonical
-- priority/critical
+  - cognitive-doctrine/application
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/product-management
+  - domain/stakeholder-engagement
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - lifecycle/canonical
+  - milestone/cyberdsa-2026
+  - outcome/evidence-missing
+  - priority/critical
+  - workstream/cybersec-products
 source:
   type: operator-directive
   reference: Telegram direct, DAF, 2026-08-15 18:40 UTC

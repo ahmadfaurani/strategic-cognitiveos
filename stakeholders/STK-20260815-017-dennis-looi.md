@@ -23,11 +23,13 @@ related_initiatives:
 - INIT-20260804-001
 sensitivity: internal
 tags:
-- domain/cybersecurity
-- domain/sovereign-ai
-- lifecycle/canonical
-- priority/medium
-- org/aras-integrasi
+  - domain/csm-partnership
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/sovereign-ai
+  - lifecycle/canonical
+  - org/aras-integrasi
+  - priority/medium
 related_records:
 - ORG-20260815-001
 - STK-20260815-016

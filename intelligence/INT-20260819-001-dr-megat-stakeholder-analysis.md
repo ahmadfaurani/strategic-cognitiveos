@@ -13,14 +13,16 @@ sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cybersecurity
-- org/nacsa
-- domain/sovereign-technology
-- domain/artificial-intelligence
-- domain/cryptography
-- sector/critical-infrastructure
-- milestone/cyberdsa-2026
-- lifecycle/active
+  - domain/artificial-intelligence
+  - domain/cryptography
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/sovereign-technology
+  - lifecycle/active
+  - milestone/cyberdsa-2026
+  - org/nacsa
+  - sector/critical-infrastructure
 source:
   type: analytical-report
   reference: DAF-provided Strategic Stakeholder Analytical Report, 19 August 2026.

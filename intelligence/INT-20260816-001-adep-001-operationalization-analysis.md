@@ -12,8 +12,27 @@ lifecycle_state: structurally_valid
 confidence: high
 summary: Comprehensive granular analysis of all 47 ADEP-001 sections mapped against CognitiveOS Prime Doctrine (§1-§50) and existing SOPs. Identifies 12 overlaps, 18 extensions, 7 gaps, and 10 operationalization mechanisms required. Produces ADEP-CognitiveOS integration architecture and compliance checklist.
 tags:
+  - cognitive-loop/self-assessment
+  - deadline/gate-passed
+  - doctrine/adep-001
+  - doctrine/cognitiveos-prime
+  - doctrine/cvs-master-framework
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/cyberdsa-2026
+  - domain/development-governance
+  - domain/governance
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - method/cross-doctrinal-analysis
+  - method/engineered-success
+  - method/post-action-learning
+  - method/pre-mortem
+  - method/triangulation
+  - outcome/evidence-confirmed
+  - outcome/evidence-missing
 
-- domain/governance
 
 source:
   type: analysis

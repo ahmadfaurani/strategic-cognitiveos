@@ -15,16 +15,27 @@ summary: 'Doctrine §9 (Engineered Success Framework) and §10 (Objective Decomp
 context: 'DAF requested a focused application of §9 and §10 against the CyberDSA workstream. This is the third in a doctrine application series: INT-006 (full Cognitive Loop), INT-007 (Actionable Intelligence & Prioritisation), INT-008 (Engineered Success).'
 rationale: Demonstrates how a complex multi-dimensional workstream is engineered for success rather than managed reactively. Shows the decomposition chain from strategic objective to individual actions with verifiable evidence. Provides the structural template that makes the Cognitive Loop and Prioritisation Engine effective — without this framework, there is nothing to loop over or prioritise against.
 tags:
-- domain/cybersecurity
-- domain/commercial-development
-- domain/product-management
-- domain/stakeholder-engagement
-- domain/organisational-capability
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- cognitive-doctrine/application
-- lifecycle/canonical
-- priority/critical
+  - cognitive-doctrine/application
+  - deadline/gate-failed
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/governance
+  - domain/organisational-capability
+  - domain/product-management
+  - domain/stakeholder-engagement
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - lifecycle/canonical
+  - method/engineered-success
+  - milestone/cyberdsa-2026
+  - outcome/evidence-confirmed
+  - priority/critical
+  - workstream/cybersec-products
 source:
   type: operator-directive
   reference: Telegram direct, DAF, 2026-08-15 18:44 UTC

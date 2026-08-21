@@ -17,9 +17,22 @@ priority: high
 sensitivity: confidential
 lifecycle_state: canonical
 tags:
+  - deadline/gate-failed
+  - doctrine/adep-001
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
   - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/development-governance
+  - domain/sovereign-ai
+  - domain/stakeholder-engagement
   - domain/strategic-planning
+  - framework/actionable-intelligence-protocol
+  - method/pre-mortem
   - milestone/cyberdsa-2026
+  - outcome/evidence-missing
 ---
 
 

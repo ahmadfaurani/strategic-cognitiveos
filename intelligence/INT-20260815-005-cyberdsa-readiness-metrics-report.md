@@ -46,13 +46,18 @@ open_questions:
 - What is the format for pre/during/post meeting owner assignment?
 - Can Hadri absorb tracker ownership on top of 9 existing criteria?
 tags:
-- domain/cybersecurity
-- domain/stakeholder-engagement
-- domain/organisational-capability
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- lifecycle/canonical
-- priority/critical
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/organisational-capability
+  - domain/stakeholder-engagement
+  - framework/actionable-intelligence-protocol
+  - lifecycle/canonical
+  - milestone/cyberdsa-2026
+  - priority/critical
+  - workstream/cybersec-products
 source:
   type: internal-analysis
   reference: INT-20260815-004

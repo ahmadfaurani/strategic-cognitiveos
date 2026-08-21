@@ -11,9 +11,14 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cognitiveos-operations
-- domain/governance
-- domain/development-governance
+  - deadline/gate-overdue
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/cybersecurity-productisation
+  - domain/development-governance
+  - domain/governance
+  - domain/political-intelligence
+  - outcome/evidence-confirmed
 source:
   type: direct
   reference: DAF authority, 2026-08-04

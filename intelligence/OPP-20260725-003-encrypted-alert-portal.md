@@ -11,14 +11,17 @@ priority: high
 sensitivity: confidential
 confidence: medium
 tags:
-- domain/cybersecurity
-- domain/governance
-- sector/government
-- mission/national-cybersecurity
-- mission/productisation
-- mission/commercial-growth
-- intelligence/market
-- commercial/opportunity-identification
+  - commercial/opportunity-identification
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/governance
+  - intelligence/market
+  - mission/commercial-growth
+  - mission/national-cybersecurity
+  - mission/productisation
+  - sector/government
 mission_alignment:
 - national-cybersecurity
 - productisation

@@ -11,7 +11,11 @@ summary: Reference document — see body for details.
 sensitivity: internal
 lifecycle_state: canonical
 tags:
-- type/reference-document
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cybersecurity-productisation
+  - framework/actionable-intelligence-protocol
+  - type/reference-document
 updated_at: '2026-08-17T17:50:23+00:00'
 priority: high
 confidence: medium

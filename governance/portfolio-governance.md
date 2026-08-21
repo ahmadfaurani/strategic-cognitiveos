@@ -11,8 +11,9 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/portfolio-governance
-- domain/governance
+  - domain/cognitiveos-operations
+  - domain/governance
+  - domain/portfolio-governance
 source:
   type: direct
   reference: DAF authority

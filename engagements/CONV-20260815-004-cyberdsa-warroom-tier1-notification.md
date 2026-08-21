@@ -11,13 +11,19 @@ priority: critical
 sensitivity: confidential
 confidence: high
 tags:
-- domain/cybersecurity
-- domain/commercial-development
-- domain/executive-governance
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- lifecycle/canonical
-- priority/critical
+  - doctrine/cognitiveos-prime
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/executive-governance
+  - domain/sovereign-ai
+  - framework/actionable-intelligence-protocol
+  - lifecycle/canonical
+  - milestone/cyberdsa-2026
+  - priority/critical
+  - workstream/cybersec-products
 source:
   type: email
   platform: email

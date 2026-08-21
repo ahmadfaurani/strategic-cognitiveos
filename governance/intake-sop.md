@@ -11,8 +11,11 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cognitiveos-operations
-- domain/governance
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cybersecurity-productisation
+  - domain/governance
 source:
   type: direct
   reference: DAF authority

@@ -12,12 +12,15 @@ sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
 tags:
-  - domain/stakeholder-engagement
   - domain/csm-partnership
   - domain/cyberdsa-2026
-  - domain/strategic-partnership
+  - domain/cybersecurity-productisation
+  - domain/organisational-capability
   - domain/sovereign-technology
+  - domain/stakeholder-engagement
+  - domain/strategic-partnership
   - domain/technical-integration
+  - framework/actionable-intelligence-protocol
   - type/engagement-architecture
   - type/strategic-assessment
 source:

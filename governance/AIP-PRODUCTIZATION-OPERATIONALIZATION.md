@@ -11,11 +11,24 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/governance
-- domain/portfolio-governance
-- domain/productization
-- domain/operationalization
-- domain/cybersecurity-productisation
+  - cognitive-loop/kill-date-enforcement
+  - deadline/gate-passed
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity-productisation
+  - domain/governance
+  - domain/operationalization
+  - domain/organisational-capability
+  - domain/portfolio-governance
+  - domain/productization
+  - domain/sovereign-ai
+  - domain/stakeholder-engagement
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - outcome/evidence-confirmed
 source:
   type: direct
   reference: DAF directive 2026-08-20 11:40 UTC — post-MVP portfolio review

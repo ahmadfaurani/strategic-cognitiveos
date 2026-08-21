@@ -11,8 +11,10 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/governance
-- domain/compliance
+  - doctrine/cvs-master-framework
+  - domain/cognitiveos-operations
+  - domain/compliance
+  - domain/governance
 source:
   type: direct
   reference: DAF authority

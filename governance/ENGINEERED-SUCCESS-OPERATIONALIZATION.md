@@ -11,10 +11,35 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cognitiveos-operations
-- domain/governance
-- domain/engineered-success
-- domain/operationalization
+  - cognitive-loop/gap-identification
+  - cognitive-loop/kill-date-enforcement
+  - cognitive-loop/self-assessment
+  - cognitive-loop/week-over-week-delta
+  - deadline/gate-approaching
+  - deadline/gate-failed
+  - deadline/gate-overdue
+  - deadline/gate-passed
+  - doctrine/adep-001
+  - doctrine/cognitiveos-prime
+  - doctrine/cvs-master-framework
+  - domain/cognitiveos-operations
+  - domain/cyberdsa-2026
+  - domain/cybersecurity-productisation
+  - domain/data-infrastructure
+  - domain/development-governance
+  - domain/engineered-success
+  - domain/governance
+  - domain/operationalization
+  - domain/organisational-capability
+  - domain/stakeholder-engagement
+  - framework/action-validation
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - framework/workflow-identification-protocol
+  - method/engineered-success
+  - outcome/evidence-confirmed
+  - outcome/evidence-missing
 source:
   type: direct
   reference: "DAF directive, 2026-08-21 15:40 UTC — ENGINEER SUCCESS command"

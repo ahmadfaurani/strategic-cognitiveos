@@ -11,8 +11,30 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cognitiveos-operations
-- domain/governance
+  - cognitive-loop/full-cycle
+  - deadline/gate-failed
+  - deadline/gate-overdue
+  - doctrine/adep-001
+  - doctrine/cognitiveos-prime
+  - domain/cognitiveos-operations
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity-productisation
+  - domain/development-governance
+  - domain/governance
+  - domain/organisational-capability
+  - domain/political-intelligence
+  - domain/sovereign-ai
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - method/cross-doctrinal-analysis
+  - method/engineered-success
+  - method/post-action-learning
+  - method/pre-mortem
+  - method/triangulation
+  - outcome/evidence-confirmed
 source:
   type: direct
   reference: DAF authority

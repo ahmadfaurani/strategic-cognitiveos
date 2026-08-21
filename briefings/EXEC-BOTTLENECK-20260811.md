@@ -7,10 +7,13 @@ owner: faurani-jaafar
 sensitivity: confidential
 confidence: high
 tags:
-- domain/cybersecurity-productisation
-- domain/product-management
-- meeting/team-meeting
-- priority/critical
+  - domain/commercial-development
+  - domain/cyberdsa-2026
+  - domain/cybersecurity-productisation
+  - domain/product-management
+  - framework/actionable-intelligence-protocol
+  - meeting/team-meeting
+  - priority/critical
 source:
   type: analysis
   reference: Based on full workstream review (01:48 UTC) + DAF productisation directive

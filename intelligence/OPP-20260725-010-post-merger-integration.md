@@ -11,14 +11,15 @@ priority: medium
 sensitivity: confidential
 confidence: medium
 tags:
-- domain/governance
-- domain/organisational-design
-- sector/government
-- mission/organisational-capability
-- mission/strategic-communications
-- mission/institutional-partnerships
-- intelligence/market
-- commercial/opportunity-identification
+  - commercial/opportunity-identification
+  - domain/csm-partnership
+  - domain/governance
+  - domain/organisational-design
+  - intelligence/market
+  - mission/institutional-partnerships
+  - mission/organisational-capability
+  - mission/strategic-communications
+  - sector/government
 mission_alignment:
 - organisational-capability
 - strategic-communications

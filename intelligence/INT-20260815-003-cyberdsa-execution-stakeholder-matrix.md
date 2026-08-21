@@ -40,13 +40,19 @@ open_questions:
 - DevSecOps intern availability for documentation support?
 - CRM backup for Shuhada?
 tags:
-- domain/cybersecurity
-- domain/commercial-development
-- domain/product-management
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- lifecycle/canonical
-- priority/critical
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/product-management
+  - domain/stakeholder-engagement
+  - framework/actionable-intelligence-protocol
+  - framework/workflow-identification-protocol
+  - lifecycle/canonical
+  - milestone/cyberdsa-2026
+  - priority/critical
+  - workstream/cybersec-products
 source:
   type: internal-analysis
   reference: INT-20260815-002

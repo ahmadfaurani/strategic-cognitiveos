@@ -11,9 +11,14 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cognitiveos-operations
-- domain/governance
-- domain/development-governance
+  - cognitive-loop/gap-identification
+  - deadline/gate-passed
+  - domain/cognitiveos-operations
+  - domain/data-infrastructure
+  - domain/development-governance
+  - domain/governance
+  - framework/cognitive-loop
+  - outcome/evidence-confirmed
 source:
   type: direct
   reference: "git commit a8a2a75, CognitiveOS workspace, 2026-08-21"

@@ -11,8 +11,14 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/portfolio-governance
-- domain/governance
+  - cognitive-loop/kill-date-enforcement
+  - domain/cognitiveos-operations
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/governance
+  - domain/portfolio-governance
+  - domain/sovereign-ai
+  - framework/cognitive-loop
 source:
   type: direct
   reference: DAF authority

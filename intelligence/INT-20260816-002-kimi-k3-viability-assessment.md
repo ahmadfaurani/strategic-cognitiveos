@@ -17,8 +17,15 @@ priority: medium
 sensitivity: restricted
 lifecycle_state: canonical
 tags:
+  - deadline/gate-failed
+  - deadline/gate-passed
   - domain/artificial-intelligence
+  - domain/commercial-development
+  - domain/governance
   - domain/infrastructure
+  - domain/political-intelligence
+  - domain/sovereign-ai
+  - outcome/evidence-confirmed
 ---
 
 

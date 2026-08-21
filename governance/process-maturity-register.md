@@ -11,8 +11,18 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/governance
-- domain/quality-assurance
+  - doctrine/adep-001
+  - doctrine/cognitiveos-prime
+  - domain/cognitiveos-operations
+  - domain/development-governance
+  - domain/governance
+  - domain/quality-assurance
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - method/cross-doctrinal-analysis
+  - method/engineered-success
+  - method/triangulation
 source:
   type: direct
   reference: DAF authority

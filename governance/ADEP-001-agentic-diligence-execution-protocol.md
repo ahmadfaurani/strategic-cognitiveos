@@ -11,8 +11,19 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/development-governance
-- domain/governance
+  - deadline/gate-failed
+  - deadline/gate-passed
+  - doctrine/adep-001
+  - domain/cognitiveos-operations
+  - domain/development-governance
+  - domain/governance
+  - domain/stakeholder-engagement
+  - framework/actionable-intelligence-protocol
+  - framework/engineered-success
+  - method/engineered-success
+  - method/pre-mortem
+  - outcome/evidence-confirmed
+  - outcome/evidence-missing
 source:
   type: direct
   reference: DAF authority

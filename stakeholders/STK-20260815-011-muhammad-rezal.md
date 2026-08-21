@@ -23,12 +23,13 @@ related_initiatives:
 - INIT-20260725-007
 sensitivity: confidential
 tags:
-- domain/government
-- domain/cybersecurity
-- domain/cryptography
-- domain/research
-- priority/high
-- lifecycle/canonical
+  - domain/cryptography
+  - domain/cybersecurity
+  - domain/government
+  - domain/research
+  - domain/sovereign-ai
+  - lifecycle/canonical
+  - priority/high
 related_records:
 - ORG-20260815-012
 - INIT-20260725-007

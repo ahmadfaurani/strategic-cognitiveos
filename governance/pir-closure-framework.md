@@ -15,9 +15,15 @@ related:
 - process-maturity-register.md (readiness gates)
 - 03-VERIFICATION/CVS-FRAMEWORK.md (CVS Master Framework)
 tags:
-- domain/intelligence-operations
-- domain/cognitiveos-operations
-- domain/governance
+  - deadline/gate-overdue
+  - doctrine/adep-001
+  - doctrine/cvs-master-framework
+  - domain/cognitiveos-operations
+  - domain/development-governance
+  - domain/governance
+  - domain/intelligence-operations
+  - framework/engineered-success
+  - outcome/evidence-confirmed
 status: active
 priority: medium
 sensitivity: confidential

@@ -11,13 +11,14 @@ priority: medium
 sensitivity: confidential
 confidence: low
 tags:
-- domain/governance
-- domain/stakeholder-engagement
-- sector/government
-- mission/strategic-communications
-- mission/institutional-partnerships
-- intelligence/market
-- commercial/opportunity-identification
+  - commercial/opportunity-identification
+  - domain/commercial-development
+  - domain/governance
+  - domain/stakeholder-engagement
+  - intelligence/market
+  - mission/institutional-partnerships
+  - mission/strategic-communications
+  - sector/government
 mission_alignment:
 - strategic-communications
 - institutional-partnerships

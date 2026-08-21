@@ -11,8 +11,18 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cognitiveos-operations
-- domain/governance
+  - cognitive-loop/full-cycle
+  - deadline/gate-failed
+  - deadline/gate-passed
+  - doctrine/cognitiveos-prime
+  - domain/cognitiveos-operations
+  - domain/cyberdsa-2026
+  - domain/governance
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - method/cross-doctrinal-analysis
+  - method/engineered-success
+  - method/triangulation
 source:
   type: direct
   reference: DAF authority

@@ -12,13 +12,24 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
+  - doctrine/cognitiveos-prime
   - domain/cognitiveos-operations
-  - domain/strategic-planning
-  - domain/organisational-capability
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
   - domain/cybersecurity-productisation
+  - domain/governance
+  - domain/organisational-capability
+  - domain/stakeholder-engagement
+  - domain/strategic-planning
+  - framework/actionable-intelligence-protocol
+  - framework/cognitive-loop
+  - framework/workflow-identification-protocol
+  - method/triangulation
+  - milestone/weekly-review
+  - outcome/evidence-confirmed
   - type/actionable-intelligence
   - type/dual-review-convergence
-  - milestone/weekly-review
 source:
   type: cognitive-loop
   reference: "Cognitive Loop #17601, Aug 21 2026 03:57 UTC. §7 Actionable Intelligence Standard applied to dual-review convergence (Ember governance + Athena operational)."

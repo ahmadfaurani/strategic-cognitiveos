@@ -11,8 +11,12 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/development-governance
-- domain/governance
+  - cognitive-loop/self-assessment
+  - doctrine/adep-001
+  - domain/cognitiveos-operations
+  - domain/development-governance
+  - domain/governance
+  - outcome/evidence-confirmed
 source:
   type: direct
   reference: DAF authority

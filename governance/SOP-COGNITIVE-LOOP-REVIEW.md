@@ -11,8 +11,23 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cognitiveos-operations
-- domain/governance
+  - cognitive-loop/gap-identification
+  - cognitive-loop/kill-date-enforcement
+  - cognitive-loop/secondary-pattern
+  - cognitive-loop/self-assessment
+  - cognitive-loop/stage-mapping
+  - cognitive-loop/week-over-week-delta
+  - deadline/gate-failed
+  - deadline/gate-passed
+  - deadline/tat-approval
+  - deadline/tat-creation
+  - deadline/tat-qc
+  - domain/cognitiveos-operations
+  - domain/governance
+  - domain/sovereign-ai
+  - framework/cognitive-loop
+  - framework/engineered-success
+  - framework/workflow-identification-protocol
 source:
   type: direct
   reference: DAF authority

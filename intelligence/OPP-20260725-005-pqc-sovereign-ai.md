@@ -11,16 +11,18 @@ priority: critical
 sensitivity: confidential
 confidence: medium
 tags:
-- domain/cybersecurity
-- domain/artificial-intelligence
-- sector/government
-- sector/critical-infrastructure
-- mission/national-cybersecurity
-- mission/sovereign-ai
-- mission/strategic-communications
-- mission/institutional-partnerships
-- intelligence/market
-- commercial/opportunity-identification
+  - commercial/opportunity-identification
+  - domain/artificial-intelligence
+  - domain/commercial-development
+  - domain/cybersecurity
+  - domain/sovereign-ai
+  - intelligence/market
+  - mission/institutional-partnerships
+  - mission/national-cybersecurity
+  - mission/sovereign-ai
+  - mission/strategic-communications
+  - sector/critical-infrastructure
+  - sector/government
 mission_alignment:
 - national-cybersecurity
 - sovereign-ai

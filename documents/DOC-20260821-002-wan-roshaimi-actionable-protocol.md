@@ -11,13 +11,17 @@ sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
 tags:
-  - domain/stakeholder-engagement
+  - deadline/gate-overdue
+  - domain/commercial-development
   - domain/csm-partnership
   - domain/cyberdsa-2026
+  - domain/cybersecurity-productisation
+  - domain/execution-management
+  - domain/stakeholder-engagement
+  - domain/technical-integration
+  - framework/actionable-intelligence-protocol
   - type/actionable-protocol
   - type/execution-protocol
-  - domain/execution-management
-  - domain/technical-integration
 source:
   type: synthesis
   reference: "Synthesis of DOC-20260821-001, INT-20260821-001, STK-20260812-001, DEC-20260821-006, ACT-20260819-006, DOC-20260819-001, INIT-20260804-003, DEC-20260810-001, CONV-20260810-001"

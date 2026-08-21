@@ -11,7 +11,9 @@ sensitivity: confidential
 summary: Analytical report — see body for full analysis.
 lifecycle_state: canonical
 tags:
-- type/analytical-report
+  - cognitive-loop/self-assessment
+  - domain/political-intelligence
+  - type/analytical-report
 updated_at: '2026-08-17T17:50:38+00:00'
 priority: high
 source:

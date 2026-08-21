@@ -11,12 +11,18 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cybersecurity-productisation
-- domain/product-management
-- product/govsec
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- status/delivered
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity-productisation
+  - domain/organisational-capability
+  - domain/product-management
+  - framework/actionable-intelligence-protocol
+  - framework/engineered-success
+  - milestone/cyberdsa-2026
+  - product/govsec
+  - status/delivered
+  - workstream/cybersec-products
 source:
   type: email-attachment
   reference: CONV-20260817-003

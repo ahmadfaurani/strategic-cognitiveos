@@ -17,11 +17,17 @@ summary: 'Programme governance framework establishing 5-layer portfolio operatin
 related_records:
 - DEC-20260815-002
 tags:
-- domain/portfolio-governance
-- domain/strategic-planning
-- domain/commercial-development
-- domain/productisation
-- org/aras-integrasi
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity-productisation
+  - domain/portfolio-governance
+  - domain/productisation
+  - domain/sovereign-ai
+  - domain/stakeholder-engagement
+  - domain/strategic-planning
+  - framework/actionable-intelligence-protocol
+  - org/aras-integrasi
 source:
   document: document
   DAF-authored document, 13 sections, 3 messages: DAF-authored document, 13 sections, 3 messages

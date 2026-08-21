@@ -11,11 +11,22 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cognitiveos-operations
-- domain/governance
-- domain/action-management
-- type/sop
-- type/validation-framework
+  - deadline/gate-overdue
+  - deadline/gate-passed
+  - doctrine/adep-001
+  - doctrine/cvs-master-framework
+  - domain/action-management
+  - domain/cognitiveos-operations
+  - domain/data-infrastructure
+  - domain/development-governance
+  - domain/governance
+  - domain/stakeholder-engagement
+  - framework/action-validation
+  - framework/cognitive-loop
+  - framework/workflow-identification-protocol
+  - outcome/evidence-missing
+  - type/sop
+  - type/validation-framework
 source:
   type: direct
   reference: DAF directive via Telegram, 2026-08-21 14:43 UTC

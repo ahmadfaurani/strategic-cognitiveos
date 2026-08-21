@@ -11,11 +11,13 @@ sensitivity: confidential
 lifecycle_state: canonical
 confidence: high
 tags:
-  - domain/stakeholder-engagement
   - domain/csm-partnership
   - domain/cyberdsa-2026
-  - type/one-pager
+  - domain/cybersecurity-productisation
+  - domain/stakeholder-engagement
+  - framework/actionable-intelligence-protocol
   - type/engagement-brief
+  - type/one-pager
 source:
   type: synthesis
   reference: "Synthesis of STK-20260812-001, DEC-20260821-006, INT-20260821-001, DOC-20260819-001, DEC-20260819-004"

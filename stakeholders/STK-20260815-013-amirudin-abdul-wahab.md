@@ -23,10 +23,12 @@ related_initiatives:
 - INIT-20260804-001
 sensitivity: confidential
 tags:
-- domain/government
-- domain/cybersecurity
-- lifecycle/canonical
-- priority/low
+  - domain/csm-partnership
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/government
+  - lifecycle/canonical
+  - priority/low
 related_records:
 - ORG-20260815-002
 - STK-20260815-010

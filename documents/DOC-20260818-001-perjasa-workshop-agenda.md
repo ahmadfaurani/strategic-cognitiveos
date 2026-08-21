@@ -4,6 +4,9 @@ record_type: document
 title: PERJASA Government AI Systems Co-Design Workshop — Final Agenda
 created_at: 2026-08-18 01:40:00+00:00
 updated_at: 2026-08-18 01:40:00+00:00
+tags:
+  - domain/sovereign-ai
+  - framework/engineered-success
 owner: faurani-jaafar
 status: completed
 priority: high

@@ -11,13 +11,17 @@ sensitivity: internal
 lifecycle_state: canonical
 confidence: high
 tags:
-- domain/cybersecurity
-- domain/commercial-development
-- domain/media-relations
-- domain/brand-strategy
-- milestone/cyberdsa-2026
-- workstream/cybersec-products
-- workstream/commercial-development
+  - domain/brand-strategy
+  - domain/commercial-development
+  - domain/csm-partnership
+  - domain/cyberdsa-2026
+  - domain/cybersecurity
+  - domain/cybersecurity-productisation
+  - domain/media-relations
+  - framework/actionable-intelligence-protocol
+  - milestone/cyberdsa-2026
+  - workstream/commercial-development
+  - workstream/cybersec-products
 source:
   type: direct
   reference: Telegram direct from DAF, 2026-08-18 15:56 UTC — DAF designates this

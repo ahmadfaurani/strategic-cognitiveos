@@ -17,9 +17,10 @@ key_contacts:
 - STK-20260813-007
 related_initiatives: []
 tags:
-- domain/government
-- domain/political
-- lifecycle/canonical
+  - domain/government
+  - domain/political
+  - domain/political-intelligence
+  - lifecycle/canonical
 related_records: []
 status: draft
 priority: high
