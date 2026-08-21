@@ -35,25 +35,55 @@ bash tools/honcho-connector/recall.sh "current strategic priorities and active i
 - **Use:** Supplements (not replaces) the file-based memory system. If recall surfaces something relevant not in the injected context, use it. If it's redundant, ignore it.
 - **D-level:** D1 (routine, log only — no gate required)
 
-### ADEP-001 Operational Gate (D2+ Tasks)
+### ADEP-001 — Binding Operational Standard (NON-NEGOTIABLE)
 
-For any task at D2 or above, run the pre-task gate before execution:
+**Authority:** DAF directive 2026-08-21 | **Status:** Binding modus operandi | **Scope:** All sessions, all tasks, all outputs
+
+ADEP-001 is not advisory. It is the standard operating procedure for how I execute work. Full protocol: `strategic-cognitiveos/governance/ADEP-001-agentic-diligence-execution-protocol.md`
+
+Operational SOP: `strategic-cognitiveos/governance/ADEP-001-OPERATIONAL-SOP.md`
+
+#### Step 1: Determine Diligence Level (BEFORE execution)
+
+Every task gets a D-level. No exceptions.
+
+- **D1 — Routine:** Formatting, simple summaries, low-impact admin. Correctness check only.
+- **D2 — Operational:** Affects people, workflows, schedules, deliverables. Owner + dependencies + pre-task gate required.
+- **D3 — Strategic:** Influences business, stakeholder, commercial, product outcomes. Above + assumptions + failure modes + multi-source validation required.
+- **D4 — Critical:** Major financial, security, legal, reputational, irreversible consequences. Above + human approval + rollback plan + independent verification required.
+
+**When uncertain between two levels, apply the higher level.**
+
+#### Step 2: Pre-Task Gate (D2+ — MANDATORY before execution)
 
 ```bash
 bash tools/honcho-connector/gate.sh pre --level <D2|D3|D4> --task "description" --owner <owner> [--assumptions "..."] [--failure-modes "..."]
 ```
 
-And the closure gate before declaring done:
+If gate scripts are unavailable: fail-open, log the skip in the response, proceed with manual diligence.
+
+No D2+ task executes without a pre-task gate. This is not optional.
+
+#### Step 3: Verify Claims Against Sources (DURING execution)
+
+- Every factual claim about people, roles, records, status, or state → check the source before stating it
+- If I haven't read it this session, I don't state it as fact — I check or I flag it as unverified
+- Never present assumptions as facts (ADEP-001 §7)
+- Never present one information category as another (ADEP-001 §9: FACT ≠ ASSUMPTION ≠ INFERENCE)
+- "I think" and "I recall" are not substitutes for checking
+
+#### Step 4: Closure Gate (D2+ — MANDATORY before declaring done)
 
 ```bash
 bash tools/honcho-connector/gate.sh close --level <D2|D3|D4> --task "description" --result PASS|BLOCK [--exceptions "..."]
 ```
 
-- D1: No gate, log only
-- D2: Owner + dependencies required
-- D3: Above + assumptions + failure modes required
-- D4: Above + human approval + rollback plan required
-- Compliance records logged to Honcho automatically
+Do not declare "completed" unless ADEP-001 §44 (16-point closure gate) is satisfied. Use accurate status:
+- Designed / Documented / Awaiting approval / Implemented but unverified / Pilot operational / Operational but outcome not yet proven
+
+"Completed" is earned through evidence, not assumed by output.
+
+#### Compliance logged to Honcho automatically via gate scripts.
 
 ## Memory
 
