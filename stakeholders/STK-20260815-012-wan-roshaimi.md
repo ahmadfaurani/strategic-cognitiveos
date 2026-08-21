@@ -3,7 +3,7 @@ id: STK-20260815-012
 record_type: stakeholder
 title: Wan Roshaimi
 created_at: 2026-08-15 17:42:00+00:00
-updated_at: '2026-08-17T17:49:42+00:00'
+updated_at: '2026-08-21T05:31:00+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: CyberSecurity Malaysia (CSM)
@@ -11,13 +11,13 @@ role: CSM Chief Technology Officer (CTO)
 influence_level: medium
 interest_level: high
 relationship_status: new
-strategic_relevance: CSM CTO — technology decision-maker. Relevant for technical evaluation of Voron products and CSCDC infrastructure procurement.
-engagement_objective: Technical evaluation pathway for Voron products within CSM/CSCDC infrastructure.
-current_position: Identified as CSM CTO. Newly identified from intelligence cycles.
+strategic_relevance: SUPERSEDED — merged into STK-20260812-001 (Wan Roshaimi Bin Wan Abdullah) on 2026-08-21. DAF confirmed same person.
+engagement_objective: SUPERSEDED — see STK-20260812-001
+current_position: SUPERSEDED — merged into STK-20260812-001
 commitments_by_us: []
 commitments_by_stakeholder: []
 last_engagement: None direct — identified via intelligence (CJ-1 leadership watch)
-next_engagement: TBD — via CSM technical channels
+next_engagement: See STK-20260812-001
 relationship_owner: faurani-jaafar
 related_initiatives:
 - INIT-20260804-001
@@ -27,22 +27,33 @@ tags:
 - domain/cybersecurity
 - domain/technology
 - priority/high
-- lifecycle/canonical
+- lifecycle/superseded
 related_records:
+- STK-20260812-001
 - ORG-20260815-002
 - ORG-20260815-012
 - INIT-20260804-001
 source:
   type: intelligence-verified
   reference: STK-20260725-001 body text; CJ-1 leadership watch cycles
-lifecycle_state: canonical
-status: active
+lifecycle_state: superseded
+status: superseded
 priority: medium
 confidence: medium
-summary: Wan Roshaimi — CSM Chief Technology Officer (CTO) at CyberSecurity Malaysia (CSM).
-strategic_significance: 'Influence: medium, Interest: high. Linked to 1 initiative(s).'
+summary: 'SUPERSEDED — merged into STK-20260812-001 on 2026-08-21. DAF confirmed same person. Canonical record: STK-20260812-001 (Wan Roshaimi Bin Wan Abdullah).'
+strategic_significance: 'SUPERSEDED — see STK-20260812-001'
 mission_alignment: []
 ---
+
+# ⚠️ SUPERSEDED
+
+**Merged into STK-20260812-001 (Wan Roshaimi Bin Wan Abdullah) on 2026-08-21.**
+
+DAF confirmed both records refer to the same person. STK-20260812-001 (created Aug 12 from Co-Design Lab email) is the canonical record. All CTO/CSCDC context from this record has been absorbed into STK-20260812-001.
+
+This record is retained for audit trail only. Do not create new references to STK-20260815-012 — use STK-20260812-001.
+
+# Original Content (Retained for Audit)
 
 # Name
 

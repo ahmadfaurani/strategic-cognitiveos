@@ -14,7 +14,7 @@ sensitivity: confidential
 lifecycle_state: canonical
 key_contacts:
 - STK-20260815-010
-- STK-20260815-012
+- STK-20260812-001 (merged from STK-20260815-012, Aug 21)
 - STK-20260815-013
 - STK-20260815-015
 - STK-20260804-001

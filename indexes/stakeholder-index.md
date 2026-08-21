@@ -25,7 +25,7 @@ All registered stakeholders, grouped by type.
 | STK-20260804-010 | Mohamad Hafiz Bin Rahman | MyCERT — TI integration lead (GovSec × TI) | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
 | STK-20260804-011 | Mohammad Zaharudin Bin Ahmad Darus | Operational/Technical Coordination (framework-assigned) | CyberSecurity Malaysia | Active | CyberDSA 2026 Gate 5 (cyberdsa-2026) |
 | STK-20260804-012 | Nazri Bin Ahmad Zamani | MyCERT — Co-Design Lab recipient | CyberSecurity Malaysia | New | Co-Design Lab onboarding |
-| STK-20260812-001 | Wan Roshaimi Bin Wan Abdullah | CTO/Technology Strategy (framework-assigned) | CyberSecurity Malaysia | Active | CyberDSA 2026 Gate 3 (cyberdsa-2026) |
+| STK-20260812-001 | Wan Roshaimi Bin Wan Abdullah | CTO / Technology Strategy (Gate 4) | CyberSecurity Malaysia | Active | CyberDSA 2026 Gate 4 — ACT-20260819-006 (Aug 31–Sep 10) |
 | STK-20260812-002 | Kamarul Baharin Bin Khalid | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
 | STK-20260812-003 | Ahmad Osman Bin Ahmad | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
 | STK-20260812-004 | Mohd Hafiz Bin Mat Tabrani | MyCERT — Co-Design Lab pilot | CyberSecurity Malaysia | New | Hadri review (ACT-20260812-001) |
@@ -51,6 +51,7 @@ All registered stakeholders, grouped by type.
 | STK-20260813-007 | Hussein bin Mohamed | Penolong Pegawai TI Kanan, Cyber Security | SUK Negeri Sembilan | Active | Ice-breaking session |
 | STK-20260815-001 | Aisha | PA to En. Zulfeka (Head of Business Development & Industry Affairs) | CyberSecurity Malaysia | Proposed | CSM higher management meeting (week of Aug 18) |
 | STK-20260815-002 | MCMC | Target funder for R.I.S.I.K AI Platform (RM5M) | Malaysian Communications and Multimedia Commission | Identified | MCMC proposal preparation (ACT-20260815-006) |
+| STK-20260815-010 | Roshdi bin Haji Ahmad | Acting CEO / Gate 0 — Executive Co-Branding Authorization | CyberSecurity Malaysia | Developing | Gate 0 — co-branding authorization (ACT-20260821-006, Aug 28) |
 | STK-20260818-002 | Fazlan Bin Abdullah | Ketua Bahagian Teknologi & Perkhidmatan Pre-Emptif (Division Head) | CyberSecurity Malaysia | Active | CSM evaluation of UPM proposal (post Sep 11) |
 | STK-20260818-003 | Shageenderan (Shaggy) | TBD | MTAI | New | R.I.S.I.K alignment session (cc'd on framework email) |
 | STK-20260819-001 | Ir. Dr. Megat Zuhairy bin Megat Tajuddin | Chief Executive (Tier-1, Gate 6, VERY HIGH sovereign alignment) | NACSA | New | Gate 6 — after CSM gates 1-5 (ACT-20260819-008) |
