@@ -14,7 +14,8 @@ All lesson records, chronological.
 | LSN-20260821-008 | Read Before Assessing — Don't Build Plans for Documents You Haven't Read | 2026-08-21 | operational | high | cognitive-loop | Open |
 | LSN-20260822-001 | Vendor-Detection Instinct — 'Sovereign' Must Mean Sovereign, Not Vendor Substitution | 2026-08-22 | strategic | high | analysis | Open |
 | LSN-20260822-002 | Read Before Assessing — Check Own Records Before Stating Summary as Fact | 2026-08-22 | process | high | self-correction | Open |
+| LSN-20260822-003 | Leverage Point Pattern — Single Definition Can Resolve Multiple Open Issues | 2026-08-22 | strategic | medium | analysis | Open |
 
 ---
 
-_Changelog: 2026-08-21 — Created lesson index. Initial entries: LSN-20260821-001 through 005. Added LSN-20260821-006 (point fix pattern). Added LSN-20260821-007 (trigger failure). Added 2026-08-22: LSN-20260822-001 (vendor-detection instinct — sovereign must mean sovereign, not vendor substitution).
+_Changelog: 2026-08-21 — Created lesson index. Initial entries: LSN-20260821-001 through 005. Added LSN-20260821-006 (point fix pattern). Added LSN-20260821-007 (trigger failure). Added 2026-08-22: LSN-20260822-001 (vendor-detection instinct — sovereign must mean sovereign, not vendor substitution). Added LSN-20260822-002 (read before assessing — check own records). Added LSN-20260822-003 (leverage point pattern — single definition resolves multiple issues).
