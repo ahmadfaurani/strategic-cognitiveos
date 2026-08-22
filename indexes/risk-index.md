@@ -30,6 +30,7 @@ All identified risks, grouped by status.
 | RSK-20260820-006 | chain:SENTRY: Address-security integration stubbed on trunk but live on deployment — regression risk | technical-debt | INIT-20260811-001 | High | High | Critical | Active |
 | RSK-20260820-007 | chain:SENTRY: Deployment not describable — 43 uncommitted mods, no migration ledger, 29 commits behind trunk | technical-debt | INIT-20260811-001 | Occurred | High | Critical | Active |
 | RSK-20260820-008 | Monday Aug 24 Convergence — 3 strategic tracks converging on same week | timing | INIT-20260811-001 | High | Medium | High | Active |
+| RSK-20260822-001 | Operational Follow-Through Gap — ACT-20260810-001 12 days overdue, blocks Wan Roshaimi co-branding credibility | operational | INIT-20260804-003 | High | High | Critical | Active |
 
 ## Mitigating
 
@@ -99,4 +100,4 @@ All identified risks, grouped by status.
 
 ---
 
-_Updated 2026-08-10: Full register refresh. 10 Aug 2 risks status-updated (Identified → Mitigating/Active). RSK-04-002 linked to RSK-10-001 (Hadi = senior GovSec resource). 2 new risks added: RSK-20260810-002 (security hardening gap), RSK-20260810-003 (commercial readiness gap). Risk relationships mapped. Maintenance cadence established._
+_Updated 2026-08-10: Full register refresh. 10 Aug 2 risks status-updated (Identified → Mitigating/Active). RSK-04-002 linked to RSK-10-001 (Hadi = senior GovSec resource). 2 new risks added: RSK-20260810-002 (security hardening gap), RSK-20260810-003 (commercial readiness gap). Risk relationships mapped. Maintenance cadence established. Updated 2026-08-22: Added RSK-20260822-001 (operational follow-through gap, ACT-20260810-001 12 days overdue, blocks Wan Roshaimi co-branding credibility)._

@@ -12,7 +12,8 @@ All lesson records, chronological.
 | LSN-20260821-006 | Point Fix Pattern — additionalProperties: false Applied to ACT Only, Not System-Wide | 2026-08-21 | process | critical | cognitive-loop | Open |
 | LSN-20260821-007 | Missed 'That's It' Trigger Four Times — SOP v1.2 Trigger Failure | 2026-08-21 | process | critical | sop-failure | Open |
 | LSN-20260821-008 | Read Before Assessing — Don't Build Plans for Documents You Haven't Read | 2026-08-21 | operational | high | cognitive-loop | Open |
+| LSN-20260822-001 | Vendor-Detection Instinct — 'Sovereign' Must Mean Sovereign, Not Vendor Substitution | 2026-08-22 | strategic | high | analysis | Open |
 
 ---
 
-_Changelog: 2026-08-21 — Created lesson index. Initial entries: LSN-20260821-001 through 005. Added LSN-20260821-006 (point fix pattern). Added LSN-20260821-007 (trigger failure).
+_Changelog: 2026-08-21 — Created lesson index. Initial entries: LSN-20260821-001 through 005. Added LSN-20260821-006 (point fix pattern). Added LSN-20260821-007 (trigger failure). Added 2026-08-22: LSN-20260822-001 (vendor-detection instinct — sovereign must mean sovereign, not vendor substitution).
