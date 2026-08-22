@@ -17,7 +17,9 @@ All document records, chronological.
 | DOC-20260820-006 | 2026-08-20 | Strategic Stakeholder Engagement Lead — Operational Role Definition | DAF | Active | High |
 | DOC-20260821-003 | 2026-08-21 | CVS ER — Paired SOP Version-Lock Alignment (AI Council Review — Laras/Athena/Ember/DAF) | laras | Active | High |
 | DOC-20260821-004 | 2026-08-21 | GovSec Product Roadmap Q3 2026 – Q2 2027 | ahmad-fuad | Active | High |
+| DOC-20260822-001 | 2026-08-22 | Honcho Queue Backlog Actionable Protocol | faurani-jaafar | Active | High |
+| DOC-20260822-002 | 2026-08-22 | TECHNICAL GOVERNANCE / GATE 4 — GovSec Co-Branding Substantiation: Refined 3-Layer Evidence Framework | faurani-jaafar | Active | Critical |
 
 ---
 
-_Changelog: 2026-08-19 — Created document-index.md with DOC-20260818-001 through DOC-20260818-003, DOC-20260819-001, DOC-20260819-002. Updated 2026-08-20: Added DOC-20260820-001 (NST court report — PDRM RMPNet corruption trial). Added DOC-20260820-004 (chain:SENTRY Spec v4.1). Added DOC-20260820-005 (chain:SENTRY Roadmap v2.0). Added DOC-20260820-006 (Strategic Stakeholder Engagement Lead — Operational Role Definition). Updated 2026-08-21: Added DOC-20260821-003 (CVS ER — Paired SOP Version-Lock Alignment). Added DOC-20260821-004 (GovSec Product Roadmap Q3 2026 – Q2 2027 — Fuad deck content extraction)._
+_Changelog: 2026-08-19 — Created document-index.md with DOC-20260818-001 through DOC-20260818-003, DOC-20260819-001, DOC-20260819-002. Updated 2026-08-20: Added DOC-20260820-001 (NST court report — PDRM RMPNet corruption trial). Added DOC-20260820-004 (chain:SENTRY Spec v4.1). Added DOC-20260820-005 (chain:SENTRY Roadmap v2.0). Added DOC-20260820-006 (Strategic Stakeholder Engagement Lead — Operational Role Definition). Updated 2026-08-21: Added DOC-20260821-003 (CVS ER — Paired SOP Version-Lock Alignment). Added DOC-20260821-004 (GovSec Product Roadmap Q3 2026 – Q2 2027 — Fuad deck content extraction). Updated 2026-08-22: Added DOC-20260822-001 (Honcho queue backlog actionable protocol). Added DOC-20260822-002 (Gate 4 GovSec co-branding substantiation — refined 3-layer evidence framework, DAF document).
