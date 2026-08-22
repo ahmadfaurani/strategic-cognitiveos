@@ -57,6 +57,7 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260821-006 | Co-Branding Decision + Framework Amendment | 2026-08-21 | faurani-jaafar | Active | STK-20260815-010 |
 | DEC-20260821-007 | Ember Role Boundary — Strategic Tracking Not Execution | 2026-08-21 | faurani-jaafar | Active | ACT-20260821-009 |
 | DEC-20260822-001 | Gate 4 Governing Principle — Evidence Drives Narrative, SiberSUITE/CBOM/Score Card = Future-State Only | 2026-08-22 | faurani-jaafar | Active | DOC-20260822-002, ASSESS-20260822-001/002, DEC-20260821-006 |
+| DEC-20260822-002 | DAF Initial Feedback on VoronCitadel GTM Strategy — Layer 1 Aligned, Layer 2 Contested, Layer 3 Full Support | 2026-08-22 | faurani-jaafar | Proposed | INIT-20260822-002, CONV-20260822-002, INIT-20260804-001 |
 
 ---
 

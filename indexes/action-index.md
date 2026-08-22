@@ -45,6 +45,10 @@ All action records, grouped by status.
 | ACT-20260821-009 | RECLASSIFIED: CSM SOAR Integration Timing Mismatch — Intelligence Flag (Not Execution Action) | — | — | Low | DOC-20260821-004, GOV-AIP-PROD-OPS-001 |
 | ACT-20260822-001 | Hadri + Fuad — Deliver ACT-20260810-001 Consolidated Requirements Document Before Aug 27 (ESCALATED) | DAF (assignee: Hadri) | 2026-08-27 | Critical | ACT-20260810-001, ASSESS-20260822-001, RSK-20260822-001, INIT-20260804-003 |
 | ACT-20260822-002 | Execute Gate 4 Critical Path (22-27 Aug) — Internal Technical Closure → Red Team → CSM Convergence → Evidence Pack → Pre-Read Ready | DAF (assignee: Hadri) | 2026-08-27 | Critical | DOC-20260822-002, DEC-20260822-001, ASSESS-20260822-002, RSK-20260822-001/002 |
+| ACT-20260822-003 | GTM Alignment Meeting — Tuesday Aug 25, 2:30 PM | DAF | 2026-08-25 | Critical | INIT-20260822-002, INIT-20260804-001 |
+| ACT-20260822-004 | Define GTM Funnel Metrics — MQL → Meeting → Discovery → POC → Close | Unassigned | 2026-08-25 | High | INIT-20260822-002 |
+| ACT-20260822-005 | Resolve Layer 2 Budget Ownership — Whose P&L Funds Content/Media/PR | Unassigned | 2026-08-25 | High | INIT-20260822-002 |
+| ACT-20260822-006 | Resource FTE for Partner/Ecosystem Programme | Unassigned | 2026-09-15 | High | INIT-20260822-002 |
 
 ---
 
