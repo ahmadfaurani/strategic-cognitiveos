@@ -69,10 +69,11 @@
 
 | Date | Phase | Deadline | Hours Remaining | Alert Status |
 |------|-------|----------|-----------------|--------------|
-| Aug 21 | A1 | Aug 24 02:00 UTC | ~59h | 🟡 APPROACHING — confirm Fuad QC status |
-| Aug 21 | C1 | Aug 30 | ~9 days | 🟢 OK for now |
-| Aug 21 | TBH-001 approach | Aug 27 | ~6 days | 🟢 OK for now |
-| Aug 21 | TBH-001 escalation | Sep 3 | ~13 days | 🟢 OK for now |
+| Aug 22 | A1 (POC Doc) | Aug 24 02:00 UTC | ~34h | 🟡 APPROACHING — confirm Fuad QC status urgently |
+| Aug 22 | CSM Aisha PIC (Decision) | Aug 22 | TODAY | 🔴 DUE NOW — confirm Aisha or escalate to Zulfeka |
+| Aug 22 | TBH-001 approach | Aug 27 | ~5 days | 🟢 OK for now |
+| Aug 22 | TBH-001 escalation | Sep 3 | ~12 days | 🟢 OK for now — 2-day mark, not yet 2-week trigger |
+| Aug 22 | C1 (Credentials) | Aug 30 | ~8 days | 🟢 OK for now |
 
 ---
 
