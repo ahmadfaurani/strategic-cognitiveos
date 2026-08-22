@@ -13,6 +13,7 @@ All lesson records, chronological.
 | LSN-20260821-007 | Missed 'That's It' Trigger Four Times — SOP v1.2 Trigger Failure | 2026-08-21 | process | critical | sop-failure | Open |
 | LSN-20260821-008 | Read Before Assessing — Don't Build Plans for Documents You Haven't Read | 2026-08-21 | operational | high | cognitive-loop | Open |
 | LSN-20260822-001 | Vendor-Detection Instinct — 'Sovereign' Must Mean Sovereign, Not Vendor Substitution | 2026-08-22 | strategic | high | analysis | Open |
+| LSN-20260822-002 | Read Before Assessing — Check Own Records Before Stating Summary as Fact | 2026-08-22 | process | high | self-correction | Open |
 
 ---
 
