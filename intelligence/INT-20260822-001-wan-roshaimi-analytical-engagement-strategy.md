@@ -122,7 +122,7 @@ When Wan Roshaimi looks at the CSM × Aras co-branding proposition, here's what 
 
 **What he evaluates:**
 - Is the technology real? (Not "is it good" — "is it real, in production, defensible under scrutiny")
-- Does CSM's own technology actually appear in the stack? (Not just "partnership" — "is our IP in the product")
+- Does CSM's own technology actually appear in the stack, or is it still aspirational? (Not just "partnership" — "is our IP actually in the product, or just planned?")
 - What happens when someone asks "how is this CSM × Aras?" — can the answer withstand technical audit?
 - What is the risk to CSM's reputation if the product fails? (His risk, not Aras's)
 - What is the institutional precedent? If he validates one co-branded product, what does that commit CSM to for future products?
@@ -134,7 +134,7 @@ When Wan Roshaimi looks at the CSM × Aras co-branding proposition, here's what 
 
 | His Question | What He Needs to See | What We Bring |
 |-------------|---------------------|--------------|
-| "Is CSM's technology actually in this product?" | CSM assets (LebahNet, CMERP, SiberSUITE) in the architecture stack, not just "compatible with" | Aug 10 integration session outcomes, architecture diagram showing CSM data sources flowing into GovSec analytics |
+| "Is CSM's technology actually in this product?" | CSM assets (LebahNet, CMERP, SiberSUITE) identified as pre-planning integration candidates, not yet roadmap-committed | Aug 10 session outcomes: discussed as potential collaboration areas. Architecture diagram TBD. |
 | "Is this integration real or aspirational?" | Working relationship at the technical team level, not just executive-level MOU | Hadri + Fuad working with Hafiz + Zaharudin — named individuals, named workstreams |
 | "What's been proven?" | Evidence of conducted integration work, not proposals | CONV-20260810-001, DEC-20260810-001 — three collaboration areas identified, architecture chain defined |
 | "What's the risk to CSM?" | Defined integration boundaries, data governance, ownership clarity | Integration evidence pack (Phase 0 deliverable) — where CSM data goes, who controls it, how it's protected |
@@ -163,7 +163,7 @@ When Wan Roshaimi looks at the CSM × Aras co-branding proposition, here's what 
 Wan Roshaimi's decision process requires evidence at multiple levels. The hierarchy (from his credential set and career pattern):
 
 **Tier 1 — Architecture Evidence (Mandatory):**
-- Integration architecture diagram showing CSM assets in the stack
+- Integration architecture diagram showing CSM assets as candidates in the stack (pre-planning → roadmap transition)
 - Data flow: where CSM data goes, how it's processed, how it's protected
 - Integration boundaries: what's Aras, what's CSM, what's joint
 - Deployment model: how this works in production, not just in demo
@@ -211,7 +211,7 @@ Wan Roshaimi's decision process requires evidence at multiple levels. The hierar
 | Risk | What It Means | Mitigation in Our Approach |
 |------|---------------|---------------------------|
 | **Reputational risk** — co-branding fails | If a CSM × Aras product fails publicly, his technical validation is questioned. "The CTO approved this." | GovSec-primary: only validate what has real integration evidence. Don't ask him to validate thin claims. |
-| **Institutional risk** — CSM loses autonomy | If co-branding makes CSM dependent on Aras, he's the one who allowed it. "We outsourced our brand to a vendor." | Integration evidence pack must show CSM assets as equal partners in the stack, not just consumers of Aras technology. |
+| **Institutional risk** — CSM loses autonomy | If co-branding makes CSM dependent on Aras, he's the one who allowed it. "We outsourced our brand to a vendor." | Integration evidence pack must show CSM assets as equal partners in the stack (once roadmap-committed), not just consumers of Aras technology. |
 | **Transition risk** — CSCDC complications | If CSM makes technology commitments that CSCDC must inherit, he's creating constraints for the future institution. | Frame GovSec architecture as a reference point, not a commitment. "This is what we're building together now; what carries forward is a CSCDC decision." |
 | **Vendor lock-in risk** — Aras becomes irreplaceable | If CSM's operations depend on Aras's platform, CSM can't disengage. "Sovereign" means "dependent on Aras instead of dependent on a foreign vendor." | Sovereign capability story must include: local engineering, skills transfer, open architecture boundaries, exit mechanism. |
 | **Over-claim risk** — co-branding exceeds integration depth | If public co-branding claims exceed what the technical integration actually supports, the gap becomes a credibility issue. | Present each product at its true level. GovSec = jointly built. VoronCitadel = GTM partnership. chain:SENTRY = commercial positioning. He will detect inflation. |
@@ -272,7 +272,7 @@ This is the question that RSK-20260820-003 (no HoE) makes dangerous. Wan Roshaim
 
 | Decision | Evidence He Needs | What We Provide |
 |----------|-------------------|-----------------|
-| GovSec co-branding validated | Integration architecture, CSM assets in stack, working team relationship, POC success criteria | Phase 0 deliverables: technical brief, evidence pack, success criteria sheet |
+| GovSec co-branding validated | Integration architecture showing CSM assets as roadmap candidates, working team relationship, POC success criteria | Phase 0 deliverables: technical brief, evidence pack, success criteria sheet |
 | VoronCitadel co-branding acknowledged | GTM evidence, training delivered, honest assessment of integration gap | Phase 0 deliverable: secondary products brief |
 | chain:SENTRY co-branding acknowledged | Emerging tech positioning, PQC alignment, honest assessment (zero CSM integration) | Phase 0 deliverable: secondary products brief |
 | CyberDSA technical representation | Agreement on how CSM × Aras is presented technically at the event | Meeting agenda item 80-90 min close |
@@ -287,7 +287,7 @@ This is the question that RSK-20260820-003 (no HoE) makes dangerous. Wan Roshaim
 
 **Objective:** GovSec technical architecture validated. Co-branding basis accepted for GovSec. Secondaries acknowledged at true level.
 
-**What success looks like:** GovSec technical alignment note filed. Co-branding basis confirmed for GovSec (CSM assets in stack). VoronCitadel + chain:SENTRY status documented (likely deferred). CyberDSA technical representation agreed for GovSec. Named next step with owner and due date.
+**What success looks like:** GovSec technical alignment note filed. Co-branding basis confirmed for GovSec (CSM assets identified as integration candidates with roadmap path). VoronCitadel + chain:SENTRY status documented (likely deferred). CyberDSA technical representation agreed for GovSec. Named next step with owner and due date.
 
 **What failure looks like:** GovSec declined (would trigger DAF escalation to Roshdi/Azrul). Or GovSec validated but with conditions Aras cannot meet (would require technical escalation).
 
@@ -393,7 +393,7 @@ This is the question that RSK-20260820-003 (no HoE) makes dangerous. Wan Roshaim
 
 1. **Architecture, not products.** He's CTO, not a procurement officer. Lead with architecture, follow with evidence, close with governance. Products are evidence of the capability stack, not the conversation.
 
-2. **Integration, not aspiration.** "Your team is already building with ours" is the frame. The Aug 10 integration session is the anchor. Existing working relationships (Hadri/Fuad ↔ Hafiz/Zaharudin) are the proof.
+2. **Integration, not aspiration — but honest about where we are.** "Your team has been discussing integration with ours, and we're now working to move these from discussion to roadmap" is the frame. The Aug 10 integration session is the anchor. Existing working relationships (Hadri/Fuad ↔ Hafiz/Zaharudin) are the proof of relationship, not yet of integration. (Corrected per DAF directive Aug 22 04:40 UTC: SiberSUITE, CBOM, Score Card are pre-planning candidates, not committed stack components.)
 
 3. **Honest about depth.** GovSec = jointly built. VoronCitadel = GTM partnership. chain:SENTRY = commercial positioning. Present each at its true level. He will detect inflation and discount everything if he detects it once.
 
@@ -417,9 +417,9 @@ This is the question that RSK-20260820-003 (no HoE) makes dangerous. Wan Roshaim
 
 The pre-read package (sent 48h before meeting) should contain:
 
-1. **GovSec Technical Brief (3-4 pages)** — SiberSUITE → Telemetry → GovSec Analytics → CBOM → Score Card architecture. Integration boundaries. POC success criteria. Deployment model. What's proven, what's in progress, what needs his validation.
+1. **GovSec Technical Brief (3-4 pages)** — GovSec architecture as built. CSM assets (LebahNet, CMERP, SiberSUITE) presented as pre-planning integration candidates with roadmap path. Integration boundaries. POC success criteria. Deployment model. What's proven, what's in progress, what needs his validation. Honest about what's committed vs what's candidate.
 
-2. **Integration Evidence Pack (2 pages + architecture diagram)** — Aug 10 session outcomes, architecture diagram showing CSM assets in stack, existing working relationship with Hafiz/Zaharudin, DEC-20260810-001 three collaboration areas.
+2. **Integration Evidence Pack (2 pages + architecture diagram)** — Aug 10 session outcomes (discussion candidates, not committed workstreams), architecture diagram showing CSM assets as integration candidates, existing working relationship with Hafiz/Zaharudin, DEC-20260810-001 three collaboration areas (pre-planning status).
 
 3. **Co-Branding Proposition (1 page)** — GovSec as primary (jointly built), VoronCitadel + chain:SENTRY as secondary (partnership-aligned). What we're asking. What we need from him. What we're NOT asking.
 
