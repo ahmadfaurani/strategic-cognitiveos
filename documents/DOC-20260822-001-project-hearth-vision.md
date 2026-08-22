@@ -286,11 +286,11 @@ Malaysia can be first. Not because the technology is unique — AI is commoditis
 
 ## What Makes This Different
 
-### 1. It Was Proven on Ourselves First
+### 1. It Is Being Proven on Ourselves First
 
-We did not build a theoretical system and then look for customers. We built it because we needed it. We used it. We broke it. We fixed it. We measured it. The case study is not a projection — it is a lived experience.
+We did not build a theoretical system and then look for customers. We built it because we needed it. We used it. We broke it. We fixed it. We measured it. The case study is not a projection — it is a lived experience. But it is ongoing. We are still in Phase 1. The system is still maturing. The claim is not 'we proved it works' — it is 'we are proving it works, and here is what we have learned so far.'
 
-This matters because AI products are experiencing a trust crisis. Pilots that demo well but fail in production. ROI claims that don't survive contact with reality. Project Hearth's first case study is: "A cybersecurity practice director built cognitive infrastructure for himself, and it worked. Here is how. Here is what changed. Here are the numbers."
+This matters because AI products are experiencing a trust crisis. Pilots that demo well but fail in production. ROI claims that don't survive contact with reality. Project Hearth's first case study will be: "A cybersecurity practice director built cognitive infrastructure for himself, and it is working. Here is how. Here is what changed. Here are the numbers. Here is what is still broken."
 
 ### 2. Sovereignty by Design
 
@@ -308,7 +308,7 @@ This is the difference between "AI says" and "the institution's cognitive infras
 
 The technology will commoditise. The doctrine will not. The ember philosophy — warmth, not brilliance; persistence, not performance; useful beats impressive — is not a marketing tagline. It is a design principle that produces a different kind of system. A system that does not try to replace humans but to carry fire for them.
 
-This philosophy, embedded in the architecture, is the thing that cannot be copied by a competitor with more GPUs. It is the cultural and intellectual moat.
+This philosophy, embedded in the architecture, is the thing that cannot be copied by a competitor with more GPUs. It is the cultural and intellectual moat. But a philosophy is only a moat if it is honest — which is why Phase 1 being 'operational and maturing' rather than 'proven' matters. We do not overclaim. We do not perform. We persist.
 
 ---
 
