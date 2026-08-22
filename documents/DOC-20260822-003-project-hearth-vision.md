@@ -1,5 +1,5 @@
 ---
-id: DOC-20260822-001
+id: DOC-20260822-003
 record_type: document
 title: "Project Hearth — Vision Document: Sovereign Cognitive Infrastructure"
 created_at: 2026-08-22T02:57:00+00:00
