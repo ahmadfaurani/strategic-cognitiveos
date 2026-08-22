@@ -111,7 +111,7 @@ related_records:
 ## AI-1: Merged Pending Register — 14 Items
 
 1. **SIGNAL:** Two independent reviews produced separate pending-item lists (Ember ~14, Athena 12). Merging yields 14 authoritative items.
-2. **EVIDENCE:** Athena's Cross-Out Register (12 items) + Ember additions (ChainSentry Phase 0, UPM Sep 11). Both reviews independently confirm same phase transition.
+2. **EVIDENCE:** Athena's Cross-Out Register (12 items) + Ember additions (chain:SENTRY Phase 0, UPM Sep 11). Both reviews independently confirm same phase transition.
 3. **PATTERN:** Dual-review convergence — when two independent analytical processes reach the same strategic conclusion from different data, the conclusion carries higher epistemic weight than either source alone. [T3, L2, score 7]
 4. **IMPLICATION:** A single authoritative execution list eliminates ambiguity about what matters next week. No competing priorities.
 5. **OPPORTUNITY/RISK:** Risk = 14 items for one week with 3-person team is overloaded. Opportunity = clear prioritisation enables ruthless sequencing.
@@ -133,7 +133,7 @@ related_records:
 4. **IMPLICATION:** This is the one decision that unlocks or blocks all others. Delay on hiring = delay on everything downstream.
 5. **OPPORTUNITY/RISK:** Risk = POCs secured but can't deliver → reputational damage. Opportunity = hiring now means Q4 delivery capacity aligned with pipeline.
 6. **CONFIDENCE:** High.
-7. **DECISION WINDOW:** Before ChainSentry Phase 0 starts (Aug 25). Budget approval needed.
+7. **DECISION WINDOW:** Before chain:SENTRY Phase 0 starts (Aug 25). Budget approval needed.
 8. **RECOMMENDED ACTION:** Verify costing (ACT-20260821-002), secure budget approval, initiate hiring this week. This is commercial (budget), not technical.
 9. **OWNER:** DAF (budget approval) / Management (hiring execution).
 10. **VERIFICATION:** 3 roles posted or filled within 2 weeks. Phase 0 has assigned engineering resources by Aug 25.
@@ -144,7 +144,7 @@ related_records:
 
 ## AI-3: Monday Aug 24 Convergence — Primary Risk
 
-1. **SIGNAL:** Three major tracks converge in the same week with overlapping people: VoronCitadel POC delivery (Mon), ChainSentry Phase 0 (Tue), CSM sync-up (Thu/Fri).
+1. **SIGNAL:** Three major tracks converge in the same week with overlapping people: VoronCitadel POC delivery (Mon), chain:SENTRY Phase 0 (Tue), CSM sync-up (Thu/Fri).
 2. **EVIDENCE:** ACT-20260820-004/005 (POC due Aug 24 10:00 MYT), ACT-20260820-010/011/012 (Phase 0), ACT-20260820-003 (CSM). Hadri and Fuad are involved in multiple tracks.
 3. **PATTERN:** RSK-20260820-008 already flagged. Weekly review identified this as highest-probability risk.
 4. **IMPLICATION:** If tracks collide, quality drops on all three. POC document quality is non-negotiable (client-facing).

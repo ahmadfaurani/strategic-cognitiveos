@@ -57,7 +57,7 @@ Three flagship products under consolidated productisation programme (INIT-202608
    - CyberDSA Oct 2026 launch target — development freeze declared Aug 10
    - CSM SiberSUITE integration session Aug 10: telemetry pipeline, Score Card, CBOM Agent
 
-3. **ChainSentry** — Blockchain/Supply Chain Security
+3. **chain:SENTRY** — Blockchain/Supply Chain Security
    - Commercial readiness: Partial
    - Development frozen alongside other two
 
@@ -303,7 +303,7 @@ Professional, cordial, respectful, firm, relationship-preserving, action-oriente
 - Hadri/Fuad technical follow-up on SiberSUITE integration (deadline Aug 17)
 
 **Strategic (Oct 2026):**
-- CyberDSA joint product launch (VoronCitadel, GovSec TIP, ChainSentry)
+- CyberDSA joint product launch (VoronCitadel, GovSec TIP, chain:SENTRY)
 - Red Team Division recruitment launch
 - R.I.S.I.K MCMC engagement
 - Sovereign AI PaaS commercial model finalisation

@@ -113,7 +113,7 @@ En. Zulfeka (Head of Business Development & Industry Affairs) — confirmed via 
 
 # Related Initiatives
 
-- INIT-20260804-001 (VoronDRQ / Voron Citadel Productisation)
+- INIT-20260804-001 (VoronCitadel / Voron Citadel Productisation)
 - INIT-20260811-001 (CyberDSA 2026)
 
 # Notes

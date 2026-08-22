@@ -168,7 +168,7 @@ SiberSUITE → Telemetry → GovSec Analytics → CBOM Agent → Cybersecurity S
 ## Pillar 4 — Product & GTM
 
 **Coordinator:** DAF
-**Scope:** VoronCitadel, GovSec, ChainSentry, 193-account campaign
+**Scope:** VoronCitadel, GovSec, chain:SENTRY, 193-account campaign
 
 ### P4-1: VoronCitadel Joint GTM Activation (INIT-20260804-001)
 
@@ -215,11 +215,11 @@ SiberSUITE → Telemetry → GovSec Analytics → CBOM Agent → Cybersecurity S
 | Next Action | Fuad: establish centralised product repository (ACT-011-001); compile roadmaps (ACT-011-002), backlogs (ACT-011-003), commercial readiness (ACT-011-004), sales materials (ACT-011-005), governance (ACT-011-006) |
 | Dependency | Fuad capacity (concurrent with P4-2 documentation); Hadri availability (oversight) |
 | Target Outcome | 3 products × 6 documentation categories = 18 deliverables → commercial-ready |
-| Commercial Pathway | Products become sellable: VoronCitadel (Ready), GovSec (Partial→Ready), ChainSentry (Partial→Ready) |
+| Commercial Pathway | Products become sellable: VoronCitadel (Ready), GovSec (Partial→Ready), chain:SENTRY (Partial→Ready) |
 | Deadline | CyberDSA-ready docs: Sep 2026; full productisation: Oct 2026 |
 | CyberDSA Critical? | **Yes** — sales/GTM materials needed for CyberDSA engagement |
 | Key Risk | RSK-011-001 (productisation effort vs CyberDSA delivery capacity contention) |
-| Products | VoronCitadel (Ready), GovSec TIP (Partial), ChainSentry (Partial) |
+| Products | VoronCitadel (Ready), GovSec TIP (Partial), chain:SENTRY (Partial) |
 | Pending Actions | 7 actions pending (ACT-011-001 through ACT-011-007), all owned by Fuad |
 
 ---
@@ -287,7 +287,7 @@ SiberSUITE → Telemetry → GovSec Analytics → CBOM Agent → Cybersecurity S
 | Workstream Leads | ✅ Assigned (Hadri: P1+P3, DAF: P2+P4+P5) | DAF | Active |
 | Integrated Delivery Calendar | **Does not exist** | DAF | ACT-004-012 (overdue) — consolidate all CSM engagement dates |
 | Action Register | ✅ CognitiveOS (this register + action-index) | DAF | Active |
-| Product Ownership | Partial (Fuad/GovSec, DAF/VoronCitadel) | DAF | ChainSentry owner TBD; full governance in P4-3 |
+| Product Ownership | Partial (Fuad/GovSec, DAF/VoronCitadel) | DAF | chain:SENTRY owner TBD; full governance in P4-3 |
 | IP Framework | **Not defined** | DAF | Required before commercial engagement |
 | Commercial Model | PaaS (P2-2) + product sales (P4-1) + GTM revenue | DAF | RSK-010-003 — no pricing/packaging yet |
 | MQL Pipeline | **Does not exist** | DAF | RSK-013-002 — ACT-013-010 (P0, Aug 21) |
@@ -365,7 +365,7 @@ SiberSUITE → Telemetry → GovSec Analytics → CBOM Agent → Cybersecurity S
 |----------------|-----------------|--------|----------|-----------------|
 | Product sale | VoronCitadel | P4 | Ready | ✅ Yes |
 | Product sale | GovSec TIP | P4 | Partial | 🟡 Demo-ready (target) |
-| Product sale | ChainSentry | P4 | Partial | 🟡 Unknown |
+| Product sale | chain:SENTRY | P4 | Partial | 🟡 Unknown |
 | PaaS recurring | Sovereign AI PaaS (RM688k/yr) | P2 | Framed | 🟡 Proposition only |
 | Training/enablement | Co-Design Lab cohorts | P5 | Prototype | ❌ Not CyberDSA-focused |
 | GTM pipeline | 193-account campaign | P4 | Execution | ✅ Active |

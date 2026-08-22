@@ -178,7 +178,7 @@ The same information becomes **10-element actionable intelligence**:
 | **DECISION WINDOW** | Meeting must occur before Aug 22 (CP1). Schedule within 48 hours. |
 | **RECOMMENDED ACTION** | Hadri schedules focused session with Fuad. Agenda: define what IS demonstrated and what is NOT for each product. Output: signed-off demo scope document per product. |
 | **OWNER** | Hadri (schedule) + Fuad (content) |
-| **VERIFICATION** | Meeting scheduled. Signed-off demo scope document for VoronCitadel, GovSec TIP, and ChainSentry (or go/no-go for ChainSentry). |
+| **VERIFICATION** | Meeting scheduled. Signed-off demo scope document for VoronCitadel, GovSec TIP, and chain:SENTRY (or go/no-go for chain:SENTRY). |
 
 ---
 

@@ -66,7 +66,7 @@ tags:
 | Dimension | Assessment |
 |-----------|------------|
 | Classification | INFERENCE (derived from multiple initiatives) |
-| Evidence | INIT-20260813-002 (CSM AI Instance), INIT-20260810-003 (GovSec TIP), INIT-20260811-001 (Productisation), INIT-20260804-001 (VoronDRQ GTM), INIT-20260813-005 (Joint Operating Model) |
+| Evidence | INIT-20260813-002 (CSM AI Instance), INIT-20260810-003 (GovSec TIP), INIT-20260811-001 (Productisation), INIT-20260804-001 (VoronCitadel GTM), INIT-20260813-005 (Joint Operating Model) |
 | Verdict | **[HIGH] Defensible** — 5+ active initiatives across these domains. The word "progressively" is accurate; capabilities are at different maturity stages. |
 | Risk | Low. The claim is about assembly of capabilities, not about their maturity level. |
 
@@ -84,8 +84,8 @@ tags:
 | Dimension | Assessment |
 |-----------|------------|
 | Classification | ASSUMPTION (aspirational, not yet demonstrated) |
-| Evidence | VoronCitadel = production-deployed (strongest proof point). BUT: RSK-20260810-003 explicitly identifies "No pricing, packaging, or post-demo conversion path." VoronDRQ = pilot stage. ChainSentry = prototype with 6 critical gaps. GovSec TIP = prototype. |
-| Verdict | **[LOW] Not yet defensible as stated.** The phrase "commercially viable product" is the problem. Current product readiness: 1 production-deployed (VoronCitadel), 1 pilot (VoronDRQ), 2 prototypes (GovSec TIP, ChainSentry). RSK-20260810-003 (likelihood: High, impact: High) explicitly flags the commercial readiness gap. No product has a proven commercial model yet. |
+| Evidence | VoronCitadel = production-deployed (strongest proof point). BUT: RSK-20260810-003 explicitly identifies "No pricing, packaging, or post-demo conversion path." VoronCitadel = pilot stage. chain:SENTRY = prototype with 6 critical gaps. GovSec TIP = prototype. |
+| Verdict | **[LOW] Not yet defensible as stated.** The phrase "commercially viable product" is the problem. Current product readiness: 1 production-deployed (VoronCitadel), 1 pilot (VoronCitadel), 2 prototypes (GovSec TIP, chain:SENTRY). RSK-20260810-003 (likelihood: High, impact: High) explicitly flags the commercial readiness gap. No product has a proven commercial model yet. |
 | Risk | **HIGH.** This parenthetical claim is the most exposed sentence in the email. If Farul or Kenny asks "which product is commercially viable?", the honest answer is "not yet — we're working toward it." This claim contradicts our own risk register. |
 
 ### Claim 4: "Malaysia's First National Grade, Sovereign Technology Company"
@@ -102,7 +102,7 @@ tags:
 | Dimension | Assessment |
 |-----------|------------|
 | Classification | INFERENCE |
-| Evidence | 3+ products in the portfolio (VoronCitadel, GovSec TIP, ChainSentry) + CSM partnership + AI infrastructure initiative. Positioning is integration-based, not product-based. |
+| Evidence | 3+ products in the portfolio (VoronCitadel, GovSec TIP, chain:SENTRY) + CSM partnership + AI infrastructure initiative. Positioning is integration-based, not product-based. |
 | Verdict | **[HIGH] Defensible.** The convergence narrative is structurally sound — the positioning genuinely doesn't require any single product to be complete. |
 
 ### Claim 6: "Market Activation is still very much part of the overall objective"

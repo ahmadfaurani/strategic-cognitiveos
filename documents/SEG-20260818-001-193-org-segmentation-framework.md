@@ -72,17 +72,17 @@ Based on the existing database tier classification:
 
 ### 2.2 Segment Relevance (20 max)
 
-Cybersecurity/GRC product relevance by segment (VoronCitadel, GovSec TIP, ChainSentry):
+Cybersecurity/GRC product relevance by segment (VoronCitadel, GovSec TIP, chain:SENTRY):
 
 | Segment | Score | Rationale |
 |---------|-------|-----------|
 | Licensed Banks | 20 | RMiT mandatory, CISO+GRC roles, highest budget, VoronCitadel primary market |
 | Insurers | 18 | RMiT mandatory, strong GRC needs, VoronCitadel + GovSec TIP relevant |
 | Development FIs | 18 | Government-linked, strategic visibility, high compliance standards |
-| Card Schemes | 16 | High security standards, payment security, ChainSentry relevant |
+| Card Schemes | 16 | High security standards, payment security, chain:SENTRY relevant |
 | Investment Banks | 16 | Compliance, smaller teams, faster decisions |
 | Takaful | 16 | Islamic compliance overlay + RMiT, similar to insurers |
-| Payment Operators | 14 | PCI-DSS, payment security, ChainSentry relevant |
+| Payment Operators | 14 | PCI-DSS, payment security, chain:SENTRY relevant |
 | E-Money | 14 | Fintech security, growing regulation, emerging budget |
 | GLC-Linked | 14 | Government visibility, strategic accounts |
 | Cooperatives | 12 | Growing compliance needs, lower budget, volume play |

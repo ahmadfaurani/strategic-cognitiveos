@@ -18,8 +18,8 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260725-004 | Workstream D — Political & Strategic Intelligence | faurani-jaafar | Active | Concept | Quarterly |
 | INIT-20260725-005 | Workstream E — Commercial & Market Development | faurani-jaafar | Active | Concept | Quarterly |
 | INIT-20260725-006 | Workstream F — Organisational Capability Building | faurani-jaafar | Active | Concept | Quarterly |
-| INIT-20260804-001 | CSM × Aras VoronDRQ Joint GTM Activation | faurani-jaafar | Active | Pilot — Training completed Aug 14; CyberDSA 2026 alignment session proposed (Aug 17); three co-branded products; NACSA endorsement track disclosed | 2026-08-22 |
-| INIT-20260808-002 | VoronDRQ GTM Team Mobilisation — COO Approval & Internal Comms | faurani-jaafar | Active | Framed | 2026-08-17 |
+| INIT-20260804-001 | CSM × Aras VoronCitadel Joint GTM Activation | faurani-jaafar | Active | Pilot — Training completed Aug 14; CyberDSA 2026 alignment session proposed (Aug 17); three co-branded products; NACSA endorsement track disclosed | 2026-08-22 |
+| INIT-20260808-002 | VoronCitadel GTM Team Mobilisation — COO Approval & Internal Comms | faurani-jaafar | Active | Framed | 2026-08-17 |
 | INIT-20260808-003 | Red Team Division — National Offensive Security Capability Builder | faurani-jaafar | Active | Framed | 2026-08-22 |
 | INIT-20260810-003 | GovSec CyberDSA Product Launch Readiness | faurani-jaafar | Active | Prototype | Weekly (Aug–Oct) |
 | INIT-20260811-001 | Cybersecurity Flagship Product Consolidation & Productisation Programme | faurani-jaafar | Active | Concept — Three co-branded products defined for CyberDSA launch; alignment session proposed | 2026-08-22 |
@@ -43,10 +43,10 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260813-004 | UPM × CSM × Aras — Autonomous AI Cybersecurity (Purple Teaming) | faurani-jaafar | Active | **Proposal Stage** — CSM formal letter Aug 18; 6-component proposal requested; deadline Sep 11; Aras designated infrastructure funder | 2026-09-11 |
 | INIT-20260813-005 | CSM–Aras Joint Operating Model — Strategic Cyber & Sovereign AI Programme | faurani-jaafar | Active | **Adopted** | 2026-08-21 |
 | INIT-20260813-006 | CyberDSA Stakeholder Coverage & Communication Ownership Plan | faurani-jaafar | Working Plan | Working Plan | 2026-08-21 |
-| INIT-20260813-007 | VoronDRQ GTM CRM Recommendation | faurani-jaafar | Active | Framed | — |
-| INIT-20260813-008 | VoronDRQ GTM Executive Summary | faurani-jaafar | Active | Framed | — |
-| INIT-20260813-009 | VoronDRQ GTM Internal Communications Plan | faurani-jaafar | Active | Framed | — |
-| INIT-20260813-010 | VoronDRQ GTM Resource Requirements | faurani-jaafar | Active | Framed | — |
+| INIT-20260813-007 | VoronCitadel GTM CRM Recommendation | faurani-jaafar | Active | Framed | — |
+| INIT-20260813-008 | VoronCitadel GTM Executive Summary | faurani-jaafar | Active | Framed | — |
+| INIT-20260813-009 | VoronCitadel GTM Internal Communications Plan | faurani-jaafar | Active | Framed | — |
+| INIT-20260813-010 | VoronCitadel GTM Resource Requirements | faurani-jaafar | Active | Framed | — |
 | INIT-20260820-001 | CRC 2026 — Aras Integrasi Sponsored Participation | DAF | Active | Framed — RM5K sponsorship approved; customised package negotiation pending (T-12 days) | 2026-08-28 |
 
 ## Watch List

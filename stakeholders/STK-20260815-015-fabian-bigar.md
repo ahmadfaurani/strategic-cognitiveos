@@ -99,7 +99,7 @@ DAF (strategic-level)
 
 # Related Initiatives
 
-- INIT-20260804-001: VoronDRQ / Voron Citadel Productisation (CSM MoU)
+- INIT-20260804-001: VoronCitadel / Voron Citadel Productisation (CSM MoU)
 
 # Related Records
 

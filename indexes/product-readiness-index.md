@@ -6,8 +6,8 @@ All products and their current readiness levels.
 |---------|-------------|-------------------|-----------------|-------|------|---------------------|---------------------|
 | GovSec TIP | INIT-20260810-003 | Prototype (v3.0 spec, 12 core entities, 147 endpoints, 23 modules) | Demo-ready (CyberDSA Oct 2026) | faurani-jaafar | 11 Phase 2 deferrals (dark web, SIEM, SOAR, SSO, semantic search, AI hunt gen, BYOK, multi-region HA, regulatory monitoring); security audit completed (OWASP Web+LLM Top 10, 54 npm findings) | CyberDSA Oct 2026 joint launch with CSM | Medium — 11 deferrals are well-scoped but CyberDSA timeline is tight |
 | VoronCitadel | INIT-20260811-001 | Production-deployed (v2.0, 45 tables, 5 frameworks, 295 requirements) | Commercial-ready | faurani-jaafar | Single-node deployment (Phase 2: HA); 17 Phase-2 deferrals identified; custom framework builder deferred | CSM GTM activation (INIT-20260804-001) | Low — most mature product, production-live |
-| ChainSentry | INIT-20260811-001 | v4.1 spec — 12 of 17 gaps closed in code (all Critical/Must); NOT deployed (29 commits/40 days behind trunk); Implementation 69%, Deployed 47% | Pilot-ready (Phase 0 exit → 77%, Phase 1 exit → 90%) | hadri | 3 Critical Phase 0 blockers (credential rotation, address-security regression, deployment not describable); 1 Should open (investigator outputs); 2 Future (non-EVM tracing, dossier signing) | None identified | High — 3 Critical blockers, credential exposure window open |
-| VoronDRQ | INIT-20260804-001 | Pilot | Commercial-ready | faurani-jaafar | GTM team mobilisation, COO approval | CSM joint GTM | Medium |
+| chain:SENTRY | INIT-20260811-001 | v4.1 spec — 12 of 17 gaps closed in code (all Critical/Must); NOT deployed (29 commits/40 days behind trunk); Implementation 69%, Deployed 47% | Pilot-ready (Phase 0 exit → 77%, Phase 1 exit → 90%) | hadri | 3 Critical Phase 0 blockers (credential rotation, address-security regression, deployment not describable); 1 Should open (investigator outputs); 2 Future (non-EVM tracing, dossier signing) | None identified | High — 3 Critical blockers, credential exposure window open |
+| VoronCitadel | INIT-20260804-001 | Pilot | Commercial-ready | faurani-jaafar | GTM team mobilisation, COO approval | CSM joint GTM | Medium |
 | VoronScout | — | *Pending* | — | — | — | — | — |
 | LE-UIP | — | *Pending* | — | — | — | — | — |
 | SEC-AF | — | *Pending* | — | — | — | — | — |
@@ -25,7 +25,7 @@ All products and their current readiness levels.
 | commercial-ready | Yes |
 | scale-ready | Yes |
 
-## ChainSentry Detailed Readiness (MVP Spec v3.0, 14 Aug 2026)
+## chain:SENTRY Detailed Readiness (MVP Spec v3.0, 14 Aug 2026)
 
 ### Verified Baseline (11 Aug 2026)
 - Investigative surfaces: 26 page routes

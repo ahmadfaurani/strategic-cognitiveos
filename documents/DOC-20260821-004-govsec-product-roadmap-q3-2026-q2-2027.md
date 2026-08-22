@@ -161,4 +161,4 @@ author: Ahmad Fuad Bin Kamarazaman
 2. **CSM deepening:** Q1 2027 CSM SOAR Integration is the first bi-directional technical integration with CSM's operational platform — moves GovSec from "product CSM uses" to "platform CSM's SOC runs on."
 3. **Government-grade:** Q4 identity/MFA + Q2 BYOK/HA are the government deployment gating items — Malaysian government classification compartments and data residency requirements explicitly named.
 4. **Resource risk:** 27.5 FTEs total across 12 projects. Current team: Fuad + Syahir + hadri (partial). Hiring (HoE, CSE, Junior Backend — ACT-20260820-007/008/009) is on the critical path for Q4+ delivery.
-5. **Gap — no explicit ChainSentry/VoronCitadel cross-references:** Roadmap is GovSec-only. ChainSentry and VoronCitadel roadmaps not included (separate documents needed for ACT-20260811-002 closure).
+5. **Gap — no explicit chain:SENTRY/VoronCitadel cross-references:** Roadmap is GovSec-only. chain:SENTRY and VoronCitadel roadmaps not included (separate documents needed for ACT-20260811-002 closure).

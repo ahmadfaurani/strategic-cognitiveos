@@ -99,12 +99,12 @@ related_records:
 | 1.1 | Demo scope locked | A | R | R | I | — | — |
 | 1.2 | VoronCitadel stable | I | A | R | — | — | — |
 | 1.3 | GovSec TIP stable | I | R | A | — | — | — |
-| 1.4 | ChainSentry go/no-go | A | R | R | — | — | — |
+| 1.4 | chain:SENTRY go/no-go | A | R | R | — | — | — |
 | 1.5 | Demo rehearsal | A | C | C | — | — | C |
 | 1.6 | VoronCitadel docs | I | C | R/A | — | — | — |
 | 1.7 | GovSec TIP docs | I | C | R/A | — | — | — |
 | 1.8 | Hadri handover | A | A | R | — | — | — |
-| 1.9 | ChainSentry docs | I | C | R/A | — | — | — |
+| 1.9 | chain:SENTRY docs | I | C | R/A | — | — | — |
 | 1.10 | Live demo at event | A | R | R | — | — | — |
 
 ### Dimension 2: Commercial Pipeline

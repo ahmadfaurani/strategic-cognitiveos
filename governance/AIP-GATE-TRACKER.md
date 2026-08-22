@@ -37,7 +37,7 @@
 
 ---
 
-## Track C — ChainSentry: Pilot Readiness (POST-VORONCITADEL)
+## Track C — chain:SENTRY: Pilot Readiness (POST-VORONCITADEL)
 
 | Phase | Gate | Owner | Deadline | Status | Evidence | Notes |
 |-------|------|-------|----------|--------|----------|-------|
@@ -97,11 +97,11 @@
 | Aug 22 | CSM Aisha PIC confirmed? | 🔴 PENDING |
 | Aug 24 | VoronCitadel POC doc approved? | 🔴 PENDING (A1) |
 | Aug 27 | TBH-001 hiring approach decided? | 🔴 PENDING |
-| Aug 30 | ChainSentry credential rotation verified? | 🔴 PENDING (C1) |
+| Aug 30 | chain:SENTRY credential rotation verified? | 🔴 PENDING (C1) |
 | Sep 1 | External security assessor engaged? | 🔴 PENDING |
 | Sep 3 | TBH-001 escalation trigger? | 🔴 PENDING |
 | Sep 15 | Second engineer assessment? | 🔴 PENDING |
-| Sep 30 | ChainSentry pilot scope approved? | 🔴 PENDING |
+| Sep 30 | chain:SENTRY pilot scope approved? | 🔴 PENDING |
 | Oct 8 | CyberDSA demo content frozen? | 🔴 PENDING |
 
 ---

@@ -87,7 +87,7 @@ Align projects around DAF's six workstream clusters. Each cluster becomes a pare
 | Parent Project | Child Initiatives |
 |----------------|-------------------|
 | PRJ-A: Sovereign AI & Gov AI Adoption | PERJASA, JDN/JDM, Perdana Digital, Sovereign AI Platform, PMO Data Lake, AI Incubator |
-| PRJ-B: Cybersecurity Productisation | GovSec TIP, VoronDRQ, ChainSentry, VoronScout, LE-UIP, SEC-AF |
+| PRJ-B: Cybersecurity Productisation | GovSec TIP, VoronCitadel, chain:SENTRY, VoronScout, LE-UIP, SEC-AF |
 | PRJ-C: Government & Institutional Partnerships | CSM, NACSA, JDN/JDM, PMO, LHDN, LE/Defence, Universities, CNII/Financial |
 | PRJ-D: Political & Strategic Intelligence | Johor PRN 2026, NS state elections, PIR framework, R.I.S.I.K |
 | PRJ-E: Commercial & Market Development | ASEAN pipeline, sales enablement, account development, licensing |

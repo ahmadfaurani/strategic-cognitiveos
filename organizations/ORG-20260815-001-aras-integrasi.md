@@ -64,7 +64,7 @@ cybersecurity
 
 # Strategic Relevance
 
-Primary operating company. Houses the Cyber Security Practice directed by DAF. Owns the Voron product line (VoronDRQ, VoronScout, Voron Citadel). Principal party in CSM partnership (MoU). Lead integrator for sovereign AI and cybersecurity productisation initiatives.
+Primary operating company. Houses the Cyber Security Practice directed by DAF. Owns the Voron product line (VoronCitadel, VoronScout, Voron Citadel). Principal party in CSM partnership (MoU). Lead integrator for sovereign AI and cybersecurity productisation initiatives.
 
 # Engagement Objective
 
@@ -92,7 +92,7 @@ DAF (Director – Cyber Security Practice)
 
 # Related Initiatives
 
-- INIT-20260804-001 (VoronDRQ Productisation)
+- INIT-20260804-001 (VoronCitadel Productisation)
 - INIT-20260811-001 (CyberDSA 2026)
 - INIT-20260810-003 (Voron Citadel)
 

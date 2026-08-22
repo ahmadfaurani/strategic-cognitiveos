@@ -43,5 +43,5 @@
 
 ## Related
 - GTM_OUTREACH_PACKAGE.md — CMO Review Package (3-week campaign architecture)
-- INIT-20260804-001 — CSM × Aras VoronDRQ Joint GTM Activation
+- INIT-20260804-001 — CSM × Aras VoronCitadel Joint GTM Activation
 - CONV-20260811-002 — Sales/Marketing GTM Alignment Meeting

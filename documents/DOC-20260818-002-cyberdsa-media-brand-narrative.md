@@ -75,7 +75,7 @@ DAF (Ahmad Faurani Jaafar)
 
 # Summary
 
-Comprehensive CyberDSA 2026 media and brand narrative framework. Directs the branding team to position the story as Malaysian sovereign technology capability, with CyberDSA as the proof point and the three products (VoronDRQ, GovSec TIP, ChainSentry) as evidence. Includes:
+Comprehensive CyberDSA 2026 media and brand narrative framework. Directs the branding team to position the story as Malaysian sovereign technology capability, with CyberDSA as the proof point and the three products (VoronCitadel, GovSec TIP, chain:SENTRY) as evidence. Includes:
 
 1. **Core Positioning** — National-Grade, Full-Stack Sovereign Technology Deployment
 2. **Primary Story** — From cybersecurity products to sovereign capability
@@ -98,7 +98,7 @@ The document establishes a strict branding hierarchy:
 1. **Campaign Idea:** Built in Malaysia. Integrated for Malaysia. Engineered for Sovereignty.
 2. **Strategic Positioning:** National-Grade, Full-Stack Sovereign Technology Deployment
 3. **Corporate Role:** Aras Integrasi — Malaysian Sovereign Technology Integrator
-4. **Proof:** VoronDRQ + GovSec TIP + ChainSentry + Ecosystem Collaboration
+4. **Proof:** VoronCitadel + GovSec TIP + chain:SENTRY + Ecosystem Collaboration
 5. **Outcome:** Operational sovereign cybersecurity capability
 
 The hierarchy must always flow top-down: Sovereign Capability → Integrated Stack → Technology Pillars → Individual Features — never the reverse.

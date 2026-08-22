@@ -40,7 +40,7 @@ related_records: []
 
 ## Purpose
 
-Own the day-to-day execution of the VoronDRQ Go-To-Market programme — coordinating across Sales, Marketing, Product, and the CSM partnership to ensure the campaign moves from strategy to measurable pipeline. This role exists to offload operational coordination from the Director so he can focus on strategic direction, stakeholder relationships, and CSM liaison.
+Own the day-to-day execution of the VoronCitadel Go-To-Market programme — coordinating across Sales, Marketing, Product, and the CSM partnership to ensure the campaign moves from strategy to measurable pipeline. This role exists to offload operational coordination from the Director so he can focus on strategic direction, stakeholder relationships, and CSM liaison.
 
 ## Key Responsibilities
 

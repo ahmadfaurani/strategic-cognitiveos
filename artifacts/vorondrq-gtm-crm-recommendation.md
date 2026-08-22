@@ -1,7 +1,7 @@
 ---
 id: INIT-20260813-007
 record_type: initiative
-title: VoronDRQ GTM CRM Recommendation
+title: VoronCitadel GTM CRM Recommendation
 created_at: 2026-08-13 00:00:00+00:00
 owner: faurani-jaafar
 status: active
@@ -25,7 +25,7 @@ mission_alignment: []
 related_records: []
 ---
 
-# CRM Platform Recommendation — VoronDRQ GTM Programme
+# CRM Platform Recommendation — VoronCitadel GTM Programme
 
 **Prepared for:** COO Approval (INIT-20260808-002)
 **Prepared by:** Faurani Jaafar, Director — Cyber Security Practice
@@ -36,7 +36,7 @@ related_records: []
 
 ## 1. Requirement
 
-A CRM platform to support the VoronDRQ GTM programme — campaign tracking, pipeline management, email automation, attribution, and executive reporting. The platform is a blocking dependency: the campaign cannot launch without tracking infrastructure.
+A CRM platform to support the VoronCitadel GTM programme — campaign tracking, pipeline management, email automation, attribution, and executive reporting. The platform is a blocking dependency: the campaign cannot launch without tracking infrastructure.
 
 ## 2. Must-Have Capabilities
 
@@ -178,7 +178,7 @@ If the COO requires a lower-cost option, Zoho CRM Enterprise + Zoho Campaigns is
 
 ### Not Recommended: Pipedrive (Option C)
 
-Pipedrive lacks parent-child account hierarchy, built-in email automation, and attribution tracking. The VoronDRQ GTM programme needs these capabilities on day one. Adding a second tool to fill the gaps creates data sync risk and operational complexity that the Marketing Ops Specialist shouldn't have to manage.
+Pipedrive lacks parent-child account hierarchy, built-in email automation, and attribution tracking. The VoronCitadel GTM programme needs these capabilities on day one. Adding a second tool to fill the gaps creates data sync risk and operational complexity that the Marketing Ops Specialist shouldn't have to manage.
 
 ## 6. Cost Summary
 

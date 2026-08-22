@@ -176,7 +176,7 @@ Objectives: commercial contribution, productisation, product governance, market 
 
 ### B. Cybersecurity Product Portfolio
 
-**Flagship / Commercialisation Focus:** GovSec TIP, VoronDRQ, ChainSentry
+**Flagship / Commercialisation Focus:** GovSec TIP, VoronCitadel, chain:SENTRY
 
 **Supporting / Emerging:** VoronScout, SEC-AF, BSEP Defence Enablement, other future products
 

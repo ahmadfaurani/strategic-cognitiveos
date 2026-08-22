@@ -78,12 +78,12 @@ This analysis flags every execution bottleneck that could prevent that objective
 
 **Decision:** DAF confirmed VoronCitadel is the branding moving forward (Aug 11, 10:59 UTC).
 
-**Remaining work:** All external-facing materials still use "VoronDRQ" and need updating:
+**Remaining work:** All external-facing materials still use "VoronCitadel" and need updating:
 - CMO Review Package (GTM_OUTREACH_PACKAGE.md) — all campaign templates, email scripts, LinkedIn messages
-- VoronDRQ Sales Kit (GitHub: ahmadfaurani/voron-drq-sales-kit)
+- VoronCitadel Sales Kit (GitHub: ahmadfaurani/voron-drq-sales-kit)
 - 193-Org Stakeholder Mapping file names
 - Campaign repo (GitHub: ahmadfaurani/Voron-Campaign)
-- All CognitiveOS records referencing VoronDRQ
+- All CognitiveOS records referencing VoronCitadel
 
 **Recommendation:**
 - All new documentation and outreach uses VoronCitadel exclusively
@@ -117,7 +117,7 @@ This analysis flags every execution bottleneck that could prevent that objective
 - Productisation and commercial readiness must advance in parallel, not sequentially
 - DAF's review gate ("agree on commercialisation priorities, GTM readiness") is the right moment to activate Workstream E
 - At minimum: define pricing approach for VoronCitadel (it's "Ready"), identify first 3 target accounts
-- CyberDSA (Oct) is the forcing function for GovSec — what's the forcing function for VoronCitadel and ChainSentry?
+- CyberDSA (Oct) is the forcing function for GovSec — what's the forcing function for VoronCitadel and chain:SENTRY?
 
 ---
 
@@ -152,7 +152,7 @@ This analysis flags every execution bottleneck that could prevent that objective
 
 ## Bottleneck #10: 4-Month Gap Between MVP Spec and Productisation Directive — MEDIUM
 
-**The Problem:** Fuad submitted the VoronDRQ MVP Specification on April 20, 2026, with a platform demo on April 27 and a CSM capital market engagement in May. He flagged 5 operational dependencies for production rollout at that time. Yet the development freeze and productisation directive was not issued until August 11 — nearly 4 months later. The status of those 5 dependencies and the CSM engagement is unclear.
+**The Problem:** Fuad submitted the VoronCitadel MVP Specification on April 20, 2026, with a platform demo on April 27 and a CSM capital market engagement in May. He flagged 5 operational dependencies for production rollout at that time. Yet the development freeze and productisation directive was not issued until August 11 — nearly 4 months later. The status of those 5 dependencies and the CSM engagement is unclear.
 
 **Impact:** 4 months of potential drift between MVP baseline and current state. The documentation Fuad compiles now may not reflect what was actually built since April. The 5 operational dependencies may have been partially addressed, fully addressed, or abandoned.
 
@@ -167,7 +167,7 @@ This analysis flags every execution bottleneck that could prevent that objective
 
 **The Problem:** 3 products × 6 categories = 18 deliverables. Current state:
 
-| Category | VoronCitadel | GovSec TIP | ChainSentry |
+| Category | VoronCitadel | GovSec TIP | chain:SENTRY |
 |----------|-------------|------------|------------|
 | MVP Specification | ✅ Exists | ✅ Exists | ✅ Exists |
 | Product Roadmap | ❌ Pending | ❌ Pending | ❌ Pending |
@@ -219,7 +219,7 @@ This analysis flags every execution bottleneck that could prevent that objective
 | # | Bottleneck | Severity | Owner | Action Required |
 |---|-----------|----------|-------|----------------|
 | 1 | Fuad capacity overload (21 deliverables) | 🔴 CRITICAL | DAF | Prioritise 5 first outputs, delegate to Hadri + intern |
-| 2 | VoronDRQ → VoronCitadel naming | 🟠 HIGH | Fuad | Include in doc inventory, systematic transition |
+| 2 | VoronCitadel → VoronCitadel naming | 🟠 HIGH | Fuad | Include in doc inventory, systematic transition |
 | 3 | No product governance framework | 🟠 HIGH | DAF | Define before review gate (Aug 31) |
 | 4 | Commercial workstream empty | 🟠 HIGH | DAF | Activate Workstream E at review gate |
 | 5 | DevSecOps intern notification (due Aug 13) | 🟡 TIME-SENSITIVE | Fuad | Brief intern by Aug 13 |
@@ -238,7 +238,7 @@ This analysis flags every execution bottleneck that could prevent that objective
 3. **Agree repository location** — where, who sets it up, by when
 4. **Review Fuad's 5 first outputs** — sequencing, division of labour
 5. **Address Fuad capacity** — what can be delegated, what needs DAF's authority
-6. **Name transition** — VoronDRQ → VoronCitadel across all materials
+6. **Name transition** — VoronCitadel → VoronCitadel across all materials
 7. **Commercial workstream activation** — when does Workstream E start?
 8. **Review gate timing** — when do we expect to reach the collective review?
 9. **April dependencies status** — what happened with the 5 operational dependencies Fuad flagged in April? What happened with the May CSM engagement?

@@ -107,9 +107,9 @@ The document says "Bursa-selected frameworks" and "Bursa-selected internal/exter
 
 ### 4. Source Baseline (Appendix D) — References Older Documents
 The document references:
-- VoronDRQ Sales Kit README.md v1.0 (April 2026)
-- VoronDRQ Proposal Templates v1.0 (April 2026)
-- VoronDRQ Product Brochure v1.1 (August 2026)
+- VoronCitadel Sales Kit README.md v1.0 (April 2026)
+- VoronCitadel Proposal Templates v1.0 (April 2026)
+- VoronCitadel Product Brochure v1.1 (August 2026)
 
 These predate the MVP Product Specification v2.0 (August 2026) which is the authoritative production-verified reference. Fuad should validate that the sales kit/brochure claims are consistent with the MVP Spec.
 

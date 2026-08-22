@@ -1214,8 +1214,8 @@ The Phase 1 pilot should focus on the workstreams with the highest strategic rel
 - CyberSecurity Malaysia strategic collaboration.
 - Sovereign AI and government AI adoption.
 - PMO Strategic Data Lake.
-- VoronDRQ commercial mobilisation.
-- ChainSentry product readiness.
+- VoronCitadel commercial mobilisation.
+- chain:SENTRY product readiness.
 - JDN, JDM and PERJASA ecosystem engagements.
 - Cybersecurity Business Unit capability building.
 - Negeri Sembilan political and strategic intelligence.

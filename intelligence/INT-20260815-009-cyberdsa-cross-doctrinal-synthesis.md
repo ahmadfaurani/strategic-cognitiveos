@@ -359,7 +359,7 @@ Each action is rated by: (a) how many methods identify it, (b) what score/rankin
 | **U8** | Assign DevSecOps intern to support Fuad | INT-008 only (F8) | Addresses Fuad SPOF; breaks F1×F8 compound | Before CP2 |
 | **U9** | Set up CRM backup for Shuhada | INT-008 only (Element 7) | Addresses Shuhada solo SPOF on critical path | Before CP3 |
 | **U10** | Classify CSM feedback per DAF's 3-category framework | INT-008 (F7 mitigation, RSK-003) | Prevents freeze conflict; only Cat 1 breaks freeze | By CP2 |
-| **U11** | Force ChainSentry go/no-go decision | INT-008 (F9, Element 3) | Prevents documentation scope ambiguity | At CP2 |
+| **U11** | Force chain:SENTRY go/no-go decision | INT-008 (F9, Element 3) | Prevents documentation scope ambiguity | At CP2 |
 
 ---
 
@@ -464,7 +464,7 @@ Together they form a complete intelligence architecture:
 | U8 | Assign DevSecOps intern to Fuad | Breaks F1×F8 compound risk | 1/3 (but structurally critical) |
 | U9 | Set up CRM backup for Shuhada | Critical path SPOF mitigation | 2/3 |
 | U10 | Classify CSM feedback (3-category) | Prevents freeze conflict | 1/3 |
-| U11 | Force ChainSentry go/no-go | Prevents scope ambiguity | 1/3 |
+| U11 | Force chain:SENTRY go/no-go | Prevents scope ambiguity | 1/3 |
 
 ### The Bottom Line
 

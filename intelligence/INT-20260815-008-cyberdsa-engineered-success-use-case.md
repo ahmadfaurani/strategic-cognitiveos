@@ -153,7 +153,7 @@ This means: if someone is working on something that doesn't trace back to one of
 | S3 | 10–15 priority accounts identified | Account shortlist with rationale | CP1 (Aug 22) |
 | S4 | Positioning statement approved | Signed-off document accessible to Tier 1 | CP1 (Aug 22) |
 | S5 | Aisha PIC status resolved | CSM meeting outcome documented | CP1 (Aug 22) |
-| S6 | ChainSentry demo feasibility decided | Go/no-go decision with rationale | CP2 (Sep 5) |
+| S6 | chain:SENTRY demo feasibility decided | Go/no-go decision with rationale | CP2 (Sep 5) |
 | S7 | VoronCitadel demo environment stable | 3 consecutive bug-free walkthroughs | CP3 (Sep 19) |
 | S8 | GovSec TIP demo environment stable | 3 consecutive bug-free walkthroughs | CP3 (Sep 19) |
 | S9 | Pre-event outreach initiated to all priority accounts | Outreach log with contact status | CP3 (Sep 19) |
@@ -187,7 +187,7 @@ This means: if someone is working on something that doesn't trace back to one of
 | F6 | **Hadi onboarding delay** | If onboarding after Sep 1 → contribution window compresses to <3 weeks before CP3 → GovSec TIP PM role unoccupied | MEDIUM | MEDIUM | Confirm date with Kenny by Aug 25 |
 | F7 | **Development freeze conflict** | CSM feedback may contain launch-critical items requiring code changes during freeze | MEDIUM | MEDIUM | DAF's 3-category classification (ACT-008): only Cat 1 breaks freeze |
 | F8 | **Resource contention** | Fuad carrying 12 criteria + 5 CSM relationships + 18 documentation deliverables → new SPOF | HIGH | HIGH | DevSecOps intern support; PC absorbs coordination load |
-| F9 | **ChainSentry go/no-go indecision** | If decision deferred past CP2 → documentation (1.9) and demo prep compressed | LOW | LOW | Force decision at CP2 (Sep 5) per criterion 1.4 |
+| F9 | **chain:SENTRY go/no-go indecision** | If decision deferred past CP2 → documentation (1.9) and demo prep compressed | LOW | LOW | Force decision at CP2 (Sep 5) per criterion 1.4 |
 | F10 | **Post-event follow-up gap** | If 24-hr follow-up not executed → leads go cold → POC conversion drops | LOW | HIGH | Shuhada owns follow-up log; CRM intake tested before event (5.6) |
 
 **Failure condition interdependencies:**
@@ -252,7 +252,7 @@ F1 + F8 = COMPOUND FAILURE: two SPOFs failing simultaneously = mission cannot re
 1.1 Demo scope locked (Hadri+Fuad, CP1)
   ├─> 1.2 VoronCitadel demo stable (Fuad, CP3) — needs scope to know what to stabilise
   ├─> 1.3 GovSec TIP demo stable (Hadri, CP3) — needs scope to know what to stabilise
-  ├─> 1.4 ChainSentry go/no-go (Hadri+Fuad, CP2) — needs scope to assess feasibility
+  ├─> 1.4 chain:SENTRY go/no-go (Hadri+Fuad, CP2) — needs scope to assess feasibility
   ├─> 1.6 VoronCitadel documentation (Fuad, CP2) — needs scope to document
   ├─> 1.7 GovSec TIP documentation (Fuad, CP3) — needs scope to document
   └─> 1.8 Hadri handover documentation (Fuad→Hadri, CP2) — needs scope to handover
@@ -316,7 +316,7 @@ Day 0 (Aug 15)                    CP1 (Aug 22)         CP2 (Sep 5)          CP3 
     │                                  │                   │                     │                    │                    │                    ├─ 2.10 POC signed ◄┘
     │                                  │                   │                     │                    │                    │                    │
     ├─ 1.1 Demo scope ────────────────>│                   │                     │                    │                    │                    │
-    │                                  │                   ├─ 1.4 ChainSentry ─>│                    │                    │                    │
+    │                                  │                   ├─ 1.4 chain:SENTRY ─>│                    │                    │                    │
     │                                  │                   ├─ 1.6 VC docs ────>│                    │                    │                    │
     │                                  │                   │                     ├─ 1.2 VC stable ─>│                    │                    │
     │                                  │                   │                     │                    ├─ 1.5 Rehearsal ─>│                    │
@@ -572,7 +572,7 @@ STRATEGIC OBJECTIVE
     │   │           ├─ Evidence: 3 consecutive bug-free walkthroughs
     │   │           └─ Done: Zero critical bugs in demo flow
     │   │
-    │   ├─ WP 1D: ChainSentry Decision
+    │   ├─ WP 1D: chain:SENTRY Decision
     │   │   └─ Milestone: CP2 (Sep 5)
     │   │       └─ Action: Hadri+Fuad feasibility assessment
     │   │           ├─ Owner: Hadri + Fuad

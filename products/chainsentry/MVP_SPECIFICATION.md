@@ -1,7 +1,7 @@
 ---
 id: DOC-20260814-001
 record_type: document
-title: ChainSentry MVP Product Specification v3.0
+title: chain:SENTRY MVP Product Specification v3.0
 product: chainsentry
 initiative: INIT-20260811-001
 category: mvp-specification
@@ -33,7 +33,7 @@ mission_alignment: []
 related_records: []
 ---
 
-# ChainSentry MVP Product Specification v3.0
+# chain:SENTRY MVP Product Specification v3.0
 
 > Canonical baseline document - uploaded by DAF, 14 August 2026
 >
@@ -74,13 +74,13 @@ Version 3.0  |  August 2026
 
 Executive Summary
 Blockchain investigations are often fragmented across chain explorers, sanctions lists, attribution services, infrastructure tools, case files, screenshots, and manually assembled reports. The result is slow triage, inconsistent evidence handling, and findings that are difficult to explain or reproduce.
-ChainSentry is a production-verified blockchain-forensics workbench for commercial-crime and cyber investigators. It consolidates address risk scoring, layered sanctions screening, entity attribution, case intake and evidence processing, transaction graphs, fund-flow tracing, infrastructure intelligence, ransomware context, monitoring, case-quality scoring, and cited dossier composition in one controlled environment.
+chain:SENTRY is a production-verified blockchain-forensics workbench for commercial-crime and cyber investigators. It consolidates address risk scoring, layered sanctions screening, entity attribution, case intake and evidence processing, transaction graphs, fund-flow tracing, infrastructure intelligence, ransomware context, monitoring, case-quality scoring, and cited dossier composition in one controlled environment.
 
 
 
 # 1. Platform Architecture & Intelligence Data Model
 ## 1.1 Architectural Philosophy
-ChainSentry is organised around a single investigative spine: intake, triage, expansion, fund-flow following, monitoring, and reporting. Security and evidence controls are not separate reporting overlays; they are embedded in every operation that returns or changes investigative data.
+chain:SENTRY is organised around a single investigative spine: intake, triage, expansion, fund-flow following, monitoring, and reporting. Security and evidence controls are not separate reporting overlays; they are embedded in every operation that returns or changes investigative data.
 The platform favours deterministic, visible behavior. The risk engine performs no external calls, source aggregation follows an explicit priority order, and source outages degrade enrichment rather than fail the application. Core attribution and sanctions holdings remain inside the deployment so essential capability is not dependent on per-query commercial availability.
 
 
@@ -132,7 +132,7 @@ Explainable result: the reason string names the matching layer or authority.
 Faceted browse: actor, category, jurisdiction, programme, designation date and additional attributes.
 
 2.2 Attribution & Verified Entities
-ChainSentry separates broad coverage from high-trust curation. The bulk attribution registry provides reach; the verified entity directory provides a smaller layer with documented verification method and date.
+chain:SENTRY separates broad coverage from high-trust curation. The bulk attribution registry provides reach; the verified entity directory provides a smaller layer with documented verification method and date.
 ### 2.2.1 Attribution Registry
 Coverage: 583,574 tags across 524,656 addresses on 78 chains.
 Search: exact address lookup and free-text label/actor search.
@@ -228,7 +228,7 @@ Credential handling: credentials are supplied through the deployment environment
 
 
 ## 3.4 Intelligence Source Framework
-ChainSentry treats source integration as an evidence pipeline, not a collection of interchangeable API calls. Each source fulfils a defined intelligence role, and the platform records whether that role is available, degraded, deferred or intentionally excluded. The current baseline verifies twelve of eighteen roles as operational; unresolved roles are carried into the gap register rather than silently presented as complete coverage.
+chain:SENTRY treats source integration as an evidence pipeline, not a collection of interchangeable API calls. Each source fulfils a defined intelligence role, and the platform records whether that role is available, degraded, deferred or intentionally excluded. The current baseline verifies twelve of eighteen roles as operational; unresolved roles are carried into the gap register rather than silently presented as complete coverage.
 
 
 ## 3.5 Evidence and Provenance Controls
@@ -265,7 +265,7 @@ Confirm evidence and trace depth against the scorecard.
 Update or close the case and issue a review report.
 
 ## 4.4 Assisted Analysis and Investigator Guardrails
-ChainSentry uses assisted analysis to accelerate intake, evidence handling and dossier composition while keeping investigative accountability with the named user. Assistance is bounded by live source evidence, explicit fallback behavior and a clear separation between retrieved fact, model-generated narrative and analyst conclusion.
+chain:SENTRY uses assisted analysis to accelerate intake, evidence handling and dossier composition while keeping investigative accountability with the named user. Assistance is bounded by live source evidence, explicit fallback behavior and a clear separation between retrieved fact, model-generated narrative and analyst conclusion.
 
 ## 4.5 Governance Requirements
 Residency: inference can be deployed inside the organisation so case narrative and evidence do not leave the controlled environment.
@@ -316,7 +316,7 @@ Error semantics: unauthenticated, forbidden, unsupported, degraded and no-data m
 All three jobs are additive and idempotent: re-running does not duplicate or remove records.
 
 ## 5.4 Gaps Requiring Resolution
-This section reconciles two evidence sources that represent different states of ChainSentry. The implementation repository is the current development build and shows what exists in code. The verified production baseline records what was observed live on 11 August 2026, what remained undeployed, and what the backlog still requires. A feature is not treated as production-ready merely because it exists in the development branch.
+This section reconciles two evidence sources that represent different states of chain:SENTRY. The implementation repository is the current development build and shows what exists in code. The verified production baseline records what was observed live on 11 August 2026, what remained undeployed, and what the backlog still requires. A feature is not treated as production-ready merely because it exists in the development branch.
 
 ### 5.4.1 Priority Gap Matrix
 
@@ -335,7 +335,7 @@ Capability expansion: only after pilot readiness, address non-EVM tracing, bridg
 The product can run on a single Linux host on premises or in a private cloud. Multi-organisation separation is implemented but has not yet been exercised at scale; second-organisation verification is a productisation item before wider onboarding.
 
 ## 5.7 Release, Migration and Recovery Controls
-A pilot release requires more than a successful application build. ChainSentry carries persistent cases, evidence, sanctions, attribution and audit state; therefore the deployment package, database change history, runtime configuration and rollback procedure must be treated as one controlled release unit.
+A pilot release requires more than a successful application build. chain:SENTRY carries persistent cases, evidence, sanctions, attribution and audit state; therefore the deployment package, database change history, runtime configuration and rollback procedure must be treated as one controlled release unit.
 
 ## 5.8 Operational Ownership and Service Signals
 
@@ -554,7 +554,7 @@ Source failure reduces enrichment depth but must not erase the local evidence ba
 
 
 | Assistance Boundary
-ChainSentry may draft, organise and explain; it does not make an autonomous criminal designation.
+chain:SENTRY may draft, organise and explain; it does not make an autonomous criminal designation.
 A platform score, attribution tag or dark-web observation must be reviewed in context before it becomes an investigative conclusion. |
 |---|
 
@@ -636,11 +636,11 @@ Until that correction is complete, the in-product API documentation is not a rel
 
 
 | Definition of “Addressed”
-Implemented in the current ChainSentry build.
+Implemented in the current chain:SENTRY build.
 Deployed to the target environment with required migration/configuration changes.
 Verified against live data with recorded results.
 Covered by an automated regression check where practical.
-Documented in the controlled ChainSentry baseline so the specification, roadmap and implementation no longer disagree. |
+Documented in the controlled chain:SENTRY baseline so the specification, roadmap and implementation no longer disagree. |
 |---|
 
 
@@ -860,7 +860,7 @@ Phase 2: graded-confidence ingestion, curation and scheduled refresh; Phase 3: l
 
 
 | Completeness Statement
-This is the comprehensive ChainSentry MVP platform and product specification for the supplied implementation and verified baseline.
+This is the comprehensive chain:SENTRY MVP platform and product specification for the supplied implementation and verified baseline.
 It intentionally does not pretend to be an exhaustive OpenAPI definition, physical database dictionary, environment-specific operating manual or screen-by-screen user guide.
 Where an interface or documentation page is aspirational, mocked or inconsistent with the implemented route set, the gap is stated explicitly rather than promoted to verified capability. |
 |---|
@@ -868,7 +868,7 @@ Where an interface or documentation page is aspirational, mocked or inconsistent
 
 | Version | Date | Notes |
 |---|---|---|
-| 3.1 | August 2026 | Coverage-verified ChainSentry specification. Added platform/admin surfaces, implemented API inventory and contract boundaries, functional acceptance, exact role-permission reference, and a formal coverage statement. |
-| 3.0 | August 2026 | Comprehensive single-name ChainSentry specification. Rebuilt directly from the uploaded reference template, with implementation evidence, verified-production evidence, gaps, scope and roadmap clearly separated. |
+| 3.1 | August 2026 | Coverage-verified chain:SENTRY specification. Added platform/admin surfaces, implemented API inventory and contract boundaries, functional acceptance, exact role-permission reference, and a formal coverage statement. |
+| 3.0 | August 2026 | Comprehensive single-name chain:SENTRY specification. Rebuilt directly from the uploaded reference template, with implementation evidence, verified-production evidence, gaps, scope and roadmap clearly separated. |
 | 2.1 | August 2026 | Introduced a structured implementation-to-production gap analysis. |
-| 2.0 | August 2026 | Initial expanded ChainSentry MVP product specification based on the verified production baseline. |
+| 2.0 | August 2026 | Initial expanded chain:SENTRY MVP product specification based on the verified production baseline. |

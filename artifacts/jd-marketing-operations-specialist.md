@@ -27,7 +27,7 @@ related_records: []
 
 # Job Description — Marketing Operations Specialist
 
-**Role Title:** Marketing Operations Specialist — VoronDRQ GTM
+**Role Title:** Marketing Operations Specialist — VoronCitadel GTM
 **Department:** Marketing (WIG/MTAI group)
 **Reports To:** Azzatullina Pawanchik (Marketing) with matrix reporting to Faurani Jaafar (Practice Director)
 **Location:** Level 30, Menara TM, KL (hybrid)
@@ -38,12 +38,12 @@ related_records: []
 
 ## Purpose
 
-Build and operate the marketing infrastructure that powers the VoronDRQ GTM programme — CRM configuration, email automation, campaign tracking, attribution, and reporting. This role converts the campaign strategy designed by Azzatullina and the Practice into a measurable, instrumented machine. Without this role, the campaign runs blind: no tracking, no attribution, no pipeline visibility.
+Build and operate the marketing infrastructure that powers the VoronCitadel GTM programme — CRM configuration, email automation, campaign tracking, attribution, and reporting. This role converts the campaign strategy designed by Azzatullina and the Practice into a measurable, instrumented machine. Without this role, the campaign runs blind: no tracking, no attribution, no pipeline visibility.
 
 ## Key Responsibilities
 
 ### CRM Platform Configuration & Management
-- Configure the CRM platform for campaign tracking: account records, stakeholder contacts, activity logging, pipeline stages, custom fields for the 7-stage VoronDRQ pipeline
+- Configure the CRM platform for campaign tracking: account records, stakeholder contacts, activity logging, pipeline stages, custom fields for the 7-stage VoronCitadel pipeline
 - Build the campaign dashboard — real-time view of accounts activated, stakeholders engaged, sessions booked, demos delivered, POCs in flight
 - Maintain data hygiene — deduplication, parent-group mapping (subsidiaries under buying centres), contact verification status tracking
 - Manage user access and permissions for Sales, Marketing, and Practice team members

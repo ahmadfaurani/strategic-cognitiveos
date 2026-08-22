@@ -59,7 +59,7 @@ Teras serves as the **infrastructure layer for ALL three CyberSecurity Practice 
 - Air-gapped deployment for classified intel platforms
 - Multi-agency deployment isolation (each agency = Teras-managed instance)
 
-### ChainSentry (Blockchain Forensics & Investigative Workbench)
+### chain:SENTRY (Blockchain Forensics & Investigative Workbench)
 - GPU compute for assisted classification (~20s → est. ~5-8s with Teras GPU + optimised kernel)
 - OCR and Translation services for evidence processing
 - Multi-tenant deployment isolation (resolves known single-tenant gap)

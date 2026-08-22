@@ -37,7 +37,7 @@ summary: Protocol converting the 3-product MVP portfolio review into sequenced, 
   organisational capacity, commercial activation, and operational readiness.
 strategic_significance: The portfolio has 3 MVP specs but no unified productization
   pathway. VoronCitadel is production-deployed but GTM-stalled. GovSec TIP targets
-  CyberDSA Oct 2026 with 11 deferrals. ChainSentry has 4 critical gaps blocking pilot.
+  CyberDSA Oct 2026 with 11 deferrals. chain:SENTRY has 4 critical gaps blocking pilot.
   This protocol converts those gaps into sequenced action tracks with gates, owners,
   and exit criteria.
 mission_alignment:
@@ -47,7 +47,7 @@ mission_alignment:
 related_records:
 - GOV-PORTFOLIO-REGISTER-001
 - GOV-TBH-REGISTRY-001
-- DOC-20260814-001 (ChainSentry MVP v3.0)
+- DOC-20260814-001 (chain:SENTRY MVP v3.0)
 - DOC-20260814-002 (VoronCitadel MVP v2.0)
 - DOC-20260814-003 (GovSec TIP MVP v3.0)
 document_type: sop
@@ -66,7 +66,7 @@ author: DAF
 
 This protocol converts the MVP portfolio review into action. It defines three sequenced productization tracks, the organisational capacity required to execute them, and the operational readiness gates that must close before each product moves from one readiness level to the next.
 
-**Scope:** 3 flagship products (VoronCitadel, GovSec TIP, ChainSentry) + 3 pending-spec products (VoronScout, LE-UIP, SEC-AF).
+**Scope:** 3 flagship products (VoronCitadel, GovSec TIP, chain:SENTRY) + 3 pending-spec products (VoronScout, LE-UIP, SEC-AF).
 
 **Core question:** What actions, taken now, create the greatest improvement in the probability of achieving portfolio commercialisation objectives?
 
@@ -78,7 +78,7 @@ This protocol converts the MVP portfolio review into action. It defines three se
 |---------|-----------|--------|-------------------|----------|
 | VoronCitadel | Production-deployed | Commercial-ready (GTM activation) | CSM GTM stall; TBH-001 unfilled; POC doc due Aug 24 | Immediate (CSM channel live) |
 | GovSec TIP | Prototype (v3.0 spec) | Demo-ready (CyberDSA Oct 2026) | 11 Phase 2 deferrals; security remediation; build not started | T-12 weeks to CyberDSA |
-| ChainSentry | Prototype (v3.0, verified Aug 11) | Pilot-ready | 4 critical gaps (deployment, access, credentials, demo boundary) | Post-VoronCitadel POC |
+| chain:SENTRY | Prototype (v3.0, verified Aug 11) | Pilot-ready | 4 critical gaps (deployment, access, credentials, demo boundary) | Post-VoronCitadel POC |
 | VoronScout | Pending | — | No spec | — |
 | LE-UIP | Pending | — | No spec | — |
 | SEC-AF | Pending | — | No spec | — |
@@ -131,7 +131,7 @@ Three parallel tracks, sequenced by commercial urgency. Each track has defined p
 | Gate | Commercial package reviewed and approved |
 | Exit criterion | Pricing sheet, POC template, and SLA terms documented; ready for CSM to quote |
 | Dependency | A1 (POC document defines delivery scope) |
-| Input | VoronCitadel MVP Spec v2.0 §7 (scope boundaries); ChainSentry commercial packages as reference format |
+| Input | VoronCitadel MVP Spec v2.0 §7 (scope boundaries); chain:SENTRY commercial packages as reference format |
 
 #### A4: White-Label Readiness (CSM Engagement)
 
@@ -213,9 +213,9 @@ Three parallel tracks, sequenced by commercial urgency. Each track has defined p
 
 ---
 
-### Track C — ChainSentry: Pilot Readiness (POST-VORONCITADEL)
+### Track C — chain:SENTRY: Pilot Readiness (POST-VORONCITADEL)
 
-**Rationale:** 4 critical gaps block pilot. VoronCitadel GTM is more urgent, but ChainSentry gaps are security liabilities that worsen with time. Credential rotation is non-negotiable regardless of commercial priority.
+**Rationale:** 4 critical gaps block pilot. VoronCitadel GTM is more urgent, but chain:SENTRY gaps are security liabilities that worsen with time. Credential rotation is non-negotiable regardless of commercial priority.
 
 #### C1: Credential Closure & Secret Governance (CRITICAL — security)
 
@@ -271,7 +271,7 @@ Three parallel tracks, sequenced by commercial urgency. Each track has defined p
 | Gate | Pilot scope document approved |
 | Exit criterion | Named pilot target, 6-week pilot duration, success scorecard defined |
 | Dependency | C1-C4 (all critical gaps closed before pilot commitment) |
-| Input | ChainSentry MVP v3.0 §7.1 (pilot readiness requirements); Product Brief commercial packages |
+| Input | chain:SENTRY MVP v3.0 §7.1 (pilot readiness requirements); Product Brief commercial packages |
 
 ---
 
@@ -290,14 +290,14 @@ This layer is shared across all tracks. Without it, productization stalls regard
 | Gate | Hiring approach decided; JD circulated (already exists: `strategic-cognitiveos/artifacts/jd-poc-engineer.md`) |
 | Exit criterion | Named individual in role; DAF no longer interim owner for POC execution |
 | Escalation | TBH escalation rule: >2 weeks blocking CRITICAL without workaround → DAF must assign interim or reassign action. Clock started Aug 20. Escalation date: Sep 3 |
-| Impact if unfilled | Every POC (VoronCitadel Bursa, ChainSentry pilot, future CSM channel) defaults to DAF. Portfolio collision risk (§6.10). This is the single highest-leverage hire in the portfolio |
+| Impact if unfilled | Every POC (VoronCitadel Bursa, chain:SENTRY pilot, future CSM channel) defaults to DAF. Portfolio collision risk (§6.10). This is the single highest-leverage hire in the portfolio |
 
 ### 4.2 Delivery Capability Matrix
 
 | Capability | Current Owner | Required Owner | Gap | Resolution |
 |------------|--------------|----------------|-----|------------|
 | POC document creation | Athena (AI) | Athena | None | ✅ Operational |
-| POC document QC | Fuad | Fuad | None (but bandwidth risk) | Monitor load; consider second reviewer for ChainSentry track |
+| POC document QC | Fuad | Fuad | None (but bandwidth risk) | Monitor load; consider second reviewer for chain:SENTRY track |
 | POC document approval | DAF | DAF | None | ✅ Operational |
 | POC execution | TBH-001 (TBA) | TBH-001 | 🔴 Critical | Hire or assign by Aug 27 |
 | Technical build (all products) | Fuad | Fuad + additional eng | Bandwidth risk | Fuad is sole technical across 3 products. Assess need for second engineer by Sep 15 |
@@ -333,7 +333,7 @@ Track A (VoronCitadel)
 Track B (GovSec TIP)
   B1 Security ──> B2 Core Build ──> B3 AI Analyst ──> B4 Demo Env ──> B5 Brand
                                                         │
-Track C (ChainSentry)                                    │
+Track C (chain:SENTRY)                                    │
   C1 Credentials ──> C2 Deployment ──> C3 Access ──> C4 Demo Boundary ──> C5 Pilot Scope
                                                         │
                                                         ▼
@@ -356,7 +356,7 @@ These products remain at *Pending* status. No spec, no build, no commercial comm
 
 ## 5. Sequencing & Timeline
 
-| Week | Track A (VoronCitadel) | Track B (GovSec TIP) | Track C (ChainSentry) | Ops Layer |
+| Week | Track A (VoronCitadel) | Track B (GovSec TIP) | Track C (chain:SENTRY) | Ops Layer |
 |------|----------------------|---------------------|---------------------|-----------|
 | W1 (Aug 20-26) | A1 POC doc (CRITICAL) | — | C1 Credentials (CRITICAL) | TBH-001 hiring approach decided |
 | W2 (Aug 27-Sep 2) | A2 CSM activation | B1 Security starts | C2 Deployment parity | TBH-001 target fill; Fuad bandwidth check |
@@ -379,11 +379,11 @@ Decisions required from DAF by date. Non-decision defaults are noted.
 | Aug 22 | CSM Aisha PIC confirmed | Confirm / escalate to Zulfeka | Escalate (PRG-002 kill date Aug 22) |
 | Aug 24 | VoronCitadel POC doc approved | Approve / request changes | DAF same-day approval (no float) |
 | Aug 27 | TBH-001 hiring approach | Internal secondment / external hire / contractor | Contractor (fastest path to interim) |
-| Aug 30 | ChainSentry credential rotation verified | Accept / reject | Reject (security non-negotiable) |
+| Aug 30 | chain:SENTRY credential rotation verified | Accept / reject | Reject (security non-negotiable) |
 | Sep 1 | External security assessor engaged for GovSec pen test | Engage / defer | Engage (CyberDSA deadline requires it) |
 | Sep 3 | TBH-001 escalation trigger | Assign interim / reassign actions / accept DAF as interim | DAF absorbs (portfolio collision risk) |
 | Sep 15 | Second engineer assessment | Hire / defer / redistribute | Defer (Fuad continues solo) |
-| Sep 30 | ChainSentry pilot scope approved | Approve / defer to post-CyberDSA | Defer to post-CyberDSA |
+| Sep 30 | chain:SENTRY pilot scope approved | Approve / defer to post-CyberDSA | Defer to post-CyberDSA |
 | Oct 8 | CyberDSA demo content frozen | Freeze / allow changes | Freeze |
 
 ---
@@ -395,7 +395,7 @@ Decisions required from DAF by date. Non-decision defaults are noted.
 | RSK-PO-001 | TBH-001 unfilled >4 weeks | All | High | High | Contractor interim; escalate at 2-week mark per TBH rules | DAF |
 | RSK-PO-002 | Fuad bandwidth overload (sole tech across 3 products) | B, C | Medium | High | Second engineer by Sep 15; scope B2 to 2 domains if needed | DAF |
 | RSK-PO-003 | CyberDSA timeline slip (B2 incomplete by Sep 30) | B | Medium | High | Demo with 2 domains (Ingestion + Analysis) + AI Analyst; defer Alerting + Governance to post-event | DAF |
-| RSK-PO-004 | ChainSentry credential exposure exploited | C | Low | Critical | C1 by Aug 30 regardless of commercial priority | Fuad |
+| RSK-PO-004 | chain:SENTRY credential exposure exploited | C | Low | Critical | C1 by Aug 30 regardless of commercial priority | Fuad |
 | RSK-PO-005 | CSM channel stall (Aisha not confirmed) | A | Medium | High | Direct escalation to Zulfeka; PRG-002 kill date Aug 22 | DAF |
 | RSK-PO-006 | VoronCitadel POC doc QC slips past Aug 23 | A | Low | Medium | DAF approves same-day; no float in schedule | DAF |
 | RSK-PO-007 | GovSec pen test fails | B | Medium | Critical | Start B1 early; engage assessor Sep 1; 2-week remediation window | Fuad |
@@ -408,7 +408,7 @@ Decisions required from DAF by date. Non-decision defaults are noted.
 |--------|--------|-------------|---------|
 | VoronCitadel POC delivered | Aug 24 10am MYT | Document approved by DAF | One-time |
 | CSM channel first POC request | Sep 15 | Named POC request through CSM channel | Weekly |
-| ChainSentry critical gaps closed | 4/4 by Sep 20 | Gap matrix review | Weekly |
+| chain:SENTRY critical gaps closed | 4/4 by Sep 20 | Gap matrix review | Weekly |
 | GovSec demo rehearsal success | 3 consecutive by Oct 10 | Rehearsal log | Weekly from Oct 1 |
 | TBH-001 filled | Aug 27 (target) | Named individual in role | Weekly |
 | Fuad bandwidth | <80% allocation across tracks | DAF assessment | Weekly |

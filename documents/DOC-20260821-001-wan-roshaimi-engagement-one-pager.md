@@ -108,8 +108,8 @@ Roshdi → Azrul → Zulfeka → Bala → Wan Roshaimi → Zaharudin → Dr. Meg
 | CSM CTO Scope | Aras Capability | Engagement Territory |
 |---|---|---|
 | Responsive (incident, recovery) | GovSec TIP — threat intelligence, AI-assisted analysis | Operational cyber defence integration |
-| Proactive (assurance, readiness) | VoronDRQ / VoronCitadel — governance, risk, compliance | Security posture, regulatory alignment |
-| Pre-Emptive (emerging threats) | ChainSentry + PQC readiness | Anticipatory defence, future-readiness |
+| Proactive (assurance, readiness) | VoronCitadel / VoronCitadel — governance, risk, compliance | Security posture, regulatory alignment |
+| Pre-Emptive (emerging threats) | chain:SENTRY + PQC readiness | Anticipatory defence, future-readiness |
 
 **4 active CSM joint tracks requiring CTO-level validation:**
 1. GovSec × SiberSUITE telemetry integration (INIT-20260804-003)

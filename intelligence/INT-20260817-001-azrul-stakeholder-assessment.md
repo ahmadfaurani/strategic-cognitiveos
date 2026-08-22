@@ -95,7 +95,7 @@ Assessment built on direct primary sources: STK record, two INT products, one OU
 # Related Records
 
 - STK-20260813-008 — Azrul Nazim Abdul Aziz (stakeholder record)
-- INIT-20260804-001 — CSM × Aras VoronDRQ Joint GTM Activation
+- INIT-20260804-001 — CSM × Aras VoronCitadel Joint GTM Activation
 - OUT-20260815-001 — Voron Citadel Post-MOU Training Completed
 - INT-20260815-004 — CSM-Aras Stakeholder Coverage Plan
 - INT-20260815-005 — CyberDSA Readiness Metrics Report

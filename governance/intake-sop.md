@@ -233,29 +233,29 @@ Next triggers:
 5. **Key link** — one line connecting this intake to the broader strategic picture
 6. **Next triggers** — the immediate next actions that this intake creates or enables
 
-### Example (from 2026-08-04 CSM VoronDRQ GTM intake)
+### Example (from 2026-08-04 CSM VoronCitadel GTM intake)
 
 ```
 Commit 9c72e36 — 13 files, 830 insertions.
 
 9 new records:
-• INIT-20260804-001 — CSM × Aras VoronDRQ Joint GTM Activation (Flagship/Pilot)
-• CONV-20260804-001 — CSM Post-MoU VoronDRQ GTM Email Thread
+• INIT-20260804-001 — CSM × Aras VoronCitadel Joint GTM Activation (Flagship/Pilot)
+• CONV-20260804-001 — CSM Post-MoU VoronCitadel GTM Email Thread
 • STK-20260804-001 — Mohammad Fahdzli Bin Abdul Rauf, Head of Cyber Solutions, CSM
 • STK-20260804-002 — Zulfeka Zainal Abidin, CSM Senior
 • STK-20260804-003 — Ahmad Fuad, Aras Integrasi
 • ACT-20260804-001 — Confirm Voron Citadel training reschedule (Aug 12/13/14)
-• ACT-20260804-002 — Conduct VoronDRQ sales enablement session with CSM
+• ACT-20260804-002 — Conduct VoronCitadel sales enablement session with CSM
 • ACT-20260804-003 — First-wave account shortlisting (10–15 orgs)
 • ACT-20260804-004 — Assign joint account ownership (1 CSM + 1 Aras per account)
 
 4 indexes updated — Initiative Index, Stakeholder Index, Conversation Index, Executive Portfolio Index.
 
-Key link: This initiative advances VoronDRQ from proposition (INIT-20260725-002, Workstream B) to pilot-stage GTM activation under the CSM MoU.
+Key link: This initiative advances VoronCitadel from proposition (INIT-20260725-002, Workstream B) to pilot-stage GTM activation under the CSM MoU.
 
 Next triggers:
 1. CSM confirmation of training reschedule (Aug 12/13/14) → ACT-20260804-001
-2. VoronDRQ sales enablement session → ACT-20260804-002
+2. VoronCitadel sales enablement session → ACT-20260804-002
 ```
 
 ---
@@ -354,7 +354,7 @@ Any intake that fails to produce the confirmation notification should be treated
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2026-08-04 | DAF (authority), Ember (drafter) | Initial institutionalization. Confirmation format standardized based on UITM (Aug 3) and CSM VoronDRQ GTM (Aug 4) intake precedents. |
+| 1.0 | 2026-08-04 | DAF (authority), Ember (drafter) | Initial institutionalization. Confirmation format standardized based on UITM (Aug 3) and CSM VoronCitadel GTM (Aug 4) intake precedents. |
 | 1.1 | 2026-08-19 | DAF (authority), Laras (drafter) | §3 Record Type Matrix expanded from 9 to 18 types (added ART, ASSESS, BRIEF, DOC, DRAFT, LSN, OPP, ORG, PIR). Non-Record Directories section added. §6 `git add -A` replaced with scoped `git add` path whitelist (Lesson #6 enforcement). Taxonomy validation added to Quality Checklist as enforced step. `outcome.schema.json` created (was missing). Root cause: schemas expanded to 18 types but SOP never updated — recurring meta-pattern of canonical layer evolving without enforcement layer following. |
 | 1.2 | 2026-08-20 | DAF (authority), Laras (drafter) | §5 "That's it" trigger added as standard modus operandi — session-level intake trigger. When DAF sends "that's it", the entire session is ingested as a CognitiveOS intake event. Institutionalized as always-on SOP. |
 | 1.3 | 2026-08-21 | DAF (authority), Laras (drafter) | YAML `version` field corrected from stale 1.0 → 1.3 (was not updated through v1.1/v1.2 body changes). `GOV-TEMPLATE-DISCIPLINE-001` added to `related_records` (fixes asymmetric pairing — Template SOP already referenced Intake SOP). `paired_sops` field added to YAML frontmatter. §8 Paired SOP Version-Locking section added — mirrors Template SOP §8 Step 7 but broadens from new-record-type-specific to all shared-surface changes. Version-locking principle now visible from both SOPs. Root cause: LSN-20260821-005 — governance drift in paired SOPs. |

@@ -1,7 +1,7 @@
 ---
 id: INIT-20260813-006
 record_type: initiative
-title: VoronDRQ GTM CRM Bootstrap Checklist
+title: VoronCitadel GTM CRM Bootstrap Checklist
 created_at: 2026-08-13 00:00:00+00:00
 owner: faurani-jaafar
 status: active
@@ -25,7 +25,7 @@ mission_alignment: []
 related_records: []
 ---
 
-# VoronDRQ GTM — HubSpot CRM Bootstrap Checklist
+# VoronCitadel GTM — HubSpot CRM Bootstrap Checklist
 
 **Goal:** Working CRM in 2–3 days, before Marketing Ops Specialist is hired
 **Platform:** HubSpot Sales Hub Professional (14-day free trial → paid after approval)
@@ -55,7 +55,7 @@ related_records: []
 ### Step 2: Configure Custom Pipeline (7-Stage)
 
 Navigate to: Sales → Deals → Pipelines → Create Pipeline
-Name it: **VoronDRQ GTM Pipeline**
+Name it: **VoronCitadel GTM Pipeline**
 
 Create these 7 stages in order:
 
@@ -65,7 +65,7 @@ Create these 7 stages in order:
 | 2 | Stakeholder Verified | At least 1 key stakeholder identified and contactable |
 | 3 | Qualified | Discovery call booked or completed — pain confirmed |
 | 4 | Discovery Session | Formal discovery meeting held — requirements documented |
-| 5 | Demonstration | VoronDRQ demo delivered to stakeholder(s) |
+| 5 | Demonstration | VoronCitadel demo delivered to stakeholder(s) |
 | 6 | POC Definition | POC scope agreed — proposal sent — verbal commitment |
 | 7 | Commercial Conversion | Contract signed / POC converted to commercial engagement |
 
@@ -165,7 +165,7 @@ For each of the 15 pilot accounts, create the parent-child relationships:
 ### Step 5: Create Executive Dashboard
 
 Navigate to: Reports → Dashboards → Create Dashboard
-Name it: **VoronDRQ GTM — Executive View**
+Name it: **VoronCitadel GTM — Executive View**
 
 Add these report cards:
 
@@ -184,8 +184,8 @@ Add these report cards:
 
 For each of the 15 pilot accounts:
 
-- [ ] Create a Deal named: "[Group Name] — VoronDRQ GTM"
-- [ ] Set pipeline: VoronDRQ GTM Pipeline
+- [ ] Create a Deal named: "[Group Name] — VoronCitadel GTM"
+- [ ] Set pipeline: VoronCitadel GTM Pipeline
 - [ ] Set stage: Account Validated (Stage 1)
 - [ ] Link to the parent company record
 - [ ] Set Deal value: leave blank for now (or set nominal RM 50,000 placeholder for tracking)
@@ -229,7 +229,7 @@ For each contact:
 ### Step 9: Create a "Working Session Demo" View
 
 - [ ] Create a custom Deal view: "Pilot Accounts — Working Session View"
-- [ ] Filter: Pipeline = VoronDRQ GTM Pipeline, Stage = Account Validated
+- [ ] Filter: Pipeline = VoronCitadel GTM Pipeline, Stage = Account Validated
 - [ ] Columns: Deal Name, Company, Market Segment, Parent Group, Stakeholder Count, Last Activity
 - [ ] This is what you'll show Kenny on screen — 15 named accounts, structured, ready
 

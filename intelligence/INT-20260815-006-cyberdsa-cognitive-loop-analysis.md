@@ -376,7 +376,7 @@ Each action is structured per Doctrine §7 (Actionable Intelligence Standard):
 | **DECISION WINDOW** | Meeting must occur before Aug 22 (CP1). Schedule within 48 hours. |
 | **RECOMMENDED ACTION** | Hadri schedules focused session with Fuad. Agenda: define what is demonstrated and what is not for each of 3 products. Output: signed-off demo scope document per product. |
 | **OWNER** | Hadri (schedule) + Fuad (content) |
-| **VERIFICATION** | Meeting scheduled. Signed-off demo scope document for VoronCitadel, GovSec TIP, and ChainSentry (or go/no-go for ChainSentry). |
+| **VERIFICATION** | Meeting scheduled. Signed-off demo scope document for VoronCitadel, GovSec TIP, and chain:SENTRY (or go/no-go for chain:SENTRY). |
 
 ---
 

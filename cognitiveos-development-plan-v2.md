@@ -313,7 +313,7 @@ delegation:
   execution_authority: operational # operational | tactical | strategic
   constraints:
     - launch_date: 2026-10-XX
-    - product_scope: GovSec TIP + VoronDRQ
+    - product_scope: GovSec TIP + VoronCitadel
     - coordination_requirements:
       - CSM relationship management
       - B200/A100 cluster allocation

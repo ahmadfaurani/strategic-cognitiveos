@@ -26,9 +26,9 @@ All identified risks, grouped by status.
 | RSK-20260820-002 | PDRM Procurement Integrity Risk — Political Intermediation in Police Technology Tenders | reputational | — | Medium | Medium | Medium | Identified |
 | RSK-20260820-003 | No Head of Engineering — Blocks VoronCitadel POC Scaling | operational | INIT-20260820-003 | High | High | Critical | Active |
 | RSK-20260820-004 | Hadri HoE Dual-Role Risk — CSM Tracks Lose Owner if Promoted | operational | INIT-20260820-003 | Medium | High | High | Active |
-| RSK-20260820-005 | ChainSentry: Four supplier credentials exposed and unrotated — Critical exposure window open | security | INIT-20260811-001 | Occurred | Critical | Critical | Active |
-| RSK-20260820-006 | ChainSentry: Address-security integration stubbed on trunk but live on deployment — regression risk | technical-debt | INIT-20260811-001 | High | High | Critical | Active |
-| RSK-20260820-007 | ChainSentry: Deployment not describable — 43 uncommitted mods, no migration ledger, 29 commits behind trunk | technical-debt | INIT-20260811-001 | Occurred | High | Critical | Active |
+| RSK-20260820-005 | chain:SENTRY: Four supplier credentials exposed and unrotated — Critical exposure window open | security | INIT-20260811-001 | Occurred | Critical | Critical | Active |
+| RSK-20260820-006 | chain:SENTRY: Address-security integration stubbed on trunk but live on deployment — regression risk | technical-debt | INIT-20260811-001 | High | High | Critical | Active |
+| RSK-20260820-007 | chain:SENTRY: Deployment not describable — 43 uncommitted mods, no migration ledger, 29 commits behind trunk | technical-debt | INIT-20260811-001 | Occurred | High | Critical | Active |
 | RSK-20260820-008 | Monday Aug 24 Convergence — 3 strategic tracks converging on same week | timing | INIT-20260811-001 | High | Medium | High | Active |
 
 ## Mitigating

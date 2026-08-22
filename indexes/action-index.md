@@ -31,9 +31,9 @@ All action records, grouped by status.
 | ACT-20260820-007 | Hire Head of Engineering — RM 18,888/month | DAF | 2026-09-15 | Critical |
 | ACT-20260820-008 | Hire Customer Success Engineer — RM 11,888/month | DAF | 2026-10-15 | High |
 | ACT-20260820-009 | Hire Junior Backend Engineer — RM 8,888/month | DAF | 2026-10-15 | High |
-| ACT-20260820-010 | Rotate four ChainSentry supplier credentials — revoke and reissue at provider (Phase 0, M1) | TBD (Security owner) | Phase 0 (Days 0–5) | Critical |
-| ACT-20260820-011 | Resolve ChainSentry address-security regression — restore or record (Phase 0, M2) | Hadri | Phase 0 (Days 0–5) | Critical |
-| ACT-20260820-012 | Reconstruct ChainSentry release manifest file by file (Phase 0, M3) | TBD (Delivery lead) | Phase 0 (Days 0–5) | Critical |
+| ACT-20260820-010 | Rotate four chain:SENTRY supplier credentials — revoke and reissue at provider (Phase 0, M1) | TBD (Security owner) | Phase 0 (Days 0–5) | Critical |
+| ACT-20260820-011 | Resolve chain:SENTRY address-security regression — restore or record (Phase 0, M2) | Hadri | Phase 0 (Days 0–5) | Critical |
+| ACT-20260820-012 | Reconstruct chain:SENTRY release manifest file by file (Phase 0, M3) | TBD (Delivery lead) | Phase 0 (Days 0–5) | Critical |
 | ACT-20260820-013 | Complete documentation drive — establish deadlines for all product documentation (3 products × 6 categories) | DAF | TBD | High |
 
 | ACT-20260821-001 | Retroactively Intake 9 Product Collateral Documents from Athena's Review | Ember | 2026-08-25 | Medium | CONV-20260821-001, DEC-20260821-001 |

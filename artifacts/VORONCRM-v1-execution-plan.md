@@ -28,7 +28,7 @@ related_records: []
 ---
 
 # VORONCRM v1 — Analytical Execution Plan
-## VoronDRQ GTM CRM Bootstrap
+## VoronCitadel GTM CRM Bootstrap
 
 | Field | Value |
 |-------|-------|
@@ -48,7 +48,7 @@ related_records: []
 
 ### 1.1 The Problem
 
-The VoronDRQ GTM programme requires a CRM to track 193 organisations across 13 market segments through a 7-stage pipeline. The Marketing Operations Specialist who would normally configure this platform has not yet been hired — and cannot be hired until the COO approves the budget. This creates a circular dependency:
+The VoronCitadel GTM programme requires a CRM to track 193 organisations across 13 market segments through a 7-stage pipeline. The Marketing Operations Specialist who would normally configure this platform has not yet been hired — and cannot be hired until the COO approves the budget. This creates a circular dependency:
 
 ```
 COO approval → Hire Marketing Ops → Configure CRM → Launch campaign
@@ -198,7 +198,7 @@ The 203 institutions map to approximately 40+ parent groups. For the bootstrap, 
 | 2 | Stakeholder Verified | At least 1 key stakeholder identified and contactable | Discovery call booked or pain confirmed | 10% | Account Owner |
 | 3 | Qualified | Discovery call completed — pain confirmed — budget authority verified | Formal discovery session scheduled | 20% | Account Owner |
 | 4 | Discovery Session | Formal discovery meeting held — requirements documented | Demo scheduled or POC scope discussed | 35% | Account Owner + DAF |
-| 5 | Demonstration | VoronDRQ demo delivered to stakeholder(s) | POC proposed or next steps agreed | 50% | Fuad + Account Owner |
+| 5 | Demonstration | VoronCitadel demo delivered to stakeholder(s) | POC proposed or next steps agreed | 50% | Fuad + Account Owner |
 | 6 | POC Definition | POC scope agreed — proposal sent — verbal commitment | POC contract signed or POC initiated | 70% | DAF + Fuad |
 | 7 | Commercial Conversion | Contract signed / POC converted to commercial engagement | — | 100% | DAF + Shuhada |
 
@@ -234,7 +234,7 @@ No automation during bootstrap. All stage transitions are manual to maintain dat
 | Step | Action | Configuration | Validation |
 |------|--------|---------------|------------|
 | 1.2.1 | Navigate to Sales → Deals → Pipelines | — | — |
-| 1.2.2 | Create pipeline: "VoronDRQ GTM Pipeline" | — | Pipeline appears in list |
+| 1.2.2 | Create pipeline: "VoronCitadel GTM Pipeline" | — | Pipeline appears in list |
 | 1.2.3 | Add 7 stages per §2.6 | Names and probability weights | All 7 stages visible in kanban view |
 | 1.2.4 | Verify stage order | 1→7 sequential | Drag a test deal through all stages |
 
@@ -321,9 +321,9 @@ No automation during bootstrap. All stage transitions are manual to maintain dat
 
 | Step | Report Card | Type | Data Source | Filter |
 |------|-------------|------|-------------|--------|
-| 2.1.1 | Pipeline Overview | Bar chart | Deals | Pipeline = VoronDRQ GTM |
+| 2.1.1 | Pipeline Overview | Bar chart | Deals | Pipeline = VoronCitadel GTM |
 | 2.1.2 | Accounts Activated | Single number | Companies | Campaign Tier = Lighthouse OR Conversion |
-| 2.1.3 | Stakeholders Engaged | Single number | Contacts | Associated with VoronDRQ GTM deals |
+| 2.1.3 | Stakeholders Engaged | Single number | Contacts | Associated with VoronCitadel GTM deals |
 | 2.1.4 | Discovery Sessions Booked | Single number | Deals | Stage = 4 (Discovery Session) |
 | 2.1.5 | Demos Delivered | Single number | Deals | Stage = 5 (Demonstration) |
 | 2.1.6 | POCs in Flight | Single number | Deals | Stage = 6 (POC Definition) |
@@ -332,7 +332,7 @@ No automation during bootstrap. All stage transitions are manual to maintain dat
 
 | Step | Action | Validation |
 |------|--------|------------|
-| 2.1.9 | Create dashboard: "VoronDRQ GTM — Executive View" | — |
+| 2.1.9 | Create dashboard: "VoronCitadel GTM — Executive View" | — |
 | 2.1.10 | Add all 8 report cards | All cards render with data |
 | 2.1.11 | Set visibility: Share with team | All invited users can view |
 | 2.1.12 | Test on desktop browser | Dashboard loads in <5 seconds |
@@ -342,32 +342,32 @@ No automation during bootstrap. All stage transitions are manual to maintain dat
 
 | Step | Action | Validation |
 |------|--------|------------|
-| 2.2.1 | Create Deal: "Maybank Group — VoronDRQ GTM" | — |
-| 2.2.2 | Pipeline: VoronDRQ GTM, Stage: Account Validated | Deal appears in Stage 1 |
+| 2.2.1 | Create Deal: "Maybank Group — VoronCitadel GTM" | — |
+| 2.2.2 | Pipeline: VoronCitadel GTM, Stage: Account Validated | Deal appears in Stage 1 |
 | 2.2.3 | Link to parent company: Maybank Group | Company association visible |
 | 2.2.4 | Set Campaign Tier: Lighthouse | — |
 | 2.2.5 | Set close date: 31 December 2026 (placeholder) | — |
 | 2.2.6 | Repeat for all 15 pilot groups | 15 deals in Stage 1 |
 
-**Deal naming convention:** `[Parent Group Name] — VoronDRQ GTM`
+**Deal naming convention:** `[Parent Group Name] — VoronCitadel GTM`
 
 | # | Deal Name | Campaign Tier | Linked Company |
 |---|-----------|---------------|----------------|
-| 1 | Maybank Group — VoronDRQ GTM | Lighthouse | Maybank Group |
-| 2 | CIMB Group — VoronDRQ GTM | Lighthouse | CIMB Group |
-| 3 | RHB Group — VoronDRQ GTM | Lighthouse | RHB Group |
-| 4 | Hong Leong Group — VoronDRQ GTM | Lighthouse | Hong Leong Group |
-| 5 | Public Bank Group — VoronDRQ GTM | Lighthouse | Public Bank Group |
-| 6 | Affin Bank Group — VoronDRQ GTM | Lighthouse | Affin Bank Group |
-| 7 | Bank Islam Group — VoronDRQ GTM | Lighthouse | Bank Islam Group |
-| 8 | Alliance Bank Group — VoronDRQ GTM | Lighthouse | Alliance Bank Group |
-| 9 | Bank Muamalat — VoronDRQ GTM | Conversion | Bank Muamalat |
-| 10 | KFH Malaysia — VoronDRQ GTM | Conversion | Kuwait Finance House Malaysia |
-| 11 | MIDF — VoronDRQ GTM | Conversion | MIDF |
-| 12 | Kenanga — VoronDRQ GTM | Conversion | Kenanga Investment Bank |
-| 13 | BPMB — VoronDRQ GTM | Conversion | Bank Pembangunan |
-| 14 | EXIM Bank — VoronDRQ GTM | Conversion | EXIM Bank Malaysia |
-| 15 | Etiqa — VoronDRQ GTM | Conversion | Etiqa (standalone or Maybank child) |
+| 1 | Maybank Group — VoronCitadel GTM | Lighthouse | Maybank Group |
+| 2 | CIMB Group — VoronCitadel GTM | Lighthouse | CIMB Group |
+| 3 | RHB Group — VoronCitadel GTM | Lighthouse | RHB Group |
+| 4 | Hong Leong Group — VoronCitadel GTM | Lighthouse | Hong Leong Group |
+| 5 | Public Bank Group — VoronCitadel GTM | Lighthouse | Public Bank Group |
+| 6 | Affin Bank Group — VoronCitadel GTM | Lighthouse | Affin Bank Group |
+| 7 | Bank Islam Group — VoronCitadel GTM | Lighthouse | Bank Islam Group |
+| 8 | Alliance Bank Group — VoronCitadel GTM | Lighthouse | Alliance Bank Group |
+| 9 | Bank Muamalat — VoronCitadel GTM | Conversion | Bank Muamalat |
+| 10 | KFH Malaysia — VoronCitadel GTM | Conversion | Kuwait Finance House Malaysia |
+| 11 | MIDF — VoronCitadel GTM | Conversion | MIDF |
+| 12 | Kenanga — VoronCitadel GTM | Conversion | Kenanga Investment Bank |
+| 13 | BPMB — VoronCitadel GTM | Conversion | Bank Pembangunan |
+| 14 | EXIM Bank — VoronCitadel GTM | Conversion | EXIM Bank Malaysia |
+| 15 | Etiqa — VoronCitadel GTM | Conversion | Etiqa (standalone or Maybank child) |
 
 #### 2.3 User Provisioning
 
@@ -418,7 +418,7 @@ Select 3 accounts where DAF already knows stakeholder names. For each:
 | Step | Action | Configuration |
 |------|--------|---------------|
 | 3.2.1 | Create custom Deal view: "Pilot Accounts — Working Session" | — |
-| 3.2.2 | Filter: Pipeline = VoronDRQ GTM, Campaign Tier = Lighthouse OR Conversion | 15 deals visible |
+| 3.2.2 | Filter: Pipeline = VoronCitadel GTM, Campaign Tier = Lighthouse OR Conversion | 15 deals visible |
 | 3.2.3 | Columns: Deal Name, Company, Campaign Tier, Market Segment, Stakeholder Count, Last Activity | — |
 | 3.2.4 | Save view | — |
 | 3.2.5 | Test: open this view first when sharing screen | Clean, professional, 15 rows |
@@ -459,7 +459,7 @@ Select 3 accounts where DAF already knows stakeholder names. For each:
 
 | Minute | Action | Screen | Narrative |
 |--------|--------|--------|-----------|
-| 1 | Open HubSpot → Pipeline view | VoronDRQ GTM Pipeline kanban | "This is live. 15 accounts loaded, all in Stage 1." |
+| 1 | Open HubSpot → Pipeline view | VoronCitadel GTM Pipeline kanban | "This is live. 15 accounts loaded, all in Stage 1." |
 | 2 | Click Maybank Group deal → show company record | Parent-child hierarchy | "Maybank Group maps to 7 subsidiary buying centres. Each is a separate engagement." |
 | 3 | Click a subsidiary → show stakeholder contacts | 2–3 named contacts with roles | "Stakeholders are tagged by role — CISO, Head of GRC, CRO. This is what the Account Owners will build out." |
 | 4 | Navigate to Executive Dashboard | 8 report cards | "Real-time visibility: accounts activated, sessions booked, demos delivered, POCs in flight. This is what weekly reviews look like." |
@@ -721,7 +721,7 @@ When the Marketing Ops Specialist is hired, they inherit a working CRM with:
 | 2 | Stakeholder Verified | 10% | At least 1 key stakeholder identified |
 | 3 | Qualified | 20% | Discovery call completed, pain confirmed |
 | 4 | Discovery Session | 35% | Formal discovery meeting held |
-| 5 | Demonstration | 50% | VoronDRQ demo delivered |
+| 5 | Demonstration | 50% | VoronCitadel demo delivered |
 | 6 | POC Definition | 70% | POC scope agreed, proposal sent |
 | 7 | Commercial Conversion | 100% | Contract signed |
 
@@ -754,9 +754,9 @@ When the Marketing Ops Specialist is hired, they inherit a working CRM with:
 | **RMiT** | Risk Management in Technology — Bank Negara Malaysia policy document governing technology risk management |
 | **RMiT Urgency** | Analytical assessment of how urgently an institution needs continuous assurance (driven by RMiT compliance pressure) |
 | **Parent-Child Hierarchy** | HubSpot company association linking subsidiary buying centres to their parent group |
-| **Pipeline Stage** | One of 7 defined stages in the VoronDRQ GTM Pipeline |
+| **Pipeline Stage** | One of 7 defined stages in the VoronCitadel GTM Pipeline |
 | **Stakeholder Role** | One of 7 functional roles mapped per account (CISO, CIO/CTO, Head of GRC, CRO, Head of Compliance, CFO, Head of Internal Audit) |
-| **VoronDRQ** | Aras Integrasi's continuous assurance platform — the product being brought to market |
+| **VoronCitadel** | Aras Integrasi's continuous assurance platform — the product being brought to market |
 | **Working Session** | Meeting with Kenny (COO), Azzatullina (CMO), Shuhada (Sales) to present the COO Approval Package and secure approval |
 
 ---

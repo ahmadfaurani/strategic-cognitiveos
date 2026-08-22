@@ -110,7 +110,7 @@ Assessed 2026-08-21 15:40 UTC against ADEP-001 four-state model.
 | EXPRESSED | ✅ | DAF directive, Aug 20 |
 | CODIFIED | ✅ | AIP-PRODUCTIZATION-OPERATIONALIZATION.md, 3 tracks, 15 phases, gates, exit criteria, risk register, decision points |
 | INSTITUTIONALISED | 🟡 | Referenced in Cognitive Loop scope. But: not embedded in any automated tracking. No gate-status dashboard. No mechanism to flag approaching deadlines. |
-| OPERATIONALISED | 🔴 | Track A Phase A1 (POC doc due Aug 24) — status unknown (deadline 2 days away, no automated check). TBH-001 unfilled (Day 2 of CRITICAL, escalation Sep 3). ChainSentry C1 (credentials due Aug 30) — no automated alert. No gate has been formally passed or failed with recorded evidence. |
+| OPERATIONALISED | 🔴 | Track A Phase A1 (POC doc due Aug 24) — status unknown (deadline 2 days away, no automated check). TBH-001 unfilled (Day 2 of CRITICAL, escalation Sep 3). chain:SENTRY C1 (credentials due Aug 30) — no automated alert. No gate has been formally passed or failed with recorded evidence. |
 
 **Gap: State 2→3→4.** The AIP is a document. No mechanism tracks its gates, flags its deadlines, or reports its status. It requires manual reading to know what's due.
 
@@ -183,7 +183,7 @@ For each framework, the full 12-element Engineered Success analysis.
 
 | Element | Definition |
 |---------|-----------|
-| **OBJECTIVE** | All 3 productization tracks (VoronCitadel, GovSec TIP, ChainSentry) tracked with automated gate status, deadline alerts, and weekly status feed into Cognitive Loop review |
+| **OBJECTIVE** | All 3 productization tracks (VoronCitadel, GovSec TIP, chain:SENTRY) tracked with automated gate status, deadline alerts, and weekly status feed into Cognitive Loop review |
 | **DEFINITION OF DONE** | (1) Gate tracker file maintained automatically or semi-automatically. (2) All 15 phases have status (not-started / in-progress / blocked / complete / failed). (3) Deadlines within 72h flagged automatically. (4) AIP status feeds into weekly Cognitive Loop review. (5) At least 3 gates formally passed or failed with evidence. |
 | **SUCCESS CONDITIONS** | (1) AIP status check runs before Monday review. (2) Overdue gates flagged. (3) TBH-001 escalation triggers on schedule. (4) Track A Phase A1 outcome recorded (pass/fail, not unknown). |
 | **FAILURE CONDITIONS** | (1) Gates pass/fail silently. (2) Deadlines missed without alert. (3) AIP becomes stale document. (4) TBH-001 unfilled past Sep 3 escalation. (5) Track B misses CyberDSA deadline. |

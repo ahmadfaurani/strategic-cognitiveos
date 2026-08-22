@@ -10,7 +10,7 @@ All conversation records, chronological.
 | CONV-20260724-001 | PI-OS Phase 1 Specification Session | 2026-07-24 | Telegram | DEC-20260724-001 | INIT-20260724-001 |
 | CONV-20260802-001 | PI-OS Execution Readiness & Migration Authorisation | 2026-08-02 | Telegram | DEC-20260802-001 | INIT-20260724-001 |
 | CONV-20260802-002 | Athena Review & V0.2 Rewrite | 2026-08-02 | Telegram | — | — |
-| CONV-20260804-001 | CSM Post-MoU VoronDRQ GTM Email Thread | 2026-08-04 | Email | GTM kit + database complete, training rescheduled, 7-stage sales execution proposed | INIT-20260804-001, INIT-20260725-002, INIT-20260725-003 |
+| CONV-20260804-001 | CSM Post-MoU VoronCitadel GTM Email Thread | 2026-08-04 | Email | GTM kit + database complete, training rescheduled, 7-stage sales execution proposed | INIT-20260804-001, INIT-20260725-002, INIT-20260725-003 |
 | CONV-20260804-002 | GovSec × CMERP Integration Continuation — Hadri to CSM Team | 2026-08-04 | Email | Integration continuation proposed (Aug 12/13), 3 objectives defined | INIT-20260804-002, INIT-20260725-002 |
 | CONV-20260804-003 | GovSec × TI Integration Planning — Hadri to CSM (Hafiz Rahman) | 2026-08-04 | Email | TI integration proposed (Aug 6/7/10), 6 objectives defined | INIT-20260804-003, INIT-20260725-002 |
 | CONV-20260804-004 | DAF Strategic Mobilisation Directive — 3 CSM Workstreams + CyberDSA Launch Milestone | 2026-08-04 | Email | CyberDSA Oct milestone established, internal mobilisation proposed, Senior GovSec hiring escalated to delivery-readiness | DEC-20260804-001, INIT-20260804-001, INIT-20260804-002, INIT-20260804-003 |
@@ -48,11 +48,11 @@ All conversation records, chronological.
 | CONV-20260820-003 | Azrul Responds — VoronCitadel POC for Bursa Malaysia Proposed (Gate 1 Activation) | 2026-08-20 | Email | DEC-20260820-003 — Azrul kicks off VoronCitadel POC for Bursa Malaysia; Monday 10am deep dive proposed | INIT-20260804-001 |
 | CONV-20260820-004 | DAF Reframes Monday as Pre-Flight Check — 8-Section POC Document Committed | 2026-08-20 | Email | DEC-20260820-004 — 8-section consolidated POC document; pre-flight framing; Fuad + Farul added to CC | INIT-20260804-001 |
 | CONV-20260820-005 | Fuad Technical Recommendation — Production-Grade WAF & Infrastructure Hardening for Engineering Team | 2026-08-20 | Telegram | Fuad recommends Defensia WAF (free, 94K rules) + clustering/LB + Linux hardening | INIT-20260810-003, INIT-20260804-001 |
-| CONV-20260820-006 | ChainSentry Spec v4.1 & Roadmap v2.0 — Hadri Email Thread (May–Aug 2026) | 2026-08-20 | Email | DEC-20260820-010 (chain:SENTRY rebrand + chain:HARVEST), DEC-20260820-011 (documentation drive directive) | INIT-20260811-001, INIT-20260725-002 |
+| CONV-20260820-006 | chain:SENTRY Spec v4.1 & Roadmap v2.0 — Hadri Email Thread (May–Aug 2026) | 2026-08-20 | Email | DEC-20260820-010 (chain:SENTRY rebrand + chain:HARVEST), DEC-20260820-011 (documentation drive directive) | INIT-20260811-001, INIT-20260725-002 |
 
 | CONV-20260821-001 | Weekly Operational Review Comparison Session — Ember × Athena (Aug 17–21) | 2026-08-21 | Telegram | DEC-20260821-001 through 005; dual-review convergence; merged 14-item pending register | — |
 | CONV-20260821-002 | Honcho Memory Context Sync — CognitiveOS Intake | 2026-08-21 | Telegram | None (intake event); LSN-20260821-005 (governance drift pattern extracted) | — |
 
 ---
 
-_Changelog: 2026-08-20 — Added CONV-20260820-001 (CRC 2026 sponsorship). Added CONV-20260820-002 (CSM-Aras working group). Added CONV-20260820-003 (Azrul Gate 1 / Bursa POC). Added CONV-20260820-004 (DAF pre-flight reframing + 8-section document). Added CONV-20260820-005 (Fuad production-grade WAF recommendation). Added CONV-20260820-006 (ChainSentry Spec v4.1 & Roadmap v2.0 email thread). Added 2026-08-21: CONV-20260821-001 (Weekly Operational Review Comparison — Ember × Athena), CONV-20260821-002 (Honcho Memory Context Sync — CognitiveOS Intake).
+_Changelog: 2026-08-20 — Added CONV-20260820-001 (CRC 2026 sponsorship). Added CONV-20260820-002 (CSM-Aras working group). Added CONV-20260820-003 (Azrul Gate 1 / Bursa POC). Added CONV-20260820-004 (DAF pre-flight reframing + 8-section document). Added CONV-20260820-005 (Fuad production-grade WAF recommendation). Added CONV-20260820-006 (chain:SENTRY Spec v4.1 & Roadmap v2.0 email thread). Added 2026-08-21: CONV-20260821-001 (Weekly Operational Review Comparison — Ember × Athena), CONV-20260821-002 (Honcho Memory Context Sync — CognitiveOS Intake).

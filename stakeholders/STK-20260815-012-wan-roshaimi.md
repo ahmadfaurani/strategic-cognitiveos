@@ -72,7 +72,7 @@ CyberSecurity Malaysia (CSM)
 # Strategic Relevance
 
 CSM CTO — technology decision-maker for CSM and the CSM→CSCDC transition. Relevant for:
-1. Technical evaluation of Voron products (VoronDRQ, VoronScout, Voron Citadel)
+1. Technical evaluation of Voron products (VoronCitadel, VoronScout, Voron Citadel)
 2. CSCDC infrastructure procurement (RM 485K — social listening, content studio, encrypted portal)
 3. PQC Sandbox technical architecture
 
@@ -108,7 +108,7 @@ DAF (strategic-level)
 
 # Related Initiatives
 
-- INIT-20260804-001: VoronDRQ / Voron Citadel Productisation (CSM MoU)
+- INIT-20260804-001: VoronCitadel / Voron Citadel Productisation (CSM MoU)
 
 # Related Records
 

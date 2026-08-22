@@ -53,8 +53,8 @@ The operating environment currently consists of five interconnected layers:
 
 1. **Cybersecurity Productisation and Commercialisation**
    - GovSec TIP
-   - VoronDRQ
-   - ChainSentry
+   - VoronCitadel
+   - chain:SENTRY
 
 2. **CyberDSA Market Activation**
    - Product launch
@@ -351,8 +351,8 @@ The main structural risk is portfolio fragmentation.
 Several initiatives currently compete for the same leadership, architecture and engineering attention:
 - CyberDSA
 - GovSec
-- VoronDRQ
-- ChainSentry
+- VoronCitadel
+- chain:SENTRY
 - CSM
 - R.I.S.I.K
 - PERJASA
@@ -375,8 +375,8 @@ It should be:
 
 Products:
 - GovSec TIP
-- VoronDRQ
-- ChainSentry
+- VoronCitadel
+- chain:SENTRY
 
 Primary outputs:
 - Launch readiness
@@ -438,7 +438,7 @@ When assessing the email, it should be classified using the following management
 The immediate management emphasis should be placed on seven areas.
 
 ### 12.1 Lock Product Scope
-GovSec, VoronDRQ and ChainSentry should operate under controlled scope until launch.
+GovSec, VoronCitadel and chain:SENTRY should operate under controlled scope until launch.
 
 ### 12.2 Establish CyberDSA Command Structure
 One integrated programme view covering:

@@ -1,18 +1,18 @@
-# VoronDRQ Lead Generation Outreach Information Package — CMO Review
+# VoronCitadel Lead Generation Outreach Information Package — CMO Review
 
 > **Source:** DAF email attachment (Aug 11, 2026)
 > **Prepared:** August 8, 2026
 > **Prepared by:** Faurani Jaafar, Director — Cyber Security Practice
 > **Prepared for:** Chief Marketing Officer, Aras Integrasi Sdn Bhd
 > **Status:** Approval required before activation
-> **Campaign:** VoronDRQ initial market awareness and lead generation
+> **Campaign:** VoronCitadel initial market awareness and lead generation
 > **Target portfolio:** 15 group-level buying centres
 > **Campaign period:** Three-week pilot
 
 ---
 
 CMO REVIEW PACKAGE
-VoronDRQ Lead Generation Outreach Information Package
+VoronCitadel Lead Generation Outreach Information Package
 Three-week account-based market awareness and conversion programme
 
 
@@ -20,7 +20,7 @@ Confidentiality
 This document is for internal leadership review. Prospect names, contact data and campaign performance information must remain within authorised sales and marketing systems.
 
 1. Executive Summary
-VoronDRQ should enter the market through a focused account-based outreach programme rather than a mass campaign. The current prospect database contains 193 institutional rows, but subsidiaries, products and group-level stakeholder duplication mean the real buying-centre population is materially smaller. The recommended pilot concentrates Marketing and Sales effort on 15 group-level accounts.
+VoronCitadel should enter the market through a focused account-based outreach programme rather than a mass campaign. The current prospect database contains 193 institutional rows, but subsidiaries, products and group-level stakeholder duplication mean the real buying-centre population is materially smaller. The recommended pilot concentrates Marketing and Sales effort on 15 group-level accounts.
 
 
 CMO approvals requested
@@ -36,7 +36,7 @@ Approve the pilot success targets and weekly Marketing-Sales review cadence.
 Non-negotiable guardrails
 Do not contact all seven stakeholders in an account simultaneously.
 Do not use unverified customer, certification, cost-reduction or deployment claims.
-Do not position VoronDRQ as a replacement for the entire security and GRC estate during awareness outreach.
+Do not position VoronCitadel as a replacement for the entire security and GRC estate during awareness outreach.
 Stop automated follow-ups after a substantive response and transfer the account to human-led engagement.
 Record activity against the parent buying centre, with subsidiaries mapped underneath.
 Every meeting must end with a named owner, action and date.
@@ -78,7 +78,7 @@ Call opener
 7. Week 3 Messaging - Convert Interest into Evaluation
 Purpose: move only engaged accounts into a relevant product conversation. Primary call to action: confirm a tailored briefing, demonstration or POC-scoping workshop.
 TAILORED DEMONSTRATION EMAIL
-Subject: Proposed VoronDRQ briefing for [Institution]
+Subject: Proposed VoronCitadel briefing for [Institution]
 
 EXECUTIVE SPONSOR ESCALATION
 Subject: Executive briefing: continuous technology-risk assurance
@@ -117,7 +117,7 @@ Prepared on 8 August 2026. Database-quality metrics are directional and require 
 Review item | Detail
 Prepared for | Chief Marketing Officer, Aras Integrasi Sdn Bhd
 Prepared by | Faurani Jaafar, Director - Cyber Security Practice
-Campaign | VoronDRQ initial market awareness and lead generation
+Campaign | VoronCitadel initial market awareness and lead generation
 Target portfolio | 15 group-level buying centres
 Campaign period | Three-week pilot
 Status | Approval required before activation
@@ -142,13 +142,13 @@ Segment readiness | Banks and investment banks are strongest | Pilot should lead
 
 --- TABLE ---
 Strategic recommendation
-Position VoronDRQ around continuous compliance and technology-risk assurance. Lead with a relevant operating problem, offer a readiness diagnostic in Week 2, and reserve the product demonstration for engaged accounts in Week 3.
+Position VoronCitadel around continuous compliance and technology-risk assurance. Lead with a relevant operating problem, offer a readiness diagnostic in Week 2, and reserve the product demonstration for engaged accounts in Week 3.
 --- END TABLE ---
 
 
 --- TABLE ---
 Objective | Three-week outcome
-Market awareness | Target stakeholders understand the continuous-assurance problem and VoronDRQ category position.
+Market awareness | Target stakeholders understand the continuous-assurance problem and VoronCitadel category position.
 Qualified engagement | At least five accounts accept discovery or a readiness diagnostic.
 Product evaluation | Five to six tailored demonstration commitments.
 Pipeline creation | Two to three controlled POC candidates with named sponsors and success criteria.
@@ -202,7 +202,7 @@ Week 3, Day 17-19 | Call, schedule and close-the-loop message | Account owner
 --- TABLE ---
 Dear [Name],
 Regulated organisations are investing heavily in governance, risk and compliance, yet management teams still depend on fragmented evidence, manual control mapping and periodic reporting to understand their actual technology-risk position.
-Aras Integrasi is developing VoronDRQ to address this gap: connecting regulatory requirements, controls, evidence, findings and risk reporting through a unified, AI-enabled operating model.
+Aras Integrasi is developing VoronCitadel to address this gap: connecting regulatory requirements, controls, evidence, findings and risk reporting through a unified, AI-enabled operating model.
 Our initial focus is not replacing an organisation's entire technology estate. It is helping security, risk and compliance teams establish a continuously updated and defensible view of regulatory readiness.
 Given your role at [Institution], I would value your perspective: where does your organisation experience the greatest friction today - control mapping, evidence collection, regulatory reporting or management visibility?
 If relevant, I can share our short executive brief on moving from periodic compliance to continuous assurance.
@@ -217,7 +217,7 @@ Aras Integrasi Sdn Bhd
 Dear [Name],
 I am reaching out regarding a challenge we continue to observe across regulated Malaysian organisations: compliance obligations are well understood, but the supporting controls, evidence and technology-risk findings often remain distributed across separate teams and systems.
 This makes regulatory preparation labour-intensive and limits management's ability to see whether compliance controls remain effective between assessment cycles.
-Our team is introducing VoronDRQ, an AI-native continuous compliance and technology-risk platform designed around Malaysian regulatory requirements.
+Our team is introducing VoronCitadel, an AI-native continuous compliance and technology-risk platform designed around Malaysian regulatory requirements.
 I am not approaching you with a generic product demonstration. I would first value a short exchange on how [Institution] currently manages multi-framework control mapping, evidence validation, technology-risk findings and management reporting.
 Would a 20-minute discussion next week be practical?
 Regards,
@@ -247,7 +247,7 @@ Internal Audit | Audit assurance is strongest when every control conclusion can 
 Dear [Name],
 I am following up on my earlier note regarding the transition from periodic compliance to continuous assurance.
 We are convening a focused discussion with selected security, risk and compliance leaders on three practical questions: how to map controls without duplicating effort; how current evidence and technology findings should update risk posture; and what management requires from compliance reporting.
-This is intended as a practitioner discussion rather than a product presentation. We will also share the operating model behind VoronDRQ and invite participants to challenge its assumptions.
+This is intended as a practitioner discussion rather than a product presentation. We will also share the operating model behind VoronCitadel and invite participants to challenge its assumptions.
 I would be pleased to include you or an appropriate colleague from [Institution]. Would you prefer an individual executive session or the closed-door group discussion?
 Regards,
 Faurani Jaafar
@@ -283,7 +283,7 @@ Good morning, [Name]. This is Faurani from Aras Integrasi. I sent you a short no
 
 --- TABLE ---
 Dear [Name],
-Based on the priorities discussed - particularly [confirmed issue] - I recommend a focused VoronDRQ executive briefing for [Institution].
+Based on the priorities discussed - particularly [confirmed issue] - I recommend a focused VoronCitadel executive briefing for [Institution].
 Rather than presenting the entire platform, we would configure the session around three relevant workflows: mapping [BNM RMiT / SC GTRM / ISO 27001] requirements to common controls; connecting evidence and technology findings to the risk register; and producing a current management view of control effectiveness and regulatory posture.
 The proposed 60-minute session would cover confirmed current-state challenges, a tailored workflow demonstration, architecture and data-control considerations, and agreed evaluation criteria.
 If the workflows align with your requirements, we can subsequently define a tightly scoped POC with measurable acceptance criteria.
@@ -299,7 +299,7 @@ Aras Integrasi Sdn Bhd
 Dear [Name],
 Our engagement with [team or stakeholder name] has identified an opportunity to improve how [Institution] connects compliance controls, supporting evidence and technology-risk findings.
 The management issue is straightforward: periodic compliance reporting can confirm whether an assessment was completed, but it does not always provide a current and defensible view of control effectiveness or changing exposure.
-We propose a concise executive briefing covering the current operating gap, the target continuous-assurance model, the specific VoronDRQ workflows relevant to [Institution], and a limited evaluation approach with agreed success measures.
+We propose a concise executive briefing covering the current operating gap, the target continuous-assurance model, the specific VoronCitadel workflows relevant to [Institution], and a limited evaluation approach with agreed success measures.
 May I coordinate a suitable session with your office and the relevant security, risk and compliance leaders?
 Regards,
 Faurani Jaafar
@@ -312,7 +312,7 @@ Aras Integrasi Sdn Bhd
 Dear [Name],
 I appreciate that this may not be an immediate priority for [Institution], so I will close the loop after this note.
 The reason for reaching out was our belief that regulated organisations need a more continuous connection between regulatory requirements, controls, evidence, security findings and management reporting.
-If this becomes relevant, I would be pleased to provide a short executive brief, a compliance-readiness diagnostic, a tailored VoronDRQ demonstration or a discussion on a controlled POC.
+If this becomes relevant, I would be pleased to provide a short executive brief, a compliance-readiness diagnostic, a tailored VoronCitadel demonstration or a discussion on a controlled POC.
 If another colleague owns this area, I would appreciate being directed to the appropriate person.
 Regards,
 Faurani Jaafar

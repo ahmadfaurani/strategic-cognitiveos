@@ -1,7 +1,7 @@
 ---
 id: INIT-20260813-009
 record_type: initiative
-title: VoronDRQ GTM Internal Communications Plan
+title: VoronCitadel GTM Internal Communications Plan
 created_at: 2026-08-13 00:00:00+00:00
 owner: faurani-jaafar
 status: active
@@ -26,7 +26,7 @@ mission_alignment: []
 related_records: []
 ---
 
-# VoronDRQ GTM Team Mobilisation — Internal Communications Plan
+# VoronCitadel GTM Team Mobilisation — Internal Communications Plan
 
 **Initiative:** INIT-20260808-002
 **Prepared by:** Faurani Jaafar, Director — Cyber Security Practice
@@ -37,7 +37,7 @@ related_records: []
 
 ## 1. Objective
 
-Secure COO and CMO approval for the people, tooling, and budget required to sustain the VoronDRQ market outreach programme. This plan defines who is communicated to, in what sequence, with what message, and what decision is requested at each step.
+Secure COO and CMO approval for the people, tooling, and budget required to sustain the VoronCitadel market outreach programme. This plan defines who is communicated to, in what sequence, with what message, and what decision is requested at each step.
 
 ---
 
@@ -48,7 +48,7 @@ Secure COO and CMO approval for the people, tooling, and budget required to sust
 | Kenny Kok | COO, MTAI | Resource allocation, ROI, execution risk, budget | Approve 4 hires, programme budget, CRM tooling, Legal reviewer assignment |
 | Azzatullina Pawanchik | CMO/Marketing, WIG | Campaign ownership, brand positioning, content quality, channel strategy | Commit Marketing Operations resource, accept content development ownership, confirm campaign execution model |
 | Shuhada M. Halimi | Sales | Account workload, support, lead quality, tools | Confirm she can work alongside 2 new account owners, input on CRM needs |
-| Fuad | VoronDRQ Product Owner | Product truth, demo feasibility, POC capacity | Input on POC Engineer JD, validate demo environment, confirm claims |
+| Fuad | VoronCitadel Product Owner | Product truth, demo feasibility, POC capacity | Input on POC Engineer JD, validate demo environment, confirm claims |
 | Hadri | Solutions Architect | Technical capacity, integration load | Input on POC Engineer JD, assess demo training feasibility |
 
 ---
@@ -129,7 +129,7 @@ The asks are sequenced so that each conversation builds on the previous one. Ken
 ### For Fuad (Product)
 
 **Frame:** "Product truth before external claims"
-**Key message:** Everything in the outreach material needs to match what VoronDRQ does today. I need you to validate the claims, confirm the diagnostic is deliverable, and tell me if the demo environment is ready. I'm also proposing a POC Engineer role to offload you.
+**Key message:** Everything in the outreach material needs to match what VoronCitadel does today. I need you to validate the claims, confirm the diagnostic is deliverable, and tell me if the demo environment is ready. I'm also proposing a POC Engineer role to offload you.
 **Evidence:** CMO Outreach Package, product claims list, demo requirements
 **The ask:** Product sign-off, input on POC Engineer JD, demo environment confirmation
 

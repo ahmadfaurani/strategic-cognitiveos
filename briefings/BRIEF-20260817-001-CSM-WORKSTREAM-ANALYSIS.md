@@ -32,7 +32,7 @@ CyberSecurity Malaysia (CSM) — STK-20260725-008 / ORG-20260815-002 — is a na
 | Jun 24 | CSM 12-month event calendar requested (unanswered) |
 | Jul 10 | CSM confirms Jul 29 training date (Fahdzli) |
 | Aug 3 | Training cancelled (trainer unfit); rescheduled |
-| Aug 4 | VoronDRQ GTM kit + 193-org database announced (CONV-20260804-001) |
+| Aug 4 | VoronCitadel GTM kit + 193-org database announced (CONV-20260804-001) |
 | Aug 4 | Three parallel workstreams mobilised (DEC-20260804-001) |
 | Aug 10 | SiberSUITE integration session at Menara CyberAxis (CONV-20260810-001) |
 | Aug 10 | GovSec TIP development freeze (DEC-20260810-002) |
@@ -46,7 +46,7 @@ CyberSecurity Malaysia (CSM) — STK-20260725-008 / ORG-20260815-002 — is a na
 
 ## 3. Voron Citadel Co-Development & GTM
 
-### 3.1 VoronDRQ Sales Enablement (WS1 — INIT-20260804-001)
+### 3.1 VoronCitadel Sales Enablement (WS1 — INIT-20260804-001)
 
 **Status:** ACTIVE — GTM kit complete, training delivered
 
@@ -255,11 +255,11 @@ CSM proposed Aras participate in an upcoming CSM event — showcase/sell product
 | Product | Initiative | Status | CyberDSA-Ready | Owner |
 |---------|-----------|--------|----------------|-------|
 | GovSec TIP | INIT-20260804-003 (WS3) | v3.0 frozen — hardening phase | In progress (dev freeze mitigates) | Hadri (tech), Fuad (handover) |
-| Voron Citadel / VoronDRQ | INIT-20260804-001 (WS1) | GTM kit complete — training delivered | GTM ready, demo TBD | DAF (strategic) |
+| Voron Citadel / VoronCitadel | INIT-20260804-001 (WS1) | GTM kit complete — training delivered | GTM ready, demo TBD | DAF (strategic) |
 | CMERP Integration | INIT-20260804-002 (WS2) | Technical scoping | Not yet | Hadri |
 | Cybersecurity Score Card | INIT-20260810-001 | Exploration phase | Not yet — parallel track | Joint |
 | CBOM Agent | INIT-20260810-002 | Feasibility assessment | Not yet — AI-native differentiation | Joint |
-| VoronDRQ Sales Kit | — | Complete (8 assets) | Ready | DAF |
+| VoronCitadel Sales Kit | — | Complete (8 assets) | Ready | DAF |
 | Prospect Database | — | Complete (193 orgs) | Ready | DAF |
 
 **Three co-branded products for CyberDSA (pending final definition):** Likely GovSec TIP + Voron Citadel + one additional offering (possibly Score Card or CBOM Agent if maturity allows). NACSA endorsement track active for all three.

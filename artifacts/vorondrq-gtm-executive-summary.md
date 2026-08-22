@@ -1,7 +1,7 @@
 ---
 id: INIT-20260813-008
 record_type: initiative
-title: VoronDRQ GTM Executive Summary
+title: VoronCitadel GTM Executive Summary
 created_at: 2026-08-13 00:00:00+00:00
 owner: faurani-jaafar
 status: active
@@ -28,7 +28,7 @@ mission_alignment: []
 related_records: []
 ---
 
-# VoronDRQ GTM Programme — Executive Summary for COO Approval
+# VoronCitadel GTM Programme — Executive Summary for COO Approval
 
 **Prepared by:** Faurani Jaafar, Director — Cyber Security Practice
 **Date:** 8 August 2026
@@ -39,7 +39,7 @@ related_records: []
 
 ## The Ask
 
-Approve 4 hires, CRM tooling, and programme budget to sustain the VoronDRQ Go-To-Market outreach programme targeting Malaysian financial services institutions.
+Approve 4 hires, CRM tooling, and programme budget to sustain the VoronCitadel Go-To-Market outreach programme targeting Malaysian financial services institutions.
 
 ## Why Now
 

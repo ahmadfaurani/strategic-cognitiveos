@@ -75,7 +75,7 @@ That is the positioning I would like us to work towards collectively.
 
 We already have three cybersecurity capabilities at different stages of commercial maturity:
 
-**VoronCitadel / VoronDRQ**
+**VoronCitadel / VoronCitadel**
 
 Our GRC and compliance platform, supported by the work already completed around sales enablement, the 193-organisation market database and our initial joint GTM activities with CSM.
 
@@ -83,7 +83,7 @@ Our GRC and compliance platform, supported by the work already completed around 
 
 Our sovereign Threat Intelligence Platform, incorporating threat visualisation, executive intelligence, AI-assisted analysis, threat hunting and Malaysian-focused reporting capabilities.
 
-**ChainSentry**
+**chain:SENTRY**
 
 Our blockchain security capability, which gives us an additional technology dimension within the broader CyberDSA story.
 

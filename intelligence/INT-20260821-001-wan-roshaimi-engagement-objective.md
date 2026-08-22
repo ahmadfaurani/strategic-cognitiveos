@@ -93,8 +93,8 @@ Wan Roshaimi's CTO scope (responsive, proactive, pre-emptive) maps directly to A
 | CSM CTO Scope | Aras Capability | Engagement Territory |
 |---|---|---|
 | Responsive (incident, recovery) | GovSec TIP (threat intelligence, AI-assisted analysis) | Operational cyber defence integration |
-| Proactive (assurance, readiness) | VoronDRQ/VoronCitadel (governance, risk, compliance) | Security posture, regulatory alignment |
-| Pre-Emptive (emerging threats) | ChainSentry (blockchain, emerging tech) + PQC readiness | Anticipatory defence, future-readiness |
+| Proactive (assurance, readiness) | VoronCitadel (governance, risk, compliance) | Security posture, regulatory alignment |
+| Pre-Emptive (emerging threats) | chain:SENTRY (blockchain, emerging tech) + PQC readiness | Anticipatory defence, future-readiness |
 
 If he sees Aras as the partner that integrates across all three dimensions, the relationship shifts from "co-branding for an event" to "technical partnership architecture for national capability."
 
@@ -122,7 +122,7 @@ If Wan Roshaimi validates the Aras integration architecture (GovSec as analytics
 
 CyberDSA is the catalyst, not the end state. Wan Roshaimi makes that real on the technical side. His career pattern (technical security → consulting → CIO → financial governance → international → national leadership) means he thinks in terms of **sustainable national capability**, not product purchases.
 
-His public thought-leadership themes (PQC migration, emerging threats, anticipatory defence) align with Aras's emerging technology roadmap (ChainSentry, PQC Sandbox, CBOM Agent). Over time, the relationship should produce:
+His public thought-leadership themes (PQC migration, emerging threats, anticipatory defence) align with Aras's emerging technology roadmap (chain:SENTRY, PQC Sandbox, CBOM Agent). Over time, the relationship should produce:
 
 1. **Joint technical architecture decisions** — co-designing, not just Aras proposing and CSM approving
 2. **Technical validation framework** — repeatable process for evaluating Aras capabilities within CSM/CSCDC infrastructure

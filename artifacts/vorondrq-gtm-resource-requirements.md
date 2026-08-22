@@ -1,7 +1,7 @@
 ---
 id: INIT-20260813-010
 record_type: initiative
-title: VoronDRQ GTM Resource Requirements
+title: VoronCitadel GTM Resource Requirements
 created_at: 2026-08-13 00:00:00+00:00
 owner: faurani-jaafar
 status: active
@@ -28,20 +28,20 @@ mission_alignment: []
 related_records: []
 ---
 
-# VoronDRQ Sustained Market Outreach — Resource Requirements
+# VoronCitadel Sustained Market Outreach — Resource Requirements
 
 **Prepared for:** Working Session — Marketing, Sales, Cyber Security Practice
 **Prepared by:** Faurani Jaafar, Director — Cyber Security Practice
 **Date:** 8 August 2026
 **Classification:** Confidential — Internal Leadership Review
-**Initiative:** INIT-20260804-001 — CSM × Aras VoronDRQ Joint GTM Activation
+**Initiative:** INIT-20260804-001 — CSM × Aras VoronCitadel Joint GTM Activation
 **Status:** For Review and Approval
 
 ---
 
 ## 1. Purpose
 
-This document defines the people, technical, content, and financial resources required to sustain the VoronDRQ market outreach programme from initial campaign through targeted demonstrations and POC delivery. It is intended to inform resource allocation decisions by the COO and CMO before programme activation.
+This document defines the people, technical, content, and financial resources required to sustain the VoronCitadel market outreach programme from initial campaign through targeted demonstrations and POC delivery. It is intended to inform resource allocation decisions by the COO and CMO before programme activation.
 
 The programme is structured as a sustained cycle: **Outreach → Discovery → Demonstration → POC → Commercial Conversion → Next Wave.** Each phase has distinct resource demands. Under-resourcing any phase creates a bottleneck that compounds downstream — a gap in demo capability blocks POC pipeline; a gap in POC engineering blocks commercial conversion.
 
@@ -139,9 +139,9 @@ All content assets below are required before the programme can activate. None cu
 
 | Resource | Requirement | Status | Gap |
 |----------|------------|--------|-----|
-| POC Environment | Separate, provisionable VoronDRQ instance per POC client — isolated, secure, client-accessible | Not built | **Critical** — infrastructure cost + engineering time per POC |
+| POC Environment | Separate, provisionable VoronCitadel instance per POC client — isolated, secure, client-accessible | Not built | **Critical** — infrastructure cost + engineering time per POC |
 | POC Provisioning Time | Maximum 5 business days from POC agreement to environment ready | Not established | Needs engineering capacity allocated in advance |
-| Client Access | Secure access for client team to evaluate VoronDRQ during POC period | Not designed | SSO, access controls, audit logging needed |
+| Client Access | Secure access for client team to evaluate VoronCitadel during POC period | Not designed | SSO, access controls, audit logging needed |
 | POC Duration Support | 4–6 weeks per POC with ongoing technical support | Not scoped | Engineering time across full POC lifecycle |
 
 ### 5.3 CRM & Tooling

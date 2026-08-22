@@ -463,7 +463,7 @@ Dark web intelligence serves three functions within the division:
 | Existing Workstream | Red Team Division Relationship |
 |--------------------|------------------------------|
 | **GovSec TIP** | Division feeds IOCs, threat actor data, and detection rules into GovSec. Phase 4: GovSec Red module operational. |
-| **VORON/VoronDRQ** | Division provides adversary emulation data that validates VORON compliance assessments. Purple team outputs prove detection gaps. |
+| **VORON/VoronCitadel** | Division provides adversary emulation data that validates VORON compliance assessments. Purple team outputs prove detection gaps. |
 | **Threat Intelligence** | Dark web analyst feeds into broader TI workstream. Cross-functional intelligence sharing. |
 | **Professional Services** | Division delivers red team engagements as premium PS engagements. PS engineers can shadow for skill transfer. |
 | **Blockchain Intelligence** | Division researches blockchain-based dark web marketplaces. Cross-pollination on crypto crime tracking. |

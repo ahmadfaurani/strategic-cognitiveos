@@ -253,7 +253,7 @@ Runs parallel to technical readiness. Owned by DAF (until Hadi onboarded).
 
 | Task | Description | Owner | Due | Acceptance Criteria |
 |------|-------------|-------|-----|---------------------|
-| C-01 | Define pricing model | DAF (→Hadi) | Sep 7 | Per-product pricing: VoronCitadel, GovSec, ChainSentry — at least draft |
+| C-01 | Define pricing model | DAF (→Hadi) | Sep 7 | Per-product pricing: VoronCitadel, GovSec, chain:SENTRY — at least draft |
 | C-02 | Define packaging | DAF (→Hadi) | Sep 14 | What's included in demo, what's POC scope, what's full deployment |
 | C-03 | Define post-demo conversion path | DAF (→Hadi) | Sep 14 | What happens after CyberDSA lead: follow-up process, POC terms, timeline |
 | C-04 | Prepare commercial materials | DAF + Azza | Sep 21 | One-pager, pricing sheet, POC template — ready for CyberDSA distribution |

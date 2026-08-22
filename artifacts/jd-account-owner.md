@@ -28,7 +28,7 @@ related_records: []
 
 # Job Description — Account Owner (Sales)
 
-**Role Title:** Account Owner — VoronDRQ GTM
+**Role Title:** Account Owner — VoronCitadel GTM
 **Department:** Sales / Cyber Security Practice
 **Reports To:** Shuhada M. Halimi (Sales Lead) with matrix reporting to Faurani Jaafar (Practice Director)
 **Location:** Level 30, Menara TM, KL (hybrid)

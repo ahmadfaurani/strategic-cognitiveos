@@ -65,12 +65,12 @@ Each criterion has a defined owner, checkpoint alignment, and evidence standard.
 | 1.1 | Demo scope defined and locked per product (what we show, what we don't) | Minimum | Hadri + Fuad | CP1 (Aug 22) | Signed-off demo scope document for each product |
 | 1.2 | VoronCitadel demo environment stable — zero critical bugs in demo flow paths | Minimum | Fuad | CP3 (Sep 19) | Bug-free walkthrough × 3 consecutive runs |
 | 1.3 | GovSec TIP v3.0 demo environment stable — zero critical bugs in demo flow paths | Minimum | Hadri | CP3 (Sep 19) | Bug-free walkthrough × 3 consecutive runs |
-| 1.4 | ChainSentry demo feasibility decision made (demonstrate / reference only) | Minimum | Hadri + Fuad | CP2 (Sep 5) | Go/no-go decision with rationale |
+| 1.4 | chain:SENTRY demo feasibility decision made (demonstrate / reference only) | Minimum | Hadri + Fuad | CP2 (Sep 5) | Go/no-go decision with rationale |
 | 1.5 | Demo rehearsal completed with all Tier 1 present | Minimum | DAF | CP4 (Sep 28) | Rehearsal completed, feedback incorporated |
 | 1.6 | VoronCitadel product documentation complete (6 categories: MVP Spec, Roadmap, Backlog, Commercial Readiness, Sales/GTM Materials, Governance) | Target | Fuad | CP2 (Sep 5) | Documentation repository accessible and reviewed |
 | 1.7 | GovSec TIP product documentation complete (same 6 categories) | Target | Fuad | CP3 (Sep 19) | Documentation repository accessible and reviewed |
 | 1.8 | Hadri handover documentation complete and Hadri confirms sufficient context | Target | Fuad → Hadri | CP2 (Sep 5) | Handover package delivered, Hadri sign-off |
-| 1.9 | ChainSentry product documentation complete (same 6 categories) | Stretch | Fuad | CP4 (Sep 28) | Documentation repository accessible |
+| 1.9 | chain:SENTRY product documentation complete (same 6 categories) | Stretch | Fuad | CP4 (Sep 28) | Documentation repository accessible |
 | 1.10 | All three products demonstrated live at CyberDSA without critical failure | Minimum | Hadri | Event (Oct 5–7) | Live demo execution log |
 
 ---
