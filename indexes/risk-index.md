@@ -32,6 +32,7 @@ All identified risks, grouped by status.
 | RSK-20260820-008 | Monday Aug 24 Convergence — 3 strategic tracks converging on same week | timing | INIT-20260811-001 | High | Medium | High | Active |
 | RSK-20260822-001 | Operational Follow-Through Gap — ACT-20260810-001 12 days overdue, blocks Wan Roshaimi co-branding credibility | operational | INIT-20260804-003 | High | High | Critical | Active |
 | RSK-20260822-002 | Vendor-Detection Risk — Wan Roshaimi distinguishes engineering from marketing; overclaiming triggers credibility collapse | reputational | INIT-20260804-003 | High | Critical | High | Active |
+| RSK-20260823-001 | Uncorrected TBH-001 Case Dismissed on Methodology — Strong Hire Delayed by Weak Quantitative Framing | strategic | GOV-TBH-REGISTRY-001 | Medium | High | Medium | Active |
 
 ## Mitigating
 
