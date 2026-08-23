@@ -1,9 +1,9 @@
 ---
 id: DOC-20260821-002
 record_type: document
-title: "Actionable Intelligence Protocol — Wan Roshaimi Stakeholder Engagement (v1.1 — GovSec-Primary)"
+title: "Actionable Intelligence Protocol — Wan Roshaimi Stakeholder Engagement (v1.2 — Athena-Calibrated)"
 created_at: 2026-08-21T06:48:00+00:00
-updated_at: '2026-08-21T06:59:00+00:00'
+updated_at: '2026-08-23T09:24:00+00:00'
 owner: faurani-jaafar
 status: active
 priority: critical
@@ -25,8 +25,8 @@ tags:
 source:
   type: synthesis
   reference: "Synthesis of DOC-20260821-001, INT-20260821-001, STK-20260812-001, DEC-20260821-006, ACT-20260819-006, DOC-20260819-001, INIT-20260804-003, DEC-20260810-001, CONV-20260810-001"
-summary: "Execution protocol for Wan Roshaimi engagement — UPDATED v1.1: GovSec-primary co-branding validation path. GovSec leads as the co-branding proof point (real SiberSUITE integration architecture exists). VoronCitadel and chain:SENTRY follow as secondary. Phase 0 preparation, Gate 4 meeting agenda, decision tree, and Layer 3 activation all restructured around GovSec-first sequencing."
-strategic_significance: "GovSec is the only product with live CSM technical integration (SiberSUITE telemetry, Score Card, CBOM — Aug 10 session, Menara CyberAxis). Co-branding GovSec is defensible because CSM's own assets (LebahNet, CMERP, SiberSUITE) are in the stack. Leading with GovSec gives Wan Roshaimi the technical evidence his decision lens demands. VoronCitadel (GTM kit, training delivered) and chain:SENTRY (zero CSM integration) follow once the technical partnership is established."
+summary: "Execution protocol for Wan Roshaimi engagement — UPDATED v1.2: Athena-calibrated GovSec-primary co-branding validation path. Five material corrections from Athena review (Aug 23): (1) 'jointly built' → 'integration-backed co-branding candidate' — evidentiary distinction between discussed/planned/integrated; (2) Step 0.6 split into 0.6A draft + 0.6B send post-Gate-2; (3) SiberSUITE/CBOM/Score Card classified as pre-planning discussion items, not roadmap-committed; (4) Gate 4 success defined in 3 tiers (Full/Conditional/Bounded); (5) Evidence pack must visually distinguish Implemented/In Progress/Proposed/Future Candidate. Adds: Gate 4 closure statement template, daily control metrics scorecard, 7-day execution priority, 4-part evidence package structure."
+strategic_significance: "GovSec is the only product with active CSM technical integration discussions (SiberSUITE telemetry, Score Card, CBOM — Aug 10 session, Menara CyberAxis). Co-branding GovSec is defensible because CSM's own assets (LebahNet, CMERP, SiberSUITE) are identified as integration candidates. However, evidentiary distinction must be maintained: 'discussed for integration,' 'planned for integration,' and 'technically integrated' are three different states. The safer Gate 4 formulation is: 'GovSec is the primary integration-backed CSM × Aras co-branding candidate, subject to technical substantiation and validation.' VoronCitadel (GTM kit, training delivered) and chain:SENTRY (zero CSM integration) follow once the technical partnership is established."
 mission_alignment:
   - sovereign-capability
   - csm-aras-partnership
@@ -46,32 +46,41 @@ related_records:
   - CONV-20260810-001
   - INIT-20260810-001
   - INIT-20260810-002
+  - INT-20260822-001
+  - ASSESS-20260822-001
+  - RSK-20260822-001
+  - ACT-20260822-001
 ---
 
 # Actionable Intelligence Protocol — Wan Roshaimi Stakeholder Engagement
 
 **TLP:AMBER | Aras Integrasi × CSM | CyberDSA 2026 Activation**
-**Version:** 1.1 — GovSec-Primary (DAF directive Aug 21 06:59 UTC)
-**Reference:** DOC-20260821-001 (one-pager), INT-20260821-001 (5-layer objective)
+**Version:** 1.2 — Athena-Calibrated (Aug 23, DAF directive 09:24 UTC)
+**Reference:** DOC-20260821-001 (one-pager), INT-20260821-001 (5-layer objective), INT-20260822-001 (analytical strategy)
 **Protocol owner:** DAF
 **Technical lead:** Hadri
 **Protocol status:** ACTIVE — pending Gate 0 + Gates 1-2 closure
+**v1.2 changes:** 5 material corrections from Athena review (Aug 23 09:22 UTC)
 
 ---
 
 ## Co-Branding Validation Priority
 
-**PRIMARY: GovSec TIP** — the clearest co-branding path. Real integration architecture exists.
+**PRIMARY: GovSec TIP** — the clearest co-branding path. Active CSM technical integration discussions exist.
 
-| Evidence | Status |
-|----------|--------|
-| Aug 10 integration session at Menara CyberAxis | ✅ Conducted |
-| Three collaboration areas identified (telemetry, Score Card, CBOM) | ✅ DEC-20260810-001 |
-| Architecture chain defined: SiberSUITE → Telemetry → GovSec Analytics → CBOM → Score Card | ✅ COM-20260810-001 |
-| CSM's own assets in the stack: LebahNet honeypot data, CMERP malware detection, SiberSUITE telemetry | ✅ Active data sources |
-| Hadri + Fuad assigned as technical follow-up coordinators | ✅ ACT-20260810-001 |
-| Working relationship with CSM TI team (Hafiz, Zaharudin) | ✅ Established |
-| Consolidated requirements document | ⚠️ OVERDUE — ACT-20260810-001 |
+> ⚠️ **Evidentiary Distinction (Athena correction Aug 23):** "Discussed for integration," "planned for integration," and "technically integrated" are three different states. The term "jointly built" should only be used where evidence demonstrates actual CSM technical contribution to the implemented stack. **Safer Gate 4 formulation:** "GovSec is the primary integration-backed CSM × Aras co-branding candidate, subject to technical substantiation and validation."
+
+| Evidence | Status | Evidentiary State |
+|----------|--------|-----------------|
+| Aug 10 integration session at Menara CyberAxis | ✅ Conducted | Session held |
+| Three collaboration areas identified (telemetry, Score Card, CBOM) | ✅ DEC-20260810-001 | Discussed — not yet documented |
+| Architecture chain defined: SiberSUITE → Telemetry → GovSec Analytics → CBOM → Score Card | ✅ COM-20260810-001 | Proposed — not yet diagrammed |
+| CSM's own assets in the stack: LebahNet honeypot data, CMERP malware detection, SiberSUITE telemetry | ✅ Active data sources | Discussed for integration — not technically integrated |
+| Hadri + Fuad assigned as technical follow-up coordinators | ✅ ACT-20260810-001 | Assigned — deliverable overdue |
+| Working relationship with CSM TI team (Hafiz, Zaharudin) | ✅ Established | Working relationship — not yet integration |
+| Consolidated requirements document | ⚠️ OVERDUE — ACT-20260810-001 (13 days) | Not started |
+
+> **SiberSUITE/CBOM/Score Card Classification (Athena correction Aug 23):** These items are **pre-planning discussion items / future-state roadmap candidates** pending technical and governance validation. They are NOT roadmap-committed. The Consolidated Requirements Document (ACT-20260810-001) must NOT auto-promote them to roadmap. It must: document each item, define potential integration role, identify dependencies, record responsible technical counterparts, classify as future-state candidate, and establish validation conditions for formal roadmap inclusion.
 
 **SECONDARY: VoronCitadel / VoronCitadel** — GTM kit and training delivered, but CSM technical integration story is thinner.
 
@@ -89,7 +98,13 @@ related_records:
 | CSM technical integration | ❌ None |
 | Co-branding basis | Commercial / emerging tech positioning only |
 
-**Engagement principle:** GovSec opens the door. It is the product where CSM's own technology feeds into the stack and where integration architecture is already being built with CSM's team. VoronCitadel and chain:SENTRY follow once the technical partnership is established through GovSec.
+**Engagement principle:** GovSec opens the door. It is the product where CSM's own technology is discussed for integration into the stack and where integration architecture is being explored with CSM's team. VoronCitadel and chain:SENTRY follow once the technical partnership is established through GovSec.
+
+> **Claim Discipline Rule (Athena correction):** Each product must be presented at its TRUE evidentiary level:
+> - GovSec = integration-backed co-branding candidate (discussions active, not yet technically integrated)
+> - VoronCitadel = commercial/governance partnership opportunity (not technically integrated)
+> - chain:SENTRY = emerging tech commercial proposition (no CSM integration)
+> Wan Roshaimi's vendor-detection instinct will detect inflation. Once one material claim appears exaggerated, the credibility discount extends across the entire proposition.
 
 ---
 
@@ -102,10 +117,11 @@ related_records:
 |------|--------|-------|----------------|-----------------|----------|
 | 0.1 | **Prepare GovSec technical validation brief** — SiberSUITE integration architecture, telemetry flow, CBOM/Score Card design, POC success criteria, deployment model | Hadri + Fuad | INIT-20260804-003, DEC-20260810-001, CONV-20260810-001, GovSec TIP v3.0 specs, LebahNet/CMERP data source docs | GovSec technical brief (3-4 pages) | Aug 27 |
 | 0.2 | **Prepare VoronCitadel + chain:SENTRY secondary brief** — lighter touch: GTM status, training delivered, co-branding rationale, gap to technical integration | Fuad | VoronCitadel GTM kit, chain:SENTRY spec, training records | Secondary products brief (1-2 pages) | Aug 28 |
-| 0.3 | **Prepare co-branding proposition** — GovSec as primary (jointly built), VoronCitadel + chain:SENTRY as secondary (partnership-aligned) | DAF | DEC-20260821-006, product naming convention | Co-branding proposition (1 page) | Aug 28 |
-| 0.4 | **Prepare GovSec integration evidence pack** — Aug 10 session outcomes, architecture diagram, CSM assets in stack, existing working relationship with Hafiz/Zaharudin | Hadri | CONV-20260810-001, DEC-20260810-001, COM-20260810-001 | Integration evidence pack (2 pages + architecture diagram) | Aug 28 |
+| 0.3 | **Prepare co-branding proposition** — GovSec as primary (integration-backed candidate), VoronCitadel + chain:SENTRY as secondary (partnership-aligned). Use "integration-backed co-branding candidate" NOT "jointly built" | DAF | DEC-20260821-006, product naming convention | Co-branding proposition (1 page) | Aug 28 |
+| 0.4 | **Prepare GovSec integration evidence pack** — 4-part structure: (A) Architecture system context, (B) Integration evidence per component, (C) Sovereignty treatment, (D) Current vs Future State visual distinction. MUST visually distinguish: Implemented \| In Progress \| Proposed \| Future Candidate | Hadri | CONV-20260810-001, DEC-20260810-001, COM-20260810-001 | Integration evidence pack (4-part, per Athena §13) | Aug 28 |
 | 0.5 | **Define GovSec POC success criteria** — what "validated" looks like for the primary co-branding path | Fuad | GovSec specs, SiberSUITE integration points, deployment model | POC success criteria sheet (1 page) | Aug 29 |
-| 0.6 | Prepare meeting request — frame as GovSec technical alignment + CSM × Aras co-branding discussion | DAF | Stakeholder brief, engagement strategy | Meeting request | Aug 30 |
+| 0.6A | **Draft meeting request** — frame as GovSec technical alignment + CSM × Aras co-branding discussion. Hold internally | DAF | Stakeholder brief, engagement strategy | Draft meeting request | Aug 30 |
+| 0.6B | **Send meeting request** — release only after Gates 0-2 confirmed closed | DAF | Gate 0-2 closure confirmation | Meeting request sent | Post Gate 2 |
 
 **Gate check before proceeding to Phase 1:**
 - [ ] Gate 0 (Roshdi) closed — executive authorization confirmed
@@ -136,7 +152,7 @@ related_records:
 | 1A.3 | Confirm attendees — Aras side: DAF + Hadri (mandatory), Fuad (for GovSec technical depth) | DAF | Attendee list confirmed | Sep 3 |
 | 1A.4 | Pre-read package sent 48h before — GovSec technical brief + integration evidence pack + co-branding proposition (not product brochures) | Hadri | Pre-read delivered | T-48h |
 
-**Framing rule:** This is a technical alignment session grounded in an integration architecture that already exists. The pre-read contains the GovSec × SiberSUITE integration evidence — not marketing materials. The framing is "your team is already working with ours on this; we're elevating it to co-branding."
+**Framing rule:** This is a technical alignment session grounded in integration architecture discussions that are active. The pre-read contains the GovSec × SiberSUITE integration evidence — not marketing materials. The framing is "your team is already working with ours on this; we're elevating it to co-branding." The pre-read communicates: "We are asking you to review the architecture" — NOT "We are trying to sell you three products."
 
 ### 1B — The Meeting (Sep 4–10, target Sep 5–7)
 
@@ -149,9 +165,9 @@ related_records:
 | Time | Segment | Lead | Content |
 |------|---------|------|---------|
 | 0–10 | Opening & context | DAF | National outcome framing. Why CSM × Aras. Why now. What we're asking. |
-| 10–20 | Co-branding proposition | DAF | Three products, CSM × Aras co-branding rationale. GovSec as primary — jointly built. VoronCitadel + chain:SENTRY as secondary. What we need from him. |
+| 10–20 | Co-branding proposition | DAF | Three products, CSM × Aras co-branding rationale. GovSec as primary — integration-backed candidate. VoronCitadel + chain:SENTRY as secondary. What we need from him. |
 | 20–55 | **GovSec technical architecture review** (PRIMARY — 35 min) | Hadri + Fuad | SiberSUITE → Telemetry → GovSec Analytics → CBOM → Score Card architecture. LebahNet + CMERP data sources. Integration boundaries. POC success criteria. Deployment model. What's proven, what's in progress, what needs his validation. |
-| 55–70 | **VoronCitadel + chain:SENTRY secondary review** (15 min) | Hadri | GTM kit status, training delivered (VoronCitadel). Emerging tech positioning (chain:SENTRY). Thinner CSM technical integration — flagged honestly. Co-branding basis: commercial/governance, not joint build. |
+| 55–70 | **VoronCitadel + chain:SENTRY secondary review** (15 min) | Hadri | GTM kit status, training delivered (VoronCitadel). Emerging tech positioning (chain:SENTRY). Thinner CSM technical integration — flagged honestly. Co-branding basis: commercial/governance, not technical integration. |
 | 70–80 | Integration & governance discussion | Hadri | How GovSec fits existing CSM ecosystem. Data handling for LebahNet/CMERP/SiberSUITE feeds. Assurance model. Ownership. Where VoronCitadel and chain:SENTRY could integrate if partnership deepens. |
 | 80–90 | Close — next decision | DAF | Named next step. Owner. Due date. Written recap commitment. |
 
@@ -198,6 +214,21 @@ related_records:
 - CyberDSA technical representation agreed for GovSec (minimum)
 
 **Note:** Gate 4 can close with GovSec validated and secondaries deferred. Do not hold Gate 4 open for VoronCitadel/chain:SENTRY if GovSec is validated — secondary products can be validated in a follow-up session.
+
+### Gate 4 Success Tiers (Athena §20)
+
+| Tier | Outcome | Description |
+|-----|--------|-------------|
+| **Tier 1 — Full Success** | GovSec technically validated | GovSec accepted as primary technical basis for CSM × Aras co-branding, no conditions |
+| **Tier 2 — Conditional Success** | GovSec accepted subject to named conditions | Specific technical conditions recorded, Aras addresses within 5 days, re-confirms |
+| **Tier 3 — Bounded Success** | GovSec remains credible candidate | Additional evidence or POC activity required, but GovSec is the only technically defensible co-branding candidate |
+| **Secondary products deferred** | VoronCitadel + chain:SENTRY deferred | NOT Gate 4 failure. "Prove GovSec first" = successful bounded outcome |
+
+**Gate 4 Actual Failure:** Material claims cannot be substantiated; CSM participation materially overstated; technical ownership unclear; architecture cannot be explained; sovereignty claims collapse under scrutiny; no credible remediation path agreed.
+
+### Recommended Gate 4 Closure Statement Template (Athena §21)
+
+> GovSec is accepted as the primary technical basis for CSM × Aras co-branding, subject to the specific technical conditions recorded today. VoronCitadel and chain:SENTRY remain potential future collaboration tracks and are not being represented as technically integrated CSM solutions at this stage.
 
 ---
 
@@ -261,6 +292,35 @@ related_records:
 
 ---
 
+## Daily Control Metrics Scorecard (Athena §24)
+
+Until Gate 4 closes, the activation should be managed using a daily readiness scorecard:
+
+| Metric | Target |
+|--------|--------|
+| Gates 0–2 closed | 3/3 |
+| Mandatory technical documents completed | 5/5 |
+| GovSec claimed integrations supported by evidence | 100% |
+| Unverified co-branding claims | 0 |
+| Current/future-state items clearly separated | 100% |
+| Critical technical questions without owner | 0 |
+| Gate 4 pre-read delivered | ≥48h before meeting |
+| Gate 4 closure actions assigned | 100% within meeting |
+| Written meeting recap | Within 24h |
+
+### 7-Day Execution Priority (Athena §23)
+
+| Date | Objective | Actions |
+|------|----------|--------|
+| **23–24 Aug** | Unlock the chain | Close Gate 1 (Azrul). Confirm Gate 0 action (Roshdi). Formally activate Hadri+Fuad against requirements deadline. Start GovSec brief + evidence pack. |
+| **25–27 Aug** | Establish technical ground truth | Complete consolidated requirements (ACT-20260810-001). Complete GovSec architecture brief. Separate current-state integration from future-state candidates. Resolve evidence gaps. |
+| **28–29 Aug** | Package the proposition | Gate 0 closure. Complete integration evidence pack. Complete co-branding proposition. Complete POC success criteria. Complete secondary-product brief. |
+| **30–31 Aug** | Become activation-ready | Quality review full Gate 4 package. Draft Wan Roshaimi request. Close Gate 2. Release meeting request only after Gate 0–2 closure. |
+
+> **Critical distinction (Athena §22):** Internal Phase 0 preparation begins immediately. It does NOT wait for Gate 0–2 closure. Only external activation of Wan Roshaimi waits. This preserves gate discipline without losing preparation time.
+
+---
+
 ## Monitoring & Escalation Protocol
 
 ### Weekly Status Check (DAF, every Monday)
@@ -319,7 +379,11 @@ related_records:
 7. **Layer progression is conditional** — do not skip to Layer 3 until Gate 4 closes (GovSec minimum). Do not skip to Layer 4 until at least one Phase 2A track is operational.
 8. **Gate 4 can close with GovSec only** — VoronCitadel and chain:SENTRY can be deferred. Do not hold the gate open for secondaries if GovSec is validated.
 9. **DAF owns strategic escalation** — Hadri does not escalate to CSM executives directly. Technical issues route through DAF.
-10. **Honesty about integration depth** — GovSec has real integration. VoronCitadel has GTM but not integration. chain:SENTRY has neither. Present each at its true level. Wan Roshaimi's decision lens will detect inflation.
+10. **Honesty about integration depth** — GovSec has active integration discussions. VoronCitadel has GTM but not integration. chain:SENTRY has neither. Present each at its true level. Wan Roshaimi's decision lens will detect inflation.
+11. **Evidentiary precision (Athena v1.2)** — "Discussed for integration" ≠ "planned for integration" ≠ "technically integrated." Use "integration-backed co-branding candidate" NOT "jointly built" until evidence demonstrates actual CSM technical contribution to the implemented stack.
+12. **SiberSUITE/CBOM/Score Card are pre-planning items (Athena v1.2)** — NOT roadmap-committed. The Consolidated Requirements Document must document, classify, and establish validation conditions — NOT auto-promote to roadmap.
+13. **Gate 4 is a credibility-building exercise, not persuasion (Athena §25)** — Wan Roshaimi's value is that his technical scrutiny converts an internally constructed co-branding proposition into something externally defensible. Challenges, conditions, and rejections of unsupported claims STRENGTHEN the proposition.
+14. **Internal prep does not wait for gates (Athena §22)** — Phase 0 preparation begins immediately. Only external activation of Wan Roshaimi waits for Gates 0–2. Accelerate internal preparation, not premature stakeholder activation.
 
 ---
 
@@ -331,12 +395,13 @@ related_records:
 | Technical lead | Hadri |
 | Created | Aug 21, 2026 |
 | v1.1 | Aug 21, 2026 — GovSec-primary restructuring (DAF directive 06:59 UTC) |
+| v1.2 | Aug 23, 2026 — Athena-calibrated: 5 material corrections (evidentiary precision, process conflict fix, SiberSUITE classification, Gate 4 success tiers, evidence pack 4-part structure), 4 practical additions (closure statement template, daily control metrics, 7-day execution priority, claim discipline rule) |
 | Status | ACTIVE — pending Gate 0 + Gates 1-2 |
 | Next review | Aug 30 (pre-engagement gate check) |
 | Related one-pager | DOC-20260821-001 |
-| Related intelligence | INT-20260821-001 |
-| Key source | INIT-20260804-003 (GovSec × TI Integration), DEC-20260810-001 (Aug 10 session outcomes) |
+| Related intelligence | INT-20260821-001 (5-layer objective), INT-20260822-001 (analytical strategy) |
+| Key source | INIT-20260804-003 (GovSec × TI Integration), DEC-20260810-001 (Aug 10 session outcomes), Athena review Aug 23 09:22 UTC |
 
 ---
 
-*Author: Ember | Source: DAF directives Aug 21 2026 | Classification: TLP:AMBER*
+*Author: Ember | Contributors: Athena (v1.2 calibration, Aug 23 09:22 UTC) | Source: DAF directives Aug 21+23 2026 | Classification: TLP:AMBER*
