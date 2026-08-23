@@ -31,6 +31,38 @@ Things like:
 - Default speaker: Kitchen HomePod
 ```
 
+## 🔧 Exec Discipline — Case Sensitivity (R1 Fix, 2026-08-23)
+
+**Lesson:** Linux filesystems are case-sensitive. Glob patterns must match exact case.
+
+**Rules:**
+- Use `find -iname "*pattern*"` (case-insensitive) when casing is uncertain
+- Use exact filenames when known
+- Never chain `ls` with different globs via `;` — the last failing glob sets the exit code
+- For multi-pattern searches: `find <dir> -maxdepth 1 \( -iname "*pattern1*" -o -iname "*pattern2*" \)`
+
+**Example:**
+```bash
+# ❌ Wrong: lowercase glob on UPPERCASE filenames
+ls .../governance/*cognitive* 2>/dev/null  # exit 2, no match
+
+# ✅ Correct: case-insensitive find
+find .../governance/ -maxdepth 1 -iname "*cognitive*"  # matches COGNITIVEOS-PRIME-DOCTRINE.md
+```
+
+## 🔧 Incomplete Turn Protocol (R4 Fix, 2026-08-23)
+
+When "Agent couldn't generate a response" appears:
+
+1. Check `journalctl --user -u openclaw-gateway` for the specific `runId`
+2. Verify: main session or isolated session?
+3. Check memory pressure level at that timestamp
+4. Check concurrent sessions/cron jobs active
+5. Note `stopReason` and `tools` count for pattern tracking
+6. **Never** tell the user "harmless" without completing steps 1–5
+
+**ADEP-001 §7:** Dismissing an error without investigation is a violation. "I don't know yet, let me check" is valid. "Harmless" requires evidence.
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
