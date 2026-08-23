@@ -69,11 +69,11 @@
 
 | Date | Phase | Deadline | Hours Remaining | Alert Status |
 |------|-------|----------|-----------------|--------------|
-| Aug 22 | A1 (POC Doc) | Aug 24 02:00 UTC | ~34h | 🟡 APPROACHING — confirm Fuad QC status urgently |
-| Aug 22 | CSM Aisha PIC (Decision) | Aug 22 | TODAY | 🔴 DUE NOW — confirm Aisha or escalate to Zulfeka |
-| Aug 22 | TBH-001 approach | Aug 27 | ~5 days | 🟢 OK for now |
-| Aug 22 | TBH-001 escalation | Sep 3 | ~12 days | 🟢 OK for now — 2-day mark, not yet 2-week trigger |
-| Aug 22 | C1 (Credentials) | Aug 30 | ~8 days | 🟢 OK for now |
+| Aug 23 | CSM Aisha PIC (Decision) | Aug 22 | OVERDUE (~1.5 days) | 🔴 OVERDUE — decision past due. Default action per AIP §6: escalate to Zulfeka. Status still PENDING. |
+| Aug 23 | A1 (POC Doc) | Aug 24 02:00 UTC | ~10h | 🔴 APPROACHING (CRITICAL) — <12h to deadline. Fuad QC status still UNKNOWN. If QC not complete, DAF must approve same-day. No float. |
+| Aug 23 | TBH-001 approach | Aug 27 | ~84h | 🟡 APPROACHING — within 72h window. Status UNKNOWN. Blocks A2, B4, C5. |
+| Aug 23 | TBH-001 escalation | Sep 3 | ~11 days | 🟢 OK — 3 days into 2-week clock. No escalation trigger yet. |
+| Aug 23 | C1 (Credentials) | Aug 30 | ~7 days | 🟢 OK for now — but security liability worsens daily. |
 
 ---
 
