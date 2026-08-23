@@ -44,7 +44,7 @@ strategic-cognitiveos/
 | **GitHub** | Authoritative institutional memory (this repository) |
 | **Obsidian** | Strategic knowledge graph and navigation |
 | **Notion** | Operational command layer (portfolio, actions, stakeholders) |
-| **Ember** | AI-assisted extraction, classification, synthesis |
+| **Ember** | AI-assisted process recognition, continuity, retrieval, extraction, classification and synthesis |
 
 ## Record Types
 
@@ -70,6 +70,11 @@ strategic-cognitiveos/
 ## Key Documents
 
 - [Specification (spec-v1.md)](spec-v1.md)
+- [CognitiveOS Prime Doctrine](governance/COGNITIVEOS-PRIME-DOCTRINE.md)
+- [Process-Driven Intake Doctrine](governance/PROCESS-DRIVEN-INTAKE-DOCTRINE.md)
+- [CognitiveOS Intake SOP](governance/intake-sop.md)
+- [Template Discipline SOP](governance/template-discipline-sop.md)
+- [AI Processor Instructions](AI-PROCESSOR-INSTRUCTIONS.md)
 - [Operating Principles](governance/strategic-operating-principles.md)
 - [Decision Rights](governance/decision-rights.md)
 - [Record Lifecycle](governance/record-lifecycle.md)
@@ -80,7 +85,7 @@ strategic-cognitiveos/
 ## Quick Start
 
 1. Read `spec-v1.md` for the full specification.
-2. Review `governance/` for operating rules.
+2. Review `governance/` for operating rules and canonical doctrines.
 3. Use `templates/` to create new records.
 4. Validate against `schemas/` before committing.
 5. Tag using `taxonomy/` controlled vocabulary.
