@@ -165,21 +165,22 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 
 | Workstream | Status | Next Action |
 |------------|--------|-------------|
-| GovSec TIP | Dev freeze → CyberDSA launch | Hardening + demo flow |
-| VoronCitadel/DRQ | Productisation | **Bursa Malaysia POC — 8-section doc due Aug 24** |
-| chain:SENTRY | Productisation — 6 critical gaps | Decide hardening priority (chain:SENTRY vs GovSec) by Aug 20 |
+| GovSec TIP | Dev freeze → CyberDSA launch | Gate 4 evidence pack (22-27 Aug critical path) |
+| VoronCitadel | Productisation | **Bursa POC brief Aug 24 + GTM alignment Aug 25** |
+| chain:SENTRY | Productisation — 6 critical gaps | Phase 0 hardening |
 | CSM × Aras GTM | Working group established | Sync-up week of Aug 25 (Amelia coordinating) |
-| CyberDSA 2026 | War-room | Silver sponsorship approval (Aug 22); branding team adoption (Sep 1) |
+| CyberDSA 2026 | War-room | Silver sponsorship RM50K deferred to Aug 24; branding team adoption (Sep 1) |
 | R.I.S.I.K | Collaboration Framework Agreed | Internal review (Aug 29) + alignment session (Sep 5) |
 | PERJASA Workshop | ✅ Confirmed Sep 2-3 | Logistics execution (5 downstream actions unblocked) |
 | Cohort Programme | Governance architecture built | First automated review Aug 24 (SOP-CL-001) |
 | UPM Purple Teaming | Proposal Stage | UPM proposal due Sep 11; Aras evaluation framework prep |
 | TH-RCI Watch | Active | Aug 19 remand expiry monitoring |
 | CognitiveOS | 🟡 Operational with gaps | Taxonomy expanded (43 namespaces, 0 violations). Memory infra FULLY OPERATIONAL. |
-| Memory Infrastructure | ✅ FULLY OPERATIONAL | All 4 phases complete. DoD-1 CP3 Aug 20 12:00 UTC. TEI review Aug 22. |
+| Memory Infrastructure | ✅ FULLY OPERATIONAL | All 4 phases complete. §9 DoD-1 confirmed stable 3+ days. |
 | CRC 2026 | RM5K sponsorship approved | Customised package negotiation (due Aug 28) |
+| Project Hearth | Initiative launched | Vision doc v0.1 — needs DAF's voice before external |
 
-## Action Pipeline Status (as of 2026-08-22 03:00 UTC)
+## Action Pipeline Status (as of 2026-08-23 03:00 UTC)
 
 | Metric | Value |
 |--------|-------|
@@ -187,7 +188,7 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 | Actions in draft | 83 (57.2%) — was 96+ |
 | Risks resolved | 1 |
 | Overdue | 21 — was 33 (12 rescued by SOP-AV-001) |
-| CRITICAL actions | 2 (ACT-20260820-004, -005 — VoronCitadel POC, due Aug 24) |
+| CRITICAL actions | 3 (ACT-20260820-004/-005 VoronCitadel POC due Aug 24, ACT-20260822-001 Hadri+Fuad requirements due Aug 27) |
 | PROBABLE (evidence exists, needs confirmation) | 46 — Tuesday review agenda |
 | Genuinely pending (no evidence) | 46 — needs triage |
 
@@ -234,6 +235,9 @@ _Compact index. Detailed briefs archived to `memory/` subdirectories._
 - **2026-08-21 (dreaming cycle):** 12 files reviewed, 10 promotable, 7 promoted, 3 archived. SSE Lead formalization, WIP Protocol, TBH Registry, Teras AI Platform, VoronCitadel POC Mode, "That's it" SOP v1.2, §9 DoD-1 likely passed. Pattern: doctrine validated twice (infrastructure + organizational design), organizational capacity is new bottleneck, Teras changes commercial math, Monday Aug 24 convergence is highest-probability risk, Tuesday review items 5 cycles stale (0/4 original moved).
 - **2026-08-21:** Dual-review convergence (Ember × Athena) — 14-item merged pending register, Monday sequencing agreed (POC Mon → Phase 0 Tue → CSM Thu/Fri). Co-branding decision (DEC-20260821-006) — CSM × Aras for all 3 products, Roshdi as Gate 0. Wan Roshaimi engagement protocol (DOC-20260821-001/002 v1.1 GovSec-primary) — 5-layer architecture, 4-phase protocol, 10 rules, 6 KPIs. Role boundary defined (DEC-20260821-007) — tracking not execution, 4 output commitments. SOP-AV-001 Action Register Validation Standard — 15 rules, 4 tiers, Phase 1 executed (12 corrections, 6.9%→15.9% completion). ADEP-001 institutionalised as binding (5-step modus operandi in AGENTS.md). Memory pipeline stage-matched config (Athena's principle: deriver=medium, summary=minimal, embedding=none). Naming alignment (VoronDRQ→VoronCitadel 396 reps, ChainSentry→chain:SENTRY 319 reps, 662 files 0 violations) + framework tagging (477 files, 1,397 tags). Bursa POC technical validation (17/22 confirmed, 2 CRITICAL items need Fuad confirmation). Gateway timeout fix (invalid config key + no timeout on vLLM provider). All 11 GitHub repos flipped to private (strategic-cognitiveos later made public). "That's it" trigger missed 4× (LSN-20260821-007). ACT-009 SOAR scoping overreach quarantined. ~20 commits, ~30+ records. ADEP 88%.
 - **2026-08-22 (dreaming cycle):** 17 files reviewed, 16 promotable, 9 promoted, 7 archived. Co-branding + Gate 0, Wan Roshaimi GovSec-primary protocol, Ember role boundary, SOP-AV-001, ADEP-001 binding, stage-matched config, naming alignment + framework tagging, Bursa POC validation, merged pending register + Monday sequencing. Pattern: role boundary is governing constraint, co-branding is strategic frame for all CSM-facing work, validation becoming systematic (3 mechanisms), "read before assessing" captured twice, Athena's stage-matched principle is architectural standard, §9 DoD-1 formally confirmed, Memory Dreaming cron error streak broken (2 consecutive successes).
+- **2026-08-22:** Gate 4 governing principle (DEC-20260822-001, evidence drives narrative, future-state reclassification). Session-level intake: VoronCitadel GTM Strategy Final Draft from WIG Marketing (three layers, nine initiatives, RM 175-295k, Aug-Dec 2026). Full CSM-Aras email trail ingested (May 15 → Aug 21, 14 weeks, 3 phases). DAF feedback: Layer 1 aligned, Layer 2 contested (ROI/budget ownership), Layer 3 full support. DAF's conversion model: 193 orgs → 1,300 stakeholders → 260 engaged (20%) → 78 meetings (30%) → 23 POCs (30%) → 7 sales (30%) → RM 1.176M. VoronCitadel retail RM 368k, early adopter RM 168k. Tuesday Aug 25 2:30 PM GTM alignment meeting confirmed. 11 new records, 3 updated, 6 indexes, commit `a0d4c1a`. RSK-20260822-003 (timeline compression), RSK-20260822-004 (marketing capacity gap). OPP-20260822-001 (RM 1.176M revenue projection). CSM pattern: selectively responsive (operational yes, strategic no). CSM event calendar 8 weeks unresolved, focal person 7 weeks unresolved.
+- **2026-08-22 (cont):** Project Hearth Vision Document (DOC-20260822-003, INIT-20260822-001) — sovereign cognitive infrastructure framing, 4 phases (Personal→Practice→Product→Category). Critical correction: CognitiveOS itself is still in Phase 1 — "operational and maturing," NOT "proven." Memory infra stabilized 2 days ago, ADEP 88%. Commits `3006ed4`, `7ae47f4`. GovSec 3-Layer Assessment (ASSESS-20260822-001) — Layer 1 downgraded STRONG→CONDITIONAL after DAF correction: SiberSUITE, CBOM, Cybersecurity Score Card are pre-planning discussion items, NOT committed stack components. Layer 2 CRITICAL GAP (10 missing evidence items, 8 Critical). Layer 3 STRONG. Framing: "we've identified how CSM assets could integrate" not "your team is already building with ours." RSK-20260822-001, ACT-20260822-001 (Hadri+Fuad, Aug 27, CRITICAL), LSN-20260822-001 (vendor-detection instinct). Commits `db5faa8`, `74bd9fb`. DOC-20260822-002 Gate 4 Technical Governance review — 18 sections, 11 pages, 9-state evidence classification (Implemented→Tested→Available→Validated→Designed→Proposed→Future-State→Pending→Unresolved), Integration State Matrix as central control, 8-artifact evidence package, 5-phase critical path (22-27 Aug). Governing principle: "Make the co-branding narrative precisely match the evidence." Vendor-detection insight: exclusion of future-state items STRENGTHENS the case. ESF-20260822-001 VoronCitadel GTM Engineered Success Framework — 5 DoD checkpoints (Aug 24→Nov 30), 10 engineered success conditions, 8-risk matrix with recovery paths, 60-70% overall probability. Commit `3cb9d2c`. VoronCitadel GTM Quantifiable Outcomes (ART-20260822-003) — cost RM 205-310k, funnel 300→2-3 sales, revenue RM 336-504k, ROI 1.45x to break-even, revenue lag 2-4 months. MQL cost: Layer 1 only RM 500-875/MQL, Layer 1+2 RM 2,375-4,375/MQL. Said's deck gap: no revenue terminal, no ROI. 6 TBD items for Tuesday. Funnel Reconciliation One-Pager (ART-20260822-002) — reconciled deck (300→3) × DAF model (1,300→7→RM 1.176M) into single phased funnel. Phase 1: 52 orgs→70 engaged→21 meetings→6 assessments→2 POCs→1-2 sales→RM 168-336k. 7 decisions for Tuesday. AIP-20260822-001 (5 high-leverage items), LSN-20260822-002 (read before assessing, deriver-qualified), DEC-20260822-003 (LSN mandatory deriver-qualified). Document index audit — 20/20 coverage (was 15/20), ID collision fixed (DOC-20260822-001→-003 for Project Hearth). Commit `eab7c28`.
+- **2026-08-23 (dreaming cycle):** 12 files reviewed, 12 promotable, 7 promoted, 5 archived. Project Hearth + Phase 1 correction, GovSec 3-layer + future-state reclassification, DOC-20260822-002 Gate 4 review (9-state classification, governing principle), ESF-20260822-001 VoronCitadel GTM, GTM quantifiable outcomes model, funnel reconciliation + 7 decisions, document index audit. Pattern: future-state reclassification is defining correction, 9-state evidence classification is reusable standard, ESF pattern now standard doctrine (3 instances), financial model is missing dimension in GTM, document index drift is structural risk, CognitiveOS Phase 1 correction prevents systemic overclaiming, Tuesday Aug 25 is convergence point for 3 workstreams. Memory Dreaming cron: 3 consecutive successes.
 
 ---
 
