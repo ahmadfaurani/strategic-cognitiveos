@@ -2,6 +2,17 @@
 
 All notable changes to Strategic CognitiveOS are documented here.
 
+## [1.1.0] — 2026-08-23
+
+### Added — Process-Driven Intake Operating Doctrine
+
+- Added `governance/PROCESS-DRIVEN-INTAKE-DOCTRINE.md` as canonical Ember/OpenClaw process-recognition and institutional-continuity doctrine.
+- Established bounded Process-Driven Intake detection, Honcho institutional-memory retrieval, TEI-backed semantic retrieval, authority resolution, taxonomy/process-state reconstruction, governed execution, conflict handling, bounded validation, and selective persistence.
+- Added explicit failure states for Missing Governance, Known Process — Insufficient Process State, contested authority, retrieval non-discovery, and UNVALIDATED output.
+- Distinguished episodic/state persistence from normative institutional promotion and prohibited retrieval absence from being promoted as proof of institutional absence.
+- Defined the governance boundary between the new doctrine, `GOV-INTAKE-SOP-001`, `GOV-TEMPLATE-DISCIPLINE-001`, `AI-PROCESSOR-INSTRUCTIONS.md`, and CognitiveOS Prime.
+- Updated repository navigation so the doctrine and related canonical governance documents are directly discoverable from `README.md`.
+
 ## [1.0.0] — 2026-07-25
 
 ### Added — Phase 1 Implementation Pack
