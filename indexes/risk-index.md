@@ -33,6 +33,8 @@ All identified risks, grouped by status.
 | RSK-20260822-001 | Operational Follow-Through Gap — ACT-20260810-001 12 days overdue, blocks Wan Roshaimi co-branding credibility | operational | INIT-20260804-003 | High | High | Critical | Active |
 | RSK-20260822-002 | Vendor-Detection Risk — Wan Roshaimi distinguishes engineering from marketing; overclaiming triggers credibility collapse | reputational | INIT-20260804-003 | High | Critical | High | Active |
 | RSK-20260823-001 | Uncorrected TBH-001 Case Dismissed on Methodology — Strong Hire Delayed by Weak Quantitative Framing | strategic | GOV-TBH-REGISTRY-001 | Medium | High | Medium | Active |
+| RSK-20260824-001 | Bursa 4-Month POC Timeline Compression Risk | timing | INIT-20260824-001 | Medium | High | High | Active |
+| RSK-20260824-002 | 24-Entity Federation Model Unvalidated Against Participant Reality | delivery-capacity | INIT-20260824-001 | Medium | Medium | Medium | Active |
 
 ## Mitigating
 

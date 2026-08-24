@@ -62,6 +62,8 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260822-005 | Cost-per-MQL as Marketing Accountability Metric — Budget Tied to MQL Output | 2026-08-22 | faurani-jaafar | Active | DEC-20260822-004, DEC-20260822-002, OPP-20260822-001, OPP-20260822-002 |
 | DEC-20260823-001 | Fahdzli reports directly to Zulfeka — CSM reporting line confirmed | 2026-08-23 | faurani-jaafar | Active | STK-20260804-001, STK-20260813-013, DOC-20260819-001 |
 | DEC-20260823-002 | VoronCitadel confirmed POC-ready — ACT-20260810-001 is GovSec workstream | 2026-08-23 | faurani-jaafar | Active | CONV-20260823-001, ART-20260822-003, RSK-20260822-001, LSN-20260823-004 |
+| DEC-20260824-001 | Phase 0 TPRM-First Approach for Bursa Malaysia VoronCitadel POC | 2026-08-24 | faurani-jaafar | Active | CONV-20260824-001, INIT-20260824-001 |
+| DEC-20260824-002 | 24-Entity Federation Designated as Target Operating-Model Hypothesis (NOT Committed) | 2026-08-24 | faurani-jaafar | Active | CONV-20260824-001, DEC-20260824-001 |
 
 ---
 

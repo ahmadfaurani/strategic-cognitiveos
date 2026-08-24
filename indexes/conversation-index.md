@@ -55,6 +55,7 @@ All conversation records, chronological.
 | CONV-20260822-001 | Session-Level Intake — Operational Review, Wan Roshaimi Strategy, GovSec Co-Branding Substantiation | 2026-08-22 | Telegram | INT-20260822-001, ASSESS-20260822-001, RSK-20260822-001, ACT-20260822-001, LSN-20260822-001 | INIT-20260804-003, INIT-20260822-001 |
 | CONV-20260822-002 | Session-Level Intake — VoronCitadel GTM Strategy Final Draft + Full CSM-Aras Email Trail (May 15 → Aug 21) | 2026-08-22 | Telegram | INIT-20260822-002, DEC-20260822-002, ACT-20260822-003/004/005/006, RSK-20260822-003/004, OPP-20260822-001 | INIT-20260804-001 |
 | CONV-20260823-001 | Zulfeka Working Group Strategy Session — Outcome Strategies, Pitch Design, Cognitive Loop Review | 2026-08-23 | Telegram | DEC-20260823-001/002, ASSESS-20260823-002/003, ACT-20260823-003/004/005, LSN-20260823-004/005, RSK-20260823-002 | INIT-20260804-001 |
+| CONV-20260824-001 | Bursa Malaysia VoronCitadel Sectorial POC — Meeting Outcome & Technical Summary | 2026-08-24 | Email + Meeting | DEC-20260824-001/002, ACT-20260824-001/002/003, RSK-20260824-001/002 | INIT-20260824-001, INIT-20260804-001, INIT-20260820-003 |
 
 ---
 
