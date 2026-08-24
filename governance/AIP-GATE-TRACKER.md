@@ -69,11 +69,11 @@
 
 | Date | Phase | Deadline | Hours Remaining | Alert Status |
 |------|-------|----------|-----------------|--------------|
-| Aug 23 | CSM Aisha PIC (Decision) | Aug 22 | OVERDUE (~1.5 days) | 🔴 OVERDUE — decision past due. Default action per AIP §6: escalate to Zulfeka. Status still PENDING. |
-| Aug 23 | A1 (POC Doc) | Aug 24 02:00 UTC | ~10h | 🔴 APPROACHING (CRITICAL) — <12h to deadline. Fuad QC status still UNKNOWN. If QC not complete, DAF must approve same-day. No float. |
-| Aug 23 | TBH-001 approach | Aug 27 | ~84h | 🟡 APPROACHING — within 72h window. Status UNKNOWN. Blocks A2, B4, C5. |
-| Aug 23 | TBH-001 escalation | Sep 3 | ~11 days | 🟢 OK — 3 days into 2-week clock. No escalation trigger yet. |
-| Aug 23 | C1 (Credentials) | Aug 30 | ~7 days | 🟢 OK for now — but security liability worsens daily. |
+| Aug 24 | A1 (POC Doc) | Aug 24 02:00 UTC | **OVERDUE (~14h)** | 🔴 OVERDUE — deadline passed 02:00 UTC today. Status still UNKNOWN. No evidence of Fuad QC completion or DAF approval. Critical path blocker: A2, A3, A4 all depend on A1. **DAF must confirm status immediately.** |
+| Aug 24 | CSM Aisha PIC (Decision) | Aug 22 | **OVERDUE (~2.5 days)** | 🔴 OVERDUE — decision 2.5 days past due. Status PENDING. Per AIP §6 default: escalate to Zulfeka. A2 activation blocked. |
+| Aug 24 | TBH-001 approach | Aug 27 | ~56-80h | 🟡 APPROACHING — within 72h window. Status UNKNOWN. Blocks A2 execution, B4 rehearsals, C5 scope. DAF must decide: internal secondment / external hire / contractor. |
+| Aug 24 | TBH-001 escalation | Sep 3 | ~10 days | 🟢 OK — 4 days into 2-week clock. No escalation trigger yet. |
+| Aug 24 | C1 (Credentials) | Aug 30 | ~6 days | 🟢 OK for now — but exposed keys are active security liability. Worsens daily. |
 
 ---
 
@@ -95,8 +95,8 @@
 
 | Date | Decision | Status |
 |------|----------|--------|
-| Aug 22 | CSM Aisha PIC confirmed? | 🔴 PENDING |
-| Aug 24 | VoronCitadel POC doc approved? | 🔴 PENDING (A1) |
+| Aug 22 | CSM Aisha PIC confirmed? | 🔴 OVERDUE — 2.5 days past due. Default: escalate to Zulfeka. |
+| Aug 24 | VoronCitadel POC doc approved? | 🔴 OVERDUE — 14h past deadline. No evidence of completion. |
 | Aug 27 | TBH-001 hiring approach decided? | 🔴 PENDING |
 | Aug 30 | chain:SENTRY credential rotation verified? | 🔴 PENDING (C1) |
 | Sep 1 | External security assessor engaged? | 🔴 PENDING |
