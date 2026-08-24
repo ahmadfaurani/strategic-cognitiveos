@@ -54,7 +54,10 @@ All action records, grouped by status.
 | ACT-20260823-002 | Incorporate PM/TPM Role Boundary Table into TBH-001 Job Description | DAF | 2026-08-28 | Medium | ASSESS-20260823-001, LSN-20260823-002 |
 | ACT-20260823-003 | Verify Gate 0 (Roshdi) status before Wednesday working group | DAF | 2026-08-25 | Critical | ASSESS-20260823-003, DOC-20260819-001 |
 | ACT-20260823-004 | Hadri to confirm VoronCitadel POC readiness at Wednesday working group | Hadri | 2026-08-26 | High | DEC-20260823-002, STK-20260803-007 |
-| ACT-20260823-005 | Reframe CSM ask as Aras-led, CSM-visibility — reduce Zulfeka commitment surface | DAF | 2026-08-26 | High | ASSESS-20260823-003, ART-20260823-001 |
+| ACT-20260823-005 | Reframe CSM ask as Aras-led, CSM-visibility — reduce Zulfeka commitment surface | DAF | 2026-08-26 | High |
+| ACT-20260824-005 | DAF + Azrul: Identify 3–4 participating orgs for Bursa POC Phase 0 | DAF (co: Azrul) | 2026-09-07 | Critical |
+| ACT-20260824-006 | DAF: Escalate HoE to TBH Registry | DAF | 2026-08-28 | Critical |
+| ACT-20260824-007 | DAF: Request Bursa technical contact from Azrul | DAF | 2026-08-29 | High | ASSESS-20260823-003, ART-20260823-001 |
 
 ---
 

@@ -35,6 +35,7 @@ All identified risks, grouped by status.
 | RSK-20260823-001 | Uncorrected TBH-001 Case Dismissed on Methodology — Strong Hire Delayed by Weak Quantitative Framing | strategic | GOV-TBH-REGISTRY-001 | Medium | High | Medium | Active |
 | RSK-20260824-001 | Bursa 4-Month POC Timeline Compression Risk | timing | INIT-20260824-001 | Medium | High | High | Active |
 | RSK-20260824-002 | 24-Entity Federation Model Unvalidated Against Participant Reality | delivery-capacity | INIT-20260824-001 | Medium | Medium | Medium | Active |
+| RSK-20260824-003 | Interim Ownership Concentration on DAF — 4 Concurrent Roles Without Structural Relief | operational | INIT-20260824-001 | High | High | High | Active |
 
 ## Mitigating
 

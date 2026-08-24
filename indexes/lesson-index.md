@@ -20,6 +20,7 @@ All lesson records, chronological.
 | LSN-20260823-003 | Structural Vacancy Beats Headline Numbers — Approved Operating Model Is the Strongest Justification | 2026-08-23 | strategic | high | analysis | Open |
 | LSN-20260823-004 | Product Conflation Error — Always Verify Which Product/Workstream a Risk Belongs To Before Importing as Blocker | 2026-08-23 | analytical | high | self-correction | Open |
 | LSN-20260823-005 | Reporting Line Verification — Never Assume Stakeholder Hierarchy From Incomplete Records | 2026-08-23 | stakeholder | medium | self-correction | Open |
+| LSN-20260824-001 | Documentation Infrastructure Outpacing Execution — Scaffolding Is Not Progress | 2026-08-24 | execution-discipline | medium | cognitive-loop | Open |
 
 ---
 
