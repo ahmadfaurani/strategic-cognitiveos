@@ -10,7 +10,7 @@
 
 | Phase | Gate | Owner | Deadline | Status | Evidence | Notes |
 |-------|------|-------|----------|--------|----------|-------|
-| A1 | POC Document Finalisation (Bursa Malaysia) | Athena→Fuad(QC)→DAF(approval) | Aug 24, 02:00 UTC | 🔴 UNKNOWN | None | Fuad reviewing. DAF elevated to pre-flight check. Deadline in ~60h. |
+| A1 | POC Document Finalisation (Bursa Malaysia) | Athena→Fuad(QC)→DAF(approval) | Aug 24, 02:00 UTC | ✅ PASSED | DAF approval via Telegram Aug 24 23:02 UTC. POC technical summary delivered as email (CONV-20260824-001, Aug 24 5:44 PM MYT). COM-20260820-003 fulfilled. 8-section structure: phased approach (TPRM-first), 3-4 org scope, 24-entity as hypothesis, Act 854 context, assignments to Fuad and Farul. | DAF approved. Deadline exceeded by ~21h but delivered same-day. Track A critical path unblocked. |
 | A2 | CSM Channel Activation | DAF→Amelia→Aisha | Aug 28 | ⏳ NOT STARTED | None | Depends on A1. Aisha PIC confirmation by Aug 22. |
 | A3 | Commercial Packaging | DAF+Fuad | Sep 5 | ⏳ NOT STARTED | None | Depends on A1. Pricing, POC template, SLA terms. |
 | A4 | White-Label Readiness | Fuad+DAF | Sep 15 | ⏳ NOT STARTED | None | Depends on A2. UI/UX for CSM co-brand. |
@@ -69,7 +69,7 @@
 
 | Date | Phase | Deadline | Hours Remaining | Alert Status |
 |------|-------|----------|-----------------|--------------|
-| Aug 24 | A1 (POC Doc) | Aug 24 02:00 UTC | **OVERDUE (~14h)** | 🔴 OVERDUE — deadline passed 02:00 UTC today. Status still UNKNOWN. No evidence of Fuad QC completion or DAF approval. Critical path blocker: A2, A3, A4 all depend on A1. **DAF must confirm status immediately.** |
+| Aug 24 | A1 (POC Doc) | Aug 24 02:00 UTC | **PASSED (~21h late)** | ✅ PASSED — DAF approved via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001 (technical summary email, Aug 24 5:44 PM MYT). COM-20260820-003 fulfilled. Track A critical path unblocked. |
 | Aug 24 | CSM Aisha PIC (Decision) | Aug 22 | **OVERDUE (~2.5 days)** | 🔴 OVERDUE — decision 2.5 days past due. Status PENDING. Per AIP §6 default: escalate to Zulfeka. A2 activation blocked. |
 | Aug 24 | TBH-001 approach | Aug 27 | ~56-80h | 🟡 APPROACHING — within 72h window. Status UNKNOWN. Blocks A2 execution, B4 rehearsals, C5 scope. DAF must decide: internal secondment / external hire / contractor. |
 | Aug 24 | TBH-001 escalation | Sep 3 | ~10 days | 🟢 OK — 4 days into 2-week clock. No escalation trigger yet. |
@@ -81,7 +81,7 @@
 
 | Track | Total Phases | Not Started | Unknown | In Progress | Blocked | Passed | Failed |
 |------|-------------|-------------|---------|-------------|---------|--------|--------|
-| A | 4 | 3 | 1 | 0 | 0 | 0 | 0 |
+| A | 4 | 3 | 0 | 0 | 0 | 1 | 0 |
 | B | 5 | 5 | 0 | 0 | 0 | 0 | 0 |
 | C | 5 | 4 | 1 | 0 | 0 | 0 | 0 |
 | Ops | 3 | 2 | 1 | 0 | 0 | 0 | 0 |
@@ -96,7 +96,7 @@
 | Date | Decision | Status |
 |------|----------|--------|
 | Aug 22 | CSM Aisha PIC confirmed? | 🔴 OVERDUE — 2.5 days past due. Default: escalate to Zulfeka. |
-| Aug 24 | VoronCitadel POC doc approved? | 🔴 OVERDUE — 14h past deadline. No evidence of completion. |
+| Aug 24 | VoronCitadel POC doc approved? | ✅ APPROVED — DAF via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001. |
 | Aug 27 | TBH-001 hiring approach decided? | 🔴 PENDING |
 | Aug 30 | chain:SENTRY credential rotation verified? | 🔴 PENDING (C1) |
 | Sep 1 | External security assessor engaged? | 🔴 PENDING |
