@@ -67,6 +67,7 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260825-001 | CMIWS Working Document Review Complete — 2 of 3 Documents Analyzed | 2026-08-25 | faurani-jaafar | Active | ACT-20260818-006, DOC-20260818-003/004, INT-20260818-001/002 |
 | DEC-20260825-002 | PRISM 2.0 = PRISM + R.I.S.I.K Doctrine — Internal Product Evolution, Not External Integration | 2026-08-25 | faurani-jaafar | Active | DOC-20260825-002, INT-20260825-001, INIT-20260803-002, STRAT-20260807-001 |
 | DEC-20260825-003 | RISIK-Development GitHub Repository Created — Structured Build Workspace | 2026-08-25 | faurani-jaafar | Active | DEC-20260825-002, INT-20260825-002, INIT-20260803-002 |
+| DEC-20260825-004 | PRISM URS Received — Platform Already Contracted to JPM/BKS, R.I.S.I.K Already Named in Requirements | 2026-08-25 | faurani-jaafar | Active | DOC-20260825-003, INT-20260825-003, DEC-20260825-002, ACT-20260825-008, INIT-20260803-002 |
 
 ---
 
