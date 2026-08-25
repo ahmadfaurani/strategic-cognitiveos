@@ -68,6 +68,8 @@ All action records, grouped by status.
 | ACT-20260825-004 | DAF + Hadri — Define CSM Commercial Program Manager Activation Path with Zulfeka | DAF/Hadri | 2026-08-28 | High |
 | ACT-20260825-006 | Define VoronCitadel Delivery Readiness Blueprint for Five-POC Execution | DAF | — | High |
 | ACT-20260825-007 | Capture Aug 18 R.I.S.I.K-Prism Alignment Meeting Outcomes — Verify Meeting Conducted and Document Results | DAF | 2026-08-27 | High |
+| ACT-20260825-008 | Receive PRISM URS/SRS from Farul — Technical Mapping for R.I.S.I.K Integration | Farul | 2026-09-05 | Critical |
+| ACT-20260825-009 | Provide RISIK Git Repo URL — Review Existing Codebase for Build Readiness | DAF | 2026-09-01 | High |
 
 ---
 

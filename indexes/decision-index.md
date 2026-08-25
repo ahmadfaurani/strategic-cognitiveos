@@ -64,6 +64,9 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260823-002 | VoronCitadel confirmed POC-ready — ACT-20260810-001 is GovSec workstream | 2026-08-23 | faurani-jaafar | Active | CONV-20260823-001, ART-20260822-003, RSK-20260822-001, LSN-20260823-004 |
 | DEC-20260824-001 | Phase 0 TPRM-First Approach for Bursa Malaysia VoronCitadel POC | 2026-08-24 | faurani-jaafar | Active | CONV-20260824-001, INIT-20260824-001 |
 | DEC-20260824-002 | 24-Entity Federation Designated as Target Operating-Model Hypothesis (NOT Committed) | 2026-08-24 | faurani-jaafar | Active | CONV-20260824-001, DEC-20260824-001 |
+| DEC-20260825-001 | CMIWS Working Document Review Complete — 2 of 3 Documents Analyzed | 2026-08-25 | faurani-jaafar | Active | ACT-20260818-006, DOC-20260818-003/004, INT-20260818-001/002 |
+| DEC-20260825-002 | PRISM 2.0 = PRISM + R.I.S.I.K Doctrine — Internal Product Evolution, Not External Integration | 2026-08-25 | faurani-jaafar | Active | DOC-20260825-002, INT-20260825-001, INIT-20260803-002, STRAT-20260807-001 |
+| DEC-20260825-003 | RISIK-Development GitHub Repository Created — Structured Build Workspace | 2026-08-25 | faurani-jaafar | Active | DEC-20260825-002, INT-20260825-002, INIT-20260803-002 |
 
 ---
 
