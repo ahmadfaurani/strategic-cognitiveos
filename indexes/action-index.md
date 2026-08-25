@@ -9,6 +9,10 @@ All action records, grouped by status.
 | ACT-20260819-001 | Execute Phase 2: Batch Ingest 355 CognitiveOS Records into Honcho | Ember | 2026-08-19 | High | DEC-20260819-001, OUT-20260819-001 |
 | ACT-20260819-002 | Monitor deriver throughput with Qwen3.6-27B | Ember | 2026-08-20 | Medium | DEC-20260819-003, OUT-20260819-002 |
 | ACT-20260819-003 | Engage Azrul on CyberDSA 2026 Joint Activation Framing (Gate 1 / Wave 1, P0-01/P0-02) | DAF | 2026-08-24 | High (P0-01/P0-02) | DEC-20260819-004, DEC-20260819-005, CONV-20260819-002 |
+| ACT-20260824-001 | Ahmad Fuad — Targeted Development for Bursa 4-Month POC Timeline | Ahmad Fuad | 2026-09-07 | Critical | INIT-20260824-001, DEC-20260824-001, ACT-20260825-001 |
+| ACT-20260825-001 | Ahmad Fuad — Initiate Direct Technical Engagement with Azrul on Bursa POC | Ahmad Fuad | 2026-08-28 | Critical | ACT-20260824-001, INIT-20260824-001 |
+| ACT-20260825-002 | Build Workstream-to-FTE Capacity Model and Align TBH Registry | DAF | 2026-09-30 | High | GOV-TBH-REGISTRY-001, RSK-20260820-003 |
+| ACT-20260825-005 | Amelia Nadia — Own CyberDSA Stakeholder Engagement Matrix and Activation Tracking | Amelia Nadia | 2026-08-28 initial / ongoing to CyberDSA | Critical | DEC-20260820-012, DOC-20260819-001 |
 
 ## Pending
 
@@ -35,30 +39,34 @@ All action records, grouped by status.
 | ACT-20260820-011 | Resolve chain:SENTRY address-security regression — restore or record (Phase 0, M2) | Hadri | Phase 0 (Days 0–5) | Critical |
 | ACT-20260820-012 | Reconstruct chain:SENTRY release manifest file by file (Phase 0, M3) | TBD (Delivery lead) | Phase 0 (Days 0–5) | Critical |
 | ACT-20260820-013 | Complete documentation drive — establish deadlines for all product documentation (3 products × 6 categories) | DAF | TBD | High |
-
-| ACT-20260821-001 | Retroactively Intake 9 Product Collateral Documents from Athena's Review | Ember | 2026-08-25 | Medium | CONV-20260821-001, DEC-20260821-001 |
-| ACT-20260821-002 | Verify Engineering Hiring Model Costing (RM39,656/month) Against Source | Ember | 2026-08-24 | Medium | CONV-20260821-001, DEC-20260821-003 |
-| ACT-20260821-003 | Apply WIP Protocol Ownership Decomposition to Athena's 32-Item Register | Ember | 2026-08-25 | Low | CONV-20260821-001, DEC-20260821-001 |
-| ACT-20260821-004 | Present Merged 14-Item Pending Register at Tuesday 2:30 PM Weekly Review | DAF | 2026-08-25 | High | CONV-20260821-001, DEC-20260817-001, DEC-20260821-002 |
-| ACT-20260821-007 | Define CyberDSA 2026 Demo Preparation Workstream — Demo Script, VIP Walkthrough, Booth Environment, Rehearsal Schedule | DAF/Fuad | 2026-08-28 | Critical | DOC-20260821-004, INIT-20260810-003 |
-| ACT-20260821-008 | Accelerate Hiring — Post HoE/CSE/Junior Backend Roles This Week, Shortlist by Sep 1, Interview Sep 1-5 | DAF | 2026-08-28 | Critical | DOC-20260821-004, ACT-20260820-007/008/009 |
-| ACT-20260821-009 | RECLASSIFIED: CSM SOAR Integration Timing Mismatch — Intelligence Flag (Not Execution Action) | — | — | Low | DOC-20260821-004, GOV-AIP-PROD-OPS-001 |
-| ACT-20260822-001 | Hadri + Fuad — Deliver ACT-20260810-001 Consolidated Requirements Document Before Aug 27 (ESCALATED) | DAF (assignee: Hadri) | 2026-08-27 | Critical | ACT-20260810-001, ASSESS-20260822-001, RSK-20260822-001, INIT-20260804-003 |
-| ACT-20260822-002 | Execute Gate 4 Critical Path (22-27 Aug) — Internal Technical Closure → Red Team → CSM Convergence → Evidence Pack → Pre-Read Ready | DAF (assignee: Hadri) | 2026-08-27 | Critical | DOC-20260822-002, DEC-20260822-001, ASSESS-20260822-002, RSK-20260822-001/002 |
-| ACT-20260822-003 | GTM Alignment Meeting — Tuesday Aug 25, 2:30 PM | DAF | 2026-08-25 | Critical | INIT-20260822-002, INIT-20260804-001 |
-| ACT-20260822-004 | Define GTM Funnel Metrics — MQL → Meeting → Discovery → POC → Close | Unassigned | 2026-08-25 | High | INIT-20260822-002 |
-| ACT-20260822-005 | Resolve Layer 2 Budget Ownership — Whose P&L Funds Content/Media/PR | Unassigned | 2026-08-25 | High | INIT-20260822-002 |
-| ACT-20260822-006 | Resource FTE for Partner/Ecosystem Programme | Unassigned | 2026-09-15 | High | INIT-20260822-002 |
-| ACT-20260822-007 | Prepare One-Page MQL Framework for Tuesday GTM Alignment Meeting | DAF | 2026-08-25 | High | DEC-20260822-004, DEC-20260822-005, ACT-20260822-003/004/005, INIT-20260822-002 |
-| ACT-20260823-001 | Produce Corrected TBH-001 PM Hiring Justification — Structural Argument + Corrected Quantitative Evidence | DAF | 2026-08-26 | High | ASSESS-20260823-001, GOV-TBH-REGISTRY-001 |
-| ACT-20260823-002 | Incorporate PM/TPM Role Boundary Table into TBH-001 Job Description | DAF | 2026-08-28 | Medium | ASSESS-20260823-001, LSN-20260823-002 |
-| ACT-20260823-003 | Verify Gate 0 (Roshdi) status before Wednesday working group | DAF | 2026-08-25 | Critical | ASSESS-20260823-003, DOC-20260819-001 |
-| ACT-20260823-004 | Hadri to confirm VoronCitadel POC readiness at Wednesday working group | Hadri | 2026-08-26 | High | DEC-20260823-002, STK-20260803-007 |
+| ACT-20260821-001 | Retroactively Intake 9 Product Collateral Documents from Athena's Review | Ember | 2026-08-25 | Medium |
+| ACT-20260821-002 | Verify Engineering Hiring Model Costing (RM39,656/month) Against Source | Ember | 2026-08-24 | Medium |
+| ACT-20260821-003 | Apply WIP Protocol Ownership Decomposition to Athena's 32-Item Register | Ember | 2026-08-25 | Low |
+| ACT-20260821-004 | Present Merged 14-Item Pending Register at Tuesday 2:30 PM Weekly Review | DAF | 2026-08-25 | High |
+| ACT-20260821-007 | Define CyberDSA 2026 Demo Preparation Workstream — Demo Script, VIP Walkthrough, Booth Environment, Rehearsal Schedule | DAF/Fuad | 2026-08-28 | Critical |
+| ACT-20260821-008 | Accelerate Hiring — Post HoE/CSE/Junior Backend Roles This Week, Shortlist by Sep 1, Interview Sep 1-5 | DAF | 2026-08-28 | Critical |
+| ACT-20260821-009 | RECLASSIFIED: CSM SOAR Integration Timing Mismatch — Intelligence Flag (Not Execution Action) | — | — | Low |
+| ACT-20260822-001 | Hadri + Fuad — Deliver ACT-20260810-001 Consolidated Requirements Document Before Aug 27 (ESCALATED) | DAF (assignee: Hadri) | 2026-08-27 | Critical |
+| ACT-20260822-002 | Execute Gate 4 Critical Path (22-27 Aug) — Internal Technical Closure → Red Team → CSM Convergence → Evidence Pack → Pre-Read Ready | DAF (assignee: Hadri) | 2026-08-27 | Critical |
+| ACT-20260822-003 | GTM Alignment Meeting — Tuesday Aug 25, 2:30 PM | DAF | 2026-08-25 | Critical |
+| ACT-20260822-004 | Define GTM Funnel Metrics — MQL → Meeting → Discovery → POC → Close | Unassigned | 2026-08-25 | High |
+| ACT-20260822-005 | Resolve Layer 2 Budget Ownership — Whose P&L Funds Content/Media/PR | Unassigned | 2026-08-25 | High |
+| ACT-20260822-006 | Resource FTE for Partner/Ecosystem Programme | Unassigned | 2026-09-15 | High |
+| ACT-20260822-007 | Prepare One-Page MQL Framework for Tuesday GTM Alignment Meeting | DAF | 2026-08-25 | High |
+| ACT-20260823-001 | Produce Corrected TBH-001 PM Hiring Justification — Structural Argument + Corrected Quantitative Evidence | DAF | 2026-08-26 | High |
+| ACT-20260823-002 | Incorporate PM/TPM Role Boundary Table into TBH-001 Job Description | DAF | 2026-08-28 | Medium |
+| ACT-20260823-003 | Verify Gate 0 (Roshdi) status before Wednesday working group | DAF | 2026-08-25 | Critical |
+| ACT-20260823-004 | Hadri to confirm VoronCitadel POC readiness at Wednesday working group | Hadri | 2026-08-26 | High |
 | ACT-20260823-005 | Reframe CSM ask as Aras-led, CSM-visibility — reduce Zulfeka commitment surface | DAF | 2026-08-26 | High |
+| ACT-20260824-002 | Farul — Strategic Context Review on Act 854 Federated GRC Requirements for Bursa | Farul | 2026-09-14 | High |
+| ACT-20260824-003 | Define Bursa's Federated Management View — Data Access, Tenant Isolation, Reporting Hierarchy | DAF/Hadri | 2026-09-21 | High |
+| ACT-20260824-004 | TBH-001: Coordinate Bursa POC Project Plan, Deliverable Tracking & Weekly Status Reporting | TBH-001 (interim DAF) | 2026-09-07 | High |
 | ACT-20260824-005 | DAF + Azrul: Identify 3–4 participating orgs for Bursa POC Phase 0 | DAF (co: Azrul) | 2026-09-07 | Critical |
 | ACT-20260824-006 | DAF: Escalate HoE to TBH Registry | DAF | 2026-08-28 | Critical |
-| ACT-20260824-007 | DAF: Request Bursa technical contact from Azrul | DAF | 2026-08-29 | High | ASSESS-20260823-003, ART-20260823-001 |
+| ACT-20260824-007 | DAF: Request Bursa technical contact from Azrul | DAF | 2026-08-29 | High |
+| ACT-20260825-003 | Friday Sales & ABM Alignment — DAF, Hadri and Shu Hada | DAF/Hadri | 2026-08-28 | High |
+| ACT-20260825-004 | DAF + Hadri — Define CSM Commercial Program Manager Activation Path with Zulfeka | DAF/Hadri | 2026-08-28 | High |
 
 ---
 
-_Changelog: 2026-08-20 — Added ACT-20260820-001 (CRC 2026 customised package engagement), ACT-20260820-002 (finance payment confirmation), ACT-20260820-003 (CSM-Aras working group sync-up), ACT-20260820-004 (VoronCitadel POC brief for Bursa), ACT-20260820-005 (attend Bursa POC deep dive), ACT-20260820-006 (Defensia WAF & infrastructure hardening evaluation). Added ACT-20260820-010 (rotate supplier credentials, Phase 0 M1), ACT-20260820-011 (resolve address-security regression, Phase 0 M2), ACT-20260820-012 (reconstruct release manifest, Phase 0 M3), ACT-20260820-013 (documentation drive deadlines). Added 2026-08-21: ACT-20260821-001 through 004 (retroactive collateral intake, hiring model verification, WIP decomposition, Tuesday review presentation). Added 2026-08-22: ACT-20260822-001 (escalated consolidated requirements delivery, Hadri+Fuad, Aug 27 deadline). Added ACT-20260822-002 (Gate 4 critical path execution, 5-phase, Aug 27 deadline). Added ACT-20260822-007 (prepare one-page MQL framework for Tuesday GTM alignment). Added 2026-08-23: ACT-20260823-001 (produce corrected TBH-001 hiring justification), ACT-20260823-002 (incorporate PM/TPM role boundary into JD). Added ACT-20260823-003 (verify Gate 0 Roshdi status), ACT-20260823-004 (Hadri confirm VoronCitadel POC readiness at Wednesday), ACT-20260823-005 (reframe CSM ask as Aras-led).
+_Changelog: 2026-08-20 — Added ACT-20260820-001 through 013. Added 2026-08-21 actions and 2026-08-22/23 actions per canonical records. Added 2026-08-24 Bursa actions. **2026-08-25:** ACT-20260824-001 moved to In Progress after technical alignment email and DAF/Fuad briefing; added ACT-20260825-001 (Fuad→Azrul technical engagement), ACT-20260825-002 (workstream-to-FTE/TBH capacity model through Sep 30), ACT-20260825-003 (Friday sales/ABM alignment with Hadri and Shu Hada), ACT-20260825-004 (CSM Commercial Program Manager activation path with Zulfeka), and ACT-20260825-005 (Amelia-owned CyberDSA stakeholder engagement matrix)._
