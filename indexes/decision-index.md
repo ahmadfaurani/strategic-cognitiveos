@@ -69,6 +69,7 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260825-003 | RISIK-Development GitHub Repository Created — Structured Build Workspace | 2026-08-25 | faurani-jaafar | Active | DEC-20260825-002, INT-20260825-002, INIT-20260803-002 |
 | DEC-20260825-004 | PRISM URS Received — Platform Already Contracted to JPM/BKS, R.I.S.I.K Already Named in Requirements | 2026-08-25 | faurani-jaafar | Active | DOC-20260825-003, INT-20260825-003, DEC-20260825-002, ACT-20260825-008, INIT-20260803-002 |
 | DEC-20260826-001 | PRISM SRS Received — Full Technical Architecture Revealed, R.I.S.I.K Build = Configuration + Extension | 2026-08-26 | faurani-jaafar | Active | DOC-20260826-001, INT-20260826-001, DOC-20260825-003, INT-20260825-003, DEC-20260825-004, ACT-20260825-008, INIT-20260803-002 |
+| DEC-20260826-002 | T-40 CyberDSA Countdown Anchoring — All Engineering Commitments Expressed in T-Minus Format | 2026-08-26 | faurani-jaafar | Active | INIT-20260804-002, CONV-20260826-002, COM-20260826-002 |
 
 ---
 

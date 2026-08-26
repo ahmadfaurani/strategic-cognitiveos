@@ -36,6 +36,7 @@ All identified risks, grouped by status.
 | RSK-20260824-001 | Bursa 4-Month POC Timeline Compression Risk | timing | INIT-20260824-001 | Medium | High | High | Active |
 | RSK-20260824-002 | 24-Entity Federation Model Unvalidated Against Participant Reality | delivery-capacity | INIT-20260824-001 | Medium | Medium | Medium | Active |
 | RSK-20260824-003 | Interim Ownership Concentration on DAF — 4 Concurrent Roles Without Structural Relief | operational | INIT-20260824-001 | High | High | High | Active |
+| RSK-20260826-001 | Engineering Document Closure Timeline Risk — Sequential Gate Chain May Not Complete in Time for CyberDSA | timing | INIT-20260804-002 | Medium | High | High | Active |
 
 ## Mitigating
 

@@ -69,6 +69,7 @@ All registered stakeholders, grouped by type.
 | STK-20260811-002 | Nik Sarah Naqibah | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
 | STK-20260811-003 | Jasila Jalil | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
 | STK-20260815-006 | Azirul Hazran | TBD (cc'd on CSM coordination) | Aras Integrasi | New | Role clarification |
+| STK-20260826-001 | Fattah Hafiz | Internal Technical Sign-Off Authority (GovSec × CMERP) | Aras Integrasi | New | Engineering document review and sign-off (T-minus TBD) |
 
 
 ## Partner

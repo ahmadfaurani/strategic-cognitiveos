@@ -72,6 +72,12 @@ All action records, grouped by status.
 | ACT-20260825-009 | Provide RISIK Git Repo URL — Review Existing Codebase for Build Readiness | DAF | 2026-09-01 | High |
 | ACT-20260826-001 | Hadri to Arrange MCMC Working-Level Session — Confirm Participants, Propose Date, Coordinate Logistics | Hadri | 2026-09-05 | High |
 | ACT-20260826-002 | DAF × Hadri Warm-Up Session — Agenda Review Before MCMC Workshop (Friday 11 AM) | DAF/Hadri | 2026-08-29 | Medium |
+| ACT-20260826-003 | Hadri — Own Overall Follow-Through and Coordination for GovSec × CMERP Engineering Document Closure | Hadri | T-minus (TBD) | High |
+| ACT-20260826-004 | Fuad — Provide Technical Support to Close All Outstanding Engineering Comments and Amendments | Ahmad Fuad | T-minus (TBD) | High |
+| ACT-20260826-005 | Hadri + Fuad — Provide Consolidated T-Minus ETA Commitment for Engineering Document Closure | Hadri + Fuad | Immediate | High |
+| ACT-20260826-006 | Secure Internal Technical Sign-Off from Fattah Hafiz on GovSec × CMERP Engineering Document | Hadri | T-minus (TBD) | High |
+| ACT-20260826-007 | Secure CSM Technical Validation/Sign-Off from Zaharudin on GovSec × CMERP Engineering Document | Hadri | T-minus (TBD) | High |
+| ACT-20260826-008 | Confirm Engineering Document Formally Ready as Engineering Baseline for Next CSM Technical Engagement | Hadri | T-minus (TBD) | High |
 
 ---
 
