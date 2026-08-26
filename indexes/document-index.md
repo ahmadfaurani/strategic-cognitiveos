@@ -27,6 +27,7 @@ All document records, chronological.
 | DOC-20260825-001 | 2026-08-25 | VoronCitadel Delivery Readiness Framework — Five-POC Stress Test and Bursa Sector-Leader Extension Model | faurani-jaafar | Draft | High |
 | DOC-20260825-002 | 2026-08-25 | PRISM System Overview — Architecture, AI Agent Fleet, and R.I.S.I.K Integration Mapping | faurani-jaafar | Active | High |
 | DOC-20260825-003 | 2026-08-25 | PRISM URS (JPM/BKS) — User Requirement Specification for Predictive Real-time Intelligence Sentiment Monitoring System | faurani-jaafar | Active | Critical |
+| DOC-20260826-001 | 2026-08-26 | PRISM SRS (JPM/BKS) — System Requirement Specification: Technical Architecture and R.I.S.I.K Integration Points | faurani-jaafar | Active | Critical |
 
 ---
 
