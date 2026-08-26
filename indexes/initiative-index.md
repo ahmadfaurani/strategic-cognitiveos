@@ -50,6 +50,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260813-010 | VoronCitadel GTM Resource Requirements | faurani-jaafar | Active | Framed | — |
 | INIT-20260820-001 | CRC 2026 — Aras Integrasi Sponsored Participation | DAF | Active | Framed — RM5K sponsorship approved; customised package negotiation pending (T-12 days) | 2026-08-28 |
 | INIT-20260822-002 | VoronCitadel GTM Strategy Execution — Category Education → Pipeline Conversion | faurani-jaafar | Active | Framed — GTM deck received, DAF feedback given, Tuesday Aug 25 meeting | 2026-08-25 |
+| INIT-20260826-001 | MCMC Sovereign Social Media AI Driven Capability Development | faurani-jaafar | Active | Framed — email directive sent, Hadri coordinating session | 2026-09-05 |
 
 ## Watch List
 

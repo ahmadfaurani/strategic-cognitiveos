@@ -57,6 +57,7 @@ All conversation records, chronological.
 | CONV-20260823-001 | Zulfeka Working Group Strategy Session — Outcome Strategies, Pitch Design, Cognitive Loop Review | 2026-08-23 | Telegram | DEC-20260823-001/002, ASSESS-20260823-002/003, ACT-20260823-003/004/005, LSN-20260823-004/005, RSK-20260823-002 | INIT-20260804-001 |
 | CONV-20260824-001 | Bursa Malaysia VoronCitadel Sectorial POC — Meeting Outcome & Technical Summary | 2026-08-24 | Email + Meeting | DEC-20260824-001/002, ACT-20260824-001/002/003, RSK-20260824-001/002 | INIT-20260824-001, INIT-20260804-001, INIT-20260820-003 |
 | CONV-20260818-006 | R.I.S.I.K Framework Integration With Prism (Prism 2.0) — DAF ↔ Prof. Suhaimee Email Thread (Aug 16-17) | 2026-08-17 | Email | DEC-20260818-012 | INIT-20260803-002 |
+| CONV-20260826-001 | MCMC Sovereign Social Media AI Capability Development — DAF Directs Hadri to Arrange Working Session | 2026-08-26 | Email | None (directive email) | INIT-20260826-001 |
 
 ---
 

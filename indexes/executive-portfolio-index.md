@@ -38,6 +38,7 @@ All active initiatives, classified by portfolio tier. Updated 2026-08-02 with PI
 | INIT-20260810-001 | Cybersecurity Score Card Framework (CNII Sector Scoring) | faurani-jaafar | Active — Framed | Framework exploration document | 2026-08-17 |
 | INIT-20260810-002 | CBOM Agent — AI-Enabled Cyber Component Analysis | faurani-jaafar | Active — Framed | Feasibility assessment | 2026-08-17 |
 | INIT-20260813-001 | PERJASA × Aras Government AI Co-Design Lab (JDN Track) | faurani-jaafar | Active — Framed | Full execution email sent; awaiting PERJASA review + date confirmation | 2026-08-27 |
+| INIT-20260826-001 | MCMC Sovereign Social Media AI Driven Capability Development | faurani-jaafar | Active — Framed | Email directive sent to Hadri; session coordination initiated | 2026-09-05 |
 | INIT-20260813-002 | CSM AI Instance / Token Allocation — Intelligence Platform Development | faurani-jaafar | Active — Framed | CSM formally requested AI instance access (Aug 13); endpoint + models identified | 2026-08-21 |
 | INIT-20260813-003 | CSM–Aras Sovereign AI PaaS Commercial Model | faurani-jaafar | Active — Framed | 4-layer PaaS architecture proposed; RM688k first-year envelope discussed | 2026-09-01 |
 | INIT-20260813-004 | UPM × CSM × Aras — Autonomous AI Cybersecurity (Purple Teaming) | faurani-jaafar | Active — Conceptual | Tripartite proposed; UPM validation checklist required before positioning | 2026-08-31 |
