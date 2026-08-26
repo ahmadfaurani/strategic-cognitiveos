@@ -383,6 +383,60 @@ python3 benchmark_scraper.py
 
 ---
 
+## 🔧 Memory Threshold Patch — Reapply After OpenClaw Updates
+
+**Date:** Aug 26, 2026
+**Reason:** Default RSS warning threshold was 1.5 GiB — too low for 188 GB server, caused 126 warnings/day noise
+**Patched to:** Warning 6 GB, Critical 8 GB
+
+### What to Patch
+
+**File:** `~/.npm-global/lib/node_modules/openclaw/dist/diagnostic-DhwkYT4X.js`
+
+**Find (line ~138):**
+```js
+const DEFAULT_RSS_WARNING_BYTES = 1536 * MB;
+const DEFAULT_RSS_CRITICAL_BYTES = 3072 * MB;
+```
+
+**Replace with:**
+```js
+const DEFAULT_RSS_WARNING_BYTES = 6144 * MB;
+const DEFAULT_RSS_CRITICAL_BYTES = 8192 * MB;
+```
+
+### Reapply After Update
+
+```bash
+# After npm update openclaw, reapply the patch:
+sed -i 's/const DEFAULT_RSS_WARNING_BYTES = 1536 \* MB;/const DEFAULT_RSS_WARNING_BYTES = 6144 * MB;/' ~/.npm-global/lib/node_modules/openclaw/dist/diagnostic-DhwkYT4X.js
+sed -i 's/const DEFAULT_RSS_CRITICAL_BYTES = 3072 \* MB;/const DEFAULT_RSS_CRITICAL_BYTES = 8192 * MB;/' ~/.npm-global/lib/node_modules/openclaw/dist/diagnostic-DhwkYT4X.js
+
+# Verify:
+grep -n 'DEFAULT_RSS_WARNING_BYTES\|DEFAULT_RSS_CRITICAL_BYTES' ~/.npm-global/lib/node_modules/openclaw/dist/diagnostic-DhwkYT4X.js | head -2
+
+# Restart gateway:
+openclaw gateway restart
+```
+
+### Validation
+
+After restart, confirm 0 memory pressure warnings:
+```bash
+journalctl --user -u openclaw-gateway --since "<restart time>" --no-pager 2>&1 | grep -c "memory pressure"
+# Should return 0
+```
+
+### Notes
+
+- This is a source patch in the OpenClaw dist directory — NOT a config file. It WILL be overwritten on `npm update openclaw`.
+- The `resolveThresholds()` function accepts overrides but the diagnostics config schema doesn't expose `rssWarningBytes` as a user-configurable field.
+- No env var override exists (`OPENCLAW_*_THRESHOLD` not implemented).
+- If OpenClaw adds a config-based threshold in a future version, switch to that instead of patching source.
+- File name may change between versions (`diagnostic-DhwkYT4X.js` is the hash-suffixed name for 2026.7.1-2). Use `grep -rl 'DEFAULT_RSS_WARNING_BYTES' ~/.npm-global/lib/node_modules/openclaw/dist/` to find the correct file if the name changes.
+
+---
+
 ## Related
 
 - [Agent workspace](/concepts/agent-workspace)
