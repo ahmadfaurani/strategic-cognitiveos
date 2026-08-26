@@ -66,16 +66,17 @@
 ## Deadline Alert Register
 
 **Checked daily. Flags within 72h of deadline.**
-**Last checked:** 2026-08-25 15:48 UTC
+**Last checked:** 2026-08-26 15:48 UTC
 
 | Date | Phase | Deadline | Hours Remaining | Alert Status |
 |------|-------|----------|-----------------|--------------|
-| Aug 25 | A1 (POC Doc) | Aug 24 02:00 UTC | **PASSED (~21h late)** | ✅ PASSED — DAF approved via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001 (technical summary email, Aug 24 5:44 PM MYT). COM-20260820-003 fulfilled. Track A critical path unblocked. |
-| Aug 25 | CSM Aisha PIC (Decision) | Aug 22 | **OVERDUE (~3.5 days)** | 🔴 OVERDUE — decision 3.5 days past due. Status PENDING. Per AIP §6 default: escalate to Zulfeka. A2 activation blocked. **ACTION NEEDED: Escalate to Zulfeka immediately.** |
-| Aug 25 | A2 (CSM Channel Activation) | Aug 28 | ~60h | 🟡 APPROACHING — within 72h window. Depends on Aisha PIC confirmation (OVERDUE). Sync-up week of Aug 25 target at risk. |
-| Aug 25 | TBH-001 approach | Aug 27 | ~36h | 🟡 APPROACHING — within 72h window. Status UNKNOWN. Blocks A2 execution, B4 rehearsals, C5 scope. DAF must decide: internal secondment / external hire / contractor. **ACTION NEEDED: DAF decision by Aug 27.** |
-| Aug 25 | TBH-001 escalation | Sep 3 | ~9 days | 🟢 OK — 5 days into 2-week clock. No escalation trigger yet. Clock started Aug 20. Escalation date Sep 3 if still blocking CRITICAL without workaround. |
-| Aug 25 | C1 (Credentials) | Aug 30 | ~4 days (96h) | 🟢 OK — outside 72h window but exposed keys are active security liability. Worsens daily. Monitor closely. |
+| Aug 26 | A1 (POC Doc) | Aug 24 02:00 UTC | **PASSED (~21h late)** | ✅ PASSED — DAF approved via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001 (technical summary email, Aug 24 5:44 PM MYT). COM-20260820-003 fulfilled. Track A critical path unblocked. |
+| Aug 26 | CSM Aisha PIC (Decision) | Aug 22 | **OVERDUE (~4.5 days)** | 🔴 OVERDUE — decision 4.5 days past due. Status PENDING. Per AIP §6 default: escalate to Zulfeka. A2 activation blocked. **ACTION NEEDED: Escalate to Zulfeka immediately — 4.5 days overdue, compound delay on A2.** |
+| Aug 26 | TBH-001 approach | Aug 27 | **~12h** | 🔴 APPROACHING (URGENT) — within 72h window, <1 day remaining. Status UNKNOWN. Blocks A2 execution, B4 rehearsals, C5 scope. DAF must decide: internal secondment / external hire / contractor. **ACTION NEEDED: DAF decision required TODAY. Default if no decision: contractor (fastest path to interim).** |
+| Aug 26 | A2 (CSM Channel Activation) | Aug 28 | ~36h | 🟡 APPROACHING — within 72h window. Depends on Aisha PIC confirmation (OVERDUE 4.5 days). Sync-up week of Aug 25 target at risk. Cannot proceed until CSM PIC resolved. |
+| Aug 26 | C1 (Credentials) | Aug 30 | ~84h | 🟡 APPROACHING — just outside 72h window but exposed keys are active security liability. Worsens daily. Non-negotiable per AIP §3 Track C. **Monitor closely — enters 72h window tomorrow.** |
+| Aug 26 | TBH-001 escalation | Sep 3 | ~8 days | 🟢 OK — 6 days into 2-week clock. No escalation trigger yet. Clock started Aug 20. Escalation date Sep 3 if still blocking CRITICAL without workaround. |
+| Aug 26 | External security assessor | Sep 1 | ~6 days | 🟢 OK — outside 72h window. Engage assessor for GovSec TIP pen test (B1 gate). |
 
 ---
 
@@ -97,12 +98,12 @@
 
 | Date | Decision | Status |
 |------|----------|--------|
-| Aug 22 | CSM Aisha PIC confirmed? | 🔴 OVERDUE — 3.5 days past due. Default: escalate to Zulfeka. **URGENT.** |
+| Aug 22 | CSM Aisha PIC confirmed? | 🔴 OVERDUE — 4.5 days past due. Default: escalate to Zulfeka. **URGENT — compound delay on A2.** |
 | Aug 24 | VoronCitadel POC doc approved? | ✅ APPROVED — DAF via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001. |
-| Aug 27 | TBH-001 hiring approach decided? | 🟡 APPROACHING — ~36h remaining. DAF decision needed. |
-| Aug 30 | chain:SENTRY credential rotation verified? | 🔴 PENDING (C1) |
+| Aug 27 | TBH-001 hiring approach decided? | 🔴 APPROACHING (URGENT) — ~12h remaining. DAF decision required TODAY. Default: contractor. |
+| Aug 30 | chain:SENTRY credential rotation verified? | 🟡 APPROACHING — ~84h remaining. Enters 72h window tomorrow. C1 gate. |
 | Sep 1 | External security assessor engaged? | 🔴 PENDING |
-| Sep 3 | TBH-001 escalation trigger? | 🔴 PENDING |
+| Sep 3 | TBH-001 escalation trigger? | 🟢 OK — 6/14 days elapsed. No trigger yet. |
 | Sep 15 | Second engineer assessment? | 🔴 PENDING |
 | Sep 30 | chain:SENTRY pilot scope approved? | 🔴 PENDING |
 | Oct 8 | CyberDSA demo content frozen? | 🔴 PENDING |
