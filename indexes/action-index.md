@@ -81,6 +81,11 @@ All action records, grouped by status.
 | ACT-20260827-001 | Map RSWG 9 Control Domains to VoronCitadel Capability Matrix | DAF + Fuad | 2026-08-29 | Critical |
 | ACT-20260827-002 | Update Bursa POC Document to Include Explicit RSWG Alignment Section | DAF | 2026-08-30 | Critical |
 | ACT-20260827-003 | Extend Capability Mapping to Include ITSS 12 Domains — Unified ITSS × RSWG × VoronCitadel Matrix | DAF + Fuad | 2026-08-29 | Critical |
+| ACT-20260827-004 | Fuad — Complete Engineering Comment Closure by T-35 (Aug 31) | Ahmad Fuad | 2026-08-31 (T-35) | High |
+| ACT-20260827-005 | Hadri — Consolidate Final Document, Send to Fuad for Confirmation by T-35 (Aug 31) | Hadri | 2026-08-31 (T-35) | High |
+| ACT-20260827-006 | Fuad — Confirm Document Technically Complete by T-34 (Sep 2) | Ahmad Fuad | 2026-09-02 (T-34) | High |
+| ACT-20260827-007 | Hadri — Secure Tuan Fatah (Fattah Hafiz) Internal Technical Sign-Off by T-33 (Sep 3) | Hadri | 2026-09-03 (T-33) | Critical |
+| ACT-20260827-008 | DAF — Own CSM Technical Validation Track via Hafiz Rahman (SiberSUITE) → Zaharudin by T-30 (Sep 5) | DAF | 2026-09-05 (T-30) | High |
 
 ---
 

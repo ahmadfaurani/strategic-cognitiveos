@@ -69,7 +69,7 @@ All registered stakeholders, grouped by type.
 | STK-20260811-002 | Nik Sarah Naqibah | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
 | STK-20260811-003 | Jasila Jalil | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
 | STK-20260815-006 | Azirul Hazran | TBD (cc'd on CSM coordination) | Aras Integrasi | New | Role clarification |
-| STK-20260826-001 | Fattah Hafiz | Internal Technical Sign-Off Authority (GovSec × CMERP) | Aras Integrasi | New | Engineering document review and sign-off (T-minus TBD) |
+| STK-20260826-001 | Fattah Hafiz | Internal Technical Sign-Off Authority (GovSec × CMERP) | Aras Integrasi | Active | Engineering document sign-off (T-33, Sep 3) |
 
 
 ## Partner
@@ -91,6 +91,7 @@ All registered stakeholders, grouped by type.
 | STK-20260815-005 | Muhamad Danish | TBD | WIG | New | Role clarification |
 | STK-20260820-001 | Dr. Ji-Jian Chin | University of Plymouth / CRC 2026 Organising Committee | New | Customised participation package discussion |
 | STK-20260820-002 | Orange Ng | WIG | New | Finance payment confirmation |
+| STK-20260827-001 | Hafiz Rahman | CSM Technical Validation Authority (SiberSUITE, reports to Zaharudin) | CyberSecurity Malaysia | New | CSM technical validation (T-32, Sep 4) |
 
 ## Intelligence Subjects (OSINT — no direct engagement)
 

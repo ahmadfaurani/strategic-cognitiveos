@@ -19,7 +19,8 @@ All outstanding commitments, grouped by status.
 | COM-20260820-001 | RM5K CRC 2026 Sponsorship Payment — Finance Processing | Hadri | CRC 2026 Organising Committee (via Orange Ng) | 2026-08-29 | Active | Low |
 | COM-20260820-002 | Zulfeka to Check Schedule & Coordinate Working Group Sync-Up via Aishah | Zulfeka | DAF / Aras Integrasi | 2026-08-27 | Active | Low |
 | COM-20260820-003 | DAF Commits to Prepare 8-Section Consolidated POC Document for Monday Pre-Flight Check | DAF | Azrul / CSM | 2026-08-24 | Completed | Medium |
-| COM-20260826-002 | Hadri + Fuad — Firm Committed T-Minus ETA for Final Engineering Document Closure and Sign-Off | Hadri + Fuad | DAF | T-minus (TBD) | Active | High |
+| COM-20260826-002 | Hadri + Fuad — Firm Committed T-Minus ETA for Final Engineering Document Closure and Sign-Off | Hadri + Fuad | DAF | 2026-09-05 (T-30) | Fulfilled | High |
+| COM-20260827-001 | Hadri Commits T-30 (Sep 5) for GovSec × CMERP Engineering Document Closure with 5-Step Gate Chain | Hadri | DAF | 2026-09-05 (T-30) | Active | High |
 
 ## Overdue
 
