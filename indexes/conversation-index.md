@@ -60,6 +60,7 @@ All conversation records, chronological.
 | CONV-20260826-001 | MCMC Sovereign Social Media AI Capability Development — DAF Directs Hadri to Arrange Working Session | 2026-08-26 | Email | None (directive email) | INIT-20260826-001 |
 | CONV-20260826-002 | GovSec × CMERP Integration — T-40 CyberDSA Engineering Document Closure Directive (Aug 4 → Aug 26) | 2026-08-26 | Email | DEC-20260826-002 | INIT-20260804-002 |
 | CONV-20260827-001 | Hadri's T-30 Closure Commitment — GovSec × CMERP Engineering Document Sign-Off Chain (Aug 27) | 2026-08-27 | Email | T-30 (Sep 5) committed; 5-step gate chain; CSM validation separated to DAF track | INIT-20260804-002 |
+| CONV-20260827-002 | DAF V1.1 Framework Distribution to Hadri/Amelia — Gate Status: Gates 1-2 DONE, Gates 3-4 Pending | 2026-08-27 | Email | Gate 1 (Azrul) + Gate 2 (Zulfeka) COMPLETED; Gates 3-4 pending; T-30 target | INIT-20260813-006, DOC-20260827-003 |
 
 ---
 
