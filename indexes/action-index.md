@@ -89,6 +89,8 @@ All action records, grouped by status.
 | ACT-20260827-009 | Update Stakeholder Gate Assignments to V1.1 Dependency Chain | DAF | 2026-08-28 | High |
 | ACT-20260828-001 | Azrul (CSM) — Review NDA Framework and Provide Views on 4 Critical IP Provisions | Azrul Nazim | 2026-09-04 (T-31) | High |
 | ACT-20260828-002 | Joint Legal Review — Convert NDA Framework into Formal Agreement | DAF + Azrul | Pre-CyberDSA (Oct 5) | High |
+| ACT-20260828-003 | Aravind (MCMC) to Provide Telemetry Data Schema and Data Structure Visibility | Aravind | TBD (no explicit deadline) | High |
+| ACT-20260828-004 | Coordinate and Schedule MCMC AI Capability Development Workshop | DAF + Hadri + Aravind | ~Sep 18 (2-3 weeks) | High |
 
 ---
 

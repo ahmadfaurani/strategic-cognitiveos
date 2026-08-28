@@ -21,6 +21,7 @@ All outstanding commitments, grouped by status.
 | COM-20260820-003 | DAF Commits to Prepare 8-Section Consolidated POC Document for Monday Pre-Flight Check | DAF | Azrul / CSM | 2026-08-24 | Completed | Medium |
 | COM-20260826-002 | Hadri + Fuad — Firm Committed T-Minus ETA for Final Engineering Document Closure and Sign-Off | Hadri + Fuad | DAF | 2026-09-05 (T-30) | Fulfilled | High |
 | COM-20260828-001 | DAF commits to align on NDA principles at working level before routing to legal teams | faurani-jaafar | STK-20260813-008 (Azrul / CSM) | 2026-09-04 | Active | Low |
+| COM-20260828-002 | DAF commits to building upon and enhancing MCMC's existing capability, not duplicating | faurani-jaafar | STK-20260828-001 (Aravind / MCMC) | Ongoing (standing) | Active | Low |
 | COM-20260827-001 | Hadri Commits T-30 (Sep 5) for GovSec × CMERP Engineering Document Closure with 5-Step Gate Chain | Hadri | DAF | 2026-09-05 (T-30) | Active | High |
 
 ## Overdue
