@@ -90,7 +90,7 @@ This role exists to take project execution coordination off DAF's plate and embe
 
 - **CSM × Aras:** MOU signed. Co-branding confirmed (DEC-20260821-006) for all 3 products. GovSec primary proof point. 7-stakeholder chain: Roshdi → Azrul → Zulfeka → Bala → Wan Roshaimi → Zaharudin → Dr. Megat
 - **Bursa Malaysia:** VoronCitadel POC anchored on ITSS §10 Supplier Management (existing binding law, Directive 5.05-001). RSWG §2.6 TSP Oversight = forward enhancement path. NDA Framework sent to Azrul Aug 28 (4 IP provisions under review, due Sep 4)
-- **Teras AI Platform:** Farul's 5-layer platform. VoronCitadel deploys ON Teras. POC timeline 2-3 weeks (was 2-3 months)
+- **Teras AI Platform:** Farul's 5-layer internal infrastructure layer. VoronCitadel deploys ON Teras. POC timeline 2-3 weeks (was 2-3 months)
 
 ---
 
