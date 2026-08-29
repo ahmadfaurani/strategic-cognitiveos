@@ -145,8 +145,9 @@ Current state:
 4. Set weekly check-in cadence (Monday, aligned with Cognitive Loop review) until HoE is in seat
 
 **Owner:** DAF
-**Deadline:** Hiring path decision by Sep 2 (Monday). Contractor engaged by Sep 5 if that path chosen.
+**Deadline:** Post Fuad career direction conversation (week of Sep 7). Decision by Sep 12 (Friday) at latest.
 **Gate:** Hiring path decided AND first concrete action taken (posted, contacted recruiter, or engaged contractor)
+**Dependency:** ACT-20260829-002 (Fuad career conversation, week of Sep 7). HoE decision gated by Fuad's career direction input — if Fuad prefers hands-on, Hadri may be the stronger HoE candidate. If Fuad wants leadership, external HoE becomes more likely.
 **Evidence:** Decision documented + first action evidence (job posting URL, recruiter email, or contractor engagement confirmation)
 **If no decision by Sep 5:** Accept the risk formally (document in RSK-20260820-003) OR de-scope Bursa POC Phase 0 to TPRM-only (drop federated compliance from initial scope)
 

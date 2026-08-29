@@ -141,13 +141,14 @@ Answering the daily operating question: *What three actions create the greatest 
 ### Action 1: Decide HoE Path — Hadri or External
 
 **Owner:** DAF
-**Deadline:** Sep 2 (Monday)
-**Action:** Make the decision. The analysis is complete:
+**Deadline:** Post Fuad career conversation (week of Sep 7). Decision by Sep 12 (Friday) at latest.
+**Dependency:** ACT-20260829-002 (Fuad career direction conversation, week of Sep 7). The HoE decision is gated by Fuad's career direction input — if Fuad prefers hands-on, Hadri may be the stronger HoE candidate. If Fuad wants leadership, external HoE becomes more likely.
+**Action:** Make the decision after Fuad's career direction is confirmed. The analysis is complete:
 - If Hadri → HoE: Document the 90-day CSM handoff plan. Identify Senior GovSec hire as immediate dependency. Accept that chain:SENTRY stays frozen until Hadri has engineering capacity.
-- If external HoE: Post the role by Sep 5. Engage contractor as interim by Sep 10. Hadri stays in CSM tracks. chain:SENTRY gets HoE attention when hired.
+- If external HoE: Post the role by Sep 15. Engage contractor as interim by Sep 20. Hadri stays in CSM tracks. chain:SENTRY gets HoE attention when hired.
 - If defer: Formally accept the risk. Document in RSK-20260820-003 and RSK-20260820-004. Accept that the practice cannot scale beyond current capacity until Q1 2027.
 
-**Why this is #1:** This is the binding structural constraint. Every other action is managing scarcity until this is resolved. 9 days of analysis without decision is the pattern.
+**Why this is #1:** This is the binding structural constraint. Every other action is managing scarcity until this is resolved. The decision is gated by the Fuad career conversation (week of Sep 7) — not by information availability.
 
 ### Action 2: chain:SENTRY Triage — Fix, De-scope, or Accept Risk
 
