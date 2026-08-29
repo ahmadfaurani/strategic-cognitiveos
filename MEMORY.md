@@ -29,10 +29,12 @@ Detail: `memory/johor-prn-2026/` + war-room briefs in `memory/`
 - **Hermes:** 8 active cron jobs (weekly cron audit added Aug 24, Fri 21:00 MYT)
 - **DeerFlow venv:** `/home/p62operator/tools/deer-flow/.venv`
 - **Removed:** Ollama (CVE-2026-5757, May 2026)
+- **Workspace gitlink cleanup (Aug 29):** 23 orphaned gitlinks removed from workspace repo index (commit `dca5fdcc`). Auto-commit hook was failing for ~2 days ("no submodule mapping in .gitmodules"). Root cause was NOT stale index.lock (misdiagnosed). 9 gitlinks had .git dirs (active nested repos), 14 were stale. All added to .gitignore. Hook resumed.
 - **CognitiveOS:** 🟡 Operational with gaps. Doctrine ✅, Memory ✅, CVS ✅, Orchestration 🟡, Portfolio governance 🔴
+- **ESF-20260829-001:** DAF Engineered Success Framework (12-month). 5 DoD gates: (1) Portfolio register single-source Sep 30, (2) 3 flagships non-DAF owners Dec 31 [45% probability, TBH-001 critical], (3) Weekly executive reviews Feb 28, (4) Funnel v3 canonical Apr 30, (5) DAF calendar 70/30 Jun 30. Success probability 55-65%. Critical path: Register → Owners → Cadence → Pipeline → Calendar Shift
 - **ADEP-001:** Binding 5-step modus operandi. Compliance ~88%
 - **Athena SOP compliance:** 4/9 (first measurement Aug 25). Record quality HIGH, procedural compliance LOW. Gaps: daily memory, commit format, confirmation notification. Feedback note drafted for DAF to forward. No direct bridge to Athena (ChatGPT/GitHub stack)
-- **Cross-workstream conflation:** 4th instance of quantitative overclaim pattern (Aug 25). Ember padded RISIK timeline with PERJASA+CSM items. DAF corrected. Pattern: Ember inflates quantitative claims to create urgency
+- **Cross-workstream conflation:** 5th instance of quantitative overclaim pattern (Aug 29). Persistent: 5 instances in 6 days (Aug 23-29). Pattern: Ember takes info from one context and applies it to another to create a more dramatic narrative. DAF corrects repeatedly. Behavioral correction has NOT taken root
 
 ---
 
@@ -47,13 +49,14 @@ Detail: `memory/johor-prn-2026/` + war-room briefs in `memory/`
 - SiberSUITE × GovSec: telemetry → analytics → CBOM → score card (pre-planning, NOT committed integration)
 
 ### Org Structure
-DAF (Director, strategic+commercial) + Fuad (Practice Technical Authority) + Hadri (Blockchain Lead+COO) + Syahir (POC Engineer) + Farul (CTO/MTAI) + Amelia Nadia (SSE Lead, DEC-20260820-012)
+DAF (Director, strategic+commercial) + Fuad (Practice Technical Authority) + Hadri (Blockchain Lead+COO) + Syahir (POC Engineer) + Farul (CTO/MTAI) + Amelia Nadia (SSE Lead, DEC-20260820-012) + Aishah (CSM MQL Receiver, initial, DEC-20260829-001)
 
 ### TBH Registry
-TBH-001: PM — Cyber Security Practice. Blocks CRITICAL actions. 6 JDs exist (5 GTM + 1 PM), 0 candidates. Circular dependency: roles to offload DAF → DAF carries until filled. JD drafted (`94e4ca9`)
+TBH-001: PM — Cyber Security Practice. Blocks CRITICAL actions. JD v2 committed (`5b6aed7`, Aug 28) — 13 sections, ITSS §10 scope, CyberDSA gate chain, NDA tracking, interim delegation plan. End-September hiring activation → Oct 13-20 start date. DAF carries PM burden through CyberDSA + Bursa POC window. Interim: POC tracking→DAF, tech review→Hadri, POC env→Fuad/Syahir, stakeholder→Amelia, NDA/legal→DAF, risk register→Ember. Reports to Hadri (COO), matrix to DAF
 
 ### Products (Dev Freeze Aug 11)
 - **VoronCitadel:** POC-ready. Bursa Malaysia POC refined to pure ITSS §10 focus (DEC-20260827-001). 19 section files live on github.com/ahmadfaurani/bursa-poc. 17 requirements (§10.1-10.4), 3 use cases, 6 test scenarios, 12 acceptance criteria. 76% Native coverage. 6-9 week timeline (3 phases). ITSS §10 = existing binding law, RSWG §2.6 = forward path. Retail RM368k, early-adopter RM168k
+- **Bursa NDA Framework (Aug 28):** First formal legal instrument. 11 principles (confidentiality, no publicity, PDPA, foreground IP=Bursa, background IP=Aras, CSM sublicensing, mandatory BG IP disclosure, non-reuse, warranty+indemnity, subsequent service agreement, working-level alignment first). 4 IP provisions flagged for Azrul review (due Sep 4). RSK-20260828-001 (negotiation risk, medium/high). Signing unblocks POC technical discovery
 - **GovSec-TIP:** Strategic sovereign platform. Gate 4 technical co-branding. 3-layer assessment: Layer 1 CONDITIONAL, Layer 2 CRITICAL GAP (10 missing), Layer 3 STRONG
 - **chain:SENTRY:** 69% implemented, 47% deployed. 3 Critical Phase 0 blockers. Phase 0 (5 days) → 77%. chain:HARVEST new product family
 
@@ -68,7 +71,7 @@ TBH-001: PM — Cyber Security Practice. Blocks CRITICAL actions. 6 JDs exist (5
 Farul's 5-layer platform. DEC-20260820-008/009: Teras as infra for all 3 products. VoronCitadel deploys ON Teras. POC timeline 2-3 weeks (was 2-3 months). Target: MCMC, NSRD
 
 ### Bursa POC + RSWG Regulatory Tailwind
-20-section draft v0.1. 17/22 test cases confirmed. 2 CRITICAL: AI-01/AI-02 (RAG Phase 2), DRM-01 (manual vs automated). Aug 24 meeting introduced 24-entity federation vision (PROPOSED, not committed — architecture validation required). TPRM-first sequencing recommended. RACI exists — needs revision, not recreation
+19 section files live on github.com/ahmadfaurani/bursa-poc. 17 requirements (§10.1-10.4), 3 use cases, 6 test scenarios, 12 acceptance criteria. 76% Native coverage. NDA Framework sent to Azrul Aug 28 (11 principles, 4 IP provisions, due Sep 4). RACI exists — needs revision, not recreation
 **RSWG Paper (Aug 27):** Bursa Malaysia RSWG Recommendation Paper, 28 pages, CONFIDENTIAL, L1 (Official/System-of-Record). Trigger: April 2025 cyber incident. 30 brokers classified (11 bank-backed, 13 retail, 6 foreign). 9 control domains. Compliance: Dec 31, 2026. **Strongest regulatory tailwind for VoronCitadel** — §2.6 TSP Oversight = VoronCitadel TPRM module. CISO mandate (§2.9) creates named buyer in each broker. Cross-product: §2.3 SBOM → chain:SENTRY CBOM, §2.2.l AASE → Red Team Division. Regulatory-pull (not push-sell). ACT-20260827-001 capability mapping due Aug 29, ACT-20260827-002 POC doc update due Aug 30
 **ITSS Directive 5.05-001 (Aug 27):** Existing binding standard (Rule 5.05, introduced May 2013, amended Jan 2017). 12 IT Security Domains, 42 pages. §10 Supplier Management = VoronCitadel TPRM precursor (already law, not recommendation). POC grounded in ITSS §10 (existing obligation), RSWG §2.6 = forward enhancement. Two-layer compliance: ITSS = floor, RSWG = ceiling. DEC-20260827-001: POC focuses on ITSS §10 as primary hook
 **Bursa POC Risk Register (Aug 27):** RSK-20260827-002 — 17 risks, 6 categories. Top: B-STR-01 (compliance window, 12), B-OPS-01 (CSM chain, 12), B-OPS-02 (DAF single coordinator, 12), B-TEC-01 (test case gaps, 12). Cognitive Loop INT-20260827-003: competitive window 6-8 weeks (not 4 months), POC must complete before CyberDSA Oct 5-7 for reference case. 3 bottleneck chains: regulatory leverage, Gate 0 stall, single-validator (Fuad)
@@ -82,7 +85,7 @@ Farul's 5-layer platform. DEC-20260820-008/009: Teras as infra for all 3 product
 
 ### R.I.S.I.K (UiTM × PRISM 2.0)
 Collaboration Framework Agreed. RM5M, 12-month, 9-component. Target funder: MCMC. 3 AI use cases. Next: internal review Aug 29, alignment Sep 5
-**MCMC Second Track (Aug 26):** INIT-20260826-001 — MCMC as **client** for AI capability development (complementing funder track). 5-area fact-finding. 4-phase path: Discovery → POC → Integration → Advanced. 7-session agenda. DAF × Hadri warm-up Fri Aug 29 11 AM MYT. Convergence risk: MCMC may conflate RISIK platform with social media AI
+**MCMC Second Track (Aug 26, updated Aug 28):** INIT-20260826-001 — MCMC as **client** for AI capability development (complementing funder track). Readiness: `framed` → **active engagement** (Aug 28). DAF sent formal follow-up to Tuan Aravind (STK-20260828-001, MCMC primary contact). Two asks: (1) telemetry data schema visibility (ACT-20260828-003, no deadline), (2) MCMC AI Capability Development Workshop (ACT-20260828-004, target ~Sep 18). 5 workshop objectives: baseline, gaps, telemetry review, AI enhancements, roadmap+POC. Commitment: enhance not duplicate MCMC capability (COM-20260828-002). **No NDA with MCMC** — telemetry sharing may require one. DAF × Hadri warm-up Aug 29 11 AM MYT. Convergence risk: MCMC may conflate RISIK platform with social media AI
 **PRISM 2.0:** PMO-requested integration. PRISM = Aras's own platform. R.I.S.I.K × PRISM 2.0 = internal product evolution, NOT external integration. KKOM = PRISM 2.0 = PRISM + R.I.S.I.K doctrine. 5 of 6 PRISM AI agents map to R.I.S.I.K layers. Aliran Kerja Stages 1-2 partially complete
 **18-Agent Build Plan:** 7 extend PRISM agents (~14.5d), 8 new (~24.5d), 2 doctrine-mandated (reference poisoning, prompt injection guard, ~6d). Total ~45d agents, ~60.5d with infra. Model routing: GLM-5.2 (extract/draft), Qwen-397B (sentiment/analysis), Qwen-27B (embedding)
 **Aug 18 Meeting:** Confirmed took place. Outcomes NOT yet ingested — ACT-20260825-007 due Aug 27. CRITICAL missing data
@@ -114,16 +117,16 @@ Governance architecture built. IP framework WIPO-aligned 50:50. Portfolio regist
 
 | Workstream | Status | Next |
 |------------|--------|------|
-| VoronCitadel | Productisation | A1 ✅ approved. Bursa POC refined to ITSS §10 (19 files live, 17 reqs, 3 use cases). Risk Register + Cognitive Loop built. ACT-001+003 (capability mapping) due Aug 29. ACT-002 (POC doc) due Aug 30. Fuad validation Sep 2. POC finalization Sep 5 |
+| VoronCitadel | Productisation | A1 ✅ approved. Bursa POC refined to ITSS §10 (19 files live). NDA Framework sent to Azrul (due Sep 4). Risk Register + Cognitive Loop built. ACT-001+003 (capability mapping) due Aug 29. ACT-002 (POC doc) due Aug 30. Fuad validation Sep 2. POC finalization Sep 5 |
 | GovSec TIP | Dev freeze → CyberDSA | Gate 4 evidence pack (Aug 22-27 critical) |
 | chain:SENTRY | Productisation | Phase 0 hardening |
-| CSM × Aras GTM | Working group | Gate 0 open but NOT blocking (corrected: due T-15/Oct, parallel to Gates 3-5). Gates 1+2 ✅ done. TBH-001 hiring due Aug 27 — UNKNOWN. Aisha PIC 4.5+ days OVERDUE. A2 has 4 concurrent blockers. CPM undefined |
+| CSM × Aras GTM | Working group | Gate 0 open but NOT blocking (corrected: due T-15/Oct, parallel to Gates 3-5). Gates 1+2 ✅ done. A2 ✅ RESOLVED (Aishah confirmed as MQL Receiver, 13-section role definition). TBH-001 JD v2 committed, end-Sep hiring activation. CPM undefined |
 | CyberDSA 2026 | T-30 countdown (Sep 5) | 6-step gate chain: Aug 31 (Fuad+Hadri) → Sep 2 (Fuad confirms) → Sep 3 (Tuan Fatah CRITICAL) → Sep 4 (Hafiz Rahman CSM validation, DAF-owned) → Sep 5 (Zaharudin baseline). Stakeholder Framework V1.1 (chain reordered). Branding adoption Sep 1 |
-| R.I.S.I.K | Framework agreed → PRISM 2.0 | Review Aug 29, alignment Sep 5. Aug 18 outcomes missing (ACT-20260825-007 due Aug 27 — NOW). 18-agent plan ready. PRISM URS/SRS pending from Farul (Sep 5). MCMC second track (capability dev client) — warm-up Aug 29 |
+| R.I.S.I.K | Framework agreed → PRISM 2.0 | Review Aug 29, alignment Sep 5. Aug 18 outcomes missing (ACT-20260825-007 overdue). 18-agent plan ready. PRISM URS/SRS pending (Sep 5). MCMC second track: ACTIVE ENGAGEMENT (Aravind contacted, telemetry+workshop asks, no NDA with MCMC) |
 | PERJASA | ✅ Confirmed Sep 2-3 | PERJASA-Cohort repo live + updated (HRMIS + DOSM, Hermes renamed, MyMesyuarat removed). Naim = new IP co-lead. Logistics + Razale alignment pending |
-| Cohort | Architecture built → GitHub workspace | PERJASA-Cohort repo live. Workstreams: HRMIS + DOSM (scope narrowed from 3→2). Naim = new stakeholder (IP co-lead). Razale alignment pending |
-| CognitiveOS | 🟡 Operational | Orchestration automation = key gap |
-| Memory Infra | ✅ FULLY OPERATIONAL | §9 DoD passed (5/5) |
+| Cohort | Architecture built → GitHub workspace | PERJASA-Cohort repo live. Workstreams: HRMIS + DOSM (scope narrowed from 3→2). Naim = new stakeholder (IP co-lead). Razale alignment pending. PRG-003 kill date arrived (4 days ago) — decision NOT logged |
+| CognitiveOS | 🟡 Operational | Orchestration automation = key gap. ESF-20260829-001 active (5 DoD gates, 12-month) |
+| Memory Infra | ✅ FULLY OPERATIONAL | §9 DoD passed (5/5). 9 consecutive dreaming successes |
 
 ---
 
@@ -150,6 +153,8 @@ Detailed entries in `memory/YYYY-MM-DD.md`. Full historical: `memory/MEMORY.md.b
 - **Aug 25:** R.I.S.I.K dominated day (5/8 sessions). PRISM 2.0 = internal product evolution (PMO-requested). 18-agent build plan (~45d agents, ~60.5d total). RISIK-Development repo created. PRISM system overview + URS/SRS analyzed. Cognitive Loop: Gate 0 + CPM = single largest gap. PRG-003 PMO kill date arrived. Athena SOP audit 4/9 (first external agent measurement). DAF corrected cross-workstream conflation (PERJASA+CSM not in RISIK). Fallback chain root cause: retry-loop-same-model. `--max-old-space-size` RETRACTED. GLM empty-response = third failure mode. 6 consecutive dreaming successes
 - **Aug 26:** MCMC second track created (INIT-20260826-001, MCMC as client for AI capability dev, 4-phase path). T-40 CyberDSA engineering closure directive (6-action sequential gate chain, Fattah Hafiz = new stakeholder, RSK-20260826-001). AIP deadline check: 3 convergent deadlines in 36h (TBH-001 Aug 27, A2 Aug 28, Gate 0 Aug 28). A2 has 4 concurrent blockers. Gate 0 = 4th cycle flagging. DeerFlow cron fix (`.venv/bin/bash` → `/bin/bash`, 6 days silent failure). Heartbeat note: DO NOT RUN GATEWAY HEALTH CHECKS (Hermes watchdog handles it). 7 consecutive dreaming successes
 - **Aug 27:** RSWG Paper + ITSS Directive 5.05-001 intake (L1 sources). POC refined to ITSS §10 focus (19 section files, 17 requirements, 3 use cases). Hadri T-30 closure commitment (6-step gate chain, Aug 31→Sep 5, Hafiz Rahman new stakeholder). Gate 0 dependency corrected (parallel track, due T-15 Oct not Aug 28). Stakeholder Framework V1.1 (chain reordered). 502 root cause: same-provider trap + GPU nodes down (bgpu124/bgpu125). Bursa POC Risk Register (17 risks) + Cognitive Loop (competitive window 6-8 weeks). 8 consecutive dreaming successes
+- **Aug 28:** NDA Framework sent to Azrul (11 principles, 4 IP provisions, due Sep 4). MCMC active engagement (Aravind contacted, telemetry+workshop asks, INIT-20260826-001 advanced). A2 RESOLVED (Aishah = CSM MQL Receiver, 13-section role definition). TBH-001 JD v2 committed (end-Sep hiring, interim delegation plan). Strategic review session (DAF confirmed Aug 18 outcomes pending, TBH-001 end-Sep). Teras corrected as internal infra layer. vLLM 404 outage (transient, self-recovered). §9 checkpoint review completed (apply_patch delivery failure, work committed)
+- **Aug 29:** Conflation pattern instance #5 (PERJASA on Fuad's calendar — DAF corrected 3×). DAF Engineered Success Framework (ESF-20260829-001, 5 DoD gates, 12-month, 55-65% success probability). Workspace gitlink cleanup (23 orphaned gitlinks removed, auto-commit hook fixed). DAF × Hadri MCMC warm-up scheduled 11 AM MYT. 9 consecutive dreaming successes
 
 ---
 

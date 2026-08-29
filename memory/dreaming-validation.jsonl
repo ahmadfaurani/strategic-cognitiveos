@@ -7,3 +7,4 @@
 {"timestamp":"2026-08-25T03:00:00Z","cycle":"short-term-promotion","files_scanned":4,"promotable":8,"promoted":6,"archived":3,"scope":"2026-08-24T03:00:00Z/2026-08-25T03:00:00Z","report":"memory/dreaming-2026-08-25-0300.md","status":"SUCCESS","consecutive_successes":5}
 {"timestamp":"2026-08-26T03:00:00Z","cycle":"short-term-promotion","files_scanned":8,"promotable":9,"promoted":7,"archived":2,"scope":"2026-08-25T03:00:00Z/2026-08-26T03:00:00Z","report":"memory/dreaming-2026-08-26-0300.md","status":"SUCCESS","consecutive_successes":6}
 {"timestamp":"2026-08-27T03:00:00Z","cycle":"short-term-promotion","files_scanned":6,"promotable":5,"promoted":5,"archived":1,"scope":"2026-08-26T03:00:00Z/2026-08-27T03:00:00Z","report":"memory/dreaming-2026-08-27-0300.md","status":"SUCCESS","consecutive_successes":7}
+{"cycle":"2026-08-29T03:00:00Z","type":"short-term-promotion","files_scanned":9,"items_promoted":7,"items_archived":3,"consecutive_success":9,"status":"success"}
