@@ -70,9 +70,13 @@ Fuad operates as Practice Technical Authority — defining product architecture,
 
 ## 2. Definition of Done (DoD) — 5 Checkpoints
 
-### DoD-1: Engineering Team Operational (Dec 31, 2026)
+### DoD-1: Engineering Team Operational (Q1 2027)
 
 **Gate:** Head of Engineering hired and active. At least one additional engineering role (CSE or junior backend) filled or contractor engaged. Fuad has delegated ≥40% of hands-on technical work to team members. Engineering cadence established (code review, deployment process, technical documentation cycle).
+
+**Constraint:** Hiring approval is October 2026. Operational hiring starts post-October. Realistic timeline: Oct posting → Nov interviews → Dec offer/accept → Jan 2027 start. DoD-1 shifts from Dec 31 to Q1 2027.
+
+**Interim mitigation (Sep–Dec 2026):** Contractor engagement if budget allows, OR formal risk acceptance that SPOF persists through Q4 2026. Fuad carries technical execution through CyberDSA + Bursa POC window with Syahir support.
 
 **Evidence:**
 - [ ] HoE hired and in seat (ACT-20260820-007 closed)
@@ -82,8 +86,8 @@ Fuad operates as Practice Technical Authority — defining product architecture,
 - [ ] Deployment process documented (CI/CD or manual runbook)
 - [ ] Fuad's direct code commit rate has decreased by ≥30% from Aug 2026 baseline
 
-**Failure mode:** HoE hired but Fuad doesn't delegate — "I'll do it faster myself" → SPOF persists despite capacity
-**Block date:** Dec 31, 2026
+**Failure mode:** HoE hired but Fuad doesn't delegate — "I'll do it faster myself" → SPOF persists despite capacity. OR: hiring delayed past Jan 2027 → SPOF persists through Q1 2027.
+**Block date:** Q1 2027 (revised from Dec 31, 2026 — hiring approval gates October)
 
 ### DoD-2: VoronCitadel Bursa POC Completed as Reference Case (Mar 31, 2027)
 

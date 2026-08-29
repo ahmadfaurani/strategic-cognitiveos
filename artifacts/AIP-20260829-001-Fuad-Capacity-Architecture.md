@@ -145,9 +145,11 @@ Current state:
 4. Set weekly check-in cadence (Monday, aligned with Cognitive Loop review) until HoE is in seat
 
 **Owner:** DAF
-**Deadline:** Post Fuad career direction conversation (week of Sep 7). Decision by Sep 12 (Friday) at latest.
+**Deadline:** Hiring approval October 2026. Operational hiring starts post-October. HoE in seat ~Jan 2027 (realistic).
 **Gate:** Hiring path decided AND first concrete action taken (posted, contacted recruiter, or engaged contractor)
 **Dependency:** ACT-20260829-002 (Fuad career conversation, week of Sep 7). HoE decision gated by Fuad's career direction input — if Fuad prefers hands-on, Hadri may be the stronger HoE candidate. If Fuad wants leadership, external HoE becomes more likely.
+**Constraint:** Hiring approval is October. No operational hiring before October. Near-term mitigation: contractor engagement (if budget allows) OR formal risk acceptance that SPOF persists through Q4 2026.
+**Impact on DoD-1:** ESF-20260829-002 DoD-1 (Engineering team operational, Dec 31) is at risk. Realistic timeline: Oct posting → Nov interviews → Dec offer → Jan 2027 start. DoD-1 may shift to Q1 2027.
 **Evidence:** Decision documented + first action evidence (job posting URL, recruiter email, or contractor engagement confirmation)
 **If no decision by Sep 5:** Accept the risk formally (document in RSK-20260820-003) OR de-scope Bursa POC Phase 0 to TPRM-only (drop federated compliance from initial scope)
 

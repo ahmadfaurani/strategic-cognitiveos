@@ -141,14 +141,15 @@ Answering the daily operating question: *What three actions create the greatest 
 ### Action 1: Decide HoE Path — Hadri or External
 
 **Owner:** DAF
-**Deadline:** Post Fuad career conversation (week of Sep 7). Decision by Sep 12 (Friday) at latest.
+**Deadline:** Hiring approval October 2026. Operational hiring starts post-October. HoE in seat ~Jan 2027 (realistic).
 **Dependency:** ACT-20260829-002 (Fuad career direction conversation, week of Sep 7). The HoE decision is gated by Fuad's career direction input — if Fuad prefers hands-on, Hadri may be the stronger HoE candidate. If Fuad wants leadership, external HoE becomes more likely.
-**Action:** Make the decision after Fuad's career direction is confirmed. The analysis is complete:
-- If Hadri → HoE: Document the 90-day CSM handoff plan. Identify Senior GovSec hire as immediate dependency. Accept that chain:SENTRY stays frozen until Hadri has engineering capacity.
-- If external HoE: Post the role by Sep 15. Engage contractor as interim by Sep 20. Hadri stays in CSM tracks. chain:SENTRY gets HoE attention when hired.
+**Constraint:** Hiring approval is October. No operational hiring before October.
+**Action:** Make the decision after Fuad's career direction is confirmed (week of Sep 7). The analysis is complete:
+- If Hadri → HoE: Document the 90-day CSM handoff plan. Identify Senior GovSec hire as immediate dependency. Accept that chain:SENTRY stays frozen until Hadri has engineering capacity. Hiring approval gates the Senior GovSec hire.
+- If external HoE: Post the role in October. Interview November. Offer December. Start January 2027. Hadri stays in CSM tracks. Contractor as interim bridge if budget allows.
 - If defer: Formally accept the risk. Document in RSK-20260820-003 and RSK-20260820-004. Accept that the practice cannot scale beyond current capacity until Q1 2027.
 
-**Why this is #1:** This is the binding structural constraint. Every other action is managing scarcity until this is resolved. The decision is gated by the Fuad career conversation (week of Sep 7) — not by information availability.
+**Why this is #1:** This is the binding structural constraint. Every other action is managing scarcity until this is resolved. The decision is gated by the Fuad career conversation (week of Sep 7) AND by October hiring approval. The SPOF persists through Q4 2026 regardless — the question is what mitigation is possible in the interim.
 
 ### Action 2: chain:SENTRY Triage — Fix, De-scope, or Accept Risk
 
