@@ -108,7 +108,9 @@ Hadri's T-30 commitment (COM-20260827-001) puts Fuad on Gate 1 (engineering comm
 **Intelligence:**
 DEC-20260818-007 assigned Fuad ownership of Syahir's ramp-up (Aug 18). 11 days later, no records show ramp-up progress. Fuad's ramp-up accountability is tracked as a decision but not as an actionable with a deadline. This is a blind spot — the mitigation for RSK-20260811-001 (Fuad SPOF) was Syahir delegation, but the mitigation itself has no tracking.
 
-**DAF Directive (Aug 29):** Fuad is to review Syahir's operational workstream and align it with the Cybersecurity Practice's strategic deliverables. This is not just a capability status check — it's a structured alignment exercise ensuring Syahir's tasks ladder up to practice-level outcomes.
+**DAF Directive (Aug 29, 04:30 UTC):** Fuad is to review Syahir's operational workstream and align it with the Cybersecurity Practice's strategic deliverables. This is not just a capability status check — it's a structured alignment exercise ensuring Syahir's tasks ladder up to practice-level outcomes.
+
+**DAF Directive (Aug 29, 08:07 UTC) — PRIORITY ELEVATION:** This is the first priority under the discipline-as-strategy constraint. Fuad needs to start operational collaboration and handover to Syahir. With no engineering hires before January, Syahir is the only capacity multiplication available. This is no longer a Sep 5 checkpoint — it's the starting point for load absorption that the practice depends on through Q4 2026.
 
 **Action:**
 1. Fuad reviews Syahir's current task assignments and operational workstream
