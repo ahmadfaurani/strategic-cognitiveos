@@ -74,6 +74,9 @@ All decisions, chronological. Superseded decisions are marked.
 | DEC-20260827-002 | CyberDSA 2026 Stakeholder Dependency Chain Reordered — Operational Before Technical, Marketing After Technical | 2026-08-27 | faurani-jaafar | Active | DOC-20260819-001, DOC-20260827-003, ACT-20260827-009, STK-20260804-011, STK-20260812-001, STK-20260817-001 |
 | DEC-20260828-001 | NDA Framework with 11 Key Principles Established for CSM × Aras Bursa POC | 2026-08-28 | faurani-jaafar | Proposed | CONV-20260828-001, ART-20260828-001, INIT-20260824-001 |
 | DEC-20260829-001 | CSM Commercial MQL PIC Role Definition Established — Aishah as Initial MQL Receiver | 2026-08-29 | faurani-jaafar | Active | ART-20260829-001, DEC-20260822-004, OPP-20260822-001 |
+| DEC-20260829-002 | Hadri Role Simplification — Lead Architect Removed | 2026-08-29 | faurani-jaafar | Active | STK-20260803-007, RSK-20260820-004, DEC-20260820-007 |
+| DEC-20260829-003 | Hadri Confirmed as COO — HoE Decision Deferred Post-Fuad Conversation | 2026-08-29 | faurani-jaafar | Active | STK-20260803-007, RSK-20260820-004, ESF-20260829-001, AIP-20260829-001 |
+| DEC-20260829-004 | chain:SENTRY Engineering Reassigned to Syahir — Hadri Retains Roadmap | 2026-08-29 | faurani-jaafar | Active | STK-20260811-001, RSK-20260820-005/006/007, DEC-20260820-010 |
 
 ---
 

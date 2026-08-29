@@ -63,6 +63,7 @@ All conversation records, chronological.
 | CONV-20260827-002 | DAF V1.1 Framework Distribution to Hadri/Amelia — Gate Status: Gates 1-2 DONE, Gates 3-4 Pending | 2026-08-27 | Email | Gate 1 (Azrul) + Gate 2 (Zulfeka) COMPLETED; Gates 3-4 pending; T-30 target | INIT-20260813-006, DOC-20260827-003 |
 | CONV-20260828-001 | Bursa Malaysia : NDA Framework For Review — DAF → Azrul (CSM) | 2026-08-28 | Email | DEC-20260828-001 | INIT-20260824-001 |
 | CONV-20260828-002 | MCMC Social Media Intelligence Capability Alignment — DAF → Aravind (MCMC) Follow-Up Email | 2026-08-28 | Email | ACT-20260828-003/004, COM-20260828-002, OPP-20260828-001 | INIT-20260826-001 |
+| CONV-20260829-001 | DAF Directives — Hadri Role Restructure, Syahir Management Chain, Product Repository Correction | 2026-08-29 | Telegram | DEC-20260829-002/003/004 | — |
 
 ---
 
