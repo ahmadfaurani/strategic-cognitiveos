@@ -91,6 +91,7 @@ All action records, grouped by status.
 | ACT-20260828-003 | Aravind (MCMC) to Provide Telemetry Data Schema and Data Structure Visibility | Aravind | TBD (no explicit deadline) | High |
 | ACT-20260828-004 | Coordinate and Schedule MCMC AI Capability Development Workshop | DAF + Hadri + Aravind | ~Sep 18 (2-3 weeks) | High |
 | ACT-20260829-001 | Define Aishah (CSM MQL Receiver) Job Scope — CSM Commercial MQL PIC Role Definition | DAF | 2026-08-29 | Resolved |
+| ACT-20260829-002 | Schedule Fuad Career Direction Conversation — Week of Sep 7 | DAF | 2026-09-07 | High |
 
 ---
 
