@@ -97,6 +97,25 @@ Every intake must update all relevant indexes in the same commit:
 | `indexes/risk-index.md` | New RSK record created |
 | `indexes/product-readiness-index.md` | Product readiness status changed |
 
+### Step 4.5: Update Dependent Trackers
+
+When an intake creates or modifies a **decision (DEC)**, **action (ACT)**, or **commitment (COM)** record that affects a tracked gate, registry, or framework, update all dependent trackers in the same commit.
+
+**Dependent trackers that must be checked:**
+
+| Tracker File | When to Update |
+|-------------|----------------|
+| `governance/AIP-GATE-TRACKER.md` | A decision/action resolves, blocks, or changes an AIP gate status |
+| `governance/TBH-REGISTRY.md` | A decision/action changes TBH role status, timeline, or owner |
+| `governance/PORTFOLIO-REGISTER.md` | A decision/action changes initiative tier, status, or ownership |
+| `governance/ENGINEERED-SUCCESS-REGISTER.md` | A decision/action changes an ESF DoD gate or checkpoint |
+| `governance/ENGINEERED-SUCCESS-OPERATIONALIZATION.md` | A decision/action changes a checkpoint status or deadline |
+| `governance/AIP-PRODUCTIZATION-OPERATIONALIZATION.md` | A decision/action changes a track phase, deadline, or owner |
+
+**Rule:** If a DEC record resolves a gate that was previously OVERDUE or UNKNOWN, the tracker MUST be updated in the same commit as the DEC record. Do not leave stale gate status — the daily cron job reads these files and will send false urgency to DAF.
+
+**Verification question:** "Does this decision change the status of any gate, checkpoint, or tracker entry?" If yes → update the tracker before committing.
+
 ### Step 5: Update Daily Memory
 
 - Log the intake in `memory/YYYY-MM-DD.md` with:
