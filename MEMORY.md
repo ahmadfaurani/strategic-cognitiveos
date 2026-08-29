@@ -52,7 +52,10 @@ Detail: `memory/johor-prn-2026/` + war-room briefs in `memory/`
 - SiberSUITE × GovSec: telemetry → analytics → CBOM → score card (pre-planning, NOT committed integration)
 
 ### Org Structure
-DAF (Director, strategic+commercial) + Fuad (Practice Technical Authority) + Hadri (Blockchain Lead+COO) + Syahir (POC Engineer) + Farul (CTO/MTAI) + Amelia Nadia (SSE Lead, DEC-20260820-012) + Aishah (CSM MQL Receiver, initial, DEC-20260829-001)
+DAF (Director, strategic+commercial) + Fuad (Practice Technical Authority, de facto) + Hadri (COO only, Lead Architect removed Aug 29) + Syahir (QC Engineer + POC Engineer + chain:SENTRY Engineering Owner) + Farul (CTO/MTAI) + Amelia Nadia (SSE Lead, DEC-20260820-012) + Aishah (CSM MQL Receiver, initial, DEC-20260829-001)
+
+### Syahir Management Chain (Aug 29)
+DAF (strategic outcome) → Hadri (operational deliverables, priority sequencing) → Fuad (tactical task tracking, technical ramp-up)
 
 ### TBH Registry
 TBH-001: PM — Cyber Security Practice. Blocks CRITICAL actions. JD v2 committed (`5b6aed7`, Aug 28) — 13 sections, ITSS §10 scope, CyberDSA gate chain, NDA tracking, interim delegation plan. End-September hiring activation → Oct 13-20 start date. DAF carries PM burden through CyberDSA + Bursa POC window. Interim: POC tracking→DAF, tech review→Hadri, POC env→Fuad/Syahir, stakeholder→Amelia, NDA/legal→DAF, risk register→Ember. Reports to Hadri (COO), matrix to DAF
