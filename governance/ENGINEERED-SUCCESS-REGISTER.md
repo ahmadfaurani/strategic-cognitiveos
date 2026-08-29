@@ -98,7 +98,7 @@ author: "Ember (drafter), DAF (authority)"
 | Status | **ACTIVE — Phase 2 (gate tracking operational, A1 passed)** |
 | Evidence | CP1 PASSED: commit fa594fe (AIP Gate A1 PASSED — DAF approves VoronCitadel POC Document, Aug 24). AIP Gate Tracker at governance/AIP-GATE-TRACKER.md. Daily deadline checks running (commits 96deb79, caa0a82, 584eaa9). A1 gate evidence: CONV-20260824-001. |
 | DoD Items | 4/5 complete (gate tracker maintained ✅, A1 gate passed with evidence ✅, deadlines within 72h flagged ✅, AIP feeds into weekly review ✅; ≥3 gates passed/failed ⏳ — only 1 gate passed so far) |
-| Checkpoint Status | CP1 ✅ PASSED (Aug 24, A1 POC doc). CP2 🔴 DUE TODAY (Aug 27, TBH-001 approach — status UNKNOWN). CP3 ⏳ NOT YET DUE (Aug 30, C1 credentials). |
+| Checkpoint Status | CP1 ✅ PASSED (Aug 24, A1 POC doc). CP2 ✅ DECIDED (Aug 28, TBH-001 approach — JD v2 committed, end-Sep hiring). CP3 ⏳ AWAITING DAF INPUT (Aug 30, C1 credentials). |
 
 ### ES-003: WIP/TAT Enforcement
 
@@ -120,7 +120,7 @@ author: "Ember (drafter), DAF (authority)"
 | Status | **ACTIVE — Phase 2 (WIP applied, TAT tracked)** |
 | Evidence | CP1 PASSED: VoronCitadel POC TAT tracked via AIP Gate Tracker (A1 gate passed Aug 24, ~21h late but same-day). CP2: TBH-002 escalated to registry (commit 96f0f86), TBH-001 assigned Bursa POC coordination (commit 167fd86). WIP codified in SOP-CL-001 v1.1 Step 3b. |
 | DoD Items | 2/5 complete (WIP applied to VoronCitadel POC ✅, TAT clock tracked ✅; compression alert ⏳, orphan-role flag ⏳, 3 docs through full TAT ⏳) |
-| Checkpoint Status | CP1 ✅ PASSED (Aug 24). CP2 🔴 DUE TODAY (Aug 27, TBH-001 escalation — partial: TBH-002 done, TBH-001 approach pending). CP3 ⏳ NOT YET DUE (Sep 7). |
+| Checkpoint Status | CP1 ✅ PASSED (Aug 24). CP2 ✅ DECIDED (Aug 28, TBH-001 approach decided — JD v2 committed, escalation clock stopped). CP3 ⏳ NOT YET DUE (Sep 7). |
 
 ### ES-004: Engineered Success as Default Practice
 
