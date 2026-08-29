@@ -1,0 +1,254 @@
+# Long-Term Memory
+
+_Compact index. Detailed briefs archived to `memory/` subdirectories._
+
+---
+
+## 🗳️ Johor PRN 2026 — Seat Index
+
+**Monitoring Period:** Jun–Aug 2026 | **Status:** Active
+
+| Seat | Tier | Contest | BN% | Key Dynamic | Archive |
+|------|------|---------|-----|-------------|---------|
+| N41 Puteri Wangsa | Tier-1 | 5-corner (PH,BN,MUDA,Bersama,Ind) | — | MUDA incumbent not defending; Maszlee vs Rashifa youth battle | `memory/johor-prn-2026/n41-puteri-wangsa.md` |
+| N16 Sungai Balang | Tier-2 | 3-corner (BN,PH,PN) | BN-fav | BN defensive; PN disruption risk; PH 2018 near-win | `memory/johor-prn-2026/n16-sungai-balang.md` |
+| N17 Semerah | Tier-2 | 3-corner (BN,PH,PN) | BN-lean 60-65% | Turnout-sensitive flip seat; PN split math decisive | `memory/johor-prn-2026/n17-semerah.md` |
+| N24 Senggarang | Tier-2 | 3-corner (BN,PH,PN) | BN-lean 60-65% | Live three-way; PN upset moderate (Rashid local figure) | `memory/johor-prn-2026/n24-senggarang.md` |
+| N33 Tenggaroh | Tier-2 | 3-corner (BN,PH,PN) | BN-lean 55-60% | FELDA belt; margin collapse trend; PN primary challenger | `memory/johor-prn-2026/n33-tenggaroh.md` |
+| N32 Endau | Tier-2 | 4-corner (BN,PH,PN,ASLI) | BN-fav 70-75% | Alwiyah incumbency+party-switch; ASLI OA debut | `memory/johor-prn-2026/n32-endau.md` |
+
+**War room briefs (detailed PD analysis):** `memory/n16-sungai-balang-war-room-brief-20260627.md`, `memory/n17-semerah-war-room-brief-20260627.md`, `memory/n24-senggarang-turnout-scenarios-corrected-20260628.md`, `memory/n33-tenggaroh-war-room-brief-20260627.md`
+
+---
+
+## 🔧 System & Infrastructure Memory
+
+- **Operational since:** 2026-04-22
+- **Model backend:** vLLM remote API (arasintegrasi.ai), GLM-5.2 permanent default (set 2026-08-17, changed from Kimi-K3)
+- **Context geometry:** GLM-5.2 1M window — keepRecentTokens 293K (~28%), reserve 48K, floor 8K, maxTokens 32,768. Compaction: safeguard. Pruning: cache-ttl. Injection: continuation-skip. Cross-model auto-cap via maxHistoryShare 0.7. (Applied 2026-08-17)
+- **Model fallback chain (2026-08-24):** GLM-5.2 (primary) → Qwen3.5-397B-A17B (fallback 1, 262K ctx, reasoning) → Qwen3.5-27B (fallback 2, 262K ctx, 16K out). Configured after 10-min 429 outage. Timeout raised 120→180s. Hot-reloaded, no restart needed. Watch: keepRecentTokens 293K > Qwen 262K — monitor first fallback for compaction behavior
+- **Context window corrections:** GLM-5.2 128K→1,048,576; Qwen3.5-397B 128K→262,144; Qwen3.5-27B 128K→262,144 (probed from vLLM, applied 2026-08-17)
+- **Removed:** Ollama (CVE-2026-5757, 2026-05-01)
+- **Honcho model routing (2026-08-19, updated 15:32 UTC):** Three-model tiering. GLM-5.2 (OpenClaw session), Qwen3.5-397B-A17B (dialectic medium/high/max + dreams), Qwen3.6-27B (deriver + dialectic minimal/low + summary — light tasks). All fallbacks → Qwen3.5-27B. 35B-A3B replaced with 27B at DAF directive (15:32 UTC). Backup: `.env.bak.20260819-0845`, `.env.bak.20260819-1532`
+- **Memory backend:** QMD v2.5.3
+- **Scraping:** Crawl4AI 0.9.2 (primary) + Firecrawl (fallback). 25-source collection: 100% success, ~5 min, 426 headlines
+- **CVS:** Mandatory 2026-06-28. Upgraded to Master Framework 2026-08-17 (`03-VERIFICATION/CVS-FRAMEWORK.md`). T1-T6 tiers, L1-L5 sources, 5-criteria scoring (0-10), Rule 6 (AI cap T2/score 7). DUN Profiling CVS (`tools/truth-validator/`) retired 2026-08-17
+- **Validation architecture (2026-08-17):** Three separate validation processes, three operational contexts — by design, not fragmentation:
+  1. Intake SOP (9-step) → workstream management & cataloging (structuring)
+  2. CVS Evidence Register → core truth validation for OSINT data collection (verification)
+  3. Hermes Inline CVS → condensed validation for cronjobs (collection-time tiering)
+  - `validate.sh` = narrow pre-delivery linting for political briefs only
+  - Lesson: Don't assume unification is design intent. Don't repeat unverified claims from files without checking the source.
+- **Signal Registry:** RETIRED 2026-08-15. CVS Evidence Register canonical (`03-VERIFICATION/CVS-EVIDENCE-REGISTER.csv`)
+- **Hermes:** 15 active cron jobs, 3 workstreams. Config: `~/.hermes/config.yaml`
+- **DeerFlow venv:** `/home/p62operator/tools/deer-flow/.venv`
+- **Memory infrastructure (FULLY OPERATIONAL 2026-08-19):** All 4 phases complete. TEI (bge-m3) in Honcho docker-compose. Service: `tei-embeddings`, image `ghcr.io/huggingface/text-embeddings-inference:cpu-latest`, volume `tei-cache:/data`. Args: `--model-id BAAI/bge-m3 --max-batch-tokens 8192 --max-concurrent-requests 128 --max-client-batch-size 128`. Embedding URL: `http://tei-embeddings:80/v1` (Docker DNS). 1024-dim, ~53ms inference. Honcho API (:8000) healthy. PostgreSQL+pgvector (:5432) healthy. Redis 8.2 (:6379) healthy. Deriver MAX_OUTPUT_TOKENS=8192. Backlog: 2,081 synced, 0 unembedded. §9 DoD: 4/5 complete, DoD-1 ⏳ (24h clean, CP3 Aug 20 12:00 UTC). Monitoring: deriver-health-check.sh every 15 min. TEI ONNX batch-8 cap is permanent architectural ceiling (~56 items/s). TEI Alternative Review scheduled Aug 22 09:00 UTC+8. Monthly Model Stack Review cron: 1st of month, 09:00 UTC+8.
+- **Honcho connector (FULLY OPERATIONAL 2026-08-19):** All 4 phases complete. Phase 1: cognitiveos workspace (9 peers, 7 sessions). Phase 2: batch ingest 406 records. Phase 3: connector scripts (recall.sh, query.sh, ingest.sh — 4 bugs fixed). Phase 4: operational gates (gate.sh, audit.sh — ADEP-001 enforcement). Dedup guard with pagination fix. AGENTS.md wired: recall.sh at session start, gate.sh for D2+ tasks. HEARTBEAT.md wired: daily audit.sh. ADEP-001 audit: 82% (9 pass, 2 block, 11 total). DB clean: csm-partnership 124, cyberdsa-2026 110, cognitiveos-ops 55, risk-uitm 50, sovereign-ai-perjasa 35, productisation 32. Total 406 messages across 6 sessions.
+- **Memory infra §9 framework (2026-08-19):** §5 Cognitive Loop → §7 Actionable Intelligence → §9 Engineered Success applied in sequence to 3 cascade failures. Root causes: (1) deriver MAX_OUTPUT_TOKENS=4096 too small for reasoning models, (2) EMBEDDING_BASE_URL pointed at host port 127.0.0.1 unreachable from containers, (3) 1,946 embeddings permanently stuck at sync_state='failed' after MAX_SYNC_ATTEMPTS=20. All fixed. §9 DoD: 4/5 complete, DoD-1 ⏳ (CP3 Aug 20 12:00 UTC). First time all three doctrinal instruments applied to same problem. Key lessons: (a) "self-heal overnight" was wrong — failed rows permanently skipped, (b) Docker containers can't reach host ports, (c) container "healthy" ≠ producing value, (d) dedup guard pagination bug was live ADEP-001 case study — gate.sh would have caught it.
+- **ADEP-001 compliance trend:** 82% (Aug 20 AM) → 83% → 86% → 88% (Aug 20 PM, stable Aug 21). Improvement from D3 records (assumptions + failure modes). 2 D2 blocks remain (pre-task gates not run for some actions). Audit mechanism working — identifies drift.
+- **CognitiveOS operational review (2026-08-17):** 🟡 OPERATIONAL WITH GAPS. Doctrine ✅, Intake 🟡, Memory ✅, CVS ✅, Collection ✅, OSINT ✅, Orchestration 🟡, Stakeholder tracking 🟡, Portfolio governance 🔴. Key gap: orchestration automation. 90-day roadmap: P1 stabilization, P2 automation, P3 optimization.
+- **All GitHub repos flipped to private (2026-08-21):** 11 public repos made private at DAF directive. `strategic-cognitiveos` later made public again (DAF directive, Aug 22). Git remote for strategic-cognitiveos fixed: origin updated from deleted `cognitiveos-workspace.git` → `strategic-cognitiveos` (Aug 21).
+- **Hiddify App operational analysis (2026-08-19):** Best cross-platform proxy client. Flutter/Sing-box, 5 platforms, 11 protocols. No audit, Sentry telemetry (disable before use), $670 funding (unsustainable). Recommended: self-host Sing-box on p62server with Reality protocol. Hardening checklist: disable Sentry, self-host, verify Sing-box core ≥1.4.4, enable kill switch. Report: `memory/hiddify-app-operational-analysis-20260819.md`.
+- **CognitiveOS taxonomy (expanded 2026-08-18):** 43 namespaces (was 25), 586 controlled values (was ~200). 0 violations (was 500+). Validator: `tools/validate_taxonomy.py`. 72 files normalised (organisation/→org/). 16 schemas synced. DEC-20260818-013.
+- **Cognitive Loop as default practice:** DAF now applies the Cognitive Loop to most topics. The loop is the default analytical method, not a special request. SOP-CL-001 codified (Cognitive Loop Review Against Strategic Objective, 7 steps, Monday 10:30 AM UTC+8 via Hermes cron `5bb8217c7f9d`).
+
+- **SSE Lead formalization (2026-08-20):** Amelia Nadia formalized as Cybersecurity Practice Strategic Stakeholder Engagement Lead (DEC-20260820-012, practice-wide, supersedes PC nomination DEC-20260815-005). 13-section operational role definition (DOC-20260820-006): 6 connected functions (Intelligence → Planning → Alignment → Execution → Tracking → Progression), 10 operational responsibilities, 5-stage stakeholder lifecycle, 8 core artefacts, 9 KPIs, 7 explicit authorities, 7 boundary exclusions. SPOF #1 (DAF 45%→~14 criteria, 33% reduction) and #4 (unfilled coordination role → resolved) both addressed. §5→§7→§9 doctrine applied (second complete application). §9 DoD for operationalization: Amelia briefed (due Aug 21), Engagement Brief prepared (due Aug 23), Hadri/Fuad briefed on boundaries (due Aug 24), WIG/Kenny Kok informed (due Aug 22), Monday POC executed as SSE Lead (Aug 24). Key gap: decision made, communication not yet done. Commits: `1441bf1`, `52161f7`.
+- **WIP Protocol + SOP-CL-001 v1.1 (2026-08-20):** Workflow Identification Protocol integrated into Cognitive Loop Step 3. For every new document: identify creation owner (don't default to DAF), audience, strategic/operational/tactical importance, 7-working-day TAT (3 creation + 2 QC + 1 approval), 4-role execution map (Creation → QC → Approval → Execution). TBA flagged when execution owner unknown. Key lesson: DAF had already acted outside email thread before gap was flagged — always check for actions taken outside the email. Originator correction: VoronCitadel POC document authored by Athena, not DAF.
+- **TBH Registry (2026-08-20):** To Be Hired registry created (`strategic-cognitiveos/governance/TBH-REGISTRY.md`). Renamed from TBA at DAF directive. Rules: every TBH must block a named action, priority = highest action blocked, weekly Monday review, escalation if CRITICAL >2 weeks without workaround. TBH-001: Project Manager — Cyber Security Practice, blocks ACT-20260820-004 (CRITICAL, VoronCitadel POC document, due Aug 24). Interim owner: DAF. Commits: `e445cf5`, `bc2537e`.
+- **Teras AI Platform (2026-08-20):** Farul's 5-layer enterprise AI platform (SULIT/INTERNAL ONLY). Layers: Sovereign AI Infrastructure (GPU compute, RTX PRO 6000 Blackwell) → AI Services & Foundation Models (LLM, RAG, Vision, etc.) → Governed AI Platform (Identity, API Gateway, AI Guardrails, Audit) → Applications (Akal Suite) → Users. Performance [T2/L2]: Qwen3.5-397B 136→605 tok/s (1→16 users, 4× RTX PRO 6000), Qwen3.6-27B 169→2,800 tok/s (1→32 users, 2× RTX PRO 6000). DEC-20260820-008: Teras as infra layer for VoronCitadel. DEC-20260820-009: Teras expanded to ALL 3 products. Governance boundary: Teras=AI usage, VoronCitadel=org risk. VoronCitadel deploys as application ON Teras. POC timeline: 2-3 months → 2-3 weeks. FTE: 5 → 3. Target customers: MCMC, NSRD.
+- **VoronCitadel POC Mode (2026-08-20):** INIT-20260820-003 — 6-7 POCs + 3 paying customers. Org architecture (DEC-20260820-007): CTO Farul / Teras infra / Practice sovereign. 3 hiring actions: HoE (RM 18,888/month, ACT-20260820-007), CSE (ACT-20260820-008), Junior Backend (ACT-20260820-009). HoE gates POC scaling. RSK-20260820-003 (no HoE, Critical), RSK-20260820-004 (Hadri HoE dual-role risk). RSK-20260820-008: Monday Aug 24 convergence — 3 tracks (VoronCitadel POC, chain:SENTRY Phase 0, CSM sync-up) need DAF+Hadri, no HoE.
+- **"That's it" session-level intake (2026-08-20):** SOP v1.2 institutionalised. When DAF sends "that's it", entire session ingested as session-level intake (third tier alongside email and document). Scans full conversation for all entities. First use Aug 20 17:00 UTC — caught RSK-20260820-008 (convergence risk) from daily review. Commit `c5ef5d7`.
+- **§9 DoD-1 CONFIRMED PASSED (2026-08-21):** Memory infrastructure 24h zero-error window confirmed stable ~2 days (Aug 20 17:00 UTC through Aug 22). 2,245 messages, 100% synced, zero backlog, all containers healthy 2+ days uptime. §9 DoD final: DoD-1 ✅ (24h zero errors, confirmed), DoD-2 ✅ (backlog=0), DoD-3 ✅ (TEI in compose), DoD-4 ✅ (monitoring cron), DoD-5 ✅ (clean restart). First complete §9 cycle — framework is now proven and validated.
+- **Memory pipeline stage-matched config (2026-08-21):** Athena's stage-matched principle applied. Deriver: THINKING=medium, MAX_OUTPUT_TOKENS=16384. Summary: THINKING=minimal, MAX_OUTPUT_TOKENS=2048, MAX_TOKENS_SHORT=1024, MAX_TOKENS_LONG=2048. Principle: deriver needs to think (medium), summary needs to compress (minimal/no thinking, tight output). 16K on summary is a warning sign, not a solution. Embedding = no thinking whatsoever. "Think minimally, represent maximally." Backup: `.env.bak.20260821-0521`.
+- **Co-branding decision + Gate 0 framework (2026-08-21):** DEC-20260821-006 — Products ARE CSM × Aras co-branded (all 3 products). Co-branding is the engagement proposition. Roshdi (Acting CEO) added as Gate 0 — executive authorization required before public co-branding claims. 7-stakeholder chain: Roshdi → Azrul → Zulfeka → Bala → Wan Roshaimi → Zaharudin → Dr. Megat (Gates 0-6). Media narrative v1.1 prepared but HELD until Gate 0 closes (deadline Aug 28, ACT-20260821-006). GovSec is primary co-branding proof point (real SiberSUITE integration). Commits: `d9672c4` through `42a7258`.
+- **Wan Roshaimi engagement protocol — GovSec-primary (2026-08-21):** DOC-20260821-001 (one-pager) + DOC-20260821-002 v1.1 (actionable intelligence protocol). 5-layer engagement: L1 Gate 4 validation (Sep 10) → L2 co-branding credibility (Oct 5) → L3 technical partnership (Oct-Dec) → L4 CSCDC transition (2026-2027) → L5 long-term national technical leadership. Protocol: Phase 0-3, 6-outcome decision tree, escalation paths, weekly Monday monitoring, 6 KPIs, 10 rules. GovSec primary (35 min), VoronCitadel + chain:SENTRY secondary (15 min combined). Gate 4 can close with GovSec only. STK-20260812-001 major upgrade (25+ year career, 7-dimension influence, merge with STK-20260815-012). Framing: "your team is already building with ours." Commits: `3afffc5`, `e7eb004`, `42a7258`.
+- **Ember role boundary (2026-08-21):** DEC-20260821-007 — Ember's job: track everything, make sense of things, plan strategically, operationalize into clear actions with right owners. NOT execution, closing gates, writing external docs, overriding roadmap sequencing, or hiring. ACT-009 overreach (drafting CSM scoping doc = execution, not tracking). Taxonomy work IS Ember's job. Output commitments: (1) Weekly Strategic Brief every Monday before 10am MYT, (2) Pre-meeting Prep before Gate 0/POC briefs/working groups, (3) Action Queue — short live list, drafts triaged, (4) Heartbeat discipline — HEARTBEAT_OK when nothing new. Behavioral changes: close before create, check authority before generating, stop drifting into execution. "That's it" trigger missed 4× (LSN-20260821-007) — first week of SOP v1.2. Fix: when in doubt, run intake.
+- **SOP-AV-001 Action Register Validation Standard (2026-08-21):** 15 validation rules across 4 evidence tiers (A: Primary, B: Corroborating, C: Contextual, D: Absence). Severity S1-S4. Weekly cadence: Mon 08:00 automated scan → 08:30 semantic cross-check → 09:00 corrections. Phase 1 executed: 95 drafts scanned, 12 corrections applied. Completion 6.9%→15.9%, overdue 33→21. 46 PROBABLE + 46 genuinely pending remaining. 4-phase implementation: Manual (done) → Semi-automated (1 week) → Full AI-assisted (2 weeks) → Continuous on every intake (1 month). Commit `1ce503a`.
+- **ADEP-001 institutionalised as binding (2026-08-21):** AGENTS.md upgraded from advisory to binding 5-step modus operandi: classify → pre-gate → execute with discipline → QC → close-gate. Operational SOP created (`governance/ADEP-001-OPERATIONAL-SOP.md`). Git remote fixed: origin → `strategic-cognitiveos`. ADEP audit 88% (15 pass, 2 block — both from Aug 19, gates working as designed). 100% path: (1) reclassify test invocations + count final state, (2) pre-gate validation check. Commit `ae23019`.
+- **Naming alignment + framework tagging (2026-08-21/22):** VoronDRQ → VoronCitadel (396 replacements, 139 files). ChainSentry → chain:SENTRY (319 replacements, 100 files). Historical references preserved. 477 files tagged, 1,397 tags, 662 files validated, 0 violations. Tag categories: domain/, framework/, doctrine/, deadline/, outcome/, cognitive-loop/. Taxonomy is now the query layer across the entire knowledge base. Commits: `b3789e0` (tagging), `908818c` (naming) — 205 files, 955 insertions, 655 deletions.
+- **Bursa POC technical validation (2026-08-21):** DAF's 20-section POC draft v0.1 cross-referenced against MVP Spec v2.0. 17/22 test cases confirmed production, 5 require Fuad validation. 2 CRITICAL: AI-01/AI-02 (cross-domain NL queries — implies RAG pipeline Phase 2 vs 6 production Copilot capabilities), DRM-01 (digital-risk triage — manual ingestion vs automated detection Phase 2). 2 HIGH: Teras not in architecture section, Sovereign AI underemphasized. Assessment: execution-ready, not a first draft. INT-20260821-003. Commits: `48f6754`, `cce84ea`, `4602519`, `55f3729`.
+- **Merged pending register + Monday sequencing (2026-08-21):** Dual-review convergence (Ember governance × Athena operational). 14 items (Athena's 12 + chain:SENTRY Phase 0 + UPM Sep 11). Binding constraint: engineering resourcing RM39,656/mo for 3 hires. Monday Aug 24 sequencing: POC Mon → Phase 0 Tue → CSM Thu/Fri. "No more briefs" directive — phase shifted from product creation to productisation/stakeholder activation. DEC-20260821-001–005, ACT-20260821-001–004.
+
+### Repositories
+- `cognitiveos-workspace` — Technical workspace, skills, memory
+- `cbo-01-commercial-ops` — Commercial operations, stakeholder decks
+- `Voron-Campaign` — RMiT compliance (143 FIs, 1,001 stakeholders)
+- `HOI-Intelligence-Operations` — 100 gov agencies, 10 PIRs, daily briefs
+- `th-rci-parliamentary-watch` — TH RCI parliamentary watch (public). Case file + suspect deep dive. RM19.6B losses, 14+ individuals, 3 arrest waves. Critical: Aug 19 remand expiry.
+- `strategic-cognitiveos` — CognitiveOS governance, records, indexes. Git author: DAF (rewritten from PKR War Room, 2026-08-17).
+- `cohort-programme` — Cohort programme operational workspace: strategic objective, IP framework, portfolio register, participant templates, gate forms, Joint IP Register. Weekly Monday 10:30 AM UTC+8 review via Hermes.
+- `cyberdsa-media` — CyberDSA 2026 brand narrative workspace: 13 section directories, templates (press release, social media, one-pager), QC checklist, brand glossary. TLP:AMBER.
+
+---
+
+## 🏢 Commercial & Strategic Memory
+
+### Aras × CSM Partnership
+- **MOU signed.** Voron Citadel (VoronDRQ) technical training delivered Aug 14 to joint sales teams
+- **Post-MOU working group (DEC-20260820-002, Aug 20):** Smaller working group established. Aisha confirmed as CSM coordinator (upgraded from proposed). Amelia formally introduced to Zulfeka as Strategic Stakeholder Engagement Lead. Sync-up scheduled week of Aug 25 (ACT-20260820-003, Amelia coordinating, HIGH).
+- **SiberSUITE × GovSec integration:** Telemetry → GovSec Analytics → CBOM Agent → Cyber Score Card
+- **Three co-branded sovereign tech offerings** for CyberDSA launch. Co-branding confirmed DEC-20260821-006 — CSM × Aras for all 3 products. GovSec is primary proof point (real SiberSUITE integration). Media v1.1 HELD until Gate 0 (Roshdi) closes.
+- **NACSA endorsement** in active discussion
+- **193-org segmentation (SEG-20260818-001):** 93 A-Target, 35 B-Engage, 44 C-Monitor, 19 D-Watch. Top 15 VIP shortlist. Shuhada execution framework: 2.1 by Aug 20, 2.2 by Aug 21, meeting requests by Aug 22.
+- **Stakeholder coverage (TRK-20260818-001):** 94 records, 53 (56.4%) with no recorded contact
+- **Internal org structure:** DAF (Director, strategic + commercial) + Fuad (Practice Technical Authority, technical across products, built 2 of 3) + Hadri (Blockchain Lead Architect + COO within practice, operational co-leader + chain:SENTRY owner), Syahir (POC Engineer, delegated by DAF DEC-20260818-007). Farul = CTO (MTAI, org-level above practice). Amelia Nadia = Cybersecurity Practice Strategic Stakeholder Engagement Lead (formalized DEC-20260820-012, practice-wide, supersedes PC nomination DEC-20260815-005). 3-person leadership team + Syahir as support + Amelia as stakeholder engagement lead.
+- **Hadri meeting:** Aug 20 (not Aug 19 — first weekly review day). Cross-product support model deferred post-PCD (Aug 28).
+- **VoronCitadel POC — Bursa Malaysia (Aug 20-21):** First named POC from CSM channel. Azrul kicked off VoronCitadel POC for Bursa Malaysia (Tier-1 financial CNII). Deep dive Aug 24 10am MYT. DAF committed to 8-section consolidated POC document. CRITICAL actions: ACT-20260820-004 (prepare 8-section POC doc, due Aug 24 10am), ACT-20260820-005 (attend deep dive, Aug 24 10am). Fuad and Farul CC'd — formal product-level engagement. Azrul conversion gap CLOSED (STK-20260813-008). OPP-20260820-001. ORG-20260820-001. **Technical validation (Aug 21):** DAF's 20-section POC draft v0.1 cross-referenced against MVP Spec v2.0 — 17/22 confirmed production, 5 require Fuad validation. 2 CRITICAL: AI-01/AI-02 (cross-domain NL queries — implies RAG Phase 2), DRM-01 (digital-risk triage — manual vs automated). 2 HIGH: Teras not in architecture section, Sovereign AI underemphasized. INT-20260821-003.
+
+### CyberDSA 2026 (Oct)
+- **Silver Sponsorship RM50K** — dual approval needed. Aug 22 deadline deferred to Monday Aug 24 at DAF directive. T+2 past deadline.
+- **Co-branding framework (2026-08-21):** DEC-20260821-006 — CSM × Aras co-branded for all 3 products. Roshdi (Acting CEO) = Gate 0 (executive authorization, deadline Aug 28, ACT-20260821-006). 7-stakeholder chain: Roshdi → Azrul → Zulfeka → Bala → Wan Roshaimi → Zaharudin → Dr. Megat. Wan Roshaimi = Gate 4 (technical validation, DOC-20260821-001/002 v1.1 GovSec-primary). Media v1.1 held until Gate 0 closes.
+- **Positioning statement SIGNED OFF** (DEC-20260816-002, commit `2e6fb03`)
+- **Brand Narrative (DOC-20260818-002):** 13-section framework, primary reference for all materials. Campaign line: "Built in Malaysia. Integrated for Malaysia. Engineered for Sovereignty." Corporate positioning: "Aras Integrasi — Malaysian Sovereign Technology Integrator." Hierarchy: Sovereign Capability → Integrated Stack → Technology Pillars → Individual Features. Repo: `cyberdsa-media`.
+- **193-org segmentation framework (SEG-20260818-001):** 93 A-Target, 35 B-Engage, 44 C-Monitor, 19 D-Watch. Top 15 VIP shortlist. Unblocks 6 CyberDSA criteria.
+- **Stakeholder Coverage Tracker (TRK-20260818-001):** 94 records, 53 with no recorded contact (56.4%)
+- **4 focus areas:** Partnership, Marketing/Media, Commercial, Post-Launch
+- **Actions:** ACT-20260817-001 (Hadri, due Aug 22), -002/-003/-004 (due Aug 29), ACT-20260818-004 (branding team adopt narrative, due Sep 1), -005 (visual/booth design, due Sep 15)
+- **Risks:** RSK-20260816-002 ("commercially viable" claim), RSK-20260816-003 ("Malaysia's First" claim → Mitigating via §9 guardrails)
+- **chain:SENTRY assessment (v4.1, 20 Aug):** 12 of 17 gaps closed in code (all Critical/Must), but NOT deployed. Implementation 69%, deployed 47%. 3 Critical Phase 0 blockers: credential rotation (M1), address-security regression (M2), deployment not describable (M3). Phase 0 (5 days) → 77%. chain:SENTRY rebrand + chain:HARVEST (Digital Asset Tracing MCP) new product family. Roadmap v2.0: Phase 0–3, 14 milestones, critical path M1–M7.
+- **Key decision needed:** chain:SENTRY vs GovSec TIP hardening priority (recommendation: ChainSentry first — sovereign blockchain story more differentiated)
+
+### Productisation — Development Freeze (Aug 11)
+- **Freeze on all 3 flagships:** VoronCitadel (formerly VoronDRQ), GovSec TIP, chain:SENTRY
+- No new features. Focus: productisation, commercial readiness, GTM
+- 6-category framework per product: MVP Spec, Roadmap, Backlog, Commercial Readiness, GTM Materials, Governance
+- **Bottleneck:** Fuad capacity overload (21 deliverables, 1 person)
+- GovSec TIP v3.0: Threat Viz, Executive Dashboard, RAG AI Analyst
+
+### R.I.S.I.K (UiTM Collaboration)
+- **INIT-20260803-002** — UiTM agreed in principle (Prof. Suhaimee + 5 team members). Readiness: Collaboration Framework Agreed (10/16 checkpoints passed).
+- **Cost structure:** RM5.0M, 12-month, 9-component (DEC-20260815-001)
+- **Target funder:** MCMC (STK-20260815-002)
+- **Four-pillar framework (agreed):** Core IP, Derivative IP, Joint Research, Government Activation
+- **Doctrine analysis (2026-08-18):** Five-layer methodology (R→I→S→I→K closed cycle), §2.5 AI rules (AI is NOT a fourth discipline, analyst accountability, source tracing), narrative escalation ladder (5 rungs), source grading A-F
+- **KKOM system:** GovComms Command Center, 8-screen prototype live, 7-step pathway, TULIS→BINA→SEMAK→LULUS governance cycle
+- **3 AI use cases:** (1) Signal Collection & Grading Engine, (2) Issue Decomposition Assistant, (3) Reference Poisoning Monitor (first-mover)
+- **17 questions prepared for CMIWS**
+- **§2.5 as self-governance:** AI rules apply to Ember's own work — accountability stays with DAF, AI output is T3 max, declare AI influence, treat monitored content as untrusted
+- **Next:** Internal review (ACT-20260818-006, Aug 29), alignment session (ACT-20260818-007, Sep 5), MCMC proposal prep
+
+### CRC 2026 Sponsorship
+- **Status:** RM5K sponsorship approved (DEC-20260820-001, reduced from RM10K by organiser). Tier 2: Incubation.
+- **Stakeholders:** Dr. Ji-Jian Chin (organiser, STK-20260820-001), Orange Ng (WIG sponsorship coordination, STK-20260820-002)
+- **Actions:** ACT-20260820-001 (engage re: customised package, due Aug 28, HIGH), ACT-20260820-002 (confirm finance payment, due Aug 29, HIGH)
+- **Risk:** RSK-20260820-001 — T-12 days, customised package not yet negotiated. Concurrent with CyberDSA (T-49) — resource contention.
+
+### PERJASA Government AI Workshop
+- **Status:** CONFIRMED Sep 2-3, 2026 (ACT-20260813-002 closed)
+- **Agenda:** Delivered and shared with PERJASA (ACT-20260813-006 closed). 8-page final agenda, 12 Aug 2026.
+- **Delivery model:** Discover → Design → Build → Validate (2 days, 4 teams, 3 gates)
+- **Focus areas:** AI Infrastructure, AI Development, AI Cybersecurity, AI Productivity
+- **Evaluation:** 100-point framework, 70 threshold for pilot progression
+- **Core nucleus:** 5 named (JDN ×3, MOH ×1, SUK NS ×1)
+- **Post-workshop:** 90-day continuation pathway (6 milestones)
+- **Risk resolved:** RSK-20260813-001 (first risk to reach resolved status)
+- **5 downstream actions unblocked:** ACT-20260813-003 through -007
+- **PERJASA review:** Agenda transmitted, review pending on their side (ACT-20260813-001 → pending)
+- **Resource collision:** PERJASA Sep 2-3 competes with CyberDSA hardening window for Hadri/Fuad/DAF. No mitigation decision yet.
+
+### Cohort Programme Governance (built 2026-08-18)
+- **Strategic Objective (canonical):** Alumni community as primary; co-development & joint IP creation for sovereign technology deployment as major focus
+- **Pathway:** Cohort → Alumni Community → Co-Development → Joint IP → Validation → Pilot → Commercialisation → Sovereign Deployment → Enduring Strategic Ecosystem
+- **Proposition:** Bring Your IP. Build With Aras. Own What We Create Together.
+- **IP Framework:** WIPO-aligned, 6-layer architecture, 50:50 Foreground IP, 7-gate IP governance (MyIPO-aligned), revenue separated by component
+- **Portfolio Register:** 5 programmes with kill dates. PMO (Aug 25) and CSM-Aras (Aug 25) kill dates first to enforce.
+- **SOP-CL-001:** Cognitive Loop Review Against Strategic Objective — 7-step process, Monday 10:30 AM UTC+8 via Hermes cron `5bb8217c7f9d`. First run Aug 24.
+- **Repo separation:** Cohort repo = operational workspace. CognitiveOS repo = governance reference only.
+- **Key principle:** DAF sets strategy, Ember builds architecture. The review measures pathway stage progression, not just execution status.
+
+### Skunkworks — AIRecon
+- **APPROVED** Option A (Tracks A-E). 32x B200 + 12x A100 available — zero hardware constraint
+- Intern research/extension project, not core build. Safe Mode fork (read-only recon)
+
+---
+
+## 📋 Active Workstreams Summary
+
+| Workstream | Status | Next Action |
+|------------|--------|-------------|
+| GovSec TIP | Dev freeze → CyberDSA launch | Gate 4 evidence pack (22-27 Aug critical path) |
+| VoronCitadel | Productisation | **Bursa POC brief Aug 24 (TODAY) + GTM alignment Aug 25 + Zulfeka working group Aug 26** |
+| chain:SENTRY | Productisation — 6 critical gaps | Phase 0 hardening |
+| CSM × Aras GTM | Working group established | **Zulfeka working group Aug 26 (Gate 2 closure, AIP-20260823-001)** |
+| CyberDSA 2026 | War-room | Silver sponsorship RM50K deferred to Aug 24; branding team adoption (Sep 1) |
+| R.I.S.I.K | Collaboration Framework Agreed | Internal review (Aug 29) + alignment session (Sep 5) |
+| PERJASA Workshop | ✅ Confirmed Sep 2-3 | Logistics execution (5 downstream actions unblocked) |
+| Cohort Programme | Governance architecture built | First automated review Aug 24 (SOP-CL-001) |
+| UPM Purple Teaming | Proposal Stage | UPM proposal due Sep 11; Aras evaluation framework prep |
+| TH-RCI Watch | Active | Aug 19 remand expiry monitoring |
+| CognitiveOS | 🟡 Operational with gaps | Taxonomy expanded (43 namespaces, 0 violations). Memory infra FULLY OPERATIONAL. |
+| Memory Infrastructure | ✅ FULLY OPERATIONAL | All 4 phases complete. §9 DoD-1 confirmed stable 3+ days. |
+| CRC 2026 | RM5K sponsorship approved | Customised package negotiation (due Aug 28) |
+| Project Hearth | Initiative launched | Vision doc v0.1 — needs DAF's voice before external |
+
+## Action Pipeline Status (as of 2026-08-24 03:00 UTC)
+
+| Metric | Value |
+|--------|-------|
+| Actions completed | 26 (16.1%) — was 23 (15.9%) Aug 23 |
+| Actions in draft | 57 (35.4%) — was 83 (57.2%) — significant reduction from SOP-AV-001 corrections |
+| Risks resolved | 1 |
+| Overdue | 31 — was 21 (26 actions moved to overdue by SOP-AV-001 weekly scan) |
+| CRITICAL actions | ACT-20260820-004/-005 (VoronCitadel POC, due Aug 24 TODAY), ACT-20260822-001 (Hadri+Fuad requirements, due Aug 27), ACT-20260823-001 (corrected TBH-001 justification, due Aug 26) |
+| PROBABLE (evidence exists, needs confirmation) | 46 — Tuesday/Wednesday review agenda |
+| Genuinely pending (no evidence) | 46 — needs triage |
+| Orphan actions (no related_records) | 107/161 (66%) — systemic data quality gap |
+
+**Tuesday review items (stale — 6 cycles, 0 movement on original 4):**
+1. CSM-Aras AI Token session (DAF calendar block, 2 hrs) — STALE 6 cycles
+2. GTM programme mechanism (DAF 2-hour drafting session) — STALE 6 cycles
+3. Tech docs handover (confirm Fuad capacity) — STALE 6 cycles
+4. CyberDSA launch checklist (confirm Hadri acknowledgment) — STALE 6 cycles
+5. Decide chain:SENTRY vs GovSec TIP hardening priority for CyberDSA (by Aug 20)
+6. Hadri meeting (Aug 20, COO role, CyberDSA readiness, chain:SENTRY PCD)
+7. Shuhada meeting (Aug 20, account ownership model, 193-org framework handoff)
+8. VoronCitadel POC 8-section document (due Aug 24, CRITICAL)
+9. CRC 2026 customised package negotiation (due Aug 28)
+10. SSE Lead briefing — Amelia briefed before Monday (slipped Aug 21 → Aug 24, CRITICAL)
+11. WIG/Kenny Kok informed of Amelia's expanded scope (due Aug 22)
+12. Hadri/Fuad briefed on Amelia role boundaries (due Aug 24)
+13. **NEW:** Gate 0 — Roshdi executive co-branding authorization (due Aug 28, CRITICAL)
+14. **NEW:** Merged 14-item pending register presented at Tuesday review (due Aug 25)
+15. **NEW:** 46 PROBABLE actions from SOP-AV-001 Phase 1 — confirmation at Tuesday review
+
+---
+
+## 📝 Key Promoted Memories (Condensed)
+
+- **2026-06-11:** MiroFish Twitter bug fixed. DeerFlow operational. Phase 1 approved.
+- **2026-06-28:** CVS mandated system-wide. Memory harness built (5 scripts). QMD backend active.
+- **2026-07-05:** Offensive security tooling expansion 5→16 repos. pentest-ai-agents (31 subagents) integrated.
+- **2026-07-10:** Repository separation: Voron-Campaign + HOI-Intelligence-Operations. Zero data loss.
+- **2026-07-19:** Crawl4AI 0.9.2 integrated. 100% collection success rate.
+- **2026-07-24:** PI-OS specification received from DAF. PI-OS is format, not platform.
+- **2026-07-25:** ChatGPT+GitHub integration makes PI-OS AI Layer achievable without custom scripting.
+- **2026-08-02:** Personal background dossier PERMANENTLY DELETED per DAF directive.
+- **2026-08-04:** R.I.S.I.K operating doctrine expanded (23 sections, 4-layer architecture).
+- **2026-08-07:** UiTM R.I.S.I.K collaboration accepted in principle. 5 named team members.
+- **2026-08-09:** AIRecon approved (Option A). 32x B200 + 12x A100 — no hardware limit.
+- **2026-08-10:** GovSec dev freeze declared. SiberSUITE integration session. CyberDSA launch readiness.
+- **2026-08-11:** Freeze expanded to all 3 flagships. 6-category productisation framework.
+- **2026-08-15:** R.I.S.I.K cost structure RM5M formalised. MCMC target funder.
+- **2026-08-16:** CyberDSA positioning signed off. Kimi K3 compatibility analysis (conditional). Silver sponsorship RM50K submitted. Two new DAF directives: (1) auto-draft on identified need, (2) drafts to Telegram + sync to GitHub.
+- **2026-08-17:** CSM partnership alignment email sent (4 actions). Azrul stakeholder assessment completed. Weekly workplan Aug 17-21: 13 deadlines, 7 overdue. CognitiveOS operational review completed (🟡 operational with gaps). Three-validation-architecture doctrine clarified by DAF (separate by design). Memory infrastructure assessed (Honcho+pgvector+Redis idle). Git author identity rewritten (PKR War Room → DAF, 107 commits).
+- **2026-08-18:** Cohort programme governance architecture built in one session (portfolio register, strategic objective, IP framework, participant artefacts, SOP-CL-001, repo, Hermes cron). 193-org segmentation framework delivered (72hrs late, 93 A-Target, 35 B-Engage). Stakeholder coverage tracker created (94 records, 56.4% no contact). CyberDSA Key Media & Brand Narrative delivered by DAF — 13-section framework, campaign line "Built in Malaysia. Integrated for Malaysia. Engineered for Sovereignty." `cyberdsa-media` repo created. RSK-20260816-003 upgraded to Mitigating. CSM formal letter (Suraya Hani → Dr. Azree, UPM) requesting 6-component Purple Teaming proposal by Sep 11. Aras formally designated infrastructure funder. INIT-20260813-004 → Proposal Stage. CognitiveOS taxonomy expanded: 25→43 namespaces, 500+→0 violations, validator built. 72 files normalised. R.I.S.I.K deep analysis: doctrine (five-layer, §2.5 AI rules), KKOM system discovery (TULIS→BINA→SEMAK→LULUS), 3 AI use cases (Signal Collection, Issue Decomposition, Reference Poisoning Monitor), 17 questions for CMIWS. 10 new records across 2 commits. chain:SENTRY Cognitive Loop: 6 critical gaps, zero pilot agreements, sales kit complete but zero pipeline conversion. Hadri = COO within practice (corrected). Cross-product support model deferred post-PCD (Aug 28). Hadri meeting scheduled Aug 20. Shuhada meeting designed (Meeting 3). 3 actions closed (ACT-20260802-001, -002, ACT-20260816-001). Product repo deadline extended to Aug 28. Hadri org structure updated (STK-20260803-007, commit `d5f771e`).
+- **2026-08-19:** Honcho Phases 1–4 complete in one day. cognitiveos workspace (9 peers, 7 sessions). Connector scripts (recall.sh, query.sh, ingest.sh — 4 bugs fixed). Operational gates (gate.sh, audit.sh — ADEP-001 enforcement). Dedup guard with pagination fix. DB: 406 messages across 6 sessions. ADEP-001 audit: 82%. Three cascade failures fixed via §5→§7→§9 doctrine series: (1) deriver MAX_OUTPUT_TOKENS=4096 too small for reasoning models, (2) EMBEDDING_BASE_URL pointed at host port unreachable from Docker, (3) 1,946 embeddings permanently stuck at sync_state='failed'. §9 DoD: 4/5 complete, DoD-1 ⏳ (CP3 Aug 20 12:00 UTC). Model routing three-tier: GLM-5.2 (session), Qwen3.5-397B (deep), Qwen3.6-27B (light). TEI batch benchmark: ONNX batch-8 Mutex cap is permanent (~56 items/s). Optimal config: concur=128, client=128, batch=100. TEI Alternative Review scheduled Aug 22. Monthly Model Stack Review cron created. Hiddify App operational analysis completed — best cross-platform proxy client, deploy with hardening.
+- **2026-08-20:** CRC 2026 sponsorship RM5K approved (DEC-20260820-001). Dr. Ji-Jian Chin + Orange Ng added as stakeholders. RSK-20260820-001 (timing risk, T-12 days). CSM post-MOU working group established (DEC-20260820-002) — Aisha confirmed as coordinator, Amelia introduced to Zulfeka. Sync-up week of Aug 25. VoronCitadel POC — Bursa Malaysia: first named POC from CSM channel (OPP-20260820-001). Azrul conversion gap closed. CRITICAL: 8-section POC document due Aug 24 10am MYT (ACT-20260820-004). DAF elevated to pre-flight check format, Fuad + Farul CC'd. chain:SENTRY Spec v4.1 + Roadmap v2.0 delivered by Hadri (email thread May–Aug). 12 of 17 implementation gaps closed in code (all Critical/Must) but NOT deployed — 29 commits/40 days behind trunk. Implementation readiness 69%, deployed 47% — 22-point gap. 3 Critical Phase 0 blockers: (1) 4 supplier credentials exposed ~32 days, confirmed unrotated 19 Aug, (2) address-security regression on trunk vs deployment, (3) deployment not describable (43 uncommitted mods, no migration ledger). Phase 0 (5 days) moves deployed readiness 47%→77%. chain:SENTRY rebrand announced + chain:HARVEST (Digital Asset Tracing MCP) new product family (OPP-20260820-002). DAF documentation drive directive issued (deadlines for all 3 products × 6 categories). 16 new records, commit `2ee5a0a`. Amelia Nadia formalized as Cybersecurity Practice SSE Lead (DEC-20260820-012, practice-wide, supersedes PC nomination). 13-section role definition (DOC-20260820-006). SPOF #1 and #4 resolved. §5→§7→§9 doctrine applied. WIP Protocol + SOP-CL-001 v1.1. TBH Registry created (TBH-001 PM, blocks CRITICAL). Teras AI Platform review — 5-layer architecture, DEC-20260820-008/009 (Teras as infra for all 3 products). VoronCitadel POC Mode (6-7 POCs + 3 paying). 3 hiring actions (HoE, CSE, Junior Backend). RSK-20260820-008 (Monday Aug 24 convergence). "That's it" session-level intake institutionalised (SOP v1.2). §9 DoD-1 likely passed (24h zero-error, not formally confirmed). 20 commits, ~57 records, 9 intake events. ADEP 82%→88%.
+- **2026-08-21 (dreaming cycle):** 12 files reviewed, 10 promotable, 7 promoted, 3 archived. SSE Lead formalization, WIP Protocol, TBH Registry, Teras AI Platform, VoronCitadel POC Mode, "That's it" SOP v1.2, §9 DoD-1 likely passed. Pattern: doctrine validated twice (infrastructure + organizational design), organizational capacity is new bottleneck, Teras changes commercial math, Monday Aug 24 convergence is highest-probability risk, Tuesday review items 5 cycles stale (0/4 original moved).
+- **2026-08-21:** Dual-review convergence (Ember × Athena) — 14-item merged pending register, Monday sequencing agreed (POC Mon → Phase 0 Tue → CSM Thu/Fri). Co-branding decision (DEC-20260821-006) — CSM × Aras for all 3 products, Roshdi as Gate 0. Wan Roshaimi engagement protocol (DOC-20260821-001/002 v1.1 GovSec-primary) — 5-layer architecture, 4-phase protocol, 10 rules, 6 KPIs. Role boundary defined (DEC-20260821-007) — tracking not execution, 4 output commitments. SOP-AV-001 Action Register Validation Standard — 15 rules, 4 tiers, Phase 1 executed (12 corrections, 6.9%→15.9% completion). ADEP-001 institutionalised as binding (5-step modus operandi in AGENTS.md). Memory pipeline stage-matched config (Athena's principle: deriver=medium, summary=minimal, embedding=none). Naming alignment (VoronDRQ→VoronCitadel 396 reps, ChainSentry→chain:SENTRY 319 reps, 662 files 0 violations) + framework tagging (477 files, 1,397 tags). Bursa POC technical validation (17/22 confirmed, 2 CRITICAL items need Fuad confirmation). Gateway timeout fix (invalid config key + no timeout on vLLM provider). All 11 GitHub repos flipped to private (strategic-cognitiveos later made public). "That's it" trigger missed 4× (LSN-20260821-007). ACT-009 SOAR scoping overreach quarantined. ~20 commits, ~30+ records. ADEP 88%.
+- **2026-08-22 (dreaming cycle):** 17 files reviewed, 16 promotable, 9 promoted, 7 archived. Co-branding + Gate 0, Wan Roshaimi GovSec-primary protocol, Ember role boundary, SOP-AV-001, ADEP-001 binding, stage-matched config, naming alignment + framework tagging, Bursa POC validation, merged pending register + Monday sequencing. Pattern: role boundary is governing constraint, co-branding is strategic frame for all CSM-facing work, validation becoming systematic (3 mechanisms), "read before assessing" captured twice, Athena's stage-matched principle is architectural standard, §9 DoD-1 formally confirmed, Memory Dreaming cron error streak broken (2 consecutive successes).
+- **2026-08-22:** Gate 4 governing principle (DEC-20260822-001, evidence drives narrative, future-state reclassification). Session-level intake: VoronCitadel GTM Strategy Final Draft from WIG Marketing (three layers, nine initiatives, RM 175-295k, Aug-Dec 2026). Full CSM-Aras email trail ingested (May 15 → Aug 21, 14 weeks, 3 phases). DAF feedback: Layer 1 aligned, Layer 2 contested (ROI/budget ownership), Layer 3 full support. DAF's conversion model: 193 orgs → 1,300 stakeholders → 260 engaged (20%) → 78 meetings (30%) → 23 POCs (30%) → 7 sales (30%) → RM 1.176M. VoronCitadel retail RM 368k, early adopter RM 168k. Tuesday Aug 25 2:30 PM GTM alignment meeting confirmed. 11 new records, 3 updated, 6 indexes, commit `a0d4c1a`. RSK-20260822-003 (timeline compression), RSK-20260822-004 (marketing capacity gap). OPP-20260822-001 (RM 1.176M revenue projection). CSM pattern: selectively responsive (operational yes, strategic no). CSM event calendar 8 weeks unresolved, focal person 7 weeks unresolved.
+- **2026-08-22 (cont):** Project Hearth Vision Document (DOC-20260822-003, INIT-20260822-001) — sovereign cognitive infrastructure framing, 4 phases (Personal→Practice→Product→Category). Critical correction: CognitiveOS itself is still in Phase 1 — "operational and maturing," NOT "proven." Memory infra stabilized 2 days ago, ADEP 88%. Commits `3006ed4`, `7ae47f4`. GovSec 3-Layer Assessment (ASSESS-20260822-001) — Layer 1 downgraded STRONG→CONDITIONAL after DAF correction: SiberSUITE, CBOM, Cybersecurity Score Card are pre-planning discussion items, NOT committed stack components. Layer 2 CRITICAL GAP (10 missing evidence items, 8 Critical). Layer 3 STRONG. Framing: "we've identified how CSM assets could integrate" not "your team is already building with ours." RSK-20260822-001, ACT-20260822-001 (Hadri+Fuad, Aug 27, CRITICAL), LSN-20260822-001 (vendor-detection instinct). Commits `db5faa8`, `74bd9fb`. DOC-20260822-002 Gate 4 Technical Governance review — 18 sections, 11 pages, 9-state evidence classification (Implemented→Tested→Available→Validated→Designed→Proposed→Future-State→Pending→Unresolved), Integration State Matrix as central control, 8-artifact evidence package, 5-phase critical path (22-27 Aug). Governing principle: "Make the co-branding narrative precisely match the evidence." Vendor-detection insight: exclusion of future-state items STRENGTHENS the case. ESF-20260822-001 VoronCitadel GTM Engineered Success Framework — 5 DoD checkpoints (Aug 24→Nov 30), 10 engineered success conditions, 8-risk matrix with recovery paths, 60-70% overall probability. Commit `3cb9d2c`. VoronCitadel GTM Quantifiable Outcomes (ART-20260822-003) — cost RM 205-310k, funnel 300→2-3 sales, revenue RM 336-504k, ROI 1.45x to break-even, revenue lag 2-4 months. MQL cost: Layer 1 only RM 500-875/MQL, Layer 1+2 RM 2,375-4,375/MQL. Said's deck gap: no revenue terminal, no ROI. 6 TBD items for Tuesday. Funnel Reconciliation One-Pager (ART-20260822-002) — reconciled deck (300→3) × DAF model (1,300→7→RM 1.176M) into single phased funnel. Phase 1: 52 orgs→70 engaged→21 meetings→6 assessments→2 POCs→1-2 sales→RM 168-336k. 7 decisions for Tuesday. AIP-20260822-001 (5 high-leverage items), LSN-20260822-002 (read before assessing, deriver-qualified), DEC-20260822-003 (LSN mandatory deriver-qualified). Document index audit — 20/20 coverage (was 15/20), ID collision fixed (DOC-20260822-001→-003 for Project Hearth). Commit `eab7c28`.
+- **2026-08-23 (dreaming cycle):** 12 files reviewed, 12 promotable, 7 promoted, 5 archived. Project Hearth + Phase 1 correction, GovSec 3-layer + future-state reclassification, DOC-20260822-002 Gate 4 review (9-state classification, governing principle), ESF-20260822-001 VoronCitadel GTM, GTM quantifiable outcomes model, funnel reconciliation + 7 decisions, document index audit. Pattern: future-state reclassification is defining correction, 9-state evidence classification is reusable standard, ESF pattern now standard doctrine (3 instances), financial model is missing dimension in GTM, document index drift is structural risk, CognitiveOS Phase 1 correction prevents systemic overclaiming, Tuesday Aug 25 is convergence point for 3 workstreams. Memory Dreaming cron: 3 consecutive successes.
+- **2026-08-23:** TBH-001 PM hiring justification fact-check (ASSESS-20260823-001) — 3 quantitative corrections (71≠69 rows, 74hr/week not defensible, 54% is action-ownership not workload), 1 role-boundary fix (PM≠TPM), 1 strategic reframe (structural vacancy as primary argument). 3 new lessons (quantitative overclaim pattern LSN-20260823-001, PM≠TPM LSN-20260823-002, structural vacancy beats headline numbers LSN-20260823-003). Commit `b7d115e`. Wan Roshaimi Protocol v1.2 — 5 material corrections from Athena's analytical report: (1) "jointly built" → "integration-backed co-branding candidate" (CRITICAL — Aug 10 produced discussion candidates, not committed integration), (2) Step 0.6 split (draft vs send post-Gate-2), (3) SiberSUITE/CBOM/Score Card = pre-planning discussion items, (4) 3-tier Gate 4 success definition (Full/Conditional/Bounded — secondaries deferred = NOT failure), (5) evidence pack must visually distinguish current vs future state. 7-day execution priority (23-31 Aug). Closure statement template. Commits `1fefa36` (v1.2 patch). RCA + Remediation applied — 6 root causes fixed (R1 case-sensitivity, R2 memory pressure 1.75 GiB, R3 skill symlink, R4 no incomplete-turn protocol, R5 ADEP §7 violation, R6 cron contention). Gateway restarted: RSS 1029 MiB (was 1.75 GiB), 0 pressure events, 0 incomplete turns, 0 skill escape warnings (was 326/day). TOOLS.md updated with `find -iname` rule + 6-step investigation checklist. Weekly Strategic Brief staggered Mon→Tue. Azrul Nazim overall review + NACSA/Sovereign Product social engineering playbook — two-meeting sequence (Mon Azrul → Wed Zulfeka). "Strategic alignment not endorsement" as permanent language rule. CSM Sovereign Product concept (CSM-badged, not Aras-via-CSM). Product definition gap identified as hidden blocker. TBH-001 JD drafted (`94e4ca9`) — PM for practice deliverables, reports to Hadri (Practice COO). Cognitive Loop: 6 JDs exist (5 GTM + 1 PM), 0 candidates. Circular dependency: roles to offload DAF → DAF carries until filled. 30-day onboarding gap. "A JD without a pipeline is a document, not a hire." SOP-AV-001 weekly validation — 161 actions, 189 flags, 27 corrections (1 completed, 26 overdue). V2 document fulfilment rule: ALL 3 flags were false positives (validator matches IDs but can't read content — can't distinguish "document CREATED action" from "document FULFILLS action"). 66% orphan rate (107/161 actions lack related_records). Commit `b47bd0f`. Zulfeka working group strategy + Gate 2 closure protocol — 12 records created (`3928c20`), AIP-20260823-001 (8 items, `585ded8`). Fahdzli→Zulfeka reporting line corrected (Fahdzli reports TO Zulfeka, not peer — changes Wednesday strategy from "brief up" to "tasking document"). Product conflation error (LSN-20260823-004): Cognitive Loop imported GovSec risk as VoronCitadel blocker — two different products, two gates, two readiness states. 6 CVS evidence entries (CVS-CBO-001 through 006). Pitch: 3 pillars (MQL output, ABM, joint marketing alignment).
+- **2026-08-24 (dreaming cycle):** 7 files reviewed, 9 promotable, 8 promoted, 4 archived. TBH-001 hiring justification fact-check (quantitative overclaim 3rd instance), Wan Roshaimi Protocol v1.2 ("jointly built"→"integration-backed candidate", 3-tier success), RCA + remediation (6 root causes, clean baseline), Azrul review + NACSA playbook (two-meeting social engineering), TBH-001 JD + Cognitive Loop (no pipeline, circular dependency), SOP-AV-001 validation (V2 false positives, 66% orphan rate), Zulfeka Gate 2 closure protocol (Fahdzli reporting line, product conflation). Pattern: claim inflation is definitive pattern (4 consecutive days), product conflation is new error type, social engineering playbook is new artifact type, hiring pipeline gap is structural (6 JDs, 0 candidates), RCA methodology applied to infrastructure is §5→§7→§9 in new domain, Wednesday Aug 26 is new convergence point, "strategic alignment not endorsement" is permanent language rule. Memory Dreaming cron: 4 consecutive successes.
+
+---
+
+## 🎯 DAF Operating Directives (Active)
+
+1. **Auto-draft generation:** Proceed with draft generation whenever a need is identified — do not ask permission
+2. **Draft delivery:** All drafts output to Telegram + sync to GitHub as artifacts
+3. **UTC+8 canonical:** All times in UTC+8 (Malaysia) unless explicitly stated
+4. **CVS mandatory:** All outputs pass CVS Master Framework validation (`03-VERIFICATION/CVS-FRAMEWORK.md`). DUN Profiling CVS retired 2026-08-17
+5. **CognitiveOS intake:** All incoming data follows 9-step SOP automatically

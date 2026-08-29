@@ -18,7 +18,7 @@ Detail: `memory/johor-prn-2026/` + war-room briefs in `memory/`
 - **Operational since:** 2026-04-22
 - **Model:** vLLM remote API (arasintegrasi.ai), GLM-5.2 permanent default
 - **Fallback chain (2026-08-24):** GLM-5.2 → Qwen3.5-397B-A17B → Qwen3.5-27B. Timeout 180s. Watch: keepRecentTokens 293K > Qwen 262K
-- **Fallback root cause (2026-08-26):** Retry loop retries same model 3x before considering fallback. Qwen only tried AFTER error surfaced. Fix: reduce retry count on network errors (A) + reduce DNS timeout 20s→5s (E). `--max-old-space-size=2048` RETRACTED (would reduce heap limit). GLM empty-response = third failure mode (200 with no content)
+- **Fallback root cause (2026-08-27 CORRECTED):** Same-provider trap. All 3 fallback models on same `vllm` provider, same endpoint (arasintegrasi.ai), same auth profile. 502 classified as `timeout` → auth profile cooldown blocks ALL same-provider siblings. Bypass only for `rate_limit`/`overloaded`/`unknown` — timeout NOT in bypass list. Fallback chain architecturally useless for provider-level outages. Server architecture: nginx → LiteLLM → vLLM GPU nodes via Tailscale (`balinese-monster.ts.net`). 2 GPU nodes down (bgpu124=Qwen3.8-27B, bgpu125=Kimi-K3). DAF declined cross-provider fallback (codex/GPT), wants server-side fix. Previous Aug 26 diagnosis (retry-loop-same-model) was incomplete — same-provider trap is the deeper issue
 - **Context geometry:** GLM-5.2 1M window, keepRecentTokens 293K, reserve 48K, floor 8K, maxTokens 32,768. Compaction: safeguard. Pruning: cache-ttl
 - **Context windows:** GLM-5.2 1,048,576; Qwen3.5-397B 262,144; Qwen3.5-27B 262,144
 - **Honcho model routing:** GLM-5.2 (session), Qwen3.5-397B (dialectic/dreams), Qwen3.6-27B (deriver/light). Config: `~/.hermes/config.yaml`
@@ -42,7 +42,7 @@ Detail: `memory/johor-prn-2026/` + war-room briefs in `memory/`
 - MOU signed. VoronCitadel technical training delivered Aug 14
 - Post-MOU working group (Aug 20): Aisha = CSM coordinator, Amelia introduced to Zulfeka
 - Co-branding confirmed (DEC-20260821-006) — CSM × Aras for all 3 products. GovSec primary proof point
-- Gate 0: Roshdi executive authorization (due Aug 28). 7-stakeholder chain: Roshdi → Azrul → Zulfeka → Bala → Wan Roshaimi → Zaharudin → Dr. Megat
+- Gate 0: Roshdi executive authorization. **CORRECTED (Aug 27):** Gate 0 NOT a blocker for Gates 3-5. Gate 0 required before Gate 6 (Dr. Megat/NACSA presentation only). Gates 3-5 (Zaharudin→Bala→Wan Roshaimi) = internal CSM coordination, proceed on Azrul's partnership alignment. Gate 0 and Gates 3-5 run in parallel. Deadline ~T-15 (early October). 7-stakeholder chain: Roshdi → Azrul → Zulfeka → Bala → Wan Roshaimi → Zaharudin → Dr. Megat
 - Wan Roshaimi protocol v1.2: GovSec-primary, 5-layer engagement, "integration-backed candidate" not "jointly built"
 - SiberSUITE × GovSec: telemetry → analytics → CBOM → score card (pre-planning, NOT committed integration)
 
@@ -53,7 +53,7 @@ DAF (Director, strategic+commercial) + Fuad (Practice Technical Authority) + Had
 TBH-001: PM — Cyber Security Practice. Blocks CRITICAL actions. 6 JDs exist (5 GTM + 1 PM), 0 candidates. Circular dependency: roles to offload DAF → DAF carries until filled. JD drafted (`94e4ca9`)
 
 ### Products (Dev Freeze Aug 11)
-- **VoronCitadel:** POC-ready. Bursa Malaysia first POC (20-section draft, 17/22 confirmed). Retail RM368k, early-adopter RM168k. GTM: 300→2-3 sales, RM336-504k
+- **VoronCitadel:** POC-ready. Bursa Malaysia POC refined to pure ITSS §10 focus (DEC-20260827-001). 19 section files live on github.com/ahmadfaurani/bursa-poc. 17 requirements (§10.1-10.4), 3 use cases, 6 test scenarios, 12 acceptance criteria. 76% Native coverage. 6-9 week timeline (3 phases). ITSS §10 = existing binding law, RSWG §2.6 = forward path. Retail RM368k, early-adopter RM168k
 - **GovSec-TIP:** Strategic sovereign platform. Gate 4 technical co-branding. 3-layer assessment: Layer 1 CONDITIONAL, Layer 2 CRITICAL GAP (10 missing), Layer 3 STRONG
 - **chain:SENTRY:** 69% implemented, 47% deployed. 3 Critical Phase 0 blockers. Phase 0 (5 days) → 77%. chain:HARVEST new product family
 
@@ -70,6 +70,9 @@ Farul's 5-layer platform. DEC-20260820-008/009: Teras as infra for all 3 product
 ### Bursa POC + RSWG Regulatory Tailwind
 20-section draft v0.1. 17/22 test cases confirmed. 2 CRITICAL: AI-01/AI-02 (RAG Phase 2), DRM-01 (manual vs automated). Aug 24 meeting introduced 24-entity federation vision (PROPOSED, not committed — architecture validation required). TPRM-first sequencing recommended. RACI exists — needs revision, not recreation
 **RSWG Paper (Aug 27):** Bursa Malaysia RSWG Recommendation Paper, 28 pages, CONFIDENTIAL, L1 (Official/System-of-Record). Trigger: April 2025 cyber incident. 30 brokers classified (11 bank-backed, 13 retail, 6 foreign). 9 control domains. Compliance: Dec 31, 2026. **Strongest regulatory tailwind for VoronCitadel** — §2.6 TSP Oversight = VoronCitadel TPRM module. CISO mandate (§2.9) creates named buyer in each broker. Cross-product: §2.3 SBOM → chain:SENTRY CBOM, §2.2.l AASE → Red Team Division. Regulatory-pull (not push-sell). ACT-20260827-001 capability mapping due Aug 29, ACT-20260827-002 POC doc update due Aug 30
+**ITSS Directive 5.05-001 (Aug 27):** Existing binding standard (Rule 5.05, introduced May 2013, amended Jan 2017). 12 IT Security Domains, 42 pages. §10 Supplier Management = VoronCitadel TPRM precursor (already law, not recommendation). POC grounded in ITSS §10 (existing obligation), RSWG §2.6 = forward enhancement. Two-layer compliance: ITSS = floor, RSWG = ceiling. DEC-20260827-001: POC focuses on ITSS §10 as primary hook
+**Bursa POC Risk Register (Aug 27):** RSK-20260827-002 — 17 risks, 6 categories. Top: B-STR-01 (compliance window, 12), B-OPS-01 (CSM chain, 12), B-OPS-02 (DAF single coordinator, 12), B-TEC-01 (test case gaps, 12). Cognitive Loop INT-20260827-003: competitive window 6-8 weeks (not 4 months), POC must complete before CyberDSA Oct 5-7 for reference case. 3 bottleneck chains: regulatory leverage, Gate 0 stall, single-validator (Fuad)
+**Stakeholder Framework V1.1 (Aug 27):** DEC-20260827-002 — dependency chain reordered: Azrul → Zulfeka → Zaharudin (operational, was Gate 5) → Wan Roshaimi (technical, Gate 4) → Bala (marketing, was Gate 3) → Dr. Megat. Operational before technical, marketing after technical. Supersedes V1.0 (DOC-20260819-001). Gates 1 (Azrul) ✅ + 2 (Zulfeka) ✅ completed
 
 ### Key Decisions
 - Co-branding: all 3 products CSM × Aras (DEC-20260821-006). Gate 0 required
@@ -111,11 +114,11 @@ Governance architecture built. IP framework WIPO-aligned 50:50. Portfolio regist
 
 | Workstream | Status | Next |
 |------------|--------|------|
-| VoronCitadel | Productisation | A1 ✅ approved. A2 (Aug 28) next. GTM alignment TODAY Aug 25 2:30 PM. MQL Sales Kit ready. Social engineering 3-week plan active |
+| VoronCitadel | Productisation | A1 ✅ approved. Bursa POC refined to ITSS §10 (19 files live, 17 reqs, 3 use cases). Risk Register + Cognitive Loop built. ACT-001+003 (capability mapping) due Aug 29. ACT-002 (POC doc) due Aug 30. Fuad validation Sep 2. POC finalization Sep 5 |
 | GovSec TIP | Dev freeze → CyberDSA | Gate 4 evidence pack (Aug 22-27 critical) |
 | chain:SENTRY | Productisation | Phase 0 hardening |
-| CSM × Aras GTM | Working group | Gate 0 UNVERIFIED (4th cycle flagging, due Aug 28 — NOW ~24h). Aisha PIC 4.5+ days OVERDUE (escalate to Zulfeka). TBH-001 hiring due Aug 27 — UNKNOWN. A2 has 4 concurrent blockers. CPM undefined = second face of same gap. T-40 engineering closure gate chain active (6 actions, Fattah Hafiz new) |
-| CyberDSA 2026 | T-40 countdown | Engineering document closure = critical path. 6-action gate chain → Wan Roshaimi Gate 4. Branding adoption Sep 1 |
+| CSM × Aras GTM | Working group | Gate 0 open but NOT blocking (corrected: due T-15/Oct, parallel to Gates 3-5). Gates 1+2 ✅ done. TBH-001 hiring due Aug 27 — UNKNOWN. Aisha PIC 4.5+ days OVERDUE. A2 has 4 concurrent blockers. CPM undefined |
+| CyberDSA 2026 | T-30 countdown (Sep 5) | 6-step gate chain: Aug 31 (Fuad+Hadri) → Sep 2 (Fuad confirms) → Sep 3 (Tuan Fatah CRITICAL) → Sep 4 (Hafiz Rahman CSM validation, DAF-owned) → Sep 5 (Zaharudin baseline). Stakeholder Framework V1.1 (chain reordered). Branding adoption Sep 1 |
 | R.I.S.I.K | Framework agreed → PRISM 2.0 | Review Aug 29, alignment Sep 5. Aug 18 outcomes missing (ACT-20260825-007 due Aug 27 — NOW). 18-agent plan ready. PRISM URS/SRS pending from Farul (Sep 5). MCMC second track (capability dev client) — warm-up Aug 29 |
 | PERJASA | ✅ Confirmed Sep 2-3 | PERJASA-Cohort repo live + updated (HRMIS + DOSM, Hermes renamed, MyMesyuarat removed). Naim = new IP co-lead. Logistics + Razale alignment pending |
 | Cohort | Architecture built → GitHub workspace | PERJASA-Cohort repo live. Workstreams: HRMIS + DOSM (scope narrowed from 3→2). Naim = new stakeholder (IP co-lead). Razale alignment pending |
@@ -146,7 +149,7 @@ Detailed entries in `memory/YYYY-MM-DD.md`. Full historical: `memory/MEMORY.md.b
 - **Aug 24:** Model fallback configured (GLM→Qwen→Qwen). Timeout 180s. Zombie tei-health-check deleted (5.3 days, ~11,500 wasted LLM calls). Rate limit resolved. Weekly Cron Audit created (Fri 21:00 MYT). MEMORY.md trimmed (50K→9.8K, 80.6%). Social engineering framework: 3-week timeline (17 moves, 3 meetings), influence matrix (13 stakeholders), "meetings are the last 20%". AIP Gate A1 ✅ APPROVED (Track A unblocked). A2 next bottleneck (Aug 28, Aisha PIC overdue). MQL Sales Kit built (38 files, new repo). Gate 0 (Roshdi) still UNVERIFIED — highest risk. TBH-001 hiring approach due Aug 27. 5 consecutive dreaming successes
 - **Aug 25:** R.I.S.I.K dominated day (5/8 sessions). PRISM 2.0 = internal product evolution (PMO-requested). 18-agent build plan (~45d agents, ~60.5d total). RISIK-Development repo created. PRISM system overview + URS/SRS analyzed. Cognitive Loop: Gate 0 + CPM = single largest gap. PRG-003 PMO kill date arrived. Athena SOP audit 4/9 (first external agent measurement). DAF corrected cross-workstream conflation (PERJASA+CSM not in RISIK). Fallback chain root cause: retry-loop-same-model. `--max-old-space-size` RETRACTED. GLM empty-response = third failure mode. 6 consecutive dreaming successes
 - **Aug 26:** MCMC second track created (INIT-20260826-001, MCMC as client for AI capability dev, 4-phase path). T-40 CyberDSA engineering closure directive (6-action sequential gate chain, Fattah Hafiz = new stakeholder, RSK-20260826-001). AIP deadline check: 3 convergent deadlines in 36h (TBH-001 Aug 27, A2 Aug 28, Gate 0 Aug 28). A2 has 4 concurrent blockers. Gate 0 = 4th cycle flagging. DeerFlow cron fix (`.venv/bin/bash` → `/bin/bash`, 6 days silent failure). Heartbeat note: DO NOT RUN GATEWAY HEALTH CHECKS (Hermes watchdog handles it). 7 consecutive dreaming successes
-- **Aug 27:** RSWG Recommendation Paper intake (L1 source, 30 brokers, 9 control domains, Dec 31 2026 compliance — strongest regulatory tailwind for VoronCitadel). PERJASA-Cohort repo updated (Hermes→HRMIS, MyMesyuarat removed, Naim = new IP co-lead)
+- **Aug 27:** RSWG Paper + ITSS Directive 5.05-001 intake (L1 sources). POC refined to ITSS §10 focus (19 section files, 17 requirements, 3 use cases). Hadri T-30 closure commitment (6-step gate chain, Aug 31→Sep 5, Hafiz Rahman new stakeholder). Gate 0 dependency corrected (parallel track, due T-15 Oct not Aug 28). Stakeholder Framework V1.1 (chain reordered). 502 root cause: same-provider trap + GPU nodes down (bgpu124/bgpu125). Bursa POC Risk Register (17 risks) + Cognitive Loop (competitive window 6-8 weeks). 8 consecutive dreaming successes
 
 ---
 

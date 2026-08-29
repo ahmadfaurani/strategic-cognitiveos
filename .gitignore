@@ -98,3 +98,28 @@ github-repos/n39-tanjung-surat/
 github/
 memory/n16-sungai-balang-repo/
 tools/Mr.Holmes/
+
+# Orphaned gitlinks removed from index (2026-08-29)
+# These are nested repos/stale entries that were tracked as
+# submodules without .gitmodules mapping, causing auto-commit failures.
+ChainSentry-Sales-Kit/
+cbo-01-commercial-ops/products/chainsentry/
+cscdc-pir-cluster/
+cyber-guidance-skills-src/
+cysec-hiring-repo/
+deployments/proxmox-ail-automation/
+engagements/govsec/threat-intel/webworm-2026-05/
+engagements/jalinan-rakyat/
+govsec-docs/
+honcho-implementation-plan/
+marketing/
+marketing-charter-stream-temp/
+modern-web-guidance-fork/
+repos/mcp-server-jalinan/
+research/microsoft-agent-framework-assessment/
+skills/doc-ingestion/
+threat-actor-registry/
+workstreams/10-govsec-tip/sales/
+workstreams/cbo-01-commercial-ops/vorondrq/marketing/
+workstreams/cbo-01-commercial-ops/vorondrq/sales-kit/
+workstreams/political-monitoring/
