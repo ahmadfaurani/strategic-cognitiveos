@@ -101,22 +101,27 @@ Hadri's T-30 commitment (COM-20260827-001) puts Fuad on Gate 1 (engineering comm
 
 ---
 
-### AIP-03: Syahir Ramp-Up Status Check
+### AIP-03: Syahir Operational Workstream Review — Align to Cybersecurity Practice Strategic Deliverables
 
-**Leverage:** QC deadline is Sep 28 (T-7 before CyberDSA). If Syahir isn't ramped by mid-September, the QC gate is at risk and Fuad's SPOF risk re-emerges.
+**Leverage:** QC deadline is Sep 28 (T-7 before CyberDSA). If Syahir isn't ramped by mid-September, the QC gate is at risk and Fuad's SPOF risk re-emerges. Beyond QC, Syahir's workstream needs to align with practice-level strategic deliverables — Bursa POC, CyberDSA readiness, GovSec TIP — not just tasks in isolation.
 
 **Intelligence:**
 DEC-20260818-007 assigned Fuad ownership of Syahir's ramp-up (Aug 18). 11 days later, no records show ramp-up progress. Fuad's ramp-up accountability is tracked as a decision but not as an actionable with a deadline. This is a blind spot — the mitigation for RSK-20260811-001 (Fuad SPOF) was Syahir delegation, but the mitigation itself has no tracking.
 
-**Action:**
-1. Ask Fuad: What is Syahir's current capability level? Can Syahir independently execute the QC task (claims verification against product baseline)?
-2. If Syahir is not ready: define what "ready" means and set a interim checkpoint (Sep 10 latest)
-3. Convert ramp-up from a decision (DEC-20260818-007) into a tracked action with milestones
+**DAF Directive (Aug 29):** Fuad is to review Syahir's operational workstream and align it with the Cybersecurity Practice's strategic deliverables. This is not just a capability status check — it's a structured alignment exercise ensuring Syahir's tasks ladder up to practice-level outcomes.
 
-**Owner:** DAF (check-in) → Fuad (execution)
+**Action:**
+1. Fuad reviews Syahir's current task assignments and operational workstream
+2. Map each task to a practice strategic deliverable (Bursa POC, CyberDSA readiness, GovSec TIP, VoronCitadel)
+3. Identify gaps — where Syahir's workstream doesn't serve a strategic deliverable
+4. Identify where Syahir can absorb load from Fuad's critical paths (QC verification, POC env setup, demo support)
+5. Define what "ready" means for each capability area and set interim checkpoints (Sep 10 latest)
+6. Convert ramp-up from a decision (DEC-20260818-007) into a tracked action with milestones
+
+**Owner:** DAF (directive) → Fuad (execution)
 **Deadline:** Sep 5 (coincides with Gate 6/T-30 closure)
-**Gate:** Syahir capability assessment: ready / partially ready / not ready
-**Evidence:** Fuad provides Syahir status with specific capability areas (QC verification, POC env setup, demo support)
+**Gate:** Syahir workstream reviewed + aligned to strategic deliverables + capability assessment: ready / partially ready / not ready
+**Evidence:** Fuad provides Syahir workstream review with (a) task-to-deliverable mapping, (b) capability assessment per area, (c) interim milestones
 **If not ready by Sep 10:** Consider reassigning QC to DAF + Fuad joint review, or accepting reduced QC scope
 
 ---
@@ -190,7 +195,7 @@ The transition from Path 1 to Paths 2+3 is a capacity cliff. Fuad goes from "ove
 |------|------|--------|------|
 | Aug 31 (Sun) | AIP-01 | Verify Gate 1 with Fuad | Comments closed? |
 | Sep 1 (Mon) | AIP-02 | Verify Azrul engagement | Engagement initiated? |
-| Sep 1 (Mon) | AIP-03 | Check Syahir ramp-up | Capability assessment |
+| Sep 5 (Fri) | AIP-03 | Syahir workstream review + alignment | Workstream mapped to deliverables? |
 | Sep 2 (Mon) | AIP-04 | HoE hiring path decision | Decision documented? |
 | Aug 29 (Sat) | AIP-05 | Overdue items cleanup ✅ | Both items terminal? ✅ |
 | Sep 5 (Fri) | — | T-30 GovSec doc closure (Gate 6) | Document baselined? |
@@ -255,10 +260,10 @@ The transition from Path 1 to Paths 2+3 is a capacity cliff. Fuad goes from "ove
 | # | Item | Owner | Deadline | Status |
 |---|------|-------|----------|--------|
 | 1 | Verify Fuad Gate 1 closure | DAF | Aug 31 | Reminder set (cron) |
-| 2 | Verify Fuad-Azrul engagement | DAF | Sep 1 | **NEW — from this AIP** |
-| 3 | Syahir ramp-up status check | DAF → Fuad | Sep 5 | **NEW — from this AIP** |
+| 2 | Verify Fuad-Azrul engagement | DAF | Sep 1 | ✅ RESOLVED Aug 27 |
+| 3 | Syahir workstream review + alignment to strategic deliverables | DAF → Fuad | Sep 5 | **UPDATED — DAF directive Aug 29** |
 | 4 | HoE hiring path decision | DAF | Sep 2 | **NEW — from this AIP** |
-| 5 | Overdue items cleanup | DAF | Sep 2 | **NEW — from this AIP** |
+| 5 | Overdue items cleanup | DAF | Sep 2 | ✅ RESOLVED Aug 29 |
 | 6 | Post-T-30 capacity plan | DAF | Sep 8 | **NEW — from this AIP** |
 
 ---
