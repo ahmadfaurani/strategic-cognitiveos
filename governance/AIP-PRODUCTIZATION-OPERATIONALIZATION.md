@@ -299,7 +299,7 @@ This layer is shared across all tracks. Without it, productization stalls regard
 | POC document creation | Athena (AI) | Athena | None | ✅ Operational |
 | POC document QC | Fuad | Fuad | None (but bandwidth risk) | Monitor load; consider second reviewer for chain:SENTRY track |
 | POC document approval | DAF | DAF | None | ✅ Operational |
-| POC execution | TBH-001 (TBA) | TBH-001 | 🔴 Critical | Hire or assign by Aug 27 |
+| POC execution | TBH-001 (TBA) | TBH-001 | 🔴 Critical | JD v2 committed Aug 28 — hiring activating end-September, Oct 13-20 start window. Interim: DAF carries PM burden |
 | Technical build (all products) | Fuad | Fuad + additional eng | Bandwidth risk | Fuad is sole technical across 3 products. Assess need for second engineer by Sep 15 |
 | Commercial pricing & packaging | DAF | DAF | None | ✅ DAF authority |
 | CSM channel management | DAF → Amelia/Aisha | Amelia + Aisha | In transition | Confirm Aisha PIC by Aug 22 |
@@ -340,7 +340,7 @@ Track C (chain:SENTRY)                                    │
                                               TBH-001 (shared blocker)
 ```
 
-**Critical path:** C1 (credentials) runs in parallel with A1 (POC doc) — both are Aug deadlines. B1 (security) starts after C1 method is established (secret governance pattern reusable). TBH-001 gates A2 execution, B4 demo rehearsals, and C5 pilot scope — hire by Aug 27 or all three tracks absorb DAF as interim.
+**Critical path:** C1 (credentials) runs in parallel with A1 (POC doc) — both are Aug deadlines. B1 (security) starts after C1 method is established (secret governance pattern reusable). TBH-001 gates A2 execution, B4 demo rehearsals, and C5 pilot scope — JD v2 committed Aug 28, hiring activating end-September (Oct 13-20 start). DAF carries interim PM burden through CyberDSA + Bursa POC window. A2 RESOLVED Aug 28 (Aishah = CSM MQL Receiver).
 
 ### 4.5 Pending-Spec Products (VoronScout, LE-UIP, SEC-AF)
 
@@ -359,7 +359,7 @@ These products remain at *Pending* status. No spec, no build, no commercial comm
 | Week | Track A (VoronCitadel) | Track B (GovSec TIP) | Track C (chain:SENTRY) | Ops Layer |
 |------|----------------------|---------------------|---------------------|-----------|
 | W1 (Aug 20-26) | A1 POC doc (CRITICAL) | — | C1 Credentials (CRITICAL) | TBH-001 hiring approach decided |
-| W2 (Aug 27-Sep 2) | A2 CSM activation | B1 Security starts | C2 Deployment parity | TBH-001 target fill; Fuad bandwidth check |
+| W2 (Aug 27-Sep 2) | A2 CSM activation ✅ RESOLVED Aug 28 | B1 Security starts | C2 Deployment parity | TBH-001 JD v2 committed, hiring end-Sep; Fuad bandwidth check |
 | W3 (Sep 3-9) | A3 Commercial packaging | B1 Security continues | C2 continues; C3 starts | External security assessor engaged |
 | W4 (Sep 10-16) | A4 White-label starts | B2 Core build starts | C3 Access; C4 Demo boundary | — |
 | W5 (Sep 17-23) | A4 continues | B2 continues | C4 continues; C5 Pilot scope | Second engineer assessment |
@@ -410,7 +410,7 @@ Decisions required from DAF by date. Non-decision defaults are noted.
 | CSM channel first POC request | Sep 15 | Named POC request through CSM channel | Weekly |
 | chain:SENTRY critical gaps closed | 4/4 by Sep 20 | Gap matrix review | Weekly |
 | GovSec demo rehearsal success | 3 consecutive by Oct 10 | Rehearsal log | Weekly from Oct 1 |
-| TBH-001 filled | Aug 27 (target) | Named individual in role | Weekly |
+| TBH-001 filled | Oct 13-20 (start window) | Named individual in role | Weekly | JD v2 committed Aug 28. Hiring activating end-September. |
 | Fuad bandwidth | <80% allocation across tracks | DAF assessment | Weekly |
 
 ---
