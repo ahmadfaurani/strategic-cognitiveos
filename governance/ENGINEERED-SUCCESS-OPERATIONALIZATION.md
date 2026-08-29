@@ -110,7 +110,7 @@ Assessed 2026-08-21 15:40 UTC against ADEP-001 four-state model.
 | EXPRESSED | ✅ | DAF directive, Aug 20 |
 | CODIFIED | ✅ | AIP-PRODUCTIZATION-OPERATIONALIZATION.md, 3 tracks, 15 phases, gates, exit criteria, risk register, decision points |
 | INSTITUTIONALISED | 🟡 | Referenced in Cognitive Loop scope. But: not embedded in any automated tracking. No gate-status dashboard. No mechanism to flag approaching deadlines. |
-| OPERATIONALISED | 🔴 | Track A Phase A1 (POC doc due Aug 24) — status unknown (deadline 2 days away, no automated check). TBH-001 unfilled (Day 2 of CRITICAL, escalation Sep 3). chain:SENTRY C1 (credentials due Aug 30) — no automated alert. No gate has been formally passed or failed with recorded evidence. |
+| OPERATIONALISED | 🟡 | AIP Gate Tracker created with daily cron check. A1 ✅ PASSED, A2 ✅ RESOLVED, TBH-001 ✅ DECIDED. C1 credentials and External Security Assessor still AWAITING DAF INPUT. Cron job runs daily but does not auto-sync with DEC records — manual propagation gap caused 36h staleness window (corrected 2026-08-29). |
 
 **Gap: State 2→3→4.** The AIP is a document. No mechanism tracks its gates, flags its deadlines, or reports its status. It requires manual reading to know what's due.
 
@@ -191,7 +191,7 @@ For each framework, the full 12-element Engineered Success analysis.
 | **CRITICAL PATH** | Gate tracker created → status populated → deadline check runs → flags surfaced → fed into Cognitive Loop → DAF acts on flags |
 | **OWNERSHIP** | Ember (tracking, alerting), DAF (status provision, decisions), Fuad (technical status), TBH-001 (execution coordination when filled) |
 | **RESOURCES** | AIP document, gate tracker file, cron job, ~10 min agent time per check |
-| **CHECKPOINTS** | CP1: Aug 24 (A1 POC doc — pass/fail?). CP2: Aug 27 (TBH-001 hiring approach decision). CP3: Aug 30 (C1 credentials — security non-negotiable). CP4: Sep 7 (B1 security remediation progress). CP5: Sep 30 (all September gates). |
+| **CHECKPOINTS** | CP1: Aug 24 (A1 POC doc ✅ PASSED). CP2: Aug 27 (TBH-001 hiring approach ✅ DECIDED Aug 28). CP3: Aug 30 (C1 credentials — AWAITING DAF INPUT). CP4: Sep 7 (B1 security remediation progress). CP5: Sep 30 (all September gates). |
 | **LEADING INDICATORS** | (1) Gate tracker updated weekly. (2) Approaching-deadline flags fire 72h before. (3) Blocked gates escalated within 24h. |
 | **LAGGING INDICATORS** | (1) Gates passed vs total. (2) Gates failed vs total. (3) Average gate delay (planned vs actual completion). (4) TBH-001 time-to-fill. |
 | **VERIFICATION** | (1) Gate tracker file exists and is current. (2) Each gate has status + evidence. (3) Deadline alert history. (4) AIP status appears in Cognitive Loop review. |
@@ -208,7 +208,7 @@ For each framework, the full 12-element Engineered Success analysis.
 | **CRITICAL PATH** | Document mentioned → WIP applied (4 roles, TAT, importance) → tracked in registry → deadline check → compression flag if needed → orphan-role flag if TBA → fed into Cognitive Loop |
 | **OWNERSHIP** | Ember (WIP application during intake), DAF (role assignment, approval) |
 | **RESOURCES** | WIP registry file (or section in gate tracker), SOP-AV-001 V13 enforcement, TBH Registry |
-| **CHECKPOINTS** | CP1: Aug 24 (VoronCitadel POC doc TAT — on track or compressed?). CP2: Aug 27 (TBH-001 orphan-role escalation check). CP3: Sep 7 (3 documents tracked through TAT). |
+| **CHECKPOINTS** | CP1: Aug 24 (VoronCitadel POC doc TAT ✅ PASSED). CP2: Aug 27 (TBH-001 orphan-role ✅ DECIDED — JD v2 committed, hiring end-Sep). CP3: Sep 7 (3 documents tracked through TAT). |
 | **LEADING INDICATORS** | (1) WIP applied to every new document in intake. (2) TAT clock started on creation. (3) Compression flag fires within 24h of compression detection. |
 | **LAGGING INDICATORS** | (1) % of documents meeting TAT. (2) % of documents with compression. (3) % of documents with orphan roles. (4) Average actual vs planned TAT. |
 | **VERIFICATION** | (1) WIP registry exists with entries. (2) Each entry has 4 roles identified. (3) TAT dates recorded. (4) Compression flags logged. (5) Orphan-role escalations logged. |
@@ -287,7 +287,7 @@ Engineered Success as Default Practice
 | 3.1 | First Cognitive Loop automated run — verify quality | Ember | Review file + brief | Aug 24 |
 | 3.2 | AIP gate tracker feeds into Cognitive Loop review | Ember | AIP section in review | Aug 24 |
 | 3.3 | §9 DoD registry populated for all Tier 1 initiatives | Ember | Registry entries | Aug 26 |
-| 3.4 | TBH-001 escalation check (Sep 3 approaching) | Ember | Escalation alert | Aug 27 |
+| 3.4 | TBH-001 escalation check ✅ MOOT — hiring approach decided Aug 28 | Ember | N/A — clock stopped | Aug 29 |
 | 3.5 | Second Cognitive Loop run — verify repeatability | Ember | Review file + brief | Aug 31 |
 
 ### Phase 4: Operational Verification (Sep 1-14)
@@ -309,7 +309,7 @@ Engineered Success as Default Practice
 |------|----------|-------|----------------------|
 | Aug 22 | Approve cron job creation (3 jobs) | DAF | Proceed — low risk, isolated sessions |
 | Aug 24 | Cognitive Loop first run quality acceptable? | DAF | Iterate — adjust prompt if needed |
-| Aug 27 | TBH-001 hiring approach decided? | DAF | Contractor (fastest path to interim) |
+| Aug 27 | TBH-001 hiring approach decided? | DAF | ✅ DECIDED Aug 28 — JD v2 committed, end-Sep hiring activation, Oct 13-20 start |
 | Aug 31 | Second Cognitive Loop run — repeatability confirmed? | DAF | Investigate failure mode |
 | Sep 7 | §9 registry has ≥5 plans — is this becoming default? | DAF+Ember | If no, tighten ADEP-001 gate enforcement |
 | Sep 14 | Monthly assessment — operationalization on track? | DAF | If no, escalate to D4 |
@@ -406,7 +406,7 @@ Actions requiring DAF personally:
 
 1. **Review this document and approve the 4-phase plan** — by Aug 22, 09:00 MYT
 2. **Provide VoronCitadel POC doc status** (ACT-20260820-004) — is Fuad's QC done? — by Aug 22
-3. **Decide TBH-001 hiring approach** — internal secondment vs external hire vs contractor — by Aug 27
+3. ~~**Decide TBH-001 hiring approach**~~ ✅ DECIDED Aug 28 — JD v2 committed, hiring activating end-September
 4. **Act on first Cognitive Loop review output** (Aug 24) — execute or delegate ≥1 of 3 actions — by Aug 26
 5. **Provide AIP gate status updates** for at least Track A phases — by Aug 27
 
