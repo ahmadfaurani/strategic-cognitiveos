@@ -147,24 +147,15 @@ Current state:
 
 ---
 
-### AIP-05: Overdue Items Cleanup — Silent Failures
+### AIP-05: Overdue Items Cleanup ✅ RESOLVED (Aug 29)
 
-**Leverage:** Overdue items without escalation erode the action register's credibility. Two items have been sitting without action or closure.
+**Status:** Both items resolved. DAF confirmed dispositions 2026-08-29 04:24 UTC.
 
-**Intelligence:**
-- ACT-20260811-007 (dev freeze comm to DevSecOps intern) — OVERDUE since Aug 11, Critical priority. 18 days overdue.
-- Defensia WAF evaluation — Draft, deadline Aug 27. 2 days past. High priority.
+**1. ACT-20260811-007 (Dev freeze comm to DevSecOps intern):** De-scoped. The freeze has been in effect since Aug 11 — 18 days. The intern has been operating under the freeze regardless. Formal communication is moot; the freeze is enforced operationally.
 
-Neither has been escalated, closed, or formally de-scoped. The pattern: items assigned to Fuad that aren't on a visible critical path go silent.
+**2. ACT-20260820-006 (Defensia WAF evaluation):** Reassigned to Hadri, new deadline Sep 10. The hardening need is still live (mitigates RSK-20260810-002). HoE not hired yet — Hadri owns infrastructure as acting technical authority. When HoE is in seat, this action transfers to HoE.
 
-**Action:**
-1. ACT-20260811-007: Ask Fuad if the dev freeze was communicated. If yes — close with evidence. If no — either do it now or formally de-scope (the intern may already know from context).
-2. Defensia WAF: Reassign to Hadri (infrastructure evaluation aligns with his role) OR set a firm new deadline of Sep 10 OR de-scope if GovSec hardening path has changed.
-
-**Owner:** DAF
-**Deadline:** Sep 2 (Monday)
-**Gate:** Both items have a terminal status (completed, reassigned, or formally de-scoped)
-**Evidence:** Updated action records with terminal status and rationale
+**Original leverage:** Overdue items without escalation erode the action register's credibility. The pattern: items assigned to Fuad that aren't on a visible critical path go silent.
 
 ---
 
@@ -201,7 +192,7 @@ The transition from Path 1 to Paths 2+3 is a capacity cliff. Fuad goes from "ove
 | Sep 1 (Mon) | AIP-02 | Verify Azrul engagement | Engagement initiated? |
 | Sep 1 (Mon) | AIP-03 | Check Syahir ramp-up | Capability assessment |
 | Sep 2 (Mon) | AIP-04 | HoE hiring path decision | Decision documented? |
-| Sep 2 (Mon) | AIP-05 | Overdue items cleanup | Both items terminal? |
+| Aug 29 (Sat) | AIP-05 | Overdue items cleanup ✅ | Both items terminal? ✅ |
 | Sep 5 (Fri) | — | T-30 GovSec doc closure (Gate 6) | Document baselined? |
 | Sep 8 (Mon) | AIP-06 | Post-T-30 capacity plan | Allocation documented? |
 | Sep 10 (Wed) | AIP-03 checkpoint | Syahir interim checkpoint | Ready / not ready |
