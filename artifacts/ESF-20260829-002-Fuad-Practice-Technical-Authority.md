@@ -64,7 +64,7 @@ This framework engineers the probability of success for Fuad's transition from *
 
 Fuad operates as Practice Technical Authority — defining product architecture, validating technical readiness, governing quality gates, and aligning product development to strategic deliverables — while a structured engineering team (HoE + CSE + junior backend + Syahir) executes hands-on development, POC environments, documentation maintenance, and claims validation. His time shifts from ~70% hands-on development to 60% architecture/strategy, 30% technical validation, 10% hands-on intervention.
 
-**The governing question:** What must be true for Fuad to stop being the single point of failure on all 3 products while increasing the total technical throughput of the practice?
+**The governing question:** What must be true for the Technical Execution Unit (Fuad + Syahir, 2 FTE) to deliver across 3 flagship products through Q4 2026 without structural failure, while building the foundation for engineering team scaling in Q1 2027?
 
 ---
 

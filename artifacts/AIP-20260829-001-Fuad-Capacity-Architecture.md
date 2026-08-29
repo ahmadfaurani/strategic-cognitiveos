@@ -50,6 +50,8 @@ Convert the Cognitive Loop findings on Fuad's profile into sequenced, gated, act
 
 **Core question:** What actions, taken now, create the greatest improvement in the probability of Fuad delivering on all 3 critical paths through CyberDSA without structural failure?
 
+**Capacity correction (Aug 29):** The Technical Execution Unit is 2 FTE (Fuad + Syahir), not 0.3 FTE solo. Fuad as technical authority, Syahir as POC/QC engineer. The AIP-03 handover is what converts 2 FTE from nominal to effective capacity.
+
 ---
 
 ## Intelligence Summary
