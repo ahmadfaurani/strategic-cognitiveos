@@ -30,7 +30,7 @@ All action records, grouped by status.
 | ACT-20260820-002 | Confirm RM5K CRC 2026 Sponsorship Payment Processed by Finance | Hadri | 2026-08-29 | High |
 | ACT-20260820-003 | Schedule & Hold CSM-Aras Working Group Sync-Up (Week of Aug 25) | Amelia Nadia | 2026-08-29 | High |
 | ACT-20260820-004 | Prepare VoronCitadel POC Project Brief for Bursa Malaysia (Monday 10am MYT) | DAF/Hadri | 2026-08-24 | Critical |
-| ACT-20260820-005 | Attend VoronCitadel POC Deep Dive with Azrul/CSM — Monday 10am MYT | Amelia/DAF/Hadri | 2026-08-24 | Critical |
+| ACT-20260820-005 | Attend VoronCitadel POC Deep Dive with Azrul/CSM — Monday 10am MYT | DAF/Hadri/Fuad | 2026-08-24 | Critical |
 | ACT-20260820-007 | Hire Head of Engineering — RM 18,888/month | DAF | 2026-09-15 | Critical |
 | ACT-20260820-008 | Hire Customer Success Engineer — RM 11,888/month | DAF | 2026-10-15 | High |
 | ACT-20260820-009 | Hire Junior Backend Engineer — RM 8,888/month | DAF | 2026-10-15 | High |
