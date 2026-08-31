@@ -74,7 +74,7 @@ All action records, grouped by status.
 | ACT-20260826-003 | Hadri — Own Overall Follow-Through and Coordination for GovSec × CMERP Engineering Document Closure | Hadri | T-minus (TBD) | High |
 | ACT-20260826-004 | Fuad — Provide Technical Support to Close All Outstanding Engineering Comments and Amendments | Ahmad Fuad | T-minus (TBD) | High |
 | ACT-20260826-005 | Hadri + Fuad — Provide Consolidated T-Minus ETA Commitment for Engineering Document Closure | Hadri + Fuad | Immediate | High |
-| ACT-20260826-006 | Secure Internal Technical Sign-Off from Fattah Hafiz on GovSec × CMERP Engineering Document | Hadri | T-minus (TBD) | High |
+| ACT-20260826-006 | Secure Internal Technical Sign-Off from Tuan Fatah on GovSec × CMERP Engineering Document | Hadri | T-minus (TBD) | High |
 | ACT-20260826-007 | Secure CSM Technical Validation/Sign-Off from Zaharudin on GovSec × CMERP Engineering Document | Hadri | T-minus (TBD) | High |
 | ACT-20260826-008 | Confirm Engineering Document Formally Ready as Engineering Baseline for Next CSM Technical Engagement | Hadri | T-minus (TBD) | High |
 | ACT-20260827-001 | Map RSWG 9 Control Domains to VoronCitadel Capability Matrix | DAF + Fuad | 2026-08-29 | Critical |
@@ -83,7 +83,7 @@ All action records, grouped by status.
 | ACT-20260827-004 | Fuad — Complete Engineering Comment Closure by T-35 (Aug 31) | Ahmad Fuad | 2026-08-31 (T-35) | High |
 | ACT-20260827-005 | Hadri — Consolidate Final Document, Send to Fuad for Confirmation by T-35 (Aug 31) | Hadri | 2026-08-31 (T-35) | High |
 | ACT-20260827-006 | Fuad — Confirm Document Technically Complete by T-34 (Sep 2) | Ahmad Fuad | 2026-09-02 (T-34) | High |
-| ACT-20260827-007 | Hadri — Secure Tuan Fatah (Fattah Hafiz) Internal Technical Sign-Off by T-33 (Sep 3) | Hadri | 2026-09-03 (T-33) | Critical |
+| ACT-20260827-007 | Hadri — Secure Tuan Fatah Internal Technical Sign-Off by T-33 (Sep 3) | Hadri | 2026-09-03 (T-33) | Critical |
 | ACT-20260827-008 | DAF — Own CSM Technical Validation Track via Hafiz Rahman (SiberSUITE) → Zaharudin by T-30 (Sep 5) | DAF | 2026-09-05 (T-30) | High |
 | ACT-20260827-009 | Update Stakeholder Gate Assignments to V1.1 Dependency Chain | DAF | 2026-08-28 | High |
 | ACT-20260828-001 | Azrul (CSM) — Review NDA Framework and Provide Views on 4 Critical IP Provisions | Azrul Nazim | 2026-09-04 (T-31) | High |

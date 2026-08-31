@@ -23,14 +23,14 @@ evidence:
   - 'ACT-20260827-004: Fuad engineering comment closure — T-35 (Aug 31) — DUE TODAY'
   - 'ACT-20260827-005: Hadri document consolidation — T-35 (Aug 31) — DUE TODAY'
   - 'ACT-20260827-006: Fuad technical confirmation — T-34 (Sep 2)'
-  - 'ACT-20260827-007: Hadri secure Fattah Hafiz sign-off — T-33 (Sep 3) — CRITICAL'
+  - 'ACT-20260827-007: Hadri secure Tuan Fatah sign-off — T-33 (Sep 3) — CRITICAL'
   - 'ACT-20260827-008: DAF CSM validation via Hafiz Rahman → Zaharudin — T-30 (Sep 5)'
   - 'ACT-20260828-001: Azrul NDA review — T-31 (Sep 4)'
   - 'STK-20260815-010: Roshdi — Gate 0 status unknown'
   - 'MEMORY.md: 2-FTE capacity constraint, HoE hiring gated to October, DAF directive: discipline is the strategy through January'
 recommended_actions:
   - 'DAF: Confirm T-35 gate status (ACT-004/005) — are Fuad/Hadri done? If not, T-30 is already slipping'
-  - 'DAF: Confirm Fattah Hafiz availability for Sep 3 — if not secured, entire chain fails'
+  - 'DAF: Confirm Tuan Fatah availability for Sep 3 — if not secured, entire chain fails'
   - 'DAF: Clarify Gate 0 (Roshdi) status — 4-day silence on executive authorization is a structural risk'
 related_records:
   - CONV-20260827-002
@@ -84,9 +84,9 @@ source:
 | S9 | ACT-004: Fuad engineering comment closure due T-35 (Aug 31) | ACT-20260827-004 | Aug 27 | Deadline TODAY |
 | S10 | ACT-005: Hadri document consolidation due T-35 (Aug 31) | ACT-20260827-005 | Aug 27 | Deadline TODAY |
 | S11 | ACT-006: Fuad technical confirmation due T-34 (Sep 2) | ACT-20260827-006 | Aug 27 | Deadline |
-| S12 | ACT-007: Fattah Hafiz internal sign-off due T-33 (Sep 3) | ACT-20260827-007 | Aug 27 | CRITICAL Deadline |
+| S12 | ACT-007: Tuan Fatah internal sign-off due T-33 (Sep 3) | ACT-20260827-007 | Aug 27 | CRITICAL Deadline |
 | S13 | ACT-008: DAF CSM validation → Zaharudin sign-off due T-30 (Sep 5) | ACT-20260827-008 | Aug 27 | Deadline |
-| S14 | Hadri to coordinate Fattah Hafiz availability "this week" (by Aug 30) | ACT-20260827-007 | Aug 27 | Dependency — NO CONFIRMATION |
+| S14 | Hadri to coordinate Tuan Fatah availability "this week" (by Aug 30) | ACT-20260827-007 | Aug 27 | Dependency — NO CONFIRMATION |
 | S15 | ACT-001: Azrul NDA review due T-31 (Sep 4) | ACT-20260828-001 | Aug 28 | Parallel deadline |
 | S16 | 2-FTE SPOF (Fuad + Hadri), no engineering relief before January | MEMORY.md | Aug 29 | Capacity constraint |
 | S17 | DAF directive: discipline is the strategy through January | MEMORY.md | Aug 29 | Operating constraint |
@@ -126,7 +126,7 @@ Gate 3 (Zaharudin — Operational Enablement)
     ↑ requires
 ACT-008 (DAF → Hafiz Rahman → Zaharudin sign-off, T-30)
     ↑ requires
-ACT-007 (Fattah Hafiz internal sign-off, T-33)
+ACT-007 (Tuan Fatah internal sign-off, T-33)
     ↑ requires
 ACT-006 (Fuad technical confirmation, T-34)
     ↑ requires
@@ -168,7 +168,7 @@ Gate 0 was flagged as silent in the original intake (CONV-20260827-002). Four da
     ×
 5 critical deadlines in 5 days (ACT-004, 005, 006, 007, 008)
     + Azrul NDA review (Sep 4)
-    + Fattah Hafiz availability coordination (overdue since Aug 30)
+    + Tuan Fatah availability coordination (overdue since Aug 30)
     =
 Cognitive switching cost at peak load with zero slack
 ```
@@ -186,7 +186,7 @@ T-34 (Sep 2)
 └── ACT-006 (Fuad: confirm technically complete)
         ↓
 T-33 (Sep 3) ← CRITICAL GATE
-└── ACT-007 (Hadri: Fattah Hafiz sign-off) ← AVAILABILITY UNCONFIRMED
+└── ACT-007 (Hadri: Tuan Fatah sign-off) ← AVAILABILITY UNCONFIRMED
         ↓
 T-31 (Sep 4)
 └── ACT-001 (Azrul: NDA review) ← PARALLEL, NOT ON CRITICAL PATH
@@ -214,15 +214,15 @@ T-30 (Sep 5) ← DAF TARGET
 
 **Pattern:** ACT-004 and ACT-005 are due today (T-35, Aug 31). No completion evidence in the records. No status update since creation on Aug 27. Four days of silence on time-critical actions.
 
-**Impact:** If Steps 1-2 are not complete today, every downstream step slips. T-34 (Fuad confirmation) cannot start if comments aren't closed. T-33 (Fattah Hafiz sign-off) cannot start if the document isn't confirmed. The chain cascades.
+**Impact:** If Steps 1-2 are not complete today, every downstream step slips. T-34 (Fuad confirmation) cannot start if comments aren't closed. T-33 (Tuan Fatah sign-off) cannot start if the document isn't confirmed. The chain cascades.
 
 **Severity:** Critical — if T-35 is missed, T-30 is mathematically impossible (5 steps in 4 days with a critical external dependency).
 
-### P3 — Unconfirmed Critical Dependency (Fattah Hafiz)
+### P3 — Unconfirmed Critical Dependency (Tuan Fatah)
 
-**Pattern:** ACT-007 (Fattah Hafiz sign-off, T-33 Sep 3) is the CRITICAL GATE. Hadri was instructed to coordinate Fattah Hafiz availability "this week" (by Aug 30). Aug 30 has passed. No confirmation that Fattah Hafiz is available on Sep 3.
+**Pattern:** ACT-007 (Tuan Fatah sign-off, T-33 Sep 3) is the CRITICAL GATE. Hadri was instructed to coordinate Tuan Fatah availability "this week" (by Aug 30). Aug 30 has passed. No confirmation that Tuan Fatah is available on Sep 3.
 
-**Impact:** If Fattah Hafiz is not available on Sep 3, the internal sign-off slips. DAF's CSM validation track (ACT-008) cannot start. Zaharudin cannot review. T-30 fails.
+**Impact:** If Tuan Fatah is not available on Sep 3, the internal sign-off slips. DAF's CSM validation track (ACT-008) cannot start. Zaharudin cannot review. T-30 fails.
 
 **Severity:** Critical — single unconfirmed dependency can collapse the entire chain.
 
@@ -259,7 +259,7 @@ T-30 (Sep 5) ← DAF TARGET
 | Action | Strategic Impact (25%) | Time Criticality (15%) | Portfolio Leverage (15%) | Commercial Value (15%) | Dependency Unlock (10%) | Stakeholder (10%) | Risk Reduction (10%) | Score |
 |--------|----------------------|----------------------|------------------------|----------------------|----------------------|-------------------|---------------------|-------|
 | A1: Confirm T-35 status (ACT-004/005) | 5 | 5 | 4 | 3 | 5 | 3 | 5 | **4.30** |
-| A2: Confirm Fattah Hafiz availability for Sep 3 | 5 | 5 | 3 | 3 | 5 | 4 | 5 | **4.25** |
+| A2: Confirm Tuan Fatah availability for Sep 3 | 5 | 5 | 3 | 3 | 5 | 4 | 5 | **4.25** |
 | A3: Clarify Gate 0 (Roshdi) status | 4 | 4 | 3 | 4 | 3 | 5 | 4 | **3.85** |
 | A4: Recalibrate T-30 expectation (Gate 3 close, Gate 4 activate) | 4 | 4 | 4 | 3 | 4 | 3 | 3 | **3.65** |
 | A5: Prepare Hafiz Rahman engagement brief (ACT-008) | 4 | 3 | 4 | 4 | 4 | 4 | 3 | **3.65** |
@@ -269,8 +269,8 @@ T-30 (Sep 5) ← DAF TARGET
 **1. Confirm T-35 gate status (ACT-004/005) — DAF — TODAY**
 Score: 4.30. Both steps are due today with zero evidence of progress. If not done, the chain is already slipping. This is the single most time-critical piece of information needed right now. One message to Fuad and Hadri.
 
-**2. Confirm Fattah Hafiz availability for Sep 3 (ACT-007) — Hadri → DAF — TODAY**
-Score: 4.25. The critical gate (T-33) depends on one person's availability. Hadri was supposed to secure this by Aug 30. Overdue by 1 day. If Fattah Hafiz is not available Sep 3, the entire chain must be replanned NOW, not discovered on Sep 2.
+**2. Confirm Tuan Fatah availability for Sep 3 (ACT-007) — Hadri → DAF — TODAY**
+Score: 4.25. The critical gate (T-33) depends on one person's availability. Hadri was supposed to secure this by Aug 30. Overdue by 1 day. If Tuan Fatah is not available Sep 3, the entire chain must be replanned NOW, not discovered on Sep 2.
 
 **3. Clarify Gate 0 (Roshdi) status — DAF — within 48 hours**
 Score: 3.85. Four days of silence on executive authorization. Not immediately blocking but the risk compounds daily. If Roshdi has authorized, record it. If not, decide whether the chain proceeds without Gate 0 closure. Either way, remove the ambiguity.
@@ -293,19 +293,19 @@ Score: 3.85. Four days of silence on executive authorization. Not immediately bl
 | **OWNER** | DAF |
 | **VERIFICATION** | Updated status on ACT-004 and ACT-005. Fuad/Hadri confirmation. |
 
-### Action 2: Confirm Fattah Hafiz Availability
+### Action 2: Confirm Tuan Fatah Availability
 
 | Field | Value |
 |-------|-------|
-| **SIGNAL** | ACT-007 requires Fattah Hafiz on Sep 3. Hadri to coordinate by Aug 30. No confirmation. |
+| **SIGNAL** | ACT-007 requires Tuan Fatah on Sep 3. Hadri to coordinate by Aug 30. No confirmation. |
 | **EVIDENCE** | ACT-20260827-007 — "Hadri to coordinate with Tuan Fatah THIS WEEK (by Aug 30)" |
 | **PATTERN** | P3 (unconfirmed critical dependency) |
-| **IMPLICATION** | If Fattah Hafiz unavailable Sep 3, internal sign-off slips → CSM validation slips → T-30 fails |
+| **IMPLICATION** | If Tuan Fatah unavailable Sep 3, internal sign-off slips → CSM validation slips → T-30 fails |
 | **CONFIDENCE** | [HIGH] — this is the single point of failure in the chain |
 | **DECISION WINDOW** | Today. If Sep 3 is not available, need to find alternative date NOW. |
-| **RECOMMENDED ACTION** | DAF asks Hadri: "Is Fattah Hafiz confirmed for Sep 3?" If yes, record it. If no, identify next available date and recalculate the chain. |
+| **RECOMMENDED ACTION** | DAF asks Hadri: "Is Tuan Fatah confirmed for Sep 3?" If yes, record it. If no, identify next available date and recalculate the chain. |
 | **OWNER** | DAF (escalation) → Hadri (coordination) |
-| **VERIFICATION** | Confirmed calendar slot for Fattah Hafiz on or around Sep 3. |
+| **VERIFICATION** | Confirmed calendar slot for Tuan Fatah on or around Sep 3. |
 
 ### Action 3: Clarify Gate 0 (Roshdi) Status
 
@@ -332,7 +332,7 @@ Score: 3.85. Four days of silence on executive authorization. Not immediately bl
 | ACT-004 (Fuad comments) | Comments closed on doc | ❓ NO EVIDENCE (due today) | Must be done TODAY |
 | ACT-005 (Hadri consolidation) | Consolidated doc sent to Fuad | ❓ NO EVIDENCE (due today) | Must be done TODAY |
 | ACT-006 (Fuad confirmation) | Fuad confirms technically complete | ❌ Not started | Sep 2 — feasible IF 004/005 done |
-| ACT-007 (Fattah Hafiz sign-off) | Signed-off document | ❌ Availability UNCONFIRMED | Sep 3 — CRITICAL RISK |
+| ACT-007 (Tuan Fatah sign-off) | Signed-off document | ❌ Availability UNCONFIRMED | Sep 3 — CRITICAL RISK |
 | ACT-008 (Zaharudin sign-off) | Zaharudin formal sign-off | ❌ Not started | Sep 5 — feasible IF 007 done |
 | Gate 3 (Zaharudin — Operational) | Gate closed | ⏳ Pending | Feasible IF full chain completes |
 | Gate 4 (Wan Roshaimi — Technical) | Gate closed | ⏳ Pending | ❌ NOT FEASIBLE by T-30 — can only ACTIVATE |
@@ -381,7 +381,7 @@ Score: 3.85. Four days of silence on executive authorization. Not immediately bl
 
 ### Learning 4: Critical Dependency Confirmation Is Itself a Critical Action
 
-**Observation:** Hadri was instructed to confirm Fattah Hafiz's availability by Aug 30. This was treated as a coordination step, not a critical action. But the entire T-30 chain depends on one person's availability on one specific day. The confirmation itself is a critical action.
+**Observation:** Hadri was instructed to confirm Tuan Fatah's availability by Aug 30. This was treated as a coordination step, not a critical action. But the entire T-30 chain depends on one person's availability on one specific day. The confirmation itself is a critical action.
 
 **Lesson:** When a single person's availability on a specific date is a precondition for a chain of downstream steps, the availability confirmation is not coordination — it is a critical action with its own deadline and escalation path.
 
@@ -405,7 +405,7 @@ Score: 3.85. Four days of silence on executive authorization. Not immediately bl
 | **2. CLASSIFY** | Dominant pattern: deadlines stacking with zero completion evidence. 4 critical deadlines in 5 days. |
 | **3. CORRELATE** | Stakeholder framework and engineering chain are ONE critical path, tracked separately. Gate 4 is sequential behind Gate 3, not parallel. |
 | **4. PATTERN RECOGNITION** | 6 patterns: tracking separation, zero evidence at T-35, unconfirmed critical dependency, Gate 0 black hole, false parallelism, 2-FTE saturation. |
-| **5. PRIORITISE** | Top 3: confirm T-35 status (4.30), confirm Fattah Hafiz (4.25), clarify Gate 0 (3.85). |
+| **5. PRIORITISE** | Top 3: confirm T-35 status (4.30), confirm Tuan Fatah (4.25), clarify Gate 0 (3.85). |
 | **6. ACT** | 3 action packages with owners, verification, decision windows. |
 | **7. VERIFY** | Gate 3 can close by T-30 IF chain holds. Gate 4 CANNOT close by T-30 — can only activate. T-30 target needs recalibration. |
 | **8. LEARN** | 5 learnings: tracking separation masks critical path, zero evidence ≠ in progress, false parallelism in "clear N items," dependency confirmation is critical, Gate 0 silence is governance debt. |
@@ -416,11 +416,11 @@ Score: 3.85. Four days of silence on executive authorization. Not immediately bl
 
 The T-30 target ("clear 2 pending items") is structurally misframed. Gate 3 and Gate 4 are sequential, not parallel. The real target is: **close Gate 3 by T-30, activate Gate 4.** Gate 4 closure is a T-21 to T-14 target.
 
-The engineering chain that operationalises Gate 3 has 5 steps in 5 days with 2 people at saturation and 1 unconfirmed external dependency (Fattah Hafiz, Sep 3). Steps 1-2 are due TODAY with zero completion evidence.
+The engineering chain that operationalises Gate 3 has 5 steps in 5 days with 2 people at saturation and 1 unconfirmed external dependency (Tuan Fatah, Sep 3). Steps 1-2 are due TODAY with zero completion evidence.
 
 **Three things DAF needs to confirm in the next 12 hours:**
 1. Are Fuad and Hadri done with T-35 steps? (ACT-004/005)
-2. Is Fattah Hafiz confirmed for Sep 3? (ACT-007)
+2. Is Tuan Fatah confirmed for Sep 3? (ACT-007)
 3. Did Roshdi authorize co-branding? (Gate 0)
 
 If any of these three answers is "no," the T-30 target needs replanning today, not on Sep 4.
