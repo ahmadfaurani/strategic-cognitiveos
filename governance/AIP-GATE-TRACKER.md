@@ -66,19 +66,19 @@
 ## Deadline Alert Register
 
 **Checked daily. Flags within 72h of deadline.**
-**Last checked:** 2026-08-31 15:48 UTC (automated daily gate check)
+**Last checked:** 2026-09-01 15:48 UTC (automated daily gate check)
 
 | Date | Phase | Deadline | Hours Remaining | Alert Status |
 |------|-------|----------|-----------------|--------------|
-| Aug 31 | A1 (POC Doc) | Aug 24 02:00 UTC | **PASSED (~21h late)** | ✅ PASSED — DAF approved via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001. COM-20260820-003 fulfilled. Track A critical path unblocked. |
-| Aug 31 | A2 (CSM Channel Activation) | Aug 28 | **RESOLVED** | ✅ RESOLVED — A2 closed Aug 28. Aishah assigned as CSM MQL Receiver. Gate no longer overdue. |
-| Aug 31 | TBH-001 approach | Aug 27 | **DECIDED** | ✅ DECIDED — JD v2 committed Aug 28 (commit `5b6aed7`). End-September hiring activation, Oct 13-20 start window. Reports to Hadri (COO), matrix to DAF. Escalation clock stopped. |
-| Aug 31 | C1 (Credentials) | Aug 30 | **OVERDUE (~40h)** | 🔴 OVERDUE (CRITICAL) — Deadline passed Aug 30. Status UNKNOWN — AWAITING DAF INPUT. 4 exposed keys unrotated since Aug 19 (12 days). Active security liability worsening. Non-negotiable per AIP §3 Track C. C2 (Deployment Parity, Sep 10) is blocked — cannot deploy exposed credentials to fresh environment. **URGENT: DAF to confirm rotation status or direct Fuad to execute IMMEDIATELY. 12 days of exposure.** |
-| Aug 31 | External security assessor | Sep 1 | **~8h** | 🟡 APPROACHING (CRITICAL) — within 72h window, <8h remaining. NOT STARTED — AWAITING DAF INPUT. Required for GovSec TIP pen test (B1 gate, Sep 15). **ACTION NEEDED: DAF to engage assessor by Sep 1 or B1 gate at risk.** |
-| Aug 31 | TBH-001 escalation | Sep 3 | **N/A** | ✅ MOOT — Hiring approach decided Aug 28. Escalation clock stopped. No longer applicable. |
-| Aug 31 | A3 (Commercial Packaging) | Sep 5 | ~4.3 days | 🟢 OK — outside 72h window. Depends on A1 (PASSED). DAF+Fuad. Next up after urgent items. |
-| Aug 31 | C2 (Deployment Parity) | Sep 10 | ~10 days | 🟢 OK — outside 72h window. **BLOCKED** by C1 (OVERDUE). Cannot proceed until credentials rotated. |
-| Aug 31 | B1 (Security Remediation) | Sep 15 | ~15 days | 🟢 OK — outside 72h window. Fuad+DAF. Depends on external assessor engagement (APPROACHING). |
+| Sep 1 | A1 (POC Doc) | Aug 24 02:00 UTC | **PASSED (~21h late)** | ✅ PASSED — DAF approved via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001. COM-20260820-003 fulfilled. Track A critical path unblocked. |
+| Sep 1 | A2 (CSM Channel Activation) | Aug 28 | **RESOLVED** | ✅ RESOLVED — A2 closed Aug 28. Aishah assigned as CSM MQL Receiver. Gate no longer overdue. |
+| Sep 1 | TBH-001 approach | Aug 27 | **DECIDED** | ✅ DECIDED — JD v2 committed Aug 28 (commit `5b6aed7`). End-September hiring activation, Oct 13-20 start window. Reports to Hadri (COO), matrix to DAF. Escalation clock stopped. |
+| Sep 1 | C1 (Credentials) | Aug 30 | **OVERDUE (~64h)** | 🔴 OVERDUE (CRITICAL) — Deadline passed Aug 30. Status UNKNOWN — AWAITING DAF INPUT. 4 exposed keys unrotated since Aug 19 (13 days). Active security liability worsening. Non-negotiable per AIP §3 Track C. C2 (Deployment Parity, Sep 10) is blocked — cannot deploy exposed credentials to fresh environment. **URGENT: DAF to confirm rotation status or direct Fuad to execute IMMEDIATELY. 13 days of exposure.** |
+| Sep 1 | External security assessor | Sep 1 | **OVERDUE (<8h remaining)** | 🔴 OVERDUE (CRITICAL) — Deadline is today Sep 1. NOT STARTED — AWAITING DAF INPUT. Required for GovSec TIP pen test (B1 gate, Sep 15). If not engaged today, B1 gate at risk. **ACTION NEEDED: DAF to engage assessor TODAY or formally defer with revised date.** |
+| Sep 1 | TBH-001 escalation | Sep 3 | **N/A** | ✅ MOOT — Hiring approach decided Aug 28. Escalation clock stopped. No longer applicable. |
+| Sep 1 | A3 (Commercial Packaging) | Sep 5 | ~80h | 🟢 OK — just outside 72h window. Depends on A1 (PASSED). DAF+Fuad. Next up after urgent items. |
+| Sep 1 | C2 (Deployment Parity) | Sep 10 | ~9 days | 🟢 OK — outside 72h window. **BLOCKED** by C1 (OVERDUE). Cannot proceed until credentials rotated. |
+| Sep 1 | B1 (Security Remediation) | Sep 15 | ~14 days | 🟢 OK — outside 72h window. Fuad+DAF. Depends on external assessor engagement (OVERDUE). |
 
 ---
 
@@ -92,7 +92,7 @@
 | Ops | 3 | 2 | 0 | 0 | 0 | 0 | 0 |
 | **Total** | **17** | **13** | **0** | **0** | **0** | **2** | **0** |
 
-**2/17 gates resolved with evidence. 1/17 overdue (C1). External Security Assessor approaching deadline. Both require DAF action.**
+**2/17 gates resolved with evidence. 2/17 overdue (C1 + External Security Assessor). Both require DAF action. C1 is a security liability. External assessor gates B1 (CyberDSA).**
 
 ---
 
@@ -104,7 +104,7 @@
 | Aug 24 | VoronCitadel POC doc approved? | ✅ APPROVED — DAF via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001. |
 | Aug 27 | TBH-001 hiring approach decided? | ✅ DECIDED — JD v2 committed Aug 28. End-Sep hiring activation, Oct 13-20 start. Escalation clock stopped. |
 | Aug 30 | chain:SENTRY credential rotation verified? | 🔴 OVERDUE (CRITICAL) — Deadline passed Aug 30. C1 gate. Awaiting DAF input. 12 days since exposure. 4 exposed keys still unrotated. C2 blocked. |
-| Sep 1 | External security assessor engaged? | 🟡 APPROACHING (CRITICAL) — <8h remaining. Required for B1 gate. Awaiting DAF input. |
+| Sep 1 | External security assessor engaged? | 🔴 OVERDUE (CRITICAL) — Deadline today. NOT STARTED. Required for B1 gate. Awaiting DAF input. |
 | Sep 3 | TBH-001 escalation trigger? | ✅ MOOT — Hiring approach decided. Escalation clock stopped. |
 | Sep 15 | Second engineer assessment? | 🔴 PENDING — HoE hiring approval gates October. No engineering relief before Jan 2027. |
 | Sep 30 | chain:SENTRY pilot scope approved? | 🔴 PENDING |
