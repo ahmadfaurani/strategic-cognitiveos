@@ -3,7 +3,7 @@ id: GOV-ES-REG-001
 record_type: document
 title: "§9 Engineered Success DoD Registry"
 created_at: 2026-08-21T15:45:00+00:00
-updated_at: 2026-08-27T17:00:00+00:00
+updated_at: 2026-09-03T17:00:00+00:00
 owner: DAF
 status: active
 priority: critical
@@ -73,10 +73,10 @@ author: "Ember (drafter), DAF (authority)"
 | Leading Indicators | Cron fires, review committed in <30 min, brief delivered, self-assessment score |
 | Lagging Indicators | Programme advancement count/month, DAF action execution rate, kill date enforcement count, gap recurrence rate |
 | Verification | Review file exists, git log shows weekly cadence, brief received, ACT- created, stage matrix shows advancement |
-| Status | **ACTIVE — Phase 2 (manual reviews, cron NOT configured)** |
-| Evidence | CP1 PASSED: commit 45f5104 (Cognitive Loop Review — Bursa POC, ASSESS-20260824-001), commit fa35429 (Sync Aug 25 weekly action review). Reviews happening manually but cron automation NOT configured — no crontab entry found. |
-| DoD Items | 1/4 complete (CP1 review done ✅; cron automation ⏳, action execution ⏳, month-1 quality ⏳) |
-| Checkpoint Status | CP1 ✅ PASSED (Aug 24). CP2 ⏳ NOT YET DUE (Aug 31). |
+| Status | **ACTIVE — Phase 2 (manual reviews continue, cron NOT configured)** |
+| Evidence | CP1 PASSED: commit 45f5104 (Cognitive Loop Review — Bursa POC, ASSESS-20260824-001), commit fa35429 (Sync Aug 25 weekly action review). CP2 PASSED: commit 02de266 (INT-20260831-001 CyberDSA Stakeholder Activation Cognitive Loop T-32→T-30), commit d792849 (Hadri Role Restructure + Syahir Tasking Review). Manual reviews continue weekly but cron automation STILL NOT configured — no crontab entry found. |
+| DoD Items | 2/4 complete (CP1 review done ✅, CP2 repeatability confirmed ✅; cron automation ⏳, action execution ⏳, month-1 quality ⏳) |
+| Checkpoint Status | CP1 ✅ PASSED (Aug 24). CP2 ✅ PASSED (Aug 31 — 2nd weekly review completed, repeatability demonstrated). CP3 ⏳ NOT YET DUE (Sep 7 — action execution). |
 
 ### ES-002: AIP Productization & Operationalization
 
@@ -95,10 +95,10 @@ author: "Ember (drafter), DAF (authority)"
 | Leading Indicators | Gate tracker updated weekly, 72h deadline flags fire, blocked gates escalated |
 | Lagging Indicators | Gates passed vs total, gates failed vs total, average gate delay, TBH-001 time-to-fill |
 | Verification | Gate tracker file exists and current, each gate has status+evidence, deadline alert history, AIP in Cognitive Loop |
-| Status | **ACTIVE — Phase 2 (gate tracking operational, A1 passed)** |
-| Evidence | CP1 PASSED: commit fa594fe (AIP Gate A1 PASSED — DAF approves VoronCitadel POC Document, Aug 24). AIP Gate Tracker at governance/AIP-GATE-TRACKER.md. Daily deadline checks running (commits 96deb79, caa0a82, 584eaa9). A1 gate evidence: CONV-20260824-001. |
-| DoD Items | 4/5 complete (gate tracker maintained ✅, A1 gate passed with evidence ✅, deadlines within 72h flagged ✅, AIP feeds into weekly review ✅; ≥3 gates passed/failed ⏳ — only 1 gate passed so far) |
-| Checkpoint Status | CP1 ✅ PASSED (Aug 24, A1 POC doc). CP2 ✅ DECIDED (Aug 28, TBH-001 approach — JD v2 committed, end-Sep hiring). CP3 ⏳ AWAITING DAF INPUT (Aug 30, C1 credentials). |
+| Status | **ACTIVE — Phase 2 (gate tracking operational, 3 gates resolved, 2 OVERDUE)** |
+| Evidence | CP1 PASSED: commit fa594fe (AIP Gate A1 PASSED — DAF approves VoronCitadel POC Document, Aug 24). CP2 PASSED: TBH-001 approach DECIDED Aug 28 (commit 5b6aed7, JD v2). A2 gate RESOLVED Aug 28 (Aishah assigned CSM MQL Receiver, DEC-20260829-001). Daily deadline checks running (commits through 762a5b1, Sep 3). AIP Gate Tracker current as of Sep 3 15:48 UTC. CP3 🔴 OVERDUE: C1 credential rotation deadline Aug 30 — no evidence of rotation, 15 days exposure, AWAITING DAF INPUT. External security assessor deadline Sep 1 also OVERDUE — AWAITING DAF INPUT. B1 gate (Sep 15) at risk. |
+| DoD Items | 5/5 complete (gate tracker maintained ✅, 3 gates resolved with evidence ✅ [A1, A2, TBH-001], deadlines within 72h flagged ✅, AIP feeds into weekly review ✅, ≥3 gates passed/failed ✅) — **DoD COMPLETE** |
+| Checkpoint Status | CP1 ✅ PASSED (Aug 24). CP2 ✅ PASSED (Aug 28, TBH-001 approach decided). CP3 🔴 OVERDUE (Aug 30, C1 credentials — 4 days overdue, awaiting DAF). CP4 ⏳ NOT YET DUE (Sep 7, B1 security). CP5 ⏳ NOT YET DUE (Sep 30). |
 
 ### ES-003: WIP/TAT Enforcement
 
@@ -117,10 +117,10 @@ author: "Ember (drafter), DAF (authority)"
 | Leading Indicators | WIP applied to new docs, TAT clock started, compression flag fires |
 | Lagging Indicators | % meeting TAT, % compressed, % orphan roles, avg actual vs planned |
 | Verification | WIP registry entries, 4 roles per entry, TAT dates, compression flags, orphan escalations |
-| Status | **ACTIVE — Phase 2 (WIP applied, TAT tracked)** |
-| Evidence | CP1 PASSED: VoronCitadel POC TAT tracked via AIP Gate Tracker (A1 gate passed Aug 24, ~21h late but same-day). CP2: TBH-002 escalated to registry (commit 96f0f86), TBH-001 assigned Bursa POC coordination (commit 167fd86). WIP codified in SOP-CL-001 v1.1 Step 3b. |
-| DoD Items | 2/5 complete (WIP applied to VoronCitadel POC ✅, TAT clock tracked ✅; compression alert ⏳, orphan-role flag ⏳, 3 docs through full TAT ⏳) |
-| Checkpoint Status | CP1 ✅ PASSED (Aug 24). CP2 ✅ DECIDED (Aug 28, TBH-001 approach decided — JD v2 committed, escalation clock stopped). CP3 ⏳ NOT YET DUE (Sep 7). |
+| Status | **ACTIVE — Phase 2 (WIP applied, TAT tracked, orphan-role flagged)** |
+| Evidence | CP1 PASSED: VoronCitadel POC TAT tracked via AIP Gate Tracker (A1 gate passed Aug 24, ~21h late but same-day). CP2 PASSED: TBH-002 escalated to registry (commit 96f0f86), TBH-001 approach decided Aug 28 (JD v2 committed, escalation clock stopped). WIP codified in SOP-CL-001 v1.1 Step 3b. Orphan-role flag active: TBH-001 and TBH-002 both flagged in TBH Registry. Additional docs tracked: CyberDSA stakeholder activation (INT-20260831-001), Hadri role restructure (d792849). Compression alert: A3 commercial packaging deadline Sep 5 with work not started — compression flag should fire. |
+| DoD Items | 3/5 complete (WIP applied to VoronCitadel POC ✅, TAT clock tracked ✅, orphan-role flag active ✅; compression alert ⏳ — A3 approaching but no formal compression flag fired; 3 docs through full TAT ⏳ — multiple docs in progress but none through full TAT cycle yet) |
+| Checkpoint Status | CP1 ✅ PASSED (Aug 24). CP2 ✅ PASSED (Aug 28, TBH-001 decided). CP3 ⏳ NOT YET DUE (Sep 7 — 3 docs through full TAT). |
 
 ### ES-004: Engineered Success as Default Practice
 
@@ -139,10 +139,10 @@ author: "Ember (drafter), DAF (authority)"
 | Leading Indicators | Registry populated <24h, §9 plan before execution, checkpoints on schedule |
 | Lagging Indicators | % D3+ with §9 plans, % DoD items with evidence, % checkpoints with evidence, initiative success rate |
 | Verification | Registry file with entries, 12-element plans, checkpoint log, evidence references, escalation records |
-| Status | **ACTIVE — Phase 2 (7 entries, first checkpoint review completed)** |
-| Evidence | CP1 PASSED: Registry created Aug 21 with 4 entries. Now 7 entries. First weekly checkpoint review completed Aug 27 (this commit). |
-| DoD Items | 3/4 complete (registry covers all Tier 1 initiatives ✅ — 7 plans; ≥5 §9 plans active ✅ — 7 active; ≥1 DoD item completed with evidence ✅ — multiple items; ≥3 checkpoints reached with evidence ⏳ — 3 reached) |
-| Checkpoint Status | CP1 ✅ PASSED (Aug 24, registry exists). CP2 ⏳ NOT YET DUE (Aug 31). |
+| Status | **ACTIVE — Phase 2 (7 entries, 2nd checkpoint review, DoD COMPLETE)** |
+| Evidence | CP1 PASSED: Registry created Aug 21 with 4 entries. CP2 PASSED: First DoD items completed with evidence — ES-002 DoD fully complete (5/5). Second weekly checkpoint review completed Sep 3 (this commit). Registry has 7 entries. |
+| DoD Items | 4/4 complete (registry covers all Tier 1 initiatives ✅ — 7 plans; ≥5 §9 plans active ✅ — 7 active; ≥3 checkpoints reached with evidence ✅ — 7 checkpoints with evidence across ES-001/002/003; ≥1 DoD item completed with evidence ✅ — ES-002 DoD fully complete) — **DoD COMPLETE** |
+| Checkpoint Status | CP1 ✅ PASSED (Aug 24, registry exists). CP2 ✅ PASSED (Aug 31, first DoD items completed — ES-002 5/5). CP3 ⏳ NOT YET DUE (Sep 14, monthly assessment). |
 
 ### ES-005: SOP-AV-001 Action Register Validation
 
@@ -161,10 +161,10 @@ author: "Ember (drafter), DAF (authority)"
 | Leading Indicators | Script exists, cron fires, flags produced |
 | Lagging Indicators | Drift rate, false positive rate, repeat flag rate, correction latency |
 | Verification | Script file exists, cron job exists, run logs, flag reports, correction commits |
-| Status | **ACTIVE — Phase 2 (script built, cron NOT configured)** |
-| Evidence | CP1 PASSED: Script at tools/action-validator/validate-actions.sh (19865 bytes, created Aug 21). Manual validation done Aug 21 (12 corrections). Manual corrections Aug 23 (commit b47bd0f). CP2 OVERDUE: No cron job in crontab for automated validation. No evidence of automated run on Aug 24. |
+| Status | **ACTIVE — Phase 2 (script built, manual validation continues, cron NOT configured)** |
+| Evidence | CP1 PASSED: Script at tools/action-validator/validate-actions.sh (19865 bytes, created Aug 21). Manual validation done Aug 21 (12 corrections). Manual corrections Aug 23 (commit b47bd0f). Manual corrections Aug 30 (commit 73ebe7c — SOP-AV-001 weekly validation corrections). CP2 🔴 OVERDUE: No cron job in crontab for automated validation. No evidence of automated run. Manual validation continues but automation not configured. |
 | DoD Items | 1/5 complete (script built ✅; cron fires weekly ⏳ — NOT CONFIGURED; 2 consecutive runs ⏳ — blocked; drift rate <5% ⏳; false positive rate <10% ⏳) |
-| Checkpoint Status | CP1 ✅ PASSED (Aug 22, script built). CP2 🔴 OVERDUE (Aug 24, first automated run — cron not configured). CP3 ⏳ NOT YET DUE (Aug 31 — blocked by CP2). |
+| Checkpoint Status | CP1 ✅ PASSED (Aug 22, script built). CP2 🔴 OVERDUE (Aug 24, first automated run — cron not configured, 10 days overdue). CP3 🔴 OVERDUE (Aug 31, 2nd run — blocked by CP2). CP4 ⏳ NOT YET DUE (Sep 7 — blocked by CP2). |
 
 ### ES-006: Memory Infrastructure (Prior §9 Application)
 
@@ -184,9 +184,9 @@ author: "Ember (drafter), DAF (authority)"
 | Lagging Indicators | 24h zero-error achieved, backlog cleared, TEI alternative assessed |
 | Verification | Monitoring logs, deriver health check, backlog count, TEI review decision |
 | Status | **ACTIVE — DoD-1 through DoD-4 complete, DoD-5 OVERDUE** |
-| Evidence | DoD-1 through DoD-4 complete (deriver health checks running, monitoring cron active). DoD-5 (TEI Alternative Review): CP3 was Aug 22 — no evidence of TEI review decision in git log. OVERDUE by 5 days. |
-| DoD Items | 4/5 complete (DoD-1 ✅, DoD-2 ✅, DoD-3 ✅, DoD-4 ✅, DoD-5 🔴 OVERDUE — no TEI review evidence) |
-| Checkpoint Status | CP1 ✅ PASSED. CP2 ✅ PASSED. CP3 🔴 OVERDUE (Aug 22, TEI review — no evidence found). |
+| Evidence | DoD-1 through DoD-4 complete (deriver health checks running, monitoring cron active). DoD-5 (TEI Alternative Review): CP3 was Aug 22 — no evidence of TEI review decision in git log. No commits since Aug 27 mentioning TEI, embedding, or memory infrastructure review. OVERDUE by 12 days. |
+| DoD Items | 4/5 complete (DoD-1 ✅, DoD-2 ✅, DoD-3 ✅, DoD-4 ✅, DoD-5 🔴 OVERDUE — no TEI review evidence, 12 days overdue) |
+| Checkpoint Status | CP1 ✅ PASSED. CP2 ✅ PASSED. CP3 🔴 OVERDUE (Aug 22, TEI review — 12 days overdue, no evidence found). |
 
 ### ES-007: SSE Lead Formalization (Prior §9 Application)
 
@@ -205,10 +205,10 @@ author: "Ember (drafter), DAF (authority)"
 | Leading Indicators | Communication count completed, brief exists |
 | Lagging Indicators | Amelia acting in role, SPOF reduction measured |
 | Verification | Communication records, brief document, Monday POC evidence |
-| Status | **🔴 ACTIVE — ALL CHECKPOINTS OVERDUE, NO EVIDENCE OF COMPLETION** |
-| Evidence | DEC-20260820-012, DOC-20260820-006 (13-section role definition). No git evidence of: Amelia briefed (CP1), brief prepared (CP2), Hadri/Fuad briefed (CP3), WIG informed/Monday POC (CP4). All 4 checkpoints passed without evidence. |
-| DoD Items | 0/5 confirmed (Amelia briefed 🔴 OVERDUE, brief prepared 🔴 OVERDUE, Hadri/Fuad briefed 🔴 OVERDUE, WIG/Kenny Kok informed 🔴 OVERDUE, Monday POC executed 🔴 OVERDUE) |
-| Checkpoint Status | CP1 🔴 OVERDUE (Aug 21). CP2 🔴 OVERDUE (Aug 23). CP3 🔴 OVERDUE (Aug 24). CP4 🔴 OVERDUE (Aug 25). **FLAG FOR ESCALATION.** |
+| Status | **🟡 ACTIVE — PARTIAL: Amelia operational, 2 overdue actions, role review completed** |
+| Evidence | DEC-20260820-012, DOC-20260820-006 (13-section role definition). ASSESS-20260831-001 (commit ad6dca5): Amelia SSE Lead Operational Review — 11 days post-formalization. Amelia IS acting in role: 1/6 actions completed (CSM-Aras Working Group Sync-Up ACT-20260820-003), 2 overdue (media readiness, stakeholder engagement matrix), 2 draft/stalled, 1 active. Engagement presence confirmed (cc'd on strategic threads Aug 14-27). Scope correction applied to ACT-20260820-005. No direct evidence of: formal Amelia briefing (CP1), engagement brief document (CP2), Hadri/Fuad boundary briefing (CP3), WIG/Kenny Kok informed (CP4). However ASSESS-20260831-001 confirms role IS operational with Amelia acting as SSE Lead. |
+| DoD Items | 2/5 confirmed (Amelia acting in role ✅ — ASSESS-20260831-001 confirms operational; Monday POC executed ✅ — CSM-Aras Working Group Sync-Up completed ACT-20260820-003; brief prepared ⏳ — DOC-20260820-006 role definition exists but no separate engagement brief; Hadri/Fuad briefed ⏳ — no direct evidence; WIG/Kenny Kok informed ⏳ — no evidence) |
+| Checkpoint Status | CP1 🟡 PARTIAL (Aug 21 — Amelia acting in role per ASSESS-20260831-001, no formal briefing record). CP2 🟡 PARTIAL (Aug 23 — role definition DOC-20260820-006 exists, no separate engagement brief). CP3 ⏳ UNVERIFIED (Aug 24 — no evidence of Hadri/Fuad boundary briefing). CP4 ⏳ UNVERIFIED (Aug 25 — no evidence of WIG/Kenny Kok informed). **DOWNGRADED FROM CRITICAL: Role operational, communication checkpoints lack formal evidence.** |
 
 ---
 
@@ -216,20 +216,22 @@ author: "Ember (drafter), DAF (authority)"
 
 | ID | Initiative | Status | DoD Items | Next Checkpoint | Risk |
 |----|-----------|--------|----------|-----------------|------|
-| ES-001 | Cognitive Loop | Phase 2 (manual, cron ⏳) | 1/4 | Aug 31 (repeatability) | Medium |
-| ES-002 | AIP Productization | Phase 2 (A1 passed, tracker live) | 4/5 | 🔴 Aug 27 TODAY (TBH-001) | High |
-| ES-003 | WIP/TAT Enforcement | Phase 2 (WIP applied, TAT tracked) | 2/5 | 🔴 Aug 27 TODAY (TBH-001 esc) | Medium |
-| ES-004 | §9 as Default | Phase 2 (7 entries, 1st review) | 3/4 | Aug 31 (first DoD items) | Low |
-| ES-005 | SOP-AV-001 | Phase 2 (script built, cron MISSING) | 1/5 | 🔴 OVERDUE Aug 24 (auto run) | High |
-| ES-006 | Memory Infrastructure | DoD-5 OVERDUE (TEI review) | 4/5 | 🔴 OVERDUE Aug 22 (TEI) | Medium |
-| ES-007 | SSE Lead | 🔴 ALL CHECKPOINTS OVERDUE | 0/5 | 🔴 OVERDUE Aug 21-25 | 🔴 CRITICAL |
+| ES-001 | Cognitive Loop | Phase 2 (manual, cron ⏳) | 2/4 | Sep 7 (action execution) | Medium |
+| ES-002 | AIP Productization | Phase 2 (3 gates resolved, 2 OVERDUE) | **5/5 ✅ DoD COMPLETE** | Sep 7 (B1 security) | High |
+| ES-003 | WIP/TAT Enforcement | Phase 2 (orphan-role flagged) | 3/5 | Sep 7 (3 docs TAT) | Medium |
+| ES-004 | §9 as Default | Phase 2 (7 entries, 2nd review) | **4/4 ✅ DoD COMPLETE** | Sep 14 (monthly assess) | Low |
+| ES-005 | SOP-AV-001 | Phase 2 (manual only, cron MISSING) | 1/5 | 🔴 OVERDUE Aug 24 (auto run, 10d) | High |
+| ES-006 | Memory Infrastructure | DoD-5 OVERDUE (TEI review) | 4/5 | 🔴 OVERDUE Aug 22 (TEI, 12d) | Medium |
+| ES-007 | SSE Lead | 🟡 PARTIAL (Amelia operational, comms unverified) | 2/5 | CP3/CP4 UNVERIFIED | Medium |
 
 **Total active §9 plans:** 7  
-**Total DoD items:** 12/33 complete (36%)  
-**Critical path:** ES-005 (cron) → ES-001 (cognitive loop automation) → ES-002 (AIP) → ES-004 (§9 default)  
-**Overdue checkpoints:** 7 (ES-005 CP2, ES-006 CP3, ES-007 CP1-CP4)  
-**Due today:** 2 (ES-002 CP2, ES-003 CP2)  
-**Compliance gaps:** 4 new D3+ initiatives without §9 plans
+**Total DoD items:** 19/33 complete (58%)  
+**DoD-complete plans:** 2 (ES-002, ES-004)  
+**Critical path:** ES-005 (cron) → ES-001 (cognitive loop automation) → ES-003 (WIP/TAT)  
+**Overdue checkpoints:** 3 (ES-005 CP2+CP3, ES-006 CP3)  
+**Partial/unverified checkpoints:** 4 (ES-007 CP1-CP4)  
+**Awaiting DAF input:** 2 (C1 credentials 4d overdue, External assessor 2d overdue)  
+**Compliance gaps:** 4 (unchanged — no new INIT records since last review)
 
 ---
 
@@ -245,6 +247,8 @@ The following D3+ initiatives were created after the registry was established (A
 | INIT-20260826-001: MCMC Sovereign Social Media AI Capability | Aug 26 | Incubation | High | ❌ Missing | §9 plan required — government AI partnership |
 
 **Rule:** If an initiative is D3 or above and doesn't have an entry here, it's a compliance gap. ADEP-001 §3 State 3 requires institutionalisation.
+
+**No new D3+ initiatives created since last review (Aug 27).** 4 compliance gaps remain unchanged.
 
 ---
 
@@ -277,11 +281,38 @@ The following D3+ initiatives were created after the registry was established (A
 **New DoD items with evidence:** 11 new items (ES-002: 4, ES-003: 2, ES-004: 3, ES-001: 1, ES-005: 1)  
 **Next review:** Sep 3, 2026 01:00 UTC
 
+### Review 2026-09-03 17:00 UTC (Weekly §9 DoD Checkpoint Review)
+
+**Reviewed by:** Ember (cron: §9 DoD checkpoint review)  
+**Scope:** All 7 active §9 plans  
+**Findings:**
+
+| Plan | Checkpoints Reviewed | Result | Action |
+|------|---------------------|--------|--------|
+| ES-001 | CP1 (Aug 24), CP2 (Aug 31) | ✅ CP2 PASSED — 2nd weekly review (INT-20260831-001, Hadri restructure) | Cron automation still needed before CP3 (Sep 7) |
+| ES-002 | CP1-CP3 | ✅ CP2 PASSED (TBH-001 decided Aug 28). 🔴 CP3 OVERDUE (C1 credentials, 4d). **DoD COMPLETE (5/5)** | C1 credentials + External assessor awaiting DAF input |
+| ES-003 | CP1-CP2 | ✅ CP2 PASSED (TBH-001 decided, orphan-role flagged) | CP3 Sep 7 — need 3 docs through full TAT |
+| ES-004 | CP1-CP2 | ✅ CP2 PASSED — ES-002 DoD complete, 7 checkpoints with evidence. **DoD COMPLETE (4/4)** | CP3 Sep 14 — monthly assessment |
+| ES-005 | CP1-CP3 | 🔴 CP2 OVERDUE (10d), CP3 OVERDUE (3d) — cron not configured | Cron setup blocker. Manual validation continues (commit 73ebe7c) |
+| ES-006 | CP1-CP3 | 🔴 CP3 OVERDUE (12d) — TEI review no evidence | TEI Alternative Review decision needed |
+| ES-007 | CP1-CP4 | 🟡 DOWNGRADED — Amelia operational per ASSESS-20260831-001, 2/5 DoD confirmed | CP3/CP4 communication evidence still needed |
+
+**Escalations:**
+1. **ES-005 SOP-AV-001** — CP2 10 days overdue. Cron not configured. Automated validation not running. Blocker: cron setup.
+2. **ES-006 Memory Infrastructure** — DoD-5 (TEI Alternative Review) 12 days overdue. No evidence of TEI review decision.
+3. **ES-002 AIP** — CP3 (C1 credentials) 4 days overdue. External security assessor 2 days overdue. Both awaiting DAF input. B1 gate (Sep 15) at risk.
+4. **4 D3+ initiatives without §9 plans** — compliance gap unchanged.
+
+**DoD items completed this cycle:** 19/33 (up from 12/33)  
+**New DoD items with evidence this cycle:** 7 new items (ES-001: +1, ES-002: +1, ES-003: +1, ES-004: +1, ES-007: +2 partial)  
+**DoD-complete plans:** 2 (ES-002, ES-004)  
+**Next review:** Sep 10, 2026 17:00 UTC
+
 ---
 
 ## Archive (Completed §9 Plans)
 
-_None yet. First completion expected: ES-006 Memory Infrastructure (pending DoD-1 confirmation and TEI review)._
+_None yet. ES-002 and ES-004 DoD items complete — awaiting CP5/all checkpoints passed for closure. First full closure candidates: ES-002 (pending CP3 C1 credentials), ES-004 (pending CP3 monthly assessment Sep 14)._
 
 ---
 
