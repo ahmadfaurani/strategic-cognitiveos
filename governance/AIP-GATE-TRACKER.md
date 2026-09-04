@@ -41,7 +41,7 @@
 
 | Phase | Gate | Owner | Deadline | Status | Evidence | Notes |
 |-------|------|-------|----------|--------|----------|-------|
-| C1 | Credential Closure & Secret Governance | Fuad+DAF | Aug 30 | 🔴 OVERDUE — AWAITING DAF INPUT | None | 4 exposed keys, confirmed unrotated Aug 19. 14 days of exposure. Deadline passed Aug 30 (~88h overdue). C2 blocked. Security non-negotiable. DAF has not yet confirmed rotation status. |
+| C1 | Credential Closure & Secret Governance | Hadri→Syahir (DEC-20260904-001) | Aug 30 | 🔴 OVERDUE — OWNER ASSIGNED, EXECUTION PENDING | None | 4 exposed keys, confirmed unrotated Aug 19. 16 days of exposure. Deadline passed Aug 30 (~5 days overdue). **OWNER ASSIGNED Sep 4:** Hadri delegates to Syahir per DEC-20260904-001. Syahir already owns chain:SENTRY engineering (DEC-20260829-004). C2 blocked. Security non-negotiable. Execution imminent. |
 | C2 | Deployment Parity | Fuad | Sep 10 | ⏳ NOT STARTED | None | 22-commit/32-day gap. Release manifest. Depends on C1. |
 | C3 | External Access & Named Identity | Fuad+DAF | Sep 15 | ⏳ NOT STARTED | None | TLS, per-person pilot accounts. Depends on C2. |
 | C4 | Live-vs-Demo Boundary | Fuad | Sep 20 | ⏳ NOT STARTED | None | No fixture data in pilot surfaces. Depends on C2+C3. |
@@ -58,7 +58,7 @@
 | Item | Owner | Deadline | Status | Evidence | Notes |
 |------|-------|----------|--------|----------|-------|
 | TBH-001 Hiring Approach | DAF | Aug 27 | ✅ DECIDED | JD v2 committed (commit `5b6aed7`, Aug 28). 13 sections, ITSS §10 scope, CyberDSA gate chain, NDA tracking, interim delegation plan. End-September hiring activation → Oct 13-20 start date. Reports to Hadri (COO), matrix to DAF. | Decision made Aug 28. Escalation clock stopped. Interim: POC tracking→DAF, tech review→Hadri, POC env→Fuad/Syahir, stakeholder→Amelia, NDA/legal→DAF, risk register→Ember. |
-| External Security Assessor | DAF | Sep 1 | 🔴 OVERDUE — AWAITING DAF INPUT | None | For GovSec TIP pen test (B1 gate). Deadline passed Sep 1 (~40h overdue). DAF has not yet confirmed engagement or deferral. B1 gate (Sep 15) at risk — pen test needs ~2-week window. |
+| External Security Assessor | DAF | Sep 1 | ✅ RESOLVED — NANOSEC ALIGNED | DEC-20260904-002 | External assessor replaced by NanoSec Community Team (DEC-20260904-002, Sep 4). Prerequisite: Hadri delivers NanoSec Collaboration Email (ACT-20260904-002). B1 gate (Sep 15) pen test via NanoSec — 2-week window feasible if email delivered this week. |
 | Second Engineer Assessment | DAF | Sep 15 | ⏳ NOT STARTED | None | Fuad bandwidth across 3 products. HoE hiring approval gates October 2026 — no engineering relief before Jan 2027. |
 
 ---
@@ -73,12 +73,12 @@
 | Sep 3 | A1 (POC Doc) | Aug 24 02:00 UTC | **PASSED (~21h late)** | ✅ PASSED — DAF approved via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001. COM-20260820-003 fulfilled. Track A critical path unblocked. |
 | Sep 3 | A2 (CSM Channel Activation) | Aug 28 | **RESOLVED** | ✅ RESOLVED — A2 closed Aug 28. Aishah assigned as CSM MQL Receiver. Gate no longer overdue. |
 | Sep 3 | TBH-001 approach | Aug 27 | **DECIDED** | ✅ DECIDED — JD v2 committed Aug 28 (commit `5b6aed7`). End-September hiring activation, Oct 13-20 start window. Reports to Hadri (COO), matrix to DAF. Escalation clock stopped. |
-| Sep 3 | C1 (Credentials) | Aug 30 | **OVERDUE (~96h)** | 🔴 OVERDUE (CRITICAL) — Deadline passed Aug 30. Status UNKNOWN — AWAITING DAF INPUT. 4 exposed keys unrotated since Aug 19 (15 days). Active security liability worsening. Non-negotiable per AIP §3 Track C. C2 (Deployment Parity, Sep 10) is blocked — cannot deploy exposed credentials to fresh environment. **URGENT: DAF to confirm rotation status or direct Fuad to execute IMMEDIATELY. 15 days of exposure.** |
-| Sep 3 | External security assessor | Sep 1 | **OVERDUE (~63h)** | 🔴 OVERDUE (CRITICAL) — Deadline passed Sep 1. NOT STARTED — AWAITING DAF INPUT. Required for GovSec TIP pen test (B1 gate, Sep 15). CyberDSA is 5 weeks out — pen test needs ~2-week window. If not engaged this week, B1 gate fails. **ACTION NEEDED: DAF to engage assessor THIS WEEK or formally defer with revised date.** |
+| Sep 4 | C1 (Credentials) | Aug 30 | **OVERDUE (~5 days)** | 🔴 OVERDUE (CRITICAL) — OWNER ASSIGNED Sep 4. Hadri delegates to Syahir per DEC-20260904-001. 16 days of exposure. Execution pending. C2 blocked. **ACTION: Syahir to execute rotation IMMEDIATELY. Hadri to confirm sequencing.** |
+| Sep 4 | External security assessor | Sep 1 | **RESOLVED** | ✅ RESOLVED Sep 4 — NanoSec Community Team replaces external assessor (DEC-20260904-002). Prerequisite: Hadri delivers NanoSec Collaboration Email (ACT-20260904-002). B1 pen test via NanoSec — 2-week window feasible if email delivered this week. |
 | Sep 3 | TBH-001 escalation | Sep 3 | **N/A** | ✅ MOOT — Hiring approach decided Aug 28. Escalation clock stopped. No longer applicable. |
-| Sep 3 | A3 (Commercial Packaging) | Sep 5 | **~33h** | 🟡 APPROACHING — within 72h window. NOT STARTED. Depends on A1 (PASSED). DAF+Fuad. Pricing, POC template, SLA terms. **ACTION: Begin commercial packaging work immediately — deadline in ~33h.** |
-| Sep 3 | C2 (Deployment Parity) | Sep 10 | ~7 days | 🟢 OK — outside 72h window. **BLOCKED** by C1 (OVERDUE). Cannot proceed until credentials rotated. |
-| Sep 3 | B1 (Security Remediation) | Sep 15 | ~11 days | 🟢 OK — outside 72h window. Fuad+DAF. Depends on external assessor engagement (OVERDUE). |
+| Sep 4 | A3 (Commercial Packaging) | Sep 5 | **~24h** | 🟡 APPROACHING — within 72h window. NOT STARTED. Depends on A1 (PASSED). DAF+Fuad. Pricing, POC template, SLA terms. **ACTION: Begin commercial packaging work immediately — deadline tomorrow.** |
+| Sep 4 | C2 (Deployment Parity) | Sep 10 | ~6 days | 🟢 OK — outside 72h window. **BLOCKED** by C1 (OWNER ASSIGNED, execution pending). Cannot proceed until credentials rotated. |
+| Sep 4 | B1 (Security Remediation) | Sep 15 | ~11 days | 🟢 OK — outside 72h window. Fuad+DAF. External assessor RESOLVED (NanoSec, DEC-20260904-002). Gated by Hadri delivering NanoSec Collaboration Email (ACT-20260904-002). |
 
 ---
 
@@ -88,11 +88,11 @@
 |------|-------------|-------------|---------|-------------|---------|-----------------|--------|
 | A | 4 | 2 | 0 | 0 | 0 | 2 | 0 |
 | B | 5 | 5 | 0 | 0 | 0 | 0 | 0 |
-| C | 5 | 4 | 0 | 0 | 0 | 0 | 0 |
-| Ops | 3 | 2 | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **17** | **13** | **0** | **0** | **0** | **2** | **0** |
+| C | 5 | 4 | 0 | 0 | 1 | 0 | 0 |
+| Ops | 3 | 1 | 0 | 0 | 0 | 2 | 0 |
+| **Total** | **17** | **12** | **0** | **0** | **1** | **4** | **0** |
 
-**3/17 gates resolved with evidence (A1, A2, TBH-001). 2/17 overdue (C1 + External Security Assessor) — both CRITICAL, both awaiting DAF action. 1/17 approaching (A3, ~33h). C1 is a 15-day security liability. External assessor gates B1 (CyberDSA).**
+**4/17 gates resolved with evidence (A1, A2, TBH-001, External Assessor→NanoSec). 1/17 overdue with owner assigned (C1 — Syahir execution pending, 16 days exposure). 1/17 approaching (A3, ~24h). 1/17 blocked (C2, by C1). B1 gate (Sep 15) unblocked pending Hadri's NanoSec email.**
 
 ---
 
@@ -103,8 +103,8 @@
 | Aug 22 | CSM Aisha PIC confirmed? | ✅ RESOLVED — Aishah assigned as CSM MQL Receiver Aug 28 (DEC-20260829-001). |
 | Aug 24 | VoronCitadel POC doc approved? | ✅ APPROVED — DAF via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001. |
 | Aug 27 | TBH-001 hiring approach decided? | ✅ DECIDED — JD v2 committed Aug 28. End-Sep hiring activation, Oct 13-20 start. Escalation clock stopped. |
-| Aug 30 | chain:SENTRY credential rotation verified? | 🔴 OVERDUE (CRITICAL) — Deadline passed Aug 30 (~96h). C1 gate. Awaiting DAF input. 15 days since exposure. 4 exposed keys still unrotated. C2 blocked. Security liability worsening. |
-| Sep 1 | External security assessor engaged? | 🔴 OVERDUE (CRITICAL) — Deadline passed Sep 1 (~63h). NOT STARTED. Required for B1 gate (Sep 15). Awaiting DAF input. CyberDSA 5 weeks out — pen test needs ~2-week window. If not engaged this week, B1 gate fails. |
+| Aug 30 | chain:SENTRY credential rotation verified? | 🔴 OVERDUE (CRITICAL) — OWNER ASSIGNED Sep 4 (DEC-20260904-001). Hadri delegates to Syahir. 16 days of exposure. Execution pending. |
+| Sep 1 | External security assessor engaged? | ✅ RESOLVED Sep 4 — NanoSec Community Team replaces external assessor (DEC-20260904-002). Prerequisite: Hadri delivers NanoSec Collaboration Email (ACT-20260904-002). |
 | Sep 3 | TBH-001 escalation trigger? | ✅ MOOT — Hiring approach decided. Escalation clock stopped. |
 | Sep 15 | Second engineer assessment? | 🔴 PENDING — HoE hiring approval gates October. No engineering relief before Jan 2027. |
 | Sep 30 | chain:SENTRY pilot scope approved? | 🔴 PENDING |
