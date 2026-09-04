@@ -1,7 +1,7 @@
 ---
 id: ART-20260828-003
 record_type: artifact
-title: "Job Description — Project Manager, Cyber Security Practice (v3.0)"
+title: "Job Description — Project Manager, Cyber Security Practice (v3.1)"
 created_at: 2026-08-28T09:36:00+00:00
 updated_at: 2026-09-04T13:15:00+00:00
 owner: faurani-jaafar
@@ -20,7 +20,7 @@ tags:
 source:
   type: direct
   reference: "DAF directive 2026-08-28 (detailed JD for review); supersedes v1 (INIT-20260820-004)"
-summary: "Revised JD for TBH-001 — Project Manager, Cyber Security Practice. v3.0 expands operational detail: cadences, formats, escalation protocols, POC lifecycle, tooling, templates, communication norms."
+summary: "Revised JD for TBH-001 — Project Manager, Cyber Security Practice. v3.1 confirms salary band RM 10-15K, reframes document as internal management justification (not external posting), adjusts timeline for end-October approval target. Start date shifts to Jan 2027."
 strategic_significance: "Resolves the primary execution scalability bottleneck — DAF carrying PM coordination by default. Enables concurrent POC delivery, disciplined document production, and frees DAF for strategic direction and stakeholder relationships."
 mission_alignment:
   - cybersecurity-productisation
@@ -50,8 +50,9 @@ related_records:
 **Employment Type:** Full-time
 **TBH Reference:** TBH-001 (CRITICAL)
 **Initiative:** INIT-20260804-001 / INIT-20260820-003
-**Version:** v3.0 (Revised 2026-09-04 — expanded operational detail: cadences, formats, escalation protocols, POC lifecycle, tooling, templates, communication norms)
-**Supersedes:** v2.1 (2026-09-04), v2 (2026-08-28), v1 (2026-08-20)
+**Version:** v3.1 (Revised 2026-09-04 — salary band confirmed RM 10-15K, document reframed as internal management justification, timeline adjusted for end-October approval target)
+**Supersedes:** v3.0 (2026-09-04), v2.1 (2026-09-04), v2 (2026-08-28), v1 (2026-08-20)
+**Document Purpose:** Internal justification for management approval. Not for external posting. Upon management approval, a condensed external posting version will be generated.
 
 ---
 
@@ -643,7 +644,9 @@ TBH-001 is the missing piece: nobody coordinates the **production of practice de
 
 ## 14. Compensation & Benefits
 
-**Salary Range:** RM 8,000 – RM 12,000/month (commensurate with experience)
+**Salary Range:** RM 10,000 – RM 15,000/month (commensurate with experience)
+
+**Budget Justification:** The role scope — matrix reporting (COO + Director), POC lifecycle ownership end-to-end, portfolio register governance, multi-stakeholder coordination across 6+ internal and 7+ external parties, gate chain management, and weekly executive reporting — is equivalent to a Senior PM / Programme Manager role. The RM 10-15K band aligns with the KL market for mid-to-senior cybersecurity PMs with 3-5 years experience in GRC/regulated industry. The previous band (RM 8-12K) was below market for the scope described.
 
 **Benefits:**
 - EPF, SOCSO, EIS (statutory)
@@ -668,14 +671,16 @@ TBH-001 is the missing piece: nobody coordinates the **production of practice de
 
 | Milestone | Target Date | Status |
 |-----------|-------------|--------|
-| JD finalised and approved | Sep 4, 2026 | This document — for DAF review |
-| Role posted (LinkedIn, job portals, internal referral) | Sep 5-6, 2026 | Pending DAF approval |
-| Shortlisting | Sep 8-12, 2026 | — |
-| First-round interviews | Sep 15-19, 2026 | — |
-| Second-round interviews (Hadri + DAF) | Sep 22-26, 2026 | — |
-| Offer extended | Sep 29-30, 2026 | — |
-| Hiring activation | End of September 2026 | Per DAF directive Aug 28 |
-| Target start date | Oct 13-20, 2026 | 2-3 weeks notice period |
+| JD v3.1 finalised for management review | Sep 4, 2026 | ✅ This document |
+| Management review and approval | End of October 2026 | Pending — this document serves as the justification |
+| External posting (LinkedIn, job portals, internal referral) | Nov 1-7, 2026 | Post-approval |
+| Shortlisting | Nov 8-14, 2026 | Post-approval |
+| First-round interviews | Nov 17-21, 2026 | Post-approval |
+| Second-round interviews (Hadri + DAF) | Nov 24-28, 2026 | Post-approval |
+| Offer extended | Dec 1-5, 2026 | Post-approval |
+| Target start date | Jan 5-19, 2027 | 2-3 weeks notice period |
+
+**Note on timeline:** The previous timeline (Sep posting, Oct start) has been superseded. This document is positioned as an internal management justification with an end-October approval target. The interim delegation plan (§17) must sustain through the approval period (~8 weeks) plus the hiring process (~6-8 weeks). Total interim period: ~14-16 weeks. This is a material extension from the original 2-3 week interim assumption.
 
 ---
 

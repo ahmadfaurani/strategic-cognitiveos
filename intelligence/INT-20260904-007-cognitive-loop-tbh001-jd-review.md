@@ -47,6 +47,20 @@ related_records:
 **Diligence:** D3 (Strategic — influences hiring, organisational design, delegation architecture)
 **Pre-task gate:** Gate script unavailable. Fail-open: manual diligence applied.
 
+**CORRECTION (Sep 4, 13:45 UTC):** This Loop was originally framed assuming the JD was destined for external posting. DAF clarified at 13:42 UTC that the document is an **internal justification for management approval**, not an external posting. The "document perfectionism as procrastination" pattern (Pattern 1), the "too detailed for candidates" critique (Pattern 2), and the "approve and post today" urgency (Action 1) were **misframed**. For internal management justification, the v3.0 operational detail is appropriately scoped — management needs the full operating model to approve the role, budget, and scope.
+
+**Two decisions locked by DAF at 13:45 UTC:**
+1. **Salary band: RM 10-15K** (confirmed). Previous band (RM 8-12K) was below market for the scope.
+2. **Approval target: end of October 2026.** This shifts the start date from Oct 2026 to Jan 5-19, 2027. TBH-001 now aligns with TBH-002 (HoE) — both Jan 2027 starts. The interim plan must sustain ~14-16 weeks, not 2-3 weeks.
+
+**Revised actions (supersede original Actions 1-3):**
+1. ✅ Salary band confirmed: RM 10-15K (DAF, Sep 4 13:45 UTC)
+2. ✅ Timeline confirmed: End-October approval, Jan 2027 start (DAF, Sep 4 13:45 UTC)
+3. 🔴 Interim PM authority to Hadri — MORE URGENT. 14-16 week interim period requires formal delegation, not ad-hoc Ember support. (DAF, deadline: Sep 7)
+4. 🔴 ESF-001 CP2 (Oct 15) needs reassessment. TBH-001 interim assignment can satisfy CP2 if formalized. Without formalization, CP2 fails.
+
+The original Loop text is preserved below for audit trail.
+
 ---
 
 ## Step 1: Stage Mapping — Where TBH-001 Actually Is
@@ -301,4 +315,6 @@ The JD is ready. The question is the same one from INT-20260904-006: will the ar
 
 *This Cognitive Loop is the second Loop today. It does not replace INT-20260904-006 — it supplements it by focusing on TBH-001 as the structural lever. INT-20260904-006 identified the mobilisation gap; this Loop identifies that the same gap is now visible in the hiring process for the role designed to close it.*
 
-*The Loop's value is determined by whether the JD is posted within 24 hours of this being read.*
+*This Loop's value is determined by whether the JD receives management approval by end of October 2026, and whether the interim plan is formally strengthened to sustain 14-16 weeks.*
+
+*Original Loop text preserved for audit trail. Correction applied Sep 4, 13:45 UTC per DAF clarification on document purpose and timeline.*
