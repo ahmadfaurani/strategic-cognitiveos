@@ -141,12 +141,23 @@ for line in sys.stdin:
             for msg in messages:
                 if msg.get('type') == 'ai':
                     content = msg.get('content', '')
+                    candidate = ''
                     if isinstance(content, list):
                         for item in content:
                             if isinstance(item, dict) and item.get('type') == 'text':
-                                final_content = item.get('text', '')
+                                candidate += item.get('text', '')
                     elif isinstance(content, str):
-                        final_content = content
+                        candidate = content
+                    # FIX (2026-09-07): DeerFlow lead agents emit trailing EMPTY ai
+                    # messages (thinking/tool scaffolding) AFTER the final content
+                    # message. Previously each ai message overwrote final_content,
+                    # so an empty trailing message wiped the full report -> the
+                    # no-AI-response warning (affected CSCDC-04 cycles 31 Aug + 7
+                    # Sep). Only accept non-empty content; prefer the longest seen
+                    # (the final substantive response). NOTE: no double quotes in
+                    # this comment - code runs inside a bash double-quoted string.
+                    if candidate and candidate.strip() and len(candidate) > len(final_content):
+                        final_content = candidate
         elif current_event == 'end':
             break
 
