@@ -12,7 +12,7 @@
 |-------|------|-------|----------|--------|----------|-------|
 | A1 | POC Document Finalisation (Bursa Malaysia) | Athena→Fuad(QC)→DAF(approval) | Aug 24, 02:00 UTC | ✅ PASSED | DAF approval via Telegram Aug 24 23:02 UTC. POC technical summary delivered as email (CONV-20260824-001, Aug 24 5:44 PM MYT). COM-20260820-003 fulfilled. 8-section structure: phased approach (TPRM-first), 3-4 org scope, 24-entity as hypothesis, Act 854 context, assignments to Fuad and Farul. | DAF approved. Deadline exceeded by ~21h but delivered same-day. Track A critical path unblocked. |
 | A2 | CSM Channel Activation | DAF→Amelia→Aisha | Aug 28 | ✅ RESOLVED | Aishah assigned as CSM MQL Receiver (DEC-20260829-001, ACT-20260829-001). Role defined Aug 28 with 13-section role definition. | Resolved Aug 28. Aishah = CSM MQL Receiver. Gate closed. |
-| A3 | Commercial Packaging | DAF+Fuad | Sep 5 | ⏳ NOT STARTED | None | Depends on A1. Pricing, POC template, SLA terms. |
+| A3 | Commercial Packaging | DAF+Fuad | Sep 5 | 🔴 OVERDUE — 1 DAY PAST DEADLINE | None | Depends on A1. Pricing, POC template, SLA terms. NOT STARTED. CSM channel cannot quote without this. |
 | A4 | White-Label Readiness | Fuad+DAF | Sep 15 | ⏳ NOT STARTED | None | Depends on A2. UI/UX for CSM co-brand. |
 
 **Track A critical path:** A1 → A2 → A4, A1 → A3
@@ -41,7 +41,7 @@
 
 | Phase | Gate | Owner | Deadline | Status | Evidence | Notes |
 |-------|------|-------|----------|--------|----------|-------|
-| C1 | Credential Closure & Secret Governance | Hadri→Syahir (DEC-20260904-001) | Aug 30 | 🔴 OVERDUE — OWNER ASSIGNED, EXECUTION PENDING | None | 4 exposed keys, confirmed unrotated Aug 19. 16 days of exposure. Deadline passed Aug 30 (~5 days overdue). **OWNER ASSIGNED Sep 4:** Hadri delegates to Syahir per DEC-20260904-001. Syahir already owns chain:SENTRY engineering (DEC-20260829-004). C2 blocked. Security non-negotiable. Execution imminent. |
+| C1 | Credential Closure & Secret Governance | Hadri→Syahir (DEC-20260904-001) | Aug 30 | 🔴 OVERDUE — 7 DAYS PAST DEADLINE, EXECUTION STILL PENDING | None | 4 exposed keys, confirmed unrotated Aug 19. ~18 days of exposure. Deadline passed Aug 30 (7 days overdue). **OWNER ASSIGNED Sep 4:** Hadri delegates to Syahir per DEC-20260904-001. Syahir already owns chain:SENTRY engineering (DEC-20260829-004). C2 blocked. Security non-negotiable. Exposure worsening daily. **ACTION REQUIRED IMMEDIATELY.** |
 | C2 | Deployment Parity | Fuad | Sep 10 | ⏳ NOT STARTED | None | 22-commit/32-day gap. Release manifest. Depends on C1. |
 | C3 | External Access & Named Identity | Fuad+DAF | Sep 15 | ⏳ NOT STARTED | None | TLS, per-person pilot accounts. Depends on C2. |
 | C4 | Live-vs-Demo Boundary | Fuad | Sep 20 | ⏳ NOT STARTED | None | No fixture data in pilot surfaces. Depends on C2+C3. |
@@ -66,18 +66,18 @@
 ## Deadline Alert Register
 
 **Checked daily. Flags within 72h of deadline.**
-**Last checked:** 2026-09-04 15:48 UTC (automated daily gate check)
+**Last checked:** 2026-09-06 15:48 UTC (automated daily gate check)
 
 | Date | Phase | Deadline | Hours Remaining | Alert Status |
 |------|-------|----------|-----------------|--------------|
-| Sep 4 | C1 (Credentials) | Aug 30 | **OVERDUE (~5 days)** | 🔴 OVERDUE (CRITICAL) — OWNER ASSIGNED Sep 4. Hadri delegates to Syahir per DEC-20260904-001. 4 exposed keys, 16 days of exposure. Execution pending. C2 blocked. **ACTION: Syahir to execute rotation IMMEDIATELY. Hadri to confirm sequencing.** |
-| Sep 4 | A3 (Commercial Packaging) | Sep 5 | **~12-24h** | 🔴 APPROACHING (CRITICAL) — within 72h window, NOT STARTED. DAF+Fuad. Pricing, POC template, SLA terms. A1 PASSED so dependency cleared. **ACTION: DAF+Fuad must begin commercial packaging work IMMEDIATELY — deadline is tomorrow Sep 5.** |
-| Sep 4 | C2 (Deployment Parity) | Sep 10 | ~6 days | 🟡 APPROACHING (BLOCKED) — outside 72h but within 7 days. **BLOCKED** by C1 (OWNER ASSIGNED, execution pending). Cannot proceed until credentials rotated. |
-| Sep 4 | B1 (Security Remediation) | Sep 15 | ~11 days | 🟢 OK — outside 72h window. Fuad+DAF. External assessor RESOLVED (NanoSec, DEC-20260904-002). Gated by Hadri delivering NanoSec Collaboration Email (ACT-20260904-002). |
-| Sep 4 | A4 (White-Label Readiness) | Sep 15 | ~11 days | 🟢 OK — outside 72h window. Fuad+DAF. Depends on A2 (RESOLVED). UI/UX for CSM co-brand. |
-| Sep 4 | Second Engineer Assessment | Sep 15 | ~11 days | 🟢 OK — outside 72h window. DAF. HoE hiring approval gates October. |
-| Sep 4 | TBH-001 escalation | Sep 3 | **N/A** | ✅ MOOT — Hiring approach decided Aug 28. Escalation clock stopped. Interim delegation plan active. No longer applicable. |
-| Sep 4 | External security assessor | Sep 1 | **RESOLVED** | ✅ RESOLVED Sep 4 — NanoSec Community Team replaces external assessor (DEC-20260904-002). Prerequisite: Hadri delivers NanoSec Collaboration Email (ACT-20260904-002). |
+| Sep 6 | C1 (Credentials) | Aug 30 | **OVERDUE (~7 days)** | 🔴 OVERDUE (CRITICAL) — OWNER ASSIGNED Sep 4 (DEC-20260904-001). Hadri delegates to Syahir. 4 exposed keys, ~18 days of exposure. Execution STILL pending. C2 blocked. Exposure worsening daily. **ACTION: Syahir to execute rotation IMMEDIATELY. Hadri to confirm completion. This is a non-negotiable security liability.** |
+| Sep 6 | A3 (Commercial Packaging) | Sep 5 | **OVERDUE (~1 day)** | 🔴 OVERDUE (CRITICAL) — Deadline passed Sep 5. NOT STARTED. DAF+Fuad. Pricing, POC template, SLA terms. A1 PASSED so dependency cleared. **ACTION: DAF+Fuad must deliver commercial packaging NOW — 1 day overdue. CSM channel cannot quote without this.** |
+| Sep 6 | C2 (Deployment Parity) | Sep 10 | ~3.5 days | 🟡 APPROACHING (BLOCKED) — within 72h window. **BLOCKED** by C1 (execution still pending). Cannot proceed until credentials rotated. If C1 closes today, Fuad has ~3.5 days for 22-commit/32-day gap closure. |
+| Sep 6 | B1 (Security Remediation) | Sep 15 | ~8.5 days | 🟢 OK — outside 72h window. Fuad+DAF. External assessor RESOLVED (NanoSec, DEC-20260904-002). Gated by Hadri delivering NanoSec Collaboration Email (ACT-20260904-002). NanoSec pen test needs ~2-week window — email delivery this week is critical. |
+| Sep 6 | A4 (White-Label Readiness) | Sep 15 | ~8.5 days | 🟢 OK — outside 72h window. Fuad+DAF. Depends on A2 (RESOLVED). UI/UX for CSM co-brand. |
+| Sep 6 | Second Engineer Assessment | Sep 15 | ~8.5 days | 🟢 OK — outside 72h window. DAF. HoE hiring approval gates October. |
+| Sep 6 | TBH-001 escalation | Sep 3 | **N/A** | ✅ MOOT — Hiring approach decided Aug 28. Escalation clock stopped. Interim delegation plan active. No longer applicable. |
+| Sep 6 | External security assessor | Sep 1 | **RESOLVED** | ✅ RESOLVED Sep 4 — NanoSec Community Team replaces external assessor (DEC-20260904-002). Prerequisite: Hadri delivers NanoSec Collaboration Email (ACT-20260904-002). |
 
 ---
 
@@ -85,13 +85,13 @@
 
 | Track | Total Phases | Not Started | Unknown | In Progress | Blocked | Passed/Resolved | Failed |
 |------|-------------|-------------|---------|-------------|---------|-----------------|--------|
-| A | 4 | 2 | 0 | 0 | 0 | 2 | 0 |
+| A | 4 | 1 | 0 | 0 | 0 | 2 | 0 |
 | B | 5 | 5 | 0 | 0 | 0 | 0 | 0 |
-| C | 5 | 4 | 0 | 0 | 1 | 0 | 0 |
+| C | 5 | 3 | 0 | 0 | 1 | 0 | 0 |
 | Ops | 3 | 1 | 0 | 0 | 0 | 2 | 0 |
-| **Total** | **17** | **12** | **0** | **0** | **1** | **4** | **0** |
+| **Total** | **17** | **10** | **0** | **0** | **1** | **4** | **0** |
 
-**4/17 gates resolved with evidence (A1, A2, TBH-001, External Assessor→NanoSec). 1/17 overdue with owner assigned (C1 — Syahir execution pending, 16 days exposure). 1/17 approaching critical (A3, ~12-24h to Sep 5 deadline). 1/17 blocked (C2, by C1). B1 gate (Sep 15) unblocked pending Hadri's NanoSec email. A3 is the active near-term crisis — deadline is tomorrow.**
+**4/17 gates resolved with evidence (A1, A2, TBH-001, External Assessor→NanoSec). 2/17 overdue (C1 — 7 days overdue, Syahir execution pending, ~18 days exposure; A3 — 1 day overdue, NOT STARTED). 1/17 approaching within 72h (C2 — Sep 10, blocked by C1). 1/17 blocked (C2, by C1). B1 gate (Sep 15) unblocked pending Hadri's NanoSec email. A3 and C1 are both active crises — A3 blocks commercial quoting, C1 is a worsening security liability.**
 
 ---
 
@@ -102,7 +102,7 @@
 | Aug 22 | CSM Aisha PIC confirmed? | ✅ RESOLVED — Aishah assigned as CSM MQL Receiver Aug 28 (DEC-20260829-001). |
 | Aug 24 | VoronCitadel POC doc approved? | ✅ APPROVED — DAF via Telegram Aug 24 23:02 UTC. Evidence: CONV-20260824-001. |
 | Aug 27 | TBH-001 hiring approach decided? | ✅ DECIDED — JD v2 committed Aug 28. End-Sep hiring activation, Oct 13-20 start. Escalation clock stopped. |
-| Aug 30 | chain:SENTRY credential rotation verified? | 🔴 OVERDUE (CRITICAL) — OWNER ASSIGNED Sep 4 (DEC-20260904-001). Hadri delegates to Syahir. 16 days of exposure. Execution pending. |
+| Aug 30 | chain:SENTRY credential rotation verified? | 🔴 OVERDUE (CRITICAL) — 7 DAYS PAST DEADLINE. Owner assigned Sep 4 (DEC-20260904-001). Hadri delegates to Syahir. ~18 days of exposure. Execution STILL pending. Worsening daily. |
 | Sep 1 | External security assessor engaged? | ✅ RESOLVED Sep 4 — NanoSec Community Team replaces external assessor (DEC-20260904-002). Prerequisite: Hadri delivers NanoSec Collaboration Email (ACT-20260904-002). |
 | Sep 3 | TBH-001 escalation trigger? | ✅ MOOT — Hiring approach decided. Escalation clock stopped. |
 | Sep 15 | Second engineer assessment? | 🔴 PENDING — HoE hiring approval gates October. No engineering relief before Jan 2027. |
