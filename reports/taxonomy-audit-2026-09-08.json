@@ -1,10 +1,10 @@
 {
- "repository_commit": "361c253d0f24b413c546fa122c506d2abb2b561d",
- "audit_timestamp": "2026-09-08T14:59:53+00:00",
- "methodology_version": "v1.1-20260908",
+ "repository_commit": "80ec91e1dd3174ac875ca6ced0322447d98c9c85",
+ "audit_timestamp": "2026-09-08T15:31:30+00:00",
+ "methodology_version": "v1.2-20260908",
  "validator_version": {
   "tool": "tools/audit_taxonomy_v2.py",
-  "tool_sha256": "03a726f17e94f28f",
+  "tool_sha256": "508c945035fc0b13",
   "jsonschema": "4.23.0",
   "pyyaml": "6.0.1"
  },
@@ -14,136 +14,80 @@
   "schema_validation": "jsonschema Draft202012Validator, per-type schema (record_type via const or single-value enum), additionalProperties honored as declared",
   "violation_unit": "one violation = (file, json_path, validator) instance; records_with_violations counted separately",
   "excluded_from_violations": "taxonomy tag validation (separate validator: tools/validate_taxonomy.py) \u2014 reported informationally in SECTION C",
+  "v1.2_changes": "frontmatter extraction corrected to line-based parsing \u2014 v1.0/v1.1 split('---',2) truncated frontmatter when quoted scalars contained '---' (staged media filenames), misclassifying 10 valid records as yaml-parse structural",
   "v1.1_changes": "scope narrowed to canonical record dirs (v1.0 swept non-record dirs as structural); record_type mapping extended to enum-form schemas (outcome)"
  },
- "records_scanned": 773,
+ "records_scanned": 787,
  "violations": {
-  "schema_total": 689,
-  "records_with_violations": 413,
-  "records_clean": 360,
-  "structural_total": 14,
-  "structural": [
-   {
-    "file": "briefings/BRIEF-20260817-001-CSM-WORKSTREAM-ANALYSIS.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "briefings/PORTFOLIO-EXECUTION-RESET-20260812.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "decisions/DEC-20260908-003.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "documents/DOC-20260827-002-poitss-directive-5-05.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "documents/DOC-20260908-001.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "documents/DOC-20260908-002.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "documents/DOC-20260908-003.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "documents/DOC-20260908-004.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "documents/DOC-20260908-005.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "artifacts/ART-20260908-001-gtm-marketing-execution-plan-deck.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "artifacts/ART-20260908-002-cyberdsa-invitation-list.xlsx.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "artifacts/GRP-20260813-001-GovSec-CyberDSA-Readiness-Plan.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "artifacts/MWR-20260813-001-Master-Workstream-Register.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "artifacts/VoronCitadel_GTM_Strategy_Final_Draft.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   }
-  ],
+  "schema_total": 273,
+  "records_with_violations": 216,
+  "records_clean": 571,
+  "structural_total": 0,
+  "structural": [],
   "by_type": {
    "action": {
-    "violations": 247,
-    "records": 144
-   },
-   "stakeholder": {
-    "violations": 102,
-    "records": 54
-   },
-   "risk": {
-    "violations": 62,
-    "records": 36
+    "violations": 67,
+    "records": 55
    },
    "decision": {
-    "violations": 45,
-    "records": 39
-   },
-   "organization": {
-    "violations": 39,
-    "records": 20
-   },
-   "initiative": {
-    "violations": 30,
-    "records": 17
+    "violations": 38,
+    "records": 36
    },
    "intelligence": {
-    "violations": 29,
-    "records": 20
-   },
-   "conversation": {
-    "violations": 25,
-    "records": 16
-   },
-   "commitment": {
-    "violations": 22,
-    "records": 14
+    "violations": 23,
+    "records": 18
    },
    "artifact": {
+    "violations": 23,
+    "records": 15
+   },
+   "risk": {
     "violations": 20,
-    "records": 12
+    "records": 15
    },
    "lesson": {
     "violations": 14,
     "records": 12
    },
-   "outcome": {
-    "violations": 14,
-    "records": 2
+   "conversation": {
+    "violations": 13,
+    "records": 13
+   },
+   "document": {
+    "violations": 13,
+    "records": 12
    },
    "opportunity": {
     "violations": 12,
     "records": 6
    },
+   "outcome": {
+    "violations": 12,
+    "records": 2
+   },
    "draft": {
-    "violations": 10,
+    "violations": 8,
     "records": 5
    },
    "assessment": {
-    "violations": 9,
-    "records": 7
-   },
-   "document": {
     "violations": 7,
-    "records": 7
+    "records": 6
+   },
+   "commitment": {
+    "violations": 6,
+    "records": 6
+   },
+   "initiative": {
+    "violations": 6,
+    "records": 5
+   },
+   "stakeholder": {
+    "violations": 6,
+    "records": 6
+   },
+   "organization": {
+    "violations": 3,
+    "records": 2
    },
    "briefing": {
     "violations": 2,
@@ -151,27 +95,18 @@
    }
   },
   "by_category": {
-   "action:type:source": 180,
-   "stakeholder:type:source": 96,
    "action:enum:action_type": 44,
-   "risk:type:source": 42,
-   "organization:type:source": 36,
    "decision:type:alternatives_considered": 28,
-   "initiative:type:source": 24,
-   "commitment:type:source": 16,
    "intelligence:enum:intelligence_type": 15,
-   "conversation:type:source": 12,
-   "artifact:enum:artifact_type": 11,
+   "artifact:enum:artifact_type": 14,
+   "document:enum:document_type": 11,
    "outcome:type:success_metrics": 10,
    "action:enum:status": 8,
    "action:additionalProperties:<root>": 8,
-   "decision:type:source": 8,
+   "decision:additionalProperties:<root>": 8,
    "conversation:additionalProperties:<root>": 8,
-   "decision:additionalProperties:<root>": 7,
    "lesson:additionalProperties:<root>": 7,
    "artifact:pattern:id": 7,
-   "document:enum:document_type": 6,
-   "intelligence:type:source": 6,
    "risk:type:related_initiative": 6,
    "assessment:enum:assessment_type": 5,
    "initiative:enum:readiness_level": 5,
@@ -180,905 +115,18 @@
    "risk:enum:risk_category": 4,
    "risk:type:trigger_conditions": 4,
    "commitment:type:committed_by": 3,
-   "draft:pattern:id": 3
+   "draft:pattern:id": 3,
+   "conversation:enum:portfolio_tier": 3,
+   "intelligence:type:evidence": 3,
+   "opportunity:type:related_initiative": 3,
+   "opportunity:additionalProperties:<root>": 3,
+   "stakeholder:enum:relationship_status": 3,
+   "action:type:dependency": 2,
+   "action:enum:attention_level": 2,
+   "briefing:pattern:id": 2,
+   "commitment:enum:status": 2
   },
   "files": [
-   {
-    "file": "actions/ACT-20260802-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260802-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260802-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260802-004.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260802-005.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260802-006.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260802-007.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260802-008.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260802-009.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260802-010.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260803-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260803-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260803-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260803-004.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260803-005.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260803-006.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260803-007.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260803-008.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-004.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-005.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-006.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-007.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-008.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-009.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-010.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-011.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-012.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-013.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-014.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-015.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-016.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260804-017.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260807-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260807-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260807-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260808-006.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260808-007.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260808-008.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260808-009.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260808-010.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260810-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260810-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260810-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260810-004.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260810-005.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260810-006.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260810-007.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260811-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260811-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260811-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260811-004.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260811-005.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260811-006.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
    {
     "file": "actions/ACT-20260811-007.md",
     "record_type": "action",
@@ -1087,544 +135,6 @@
       "path": "status",
       "validator": "enum",
       "message": "'de-scoped' is not one of ['draft', 'in-progress', 'validated', 'approved', 'active', 'blocked', 'deferred', 'completed', 'superseded', 'archived', 'captured', "
-     },
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260812-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260812-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260812-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-004.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-005.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-006.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-007.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-008.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-009.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-010.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-011.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260813-012.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260815-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260815-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260815-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260815-004.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260815-005.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260816-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260816-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260816-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260816-004.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260816-005.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260817-001.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260817-002.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260817-003.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260817-004.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260817-005.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260817-006.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260817-007.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "actions/ACT-20260817-008.md",
-    "record_type": "action",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
      }
     ]
    },
@@ -2283,22 +793,6 @@
     ]
    },
    {
-    "file": "assessments/ASSESS-20260817-001.md",
-    "record_type": "assessment",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
     "file": "assessments/ASSESS-20260820-001.md",
     "record_type": "assessment",
     "violations": [
@@ -2392,38 +886,6 @@
     ]
    },
    {
-    "file": "commitments/COM-20260803-001.md",
-    "record_type": "commitment",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "commitments/COM-20260807-001.md",
-    "record_type": "commitment",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
     "file": "commitments/COM-20260810-001.md",
     "record_type": "commitment",
     "violations": [
@@ -2431,102 +893,6 @@
       "path": "related_initiative",
       "validator": "type",
       "message": "'INIT-20260804-003' is not of type 'array'"
-     }
-    ]
-   },
-   {
-    "file": "commitments/COM-20260810-002.md",
-    "record_type": "commitment",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "commitments/COM-20260811-001.md",
-    "record_type": "commitment",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "commitments/COM-20260812-001.md",
-    "record_type": "commitment",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "commitments/COM-20260813-001.md",
-    "record_type": "commitment",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "commitments/COM-20260813-002.md",
-    "record_type": "commitment",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "commitments/COM-20260813-003.md",
-    "record_type": "commitment",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
      }
     ]
    },
@@ -2582,70 +948,6 @@
       "path": "status",
       "validator": "enum",
       "message": "'fulfilled' is not one of ['draft', 'in-progress', 'validated', 'approved', 'active', 'blocked', 'deferred', 'completed', 'superseded', 'archived', 'captured', "
-     }
-    ]
-   },
-   {
-    "file": "decisions/DEC-20260813-001.md",
-    "record_type": "decision",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "decisions/DEC-20260815-003.md",
-    "record_type": "decision",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "decisions/DEC-20260815-004.md",
-    "record_type": "decision",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "decisions/DEC-20260816-002.md",
-    "record_type": "decision",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
      }
     ]
    },
@@ -3034,6 +1336,17 @@
     ]
    },
    {
+    "file": "decisions/DEC-20260908-003.md",
+    "record_type": "decision",
+    "violations": [
+     {
+      "path": "<root>",
+      "validator": "additionalProperties",
+      "message": "Additional properties are not allowed ('supersedes_figure_of' was unexpected)"
+     }
+    ]
+   },
+   {
     "file": "decisions/DEC-20260908-005-gtm-coordination-directives.md",
     "record_type": "decision",
     "violations": [
@@ -3100,6 +1413,17 @@
     ]
    },
    {
+    "file": "documents/DOC-20260827-002-poitss-directive-5-05.md",
+    "record_type": "document",
+    "violations": [
+     {
+      "path": "document_type",
+      "validator": "enum",
+      "message": "'regulatory-directive' is not one of ['contract', 'specification', 'report', 'proposal', 'policy', 'sop', 'reference', 'presentation', 'analysis', 'agenda', 'br"
+     }
+    ]
+   },
+   {
     "file": "documents/DOC-20260903-001-mapo-enforcement-committee-press-release.md",
     "record_type": "document",
     "violations": [
@@ -3107,6 +1431,55 @@
       "path": "document_type",
       "validator": "enum",
       "message": "'press-release' is not one of ['contract', 'specification', 'report', 'proposal', 'policy', 'sop', 'reference', 'presentation', 'analysis', 'agenda', 'brand-str"
+     }
+    ]
+   },
+   {
+    "file": "documents/DOC-20260908-002.md",
+    "record_type": "document",
+    "violations": [
+     {
+      "path": "document_type",
+      "validator": "enum",
+      "message": "'roadmap' is not one of ['contract', 'specification', 'report', 'proposal', 'policy', 'sop', 'reference', 'presentation', 'analysis', 'agenda', 'brand-strategy'"
+     }
+    ]
+   },
+   {
+    "file": "documents/DOC-20260908-003.md",
+    "record_type": "document",
+    "violations": [
+     {
+      "path": "document_type",
+      "validator": "enum",
+      "message": "'operational-plan' is not one of ['contract', 'specification', 'report', 'proposal', 'policy', 'sop', 'reference', 'presentation', 'analysis', 'agenda', 'brand-"
+     }
+    ]
+   },
+   {
+    "file": "documents/DOC-20260908-004.md",
+    "record_type": "document",
+    "violations": [
+     {
+      "path": "document_type",
+      "validator": "enum",
+      "message": "'cost-plan' is not one of ['contract', 'specification', 'report', 'proposal', 'policy', 'sop', 'reference', 'presentation', 'analysis', 'agenda', 'brand-strateg"
+     }
+    ]
+   },
+   {
+    "file": "documents/DOC-20260908-005.md",
+    "record_type": "document",
+    "violations": [
+     {
+      "path": "document_type",
+      "validator": "enum",
+      "message": "'cost-plan' is not one of ['contract', 'specification', 'report', 'proposal', 'policy', 'sop', 'reference', 'presentation', 'analysis', 'agenda', 'brand-strateg"
+     },
+     {
+      "path": "<root>",
+      "validator": "additionalProperties",
+      "message": "Additional properties are not allowed ('document_date', 'supersedes_document' were unexpected)"
      }
     ]
    },
@@ -3151,16 +1524,6 @@
       "path": "id",
       "validator": "pattern",
       "message": "'EMAIL-DRAFT-20260817-001' does not match '^DRAFT-\\\\d{8}-\\\\d{3}$'"
-     },
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
      }
     ]
    },
@@ -3206,16 +1569,6 @@
     "record_type": "conversation",
     "violations": [
      {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
       "path": "<root>",
       "validator": "additionalProperties",
       "message": "Additional properties are not allowed ('related_stakeholders' was unexpected)"
@@ -3226,16 +1579,6 @@
     "file": "engagements/CONV-20260808-001.md",
     "record_type": "conversation",
     "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
      {
       "path": "<root>",
       "validator": "additionalProperties",
@@ -3248,67 +1591,9 @@
     "record_type": "conversation",
     "violations": [
      {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
       "path": "<root>",
       "validator": "additionalProperties",
       "message": "Additional properties are not allowed ('authority' was unexpected)"
-     }
-    ]
-   },
-   {
-    "file": "engagements/CONV-20260817-003.md",
-    "record_type": "conversation",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "engagements/CONV-20260817-004.md",
-    "record_type": "conversation",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "engagements/CONV-20260817-005.md",
-    "record_type": "conversation",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
      }
     ]
    },
@@ -3445,38 +1730,6 @@
     ]
    },
    {
-    "file": "initiatives/INIT-20260808-002.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "initiatives/INIT-20260813-006.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
     "file": "initiatives/INIT-20260824-001.md",
     "record_type": "initiative",
     "violations": [
@@ -3515,51 +1768,9 @@
     ]
    },
    {
-    "file": "intelligence/INT-20260725-001-cscdc-communication-framework-analysis.md",
-    "record_type": "intelligence",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "intelligence/INT-20260725-002-ai-council-design-analysis.md",
-    "record_type": "intelligence",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
     "file": "intelligence/INT-20260817-001-azrul-stakeholder-assessment.md",
     "record_type": "intelligence",
     "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
      {
       "path": "related_initiative",
       "validator": "type",
@@ -4018,294 +2229,6 @@
     ]
    },
    {
-    "file": "organizations/ORG-20260815-001-aras-integrasi.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-002-cybersecurity-malaysia.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-003-nacsa.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-004-mcmc.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-005-jdn.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-006-pmo.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-007-perjasa.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-008-lhdn.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-009-wig.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-010-mtai.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-011-elsa.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-012-cscdc.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-013-moh.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-014-uitm.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-015-suk-negeri-sembilan.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-016-cscdc.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260815-017-mkn.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "organizations/ORG-20260816-001-aerosea-exhibitions.md",
-    "record_type": "organization",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
     "file": "organizations/ORG-20260904-001-nanosec.md",
     "record_type": "organization",
     "violations": [
@@ -4338,18 +2261,8 @@
     "violations": [
      {
       "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/type",
       "validator": "enum",
-      "message": "None is not one of ['direct', 'inferred', 'osint', 'humint', 'system', 'reference']"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
+      "message": "'unrecorded' is not one of ['direct', 'inferred', 'osint', 'humint', 'system', 'reference']"
      },
      {
       "path": "success_metrics/0",
@@ -4411,342 +2324,6 @@
       "path": "success_metrics/5",
       "validator": "type",
       "message": "'Backup saved: .env.bak.20260819-0845' is not of type 'object'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-001.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-002.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-003.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-004.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-005.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-006.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-007.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-008.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-009.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260802-010.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260803-001.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260810-001.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260810-002.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260810-003.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260811-001.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260813-001.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260813-002.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260815-001.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260816-001.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260816-002.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "risks/RSK-20260816-003.md",
-    "record_type": "risk",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
      }
     ]
    },
@@ -4941,550 +2518,6 @@
     ]
    },
    {
-    "file": "stakeholders/STK-20260725-001-cscdc.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-001.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-002.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-003.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-004.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-005.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-006.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-007.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-009.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-010.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260803-011.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-001.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-002.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-003.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-004.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-005.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-006.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-007.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-008.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-009.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-010.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-011.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260804-012.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260807-001.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260807-002.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260807-003.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260807-004.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260808-001.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260808-002.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260808-003.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260810-003.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260811-001.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260811-002.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260811-003.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
     "file": "stakeholders/STK-20260812-001.md",
     "record_type": "stakeholder",
     "violations": [
@@ -5492,166 +2525,6 @@
       "path": "influence_level",
       "validator": "enum",
       "message": "'very-high' is not one of ['high', 'medium', 'low', 'tier-1']"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-002.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-003.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-004.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-005.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-006.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-007.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-009.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-010.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-011.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260813-012.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
      }
     ]
    },
@@ -5667,22 +2540,6 @@
     ]
    },
    {
-    "file": "stakeholders/STK-20260815-001.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
     "file": "stakeholders/STK-20260815-004.md",
     "record_type": "stakeholder",
     "violations": [
@@ -5690,54 +2547,6 @@
       "path": "relationship_status",
       "validator": "enum",
       "message": "'active-workstream' is not one of ['new', 'developing', 'active', 'trusted', 'dormant', 'none']"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260815-019-siti-aishah-omar.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260816-001.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "stakeholders/STK-20260817-001.md",
-    "record_type": "stakeholder",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
      }
     ]
    },
@@ -5899,6 +2708,28 @@
     ]
    },
    {
+    "file": "artifacts/ART-20260908-001-gtm-marketing-execution-plan-deck.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'plan-deck' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset', 'api'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/ART-20260908-002-cyberdsa-invitation-list.xlsx.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'invitation-list' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset',"
+     }
+    ]
+   },
+   {
     "file": "artifacts/ESF-20260822-001-VoronCitadel-GTM.md",
     "record_type": "artifact",
     "violations": [
@@ -5947,162 +2778,13 @@
     ]
    },
    {
-    "file": "artifacts/VORONCRM-v1-execution-plan.md",
-    "record_type": "initiative",
+    "file": "artifacts/VoronCitadel_GTM_Strategy_Final_Draft.md",
+    "record_type": "artifact",
     "violations": [
      {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/jd-account-owner.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/jd-gtm-delivery-owner.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/jd-marketing-operations-specialist.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/jd-poc-engineer.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-crm-bootstrap-checklist.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-crm-recommendation.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-executive-summary.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-internal-communications-plan.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-resource-requirements.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'strategy-document' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset"
      }
     ]
    }
@@ -6217,10 +2899,10 @@
  },
  "mission_alignment_census": {
   "stats": {
-   "records_with_field": 399,
+   "records_with_field": 403,
    "has_offvocab_value": 334,
    "zero_true_mission": 224,
-   "pure_true_mission": 61,
+   "pure_true_mission": 65,
    "has_cross_facet_prefixed": 8
   },
   "top_offvocab": {

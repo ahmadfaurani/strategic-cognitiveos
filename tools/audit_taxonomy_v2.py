@@ -46,15 +46,33 @@ RECORD_DIRS = (
     "stakeholders", "artifacts",
 )
 
-METHODOLOGY_VERSION = "v1.1-20260908"
+METHODOLOGY_VERSION = "v1.2-20260908"
 METHODOLOGY = {
     "scope": "all *.md in the 17 canonical record directories (SOP §3 v1.1); any frontmatter state",
     "normalization": "datetime/date instances (YAML ISO-8601 auto-parsing) serialized via .isoformat() before validation; frozen methodology, not leniency — schemas declare date/time fields type:string",
     "schema_validation": "jsonschema Draft202012Validator, per-type schema (record_type via const or single-value enum), additionalProperties honored as declared",
     "violation_unit": "one violation = (file, json_path, validator) instance; records_with_violations counted separately",
     "excluded_from_violations": "taxonomy tag validation (separate validator: tools/validate_taxonomy.py) — reported informationally in SECTION C",
+    "v1.2_changes": "frontmatter extraction corrected to line-based parsing — v1.0/v1.1 split('---',2) truncated frontmatter when quoted scalars contained '---' (staged media filenames), misclassifying 10 valid records as yaml-parse structural",
     "v1.1_changes": "scope narrowed to canonical record dirs (v1.0 swept non-record dirs as structural); record_type mapping extended to enum-form schemas (outcome)",
 }
+
+
+def extract_frontmatter(text):
+    """Line-based YAML frontmatter extraction.
+
+    Handles quoted scalar values that legitimately contain '---'
+    (e.g. staged media filenames like 'POs_ITSS---2a80fadd.pdf').
+    A naive split('---', 2) truncates frontmatter mid-scalar and
+    produces false yaml-parse structural failures (methodology v1.2 fix).
+    """
+    if not text.startswith("---"):
+        return None
+    lines = text.split("\n")
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            return "\n".join(lines[1:i])
+    return None
 
 
 def norm(o):
@@ -99,12 +117,12 @@ def scan_records(schemas):
         if not text.startswith("---"):
             structural.append((rel, "no-frontmatter"))
             continue
-        parts = text.split("---", 2)
-        if len(parts) < 3:
+        fm_text = extract_frontmatter(text)
+        if fm_text is None:
             structural.append((rel, "malformed-frontmatter"))
             continue
         try:
-            fm = yaml.safe_load(parts[1])
+            fm = yaml.safe_load(fm_text)
         except Exception as e:
             structural.append((rel, f"yaml-parse: {str(e).splitlines()[0][:80]}"))
             continue

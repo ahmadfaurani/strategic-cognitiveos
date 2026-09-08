@@ -43,6 +43,17 @@ RECORD_DIRS = (
 )
 
 
+def extract_frontmatter(text):
+    """Line-based YAML frontmatter extraction (handles '---' inside quoted scalars)."""
+    if not text.startswith("---"):
+        return None
+    lines = text.split("\n")
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            return "\n".join(lines[1:i])
+    return None
+
+
 def norm(o):
     if isinstance(o, (datetime, date)):
         return o.isoformat()
@@ -75,11 +86,11 @@ def validate_file(path, schemas):
         return [], f"unreadable: {e}"
     if not text.startswith("---"):
         return [], "no-frontmatter"
-    parts = text.split("---", 2)
-    if len(parts) < 3:
+    fm_text = extract_frontmatter(text)
+    if fm_text is None:
         return [], "malformed-frontmatter"
     try:
-        fm = yaml.safe_load(parts[1])
+        fm = yaml.safe_load(fm_text)
     except Exception as e:
         return [], f"yaml-parse: {str(e).splitlines()[0][:100]}"
     if not isinstance(fm, dict):

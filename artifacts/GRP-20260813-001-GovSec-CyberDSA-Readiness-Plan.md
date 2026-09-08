@@ -1,3 +1,36 @@
+---
+id: ART-20260813-001
+record_type: artifact
+title: 'GovSec TIP CyberDSA Readiness Plan (legacy register: GRP-20260813-001)'
+created_at: '2026-08-13T00:00:00+00:00'
+updated_at: '2026-08-13T00:00:00+00:00'
+owner: faurani-jaafar
+status: active
+priority: high
+sensitivity: confidential
+lifecycle_state: canonical
+confidence: high
+tags:
+- domain/cybersecurity-productisation
+- domain/cyberdsa-2026
+- type/reference-document
+source:
+  type: document
+  reference: 'GovSec TIP CyberDSA Readiness Plan, 2026-08-13; retro-frontmattered 2026-09-08 (taxonomy remediation wave 1). Legacy register ID: GRP-20260813-001'
+summary: GovSec TIP readiness plan for CyberDSA 2026 under development-freeze authority DEC-20260810-002, programme coordination DAF, technical ownership Ahmad Fuad.
+strategic_significance: Defines GovSec TIP readiness trajectory and gating for CyberDSA 2026 engagement.
+mission_alignment:
+- national-cybersecurity
+- productisation
+related_records:
+- INIT-20260810-003
+- DEC-20260810-002
+artifact_type: plan
+file_path: ''
+related_initiative: INIT-20260810-003
+version: '1.0'
+created_by: faurani-jaafar
+---
 # GovSec TIP CyberDSA Readiness Plan
 
 **Document ID:** GRP-20260813-001

@@ -30,8 +30,8 @@ priority: high
 lifecycle_state: structurally_valid
 confidence: medium
 source:
-  type: null
-  reference: null
+  type: unrecorded
+  reference: "not captured at intake; remediated 2026-09-08 (P0-TAX-03 wave 2)"
 summary: 'Authority: DAF Date: 7 August 2026 Classification: Confidential — OSA 1972
   Aware Parent Initiative: INIT-20260803-002 — UITM-Aras Strategic Collaboration on
   AI Enablement of the R.I.S.I.K Framework Pa'

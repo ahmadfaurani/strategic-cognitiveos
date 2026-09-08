@@ -28,8 +28,8 @@ related_records:
 - DEC-20260815-004
 summary: DAF shared a comprehensive Stakeholder Coverage & Communication Ownership Plan for CSM-Aras CyberDSA product launch. Defines multi-layer coverage model, RACI, communication ownership, engagement flow, readiness metrics, and 8 immediate actions.
 source:
-  document-share: document-share
-  CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan: CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx
+  type: document-share
+  reference: "CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx (CSM working-group document)"
 priority: medium
 confidence: medium
 strategic_significance: Operational conversation.

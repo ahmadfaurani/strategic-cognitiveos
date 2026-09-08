@@ -30,8 +30,8 @@ sensitivity: confidential
 lifecycle_state: canonical
 confidence: medium
 source:
-  type: null
-  reference: null
+  type: unrecorded
+  reference: "not captured at intake; remediated 2026-09-08 (P0-TAX-03 wave 2)"
 summary: 'Purpose: Define the formal process by which an individual Priority Intelligence
   Requirement (PIR) transitions from active collection to a terminal state — fulfilled,
   cancelled, superseded, or deferred'

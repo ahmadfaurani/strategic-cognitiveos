@@ -1,3 +1,36 @@
+---
+id: ART-20260813-002
+record_type: artifact
+title: 'CSM–Aras Master Workstream Register (legacy register: MWR-20260813-001)'
+created_at: '2026-08-13T00:00:00+00:00'
+updated_at: '2026-08-13T00:00:00+00:00'
+owner: faurani-jaafar
+status: active
+priority: high
+sensitivity: confidential
+lifecycle_state: canonical
+confidence: high
+tags:
+- domain/csm-partnership
+- domain/commercial-strategy
+- type/reference-document
+source:
+  type: document
+  reference: 'CSM–Aras Master Workstream Register, First Issue v1.0, 2026-08-13; retro-frontmattered 2026-09-08 (taxonomy remediation wave 1). Legacy register ID: MWR-20260813-001'
+summary: 'Master workstream register for the CSM-Aras partnership: workstream inventory, ownership, coverage mapping, and flagged gaps (incl. CSM commercial coverage GAP notes).'
+strategic_significance: Single-source workstream picture governing CSM-Aras activation and CyberDSA coverage planning.
+mission_alignment:
+- commercial-growth
+- organisational-capability
+related_records:
+- INIT-20260813-005
+- DEC-20260813-001
+artifact_type: report
+file_path: ''
+related_initiative: INIT-20260813-005
+version: '1.0'
+created_by: faurani-jaafar
+---
 # CSM–Aras Master Workstream Register
 
 **Document ID:** MWR-20260813-001

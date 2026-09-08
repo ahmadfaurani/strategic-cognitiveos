@@ -29,9 +29,9 @@ tags:
   - framework/actionable-intelligence-protocol
   - org/aras-integrasi
 source:
-  document: document
-  DAF-authored document, 13 sections, 3 messages: DAF-authored document, 13 sections, 3 messages
-  telegram: telegram
+  type: document
+  reference: "DAF-authored document, 13 sections, 3 messages"
+  platform: telegram
 strategic_significance: Intelligence product.
 mission_alignment: []
 ---

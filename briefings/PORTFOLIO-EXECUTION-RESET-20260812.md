@@ -1,3 +1,38 @@
+---
+id: BRIEF-20260812-001
+record_type: briefing
+title: 'Portfolio Execution Reset — Analytical Report (legacy register: PORTFOLIO-EXECUTION-RESET-20260812)'
+created_at: '2026-08-12T00:00:00+00:00'
+updated_at: '2026-08-12T00:00:00+00:00'
+owner: faurani-jaafar
+status: validated
+priority: high
+sensitivity: confidential
+lifecycle_state: canonical
+confidence: high
+tags:
+- domain/organisational-capability
+- domain/governance
+- type/analytical-report
+source:
+  type: direct-analysis
+  reference: 'Data-quality review of 3-person action item analysis; retro-frontmattered 2026-09-08 (taxonomy remediation wave 1). Legacy register ID: PORTFOLIO-EXECUTION-RESET-20260812'
+summary: 'Portfolio execution reset triggered by data-quality review: systemic counting errors, status-taxonomy misuse, and an unsustainable backlog across DAF/Hadri/Fuad action items requiring immediate reset.'
+strategic_significance: Corrected the action-item baseline that weekly execution tracking depends on.
+mission_alignment:
+- organisational-capability
+related_records: []
+briefing_type: operational
+prepared_for: DAF — Director, Cyber Security Practice
+prepared_at: '2026-08-12T00:00:00+00:00'
+classification: Confidential — Internal
+key_findings:
+- Systemic counting errors in action item analysis
+- Unsustainable backlog required immediate reset
+recommendations:
+- Adopt corrected counting methodology
+- Enforce status taxonomy discipline
+---
 # Portfolio Execution Reset — Analytical Report
 
 **Date:** 2026-08-12  

@@ -21,8 +21,8 @@ updated_at: '2026-08-17T17:50:23+00:00'
 priority: high
 confidence: medium
 source:
-  type: null
-  reference: null
+  type: unrecorded
+  reference: "not captured at intake; remediated 2026-09-08 (P0-TAX-03 wave 2)"
 strategic_significance: 'Portfolio: incubation. Readiness: concept.'
 mission_alignment: []
 related_records: []

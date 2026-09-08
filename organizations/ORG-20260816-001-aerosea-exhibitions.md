@@ -29,8 +29,8 @@ status: active
 priority: medium
 confidence: medium
 source:
-  type: null
-  reference: null
+  type: unrecorded
+  reference: "not captured at intake; remediated 2026-09-08 (P0-TAX-03 wave 2)"
 summary: private-company in events-exhibitions — Organiser of CyberDSA 2026 — the flagship cybersecurity event where Aras Integra
 strategic_significance: 'Organiser of CyberDSA 2026 — the flagship cybersecurity event where Aras Integrasi is securing Silver Sponsorship (RM50,000). Controls exhibition logistics, booth allocation, speaking slots, and event partnerships.. Relationship: active.'
 mission_alignment: []

@@ -1,3 +1,46 @@
+---
+id: BRIEF-20260817-001
+record_type: briefing
+title: CSM Workstream Analysis — Strategic Briefing for Practice Director
+created_at: '2026-08-17T00:00:00+00:00'
+updated_at: '2026-08-17T00:00:00+00:00'
+owner: faurani-jaafar
+status: validated
+priority: high
+sensitivity: confidential
+lifecycle_state: canonical
+confidence: high
+tags:
+- domain/csm-partnership
+- domain/cyberdsa-2026
+- domain/stakeholder-engagement
+- type/analytical-report
+source:
+  type: cognitiveos-records
+  reference: Compiled from CognitiveOS records (ORG/CONV/DEC/RSK/ACT/INIT series, MWR-20260813-001, GRP-20260813-001); record retro-frontmattered 2026-09-08 (taxonomy remediation wave 1)
+summary: 'Strategic briefing for the Practice Director covering the CSM-Aras partnership workstream: coverage gaps, stakeholder mapping, CyberDSA readiness, and next actions, compiled from canonical CognitiveOS records as of 2026-08-17.'
+strategic_significance: Consolidated CSM workstream picture for executive decision-making during the post-MOU activation window.
+mission_alignment:
+- commercial-growth
+- organisational-capability
+related_records:
+- INIT-20260804-001
+- INIT-20260810-003
+- MWR-20260813-001
+- GRP-20260813-001
+- DEC-20260804-001
+- DEC-20260810-002
+briefing_type: strategic
+prepared_for: DAF — Director, Cyber Security Practice
+prepared_at: '2026-08-17T00:00:00+00:00'
+classification: Confidential — Operational
+key_findings:
+- CSM-Aras partnership activation requires named counterpart ownership
+- CyberDSA readiness gated by stakeholder coverage gaps flagged in MWR-20260813-001
+recommendations:
+- Assign Aras-side primary counterparts for flagged CSM roles
+- Track readiness via GRP-20260813-001 metrics
+---
 # CSM Workstream Analysis — Strategic Briefing for Practice Director
 
 **Classification:** Confidential — Operational  

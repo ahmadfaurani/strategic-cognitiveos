@@ -19,7 +19,7 @@ confidence: ""
 action_type: ""
 tags: []
 source:
-  type: ""
+  type: unrecorded
   reference: ""
 summary: ""
 strategic_significance: ""

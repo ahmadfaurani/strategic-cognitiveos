@@ -13,7 +13,7 @@ lifecycle_state: candidate
 confidence: ""
 tags: []
 source:
-  type: ""
+  type: unrecorded
   reference: ""
 summary: ""
 strategic_significance: ""

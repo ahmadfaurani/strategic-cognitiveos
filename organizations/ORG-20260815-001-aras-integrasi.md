@@ -45,8 +45,8 @@ status: active
 priority: medium
 confidence: medium
 source:
-  type: null
-  reference: null
+  type: unrecorded
+  reference: "not captured at intake; remediated 2026-09-08 (P0-TAX-03 wave 2)"
 summary: internal-division in cybersecurity — Primary operating company — DAF's practice base. Cybersecurity practice lead, Vo
 strategic_significance: 'Primary operating company — DAF''s practice base. Cybersecurity practice lead, Voron product line owner, CSM partnership principal.. Relationship: active.'
 mission_alignment: []

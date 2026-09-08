@@ -32,8 +32,8 @@ status: active
 priority: medium
 confidence: medium
 source:
-  type: null
-  reference: null
+  type: unrecorded
+  reference: "not captured at intake; remediated 2026-09-08 (P0-TAX-03 wave 2)"
 summary: SUPERSEDED — Siti Aishah Omar = Aisha (STK-20260815-001) — (see STK-20260815-001) at CyberSecurity Malaysia.
 strategic_significance: 'Influence: medium, Interest: high.'
 mission_alignment: []
