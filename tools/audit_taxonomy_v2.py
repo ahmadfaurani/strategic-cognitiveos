@@ -1,26 +1,22 @@
 #!/usr/bin/env python3
 """
-CognitiveOS Taxonomy Audit V2 (audit_taxonomy_v2.py)
-====================================================
+CognitiveOS Taxonomy Integrity Audit V2 (audit_taxonomy_v2.py) — v1.1
+=====================================================================
 Reproducible, full-corpus taxonomy integrity audit.
 
-Produces reports/taxonomy-audit-YYYY-MM-DD.{json,md} with:
-  - repository_commit, audit_timestamp, validator_version
-  - records_scanned, violations (schema + structural)
-  - methodology (frozen, so future runs are comparable)
+v1.1 (2026-09-08): two methodology corrections to the first baseline —
+  (1) scan scope tightened to the 17 canonical record directories
+      (SOP §3 v1.1, mirrors tools/validate_taxonomy.py + pre-commit).
+      v1.0 accidentally swept memory/, profiles/, logs/, osint-stack/,
+      03-VERIFICATION/ etc. as "structural" — scope contamination.
+  (2) schema→record_type mapping now accepts const OR single-value enum
+      (outcome.schema.json declares enum — v1.0 misclassified all OUT
+      records as unknown-type).
 
-Metrics:
-  SECTION A — JSON Schema conformance (primary burndown metric).
-      Full jsonschema Draft202012 validation of every typed record against
-      schemas/<type>.schema.json, with datetime normalization (YAML parses
-      ISO-8601 strings into datetime objects; schemas declare type:string).
-      Normalization is part of the frozen methodology, NOT a leniency.
-  SECTION B — Structural violations (unparseable frontmatter, unknown or
-      retired record_type) — invisible to schema validation but blocking.
-  SECTION C — Open-namespace tag census (informational: extensible-mode
-      exposure; target is curation + closure, not zero).
-  SECTION D — mission_alignment population (informational: facet-leakage
-      baseline for the typed-facet migration).
+Produces reports/taxonomy-audit-YYYY-MM-DD.{json,md}:
+  - repository_commit, audit_timestamp, tool sha256, methodology_version
+  - records_scanned, violations (schema + structural)
+  - SECTION C open-namespace census, SECTION D mission_alignment census (informational)
 
 Usage:
   python3 tools/audit_taxonomy_v2.py                # write .json + .md
@@ -41,14 +37,23 @@ import yaml
 from jsonschema import Draft202012Validator
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-EXCLUDE_DIRS = ("templates/", "governance/", "reports/", "indexes/")
 
+# Canonical record directories (SOP §3 v1.1 — 17 dirs; mirrors validate_taxonomy.py + pre-commit)
+RECORD_DIRS = (
+    "actions", "assessments", "briefings", "commitments", "decisions",
+    "documents", "drafts", "engagements", "initiatives", "intelligence",
+    "lessons", "opportunities", "organizations", "outcomes", "risks",
+    "stakeholders", "artifacts",
+)
+
+METHODOLOGY_VERSION = "v1.1-20260908"
 METHODOLOGY = {
-    "scope": "all */*.md with YAML frontmatter declaring a known record_type, excluding " + ", ".join(EXCLUDE_DIRS),
-    "normalization": "datetime.date/datetime instances (YAML ISO-8601 auto-parsing) serialized via .isoformat() before validation; this is methodology, not leniency — schemas declare date/time fields as type:string",
-    "schema_validation": "jsonschema Draft202012Validator, per-type schema, additionalProperties honored as declared",
+    "scope": "all *.md in the 17 canonical record directories (SOP §3 v1.1); any frontmatter state",
+    "normalization": "datetime/date instances (YAML ISO-8601 auto-parsing) serialized via .isoformat() before validation; frozen methodology, not leniency — schemas declare date/time fields type:string",
+    "schema_validation": "jsonschema Draft202012Validator, per-type schema (record_type via const or single-value enum), additionalProperties honored as declared",
     "violation_unit": "one violation = (file, json_path, validator) instance; records_with_violations counted separately",
     "excluded_from_violations": "taxonomy tag validation (separate validator: tools/validate_taxonomy.py) — reported informationally in SECTION C",
+    "v1.1_changes": "scope narrowed to canonical record dirs (v1.0 swept non-record dirs as structural); record_type mapping extended to enum-form schemas (outcome)",
 }
 
 
@@ -64,9 +69,7 @@ def norm(o):
 
 def git_commit():
     try:
-        return subprocess.check_output(
-            ["git", "rev-parse", "HEAD"], cwd=REPO, text=True
-        ).strip()
+        return subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=REPO, text=True).strip()
     except Exception:
         return "unknown"
 
@@ -75,21 +78,23 @@ def load_schemas():
     schemas = {}
     for f in glob.glob(os.path.join(REPO, "schemas", "*.schema.json")):
         s = json.load(open(f))
-        rt = s.get("properties", {}).get("record_type", {}).get("const")
-        if rt:
-            schemas[rt] = s
+        decl = s.get("properties", {}).get("record_type", {})
+        vals = [decl["const"]] if "const" in decl else (decl.get("enum") or [])
+        if len(vals) == 1:
+            schemas[vals[0]] = s
     return schemas
 
 
+def record_files():
+    for d in RECORD_DIRS:
+        for f in sorted(glob.glob(os.path.join(REPO, d, "*.md"))):
+            yield f
+
+
 def scan_records(schemas):
-    """Full-corpus JSON Schema sweep. Returns per-file violation lists."""
-    results = []  # (file, record_type, [violation dicts])
-    scanned = 0
-    structural = []  # (file, reason)
-    for f in sorted(glob.glob(os.path.join(REPO, "*", "*.md"))):
+    results, structural, scanned = [], [], 0
+    for f in record_files():
         rel = os.path.relpath(f, REPO).replace(os.sep, "/")
-        if rel.startswith(EXCLUDE_DIRS):
-            continue
         text = open(f, encoding="utf-8").read()
         if not text.startswith("---"):
             structural.append((rel, "no-frontmatter"))
@@ -111,25 +116,22 @@ def scan_records(schemas):
             structural.append((rel, f"unknown-or-retired-record_type: {rt}"))
             continue
         scanned += 1
-        errs = []
-        for e in Draft202012Validator(schemas[rt]).iter_errors(norm(fm)):
-            path = "/".join(map(str, e.absolute_path)) or "<root>"
-            errs.append({"path": path, "validator": e.validator, "message": e.message[:160]})
+        errs = [
+            {"path": "/".join(map(str, e.absolute_path)) or "<root>",
+             "validator": e.validator, "message": e.message[:160]}
+            for e in Draft202012Validator(schemas[rt]).iter_errors(norm(fm))
+        ]
         results.append((rel, rt, errs))
     return scanned, results, structural
 
 
 def taxonomy_census():
-    """SECTION C: open pattern-namespace exposure census."""
     tax = yaml.safe_load(open(os.path.join(REPO, "taxonomy", "tags.yaml")))["namespaces"]
     open_ns = {k: set(v.get("known_values") or []) for k, v in tax.items() if v.get("pattern")}
     usage = defaultdict(set)
-    for f in glob.glob(os.path.join(REPO, "*", "*.md")):
+    for f in record_files():
         rel = os.path.relpath(f, REPO).replace(os.sep, "/")
-        if rel.startswith(EXCLUDE_DIRS):
-            continue
-        text = open(f, encoding="utf-8").read()
-        m = re.match(r"^---\n(.*?)\n---", text, re.S)
+        m = re.match(r"^---\n(.*?)\n---", open(f, encoding="utf-8").read(), re.S)
         if not m:
             continue
         try:
@@ -154,15 +156,11 @@ def taxonomy_census():
 
 
 def mission_alignment_census():
-    """SECTION D — mission_alignment facet-leakage census."""
     tax = yaml.safe_load(open(os.path.join(REPO, "taxonomy", "tags.yaml")))["namespaces"]
     mission_vocab = set(tax["mission"]["values"])
-    stats = Counter()
-    offvocab = Counter()
-    for f in glob.glob(os.path.join(REPO, "*", "*.md")):
+    stats, offvocab = Counter(), Counter()
+    for f in record_files():
         rel = os.path.relpath(f, REPO).replace(os.sep, "/")
-        if rel.startswith(EXCLUDE_DIRS):
-            continue
         text = open(f, encoding="utf-8").read()
         m = re.search(r"^mission_alignment:\n((?:\s*- .*\n)+)", text, re.M)
         if not m:
@@ -194,8 +192,7 @@ def build_report(stdout_only=False):
     v_by_type = defaultdict(lambda: {"violations": 0, "records": 0})
     v_by_cat = Counter()
     files = []
-    total_v = 0
-    dirty = 0
+    total_v = dirty = 0
     for rel, rt, errs in results:
         if errs:
             dirty += 1
@@ -209,6 +206,7 @@ def build_report(stdout_only=False):
     report = {
         "repository_commit": git_commit(),
         "audit_timestamp": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "methodology_version": METHODOLOGY_VERSION,
         "validator_version": {
             "tool": "tools/audit_taxonomy_v2.py",
             "tool_sha256": hashlib.sha256(open(os.path.abspath(__file__), "rb").read()).hexdigest()[:16],
@@ -223,7 +221,7 @@ def build_report(stdout_only=False):
             "records_clean": scanned - dirty,
             "structural_total": len(structural),
             "structural": [{"file": f, "reason": r} for f, r in structural],
-            "by_type": {k: v for k, v in sorted(v_by_type.items(), key=lambda x: -x[1]["violations"])},
+            "by_type": dict(sorted(v_by_type.items(), key=lambda x: -x[1]["violations"])),
             "by_category": dict(v_by_cat.most_common(30)),
             "files": files,
         },
@@ -231,14 +229,13 @@ def build_report(stdout_only=False):
         "mission_alignment_census": {"stats": dict(ma_stats), "top_offvocab": dict(ma_offvocab)},
     }
 
-    # ---- Markdown ----
     L = []
-    L.append(f"# Taxonomy Integrity Audit — {report['audit_timestamp'][:10]}")
+    L.append(f"# Taxonomy Integrity Audit — {report['audit_timestamp'][:10]} (methodology {METHODOLOGY_VERSION})")
     L.append("")
     L.append(f"- **repository_commit:** `{report['repository_commit']}`")
     L.append(f"- **audit_timestamp:** {report['audit_timestamp']}")
     L.append(f"- **tool:** audit_taxonomy_v2.py (sha256:{report['validator_version']['tool_sha256']}, jsonschema {report['validator_version']['jsonschema']})")
-    L.append(f"- **records_scanned:** {scanned} typed records")
+    L.append(f"- **records_scanned:** {scanned} typed records (17 canonical record dirs)")
     L.append(f"- **methodology:** frozen — see JSON artifact; datetime-normalized full JSON Schema enforcement, additionalProperties honored")
     L.append("")
     L.append("## A. JSON Schema violations (burndown metric — target 0)")
@@ -246,9 +243,9 @@ def build_report(stdout_only=False):
     L.append("| Metric | Value |")
     L.append("|--------|-------|")
     L.append(f"| Total violations | {total_v} |")
-    L.append(f"| Records with ≥1 violation | {dirty} / {scanned} ({dirty/scanned*100:.0f}%) |")
+    L.append(f"| Records with ≥1 violation | {dirty} / {scanned} ({(dirty / scanned * 100) if scanned else 0:.0f}%) |")
     L.append(f"| Clean records | {scanned - dirty} |")
-    L.append(f"| Structural (unparseable/unknown-type) | {len(structural)} |")
+    L.append(f"| Structural (unparseable/unknown-type/no-frontmatter) | {len(structural)} |")
     L.append("")
     L.append("### By record type")
     L.append("")
@@ -261,7 +258,7 @@ def build_report(stdout_only=False):
     L.append("")
     L.append("| Category | Count |")
     L.append("|----------|-------|")
-    for k, c in list(v_by_cat.most_common(15)):
+    for k, c in v_by_cat.most_common(15):
         L.append(f"| {k} | {c} |")
     L.append("")
     if structural:

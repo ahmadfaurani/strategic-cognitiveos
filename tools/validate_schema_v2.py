@@ -51,9 +51,10 @@ def load_schemas():
     schemas = {}
     for f in glob.glob(os.path.join(REPO, "schemas", "*.schema.json")):
         s = json.load(open(f))
-        rt = s.get("properties", {}).get("record_type", {}).get("const")
-        if rt:
-            schemas[rt] = s
+        decl = s.get("properties", {}).get("record_type", {})
+        vals = [decl["const"]] if "const" in decl else (decl.get("enum") or [])
+        if len(vals) == 1:
+            schemas[vals[0]] = s
     return schemas
 
 

@@ -1,58 +1,28 @@
 {
- "repository_commit": "7381d32c01016ee7eb0c908e7b38d573df37d089",
- "audit_timestamp": "2026-09-08T14:39:04+00:00",
+ "repository_commit": "361c253d0f24b413c546fa122c506d2abb2b561d",
+ "audit_timestamp": "2026-09-08T14:59:53+00:00",
+ "methodology_version": "v1.1-20260908",
  "validator_version": {
   "tool": "tools/audit_taxonomy_v2.py",
-  "tool_sha256": "c2ff69f1369aad72",
+  "tool_sha256": "03a726f17e94f28f",
   "jsonschema": "4.23.0",
   "pyyaml": "6.0.1"
  },
  "methodology": {
-  "scope": "all */*.md with YAML frontmatter declaring a known record_type, excluding templates/, governance/, reports/, indexes/",
-  "normalization": "datetime.date/datetime instances (YAML ISO-8601 auto-parsing) serialized via .isoformat() before validation; this is methodology, not leniency \u2014 schemas declare date/time fields as type:string",
-  "schema_validation": "jsonschema Draft202012Validator, per-type schema, additionalProperties honored as declared",
+  "scope": "all *.md in the 17 canonical record directories (SOP \u00a73 v1.1); any frontmatter state",
+  "normalization": "datetime/date instances (YAML ISO-8601 auto-parsing) serialized via .isoformat() before validation; frozen methodology, not leniency \u2014 schemas declare date/time fields type:string",
+  "schema_validation": "jsonschema Draft202012Validator, per-type schema (record_type via const or single-value enum), additionalProperties honored as declared",
   "violation_unit": "one violation = (file, json_path, validator) instance; records_with_violations counted separately",
-  "excluded_from_violations": "taxonomy tag validation (separate validator: tools/validate_taxonomy.py) \u2014 reported informationally in SECTION C"
+  "excluded_from_violations": "taxonomy tag validation (separate validator: tools/validate_taxonomy.py) \u2014 reported informationally in SECTION C",
+  "v1.1_changes": "scope narrowed to canonical record dirs (v1.0 swept non-record dirs as structural); record_type mapping extended to enum-form schemas (outcome)"
  },
- "records_scanned": 780,
+ "records_scanned": 773,
  "violations": {
-  "schema_total": 682,
-  "records_with_violations": 415,
-  "records_clean": 365,
-  "structural_total": 37,
+  "schema_total": 689,
+  "records_with_violations": 413,
+  "records_clean": 360,
+  "structural_total": 14,
   "structural": [
-   {
-    "file": "03-VERIFICATION/CVS-ADAPTER.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "actions/ACT-20260824-001.md",
-    "reason": "yaml-parse: mapping values are not allowed here"
-   },
-   {
-    "file": "actions/ACT-20260825-002.md",
-    "reason": "yaml-parse: mapping values are not allowed here"
-   },
-   {
-    "file": "artifacts/ART-20260908-001-gtm-marketing-execution-plan-deck.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "artifacts/ART-20260908-002-cyberdsa-invitation-list.xlsx.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
-   {
-    "file": "artifacts/GRP-20260813-001-GovSec-CyberDSA-Readiness-Plan.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "artifacts/MWR-20260813-001-Master-Workstream-Register.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "artifacts/VoronCitadel_GTM_Strategy_Final_Draft.md",
-    "reason": "yaml-parse: while scanning a quoted scalar"
-   },
    {
     "file": "briefings/BRIEF-20260817-001-CSM-WORKSTREAM-ANALYSIS.md",
     "reason": "no-frontmatter"
@@ -90,84 +60,24 @@
     "reason": "yaml-parse: while scanning a quoted scalar"
    },
    {
-    "file": "events/EVT-20260908-001.md",
-    "reason": "unknown-or-retired-record_type: event"
+    "file": "artifacts/ART-20260908-001-gtm-marketing-execution-plan-deck.md",
+    "reason": "yaml-parse: while scanning a quoted scalar"
    },
    {
-    "file": "logs/validation-2026-08-21.md",
+    "file": "artifacts/ART-20260908-002-cyberdsa-invitation-list.xlsx.md",
+    "reason": "yaml-parse: while scanning a quoted scalar"
+   },
+   {
+    "file": "artifacts/GRP-20260813-001-GovSec-CyberDSA-Readiness-Plan.md",
     "reason": "no-frontmatter"
    },
    {
-    "file": "logs/validation-2026-08-23.md",
+    "file": "artifacts/MWR-20260813-001-Master-Workstream-Register.md",
     "reason": "no-frontmatter"
    },
    {
-    "file": "logs/validation-2026-08-30.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "logs/validation-2026-09-06.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "memory/2026-08-04.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "memory/2026-08-18.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "memory/2026-08-21.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "memory/2026-08-25.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "memory/2026-08-26.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "memory/2026-09-03.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "memory/2026-09-05.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "memory/ATHENA-COGNITIVEOS-INTAKE-MODUS-OPERANDI.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "osint-stack/ARCHITECTURE.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "outcomes/OUT-20260815-001.md",
-    "reason": "unknown-or-retired-record_type: outcome"
-   },
-   {
-    "file": "outcomes/OUT-20260819-001.md",
-    "reason": "unknown-or-retired-record_type: outcome"
-   },
-   {
-    "file": "outcomes/OUT-20260819-002.md",
-    "reason": "unknown-or-retired-record_type: outcome"
-   },
-   {
-    "file": "profiles/DAF-COMPREHENSIVE-PROFILE-20260815.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "profiles/FUAD-COMPREHENSIVE-PROFILE-20260829.md",
-    "reason": "no-frontmatter"
-   },
-   {
-    "file": "profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md",
-    "reason": "no-frontmatter"
+    "file": "artifacts/VoronCitadel_GTM_Strategy_Final_Draft.md",
+    "reason": "yaml-parse: while scanning a quoted scalar"
    }
   ],
   "by_type": {
@@ -192,16 +102,16 @@
     "records": 20
    },
    "initiative": {
-    "violations": 34,
-    "records": 18
+    "violations": 30,
+    "records": 17
    },
    "intelligence": {
     "violations": 29,
     "records": 20
    },
    "conversation": {
-    "violations": 28,
-    "records": 19
+    "violations": 25,
+    "records": 16
    },
    "commitment": {
     "violations": 22,
@@ -214,6 +124,10 @@
    "lesson": {
     "violations": 14,
     "records": 12
+   },
+   "outcome": {
+    "violations": 14,
+    "records": 2
    },
    "opportunity": {
     "violations": 12,
@@ -243,18 +157,19 @@
    "risk:type:source": 42,
    "organization:type:source": 36,
    "decision:type:alternatives_considered": 28,
-   "initiative:type:source": 26,
+   "initiative:type:source": 24,
    "commitment:type:source": 16,
    "intelligence:enum:intelligence_type": 15,
    "conversation:type:source": 12,
    "artifact:enum:artifact_type": 11,
-   "conversation:additionalProperties:<root>": 10,
+   "outcome:type:success_metrics": 10,
    "action:enum:status": 8,
    "action:additionalProperties:<root>": 8,
    "decision:type:source": 8,
-   "artifact:pattern:id": 7,
+   "conversation:additionalProperties:<root>": 8,
    "decision:additionalProperties:<root>": 7,
    "lesson:additionalProperties:<root>": 7,
+   "artifact:pattern:id": 7,
    "document:enum:document_type": 6,
    "intelligence:type:source": 6,
    "risk:type:related_initiative": 6,
@@ -265,7 +180,6 @@
    "risk:enum:risk_category": 4,
    "risk:type:trigger_conditions": 4,
    "commitment:type:committed_by": 3,
-   "conversation:enum:channel": 3,
    "draft:pattern:id": 3
   },
   "files": [
@@ -2369,338 +2283,6 @@
     ]
    },
    {
-    "file": "artifacts/AIP-20260822-001-VoronCitadel-GTM.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "id",
-      "validator": "pattern",
-      "message": "'AIP-20260822-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
-     },
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'actionable-intelligence-protocol' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'sc"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/AIP-20260823-001.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "id",
-      "validator": "pattern",
-      "message": "'AIP-20260823-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
-     },
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'actionable-intelligence-protocol' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'sc"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/AIP-20260829-001-Fuad-Capacity-Architecture.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "id",
-      "validator": "pattern",
-      "message": "'AIP-20260829-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
-     },
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'actionable-intelligence-protocol' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'sc"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/AIP-20260829-002-Exec-Discipline-and-Session-Integrity.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "id",
-      "validator": "pattern",
-      "message": "'AIP-20260829-002' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
-     },
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'actionable-intelligence-protocol' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'sc"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/ART-20260822-002-Funnel-Reconciliation-One-Pager.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'pre-read-document' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/ART-20260822-003-GTM-Quantifiable-Outcomes.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "lifecycle_state",
-      "validator": "enum",
-      "message": "'draft' is not one of ['candidate', 'structurally_valid', 'semantically_verified', 'approved', 'canonical', 'superseded', 'rejected']"
-     },
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'financial-model' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset',"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/ART-20260823-001.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'pitch-document' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset', "
-     }
-    ]
-   },
-   {
-    "file": "artifacts/ART-20260828-001-csm-aras-nda-framework.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'legal-framework' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset',"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/ART-20260829-001-csm-commercial-mql-pic-role-definition.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "lifecycle_state",
-      "validator": "enum",
-      "message": "'working-draft' is not one of ['candidate', 'structurally_valid', 'semantically_verified', 'approved', 'canonical', 'superseded', 'rejected']"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/ESF-20260822-001-VoronCitadel-GTM.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "id",
-      "validator": "pattern",
-      "message": "'ESF-20260822-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
-     },
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'engineered-success-framework' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/ESF-20260829-001-DAF-Strategic-Leader-Profile.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "id",
-      "validator": "pattern",
-      "message": "'ESF-20260829-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
-     },
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'engineered-success-framework' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/ESF-20260829-002-Fuad-Practice-Technical-Authority.md",
-    "record_type": "artifact",
-    "violations": [
-     {
-      "path": "id",
-      "validator": "pattern",
-      "message": "'ESF-20260829-002' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
-     },
-     {
-      "path": "artifact_type",
-      "validator": "enum",
-      "message": "'engineered-success-framework' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/VORONCRM-v1-execution-plan.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/jd-account-owner.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/jd-gtm-delivery-owner.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/jd-marketing-operations-specialist.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/jd-poc-engineer.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-crm-bootstrap-checklist.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-crm-recommendation.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-executive-summary.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-internal-communications-plan.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
-    "file": "artifacts/vorondrq-gtm-resource-requirements.md",
-    "record_type": "initiative",
-    "violations": [
-     {
-      "path": "source/type",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     },
-     {
-      "path": "source/reference",
-      "validator": "type",
-      "message": "None is not of type 'string'"
-     }
-    ]
-   },
-   {
     "file": "assessments/ASSESS-20260817-001.md",
     "record_type": "assessment",
     "violations": [
@@ -3000,28 +2582,6 @@
       "path": "status",
       "validator": "enum",
       "message": "'fulfilled' is not one of ['draft', 'in-progress', 'validated', 'approved', 'active', 'blocked', 'deferred', 'completed', 'superseded', 'archived', 'captured', "
-     }
-    ]
-   },
-   {
-    "file": "conversations/CONV-20260821-002.md",
-    "record_type": "conversation",
-    "violations": [
-     {
-      "path": "<root>",
-      "validator": "additionalProperties",
-      "message": "Additional properties are not allowed ('conversation_type', 'date_range', 'email_count' were unexpected)"
-     }
-    ]
-   },
-   {
-    "file": "conversations/CONV-20260907-001-mcmc-risik-presentation-invitation.md",
-    "record_type": "conversation",
-    "violations": [
-     {
-      "path": "channel",
-      "validator": "enum",
-      "message": "'formal-letter' is not one of ['telegram', 'email', 'discord', 'signal', 'whatsapp', 'in-person', 'phone', 'video-call', 'other']"
      }
     ]
    },
@@ -4362,17 +3922,6 @@
     ]
    },
    {
-    "file": "memory/CONV-20260802-002.md",
-    "record_type": "conversation",
-    "violations": [
-     {
-      "path": "<root>",
-      "validator": "additionalProperties",
-      "message": "Additional properties are not allowed ('actions', 'decisions', 'products', 'projects', 'risks', 'stakeholders' were unexpected)"
-     }
-    ]
-   },
-   {
     "file": "opportunities/OPP-20260822-001.md",
     "record_type": "opportunity",
     "violations": [
@@ -4780,6 +4329,88 @@
       "path": "relationship_status",
       "validator": "enum",
       "message": "'engaging' is not one of ['new', 'developing', 'active', 'trusted', 'dormant', 'none']"
+     }
+    ]
+   },
+   {
+    "file": "outcomes/OUT-20260815-001.md",
+    "record_type": "outcome",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "source/type",
+      "validator": "enum",
+      "message": "None is not one of ['direct', 'inferred', 'osint', 'humint', 'system', 'reference']"
+     },
+     {
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "success_metrics/0",
+      "validator": "type",
+      "message": "'Training session delivered' is not of type 'object'"
+     },
+     {
+      "path": "success_metrics/1",
+      "validator": "type",
+      "message": "'Both sales teams aligned on Voron Citadel value proposition' is not of type 'object'"
+     },
+     {
+      "path": "success_metrics/2",
+      "validator": "type",
+      "message": "'CSM team interest in additional sessions (engagement indicator)' is not of type 'object'"
+     },
+     {
+      "path": "success_metrics/3",
+      "validator": "type",
+      "message": "'Communication PIC proposed (process improvement)' is not of type 'object'"
+     }
+    ]
+   },
+   {
+    "file": "outcomes/OUT-20260819-002.md",
+    "record_type": "outcome",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "enum",
+      "message": "'direct-implementation' is not one of ['direct', 'inferred', 'osint', 'humint', 'system', 'reference']"
+     },
+     {
+      "path": "success_metrics/0",
+      "validator": "type",
+      "message": "'All 5 containers healthy (API, deriver, database, redis, TEI)' is not of type 'object'"
+     },
+     {
+      "path": "success_metrics/1",
+      "validator": "type",
+      "message": "'Dialectic minimal chat test passed (Qwen3.6-27B)' is not of type 'object'"
+     },
+     {
+      "path": "success_metrics/2",
+      "validator": "type",
+      "message": "'Deriver running with Qwen3.6-35B-A3B' is not of type 'object'"
+     },
+     {
+      "path": "success_metrics/3",
+      "validator": "type",
+      "message": "'Zero duplicate .env lines' is not of type 'object'"
+     },
+     {
+      "path": "success_metrics/4",
+      "validator": "type",
+      "message": "'Fallbacks configured for deriver, summary, all 5 dialectic levels' is not of type 'object'"
+     },
+     {
+      "path": "success_metrics/5",
+      "validator": "type",
+      "message": "'Backup saved: .env.bak.20260819-0845' is not of type 'object'"
      }
     ]
    },
@@ -6144,14 +5775,181 @@
     ]
    },
    {
-    "file": "strategies/STRAT-20260807-001-risik-operational-development.md",
-    "record_type": "initiative",
+    "file": "artifacts/AIP-20260822-001-VoronCitadel-GTM.md",
+    "record_type": "artifact",
     "violations": [
      {
       "path": "id",
       "validator": "pattern",
-      "message": "'STRAT-20260807-001' does not match '^INIT-\\\\d{8}-\\\\d{3}$'"
+      "message": "'AIP-20260822-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
      },
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'actionable-intelligence-protocol' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'sc"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/AIP-20260823-001.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "id",
+      "validator": "pattern",
+      "message": "'AIP-20260823-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
+     },
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'actionable-intelligence-protocol' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'sc"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/AIP-20260829-001-Fuad-Capacity-Architecture.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "id",
+      "validator": "pattern",
+      "message": "'AIP-20260829-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
+     },
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'actionable-intelligence-protocol' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'sc"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/AIP-20260829-002-Exec-Discipline-and-Session-Integrity.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "id",
+      "validator": "pattern",
+      "message": "'AIP-20260829-002' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
+     },
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'actionable-intelligence-protocol' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'sc"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/ART-20260822-002-Funnel-Reconciliation-One-Pager.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'pre-read-document' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/ART-20260822-003-GTM-Quantifiable-Outcomes.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "lifecycle_state",
+      "validator": "enum",
+      "message": "'draft' is not one of ['candidate', 'structurally_valid', 'semantically_verified', 'approved', 'canonical', 'superseded', 'rejected']"
+     },
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'financial-model' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset',"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/ART-20260823-001.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'pitch-document' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset', "
+     }
+    ]
+   },
+   {
+    "file": "artifacts/ART-20260828-001-csm-aras-nda-framework.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'legal-framework' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema', 'dataset',"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/ART-20260829-001-csm-commercial-mql-pic-role-definition.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "lifecycle_state",
+      "validator": "enum",
+      "message": "'working-draft' is not one of ['candidate', 'structurally_valid', 'semantically_verified', 'approved', 'canonical', 'superseded', 'rejected']"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/ESF-20260822-001-VoronCitadel-GTM.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "id",
+      "validator": "pattern",
+      "message": "'ESF-20260822-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
+     },
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'engineered-success-framework' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/ESF-20260829-001-DAF-Strategic-Leader-Profile.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "id",
+      "validator": "pattern",
+      "message": "'ESF-20260829-001' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
+     },
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'engineered-success-framework' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/ESF-20260829-002-Fuad-Practice-Technical-Authority.md",
+    "record_type": "artifact",
+    "violations": [
+     {
+      "path": "id",
+      "validator": "pattern",
+      "message": "'ESF-20260829-002' does not match '^ART-\\\\d{8}-\\\\d{3}$'"
+     },
+     {
+      "path": "artifact_type",
+      "validator": "enum",
+      "message": "'engineered-success-framework' is not one of ['proposal', 'report', 'deck', 'repository', 'specification', 'framework', 'brief', 'contract', 'template', 'schema"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/VORONCRM-v1-execution-plan.md",
+    "record_type": "initiative",
+    "violations": [
      {
       "path": "source/type",
       "validator": "type",
@@ -6161,11 +5959,150 @@
       "path": "source/reference",
       "validator": "type",
       "message": "None is not of type 'string'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/jd-account-owner.md",
+    "record_type": "initiative",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
      },
      {
-      "path": "<root>",
-      "validator": "additionalProperties",
-      "message": "Additional properties are not allowed ('authority', 'classification', 'parent_initiative', 'parent_workstream' were unexpected)"
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/jd-gtm-delivery-owner.md",
+    "record_type": "initiative",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/jd-marketing-operations-specialist.md",
+    "record_type": "initiative",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/jd-poc-engineer.md",
+    "record_type": "initiative",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/vorondrq-gtm-crm-bootstrap-checklist.md",
+    "record_type": "initiative",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/vorondrq-gtm-crm-recommendation.md",
+    "record_type": "initiative",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/vorondrq-gtm-executive-summary.md",
+    "record_type": "initiative",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/vorondrq-gtm-internal-communications-plan.md",
+    "record_type": "initiative",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     }
+    ]
+   },
+   {
+    "file": "artifacts/vorondrq-gtm-resource-requirements.md",
+    "record_type": "initiative",
+    "violations": [
+     {
+      "path": "source/type",
+      "validator": "type",
+      "message": "None is not of type 'string'"
+     },
+     {
+      "path": "source/reference",
+      "validator": "type",
+      "message": "None is not of type 'string'"
      }
     ]
    }
@@ -6178,7 +6115,7 @@
    "unregistered": 0
   },
   "channel": {
-   "used": 3,
+   "used": 2,
    "registered": 8,
    "unregistered": 0
   },
@@ -6233,14 +6170,14 @@
    "unregistered": 0
   },
   "milestone": {
-   "used": 10,
+   "used": 9,
    "registered": 6,
-   "unregistered": 4
+   "unregistered": 3
   },
   "org": {
-   "used": 25,
+   "used": 24,
    "registered": 28,
-   "unregistered": 8
+   "unregistered": 7
   },
   "outcome": {
    "used": 3,
@@ -6268,34 +6205,34 @@
    "unregistered": 9
   },
   "type": {
-   "used": 194,
+   "used": 196,
    "registered": 3,
-   "unregistered": 191
+   "unregistered": 193
   },
   "_total": {
-   "used": 333,
+   "used": 332,
    "registered": 160,
    "unregistered": 248
   }
  },
  "mission_alignment_census": {
   "stats": {
-   "records_with_field": 404,
-   "has_offvocab_value": 335,
-   "zero_true_mission": 225,
-   "pure_true_mission": 65,
+   "records_with_field": 399,
+   "has_offvocab_value": 334,
+   "zero_true_mission": 224,
+   "pure_true_mission": 61,
    "has_cross_facet_prefixed": 8
   },
   "top_offvocab": {
-   "cybersecurity-productisation": 165,
-   "csm-partnership": 87,
+   "cybersecurity-productisation": 164,
+   "csm-partnership": 86,
    "cyberdsa-2026": 62,
-   "commercial-development": 43,
+   "commercial-development": 42,
    "commercial-strategy": 35,
    "sovereign-capability": 34,
    "stakeholder-engagement": 32,
-   "cognitiveos-operations": 30,
    "government-partnerships": 30,
+   "cognitiveos-operations": 30,
    "product-management": 29,
    "organisational-capability-building": 27,
    "csm-aras-partnership": 25,
