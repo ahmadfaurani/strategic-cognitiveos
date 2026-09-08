@@ -1,0 +1,81 @@
+# ============================================================
+# OpenStinger Configuration — Research Stack (arasintegrasi.ai + TEI/bge-m3)
+# ============================================================
+
+# Agent identity
+agent_name: research-agent
+agent_namespace: research-stack
+
+# FalkorDB
+falkordb:
+  host: "${FALKORDB_HOST:localhost}"
+  port: 6380
+  password: "${FALKORDB_PASSWORD:}"
+  temporal_graph: openstinger_temporal
+  knowledge_graph: openstinger_knowledge
+  vector_dimensions: 1024  # BAAI/bge-m3 output size (via TEI)
+
+# Operational database
+operational_db:
+  provider: postgresql
+  postgresql_url: "postgresql+asyncpg://openstinger:research-stack-postgres-secure-password@localhost:5433/openstinger"
+
+# LLM settings (HYBRID: ARAS LLM + Local TEI Embeddings)
+llm:
+  # LLM from arasintegrasi.ai
+  provider: openai
+  model: Qwen/Qwen3.5-397B-A17B
+  fast_model: Qwen/Qwen3.5-27B
+  llm_base_url: "https://model.arasintegrasi.ai/v1"
+  
+  # Embeddings from local TEI (OpenAI-compatible /v1/embeddings endpoint)
+  embedding_provider: openai
+  embedding_model: BAAI/bge-m3
+  embedding_base_url: "http://localhost:8082/v1"
+
+# Ingestion settings (Tier 1)
+ingestion:
+  sessions_dir: "/home/p62operator/.openclaw/workspace/research-stack/sessions"
+  workspace_dir: "/home/p62operator/.openclaw/workspace"
+  poll_interval_seconds: 5
+  chunk_size: 10
+  session_format: "simple"  # gai_to_openstinger.py exports flat episodes
+
+# Deduplication thresholds (Tier 1)
+deduplication:
+  token_overlap_min: 0.4
+  lsh_threshold: 0.5
+  llm_confidence_min: 0.85
+  identity_confidence_min: 0.92
+
+# Community detection
+community:
+  update_every_n: 0
+
+# Vault settings (Tier 2)
+vault:
+  vault_dir: "/home/p62operator/.openclaw/workspace/research-stack/skills/vault"
+  classification_interval_seconds: 300
+  sync_interval_seconds: 120
+  decay_days: 90
+  episodes_per_classification_batch: 20
+
+# Gradient settings (Tier 3)
+gradient:
+  enabled: false
+  observe_only: true
+  evaluation_timeout_ms: 2000
+  drift_window_size: 20
+  drift_alert_threshold: 0.65
+  consecutive_flag_limit: 5
+  min_outputs_before_active: 100
+
+# MCP transport
+mcp:
+  transport: sse
+  tcp_port: 8765
+
+# Logging
+logging:
+  level: INFO
+  file: "/home/p62operator/.openclaw/workspace/research-stack/logs/openstinger.log"

@@ -78,6 +78,7 @@ class OpenAICompatibleClient:
                     {"role": "system", "content": system},
                     {"role": "user", "content": user},
                 ],
+                extra_body={"chat_template_kwargs": {"enable_thinking": False}},
             ),
         )
         return response.choices[0].message.content or ""
@@ -149,6 +150,7 @@ class OpenAICompatibleClient:
                 ],
                 tools=openai_tools,
                 tool_choice="required",
+                extra_body={"chat_template_kwargs": {"enable_thinking": False}},
             ),
         )
 

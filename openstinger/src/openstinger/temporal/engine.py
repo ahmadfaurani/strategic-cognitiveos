@@ -299,6 +299,7 @@ class TemporalEngine:
                 system=EXTRACT_ENTITIES_SYSTEM,
                 user=build_extract_entities_user(episode.content),
                 tools=[EXTRACT_ENTITIES_TOOL],
+                use_fast_model=True,  # 397B + vLLM tools returns null tool_calls (backend bug, 2026-09-08); 27B works
             )
             entities = []
             for item in result.get("entities", []):
@@ -324,6 +325,7 @@ class TemporalEngine:
                 system=EXTRACT_EDGES_SYSTEM,
                 user=build_extract_edges_user(episode.content, entity_names),
                 tools=[EXTRACT_EDGES_TOOL],
+                use_fast_model=True,  # 397B + vLLM tools returns null tool_calls (backend bug, 2026-09-08); 27B works
             )
             return result.get("edges", [])
         except Exception as exc:
