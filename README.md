@@ -5,6 +5,7 @@
 **Strategic Owner:** Ahmad Faurani Jaafar
 **Version:** 1.0
 **Status:** Foundational Operating Specification
+**Canonical designation:** This repository is the **canonical system of record** for the overall workstream (DEC-20260908-004, 2026-09-08). All strategic state lives here. Branch model: `main` = canonical records (validator-gated); `memory-mirror` = agent continuity mirror. Workspace root and satellite repos hold working artifacts only — strategic state must exist as a CognitiveOS record (single-source rule, DOC-20260908-006).
 
 ## What This Is
 
