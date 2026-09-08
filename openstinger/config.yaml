@@ -40,8 +40,14 @@ ingestion:
   poll_interval_seconds: 5
   chunk_size: 10
   session_format: "simple"  # gai_to_openstinger.py exports flat episodes
+  concurrency: 3
+  # Namespace file routing: research-stack reads GAI feeds only; hermes-sessions
+  # (registered when hermes_sessions=true) reads hermes-*.jsonl from the same dir.
+  file_filter: "gai-*.jsonl"
+  hermes_sessions: true
 
-# Deduplication thresholds (Tier 1)
+# Dedupe threshold: identical content hash = skip. Retouched/mtime-bumped files
+# must not re-export (content-keyed second check on top of mtime state).
 deduplication:
   token_overlap_min: 0.4
   lsh_threshold: 0.5

@@ -376,7 +376,37 @@ class OpenStingerServer:
             chunk_size=cfg.ingestion.chunk_size,
             session_format=cfg.ingestion.session_format,
             concurrency=cfg.ingestion.concurrency,
+            file_filter=cfg.ingestion.file_filter,
         )
+
+        # 6. Optional second namespace: Hermes session memory (bi-temporal
+        #    conversational record). Reads hermes-*.jsonl written by
+        #    scripts/hermes_to_openstinger.py. Uses the SAME engine/driver/
+        #    registry — episodes are namespaced in FalkorDB, entity registry
+        #    is shared by design (cross-gate entity continuity).
+        if cfg.ingestion.hermes_sessions:
+            hermes_engine = TemporalEngine(
+                driver=self.driver,
+                llm=self.llm,
+                embedder=self.embedder,
+                entity_registry=self.entity_registry,
+                agent_namespace="hermes-sessions",
+            )
+            hermes_engine.set_deduplicator(deduplicator)
+            hermes_engine.set_conflict_resolver(conflict_resolver)
+            await self.scheduler.register_agent(
+                namespace="hermes-sessions",
+                sessions_dir=cfg.resolved_sessions_dir(),
+                engine=hermes_engine,
+                db_adapter=self.db,
+                poll_interval=cfg.ingestion.poll_interval_seconds,
+                chunk_size=cfg.ingestion.chunk_size,
+                session_format="simple",
+                concurrency=cfg.ingestion.concurrency,
+                file_filter="hermes-*.jsonl",
+                profile_ingest=False,
+            )
+            logger.info("Hermes sessions ingestion registered: namespace=hermes-sessions")
 
         logger.info("OpenStinger ready: namespace=%s", cfg.agent_namespace)
 

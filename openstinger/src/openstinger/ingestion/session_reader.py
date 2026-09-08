@@ -147,12 +147,17 @@ class SessionReader:
         poll_interval: float = 5.0,
         chunk_size: int = 10,
         session_format: SessionFormat = "openclaw",
+        file_filter: str | None = None,
     ) -> None:
         self.sessions_dir = Path(str(resolve_path(sessions_dir)))
         self.agent_namespace = agent_namespace
         self.on_batch = on_batch
         self.db = db_adapter
         self.poll_interval = poll_interval
+        # Optional glob filter restricting which files this reader ingests.
+        # Needed when multiple namespaces share one sessions dir (e.g.
+        # research-stack reads gai-*.jsonl, hermes-sessions reads hermes-*.jsonl).
+        self.file_filter = file_filter
         self.chunk_size = chunk_size
         self.session_format: SessionFormat = session_format
 
@@ -210,6 +215,9 @@ class SessionReader:
         jsonl_files = sorted(self.sessions_dir.glob("**/*.jsonl"))
         # Skip sessions.json (OpenClaw index file, not a session)
         jsonl_files = [f for f in jsonl_files if f.name != "sessions.json"]
+        # Per-namespace file filter (when namespaces share a sessions dir)
+        if self.file_filter:
+            jsonl_files = [f for f in jsonl_files if f.match(self.file_filter)]
         for file_path in jsonl_files:
             await self._ingest_file(file_path)
 

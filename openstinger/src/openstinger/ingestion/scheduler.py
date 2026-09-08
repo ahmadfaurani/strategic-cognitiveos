@@ -65,6 +65,8 @@ class IngestionSchedulerRegistry:
         chunk_size: int = 10,
         session_format: str = "openclaw",
         concurrency: int = 5,
+        file_filter: str | None = None,
+        profile_ingest: bool = True,
     ) -> None:
         """
         Register and start an ingestion pipeline for agent namespace.
@@ -104,22 +106,25 @@ class IngestionSchedulerRegistry:
             poll_interval=poll_interval,
             chunk_size=chunk_size,
             session_format=session_format,
-        )
-        
-        profile_reader = AgentProfileIngester(
-            profile_dirs=p_dirs,
-            agent_namespace=namespace,
-            engine=engine,
-            db_adapter=db_adapter,
-            poll_interval=max(60.0, poll_interval * 12),  # Poll less frequently than sessions
+            file_filter=file_filter,
         )
 
+        if profile_ingest:
+            profile_reader = AgentProfileIngester(
+                profile_dirs=p_dirs,
+                agent_namespace=namespace,
+                engine=engine,
+                db_adapter=db_adapter,
+                poll_interval=max(60.0, poll_interval * 12),  # Poll less frequently than sessions
+            )
+            self._profile_readers[namespace] = profile_reader
+
         self._readers[namespace] = reader
-        self._profile_readers[namespace] = profile_reader
         self._engines[namespace] = engine
-        
+
         await reader.start()
-        await profile_reader.start()
+        if profile_ingest:
+            await self._profile_readers[namespace].start()
         
         logger.info(
             "IngestionScheduler: registered namespace %r (concurrency=%d)",

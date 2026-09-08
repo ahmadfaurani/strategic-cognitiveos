@@ -126,6 +126,8 @@ class IngestionConfig(BaseModel):
     chunk_size: int = 10
     session_format: str = "openclaw"  # "openclaw" | "simple"
     concurrency: int = 5             # max parallel episodes per batch (1=sequential, 10=max)
+    file_filter: Optional[str] = None  # glob restricting which files THIS namespace's reader ingests
+    hermes_sessions: bool = False      # register second namespace "hermes-sessions" (hermes-*.jsonl, simple format)
 
 
 class DeduplicationConfig(BaseModel):
