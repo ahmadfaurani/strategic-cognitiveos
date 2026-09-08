@@ -22,7 +22,7 @@ related_records: []
 # === DRAFT FIELDS [Tactical] ===
 draft_type: ""
 related_action: ""
-content_summary: 
+content_summary: ""
 ---
 
 # Draft Type

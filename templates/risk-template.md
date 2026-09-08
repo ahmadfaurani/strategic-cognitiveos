@@ -26,7 +26,7 @@ impact: ""
 mitigation_strategy: ""
 mitigation_owner: ""
 trigger_conditions: ""
-related_initiative: 
+related_initiative: ""
 ---
 
 # Risk Description

@@ -24,7 +24,7 @@ document_type: ""
 file_path: ""
 related_initiative: ""
 version: ""
-author: 
+author: ""
 ---
 
 # Document Type

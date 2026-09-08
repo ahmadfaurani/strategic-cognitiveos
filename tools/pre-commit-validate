@@ -188,6 +188,33 @@ def main():
                 print("   Fix the errors above and re-stage, or use --no-verify to bypass (not recommended).")
                 sys.exit(1)
 
+    # ─── Phase 2.5: JSON Schema conformance (schema-v2 — P0-TAX-03 Phase A) ───
+    # Policy (approved 2026-09-08, ASSESS-20260908-001):
+    #   new records → STRICT · touched records → no-regression vs baseline
+    #   full corpus → ADVISORY (weekly audit_taxonomy_v2.py run)
+    schema_v2_path = Path(git_root) / "tools" / "validate_schema_v2.py"
+    baseline_path = Path(git_root) / "reports" / "taxonomy-audit-2026-09-08.json"
+    if record_files and schema_v2_path.exists():
+        print(f"🔍 CognitiveOS pre-commit: JSON Schema conformance (Phase A) on {len(record_files)} record(s)...")
+        if not baseline_path.exists():
+            print(f"  ⚠️  Baseline not found at {baseline_path} — treating all staged records as STRICT (Phase B behavior)")
+        sv2 = subprocess.run(
+            ["python3", str(schema_v2_path), "--staged", "--baseline", str(baseline_path), "--file"] + record_files,
+            capture_output=True,
+            text=True
+        )
+        for line in sv2.stdout.strip().split("\n"):
+            if line:
+                print(f"  {line}")
+        if sv2.stderr.strip():
+            for line in sv2.stderr.strip().split("\n"):
+                print(f"     {line}")
+        if sv2.returncode != 0:
+            print("\n🚫 COMMIT BLOCKED: JSON Schema conformance (Phase A) failed.")
+            print("   New records must be fully schema-valid; touched records must not regress vs baseline.")
+            print("   Fix and re-stage, or use --no-verify to bypass (not recommended).")
+            sys.exit(1)
+
     # ─── Phase 3: Record taxonomy validation (tools/validate_taxonomy.py) ───
     if record_files:
         print(f"🔍 CognitiveOS pre-commit: taxonomy validation on {len(record_files)} record(s)...")

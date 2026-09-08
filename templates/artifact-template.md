@@ -24,7 +24,7 @@ artifact_type: ""
 file_path: ""
 related_initiative: ""
 version: ""
-created_by: 
+created_by: ""
 ---
 
 # Artifact Type

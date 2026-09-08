@@ -25,7 +25,7 @@ pir_tier: ""
 collection_cycle: ""
 related_intelligence: []
 last_collected: ""
-next_collection: 
+next_collection: ""
 ---
 
 # Priority Intelligence Requirement

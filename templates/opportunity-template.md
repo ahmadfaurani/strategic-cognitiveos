@@ -25,7 +25,7 @@ source_stakeholder: ""
 potential_value: ""
 timeline: ""
 probability: ""
-related_initiative: 
+related_initiative: ""
 ---
 
 # Opportunity

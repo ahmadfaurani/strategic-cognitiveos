@@ -28,7 +28,7 @@ decision: ""
 rationale: ""
 alternatives_considered: ""
 confirmed_by: ""
-confirmed_at: 
+confirmed_at: ""
 ---
 
 # Context
