@@ -86,8 +86,8 @@ All registered stakeholders, grouped by type.
 | STK-20260808-002 | Azzatullina Pawanchik | CMO | WIG/MTAI | New | Campaign guidance + working session |
 | STK-20260813-014 | Amelia Nadia Azharul Nahar | **Cybersecurity Practice Strategic Stakeholder Engagement Lead** (DEC-20260820-010) | WIG | Active | CSM working group sync-up (week of Aug 25) + Monday POC pre-flight (Aug 24) |
 | STK-20260813-015 | Rashid Bin Ramli | Event Activation Support | WIG/MTAI | New | Event operating plan assignment |
-| STK-20260813-016 | Said Farid Zainudin | Event Activation Support | WIG/MTAI | New | Event operating plan assignment |
-| STK-20260815-004 | Norshaza Hanis | Marketing Team | WIG | New | Role clarification |
+| STK-20260813-016 | Said Farid Zainudin | Snr Exec, Corporate Communications (Event & CSR Governance Lead); GTM plan author/delivery owner | WIG/MTAI | Active workstream | 15 Sep GTM working session (EVT-20260908-001) |
+| STK-20260815-004 | Norshaza Hanis | Snr Exec, Market Liaison & Intelligence — GTM wave/enrichment coordinator | WIG | Active workstream | 15 Sep GTM working session (EVT-20260908-001) |
 | STK-20260815-005 | Muhamad Danish | TBD | WIG | New | Role clarification |
 | STK-20260820-001 | Dr. Ji-Jian Chin | University of Plymouth / CRC 2026 Organising Committee | New | Customised participation package discussion |
 | STK-20260820-002 | Orange Ng | WIG | New | Finance payment confirmation |

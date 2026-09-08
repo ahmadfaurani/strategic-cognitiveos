@@ -24,6 +24,7 @@ All outstanding commitments, grouped by status.
 | COM-20260828-002 | DAF commits to building upon and enhancing MCMC's existing capability, not duplicating | faurani-jaafar | STK-20260828-001 (Aravind / MCMC) | Ongoing (standing) | Active | Low |
 | COM-20260827-001 | Hadri Commits T-30 (Sep 5) for GovSec × CMERP Engineering Document Closure with 5-Step Gate Chain | Hadri | DAF | 2026-09-05 (T-30) | Active | High |
 | COM-20260908-001 | Hadri — chain:SENTRY documentation suite maintained as living documents (continuous updates) | hadri | DAF | Continuous (living) | Active | Medium — documentation drift risk (v4.1 precedent: docs outran deployment by 29 commits/40 days) |
+| COM-20260908-002 | DAF + WIG — 15 Sep working session locks operational execution (6 dependencies, inconsistencies, universe expansion, MQL handover) before Wave 1 | faurani-jaafar | STK-20260813-016 (Said Farid, WIG) | 2026-09-15 | Active | Medium — session slip or unassigned owners = Wave 1 thin-list start + CYBERDSA compression (RSK-20260908-001) |
 
 ## Overdue
 

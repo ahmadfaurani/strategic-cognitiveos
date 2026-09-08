@@ -65,3 +65,4 @@ _— Updated 2026-08-13 (Intake 2): Added INIT-20260813-002 (CSM AI Token Alloca
 | ID | Title | Owner | Status | Next Review |
 |----|-------|-------|--------|-------------|
 | INIT-20260820-002 | RADAR — Data Research Acquisition & Development Agency | faurani-jaafar | Draft | — |
+| INIT-20260908-001 | VoronCitadel Marketing Execution Plan — 9 initiatives, RM230k, 78 MQLs (Sep 15–Dec 31 2026) | faurani-jaafar (delivery: Said Farid, WIG) | Active | 2026-09-15 working session (EVT-20260908-001) |

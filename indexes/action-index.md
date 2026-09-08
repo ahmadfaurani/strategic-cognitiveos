@@ -97,6 +97,9 @@ All action records, grouped by status.
 | ACT-20260904-003 | GovSec TIP B1 Pentesting — Engage NanoSec Community Team | Hadri (operational) | B1 gate Sep 15 — pen test must start this week | High |
 | ACT-20260908-001 | Close remaining 4 chain:SENTRY documentation categories (Backlog, Commercial Readiness, Sales/GTM, Governance) | DAF directive → Hadri execution | TBD — recommend before CyberDSA T-27 doc freeze (~Sep 10) | Medium |
 | ACT-20260908-002 | Hadri — deliver Overall JD pack for adopted 7-FTE chain:SENTRY model (per-FTE JDs, hiring sequence, independence assignments, TBH reconciliation, headcount workbook) | Hadri (DAF reviews/approves) | Sep 16 | Critical |
+| ACT-20260908-003 | Ember — GTM working-session pre-read pack (decisions D1–D7, dependency owners, MQL handover spec) before 15 Sep 3PM session | Ember | 2026-09-15 07:00 UTC (3PM MYT session) | High |
+| ACT-20260908-004 | Hadri — coordinate overall compilation of Shuhada's FSI Coverage List with Amelia (feeds SSE planning; lighthouse track) | Hadri × Amelia × Shuhada | Recommended 2026-09-18 (pre-Wave 1) — pending DAF confirmation | High |
+| ACT-20260908-005 | Amelia + Hadri — engage CSM team via email, cc Zulfeka (revive 12-month event calendar, LOI runway, focal person) | Amelia (lead) + Hadri | Recommended send by 2026-09-12; escalation if CSM silent by Sep 23 | Critical |
 
 ---
 
