@@ -32,10 +32,10 @@ All document records, chronological.
 | DOC-20260827-002 | 2026-08-27 | Bursa Malaysia POs IT Security Standards & Disaster Recovery Site Standards (Directive 5.05-001) | faurani-jaafar | Active | Critical |
 | DOC-20260827-003 | 2026-08-27 | CyberDSA 2026 Executive Stakeholder Engagement & Activation Framework V1.1 | faurani-jaafar | Active | High |
 | DOC-20260903-001 | 2026-09-03 | PDRM CID Press Release — MAPO Enforcement Committee Meeting Bil. 1/2026 | faurani-jaafar | Active | Medium |
-| DOC-20260908-001 | 2026-09-08 | chain:SENTRY MVP Product Specification v4.2 (delta vs v4.1 not yet diffed; attachment not staged) | hadri | Active | High |
-| DOC-20260908-002 | 2026-09-08 | chain:SENTRY Platform Roadmap v2.1 (delta vs v2.0 not yet diffed; Phase 0 re-baseline check pending) | hadri | Active | High |
-| DOC-20260908-003 | 2026-09-08 | chain:SENTRY Product Operationalisation Plan v1.1 (first operationalisation plan; reconcile vs ART-20260829-002) | hadri | Active | High |
-| DOC-20260908-004 | 2026-09-08 | chain:SENTRY Cost Centre Plan v1.0 (first cost-centre plan in portfolio) | hadri | Active | High |
+| DOC-20260908-001 | 2026-09-08 | chain:SENTRY MVP Product Specification v4.2 — content verified; gate re-verification edition; C1 closure claim conflicts with AIP gate tracker (0eb8b08) | hadri | Active | High |
+| DOC-20260908-002 | 2026-09-08 | chain:SENTRY Platform Roadmap v2.1 — content verified; gate status update; Phase 0 re-baseline check performed (no silent re-baselining; T0 anchor unset) | hadri | Active | High |
+| DOC-20260908-003 | 2026-09-08 | chain:SENTRY Consolidated Operational Plan v1.1 — content verified; 7-FTE requirement conflicts with ART-20260829-002 2-FTE map (cb5c8eb) | hadri | Active | High |
+| DOC-20260908-004 | 2026-09-08 | chain:SENTRY Cost Centre Plan v1.0 (first cost-centre plan in portfolio; attachment not yet received) | hadri | Active | High |
 
 ---
 
