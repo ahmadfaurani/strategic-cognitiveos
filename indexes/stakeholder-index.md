@@ -114,6 +114,7 @@ All registered stakeholders, grouped by type.
 | STK-20260908-002 | Muizz Aiman Farid (SVP/CRO) | Bank Simpanan Nasional | New — DAF priority | CyberDSA VIP scheduling (21–30 Sep) |
 | STK-20260908-003 | Sujit Guha Thakurta (SVP/CCO) | Bank Simpanan Nasional | New | Lighthouse engagement pathway |
 | STK-20260908-004 | Asrul Kamaruddin (CIO) | Bank Simpanan Nasional | New | Lighthouse engagement pathway |
+| STK-20260908-008 | Sirilah Raman (VP, Head of BCM) | Bank Simpanan Nasional | Engaging | Only named BSN invitee (ART-20260908-002); bridge to CFO/CRO pathway |
 
 ## Academic
 
