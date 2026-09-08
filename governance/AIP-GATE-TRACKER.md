@@ -42,14 +42,14 @@
 | Phase | Gate | Owner | Deadline | Status | Evidence | Notes |
 |-------|------|-------|----------|--------|----------|-------|
 | C1 | Credential Closure & Secret Governance | Hadri→Syahir (DEC-20260904-001) | Aug 30 | ✅ RESOLVED — OPERATOR-CONFIRMED | DAF Telegram confirmation "C1 YES" 2026-09-08 01:29 UTC | 4 exposed keys revoked and reissued September 2026 on operator confirmation (DAF confirmed 2026-09-08 01:29 UTC). Consistent across all three Sep 7 suite documents (MVP Spec v4.2, Op Plan v1.1 §BLK-001, Roadmap v2.1 gap 1/M1). Residual evidence item: changed masked fingerprints to be recorded in the C2 release pack (Roadmap M1) and provider rejection of old values verified. C2 UNBLOCKED. |
-| C2 | Deployment Parity | Fuad | Sep 10 | 🟡 APPROACHING — ~2 DAYS, NOW THE BINDING CONSTRAINT (C1 resolved) | None | 22-commit/32-day gap. Release manifest. C1 resolved Sep 8 — full Phase 0 remainder now on Fuad: regression decision (M2: restore address-security integration or record reduced screening in manifest), manifest file-by-file (M3), backup + verified restore (M4), 2 migrations via runner (M5), controlled deploy (M6), verification sweep. Sequential per roadmap; ~2 days for 6 sequential deliverables with 2 FTE — flag to DAF if Sep 10 will slip. |
-| C3 | External Access & Named Identity | Fuad+DAF | Sep 15 | ⏳ NOT STARTED | None | TLS, per-person pilot accounts. Depends on C2. |
-| C4 | Live-vs-Demo Boundary | Fuad | Sep 20 | ⏳ NOT STARTED | None | No fixture data in pilot surfaces. Depends on C2+C3. |
-| C5 | Pilot Scope Definition | DAF+TBH-001 | Sep 30 | ⏳ NOT STARTED | None | Target org, 6-week duration, success scorecard. Depends on C1-C4. |
+| C2 | Deployment Parity | Fuad | **Sep 30** (re-baselined from Sep 10, DEC-20260908-002) | 🟢 RE-BASELINED — 22-day window on adopted Op Plan trajectory | None | 22-commit/32-day gap. Phase 0 M2→M7 executes against adopted Op Plan v1.1 trajectory (DEC-20260908-001): M2 regression decision (restore address-security integration vs record reduced screening), M3 manifest file-by-file, M4 backup + verified restore, M5 two migrations via runner, M6 controlled deploy, M7 verification sweep. Aligns with JD pack (Sep 16) + ACT-20260825-002 FTE-evidence window (closes Sep 30). CyberDSA consequence: chain:SENTRY presents as deployed capability (Phase 0 exit ≈77% readiness), not pilot. Sep 15 kill date superseded (DEC-20260908-002). M2 regression decision remains Fuad's first blocker. |
+| C3 | External Access & Named Identity | Fuad+DAF | ~~Sep 15~~ cascade re-sequencing pending (DEC-20260908-002) | ⏳ NOT STARTED — awaiting C2 (Sep 30) + cascade confirmation | None | TLS, per-person pilot accounts. Depends on C2 (now Sep 30). Proposed: Oct 14 (Phase 1 weeks 1–2 post-Phase-0 exit) — DAF to confirm. |
+| C4 | Live-vs-Demo Boundary | Fuad | ~~Sep 20~~ cascade re-sequencing pending (DEC-20260908-002) | ⏳ NOT STARTED — awaiting C3 | None | No fixture data in pilot surfaces. Depends on C2+C3. Proposed: Oct 21 — DAF to confirm. |
+| C5 | Pilot Scope Definition | DAF+TBH-001 | ~~Sep 30~~ cascade re-sequencing pending (DEC-20260908-002) | ⏳ NOT STARTED — awaiting C2-C4 | None | Target org, 6-week duration, success scorecard. Depends on C1-C4. Proposed: Oct 31 (post pilot-gate assessment, Phase 1 exit) — DAF to confirm. |
 
 **Track C critical path:** C1 → C2 → C3 → C4 → C5
 
-**Track C risk:** C1 is a security liability regardless of commercial priority. Exposed keys worsen with time.
+**Track C risk:** M2 regression decision is the first blocker on the re-baselined Phase 0 path (restoring the address-security integration keeps the 4-layer screening claim; recording reduced screening weakens the pilot claim). Sep 15 kill date superseded by DEC-20260908-001/002 (Op Plan adopted + C2 re-baseline).
 
 ---
 
@@ -92,7 +92,7 @@
 | Ops | 3 | 1 | 0 | 0 | 0 | 2 | 0 |
 | **Total** | **17** | **10** | **0** | **0** | **1** | **4** | **0** |
 
-**5/17 gates resolved with evidence (A1, A2, TBH-001, External Assessor→NanoSec, C1 operator-confirmed Sep 8). 1/17 overdue (A3 — was 2 days overdue as of Sep 7 check, NOT STARTED; Cost Centre Plan v1.0 now supplies the cost baseline half). 1/17 approaching (C2 — Sep 10, ~2 days, UNBLOCKED by C1 resolution but carries 6 sequential Phase 0 deliverables). B1 gate (Sep 15) unblocked pending Hadri's NanoSec email — 2-week pen test window makes email delivery urgent now. A3 is the remaining active crisis — blocks commercial quoting. C2 timeline risk: roadmap Phase 0 sequencing is strictly sequential (M2→M6); 2 days for 6 deliverables with 2 FTE is the portfolio's tightest float.**
+**5/17 gates resolved with evidence (A1, A2, TBH-001, External Assessor→NanoSec, C1 operator-confirmed Sep 8). 1/17 overdue (A3 — was 2 days overdue as of Sep 7 check, NOT STARTED; Cost Centre Plan v1.0 now supplies the cost baseline half). 0/17 approaching after the Sep 8 decisions: C2 re-baselined to Sep 30 (DEC-20260908-002) on the adopted Op Plan trajectory — the daily urgency signal on C2 is retired; first execution checkpoint is the M2 regression decision. B1 gate (Sep 15) unblocked pending Hadri's NanoSec email — 2-week pen test window makes email delivery urgent now. A3 is the remaining active crisis — blocks commercial quoting. C2 timeline risk: roadmap Phase 0 sequencing is strictly sequential (M2→M6); 2 days for 6 deliverables with 2 FTE is the portfolio's tightest float.**
 
 ---
 
