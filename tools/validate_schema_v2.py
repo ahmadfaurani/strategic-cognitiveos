@@ -34,7 +34,13 @@ from jsonschema import Draft202012Validator
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_BASELINE = os.path.join(REPO, "reports", "taxonomy-audit-2026-09-08.json")
-EXCLUDE_PREFIXES = ("templates/", "governance/", "reports/", "indexes/")
+# Canonical record directories (SOP §3 v1.1 — mirrors audit_taxonomy_v2.py v1.1)
+RECORD_DIRS = (
+    "actions", "assessments", "briefings", "commitments", "decisions",
+    "documents", "drafts", "engagements", "initiatives", "intelligence",
+    "lessons", "opportunities", "organizations", "outcomes", "risks",
+    "stakeholders", "artifacts",
+)
 
 
 def norm(o):
@@ -61,7 +67,7 @@ def load_schemas():
 def validate_file(path, schemas):
     """Return (violations, structural_reason). violations=[] if clean."""
     rel = os.path.relpath(path, REPO).replace(os.sep, "/")
-    if rel.startswith(EXCLUDE_PREFIXES):
+    if rel.split("/")[0] not in RECORD_DIRS:
         return [], None
     try:
         text = open(path, encoding="utf-8").read()
@@ -162,14 +168,14 @@ def cmd_report(schemas, baseline_path, enforce):
     baseline = load_baseline(baseline_path)
     total = clean = structural_n = 0
     per_type = {}
-    for f in glob.glob(os.path.join(REPO, "*", "*.md")):
+    for d in RECORD_DIRS:
+      for f in glob.glob(os.path.join(REPO, d, "*.md")):
         rel = os.path.relpath(f, REPO).replace(os.sep, "/")
-        if rel.startswith(EXCLUDE_PREFIXES):
-            continue
         v, structural = validate_file(f, schemas)
         total += 1
         if structural:
             structural_n += 1
+            continue
         if v:
             rt = "unknown"
             parts = open(f, encoding="utf-8").read().split("---", 2)
@@ -185,12 +191,13 @@ def cmd_report(schemas, baseline_path, enforce):
             clean += 1
     nviol = sum(d["violations"] for d in per_type.values())
     print("📊 JSON Schema conformance (advisory)")
-    print(f"   typed records: {total} · clean: {clean} · structural: {structural_n}")
+    print(f"   typed records: {total - structural_n} · clean: {clean} · dirty: {(total - structural_n) - clean} · structural: {structural_n}")
     for rt, d in sorted(per_type.items(), key=lambda x: -x[1]["violations"])[:8]:
         print(f"   {rt:14} {d['violations']:5} violations in {d['records']} records")
     if baseline:
         b_total = sum(baseline.values())
-        print(f"   baseline ({os.path.basename(baseline_path)}): {b_total} → delta: {total and (sum(d['violations'] for d in per_type.values()) + structural_n) - b_total:+d}")
+        cur_total = sum(d["violations"] for d in per_type.values()) + structural_n
+        print(f"   baseline ({os.path.basename(baseline_path)}): {b_total} → current: {cur_total} → delta: {cur_total - b_total:+d}")
     if enforce and (n_v := sum(d["violations"] for d in per_type.values())):
         print(f"🚫 enforce mode: {n_v} violations > 0")
         return 1
