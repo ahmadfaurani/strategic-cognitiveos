@@ -14,6 +14,7 @@ from __future__ import annotations
 import asyncio
 import json
 import logging
+import re
 from typing import Any
 
 import openai
@@ -106,6 +107,33 @@ class OpenAICompatibleClient:
         try:
             return json.loads(text)
         except json.JSONDecodeError as exc:
+            # Salvage: Qwen sometimes emits an unquoted string value (e.g.
+            # "reasoning": some unquoted text). Only quote a value when the
+            # raw text up to the next line delimiter is NOT valid JSON there
+            # (i.e. it starts with a bare word). Values already quoted,
+            # numeric, array/object, true/false/null are left intact.
+            repaired_lines = []
+            fixed_any = False
+            for line in text.split("\n"):
+                m = re.match(
+                    r'^(\s*"(?:[^"\\]|\\.)*"\s*:\s*)(.*)$', line
+                )
+                if m:
+                    prefix, raw = m.group(1), m.group(2).strip().rstrip(",")
+                    if raw and not re.match(
+                        r'^("|\-?\d|\[|\{|\btrue\b|\bfalse\b|\bnull\b)', raw
+                    ):
+                        line = prefix + '"' + raw + '"' + ("," if line.rstrip().endswith(",") else "")
+                        fixed_any = True
+                repaired_lines.append(line)
+            if fixed_any:
+                repaired = "\n".join(repaired_lines)
+                try:
+                    out = json.loads(repaired)
+                    logger.warning("LLM JSON repaired (unquoted value): %s", exc)
+                    return out
+                except json.JSONDecodeError:
+                    pass
             logger.error("LLM returned non-JSON: %s", text[:200])
             raise ValueError(f"LLM response is not valid JSON: {exc}") from exc
 

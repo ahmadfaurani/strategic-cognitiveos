@@ -43,6 +43,8 @@ class EpisodeNode(BaseModel):
     valid_at: int = Field(default_factory=_now_unix)      # when it occurred in the world
     content_embedding: Optional[list[float]] = None       # 1536-dim vector for semantic search
     valid_at_human: str = ""                               # BM25-searchable date e.g. "February 16 2026 February 2026"
+    last_entity_count: int = 0                             # audit: entities extracted at ingest (not persisted to graph)
+    last_edge_count: int = 0                               # audit: edges extracted at ingest (not persisted to graph)
 
     model_config = ConfigDict(populate_by_name=True)
 

@@ -100,6 +100,22 @@ async def memory_add(
         valid_at=valid_at_unix or int(time.time()),
         agent_namespace=namespace,
     )
+    # Audit trail: record in Postgres episode_log (same as scheduler path).
+    # DAF requirement: Postgres must mirror FalkorDB episodes.
+    if db is not None:
+        try:
+            await db.log_episode(
+                episode_uuid=episode.uuid,
+                agent_namespace=namespace,
+                source=source,
+                entity_count=getattr(episode, "last_entity_count", 0) or 0,
+                edge_count=getattr(episode, "last_edge_count", 0) or 0,
+                job_uuid=None,
+                valid_at=valid_at_unix or int(time.time()),
+            )
+        except Exception as log_exc:
+            import logging
+            logging.getLogger(__name__).debug("episode_log write failed: %s", log_exc)
     return {
         "success": True,
         "episode_uuid": episode.uuid,

@@ -184,8 +184,8 @@ class IngestionSchedulerRegistry:
                             episode_uuid=episode_uuid,
                             agent_namespace=namespace,
                             source=episode_dict.get("source", "conversation"),
-                            entity_count=0,
-                            edge_count=0,
+                            entity_count=getattr(episode, "last_entity_count", 0) or 0,
+                            edge_count=getattr(episode, "last_edge_count", 0) or 0,
                             job_uuid=job.uuid if job else None,
                             valid_at=episode_dict.get("valid_at", int(time.time())),
                         )

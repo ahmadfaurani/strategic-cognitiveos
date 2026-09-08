@@ -287,6 +287,10 @@ class TemporalEngine:
 
         logger.info("Episode ingested: %s (%d entities, %d edges)",
                     episode.uuid[:8], len(deduped_entities), len(raw_edges))
+        # Expose extraction counts for audit logging (scheduler / MCP tools
+        # write these into Postgres episode_log).
+        episode.last_entity_count = len(deduped_entities)  # type: ignore[attr-defined]
+        episode.last_edge_count = len(raw_edges)  # type: ignore[attr-defined]
         return episode
 
     # ------------------------------------------------------------------
