@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "organization.schema.json",
   "title": "Organization Record",
-  "description": "An institution, agency, company, or organisational entity \u2014 not an individual person.",
+  "description": "An institution, agency, company, or organisational entity — not an individual person.",
   "type": "object",
   "required": [
     "id",

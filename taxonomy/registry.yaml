@@ -1,10 +1,19 @@
-# GENERATED FILE — do not edit directly.
-# Canonical source: taxonomy/registry.yaml (P0-TAX-01, 2026-09-08).
-# Regenerate: python3 tools/generate_from_registry.py --write
-# Historical changelog (v2.0 merge-debt cleanup, Aug 21 2026): see git history of this file.
+registry:
+  version: 1
+  created: '2026-09-08'
+  methodology: P0-TAX-01 — single canonical vocabulary source (ASSESS-20260908-001, Athena deliberation round 2)
+  rule: Vocabulary changes are made HERE, never in generated targets; generator propagates and pre-commit --check blocks drift
+  generated_targets:
+  - taxonomy/tags.yaml
+  - schemas enum fields bound in bindings
+  bindings:
+  - 'tags.yaml: all namespace values + patterns'
+  - 'schemas/*.schema.json: status (per-type), priority, sensitivity'
+  - 'schemas/initiative.schema.json: readiness_level, portfolio_tier'
 namespaces:
   mission:
     description: Strategic mission supported
+    mode: closed
     values:
     - sovereign-ai
     - national-cybersecurity
@@ -19,6 +28,7 @@ namespaces:
     - political-intelligence
   domain:
     description: Knowledge or operating domain
+    mode: closed
     values:
     - cybersecurity
     - artificial-intelligence
@@ -156,6 +166,7 @@ namespaces:
     - cluster
   workstream:
     description: DAF's six workstream clusters
+    mode: closed
     values:
     - sovereign-ai-adoption
     - cyberdsa-2026
@@ -178,6 +189,7 @@ namespaces:
     - anti-deepfake-campaign
   engagement:
     description: Stakeholder engagement stage
+    mode: closed
     values:
     - strategic-alignment
     - structured-scope
@@ -187,6 +199,7 @@ namespaces:
     - scaled-adoption
   lifecycle:
     description: Stage of work
+    mode: closed
     values:
     - concept
     - pilot
@@ -202,6 +215,7 @@ namespaces:
     - superseded
   project:
     description: Project or programme identifier
+    mode: extensible
     pattern: project/<slug>
     known_values:
     - personal-intelligence-os
@@ -228,6 +242,7 @@ namespaces:
     - lhdn-engagement
   product:
     description: Product or platform identifier
+    mode: extensible
     pattern: product/<slug>
     known_values:
     - github
@@ -245,6 +260,7 @@ namespaces:
     - sec-af
   person:
     description: Named individual
+    mode: extensible
     pattern: person/<slug>
     known_values:
     - faurani-jaafar
@@ -252,6 +268,7 @@ namespaces:
     - ember
   stakeholder-type:
     description: Stakeholder category
+    mode: closed
     values:
     - government
     - internal
@@ -275,6 +292,7 @@ namespaces:
     - industry-association
   capability:
     description: Required capability
+    mode: closed
     values:
     - threat-intelligence
     - strategic-planning
@@ -308,6 +326,7 @@ namespaces:
     - partnership-mobilisation
   leadership:
     description: Leadership responsibility
+    mode: closed
     values:
     - strategic-direction
     - strategic-mobiliser
@@ -318,6 +337,7 @@ namespaces:
     - governance-ownership
   portfolio:
     description: Portfolio classification
+    mode: closed
     values:
     - flagship
     - incubation
@@ -325,6 +345,7 @@ namespaces:
     - operational
   commercial:
     description: Commercial stage or activity
+    mode: closed
     values:
     - opportunity-identification
     - qualification
@@ -336,6 +357,7 @@ namespaces:
     - account-expansion
   readiness:
     description: Product or programme maturity
+    mode: closed
     values:
     - concept
     - framed
@@ -349,6 +371,7 @@ namespaces:
     - collaboration-framework-agreed
   decision:
     description: Decision category
+    mode: closed
     values:
     - investment
     - partnership
@@ -387,6 +410,7 @@ namespaces:
     - productisation
   commitment:
     description: Commitment type
+    mode: closed
     values:
     - stakeholder-follow-up
     - deliverable
@@ -399,6 +423,7 @@ namespaces:
     - strategic-alignment
   action:
     description: Action category
+    mode: closed
     values:
     - executive-brief
     - document-drafting
@@ -465,6 +490,7 @@ namespaces:
     - external-response
   intelligence:
     description: Intelligence type
+    mode: closed
     values:
     - stakeholder
     - political
@@ -477,6 +503,7 @@ namespaces:
     - cron-output
   risk:
     description: Risk category
+    mode: closed
     values:
     - delivery-capacity
     - sponsor-gap
@@ -509,6 +536,7 @@ namespaces:
     - timeline
   artifact:
     description: Artifact type
+    mode: closed
     values:
     - proposal
     - report
@@ -529,6 +557,7 @@ namespaces:
     - api
   status:
     description: Current condition
+    mode: closed
     values:
     - draft
     - in-progress
@@ -550,6 +579,7 @@ namespaces:
     - review-complete
   priority:
     description: Importance
+    mode: closed
     values:
     - critical
     - high
@@ -559,6 +589,7 @@ namespaces:
     - p1
   sensitivity:
     description: Information classification
+    mode: closed
     values:
     - public
     - internal
@@ -567,6 +598,7 @@ namespaces:
     - controlled
   geography:
     description: Geographic scope
+    mode: closed
     values:
     - malaysia
     - asean
@@ -583,6 +615,7 @@ namespaces:
     - global
   sector:
     description: Market or institutional sector
+    mode: closed
     values:
     - government
     - defence
@@ -597,6 +630,7 @@ namespaces:
     - regulatory
   timeframe:
     description: Planning horizon
+    mode: closed
     values:
     - immediate
     - near-term
@@ -606,6 +640,7 @@ namespaces:
     - completed
   org:
     description: Organisation or institution
+    mode: extensible
     pattern: org/<slug>
     known_values:
     - aras-integrasi
@@ -638,6 +673,7 @@ namespaces:
     - jpm
   milestone:
     description: Named milestone or deadline event
+    mode: extensible
     pattern: milestone/<slug>
     known_values:
     - cyberdsa-2026
@@ -648,6 +684,7 @@ namespaces:
     - document-review
   initiative:
     description: Cross-cutting initiative identifier
+    mode: extensible
     pattern: initiative/<slug>
     known_values:
     - ai-codesign-lab
@@ -661,6 +698,7 @@ namespaces:
     - whole-government-digital-services
   role:
     description: Role or responsibility designation
+    mode: extensible
     pattern: role/<slug>
     known_values:
     - integration-team
@@ -676,6 +714,7 @@ namespaces:
     - division-head
   type:
     description: Record or document type qualifier
+    mode: extensible
     pattern: type/<slug>
     known_values:
     - reference-document
@@ -683,6 +722,7 @@ namespaces:
     - analytical-report
   channel:
     description: Communication channel
+    mode: extensible
     pattern: channel/<slug>
     known_values:
     - email
@@ -695,11 +735,13 @@ namespaces:
     - video-call
   mechanism:
     description: Operational mechanism or process device
+    mode: extensible
     pattern: mechanism/<slug>
     known_values:
     - recurring-meeting
   framework:
     description: Analytical or governance framework
+    mode: extensible
     pattern: framework/<slug>
     known_values:
     - engineered-success
@@ -709,6 +751,7 @@ namespaces:
     - action-validation
   outcome:
     description: Outcome type — §9 DoD item states and evidence status
+    mode: extensible
     pattern: outcome/<slug>
     known_values:
     - training-delivered
@@ -722,6 +765,7 @@ namespaces:
     - evidence-missing
   cognitive-doctrine:
     description: CognitiveOS doctrine reference
+    mode: extensible
     pattern: cognitive-doctrine/<slug>
     known_values:
     - application
@@ -730,20 +774,23 @@ namespaces:
     - cvs-master-framework
   meeting:
     description: Meeting type
+    mode: extensible
     pattern: meeting/<slug>
     known_values:
     - team-meeting
   application:
     description: Application or use-case context
+    mode: extensible
     pattern: application/<slug>
     known_values:
     - email-draft-assessment
   cluster:
     description: Cluster or grouping identifier
+    mode: extensible
     pattern: cluster/<slug>
-    known_values: []
   deadline:
     description: Deadline urgency marker — TAT phases and gate status
+    mode: extensible
     pattern: deadline/<slug>
     known_values:
     - today
@@ -760,6 +807,7 @@ namespaces:
     - gate-failed
   doctrine:
     description: Doctrine reference
+    mode: extensible
     pattern: doctrine/<slug>
     known_values:
     - cognitiveos-prime
@@ -767,6 +815,7 @@ namespaces:
     - cvs-master-framework
   cognitive-loop:
     description: Cognitive Loop cycle reference — SOP-CL-001 review phases
+    mode: extensible
     pattern: cognitive-loop/<slug>
     known_values:
     - full-cycle
@@ -786,6 +835,7 @@ namespaces:
     - week-over-week-delta
   method:
     description: Methodology or technique
+    mode: extensible
     pattern: method/<slug>
     known_values:
     - deerflow-pro-websearch-fallback
@@ -794,3 +844,459 @@ namespaces:
     - triangulation
     - pre-mortem
     - post-action-learning
+mission_enrichment:
+  sovereign-ai:
+    label: Malaysian sovereign AI infrastructure, platforms and adoption
+    keywords:
+    - sovereign AI
+    - AI infrastructure
+    - AI sovereignty
+    - national AI
+    - PERJASA
+    - AI platform
+    - AI adoption
+  national-cybersecurity:
+    label: National and CNII cybersecurity capability
+    keywords:
+    - cybersecurity
+    - CNII
+    - national security
+    - cyber defence
+    - NACSA
+    - CSM
+    - cyber strategy
+  intelligence-enablement:
+    label: Operational intelligence, PIRs and decision support
+    keywords:
+    - intelligence
+    - PIR
+    - OSINT
+    - signal
+    - assessment
+    - intelligence requirements
+    - analytical
+  government-ai-adoption:
+    label: Secure and scalable public-sector AI adoption
+    keywords:
+    - government AI
+    - public sector AI
+    - AI adoption
+    - PMO
+    - data lake
+    - Perdana Digital
+    - JDN
+    - JDM
+  productisation:
+    label: Conversion of technical capabilities into market-ready offerings
+    keywords:
+    - product
+    - productisation
+    - packaging
+    - GoSec
+    - VoronDRQ
+    - ChainSentry
+    - VoronScout
+    - LE-UIP
+    - SEC-AF
+  institutional-partnerships:
+    label: Long-term government, industry and academic collaboration
+    keywords:
+    - partnership
+    - collaboration
+    - institutional
+    - university
+    - MoU
+    - ecosystem
+  commercial-growth:
+    label: Revenue creation and opportunity conversion
+    keywords:
+    - commercial
+    - revenue
+    - pipeline
+    - sales
+    - licensing
+    - account
+    - ASEAN
+  organisational-capability:
+    label: Team, governance and delivery capability building
+    keywords:
+    - capability
+    - team
+    - hiring
+    - KPI
+    - BU
+    - business unit
+    - delivery
+    - accountability
+  strategic-communications:
+    label: Narrative, cognitive and stakeholder communication capabilities
+    keywords:
+    - narrative
+    - communications
+    - messaging
+    - positioning
+    - cognitive
+    - stakeholder communication
+  asean-ecosystem:
+    label: Regional technology and institutional ecosystem development
+    keywords:
+    - ASEAN
+    - regional
+    - ecosystem
+    - regional expansion
+    - cross-border
+  political-intelligence:
+    label: Political Intelligence (description pending enrichment — merged from tags.yaml 2026-09-08)
+    keywords: []
+vocab:
+  readiness:
+    status: reconciliation-pending — do NOT finalize until facet ontology decision (readiness vs commercial_stage vs engagement_stage vs lifecycle_state)
+    emitted:
+    - concept
+    - framed
+    - prototype
+    - demo-ready
+    - pilot-ready
+    - collaboration-framework-agreed
+    - proposal-stage
+    - delivery-ready
+    - scale-ready
+    proposed_union:
+    - concept
+    - framed
+    - prototype
+    - demo-ready
+    - pilot-ready
+    - delivery-ready
+    - commercial-ready
+    - scale-ready
+    - development
+    - collaboration-framework-agreed
+    - proposal-stage
+    offvocab_in_use:
+    - execution-ready
+    - integration-phase
+    - proposal-stage
+    - active-engagement
+    - pilot
+  portfolio_tier:
+    status: migration-pending — legacy values emitted until record migration wave
+    canonical:
+    - flagship
+    - incubation
+    - watch-list
+    - operational
+    deprecated_emitted:
+    - strategic
+    - tier-1-flagship
+    - tier-2-incubation
+  priority:
+    emitted:
+    - critical
+    - high
+    - medium
+    - low
+    sets:
+    - - critical
+      - high
+      - medium
+      - low
+  sensitivity:
+    emitted: per-schema (verify)
+    sets:
+    - - public
+      - internal
+      - confidential
+      - restricted
+      - controlled
+  status_by_type:
+    briefing:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - ready_for_submission
+    - ready_for_review
+    - fulfilled
+    - open
+    - proposed
+    - pending
+    - overdue
+    - cancelled
+    - unresolved
+    - identified
+    organization:
+    - draft
+    - active
+    - validated
+    - approved
+    - completed
+    - in-progress
+    assessment:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - ready_for_submission
+    - ready_for_review
+    - fulfilled
+    - open
+    - proposed
+    - pending
+    - overdue
+    - cancelled
+    - unresolved
+    - identified
+    risk:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - identified
+    - mitigating
+    - monitoring
+    - realised
+    - closed
+    initiative:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - working-plan
+    action:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - open
+    - proposed
+    - pending
+    - overdue
+    - cancelled
+    - unresolved
+    conversation:
+    - draft
+    - active
+    - validated
+    - completed
+    - archived
+    decision:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - proposed
+    lesson:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - ready_for_submission
+    - ready_for_review
+    - fulfilled
+    - open
+    - proposed
+    - pending
+    - overdue
+    - cancelled
+    - unresolved
+    - identified
+    intelligence:
+    - draft
+    - validated
+    - active
+    - superseded
+    - archived
+    draft:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - ready_for_submission
+    - ready_for_review
+    - fulfilled
+    - open
+    - proposed
+    - pending
+    - overdue
+    - cancelled
+    - unresolved
+    - identified
+    artifact:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - ready_for_submission
+    - ready_for_review
+    - fulfilled
+    - open
+    - proposed
+    - pending
+    - overdue
+    - cancelled
+    - unresolved
+    - identified
+    commitment:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - delivered
+    opportunity:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - ready_for_submission
+    - ready_for_review
+    - fulfilled
+    - open
+    - proposed
+    - pending
+    - overdue
+    - cancelled
+    - unresolved
+    - identified
+    document:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - ready_for_submission
+    - ready_for_review
+    - fulfilled
+    - open
+    - proposed
+    - pending
+    - overdue
+    - cancelled
+    - unresolved
+    - identified
+    pir:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - captured
+    - ready_for_submission
+    - ready_for_review
+    - fulfilled
+    - open
+    - proposed
+    - pending
+    - overdue
+    - cancelled
+    - unresolved
+    - identified
+    stakeholder:
+    - draft
+    - active
+    - validated
+    - approved
+    - completed
+    - archived
+    - superseded
+    outcome:
+    - draft
+    - in-progress
+    - validated
+    - approved
+    - active
+    - blocked
+    - deferred
+    - completed
+    - superseded
+    - archived
+    - achieved
+    - missed
