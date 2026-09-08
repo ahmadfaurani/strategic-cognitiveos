@@ -63,12 +63,15 @@ All registered stakeholders, grouped by type.
 | STK-20260725-007 | Aras Integrasi Sdn Bhd | Employer — Cyber Security Practice | Active | Ongoing |
 | STK-20260803-007 | Hadri | Lead Architect | Aras Integrasi | Active | CyberDSA launch checklist + handover |
 | STK-20260804-003 | Ahmad Fuad | VoronCitadel Product Owner / Principal AI Security Architect | Aras Integrasi | Active | Handover documentation compilation |
-| STK-20260808-003 | Shuhada M. Halimi | Sales — account coordination | Aras Integrasi | New | DAF to initiate coordination |
+| STK-20260808-003 | Shuhada M. Halimi | **Sales Director** — CyberDSA invitation programme lead (15 orgs/48 reps), FSI coverage lead | Aras Integrasi | Active | Lighthouse prioritisation per DAF (Aug 25 ask) |
 | STK-20260810-003 | Hadi | GovSec Product Manager (incoming) | Aras Integrasi | Pending Onboarding | Onboarding + CyberDSA product management |
 | STK-20260811-001 | Syahir | TBD (cc'd on productisation directive) | Aras Integrasi | New | Role clarification |
-| STK-20260811-002 | Nik Sarah Naqibah | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
-| STK-20260811-003 | Jasila Jalil | TBD (cc'd on GTM alignment) | Aras Integrasi | New | Role clarification |
-| STK-20260815-006 | Azirul Hazran | TBD (cc'd on CSM coordination) | Aras Integrasi | New | Role clarification |
+| STK-20260811-002 | Nik Sarah Naqibah | Sales — CyberDSA invitation owner (4 orgs × 3 reps quota) | Aras Integrasi | Active | Customer list consolidation |
+| STK-20260811-003 | Jasila Jalil | Sales — CyberDSA invitation owner (4 orgs × 3 reps quota) | Aras Integrasi | Active | Customer list consolidation |
+| STK-20260815-006 | Azirul Hazran | Sales — CyberDSA invitation owner (4 orgs × 3 reps quota) | Aras Integrasi | Active | Customer list consolidation |
+| STK-20260908-005 | Mohd Nazri | Sales — customer list contributor | Aras Integrasi | Active | CyberDSA invitation programme |
+| STK-20260908-006 | Hadif Hassan | Sales — customer list contributor | Aras Integrasi | Active | CyberDSA invitation programme |
+| STK-20260908-007 | Nur Edleen Ismail | Role TBD (GTM/CyberDSA cc-list) | Aras Integrasi | New | Role clarification |
 | STK-20260826-001 | Tuan Fatah | CSM Technical Sign-Off Authority (GovSec × CMERP) | Cyber Security Malaysia | Active | Engineering document sign-off (T-33, Sep 3) |
 
 
@@ -107,6 +110,10 @@ All registered stakeholders, grouped by type.
 | ID | Name | Organisation | Relationship Status | Next Engagement |
 |----|------|--------------|--------------------|----------------|
 | STK-20260725-001 | CSCDC | JPM-MKN-NACSA | Prospect | Q3 2026 |
+| STK-20260908-001 | Norhafizah Md Shariff (CFO) | Bank Simpanan Nasional | New — DAF priority | CyberDSA VIP scheduling (21–30 Sep) |
+| STK-20260908-002 | Muizz Aiman Farid (SVP/CRO) | Bank Simpanan Nasional | New — DAF priority | CyberDSA VIP scheduling (21–30 Sep) |
+| STK-20260908-003 | Sujit Guha Thakurta (SVP/CCO) | Bank Simpanan Nasional | New | Lighthouse engagement pathway |
+| STK-20260908-004 | Asrul Kamaruddin (CIO) | Bank Simpanan Nasional | New | Lighthouse engagement pathway |
 
 ## Academic
 
