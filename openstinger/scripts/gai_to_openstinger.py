@@ -33,6 +33,12 @@ def load_state() -> dict:
     return {}
 
 
+def content_fingerprint(ep: dict) -> str:
+    """Stable hash of episode content (excluding valid_at/mtime)."""
+    import hashlib
+    return hashlib.sha256(ep["content"].encode("utf-8")).hexdigest()[:16]
+
+
 def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, indent=1))
 
@@ -87,12 +93,19 @@ def main() -> int:
         return 0
 
     state = load_state()
+    seen_hashes = set(state.get("content_hashes", []))
     new_eps: list[dict] = []
+    new_hashes: list[str] = []
     for p in candidates:
         key = f"{p}:{p.stat().st_mtime}"
         if state.get("processed", {}).get(key):
             continue
-        new_eps.extend(file_to_episodes(p))
+        for ep in file_to_episodes(p):
+            fp = content_fingerprint(ep)
+            if fp in seen_hashes:
+                continue  # same content re-exported under new mtime — skip
+            new_eps.append(ep)
+            new_hashes.append(fp)
         state.setdefault("processed", {})[key] = int(time.time())
 
     if not new_eps:
@@ -103,6 +116,8 @@ def main() -> int:
     with OUT_FILE.open("a", encoding="utf-8") as f:
         for ep in new_eps:
             f.write(json.dumps(ep, ensure_ascii=False) + "\n")
+    state.setdefault("content_hashes", []).extend(new_hashes)
+    state["content_hashes"] = state["content_hashes"][-5000:]  # bound growth
     save_state(state)
     print(f"EXPORTED {len(new_eps)} episodes from {len(candidates)} files -> {OUT_FILE.name}")
     return 0
