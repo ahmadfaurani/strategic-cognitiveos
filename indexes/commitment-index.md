@@ -23,6 +23,7 @@ All outstanding commitments, grouped by status.
 | COM-20260828-001 | DAF commits to align on NDA principles at working level before routing to legal teams | faurani-jaafar | STK-20260813-008 (Azrul / CSM) | 2026-09-04 | Active | Low |
 | COM-20260828-002 | DAF commits to building upon and enhancing MCMC's existing capability, not duplicating | faurani-jaafar | STK-20260828-001 (Aravind / MCMC) | Ongoing (standing) | Active | Low |
 | COM-20260827-001 | Hadri Commits T-30 (Sep 5) for GovSec × CMERP Engineering Document Closure with 5-Step Gate Chain | Hadri | DAF | 2026-09-05 (T-30) | Active | High |
+| COM-20260908-001 | Hadri — chain:SENTRY documentation suite maintained as living documents (continuous updates) | hadri | DAF | Continuous (living) | Active | Medium — documentation drift risk (v4.1 precedent: docs outran deployment by 29 commits/40 days) |
 
 ## Overdue
 
