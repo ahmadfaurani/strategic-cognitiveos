@@ -41,8 +41,8 @@
 
 | Phase | Gate | Owner | Deadline | Status | Evidence | Notes |
 |-------|------|-------|----------|--------|----------|-------|
-| C1 | Credential Closure & Secret Governance | Hadri→Syahir (DEC-20260904-001) | Aug 30 | 🔴 OVERDUE — 8 DAYS PAST DEADLINE, EXECUTION STILL PENDING | None | 4 exposed keys, confirmed unrotated Aug 19. ~19 days of exposure. Deadline passed Aug 30 (8 days overdue). **OWNER ASSIGNED Sep 4:** Hadri delegates to Syahir per DEC-20260904-001. Syahir already owns chain:SENTRY engineering (DEC-20260829-004). C2 blocked. Security non-negotiable. Exposure worsening daily. **ACTION REQUIRED IMMEDIATELY.** |
-| C2 | Deployment Parity | Fuad | Sep 10 | 🟡 APPROACHING — ~2.3 DAYS, BLOCKED BY C1 | None | 22-commit/32-day gap. Release manifest. Depends on C1 (OVERDUE). Now within 72h window with near-zero execution float. |
+| C1 | Credential Closure & Secret Governance | Hadri→Syahir (DEC-20260904-001) | Aug 30 | ✅ RESOLVED — OPERATOR-CONFIRMED | DAF Telegram confirmation "C1 YES" 2026-09-08 01:29 UTC | 4 exposed keys revoked and reissued September 2026 on operator confirmation (DAF confirmed 2026-09-08 01:29 UTC). Consistent across all three Sep 7 suite documents (MVP Spec v4.2, Op Plan v1.1 §BLK-001, Roadmap v2.1 gap 1/M1). Residual evidence item: changed masked fingerprints to be recorded in the C2 release pack (Roadmap M1) and provider rejection of old values verified. C2 UNBLOCKED. |
+| C2 | Deployment Parity | Fuad | Sep 10 | 🟡 APPROACHING — ~2 DAYS, NOW THE BINDING CONSTRAINT (C1 resolved) | None | 22-commit/32-day gap. Release manifest. C1 resolved Sep 8 — full Phase 0 remainder now on Fuad: regression decision (M2: restore address-security integration or record reduced screening in manifest), manifest file-by-file (M3), backup + verified restore (M4), 2 migrations via runner (M5), controlled deploy (M6), verification sweep. Sequential per roadmap; ~2 days for 6 sequential deliverables with 2 FTE — flag to DAF if Sep 10 will slip. |
 | C3 | External Access & Named Identity | Fuad+DAF | Sep 15 | ⏳ NOT STARTED | None | TLS, per-person pilot accounts. Depends on C2. |
 | C4 | Live-vs-Demo Boundary | Fuad | Sep 20 | ⏳ NOT STARTED | None | No fixture data in pilot surfaces. Depends on C2+C3. |
 | C5 | Pilot Scope Definition | DAF+TBH-001 | Sep 30 | ⏳ NOT STARTED | None | Target org, 6-week duration, success scorecard. Depends on C1-C4. |
@@ -91,7 +91,7 @@
 | Ops | 3 | 1 | 0 | 0 | 0 | 2 | 0 |
 | **Total** | **17** | **10** | **0** | **0** | **1** | **4** | **0** |
 
-**4/17 gates resolved with evidence (A1, A2, TBH-001, External Assessor→NanoSec). 2/17 overdue (C1 — 8 days overdue, Syahir execution pending, ~19 days exposure; A3 — 2 days overdue, NOT STARTED). 1/17 approaching within 72h (C2 — Sep 10, blocked by C1, ~2.3 days remaining). 1/17 blocked (C2, by C1). B1 gate (Sep 15) unblocked pending Hadri's NanoSec email — 2-week pen test window makes email delivery urgent now. A3 and C1 are both active crises — A3 blocks commercial quoting, C1 is a worsening security liability.**
+**5/17 gates resolved with evidence (A1, A2, TBH-001, External Assessor→NanoSec, C1 operator-confirmed Sep 8). 1/17 overdue (A3 — was 2 days overdue as of Sep 7 check, NOT STARTED; Cost Centre Plan v1.0 now supplies the cost baseline half). 1/17 approaching (C2 — Sep 10, ~2 days, UNBLOCKED by C1 resolution but carries 6 sequential Phase 0 deliverables). B1 gate (Sep 15) unblocked pending Hadri's NanoSec email — 2-week pen test window makes email delivery urgent now. A3 is the remaining active crisis — blocks commercial quoting. C2 timeline risk: roadmap Phase 0 sequencing is strictly sequential (M2→M6); 2 days for 6 deliverables with 2 FTE is the portfolio's tightest float.**
 
 ---
 
