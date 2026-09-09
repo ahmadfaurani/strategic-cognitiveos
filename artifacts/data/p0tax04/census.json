@@ -1,0 +1,5234 @@
+{
+ "records": [
+  {
+   "id": "ACT-20260802-001",
+   "path": "actions/ACT-20260802-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260802-002",
+   "path": "actions/ACT-20260802-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260802-003",
+   "path": "actions/ACT-20260802-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260802-004",
+   "path": "actions/ACT-20260802-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260802-005",
+   "path": "actions/ACT-20260802-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260802-006",
+   "path": "actions/ACT-20260802-006.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260802-007",
+   "path": "actions/ACT-20260802-007.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260802-008",
+   "path": "actions/ACT-20260802-008.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260802-009",
+   "path": "actions/ACT-20260802-009.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260802-010",
+   "path": "actions/ACT-20260802-010.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260803-001",
+   "path": "actions/ACT-20260803-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260803-002",
+   "path": "actions/ACT-20260803-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260803-003",
+   "path": "actions/ACT-20260803-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260803-004",
+   "path": "actions/ACT-20260803-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260803-005",
+   "path": "actions/ACT-20260803-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260803-006",
+   "path": "actions/ACT-20260803-006.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260803-007",
+   "path": "actions/ACT-20260803-007.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260803-008",
+   "path": "actions/ACT-20260803-008.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-001",
+   "path": "actions/ACT-20260804-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-002",
+   "path": "actions/ACT-20260804-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-003",
+   "path": "actions/ACT-20260804-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-004",
+   "path": "actions/ACT-20260804-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-005",
+   "path": "actions/ACT-20260804-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-006",
+   "path": "actions/ACT-20260804-006.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-007",
+   "path": "actions/ACT-20260804-007.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-008",
+   "path": "actions/ACT-20260804-008.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-009",
+   "path": "actions/ACT-20260804-009.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-010",
+   "path": "actions/ACT-20260804-010.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-011",
+   "path": "actions/ACT-20260804-011.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-012",
+   "path": "actions/ACT-20260804-012.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-013",
+   "path": "actions/ACT-20260804-013.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-014",
+   "path": "actions/ACT-20260804-014.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-015",
+   "path": "actions/ACT-20260804-015.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-016",
+   "path": "actions/ACT-20260804-016.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260804-017",
+   "path": "actions/ACT-20260804-017.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260807-001",
+   "path": "actions/ACT-20260807-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260807-002",
+   "path": "actions/ACT-20260807-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260807-003",
+   "path": "actions/ACT-20260807-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-001",
+   "path": "actions/ACT-20260808-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-002",
+   "path": "actions/ACT-20260808-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-003",
+   "path": "actions/ACT-20260808-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-004",
+   "path": "actions/ACT-20260808-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-005",
+   "path": "actions/ACT-20260808-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-006",
+   "path": "actions/ACT-20260808-006.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-007",
+   "path": "actions/ACT-20260808-007.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-008",
+   "path": "actions/ACT-20260808-008.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-009",
+   "path": "actions/ACT-20260808-009.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260808-010",
+   "path": "actions/ACT-20260808-010.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260810-001",
+   "path": "actions/ACT-20260810-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260810-002",
+   "path": "actions/ACT-20260810-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260810-003",
+   "path": "actions/ACT-20260810-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260810-004",
+   "path": "actions/ACT-20260810-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260810-005",
+   "path": "actions/ACT-20260810-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260810-006",
+   "path": "actions/ACT-20260810-006.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260810-007",
+   "path": "actions/ACT-20260810-007.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-001",
+   "path": "actions/ACT-20260811-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-002",
+   "path": "actions/ACT-20260811-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-003",
+   "path": "actions/ACT-20260811-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-004",
+   "path": "actions/ACT-20260811-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-005",
+   "path": "actions/ACT-20260811-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-006",
+   "path": "actions/ACT-20260811-006.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-007",
+   "path": "actions/ACT-20260811-007.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-008",
+   "path": "actions/ACT-20260811-008.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-009",
+   "path": "actions/ACT-20260811-009.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-010",
+   "path": "actions/ACT-20260811-010.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-011",
+   "path": "actions/ACT-20260811-011.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-012",
+   "path": "actions/ACT-20260811-012.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260811-013",
+   "path": "actions/ACT-20260811-013.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260812-001",
+   "path": "actions/ACT-20260812-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260812-002",
+   "path": "actions/ACT-20260812-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260812-003",
+   "path": "actions/ACT-20260812-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-001",
+   "path": "actions/ACT-20260813-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-002",
+   "path": "actions/ACT-20260813-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-003",
+   "path": "actions/ACT-20260813-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-004",
+   "path": "actions/ACT-20260813-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-005",
+   "path": "actions/ACT-20260813-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-006",
+   "path": "actions/ACT-20260813-006.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-007",
+   "path": "actions/ACT-20260813-007.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-008",
+   "path": "actions/ACT-20260813-008.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-009",
+   "path": "actions/ACT-20260813-009.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-010",
+   "path": "actions/ACT-20260813-010.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-011",
+   "path": "actions/ACT-20260813-011.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260813-012",
+   "path": "actions/ACT-20260813-012.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-001",
+   "path": "actions/ACT-20260815-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-002",
+   "path": "actions/ACT-20260815-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-003",
+   "path": "actions/ACT-20260815-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-004",
+   "path": "actions/ACT-20260815-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-005",
+   "path": "actions/ACT-20260815-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-006",
+   "path": "actions/ACT-20260815-006.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-007",
+   "path": "actions/ACT-20260815-007.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-008",
+   "path": "actions/ACT-20260815-008.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-009",
+   "path": "actions/ACT-20260815-009.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-010",
+   "path": "actions/ACT-20260815-010.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-011",
+   "path": "actions/ACT-20260815-011.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-012",
+   "path": "actions/ACT-20260815-012.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260815-013",
+   "path": "actions/ACT-20260815-013.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260816-001",
+   "path": "actions/ACT-20260816-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260816-002",
+   "path": "actions/ACT-20260816-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260816-003",
+   "path": "actions/ACT-20260816-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260816-004",
+   "path": "actions/ACT-20260816-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260816-005",
+   "path": "actions/ACT-20260816-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260817-001",
+   "path": "actions/ACT-20260817-001.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260817-002",
+   "path": "actions/ACT-20260817-002.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260817-003",
+   "path": "actions/ACT-20260817-003.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260817-004",
+   "path": "actions/ACT-20260817-004.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260817-005",
+   "path": "actions/ACT-20260817-005.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260817-006",
+   "path": "actions/ACT-20260817-006.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260817-007",
+   "path": "actions/ACT-20260817-007.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260817-008",
+   "path": "actions/ACT-20260817-008.md",
+   "values": []
+  },
+  {
+   "id": "ACT-20260818-001",
+   "path": "actions/ACT-20260818-001.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260818-002",
+   "path": "actions/ACT-20260818-002.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260818-003",
+   "path": "actions/ACT-20260818-003.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260818-004",
+   "path": "actions/ACT-20260818-004.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "ACT-20260818-005",
+   "path": "actions/ACT-20260818-005.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "ACT-20260818-006",
+   "path": "actions/ACT-20260818-006.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "ACT-20260818-007",
+   "path": "actions/ACT-20260818-007.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "ACT-20260819-001",
+   "path": "actions/ACT-20260819-001.md",
+   "values": [
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "ACT-20260819-002",
+   "path": "actions/ACT-20260819-002.md",
+   "values": [
+    "infrastructure-optimization"
+   ]
+  },
+  {
+   "id": "ACT-20260819-003",
+   "path": "actions/ACT-20260819-003.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260819-004",
+   "path": "actions/ACT-20260819-004.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260819-005",
+   "path": "actions/ACT-20260819-005.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260819-006",
+   "path": "actions/ACT-20260819-006.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260819-007",
+   "path": "actions/ACT-20260819-007.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260819-008",
+   "path": "actions/ACT-20260819-008.md",
+   "values": [
+    "sovereign-capability",
+    "nacsa-alignment",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260819-009",
+   "path": "actions/ACT-20260819-009.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260819-010",
+   "path": "actions/ACT-20260819-010.md",
+   "values": [
+    "cyberdsa-2026",
+    "market-positioning",
+    "wig-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260819-011",
+   "path": "actions/ACT-20260819-011.md",
+   "values": [
+    "cyberdsa-2026",
+    "market-positioning",
+    "wig-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260820-001",
+   "path": "actions/ACT-20260820-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "brand-positioning",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "ACT-20260820-002",
+   "path": "actions/ACT-20260820-002.md",
+   "values": [
+    "operations"
+   ]
+  },
+  {
+   "id": "ACT-20260820-003",
+   "path": "actions/ACT-20260820-003.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "ACT-20260820-004",
+   "path": "actions/ACT-20260820-004.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "sovereign-technology"
+   ]
+  },
+  {
+   "id": "ACT-20260820-005",
+   "path": "actions/ACT-20260820-005.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "ACT-20260820-006",
+   "path": "actions/ACT-20260820-006.md",
+   "values": [
+    "cybersecurity-productisation",
+    "security-hardening",
+    "infrastructure"
+   ]
+  },
+  {
+   "id": "ACT-20260820-007",
+   "path": "actions/ACT-20260820-007.md",
+   "values": [
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260820-008",
+   "path": "actions/ACT-20260820-008.md",
+   "values": [
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260820-009",
+   "path": "actions/ACT-20260820-009.md",
+   "values": [
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260820-010",
+   "path": "actions/ACT-20260820-010.md",
+   "values": [
+    "cybersecurity",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260820-011",
+   "path": "actions/ACT-20260820-011.md",
+   "values": [
+    "cybersecurity",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260820-012",
+   "path": "actions/ACT-20260820-012.md",
+   "values": [
+    "cybersecurity-productisation",
+    "devops"
+   ]
+  },
+  {
+   "id": "ACT-20260820-013",
+   "path": "actions/ACT-20260820-013.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "ACT-20260821-001",
+   "path": "actions/ACT-20260821-001.md",
+   "values": [
+    "cognitiveos-operations",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260821-002",
+   "path": "actions/ACT-20260821-002.md",
+   "values": [
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "ACT-20260821-003",
+   "path": "actions/ACT-20260821-003.md",
+   "values": [
+    "cognitiveos-operations",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "ACT-20260821-004",
+   "path": "actions/ACT-20260821-004.md",
+   "values": [
+    "organisational-capability",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260821-005",
+   "path": "actions/ACT-20260821-005.md",
+   "values": [
+    "csm-partnership",
+    "cybersecurity-productisation",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "ACT-20260821-006",
+   "path": "actions/ACT-20260821-006.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "ACT-20260821-007",
+   "path": "actions/ACT-20260821-007.md",
+   "values": [
+    "cybersecurity-productisation",
+    "milestone/cyberdsa-2026",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "ACT-20260821-008",
+   "path": "actions/ACT-20260821-008.md",
+   "values": [
+    "organisational-capability-building",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260821-009",
+   "path": "actions/ACT-20260821-009.md",
+   "values": [
+    "csm-partnership",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260821-010",
+   "path": "actions/ACT-20260821-010.md",
+   "values": [
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "ACT-20260821-011",
+   "path": "actions/ACT-20260821-011.md",
+   "values": [
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "ACT-20260821-012",
+   "path": "actions/ACT-20260821-012.md",
+   "values": [
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "ACT-20260822-001",
+   "path": "actions/ACT-20260822-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "ACT-20260822-002",
+   "path": "actions/ACT-20260822-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "ACT-20260823-003",
+   "path": "actions/ACT-20260823-003.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260823-004",
+   "path": "actions/ACT-20260823-004.md",
+   "values": [
+    "csm-partnership",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260823-005",
+   "path": "actions/ACT-20260823-005.md",
+   "values": [
+    "csm-partnership",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "ACT-20260824-001",
+   "path": "actions/ACT-20260824-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "ACT-20260824-002",
+   "path": "actions/ACT-20260824-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "sovereign-technology",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "ACT-20260824-003",
+   "path": "actions/ACT-20260824-003.md",
+   "values": [
+    "cybersecurity-productisation",
+    "sovereign-technology"
+   ]
+  },
+  {
+   "id": "ACT-20260824-004",
+   "path": "actions/ACT-20260824-004.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability",
+    "portfolio-governance"
+   ]
+  },
+  {
+   "id": "ACT-20260824-005",
+   "path": "actions/ACT-20260824-005.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260824-006",
+   "path": "actions/ACT-20260824-006.md",
+   "values": [
+    "organisational-capability",
+    "cybersecurity-productisation",
+    "portfolio-governance"
+   ]
+  },
+  {
+   "id": "ACT-20260824-007",
+   "path": "actions/ACT-20260824-007.md",
+   "values": [
+    "csm-partnership",
+    "stakeholder-engagement",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "ACT-20260825-001",
+   "path": "actions/ACT-20260825-001.md",
+   "values": [
+    "csm-partnership",
+    "cybersecurity-productisation",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "ACT-20260825-002",
+   "path": "actions/ACT-20260825-002.md",
+   "values": [
+    "organisational-capability",
+    "portfolio-governance"
+   ]
+  },
+  {
+   "id": "ACT-20260825-003",
+   "path": "actions/ACT-20260825-003.md",
+   "values": [
+    "commercial-strategy",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "ACT-20260825-004",
+   "path": "actions/ACT-20260825-004.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "ACT-20260825-005",
+   "path": "actions/ACT-20260825-005.md",
+   "values": [
+    "cyberdsa-2026",
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "ACT-20260825-006",
+   "path": "actions/ACT-20260825-006.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "ACT-20260825-007",
+   "path": "actions/ACT-20260825-007.md",
+   "values": [
+    "political-intelligence",
+    "sovereign-ai",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "ACT-20260825-008",
+   "path": "actions/ACT-20260825-008.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "ACT-20260825-009",
+   "path": "actions/ACT-20260825-009.md",
+   "values": [
+    "political-strategic-intelligence"
+   ]
+  },
+  {
+   "id": "ACT-20260826-001",
+   "path": "actions/ACT-20260826-001.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "ACT-20260826-002",
+   "path": "actions/ACT-20260826-002.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption"
+   ]
+  },
+  {
+   "id": "ACT-20260826-003",
+   "path": "actions/ACT-20260826-003.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260826-004",
+   "path": "actions/ACT-20260826-004.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260826-005",
+   "path": "actions/ACT-20260826-005.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260826-006",
+   "path": "actions/ACT-20260826-006.md",
+   "values": [
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260826-007",
+   "path": "actions/ACT-20260826-007.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260826-008",
+   "path": "actions/ACT-20260826-008.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260827-001",
+   "path": "actions/ACT-20260827-001-rswg-voroncitadel-capability-mapping.md",
+   "values": [
+    "productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260827-002",
+   "path": "actions/ACT-20260827-002-update-bursa-poc-rswg-alignment.md",
+   "values": [
+    "productisation",
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "ACT-20260827-003",
+   "path": "actions/ACT-20260827-003-itss-rswg-unified-capability-mapping.md",
+   "values": [
+    "productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260827-004",
+   "path": "actions/ACT-20260827-004.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260827-005",
+   "path": "actions/ACT-20260827-005.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260827-006",
+   "path": "actions/ACT-20260827-006.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260827-007",
+   "path": "actions/ACT-20260827-007.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260827-008",
+   "path": "actions/ACT-20260827-008.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "ACT-20260828-001",
+   "path": "actions/ACT-20260828-001-azrul-review-nda-framework.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "ACT-20260828-002",
+   "path": "actions/ACT-20260828-002-joint-legal-review.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "ACT-20260828-003",
+   "path": "actions/ACT-20260828-003-aravind-telemetry-schema.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption"
+   ]
+  },
+  {
+   "id": "ACT-20260828-004",
+   "path": "actions/ACT-20260828-004-mcmc-workshop-coordination.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "ACT-20260829-002",
+   "path": "actions/ACT-20260829-002.md",
+   "values": [
+    "organisational-capability-building",
+    "engineering-capacity",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260904-001",
+   "path": "actions/ACT-20260904-001.md",
+   "values": [
+    "cybersecurity",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ACT-20260904-002",
+   "path": "actions/ACT-20260904-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260904-003",
+   "path": "actions/ACT-20260904-003.md",
+   "values": [
+    "cybersecurity-productisation",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ACT-20260905-001",
+   "path": "actions/ACT-20260905-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "ACT-20260905-002",
+   "path": "actions/ACT-20260905-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "ACT-20260907-001",
+   "path": "actions/ACT-20260907-001-mcmc-risik-session-rsvp-prep.md",
+   "values": [
+    "political-intelligence",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "ACT-20260908-001",
+   "path": "actions/ACT-20260908-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "ACT-20260908-002",
+   "path": "actions/ACT-20260908-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability",
+    "product-management"
+   ]
+  },
+  {
+   "id": "ACT-20260908-003",
+   "path": "actions/ACT-20260908-003-gtm-session-preread-pack.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "ACT-20260908-004",
+   "path": "actions/ACT-20260908-004-fsi-coverage-list-compilation.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "ACT-20260908-005",
+   "path": "actions/ACT-20260908-005-csm-engagement-email.md",
+   "values": [
+    "commercial-growth",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "ASSESS-20260817-001",
+   "path": "assessments/ASSESS-20260817-001.md",
+   "values": []
+  },
+  {
+   "id": "ASSESS-20260818-001",
+   "path": "assessments/ASSESS-20260818-001.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai",
+    "academic-partnership"
+   ]
+  },
+  {
+   "id": "ASSESS-20260820-001",
+   "path": "assessments/ASSESS-20260820-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-operations"
+   ]
+  },
+  {
+   "id": "ASSESS-20260820-002",
+   "path": "assessments/ASSESS-20260820-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "ASSESS-20260821-001",
+   "path": "assessments/ASSESS-20260821-001.md",
+   "values": [
+    "organisational-capability",
+    "cognitiveos-operations",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ASSESS-20260821-002",
+   "path": "assessments/ASSESS-20260821-002.md",
+   "values": [
+    "cognitiveos-operations",
+    "sovereign-capability"
+   ]
+  },
+  {
+   "id": "ASSESS-20260822-001",
+   "path": "assessments/ASSESS-20260822-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "ASSESS-20260822-002",
+   "path": "assessments/ASSESS-20260822-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "ASSESS-20260823-001",
+   "path": "assessments/ASSESS-20260823-001.md",
+   "values": [
+    "organisational-capability",
+    "portfolio-governance",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ASSESS-20260823-002",
+   "path": "assessments/ASSESS-20260823-002.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "ASSESS-20260823-003",
+   "path": "assessments/ASSESS-20260823-003.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "ASSESS-20260824-001",
+   "path": "assessments/ASSESS-20260824-001.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "cybersecurity-productisation",
+    "portfolio-governance"
+   ]
+  },
+  {
+   "id": "ASSESS-20260825-001",
+   "path": "assessments/ASSESS-20260825-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "ASSESS-20260831-001",
+   "path": "assessments/ASSESS-20260831-001.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026",
+    "stakeholder-engagement",
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "ASSESS-20260908-001",
+   "path": "assessments/ASSESS-20260908-001.md",
+   "values": [
+    "organisational-capability",
+    "cognitiveos-operations",
+    "knowledge-management"
+   ]
+  },
+  {
+   "id": "BRIEF-20260811-002",
+   "path": "briefings/BRIEF-20260811-002.md",
+   "values": []
+  },
+  {
+   "id": "BRIEF-20260817-001",
+   "path": "briefings/BRIEF-20260817-001-CSM-WORKSTREAM-ANALYSIS.md",
+   "values": [
+    "commercial-growth",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "EXEC-BOTTLENECK-20260811",
+   "path": "briefings/EXEC-BOTTLENECK-20260811.md",
+   "values": []
+  },
+  {
+   "id": "EXEC-PLAN-20260811",
+   "path": "briefings/EXEC-PLAN-20260811.md",
+   "values": []
+  },
+  {
+   "id": "BRIEF-20260812-001",
+   "path": "briefings/PORTFOLIO-EXECUTION-RESET-20260812.md",
+   "values": [
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "COM-20260803-001",
+   "path": "commitments/COM-20260803-001.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260807-001",
+   "path": "commitments/COM-20260807-001.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260810-001",
+   "path": "commitments/COM-20260810-001.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260810-002",
+   "path": "commitments/COM-20260810-002.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260811-001",
+   "path": "commitments/COM-20260811-001.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260812-001",
+   "path": "commitments/COM-20260812-001.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260813-001",
+   "path": "commitments/COM-20260813-001.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260813-002",
+   "path": "commitments/COM-20260813-002.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260813-003",
+   "path": "commitments/COM-20260813-003.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260817-001",
+   "path": "commitments/COM-20260817-001.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260817-002",
+   "path": "commitments/COM-20260817-002.md",
+   "values": []
+  },
+  {
+   "id": "COM-20260817-003",
+   "path": "commitments/COM-20260817-003.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260818-006",
+   "path": "commitments/COM-20260818-001.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai",
+    "academic-partnership"
+   ]
+  },
+  {
+   "id": "COM-20260820-001",
+   "path": "commitments/COM-20260820-001.md",
+   "values": [
+    "operations",
+    "brand-positioning"
+   ]
+  },
+  {
+   "id": "COM-20260820-002",
+   "path": "commitments/COM-20260820-002.md",
+   "values": [
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "COM-20260820-003",
+   "path": "commitments/COM-20260820-003.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "sovereign-technology"
+   ]
+  },
+  {
+   "id": "COM-20260821-001",
+   "path": "commitments/COM-20260821-001.md",
+   "values": [
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "COM-20260821-002",
+   "path": "commitments/COM-20260821-002.md",
+   "values": [
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "COM-20260826-001",
+   "path": "commitments/COM-20260826-001.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption"
+   ]
+  },
+  {
+   "id": "COM-20260826-002",
+   "path": "commitments/COM-20260826-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "COM-20260827-001",
+   "path": "commitments/COM-20260827-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "COM-20260828-001",
+   "path": "commitments/COM-20260828-001-nda-working-level-alignment.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "COM-20260828-002",
+   "path": "commitments/COM-20260828-002-enhance-not-duplicate.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "COM-20260908-001",
+   "path": "commitments/COM-20260908-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "COM-20260908-002",
+   "path": "commitments/COM-20260908-002-gtm-lockin-session.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "DEC-20260628-001",
+   "path": "decisions/DEC-20260628-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260710-001",
+   "path": "decisions/DEC-20260710-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260712-001",
+   "path": "decisions/DEC-20260712-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260724-001",
+   "path": "decisions/DEC-20260724-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260725-001",
+   "path": "decisions/DEC-20260725-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260802-001",
+   "path": "decisions/DEC-20260802-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260804-001",
+   "path": "decisions/DEC-20260804-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260807-001",
+   "path": "decisions/DEC-20260807-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260808-001",
+   "path": "decisions/DEC-20260808-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260810-001",
+   "path": "decisions/DEC-20260810-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260810-002",
+   "path": "decisions/DEC-20260810-002.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260811-001",
+   "path": "decisions/DEC-20260811-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260812-001",
+   "path": "decisions/DEC-20260812-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260813-001",
+   "path": "decisions/DEC-20260813-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260815-001",
+   "path": "decisions/DEC-20260815-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260815-003",
+   "path": "decisions/DEC-20260815-003.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260815-004",
+   "path": "decisions/DEC-20260815-004.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260815-005",
+   "path": "decisions/DEC-20260815-005.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260816-001",
+   "path": "decisions/DEC-20260816-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260816-002",
+   "path": "decisions/DEC-20260816-002.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260817-001",
+   "path": "decisions/DEC-20260817-001.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260818-007",
+   "path": "decisions/DEC-20260818-007.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260818-008",
+   "path": "decisions/DEC-20260818-008.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260818-009",
+   "path": "decisions/DEC-20260818-009.md",
+   "values": []
+  },
+  {
+   "id": "DEC-20260818-010",
+   "path": "decisions/DEC-20260818-010.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "DEC-20260818-011",
+   "path": "decisions/DEC-20260818-011.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-development",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "DEC-20260818-012",
+   "path": "decisions/DEC-20260818-012.md",
+   "values": [
+    "sovereign-ai",
+    "political-strategic-intelligence",
+    "academic-partnership"
+   ]
+  },
+  {
+   "id": "DEC-20260819-003",
+   "path": "decisions/DEC-20260819-003.md",
+   "values": [
+    "organizational-capability",
+    "infrastructure-optimization"
+   ]
+  },
+  {
+   "id": "DEC-20260819-004",
+   "path": "decisions/DEC-20260819-004.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "DEC-20260819-005",
+   "path": "decisions/DEC-20260819-005.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "nacsa-alignment"
+   ]
+  },
+  {
+   "id": "DEC-20260819-006",
+   "path": "decisions/DEC-20260819-006.md",
+   "values": [
+    "cyberdsa-2026",
+    "sovereign-capability",
+    "market-positioning",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "DEC-20260820-001",
+   "path": "decisions/DEC-20260820-001.md",
+   "values": [
+    "brand-positioning",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "DEC-20260820-002",
+   "path": "decisions/DEC-20260820-002.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "DEC-20260820-003",
+   "path": "decisions/DEC-20260820-003.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "sovereign-technology",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "DEC-20260820-004",
+   "path": "decisions/DEC-20260820-004.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "sovereign-technology"
+   ]
+  },
+  {
+   "id": "DEC-20260820-005",
+   "path": "decisions/DEC-20260820-005.md",
+   "values": [
+    "intelligence-enablement",
+    "cognitive-operations",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "DEC-20260820-007",
+   "path": "decisions/DEC-20260820-007.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "DEC-20260820-008",
+   "path": "decisions/DEC-20260820-008.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "DEC-20260820-009",
+   "path": "decisions/DEC-20260820-009.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "ai-infrastructure"
+   ]
+  },
+  {
+   "id": "DEC-20260820-011",
+   "path": "decisions/DEC-20260820-011.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "DEC-20260820-012",
+   "path": "decisions/DEC-20260820-012.md",
+   "values": [
+    "csm-partnership",
+    "cybersecurity-productisation",
+    "stakeholder-engagement",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "DEC-20260821-001",
+   "path": "decisions/DEC-20260821-001.md",
+   "values": [
+    "organisational-capability",
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "DEC-20260821-002",
+   "path": "decisions/DEC-20260821-002.md",
+   "values": [
+    "organisational-capability",
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "DEC-20260821-003",
+   "path": "decisions/DEC-20260821-003.md",
+   "values": [
+    "organisational-capability",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "DEC-20260821-004",
+   "path": "decisions/DEC-20260821-004.md",
+   "values": [
+    "organisational-capability",
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "DEC-20260821-005",
+   "path": "decisions/DEC-20260821-005.md",
+   "values": [
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "DEC-20260821-006",
+   "path": "decisions/DEC-20260821-006.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "DEC-20260821-007",
+   "path": "decisions/DEC-20260821-007.md",
+   "values": [
+    "cognitiveos-operations",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "DEC-20260822-001",
+   "path": "decisions/DEC-20260822-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "DEC-20260823-001",
+   "path": "decisions/DEC-20260823-001.md",
+   "values": [
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "DEC-20260823-002",
+   "path": "decisions/DEC-20260823-002.md",
+   "values": [
+    "csm-partnership",
+    "cybersecurity-productisation",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "DEC-20260824-001",
+   "path": "decisions/DEC-20260824-001.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "sovereign-technology",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "DEC-20260824-002",
+   "path": "decisions/DEC-20260824-002.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "sovereign-technology"
+   ]
+  },
+  {
+   "id": "DEC-20260825-001",
+   "path": "decisions/DEC-20260825-001.md",
+   "values": [
+    "political-strategic-intelligence"
+   ]
+  },
+  {
+   "id": "DEC-20260825-002",
+   "path": "decisions/DEC-20260825-002.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "DEC-20260825-003",
+   "path": "decisions/DEC-20260825-003.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "DEC-20260825-004",
+   "path": "decisions/DEC-20260825-004.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "DEC-20260826-001",
+   "path": "decisions/DEC-20260826-001.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "DEC-20260826-002",
+   "path": "decisions/DEC-20260826-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "DEC-20260827-001",
+   "path": "decisions/DEC-20260827-001-poc-focus-itss-clause-10.md",
+   "values": [
+    "productisation",
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "DEC-20260828-001",
+   "path": "decisions/DEC-20260828-001-nda-framework-principles.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "DEC-20260904-001",
+   "path": "decisions/DEC-20260904-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "DEC-20260904-002",
+   "path": "decisions/DEC-20260904-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "cyberdsa-2026",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "DEC-20260905-001",
+   "path": "decisions/DEC-20260905-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "DEC-20260908-001",
+   "path": "decisions/DEC-20260908-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability",
+    "product-management"
+   ]
+  },
+  {
+   "id": "DEC-20260908-002",
+   "path": "decisions/DEC-20260908-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "DEC-20260908-005",
+   "path": "decisions/DEC-20260908-005-gtm-coordination-directives.md",
+   "values": [
+    "commercial-growth",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "DOC-20260818-001",
+   "path": "documents/DOC-20260818-001-perjasa-workshop-agenda.md",
+   "values": [
+    "INIT-20260813-001",
+    "INIT-20260725-001",
+    "COM-20260813-001"
+   ]
+  },
+  {
+   "id": "DOC-20260818-002",
+   "path": "documents/DOC-20260818-002-cyberdsa-media-brand-narrative.md",
+   "values": [
+    "INIT-20260810-003",
+    "INIT-20260811-001",
+    "INIT-20260813-006"
+   ]
+  },
+  {
+   "id": "DOC-20260818-003",
+   "path": "documents/DOC-20260818-003.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "DOC-20260818-004",
+   "path": "documents/DOC-20260818-004.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "DOC-20260819-001",
+   "path": "documents/DOC-20260819-001.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "nacsa-alignment"
+   ]
+  },
+  {
+   "id": "DOC-20260819-002",
+   "path": "documents/DOC-20260819-002.md",
+   "values": [
+    "cyberdsa-2026",
+    "sovereign-capability",
+    "market-positioning",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "DOC-20260820-001",
+   "path": "documents/DOC-20260820-001.md",
+   "values": [
+    "law-enforcement-enablement",
+    "political-intelligence",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "DOC-20260820-002",
+   "path": "documents/DOC-20260820-002.md",
+   "values": [
+    "intelligence-enablement",
+    "political-intelligence",
+    "cognitive-operations"
+   ]
+  },
+  {
+   "id": "DOC-20260820-003",
+   "path": "documents/DOC-20260820-003.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "ai-infrastructure"
+   ]
+  },
+  {
+   "id": "DOC-20260820-004",
+   "path": "documents/DOC-20260820-004.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "DOC-20260820-005",
+   "path": "documents/DOC-20260820-005.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "DOC-20260820-006",
+   "path": "documents/DOC-20260820-006.md",
+   "values": [
+    "stakeholder-engagement",
+    "csm-partnership",
+    "cybersecurity-productisation",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "DOC-20260821-001",
+   "path": "documents/DOC-20260821-001-wan-roshaimi-engagement-one-pager.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "DOC-20260821-002",
+   "path": "documents/DOC-20260821-002-wan-roshaimi-actionable-protocol.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "technical-integration"
+   ]
+  },
+  {
+   "id": "DOC-20260821-003",
+   "path": "documents/DOC-20260821-003-cvs-er-paired-sop-version-lock.md",
+   "values": [
+    "sovereign-ai",
+    "intelligence-enablement"
+   ]
+  },
+  {
+   "id": "DOC-20260821-004",
+   "path": "documents/DOC-20260821-004-govsec-product-roadmap-q3-2026-q2-2027.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "milestone/cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "DOC-20260822-001",
+   "path": "documents/DOC-20260822-001-honcho-queue-backlog-actionable-protocol.md",
+   "values": [
+    "cognitiveos-operations",
+    "infrastructure",
+    "sovereign-capability"
+   ]
+  },
+  {
+   "id": "DOC-20260822-002",
+   "path": "documents/DOC-20260822-002-gate4-govsec-co-branding-substantiation.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "stakeholder-engagement",
+    "government-institutional"
+   ]
+  },
+  {
+   "id": "DOC-20260822-003",
+   "path": "documents/DOC-20260822-003-project-hearth-vision.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "commercial-operations",
+    "government-partnerships",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "DOC-20260825-001",
+   "path": "documents/DOC-20260825-001-voroncitadel-delivery-readiness-framework.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "DOC-20260825-002",
+   "path": "documents/DOC-20260825-002.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "DOC-20260825-003",
+   "path": "documents/DOC-20260825-003.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "DOC-20260826-001",
+   "path": "documents/DOC-20260826-001.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "DOC-20260827-001",
+   "path": "documents/DOC-20260827-001-rswg-recommendation-paper.md",
+   "values": [
+    "productisation",
+    "commercial-growth",
+    "national-cybersecurity"
+   ]
+  },
+  {
+   "id": "DOC-20260827-002",
+   "path": "documents/DOC-20260827-002-poitss-directive-5-05.md",
+   "values": [
+    "productisation",
+    "commercial-growth",
+    "national-cybersecurity"
+   ]
+  },
+  {
+   "id": "DOC-20260827-003",
+   "path": "documents/DOC-20260827-003-cyberdsa-stakeholder-framework-v11.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "nacsa-alignment"
+   ]
+  },
+  {
+   "id": "DOC-20260903-001",
+   "path": "documents/DOC-20260903-001-mapo-enforcement-committee-press-release.md",
+   "values": [
+    "intelligence-enablement",
+    "government-partnerships",
+    "commercial-development",
+    "institutional-partnerships",
+    "productisation",
+    "national-cybersecurity"
+   ]
+  },
+  {
+   "id": "DOC-20260908-001",
+   "path": "documents/DOC-20260908-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "DOC-20260908-002",
+   "path": "documents/DOC-20260908-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "DOC-20260908-003",
+   "path": "documents/DOC-20260908-003.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "DOC-20260908-004",
+   "path": "documents/DOC-20260908-004.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-development",
+    "product-management"
+   ]
+  },
+  {
+   "id": "DOC-20260908-005",
+   "path": "documents/DOC-20260908-005.md",
+   "values": [
+    "government-ai-adoption",
+    "institutional-partnerships",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "DOC-20260908-006",
+   "path": "documents/DOC-20260908-006.md",
+   "values": [
+    "cognitiveos-operations",
+    "knowledge-management"
+   ]
+  },
+  {
+   "id": "DRAFT-20260908-001",
+   "path": "drafts/CHANGE-MANIFEST-20260908-gtm-thread-intake.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "DRAFT-20260908-002",
+   "path": "drafts/DRAFT-20260908-002-change-manifest-cyberdsa-t45-intake.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "EMAIL-DRAFT-20260817-001",
+   "path": "drafts/EMAIL-DRAFT-20260817-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260804-001",
+   "path": "engagements/CONV-20260804-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260804-002",
+   "path": "engagements/CONV-20260804-002.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260804-003",
+   "path": "engagements/CONV-20260804-003.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260804-004",
+   "path": "engagements/CONV-20260804-004.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260804-005",
+   "path": "engagements/CONV-20260804-005.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260807-001",
+   "path": "engagements/CONV-20260807-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260808-001",
+   "path": "engagements/CONV-20260808-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260808-002",
+   "path": "engagements/CONV-20260808-002.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260810-001",
+   "path": "engagements/CONV-20260810-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260810-002",
+   "path": "engagements/CONV-20260810-002.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260811-001",
+   "path": "engagements/CONV-20260811-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260811-002",
+   "path": "engagements/CONV-20260811-002.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260812-001",
+   "path": "engagements/CONV-20260812-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260813-001",
+   "path": "engagements/CONV-20260813-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260813-002",
+   "path": "engagements/CONV-20260813-002.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260815-001",
+   "path": "engagements/CONV-20260815-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260815-003",
+   "path": "engagements/CONV-20260815-003.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260815-004",
+   "path": "engagements/CONV-20260815-004-cyberdsa-warroom-tier1-notification.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260815-005",
+   "path": "engagements/CONV-20260815-005-csm-aras-stakeholder-coverage-plan.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260816-001",
+   "path": "engagements/CONV-20260816-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260816-002",
+   "path": "engagements/CONV-20260816-002.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260817-001",
+   "path": "engagements/CONV-20260817-001.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260817-002",
+   "path": "engagements/CONV-20260817-002.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260817-003",
+   "path": "engagements/CONV-20260817-003.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260817-004",
+   "path": "engagements/CONV-20260817-004.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260817-005",
+   "path": "engagements/CONV-20260817-005.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260818-003",
+   "path": "engagements/CONV-20260818-003.md",
+   "values": []
+  },
+  {
+   "id": "CONV-20260818-004",
+   "path": "engagements/CONV-20260818-004.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "CONV-20260818-005",
+   "path": "engagements/CONV-20260818-005.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-development",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "CONV-20260818-006",
+   "path": "engagements/CONV-20260818-006.md",
+   "values": [
+    "political-intelligence",
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "CONV-20260819-002",
+   "path": "engagements/CONV-20260819-002.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "CONV-20260819-003",
+   "path": "engagements/CONV-20260819-003.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "nacsa-alignment"
+   ]
+  },
+  {
+   "id": "CONV-20260819-004",
+   "path": "engagements/CONV-20260819-004.md",
+   "values": [
+    "cyberdsa-2026",
+    "sovereign-capability",
+    "market-positioning",
+    "wig-partnership"
+   ]
+  },
+  {
+   "id": "CONV-20260820-001",
+   "path": "engagements/CONV-20260820-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "government-partnerships",
+    "brand-positioning"
+   ]
+  },
+  {
+   "id": "CONV-20260820-002",
+   "path": "engagements/CONV-20260820-002.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026",
+    "stakeholder-engagement",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "CONV-20260820-003",
+   "path": "engagements/CONV-20260820-003.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026",
+    "stakeholder-engagement",
+    "commercial-strategy",
+    "sovereign-technology"
+   ]
+  },
+  {
+   "id": "CONV-20260820-004",
+   "path": "engagements/CONV-20260820-004.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "sovereign-technology",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "CONV-20260820-005",
+   "path": "engagements/CONV-20260820-005.md",
+   "values": [
+    "cybersecurity-productisation",
+    "security-hardening",
+    "infrastructure"
+   ]
+  },
+  {
+   "id": "CONV-20260820-006",
+   "path": "engagements/CONV-20260820-006.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "CONV-20260821-001",
+   "path": "engagements/CONV-20260821-001.md",
+   "values": [
+    "organisational-capability",
+    "cybersecurity-productisation",
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "CONV-20260821-002",
+   "path": "engagements/CONV-20260821-002.md",
+   "values": [
+    "cognitiveos-operations",
+    "sovereign-capability",
+    "intelligence-enablement"
+   ]
+  },
+  {
+   "id": "CONV-20260822-001",
+   "path": "engagements/CONV-20260822-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "stakeholder-engagement",
+    "intelligence-enablement"
+   ]
+  },
+  {
+   "id": "CONV-20260823-001",
+   "path": "engagements/CONV-20260823-001.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026",
+    "commercial-development",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "CONV-20260824-001",
+   "path": "engagements/CONV-20260824-001.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "sovereign-technology",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "CONV-20260826-001",
+   "path": "engagements/CONV-20260826-001.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "CONV-20260826-002",
+   "path": "engagements/CONV-20260826-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "government-partnerships",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "CONV-20260827-001",
+   "path": "engagements/CONV-20260827-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "CONV-20260827-002",
+   "path": "engagements/CONV-20260827-002-daf-v11-distribution-email.md",
+   "values": [
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "CONV-20260828-001",
+   "path": "engagements/CONV-20260828-001.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "cybersecurity-productisation",
+    "sovereign-technology"
+   ]
+  },
+  {
+   "id": "CONV-20260829-001",
+   "path": "engagements/CONV-20260829-001-hadri-role-restructure.md",
+   "values": [
+    "organisational-capability-building",
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "CONV-20260908-001",
+   "path": "engagements/CONV-20260908-001-chainsentry-doc-suite-v42.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "CONV-20260908-002",
+   "path": "engagements/CONV-20260908-002-gtm-outreach-thread.md",
+   "values": [
+    "commercial-growth",
+    "productisation",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "CONV-20260908-003",
+   "path": "engagements/CONV-20260908-003-cyberdsa-t45-sales-thread.md",
+   "values": [
+    "commercial-growth",
+    "productisation"
+   ]
+  },
+  {
+   "id": "INIT-20260611-001",
+   "path": "initiatives/INIT-20260611-001.md",
+   "values": [
+    "political-intelligence",
+    "intelligence-operations"
+   ]
+  },
+  {
+   "id": "INIT-20260627-001",
+   "path": "initiatives/INIT-20260627-001.md",
+   "values": [
+    "political-intelligence",
+    "intelligence-operations"
+   ]
+  },
+  {
+   "id": "INIT-20260710-001",
+   "path": "initiatives/INIT-20260710-001.md",
+   "values": [
+    "cybersecurity",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "INIT-20260710-002",
+   "path": "initiatives/INIT-20260710-002.md",
+   "values": [
+    "intelligence-operations",
+    "cybersecurity"
+   ]
+  },
+  {
+   "id": "INIT-20260711-001",
+   "path": "initiatives/INIT-20260711-001.md",
+   "values": [
+    "domain/artificial-intelligence",
+    "domain/knowledge-management"
+   ]
+  },
+  {
+   "id": "INIT-20260724-001",
+   "path": "initiatives/INIT-20260724-001.md",
+   "values": [
+    "domain/knowledge-management",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "INIT-20260725-001",
+   "path": "initiatives/INIT-20260725-001.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "domain/artificial-intelligence"
+   ]
+  },
+  {
+   "id": "INIT-20260725-002",
+   "path": "initiatives/INIT-20260725-002.md",
+   "values": [
+    "cybersecurity",
+    "product-management",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "INIT-20260725-003",
+   "path": "initiatives/INIT-20260725-003.md",
+   "values": [
+    "government-partnerships",
+    "stakeholder-engagement",
+    "capability/strategic-planning"
+   ]
+  },
+  {
+   "id": "INIT-20260725-004",
+   "path": "initiatives/INIT-20260725-004.md",
+   "values": [
+    "political-intelligence",
+    "intelligence-operations",
+    "elections"
+   ]
+  },
+  {
+   "id": "INIT-20260725-005",
+   "path": "initiatives/INIT-20260725-005.md",
+   "values": [
+    "commercial-development",
+    "stakeholder-engagement",
+    "capability/strategic-planning"
+   ]
+  },
+  {
+   "id": "INIT-20260725-006",
+   "path": "initiatives/INIT-20260725-006.md",
+   "values": [
+    "organisational-capability",
+    "domain/knowledge-management",
+    "capability/strategic-planning"
+   ]
+  },
+  {
+   "id": "INIT-20260725-007",
+   "path": "initiatives/INIT-20260725-007.md",
+   "values": [
+    "national-cybersecurity",
+    "strategic-communications",
+    "institutional-partnerships",
+    "commercial-growth",
+    "productisation"
+   ]
+  },
+  {
+   "id": "INIT-20260803-001",
+   "path": "initiatives/INIT-20260803-001.md",
+   "values": [
+    "government-ai-adoption",
+    "commercial-growth",
+    "productisation",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260803-002",
+   "path": "initiatives/INIT-20260803-002.md",
+   "values": [
+    "political-intelligence",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260804-001",
+   "path": "initiatives/INIT-20260804-001.md",
+   "values": [
+    "cybersecurity",
+    "product-management",
+    "commercial-development",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260804-002",
+   "path": "initiatives/INIT-20260804-002.md",
+   "values": [
+    "cybersecurity",
+    "product-management",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260804-003",
+   "path": "initiatives/INIT-20260804-003.md",
+   "values": [
+    "cybersecurity",
+    "product-management",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260804-004",
+   "path": "initiatives/INIT-20260804-004.md",
+   "values": [
+    "cybersecurity",
+    "ai-infrastructure",
+    "government-partnerships",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "INIT-20260808-002",
+   "path": "initiatives/INIT-20260808-002.md",
+   "values": [
+    "organisational-capability-building",
+    "commercial-development",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "INIT-20260808-003",
+   "path": "initiatives/INIT-20260808-003.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "INIT-20260810-001",
+   "path": "initiatives/INIT-20260810-001.md",
+   "values": [
+    "cybersecurity",
+    "product-management",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260810-002",
+   "path": "initiatives/INIT-20260810-002.md",
+   "values": [
+    "cybersecurity",
+    "product-management",
+    "ai-agents",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260810-003",
+   "path": "initiatives/INIT-20260810-003.md",
+   "values": [
+    "cybersecurity",
+    "product-management",
+    "commercial-development",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260811-001",
+   "path": "initiatives/INIT-20260811-001.md",
+   "values": [
+    "cybersecurity",
+    "product-management",
+    "commercial-development",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "INIT-20260813-001",
+   "path": "initiatives/INIT-20260813-001.md",
+   "values": [
+    "sovereign-ai",
+    "government-partnerships",
+    "ai-infrastructure",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "INIT-20260813-002",
+   "path": "initiatives/INIT-20260813-002.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "government-partnerships",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "INIT-20260813-003",
+   "path": "initiatives/INIT-20260813-003.md",
+   "values": [
+    "sovereign-ai",
+    "commercial-development",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260813-004",
+   "path": "initiatives/INIT-20260813-004.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "government-partnerships",
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "INIT-20260813-005",
+   "path": "initiatives/INIT-20260813-005.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "government-partnerships",
+    "commercial-development",
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "INIT-20260813-006",
+   "path": "initiatives/INIT-20260813-006.md",
+   "values": []
+  },
+  {
+   "id": "INIT-20260820-001",
+   "path": "initiatives/INIT-20260820-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "government-partnerships",
+    "brand-positioning",
+    "academic-engagement"
+   ]
+  },
+  {
+   "id": "INIT-20260820-002",
+   "path": "initiatives/INIT-20260820-002.md",
+   "values": [
+    "intelligence-enablement",
+    "political-intelligence",
+    "cognitive-operations",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260820-003",
+   "path": "initiatives/INIT-20260820-003.md",
+   "values": [
+    "cybersecurity-productisation",
+    "sovereign-ai",
+    "commercial-operations"
+   ]
+  },
+  {
+   "id": "INIT-20260822-001",
+   "path": "initiatives/INIT-20260822-001.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation",
+    "commercial-operations",
+    "government-partnerships",
+    "organisational-capability",
+    "intelligence-enablement"
+   ]
+  },
+  {
+   "id": "INIT-20260822-002",
+   "path": "initiatives/INIT-20260822-002.md",
+   "values": [
+    "cybersecurity",
+    "commercial-development",
+    "product-management"
+   ]
+  },
+  {
+   "id": "INIT-20260824-001",
+   "path": "initiatives/INIT-20260824-001.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "sovereign-technology",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "INIT-20260826-001",
+   "path": "initiatives/INIT-20260826-001.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "INIT-20260908-001",
+   "path": "initiatives/INIT-20260908-001-voroncitadel-marketing-execution-plan.md",
+   "values": [
+    "commercial-growth",
+    "productisation"
+   ]
+  },
+  {
+   "id": "INT-20260725-001",
+   "path": "intelligence/INT-20260725-001-cscdc-communication-framework-analysis.md",
+   "values": []
+  },
+  {
+   "id": "INT-20260725-002",
+   "path": "intelligence/INT-20260725-002-ai-council-design-analysis.md",
+   "values": []
+  },
+  {
+   "id": "INT-20260815-001",
+   "path": "intelligence/INT-20260815-001-integrated-workflow-review.md",
+   "values": []
+  },
+  {
+   "id": "INT-20260815-002",
+   "path": "intelligence/INT-20260815-002-cyberdsa-success-criteria.md",
+   "values": []
+  },
+  {
+   "id": "INT-20260815-003",
+   "path": "intelligence/INT-20260815-003-cyberdsa-execution-stakeholder-matrix.md",
+   "values": [
+    "productisation",
+    "commercial-growth",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "INT-20260815-004",
+   "path": "intelligence/INT-20260815-004-csm-aras-stakeholder-coverage-plan.md",
+   "values": [
+    "cybersecurity",
+    "stakeholder-engagement",
+    "commercial-development",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "INT-20260815-005",
+   "path": "intelligence/INT-20260815-005-cyberdsa-readiness-metrics-report.md",
+   "values": [
+    "cybersecurity",
+    "stakeholder-engagement",
+    "organisational-capability",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "INT-20260815-006",
+   "path": "intelligence/INT-20260815-006-cyberdsa-cognitive-loop-analysis.md",
+   "values": [
+    "cybersecurity",
+    "commercial-development",
+    "product-management",
+    "stakeholder-engagement",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "INT-20260815-007",
+   "path": "intelligence/INT-20260815-007-cyberdsa-actionable-intelligence-prioritisation-use-case.md",
+   "values": []
+  },
+  {
+   "id": "INT-20260815-008",
+   "path": "intelligence/INT-20260815-008-cyberdsa-engineered-success-use-case.md",
+   "values": []
+  },
+  {
+   "id": "INT-20260815-009",
+   "path": "intelligence/INT-20260815-009-cyberdsa-cross-doctrinal-synthesis.md",
+   "values": []
+  },
+  {
+   "id": "INT-20260816-001",
+   "path": "intelligence/INT-20260816-001-adep-001-operationalization-analysis.md",
+   "values": []
+  },
+  {
+   "id": "INT-20260817-001",
+   "path": "intelligence/INT-20260817-001-azrul-stakeholder-assessment.md",
+   "values": []
+  },
+  {
+   "id": "INT-20260818-001",
+   "path": "intelligence/INT-20260818-001.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai",
+    "academic-partnership"
+   ]
+  },
+  {
+   "id": "INT-20260818-002",
+   "path": "intelligence/INT-20260818-002.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai",
+    "academic-partnership"
+   ]
+  },
+  {
+   "id": "INT-20260819-001",
+   "path": "intelligence/INT-20260819-001-dr-megat-stakeholder-analysis.md",
+   "values": [
+    "sovereign-capability",
+    "nacsa-alignment",
+    "cyberdsa-2026",
+    "ai-security",
+    "cryptography-pqc",
+    "ncii-protection"
+   ]
+  },
+  {
+   "id": "INT-20260819-001",
+   "path": "intelligence/INT-20260819-001.md",
+   "values": [
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "INT-20260820-001",
+   "path": "intelligence/INT-20260820-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "security-hardening",
+    "infrastructure"
+   ]
+  },
+  {
+   "id": "INT-20260820-002",
+   "path": "intelligence/INT-20260820-002.md",
+   "values": [
+    "law-enforcement-enablement",
+    "political-intelligence",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "INT-20260821-001",
+   "path": "intelligence/INT-20260821-001-actionable-intelligence-dual-review-convergence.md",
+   "values": [
+    "cognitiveos-operations",
+    "organisational-capability",
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "INT-20260821-001",
+   "path": "intelligence/INT-20260821-001-wan-roshaimi-engagement-objective.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "emerging-technology-security",
+    "technical-integration"
+   ]
+  },
+  {
+   "id": "INT-20260821-002",
+   "path": "intelligence/INT-20260821-002-bursa-poc-readiness-assessment.md",
+   "values": [
+    "csm-partnership",
+    "cybersecurity-productisation",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "INT-20260821-003",
+   "path": "intelligence/INT-20260821-003-poc-draft-technical-validation.md",
+   "values": [
+    "csm-partnership",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "INT-20260822-001",
+   "path": "intelligence/INT-20260822-001-wan-roshaimi-analytical-engagement-strategy.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "emerging-technology-security",
+    "technical-integration"
+   ]
+  },
+  {
+   "id": "INT-20260825-001",
+   "path": "intelligence/INT-20260825-001.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai",
+    "academic-partnership"
+   ]
+  },
+  {
+   "id": "INT-20260825-002",
+   "path": "intelligence/INT-20260825-002.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "INT-20260825-003",
+   "path": "intelligence/INT-20260825-003.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai",
+    "academic-partnership"
+   ]
+  },
+  {
+   "id": "INT-20260826-001",
+   "path": "intelligence/INT-20260826-001.md",
+   "values": [
+    "political-strategic-intelligence",
+    "sovereign-ai",
+    "academic-partnership"
+   ]
+  },
+  {
+   "id": "INT-20260827-001",
+   "path": "intelligence/INT-20260827-001-rswg-voroncitadel-strategic-impact.md",
+   "values": [
+    "productisation",
+    "commercial-growth",
+    "national-cybersecurity"
+   ]
+  },
+  {
+   "id": "INT-20260827-002",
+   "path": "intelligence/INT-20260827-002-itss-rswg-combined-framework.md",
+   "values": [
+    "productisation",
+    "commercial-growth",
+    "national-cybersecurity"
+   ]
+  },
+  {
+   "id": "INT-20260827-003",
+   "path": "intelligence/INT-20260827-003-bursa-poc-cognitive-loop-analysis.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-development",
+    "csm-partnership",
+    "compliance",
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "INT-20260829-003",
+   "path": "intelligence/INT-20260829-003-hadri-cognitive-loop-analysis.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "csm-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "INT-20260829-004",
+   "path": "intelligence/INT-20260829-004-hadri-role-restructure-cognitive-loop.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "csm-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "INT-20260831-001",
+   "path": "intelligence/INT-20260831-001-cyberdsa-stakeholder-activation-cognitive-loop.md",
+   "values": [
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "INT-20260903-001",
+   "path": "intelligence/INT-20260903-001-mapo-enforcement-demand-signal.md",
+   "values": [
+    "intelligence-enablement",
+    "government-partnerships",
+    "commercial-development",
+    "institutional-partnerships",
+    "productisation",
+    "national-cybersecurity"
+   ]
+  },
+  {
+   "id": "INT-20260904-002",
+   "path": "intelligence/INT-20260904-002-syahir-assignment-inventory.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "INT-20260904-003",
+   "path": "intelligence/INT-20260904-003-product-costing-gap-analysis.md",
+   "values": [
+    "commercial-development",
+    "cybersecurity-productisation",
+    "product-management",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "INT-20260904-004",
+   "path": "intelligence/INT-20260904-004-cohort-portfolio-reconciliation.md",
+   "values": [
+    "sovereign-ai",
+    "governance",
+    "intelligence-enablement"
+   ]
+  },
+  {
+   "id": "INT-20260904-005",
+   "path": "intelligence/INT-20260904-005-amelia-stakeholder-baseline.md",
+   "values": [
+    "stakeholder-engagement",
+    "cybersecurity-productisation",
+    "commercial-development",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "INT-20260904-006",
+   "path": "intelligence/INT-20260904-006-cognitive-loop-four-directive-synthesis.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "csm-partnership",
+    "cyberdsa-2026",
+    "commercial-development",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "INT-20260904-007",
+   "path": "intelligence/INT-20260904-007-cognitive-loop-tbh001-jd-review.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "portfolio-governance"
+   ]
+  },
+  {
+   "id": "INT-20260908-001",
+   "path": "intelligence/INT-20260908-001-gtm-event-date-verification.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "INT-20260725-001",
+   "path": "intelligence/OPP-20260725-001-social-listening-infrastructure.md",
+   "values": [
+    "national-cybersecurity",
+    "strategic-communications",
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "INT-20260725-002",
+   "path": "intelligence/OPP-20260725-002-war-room-methodology.md",
+   "values": [
+    "national-cybersecurity",
+    "strategic-communications",
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "INT-20260725-003",
+   "path": "intelligence/OPP-20260725-003-encrypted-alert-portal.md",
+   "values": [
+    "national-cybersecurity",
+    "productisation",
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "INT-20260725-004",
+   "path": "intelligence/OPP-20260725-004-content-studio.md",
+   "values": [
+    "strategic-communications",
+    "productisation",
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "INT-20260725-005",
+   "path": "intelligence/OPP-20260725-005-pqc-sovereign-ai.md",
+   "values": [
+    "national-cybersecurity",
+    "sovereign-ai",
+    "strategic-communications",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "INT-20260725-006",
+   "path": "intelligence/OPP-20260725-006-community-champions.md",
+   "values": [
+    "national-cybersecurity",
+    "strategic-communications",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "INT-20260725-007",
+   "path": "intelligence/OPP-20260725-007-cyber-drill.md",
+   "values": [
+    "national-cybersecurity",
+    "strategic-communications"
+   ]
+  },
+  {
+   "id": "INT-20260725-008",
+   "path": "intelligence/OPP-20260725-008-anti-deepfake-campaign.md",
+   "values": [
+    "national-cybersecurity",
+    "strategic-communications",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "INT-20260725-009",
+   "path": "intelligence/OPP-20260725-009-g2g-briefing-support.md",
+   "values": [
+    "strategic-communications",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "INT-20260725-010",
+   "path": "intelligence/OPP-20260725-010-post-merger-integration.md",
+   "values": [
+    "organisational-capability",
+    "strategic-communications",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "LSN-20260821-001",
+   "path": "lessons/LSN-20260821-001.md",
+   "values": [
+    "infrastructure-reliability",
+    "sovereign-capability"
+   ]
+  },
+  {
+   "id": "LSN-20260821-002",
+   "path": "lessons/LSN-20260821-002.md",
+   "values": [
+    "cognitiveos-operations",
+    "sovereign-capability"
+   ]
+  },
+  {
+   "id": "LSN-20260821-003",
+   "path": "lessons/LSN-20260821-003.md",
+   "values": [
+    "cognitiveos-operations",
+    "governance"
+   ]
+  },
+  {
+   "id": "LSN-20260821-004",
+   "path": "lessons/LSN-20260821-004.md",
+   "values": [
+    "cognitiveos-operations",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "LSN-20260821-005",
+   "path": "lessons/LSN-20260821-005.md",
+   "values": [
+    "cognitiveos-operations",
+    "sovereign-capability"
+   ]
+  },
+  {
+   "id": "LSN-20260821-006",
+   "path": "lessons/LSN-20260821-006.md",
+   "values": [
+    "cognitiveos-operations",
+    "sovereign-capability"
+   ]
+  },
+  {
+   "id": "LSN-20260821-007",
+   "path": "lessons/LSN-20260821-007.md",
+   "values": [
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "LSN-20260821-008",
+   "path": "lessons/LSN-20260821-008.md",
+   "values": [
+    "cognitiveos-operations",
+    "governance"
+   ]
+  },
+  {
+   "id": "LSN-20260822-001",
+   "path": "lessons/LSN-20260822-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "sovereign-ai",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "LSN-20260822-002",
+   "path": "lessons/LSN-20260822-002.md",
+   "values": [
+    "cognitiveos-operations",
+    "governance"
+   ]
+  },
+  {
+   "id": "LSN-20260822-003",
+   "path": "lessons/LSN-20260822-003.md",
+   "values": [
+    "commercial-development",
+    "cognitive-operations"
+   ]
+  },
+  {
+   "id": "LSN-20260823-001",
+   "path": "lessons/LSN-20260823-001.md",
+   "values": [
+    "portfolio-governance",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "LSN-20260823-002",
+   "path": "lessons/LSN-20260823-002.md",
+   "values": [
+    "organisational-capability",
+    "organisational-design",
+    "portfolio-governance"
+   ]
+  },
+  {
+   "id": "LSN-20260823-003",
+   "path": "lessons/LSN-20260823-003.md",
+   "values": [
+    "organisational-capability",
+    "portfolio-governance"
+   ]
+  },
+  {
+   "id": "LSN-20260823-004",
+   "path": "lessons/LSN-20260823-004.md",
+   "values": [
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "LSN-20260823-005",
+   "path": "lessons/LSN-20260823-005.md",
+   "values": [
+    "stakeholder-engagement",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "LSN-20260824-001",
+   "path": "lessons/LSN-20260824-001.md",
+   "values": [
+    "portfolio-governance",
+    "cognitiveos-operations"
+   ]
+  },
+  {
+   "id": "LSN-20260907-001",
+   "path": "lessons/LSN-20260907-001-exec-failure-rca-risik-intake.md",
+   "values": [
+    "organizational-capability-building"
+   ]
+  },
+  {
+   "id": "OPP-20260820-001",
+   "path": "opportunities/OPP-20260820-001.md",
+   "values": [
+    "commercial-strategy",
+    "sovereign-technology",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "OPP-20260820-002",
+   "path": "opportunities/OPP-20260820-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-development"
+   ]
+  },
+  {
+   "id": "OPP-20260826-001",
+   "path": "opportunities/OPP-20260826-001.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "OPP-20260827-001",
+   "path": "opportunities/OPP-20260827-001-rswg-compliance-market.md",
+   "values": [
+    "productisation",
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "OPP-20260828-001",
+   "path": "opportunities/OPP-20260828-001-mcmc-workshop-poc.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "OPP-20260903-001",
+   "path": "opportunities/OPP-20260903-001-intelligence-driven-enforcement-demand.md",
+   "values": [
+    "intelligence-enablement",
+    "government-partnerships",
+    "commercial-development",
+    "institutional-partnerships",
+    "productisation"
+   ]
+  },
+  {
+   "id": "ORG-20260815-001",
+   "path": "organizations/ORG-20260815-001-aras-integrasi.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-002",
+   "path": "organizations/ORG-20260815-002-cybersecurity-malaysia.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-003",
+   "path": "organizations/ORG-20260815-003-nacsa.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-004",
+   "path": "organizations/ORG-20260815-004-mcmc.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-005",
+   "path": "organizations/ORG-20260815-005-jdn.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-006",
+   "path": "organizations/ORG-20260815-006-pmo.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-007",
+   "path": "organizations/ORG-20260815-007-perjasa.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-008",
+   "path": "organizations/ORG-20260815-008-lhdn.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-009",
+   "path": "organizations/ORG-20260815-009-wig.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-010",
+   "path": "organizations/ORG-20260815-010-mtai.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-011",
+   "path": "organizations/ORG-20260815-011-elsa.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-012",
+   "path": "organizations/ORG-20260815-012-cscdc.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-013",
+   "path": "organizations/ORG-20260815-013-moh.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-014",
+   "path": "organizations/ORG-20260815-014-uitm.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-015",
+   "path": "organizations/ORG-20260815-015-suk-negeri-sembilan.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-016",
+   "path": "organizations/ORG-20260815-016-cscdc.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260815-017",
+   "path": "organizations/ORG-20260815-017-mkn.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260816-001",
+   "path": "organizations/ORG-20260816-001-aerosea-exhibitions.md",
+   "values": []
+  },
+  {
+   "id": "ORG-20260820-001",
+   "path": "organizations/ORG-20260820-001.md",
+   "values": [
+    "commercial-strategy",
+    "sovereign-technology"
+   ]
+  },
+  {
+   "id": "ORG-20260820-002",
+   "path": "organizations/ORG-20260820-002.md",
+   "values": [
+    "law-enforcement-enablement",
+    "political-intelligence"
+   ]
+  },
+  {
+   "id": "ORG-20260820-003",
+   "path": "organizations/ORG-20260820-003.md",
+   "values": [
+    "political-intelligence"
+   ]
+  },
+  {
+   "id": "ORG-20260820-004",
+   "path": "organizations/ORG-20260820-004.md",
+   "values": [
+    "intelligence-enablement",
+    "political-intelligence",
+    "cognitive-operations"
+   ]
+  },
+  {
+   "id": "ORG-20260903-001",
+   "path": "organizations/ORG-20260903-001-mapo.md",
+   "values": [
+    "intelligence-enablement",
+    "government-partnerships",
+    "institutional-partnerships",
+    "national-cybersecurity"
+   ]
+  },
+  {
+   "id": "ORG-20260904-001",
+   "path": "organizations/ORG-20260904-001-nanosec.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "cyberdsa-2026",
+    "government-partnerships"
+   ]
+  },
+  {
+   "id": "ORG-20260908-001",
+   "path": "organizations/ORG-20260908-001-bank-simpanan-nasional.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "OUT-20260815-001",
+   "path": "outcomes/OUT-20260815-001.md",
+   "values": []
+  },
+  {
+   "id": "OUT-20260819-001",
+   "path": "outcomes/OUT-20260819-001.md",
+   "values": [
+    "cognitiveos-operations",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "OUT-20260819-002",
+   "path": "outcomes/OUT-20260819-002.md",
+   "values": [
+    "organizational-capability",
+    "infrastructure-optimization"
+   ]
+  },
+  {
+   "id": "RSK-20260802-001",
+   "path": "risks/RSK-20260802-001.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260802-002",
+   "path": "risks/RSK-20260802-002.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260802-003",
+   "path": "risks/RSK-20260802-003.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260802-004",
+   "path": "risks/RSK-20260802-004.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260802-005",
+   "path": "risks/RSK-20260802-005.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260802-006",
+   "path": "risks/RSK-20260802-006.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260802-007",
+   "path": "risks/RSK-20260802-007.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260802-008",
+   "path": "risks/RSK-20260802-008.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260802-009",
+   "path": "risks/RSK-20260802-009.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260802-010",
+   "path": "risks/RSK-20260802-010.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260803-001",
+   "path": "risks/RSK-20260803-001.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260804-001",
+   "path": "risks/RSK-20260804-001.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260804-002",
+   "path": "risks/RSK-20260804-002.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260804-003",
+   "path": "risks/RSK-20260804-003.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260810-001",
+   "path": "risks/RSK-20260810-001.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260810-002",
+   "path": "risks/RSK-20260810-002.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260810-003",
+   "path": "risks/RSK-20260810-003.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260811-001",
+   "path": "risks/RSK-20260811-001.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260813-001",
+   "path": "risks/RSK-20260813-001.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260813-002",
+   "path": "risks/RSK-20260813-002.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260815-001",
+   "path": "risks/RSK-20260815-001.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260815-002",
+   "path": "risks/RSK-20260815-002.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260815-003",
+   "path": "risks/RSK-20260815-003.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260816-001",
+   "path": "risks/RSK-20260816-001.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260816-002",
+   "path": "risks/RSK-20260816-002.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260816-003",
+   "path": "risks/RSK-20260816-003.md",
+   "values": []
+  },
+  {
+   "id": "RSK-20260819-001",
+   "path": "risks/RSK-20260819-001.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership"
+   ]
+  },
+  {
+   "id": "RSK-20260820-001",
+   "path": "risks/RSK-20260820-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "brand-positioning"
+   ]
+  },
+  {
+   "id": "RSK-20260820-002",
+   "path": "risks/RSK-20260820-002.md",
+   "values": [
+    "law-enforcement-enablement",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "RSK-20260820-003",
+   "path": "risks/RSK-20260820-003.md",
+   "values": [
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "RSK-20260820-004",
+   "path": "risks/RSK-20260820-004.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-operations"
+   ]
+  },
+  {
+   "id": "RSK-20260820-005",
+   "path": "risks/RSK-20260820-005.md",
+   "values": [
+    "cybersecurity-productisation",
+    "cybersecurity"
+   ]
+  },
+  {
+   "id": "RSK-20260820-006",
+   "path": "risks/RSK-20260820-006.md",
+   "values": [
+    "cybersecurity-productisation",
+    "cybersecurity"
+   ]
+  },
+  {
+   "id": "RSK-20260820-007",
+   "path": "risks/RSK-20260820-007.md",
+   "values": [
+    "cybersecurity-productisation",
+    "devops"
+   ]
+  },
+  {
+   "id": "RSK-20260820-008",
+   "path": "risks/RSK-20260820-008.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-development",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "RSK-20260822-001",
+   "path": "risks/RSK-20260822-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "RSK-20260822-002",
+   "path": "risks/RSK-20260822-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "stakeholder-engagement"
+   ]
+  },
+  {
+   "id": "RSK-20260823-001",
+   "path": "risks/RSK-20260823-001.md",
+   "values": [
+    "organisational-capability",
+    "portfolio-governance",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "RSK-20260823-002",
+   "path": "risks/RSK-20260823-002.md",
+   "values": [
+    "csm-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "RSK-20260824-001",
+   "path": "risks/RSK-20260824-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "RSK-20260824-002",
+   "path": "risks/RSK-20260824-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-strategy"
+   ]
+  },
+  {
+   "id": "RSK-20260824-003",
+   "path": "risks/RSK-20260824-003.md",
+   "values": [
+    "organisational-capability",
+    "portfolio-governance",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "RSK-20260826-001",
+   "path": "risks/RSK-20260826-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "RSK-20260827-001",
+   "path": "risks/RSK-20260827-001-rswg-compliance-window-competitive-risk.md",
+   "values": [
+    "productisation",
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "RSK-20260827-002",
+   "path": "risks/RSK-20260827-002-bursa-poc-risk-register.md",
+   "values": [
+    "cybersecurity-productisation",
+    "commercial-growth",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "RSK-20260828-001",
+   "path": "risks/RSK-20260828-001-nda-ip-negotiation-risk.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "risk-management"
+   ]
+  },
+  {
+   "id": "RSK-20260829-001",
+   "path": "risks/RSK-20260829-001-syahir-capacity-risk.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "RSK-20260829-002",
+   "path": "risks/RSK-20260829-002-chainsentry-knowledge-transfer-gap.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "RSK-20260908-001",
+   "path": "risks/RSK-20260908-001-cyberdsa-compression.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "RSK-20260908-002",
+   "path": "risks/RSK-20260908-002-mql-model-governance.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "STK-20260725-001",
+   "path": "stakeholders/STK-20260725-001-cscdc.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260725-007",
+   "path": "stakeholders/STK-20260725-007.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260725-008",
+   "path": "stakeholders/STK-20260725-008.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260725-009",
+   "path": "stakeholders/STK-20260725-009.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260725-010",
+   "path": "stakeholders/STK-20260725-010.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260725-011",
+   "path": "stakeholders/STK-20260725-011.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260725-012",
+   "path": "stakeholders/STK-20260725-012.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-001",
+   "path": "stakeholders/STK-20260803-001.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-002",
+   "path": "stakeholders/STK-20260803-002.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-003",
+   "path": "stakeholders/STK-20260803-003.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-004",
+   "path": "stakeholders/STK-20260803-004.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-005",
+   "path": "stakeholders/STK-20260803-005.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-006",
+   "path": "stakeholders/STK-20260803-006.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-007",
+   "path": "stakeholders/STK-20260803-007.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-008",
+   "path": "stakeholders/STK-20260803-008.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-009",
+   "path": "stakeholders/STK-20260803-009.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-010",
+   "path": "stakeholders/STK-20260803-010.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260803-011",
+   "path": "stakeholders/STK-20260803-011.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-001",
+   "path": "stakeholders/STK-20260804-001.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-002",
+   "path": "stakeholders/STK-20260804-002.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-003",
+   "path": "stakeholders/STK-20260804-003.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-004",
+   "path": "stakeholders/STK-20260804-004.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-005",
+   "path": "stakeholders/STK-20260804-005.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-006",
+   "path": "stakeholders/STK-20260804-006.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-007",
+   "path": "stakeholders/STK-20260804-007.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-008",
+   "path": "stakeholders/STK-20260804-008.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-009",
+   "path": "stakeholders/STK-20260804-009.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-010",
+   "path": "stakeholders/STK-20260804-010.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260804-011",
+   "path": "stakeholders/STK-20260804-011.md",
+   "values": [
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "STK-20260804-012",
+   "path": "stakeholders/STK-20260804-012.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260807-001",
+   "path": "stakeholders/STK-20260807-001.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260807-002",
+   "path": "stakeholders/STK-20260807-002.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260807-003",
+   "path": "stakeholders/STK-20260807-003.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260807-004",
+   "path": "stakeholders/STK-20260807-004.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260808-001",
+   "path": "stakeholders/STK-20260808-001.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260808-002",
+   "path": "stakeholders/STK-20260808-002.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260808-003",
+   "path": "stakeholders/STK-20260808-003.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260810-003",
+   "path": "stakeholders/STK-20260810-003.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260811-001",
+   "path": "stakeholders/STK-20260811-001.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260811-002",
+   "path": "stakeholders/STK-20260811-002.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260811-003",
+   "path": "stakeholders/STK-20260811-003.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-001",
+   "path": "stakeholders/STK-20260812-001.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026",
+    "emerging-technology-security"
+   ]
+  },
+  {
+   "id": "STK-20260812-002",
+   "path": "stakeholders/STK-20260812-002.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-003",
+   "path": "stakeholders/STK-20260812-003.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-004",
+   "path": "stakeholders/STK-20260812-004.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-005",
+   "path": "stakeholders/STK-20260812-005.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-006",
+   "path": "stakeholders/STK-20260812-006.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-007",
+   "path": "stakeholders/STK-20260812-007.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-008",
+   "path": "stakeholders/STK-20260812-008.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-009",
+   "path": "stakeholders/STK-20260812-009.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-010",
+   "path": "stakeholders/STK-20260812-010.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-011",
+   "path": "stakeholders/STK-20260812-011.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-012",
+   "path": "stakeholders/STK-20260812-012.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-013",
+   "path": "stakeholders/STK-20260812-013.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-014",
+   "path": "stakeholders/STK-20260812-014.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-015",
+   "path": "stakeholders/STK-20260812-015.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-016",
+   "path": "stakeholders/STK-20260812-016.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260812-017",
+   "path": "stakeholders/STK-20260812-017.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-001",
+   "path": "stakeholders/STK-20260813-001.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-002",
+   "path": "stakeholders/STK-20260813-002.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-003",
+   "path": "stakeholders/STK-20260813-003.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-004",
+   "path": "stakeholders/STK-20260813-004.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-005",
+   "path": "stakeholders/STK-20260813-005.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-006",
+   "path": "stakeholders/STK-20260813-006.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-007",
+   "path": "stakeholders/STK-20260813-007.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-008",
+   "path": "stakeholders/STK-20260813-008.md",
+   "values": [
+    "sovereign-capability",
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "STK-20260813-009",
+   "path": "stakeholders/STK-20260813-009.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-010",
+   "path": "stakeholders/STK-20260813-010.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-011",
+   "path": "stakeholders/STK-20260813-011.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-012",
+   "path": "stakeholders/STK-20260813-012.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-013",
+   "path": "stakeholders/STK-20260813-013.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-014",
+   "path": "stakeholders/STK-20260813-014.md",
+   "values": [
+    "csm-partnership",
+    "cybersecurity-productisation",
+    "stakeholder-engagement",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "STK-20260813-015",
+   "path": "stakeholders/STK-20260813-015.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260813-016",
+   "path": "stakeholders/STK-20260813-016.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-001",
+   "path": "stakeholders/STK-20260815-001.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-002",
+   "path": "stakeholders/STK-20260815-002.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-004",
+   "path": "stakeholders/STK-20260815-004.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-005",
+   "path": "stakeholders/STK-20260815-005.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-006",
+   "path": "stakeholders/STK-20260815-006.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-007",
+   "path": "stakeholders/STK-20260815-007-shamsul-azri.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-008",
+   "path": "stakeholders/STK-20260815-008-megat-zuhairy.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-009",
+   "path": "stakeholders/STK-20260815-009-nushirwan.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-010",
+   "path": "stakeholders/STK-20260815-010-roshdi-ahmad.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-011",
+   "path": "stakeholders/STK-20260815-011-muhammad-rezal.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-012",
+   "path": "stakeholders/STK-20260815-012-wan-roshaimi.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-013",
+   "path": "stakeholders/STK-20260815-013-amirudin-abdul-wahab.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-014",
+   "path": "stakeholders/STK-20260815-014-mohamad-salim.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-015",
+   "path": "stakeholders/STK-20260815-015-fabian-bigar.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-016",
+   "path": "stakeholders/STK-20260815-016-che-nasir.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-017",
+   "path": "stakeholders/STK-20260815-017-dennis-looi.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-018",
+   "path": "stakeholders/STK-20260815-018-fahmi-fadzil.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260815-019",
+   "path": "stakeholders/STK-20260815-019-siti-aishah-omar.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260816-001",
+   "path": "stakeholders/STK-20260816-001.md",
+   "values": []
+  },
+  {
+   "id": "STK-20260817-001",
+   "path": "stakeholders/STK-20260817-001.md",
+   "values": [
+    "csm-aras-partnership",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "STK-20260818-001",
+   "path": "stakeholders/STK-20260818-001.md",
+   "values": [
+    "sovereign-ai",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "STK-20260818-002",
+   "path": "stakeholders/STK-20260818-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "sovereign-ai"
+   ]
+  },
+  {
+   "id": "STK-20260818-003",
+   "path": "stakeholders/STK-20260818-003.md",
+   "values": [
+    "political-strategic-intelligence"
+   ]
+  },
+  {
+   "id": "STK-20260819-001",
+   "path": "stakeholders/STK-20260819-001.md",
+   "values": [
+    "sovereign-capability",
+    "nacsa-alignment",
+    "cyberdsa-2026",
+    "ai-security",
+    "cryptography-pqc",
+    "ncii-protection"
+   ]
+  },
+  {
+   "id": "STK-20260820-001",
+   "path": "stakeholders/STK-20260820-001.md",
+   "values": [
+    "academic-engagement",
+    "cybersecurity-productisation",
+    "brand-positioning"
+   ]
+  },
+  {
+   "id": "STK-20260820-002",
+   "path": "stakeholders/STK-20260820-002.md",
+   "values": [
+    "operations"
+   ]
+  },
+  {
+   "id": "STK-20260820-003",
+   "path": "stakeholders/STK-20260820-003.md",
+   "values": [
+    "political-intelligence",
+    "law-enforcement-enablement"
+   ]
+  },
+  {
+   "id": "STK-20260820-004",
+   "path": "stakeholders/STK-20260820-004.md",
+   "values": [
+    "political-intelligence",
+    "law-enforcement-enablement"
+   ]
+  },
+  {
+   "id": "STK-20260820-005",
+   "path": "stakeholders/STK-20260820-005.md",
+   "values": [
+    "political-intelligence",
+    "law-enforcement-enablement"
+   ]
+  },
+  {
+   "id": "STK-20260820-006",
+   "path": "stakeholders/STK-20260820-006.md",
+   "values": [
+    "political-intelligence"
+   ]
+  },
+  {
+   "id": "STK-20260826-001",
+   "path": "stakeholders/STK-20260826-001.md",
+   "values": [
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "STK-20260827-001",
+   "path": "stakeholders/STK-20260827-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership"
+   ]
+  },
+  {
+   "id": "STK-20260828-001",
+   "path": "stakeholders/STK-20260828-001-aravind-mcmc.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "STK-20260903-001",
+   "path": "stakeholders/STK-20260903-001.md",
+   "values": [
+    "intelligence-enablement",
+    "government-partnerships",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "STK-20260907-001",
+   "path": "stakeholders/STK-20260907-001-azim-mcmc-risik-coordinator.md",
+   "values": [
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "STK-20260908-001",
+   "path": "stakeholders/STK-20260908-001-norhafizah-md-shariff.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "STK-20260908-002",
+   "path": "stakeholders/STK-20260908-002-muizz-aiman-farid.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "AIP-20260829-001",
+   "path": "artifacts/AIP-20260829-001-Fuad-Capacity-Architecture.md",
+   "values": [
+    "cybersecurity-productisation",
+    "csm-partnership",
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "AIP-20260829-002",
+   "path": "artifacts/AIP-20260829-002-Exec-Discipline-and-Session-Integrity.md",
+   "values": [
+    "cognitiveos-operations",
+    "governance",
+    "agent-discipline"
+   ]
+  },
+  {
+   "id": "ART-20260820-001",
+   "path": "artifacts/ART-20260820-001.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "ART-20260820-002",
+   "path": "artifacts/ART-20260820-002.md",
+   "values": [
+    "cybersecurity-productisation",
+    "product-management"
+   ]
+  },
+  {
+   "id": "ART-20260826-001",
+   "path": "artifacts/ART-20260826-001.md",
+   "values": [
+    "sovereign-ai",
+    "government-ai-adoption",
+    "institutional-partnerships"
+   ]
+  },
+  {
+   "id": "ART-20260828-001",
+   "path": "artifacts/ART-20260828-001-csm-aras-nda-framework.md",
+   "values": [
+    "csm-partnership",
+    "commercial-strategy",
+    "cybersecurity-productisation"
+   ]
+  },
+  {
+   "id": "ART-20260908-001",
+   "path": "artifacts/ART-20260908-001-gtm-marketing-execution-plan-deck.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "ART-20260908-002",
+   "path": "artifacts/ART-20260908-002-cyberdsa-invitation-list.xlsx.md",
+   "values": [
+    "commercial-growth"
+   ]
+  },
+  {
+   "id": "ESF-20260829-002",
+   "path": "artifacts/ESF-20260829-002-Fuad-Practice-Technical-Authority.md",
+   "values": [
+    "cybersecurity-productisation",
+    "engineering-capacity",
+    "organisational-capability-building",
+    "bursa-poc",
+    "cyberdsa-2026"
+   ]
+  },
+  {
+   "id": "ART-20260813-001",
+   "path": "artifacts/GRP-20260813-001-GovSec-CyberDSA-Readiness-Plan.md",
+   "values": [
+    "national-cybersecurity",
+    "productisation"
+   ]
+  },
+  {
+   "id": "ART-20260813-002",
+   "path": "artifacts/MWR-20260813-001-Master-Workstream-Register.md",
+   "values": [
+    "commercial-growth",
+    "organisational-capability"
+   ]
+  },
+  {
+   "id": "ART-20260829-002",
+   "path": "artifacts/TECH-EXEC-2FTE-CAPACITY-MAP-20260829.md",
+   "values": [
+    "cybersecurity-productisation",
+    "cyberdsa-2026",
+    "organisational-capability-building"
+   ]
+  },
+  {
+   "id": "INIT-20260813-001",
+   "path": "artifacts/VORONCRM-v1-execution-plan.md",
+   "values": []
+  },
+  {
+   "id": "INIT-20260813-002",
+   "path": "artifacts/jd-account-owner.md",
+   "values": []
+  },
+  {
+   "id": "INIT-20260813-003",
+   "path": "artifacts/jd-gtm-delivery-owner.md",
+   "values": []
+  },
+  {
+   "id": "INIT-20260813-004",
+   "path": "artifacts/jd-marketing-operations-specialist.md",
+   "values": []
+  },
+  {
+   "id": "INIT-20260813-005",
+   "path": "artifacts/jd-poc-engineer.md",
+   "values": []
+  },
+  {
+   "id": "ART-20260828-003",
+   "path": "artifacts/jd-project-manager-cyber-security-practice-v2.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability",
+    "portfolio-governance"
+   ]
+  },
+  {
+   "id": "INIT-20260820-004",
+   "path": "artifacts/jd-project-manager-cyber-security-practice.md",
+   "values": [
+    "cybersecurity-productisation",
+    "organisational-capability",
+    "portfolio-governance"
+   ]
+  },
+  {
+   "id": "INIT-20260813-006",
+   "path": "artifacts/vorondrq-gtm-crm-bootstrap-checklist.md",
+   "values": []
+  },
+  {
+   "id": "INIT-20260813-007",
+   "path": "artifacts/vorondrq-gtm-crm-recommendation.md",
+   "values": []
+  },
+  {
+   "id": "INIT-20260813-008",
+   "path": "artifacts/vorondrq-gtm-executive-summary.md",
+   "values": []
+  },
+  {
+   "id": "INIT-20260813-009",
+   "path": "artifacts/vorondrq-gtm-internal-communications-plan.md",
+   "values": []
+  },
+  {
+   "id": "INIT-20260813-010",
+   "path": "artifacts/vorondrq-gtm-resource-requirements.md",
+   "values": []
+  }
+ ],
+ "value_counts": {
+  "sovereign-ai": 64,
+  "cybersecurity-productisation": 164,
+  "commercial-development": 42,
+  "political-strategic-intelligence": 24,
+  "organisational-capability-building": 27,
+  "infrastructure-optimization": 3,
+  "sovereign-capability": 34,
+  "csm-aras-partnership": 25,
+  "cyberdsa-2026": 62,
+  "nacsa-alignment": 7,
+  "market-positioning": 5,
+  "wig-partnership": 3,
+  "brand-positioning": 7,
+  "government-partnerships": 30,
+  "operations": 3,
+  "csm-partnership": 86,
+  "stakeholder-engagement": 32,
+  "commercial-strategy": 35,
+  "sovereign-technology": 15,
+  "security-hardening": 3,
+  "infrastructure": 4,
+  "cybersecurity": 20,
+  "devops": 2,
+  "product-management": 29,
+  "organisational-capability": 49,
+  "cognitiveos-operations": 30,
+  "milestone/cyberdsa-2026": 2,
+  "portfolio-governance": 14,
+  "political-intelligence": 18,
+  "institutional-partnerships": 32,
+  "government-ai-adoption": 19,
+  "productisation": 22,
+  "commercial-growth": 37,
+  "engineering-capacity": 2,
+  "academic-partnership": 8,
+  "commercial-operations": 5,
+  "knowledge-management": 2,
+  "organizational-capability": 2,
+  "intelligence-enablement": 14,
+  "cognitive-operations": 5,
+  "ai-infrastructure": 4,
+  "INIT-20260813-001": 1,
+  "INIT-20260725-001": 1,
+  "COM-20260813-001": 1,
+  "INIT-20260810-003": 1,
+  "INIT-20260811-001": 1,
+  "INIT-20260813-006": 1,
+  "law-enforcement-enablement": 7,
+  "technical-integration": 3,
+  "government-institutional": 1,
+  "national-cybersecurity": 16,
+  "intelligence-operations": 4,
+  "domain/artificial-intelligence": 2,
+  "domain/knowledge-management": 3,
+  "capability/strategic-planning": 3,
+  "elections": 1,
+  "strategic-communications": 10,
+  "ai-agents": 1,
+  "academic-engagement": 2,
+  "ai-security": 2,
+  "cryptography-pqc": 2,
+  "ncii-protection": 2,
+  "emerging-technology-security": 3,
+  "compliance": 1,
+  "governance": 5,
+  "infrastructure-reliability": 1,
+  "organisational-design": 1,
+  "organizational-capability-building": 1,
+  "risk-management": 1,
+  "agent-discipline": 1,
+  "bursa-poc": 1
+ },
+ "mission": [
+  "asean-ecosystem",
+  "commercial-growth",
+  "government-ai-adoption",
+  "institutional-partnerships",
+  "intelligence-enablement",
+  "national-cybersecurity",
+  "organisational-capability",
+  "political-intelligence",
+  "productisation",
+  "sovereign-ai",
+  "strategic-communications"
+ ]
+}

@@ -1,0 +1,584 @@
+{
+ "scanned_at": "2026-09-09",
+ "total_ids": 43,
+ "total_ref_files": 318,
+ "total_occurrences": 583,
+ "per_id": {
+  "EXEC-PLAN-20260811": {
+   "files": 2,
+   "occurrences": 2,
+   "paths": [
+    "./briefings/EXEC-PLAN-20260811.md",
+    "./profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md"
+   ]
+  },
+  "EXEC-BOTTLENECK-20260811": {
+   "files": 5,
+   "occurrences": 5,
+   "paths": [
+    "./intelligence/INT-20260904-002-syahir-assignment-inventory.md",
+    "./briefings/EXEC-PLAN-20260811.md",
+    "./briefings/EXEC-BOTTLENECK-20260811.md",
+    "./profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md",
+    "./stakeholders/STK-20260811-001.md"
+   ]
+  },
+  "CONV-20260818-006": {
+   "files": 19,
+   "occurrences": 33,
+   "paths": [
+    "./intelligence/INT-20260818-002.md",
+    "./intelligence/INT-20260825-001.md",
+    "./intelligence/INT-20260818-001.md",
+    "./logs/validation-2026-08-30.md",
+    "./commitments/COM-20260818-001.md",
+    "./documents/DOC-20260825-002.md",
+    "./drafts/ART-P0-TAX-04-REVIEW-PACKET-001.md",
+    "./assessments/ASSESS-20260818-001.md",
+    "./engagements/CONV-20260818-006.md",
+    "./indexes/intelligence-index.md",
+    "./indexes/conversation-index.md",
+    "./stakeholders/STK-20260818-003.md",
+    "./decisions/DEC-20260825-002.md",
+    "./decisions/DEC-20260818-012.md",
+    "./initiatives/INIT-20260803-002.md",
+    "./actions/ACT-20260825-007.md",
+    "./actions/ACT-20260818-007.md",
+    "./actions/ACT-20260818-006.md",
+    "./memory/2026-08-25.md"
+   ]
+  },
+  "SEG-20260818-001": {
+   "files": 8,
+   "occurrences": 11,
+   "paths": [
+    "./intelligence/INT-20260904-005-amelia-stakeholder-baseline.md",
+    "./intelligence/INT-20260904-006-cognitive-loop-four-directive-synthesis.md",
+    "./logs/validation-2026-08-30.md",
+    "./logs/validation-2026-08-23.md",
+    "./artifacts/ART-20260904-002-activation-meeting-briefing-pack.md",
+    "./documents/SEG-20260818-001-193-org-segmentation-framework.md",
+    "./profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md",
+    "./indexes/document-index.md"
+   ]
+  },
+  "MCMC-COST-DELTA-BRIEF-20260908-001": {
+   "files": 6,
+   "occurrences": 6,
+   "paths": [
+    "./risks/RSK-20260815-002.md",
+    "./conversations/CONV-20260907-001-mcmc-risik-presentation-invitation.md",
+    "./drafts/MCMC-COST-DELTA-BRIEF-20260908-001.md",
+    "./organizations/ORG-20260815-004-mcmc.md",
+    "./decisions/DEC-20260908-003.md",
+    "./actions/ACT-20260907-001-mcmc-risik-session-rsvp-prep.md"
+   ]
+  },
+  "ART-P0-TAX-04-REVIEW-PACKET-001": {
+   "files": 2,
+   "occurrences": 3,
+   "paths": [
+    "./drafts/ART-P0-TAX-04-REVIEW-PACKET-001.md",
+    "./decisions/DEC-20260909-001.md"
+   ]
+  },
+  "EMAIL-DRAFT-20260817-001": {
+   "files": 3,
+   "occurrences": 3,
+   "paths": [
+    "./drafts/EMAIL-DRAFT-20260817-001.md",
+    "./assessments/ASSESS-20260817-001.md",
+    "./profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md"
+   ]
+  },
+  "RSVPT-20260908-001": {
+   "files": 1,
+   "occurrences": 1,
+   "paths": [
+    "./drafts/RSVP-DRAFT-20260908-001-mcmc-risik.md"
+   ]
+  },
+  "INT-20260831T0131-001": {
+   "files": 2,
+   "occurrences": 3,
+   "paths": [
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-08-31T0131.md",
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-09-07T0126.md"
+   ]
+  },
+  "INT-20260824-CSCDC-03": {
+   "files": 2,
+   "occurrences": 2,
+   "paths": [
+    "./intelligence/cron-output/cj3-infra-watch-20260824-0138.md",
+    "./intelligence/cron-output/INT-20260831-002-cscdc-03-infra-procurement.md"
+   ]
+  },
+  "INT-20260818-CSCDC-05-001": {
+   "files": 3,
+   "occurrences": 3,
+   "paths": [
+    "./intelligence/cron-output/cj5-cyber-drill-2026-08-18_1024.md",
+    "./intelligence/cron-output/INT-20260824-CSCDC-05-001-cyber-drill-crisis-protocol.md",
+    "./intelligence/cron-output/INT-20260831-CSCDC-05-001-cyber-drill-crisis-protocol.md"
+   ]
+  },
+  "INT-20260907T0126-001": {
+   "files": 2,
+   "occurrences": 4,
+   "paths": [
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-09-07T0126.md",
+    "./intelligence/cron-output/INT-20260907-CSCDC-05-001-cyber-drill-crisis-protocol.md"
+   ]
+  },
+  "INT-20260824-CSCDC-06": {
+   "files": 1,
+   "occurrences": 2,
+   "paths": [
+    "./intelligence/cron-output/cscdc06-programme-2026-08-24T0213+08.md"
+   ]
+  },
+  "INT-20260824T0130-001": {
+   "files": 3,
+   "occurrences": 4,
+   "paths": [
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-08-31T0131.md",
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-09-07T0126.md",
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-08-24T0130.md"
+   ]
+  },
+  "INT-20260907-001-CSCDC-04": {
+   "files": 1,
+   "occurrences": 1,
+   "paths": [
+    "./intelligence/cron-output/INT-20260907-001-cscdc-04-campaign-watch.md"
+   ]
+  },
+  "INT-20260831-CSCDC-06": {
+   "files": 1,
+   "occurrences": 2,
+   "paths": [
+    "./intelligence/cron-output/cscdc06-programme-2026-08-31T0203+08.md"
+   ]
+  },
+  "INT-20260907-CSCDC-05-001": {
+   "files": 1,
+   "occurrences": 1,
+   "paths": [
+    "./intelligence/cron-output/INT-20260907-CSCDC-05-001-cyber-drill-crisis-protocol.md"
+   ]
+  },
+  "INT-20260831-001-CSCDC-04": {
+   "files": 2,
+   "occurrences": 2,
+   "paths": [
+    "./intelligence/cron-output/INT-20260907-001-cscdc-04-campaign-watch.md",
+    "./intelligence/cron-output/INT-20260831-001-cscdc-04-campaign-watch.md"
+   ]
+  },
+  "INT-20260818-CSCDC-06": {
+   "files": 1,
+   "occurrences": 2,
+   "paths": [
+    "./intelligence/cron-output/cscdc06-programme-2026-08-18T1026+08.md"
+   ]
+  },
+  "INT-20260824-CSCDC-05-001": {
+   "files": 3,
+   "occurrences": 3,
+   "paths": [
+    "./intelligence/cron-output/INT-20260907-CSCDC-05-001-cyber-drill-crisis-protocol.md",
+    "./intelligence/cron-output/INT-20260824-CSCDC-05-001-cyber-drill-crisis-protocol.md",
+    "./intelligence/cron-output/INT-20260831-CSCDC-05-001-cyber-drill-crisis-protocol.md"
+   ]
+  },
+  "INT-20260831-CSCDC-05-001": {
+   "files": 2,
+   "occurrences": 2,
+   "paths": [
+    "./intelligence/cron-output/INT-20260907-CSCDC-05-001-cyber-drill-crisis-protocol.md",
+    "./intelligence/cron-output/INT-20260831-CSCDC-05-001-cyber-drill-crisis-protocol.md"
+   ]
+  },
+  "INT-20260818-CSCDC-04-001": {
+   "files": 1,
+   "occurrences": 1,
+   "paths": [
+    "./intelligence/cron-output/cj4-campaign-watch-2026-08-18T1008.md"
+   ]
+  },
+  "INT-20260824-CSCDC-04-001": {
+   "files": 2,
+   "occurrences": 2,
+   "paths": [
+    "./intelligence/cron-output/INT-20260831-001-cscdc-04-campaign-watch.md",
+    "./intelligence/cron-output/INT-20260824-001-cscdc-04-campaign-watch.md"
+   ]
+  },
+  "INT-20260818-CSCDC-03": {
+   "files": 1,
+   "occurrences": 1,
+   "paths": [
+    "./intelligence/cron-output/cj3-infra-watch-20260818-1001.md"
+   ]
+  },
+  "INT-20260818T0953-001": {
+   "files": 4,
+   "occurrences": 5,
+   "paths": [
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-08-31T0131.md",
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-09-07T0126.md",
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-08-24T0130.md",
+    "./intelligence/cron-output/cj2-pqc-monitor-2026-08-18T0953.md"
+   ]
+  },
+  "AIP-20260823-001": {
+   "files": 3,
+   "occurrences": 5,
+   "paths": [
+    "./intelligence/INT-20260904-005-amelia-stakeholder-baseline.md",
+    "./artifacts/AIP-20260823-001.md",
+    "./profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md"
+   ]
+  },
+  "INIT-20260813-005": {
+   "files": 30,
+   "occurrences": 55,
+   "paths": [
+    "./risks/RSK-20260815-001.md",
+    "./intelligence/INT-20260904-004-cohort-portfolio-reconciliation.md",
+    "./intelligence/INT-20260904-006-cognitive-loop-four-directive-synthesis.md",
+    "./intelligence/ADEP-001-review-20260816-cyberdsa-soft-activation.md",
+    "./artifacts/jd-poc-engineer.md",
+    "./artifacts/ART-20260904-002-activation-meeting-briefing-pack.md",
+    "./artifacts/MWR-20260813-001-Master-Workstream-Register.md",
+    "./artifacts/ART-20260904-001-activation-meeting-agenda.md",
+    "./documents/DOC-20260820-006.md",
+    "./engagements/CONV-20260819-002.md",
+    "./engagements/CONV-20260820-002.md",
+    "./engagements/CONV-20260820-003.md",
+    "./profiles/DAF-COMPREHENSIVE-PROFILE-20260815.md",
+    "./indexes/executive-portfolio-index.md",
+    "./indexes/risk-index.md",
+    "./indexes/initiative-index.md",
+    "./indexes/conversation-index.md",
+    "./stakeholders/STK-20260813-008.md",
+    "./stakeholders/STK-20260815-001.md",
+    "./decisions/DEC-20260813-001.md",
+    "./decisions/DEC-20260820-002.md",
+    "./decisions/DEC-20260819-004.md",
+    "./decisions/DEC-20260820-012.md",
+    "./initiatives/INIT-20260813-005.md",
+    "./initiatives/INIT-20260813-006.md",
+    "./actions/ACT-20260819-003.md",
+    "./actions/ACT-20260813-012.md",
+    "./actions/ACT-20260815-003.md",
+    "./actions/ACT-20260820-003.md",
+    "./actions/ACT-20260815-004.md"
+   ]
+  },
+  "ESF-20260822-001": {
+   "files": 6,
+   "occurrences": 8,
+   "paths": [
+    "./artifacts/ESF-20260822-001-VoronCitadel-GTM.md",
+    "./artifacts/ART-20260822-002-Funnel-Reconciliation-One-Pager.md",
+    "./artifacts/ART-20260823-001.md",
+    "./engagements/CONV-20260822-003.md",
+    "./engagements/CONV-20260823-001.md",
+    "./profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md"
+   ]
+  },
+  "INIT-20260813-002": {
+   "files": 22,
+   "occurrences": 37,
+   "paths": [
+    "./intelligence/ADEP-001-review-20260816-cyberdsa-soft-activation.md",
+    "./commitments/COM-20260817-003.md",
+    "./artifacts/jd-account-owner.md",
+    "./artifacts/MWR-20260813-001-Master-Workstream-Register.md",
+    "./engagements/CONV-20260813-002.md",
+    "./engagements/CONV-20260816-002.md",
+    "./profiles/DAF-COMPREHENSIVE-PROFILE-20260815.md",
+    "./indexes/executive-portfolio-index.md",
+    "./indexes/initiative-index.md",
+    "./indexes/conversation-index.md",
+    "./stakeholders/STK-20260803-006.md",
+    "./stakeholders/STK-20260813-009.md",
+    "./stakeholders/STK-20260813-010.md",
+    "./stakeholders/STK-20260813-011.md",
+    "./stakeholders/STK-20260813-012.md",
+    "./stakeholders/STK-20260813-008.md",
+    "./initiatives/INIT-20260813-003.md",
+    "./initiatives/INIT-20260813-002.md",
+    "./initiatives/INIT-20260813-004.md",
+    "./initiatives/INIT-20260813-005.md",
+    "./actions/ACT-20260813-011.md",
+    "./actions/ACT-20260813-008.md"
+   ]
+  },
+  "INIT-20260813-007": {
+   "files": 3,
+   "occurrences": 3,
+   "paths": [
+    "./intelligence/INT-20260904-003-product-costing-gap-analysis.md",
+    "./artifacts/vorondrq-gtm-crm-recommendation.md",
+    "./indexes/initiative-index.md"
+   ]
+  },
+  "AIP-20260829-002": {
+   "files": 2,
+   "occurrences": 3,
+   "paths": [
+    "./artifacts/AIP-20260829-002-Exec-Discipline-and-Session-Integrity.md",
+    "./governance/process-maturity-register.md"
+   ]
+  },
+  "INIT-20260813-004": {
+   "files": 22,
+   "occurrences": 49,
+   "paths": [
+    "./artifacts/jd-marketing-operations-specialist.md",
+    "./artifacts/MWR-20260813-001-Master-Workstream-Register.md",
+    "./drafts/ART-P0-TAX-04-REVIEW-PACKET-001.md",
+    "./engagements/CONV-20260818-004.md",
+    "./profiles/DAF-COMPREHENSIVE-PROFILE-20260815.md",
+    "./indexes/executive-portfolio-index.md",
+    "./indexes/initiative-index.md",
+    "./indexes/conversation-index.md",
+    "./stakeholders/STK-20260818-001.md",
+    "./stakeholders/STK-20260813-009.md",
+    "./stakeholders/STK-20260818-002.md",
+    "./stakeholders/STK-20260813-010.md",
+    "./stakeholders/STK-20260813-011.md",
+    "./stakeholders/STK-20260813-012.md",
+    "./decisions/DEC-20260818-010.md",
+    "./initiatives/INIT-20260813-004.md",
+    "./initiatives/INIT-20260813-005.md",
+    "./initiatives/INIT-20260813-006.md",
+    "./actions/ACT-20260818-003.md",
+    "./actions/ACT-20260818-002.md",
+    "./actions/ACT-20260813-011.md",
+    "./actions/ACT-20260818-001.md"
+   ]
+  },
+  "ESF-20260829-001": {
+   "files": 12,
+   "occurrences": 25,
+   "paths": [
+    "./intelligence/INT-20260904-004-cohort-portfolio-reconciliation.md",
+    "./intelligence/INT-20260829-004-hadri-role-restructure-cognitive-loop.md",
+    "./intelligence/INT-20260904-007-cognitive-loop-tbh001-jd-review.md",
+    "./intelligence/INT-20260904-006-cognitive-loop-four-directive-synthesis.md",
+    "./intelligence/INT-20260829-003-hadri-cognitive-loop-analysis.md",
+    "./artifacts/ART-20260904-002-activation-meeting-briefing-pack.md",
+    "./artifacts/ESF-20260829-001-DAF-Strategic-Leader-Profile.md",
+    "./artifacts/jd-project-manager-cyber-security-practice-v2.md",
+    "./artifacts/ESF-20260829-002-Fuad-Practice-Technical-Authority.md",
+    "./profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md",
+    "./indexes/decision-index.md",
+    "./decisions/DEC-20260829-003-hadri-coo-focus-hoe-deferred.md"
+   ]
+  },
+  "ESF-20260829-002": {
+   "files": 14,
+   "occurrences": 34,
+   "paths": [
+    "./intelligence/INT-20260904-002-syahir-assignment-inventory.md",
+    "./intelligence/INT-20260904-006-cognitive-loop-four-directive-synthesis.md",
+    "./intelligence/INT-20260904-003-product-costing-gap-analysis.md",
+    "./intelligence/INT-20260829-003-hadri-cognitive-loop-analysis.md",
+    "./artifacts/TECH-EXEC-2FTE-CAPACITY-MAP-20260829.md",
+    "./artifacts/ART-20260904-002-activation-meeting-briefing-pack.md",
+    "./artifacts/ESF-20260829-002-Fuad-Practice-Technical-Authority.md",
+    "./artifacts/AIP-20260829-001-Fuad-Capacity-Architecture.md",
+    "./profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md",
+    "./decisions/DEC-20260829-003-hadri-coo-focus-hoe-deferred.md",
+    "./decisions/DEC-20260905-001.md",
+    "./decisions/DEC-20260908-001.md",
+    "./actions/ACT-20260829-002.md",
+    "./actions/ACT-20260905-001.md"
+   ]
+  },
+  "INIT-20260813-001": {
+   "files": 31,
+   "occurrences": 86,
+   "paths": [
+    "./risks/RSK-20260813-001.md",
+    "./intelligence/INT-20260904-004-cohort-portfolio-reconciliation.md",
+    "./commitments/COM-20260813-003.md",
+    "./commitments/COM-20260813-001.md",
+    "./commitments/COM-20260817-001.md",
+    "./commitments/COM-20260813-002.md",
+    "./artifacts/VORONCRM-v1-execution-plan.md",
+    "./artifacts/MWR-20260813-001-Master-Workstream-Register.md",
+    "./documents/DOC-20260818-001-perjasa-workshop-agenda.md",
+    "./drafts/ART-P0-TAX-04-REVIEW-PACKET-001.md",
+    "./engagements/CONV-20260813-001.md",
+    "./profiles/DAF-COMPREHENSIVE-PROFILE-20260815.md",
+    "./indexes/executive-portfolio-index.md",
+    "./indexes/risk-index.md",
+    "./indexes/initiative-index.md",
+    "./indexes/conversation-index.md",
+    "./stakeholders/STK-20260813-005.md",
+    "./stakeholders/STK-20260813-003.md",
+    "./stakeholders/STK-20260813-007.md",
+    "./stakeholders/STK-20260813-006.md",
+    "./stakeholders/STK-20260815-016-che-nasir.md",
+    "./stakeholders/STK-20260813-002.md",
+    "./stakeholders/STK-20260813-004.md",
+    "./initiatives/INIT-20260813-001.md",
+    "./actions/ACT-20260813-003.md",
+    "./actions/ACT-20260813-004.md",
+    "./actions/ACT-20260813-005.md",
+    "./actions/ACT-20260813-007.md",
+    "./actions/ACT-20260813-001.md",
+    "./actions/ACT-20260813-006.md",
+    "./actions/ACT-20260813-002.md"
+   ]
+  },
+  "INIT-20260813-008": {
+   "files": 2,
+   "occurrences": 2,
+   "paths": [
+    "./artifacts/vorondrq-gtm-executive-summary.md",
+    "./indexes/initiative-index.md"
+   ]
+  },
+  "INIT-20260813-003": {
+   "files": 15,
+   "occurrences": 26,
+   "paths": [
+    "./intelligence/INT-20260904-003-product-costing-gap-analysis.md",
+    "./artifacts/MWR-20260813-001-Master-Workstream-Register.md",
+    "./artifacts/jd-gtm-delivery-owner.md",
+    "./engagements/CONV-20260813-002.md",
+    "./profiles/DAF-COMPREHENSIVE-PROFILE-20260815.md",
+    "./indexes/executive-portfolio-index.md",
+    "./indexes/initiative-index.md",
+    "./indexes/conversation-index.md",
+    "./stakeholders/STK-20260803-006.md",
+    "./stakeholders/STK-20260813-008.md",
+    "./initiatives/INIT-20260813-003.md",
+    "./initiatives/INIT-20260813-002.md",
+    "./initiatives/INIT-20260813-004.md",
+    "./initiatives/INIT-20260813-005.md",
+    "./initiatives/INIT-20260813-006.md"
+   ]
+  },
+  "INIT-20260813-006": {
+   "files": 47,
+   "occurrences": 94,
+   "paths": [
+    "./risks/RSK-20260816-003.md",
+    "./risks/RSK-20260820-001.md",
+    "./risks/RSK-20260816-001.md",
+    "./artifacts/vorondrq-gtm-crm-bootstrap-checklist.md",
+    "./documents/DOC-20260820-006.md",
+    "./documents/DOC-20260827-003-cyberdsa-stakeholder-framework-v11.md",
+    "./documents/DOC-20260819-001.md",
+    "./documents/DOC-20260819-002.md",
+    "./documents/DOC-20260818-002-cyberdsa-media-brand-narrative.md",
+    "./engagements/CONV-20260818-005.md",
+    "./engagements/CONV-20260816-001.md",
+    "./engagements/CONV-20260820-001.md",
+    "./engagements/CONV-20260819-002.md",
+    "./engagements/CONV-20260820-002.md",
+    "./engagements/CONV-20260819-003.md",
+    "./engagements/CONV-20260819-004.md",
+    "./engagements/CONV-20260816-002.md",
+    "./engagements/CONV-20260820-003.md",
+    "./indexes/executive-portfolio-index.md",
+    "./indexes/risk-index.md",
+    "./indexes/initiative-index.md",
+    "./indexes/conversation-index.md",
+    "./stakeholders/STK-20260819-001.md",
+    "./stakeholders/STK-20260813-013.md",
+    "./stakeholders/STK-20260813-016.md",
+    "./stakeholders/STK-20260813-015.md",
+    "./stakeholders/STK-20260816-001.md",
+    "./stakeholders/STK-20260813-014.md",
+    "./stakeholders/STK-20260813-008.md",
+    "./organizations/ORG-20260816-001-aerosea-exhibitions.md",
+    "./decisions/DEC-20260819-005.md",
+    "./decisions/DEC-20260827-002-dependency-chain-reorder.md",
+    "./decisions/DEC-20260818-011.md",
+    "./decisions/DEC-20260826-002.md",
+    "./decisions/DEC-20260819-006.md",
+    "./decisions/DEC-20260819-004.md",
+    "./decisions/DEC-20260820-012.md",
+    "./initiatives/INIT-20260820-001.md",
+    "./initiatives/INIT-20260813-006.md",
+    "./actions/ACT-20260818-004.md",
+    "./actions/ACT-20260819-003.md",
+    "./actions/ACT-20260819-010.md",
+    "./actions/ACT-20260819-011.md",
+    "./actions/ACT-20260816-003.md",
+    "./actions/ACT-20260816-002.md",
+    "./actions/ACT-20260816-004.md",
+    "./actions/ACT-20260816-005.md"
+   ]
+  },
+  "INIT-20260820-004": {
+   "files": 3,
+   "occurrences": 4,
+   "paths": [
+    "./intelligence/INT-20260904-007-cognitive-loop-tbh001-jd-review.md",
+    "./artifacts/jd-project-manager-cyber-security-practice-v2.md",
+    "./artifacts/jd-project-manager-cyber-security-practice.md"
+   ]
+  },
+  "INIT-20260813-010": {
+   "files": 3,
+   "occurrences": 3,
+   "paths": [
+    "./intelligence/INT-20260904-003-product-costing-gap-analysis.md",
+    "./artifacts/vorondrq-gtm-resource-requirements.md",
+    "./indexes/initiative-index.md"
+   ]
+  },
+  "AIP-20260822-001": {
+   "files": 6,
+   "occurrences": 8,
+   "paths": [
+    "./artifacts/AIP-20260823-001.md",
+    "./artifacts/ESF-20260822-001-VoronCitadel-GTM.md",
+    "./artifacts/ART-20260822-002-Funnel-Reconciliation-One-Pager.md",
+    "./artifacts/AIP-20260822-001-VoronCitadel-GTM.md",
+    "./artifacts/AIP-20260829-001-Fuad-Capacity-Architecture.md",
+    "./engagements/CONV-20260822-003.md"
+   ]
+  },
+  "INIT-20260813-009": {
+   "files": 2,
+   "occurrences": 2,
+   "paths": [
+    "./artifacts/vorondrq-gtm-internal-communications-plan.md",
+    "./indexes/initiative-index.md"
+   ]
+  },
+  "AIP-20260829-001": {
+   "files": 17,
+   "occurrences": 35,
+   "paths": [
+    "./intelligence/INT-20260904-002-syahir-assignment-inventory.md",
+    "./intelligence/INT-20260829-004-hadri-role-restructure-cognitive-loop.md",
+    "./intelligence/INT-20260829-003-hadri-cognitive-loop-analysis.md",
+    "./artifacts/TECH-EXEC-2FTE-CAPACITY-MAP-20260829.md",
+    "./artifacts/ART-20260904-002-activation-meeting-briefing-pack.md",
+    "./artifacts/AIP-20260829-002-Exec-Discipline-and-Session-Integrity.md",
+    "./artifacts/ESF-20260829-002-Fuad-Practice-Technical-Authority.md",
+    "./artifacts/AIP-20260829-001-Fuad-Capacity-Architecture.md",
+    "./profiles/HADRI-COMPREHENSIVE-PROFILE-20260829.md",
+    "./indexes/decision-index.md",
+    "./decisions/DEC-20260829-003-hadri-coo-focus-hoe-deferred.md",
+    "./decisions/DEC-20260905-001.md",
+    "./actions/ACT-20260829-002.md",
+    "./actions/ACT-20260905-001.md",
+    "./actions/ACT-20260905-002.md",
+    "./actions/ACT-20260811-007.md",
+    "./actions/ACT-20260820-006.md"
+   ]
+  }
+ }
+}

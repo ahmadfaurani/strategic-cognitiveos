@@ -1,0 +1,217 @@
+[
+ {
+  "type": "briefing",
+  "id": "EXEC-PLAN-20260811",
+  "path": "briefings/EXEC-PLAN-20260811.md"
+ },
+ {
+  "type": "briefing",
+  "id": "EXEC-BOTTLENECK-20260811",
+  "path": "briefings/EXEC-BOTTLENECK-20260811.md"
+ },
+ {
+  "type": "commitment",
+  "id": "CONV-20260818-006",
+  "path": "commitments/COM-20260818-001.md"
+ },
+ {
+  "type": "document",
+  "id": "SEG-20260818-001",
+  "path": "documents/SEG-20260818-001-193-org-segmentation-framework.md"
+ },
+ {
+  "type": "draft",
+  "id": "MCMC-COST-DELTA-BRIEF-20260908-001",
+  "path": "drafts/MCMC-COST-DELTA-BRIEF-20260908-001.md"
+ },
+ {
+  "type": "draft",
+  "id": "ART-P0-TAX-04-REVIEW-PACKET-001",
+  "path": "drafts/ART-P0-TAX-04-REVIEW-PACKET-001.md"
+ },
+ {
+  "type": "draft",
+  "id": "EMAIL-DRAFT-20260817-001",
+  "path": "drafts/EMAIL-DRAFT-20260817-001.md"
+ },
+ {
+  "type": "draft",
+  "id": "RSVPT-20260908-001",
+  "path": "drafts/RSVP-DRAFT-20260908-001-mcmc-risik.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260831T0131-001",
+  "path": "intelligence/cron-output/cj2-pqc-monitor-2026-08-31T0131.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260824-CSCDC-03",
+  "path": "intelligence/cron-output/cj3-infra-watch-20260824-0138.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260818-CSCDC-05-001",
+  "path": "intelligence/cron-output/cj5-cyber-drill-2026-08-18_1024.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260907T0126-001",
+  "path": "intelligence/cron-output/cj2-pqc-monitor-2026-09-07T0126.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260824-CSCDC-06",
+  "path": "intelligence/cron-output/cscdc06-programme-2026-08-24T0213+08.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260824T0130-001",
+  "path": "intelligence/cron-output/cj2-pqc-monitor-2026-08-24T0130.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260907-001-CSCDC-04",
+  "path": "intelligence/cron-output/INT-20260907-001-cscdc-04-campaign-watch.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260831-CSCDC-06",
+  "path": "intelligence/cron-output/cscdc06-programme-2026-08-31T0203+08.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260907-CSCDC-05-001",
+  "path": "intelligence/cron-output/INT-20260907-CSCDC-05-001-cyber-drill-crisis-protocol.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260831-001-CSCDC-04",
+  "path": "intelligence/cron-output/INT-20260831-001-cscdc-04-campaign-watch.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260818-CSCDC-06",
+  "path": "intelligence/cron-output/cscdc06-programme-2026-08-18T1026+08.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260824-CSCDC-05-001",
+  "path": "intelligence/cron-output/INT-20260824-CSCDC-05-001-cyber-drill-crisis-protocol.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260831-CSCDC-05-001",
+  "path": "intelligence/cron-output/INT-20260831-CSCDC-05-001-cyber-drill-crisis-protocol.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260818-CSCDC-04-001",
+  "path": "intelligence/cron-output/cj4-campaign-watch-2026-08-18T1008.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260824-CSCDC-04-001",
+  "path": "intelligence/cron-output/INT-20260824-001-cscdc-04-campaign-watch.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260818-CSCDC-03",
+  "path": "intelligence/cron-output/cj3-infra-watch-20260818-1001.md"
+ },
+ {
+  "type": "intelligence",
+  "id": "INT-20260818T0953-001",
+  "path": "intelligence/cron-output/cj2-pqc-monitor-2026-08-18T0953.md"
+ },
+ {
+  "type": "artifact",
+  "id": "AIP-20260823-001",
+  "path": "artifacts/AIP-20260823-001.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-005",
+  "path": "artifacts/jd-poc-engineer.md"
+ },
+ {
+  "type": "artifact",
+  "id": "ESF-20260822-001",
+  "path": "artifacts/ESF-20260822-001-VoronCitadel-GTM.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-002",
+  "path": "artifacts/jd-account-owner.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-007",
+  "path": "artifacts/vorondrq-gtm-crm-recommendation.md"
+ },
+ {
+  "type": "artifact",
+  "id": "AIP-20260829-002",
+  "path": "artifacts/AIP-20260829-002-Exec-Discipline-and-Session-Integrity.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-004",
+  "path": "artifacts/jd-marketing-operations-specialist.md"
+ },
+ {
+  "type": "artifact",
+  "id": "ESF-20260829-001",
+  "path": "artifacts/ESF-20260829-001-DAF-Strategic-Leader-Profile.md"
+ },
+ {
+  "type": "artifact",
+  "id": "ESF-20260829-002",
+  "path": "artifacts/ESF-20260829-002-Fuad-Practice-Technical-Authority.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-001",
+  "path": "artifacts/VORONCRM-v1-execution-plan.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-008",
+  "path": "artifacts/vorondrq-gtm-executive-summary.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-003",
+  "path": "artifacts/jd-gtm-delivery-owner.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-006",
+  "path": "artifacts/vorondrq-gtm-crm-bootstrap-checklist.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260820-004",
+  "path": "artifacts/jd-project-manager-cyber-security-practice.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-010",
+  "path": "artifacts/vorondrq-gtm-resource-requirements.md"
+ },
+ {
+  "type": "artifact",
+  "id": "AIP-20260822-001",
+  "path": "artifacts/AIP-20260822-001-VoronCitadel-GTM.md"
+ },
+ {
+  "type": "artifact",
+  "id": "INIT-20260813-009",
+  "path": "artifacts/vorondrq-gtm-internal-communications-plan.md"
+ },
+ {
+  "type": "artifact",
+  "id": "AIP-20260829-001",
+  "path": "artifacts/AIP-20260829-001-Fuad-Capacity-Architecture.md"
+ }
+]
