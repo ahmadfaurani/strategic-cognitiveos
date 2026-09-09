@@ -21,8 +21,8 @@ source:
 summary: Initial delivery-readiness framing for VoronCitadel using a five-concurrent-POC stress test. Defines delivery readiness as a repeatable organisational capability, separates the standard VoronCitadel POC delivery model from Bursa-specific sector-leader extensions, and establishes Bursa as a reference customer rather than the default delivery template.
 strategic_significance: Commercial readiness is no longer the primary constraint. The practice now needs a repeatable delivery system capable of executing multiple POCs consistently without heroics or allowing a complex sector-level use case to distort the core product and delivery model.
 mission_alignment:
-- cybersecurity-productisation
 - organisational-capability
+- domain/cybersecurity-productisation
 related_records:
 - ASSESS-20260825-001
 - INIT-20260824-001

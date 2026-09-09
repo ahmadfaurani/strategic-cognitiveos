@@ -24,10 +24,10 @@ tags:
 - sector/critical-infrastructure
 - sector/government
 mission_alignment:
+- institutional-partnerships
 - national-cybersecurity
 - sovereign-ai
 - strategic-communications
-- institutional-partnerships
 evidence:
 - 'CSCDC Framework v2.0, Page 4: PQC Sandbox mentioned as national priority for post-quantum
   cryptography readiness'

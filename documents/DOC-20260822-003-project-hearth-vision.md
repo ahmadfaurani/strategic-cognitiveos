@@ -24,11 +24,11 @@ source:
 summary: "Stakeholder-facing vision document for Project Hearth. Defines the category of sovereign cognitive infrastructure, articulates the problem it solves, presents the four-phase roadmap, and positions Malaysia as the origin point for a new approach to institutional cognition. Intended for briefing strategic partners, government stakeholders, and internal leadership."
 strategic_significance: "The narrative document that transforms Project Hearth from an internal initiative into a shareable strategic proposition. This is the document DAF carries into rooms — with Farul, with CSM, with government stakeholders — to build alignment around a category-defining vision."
 mission_alignment:
-- sovereign-ai
-- cybersecurity-productisation
-- commercial-operations
-- government-partnerships
 - organisational-capability
+- sovereign-ai
+- domain/commercial-operations
+- domain/cybersecurity-productisation
+- domain/government-partnerships
 related_records:
 - INIT-20260822-001
 - DEC-20260820-007

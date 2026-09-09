@@ -30,10 +30,10 @@ source:
 summary: "DAF issued 3 structural decisions (DEC-002/003/004) redefining Hadri's role, deferring HoE, and reassigning chain:SENTRY engineering to Syahir. Then refined: Centralised Product Repository owner → Hadri with Sep 28 deadline + marketing coordination. Syahir management chain clarified: DAF strategic, Hadri operational, Fuad tactical."
 strategic_significance: "First genuine structural redistribution of the practice. Resolves Hadri role clarity, eliminates HoE dual-role risk, assigns chain:SENTRY engineering to available capacity. Introduces Syahir capacity risk."
 mission_alignment:
-  - organisational-capability-building
-  - cybersecurity-productisation
-  - csm-partnership
-  - cyberdsa-2026
+- domain/csm-partnership
+- domain/cybersecurity-productisation
+- domain/organisational-capability
+- related_initiative/INIT-20260810-003
 related_records:
   - DEC-20260829-002
   - DEC-20260829-003

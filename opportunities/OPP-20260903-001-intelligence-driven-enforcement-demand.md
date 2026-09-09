@@ -27,11 +27,11 @@ source:
 summary: "PDRM CID Director CP Datuk M. Kumar publicly articulated demand for intelligence-driven, result-based enforcement at MAPO Bil. 1/2026. This creates a potential demand space for analytical/intelligence capability products (VoronDRQ, ChainSentry) and inter-agency coordination platforms within the KDN enforcement ecosystem. Opportunity is at monitor stage — no direct engagement, no procurement signal, no budget visibility. Institutional adjacency via existing NACSA/JDN relationships (Workstream C) provides potential pathway."
 strategic_significance: "Public capability demand signal from senior enforcement leadership. KDN ecosystem adjacency to existing Workstream C partnerships. Potential positioning for VoronDRQ/ChainSentry capabilities. Monitor track — requires pattern confirmation and pathway assessment before any engagement."
 mission_alignment:
-- intelligence-enablement
-- government-partnerships
-- commercial-development
 - institutional-partnerships
+- intelligence-enablement
 - productisation
+- domain/commercial-development
+- domain/government-partnerships
 related_records:
 - INT-20260903-001
 - DOC-20260903-001

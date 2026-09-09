@@ -29,11 +29,11 @@ source:
 summary: "Defines the overall stakeholder engagement objective for Wan Roshaimi across 5 strategic layers: (1) Immediate — CyberDSA Gate 4 technical validation, (2) CyberDSA endgame — co-branding credibility, (3) Post-CyberDSA — technical partnership architecture across 4 CSM joint tracks, (4) CSCDC transition — infrastructure positioning, (5) Long-term — national technical leadership relationship. Positions Wan Roshaimi as technical anchor of durable CSM × Aras partnership, not a single-ask Gate 4 checkpoint."
 strategic_significance: "Reframes Wan Roshaimi engagement from bounded Gate 4 validation to multi-layer strategic relationship architecture. Critical for: (a) making co-branding technically defensible, (b) positioning Aras within CSCDC transition infrastructure roadmap, (c) establishing durable technical partnership across responsive/proactive/pre-emptive CSM CTO scope. Identifies 4 active CSM joint tracks requiring CTO-level validation, 3 CSM CTO scope dimensions mapping to Aras products, and 2 engagement risks (under-engagement, over-engagement)."
 mission_alignment:
-  - sovereign-capability
-  - csm-aras-partnership
-  - cyberdsa-2026
-  - emerging-technology-security
-  - technical-integration
+- domain/csm-aras-partnership
+- domain/emerging-technology-security
+- domain/sovereign-capability
+- capability/technical-integration
+- related_initiative/INIT-20260810-003
 related_records:
   - STK-20260812-001
   - DEC-20260821-006

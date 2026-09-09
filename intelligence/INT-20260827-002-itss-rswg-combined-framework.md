@@ -25,9 +25,9 @@ source:
 summary: "The ITSS (Directive 5.05-001) is the EXISTING binding standard — 12 domains, 200+ requirements, all 30 POs must already comply. The RSWG paper is the NEW enhancement layer with 9 additional/upgraded control domains. Together they form a two-layer compliance framework: ITSS = floor, RSWG = ceiling. VoronCitadel must position against BOTH layers. Key finding: ITSS §10 Supplier Management is the existing TPRM precursor — VoronCitadel's TPRM module addresses this domain directly, meaning VoronCitadel helps brokers meet EXISTING compliance, not just new RSWG requirements. This doubles the value proposition: VoronCitadel addresses both current obligations (ITSS) and future requirements (RSWG). The ITSS is also likely the source of the '61 Bursa Cybersecurity Controls' already in VoronCitadel's production database (INT-20260821-002), providing a direct lineage from existing platform capability to regulatory compliance."
 strategic_significance: "Transforms VoronCitadel's value proposition from 'prepare for upcoming RSWG compliance' to 'address current ITSS compliance AND prepare for RSWG enhancement.' The ITSS is already binding — brokers already need TPRM (§10), incident management (§11), and BCM (§12). VoronCitadel doesn't just address future requirements; it addresses current ones. This eliminates the 'we'll wait for RSWG to be formalized' objection."
 mission_alignment:
-- productisation
 - commercial-growth
 - national-cybersecurity
+- productisation
 related_initiatives:
 - INIT-20260824-001
 - INIT-20260804-001

@@ -25,9 +25,9 @@ source:
 summary: "[FACT] Thread spans Aug 4 (Kenny requests database access; DAF discloses 193-org database provenance: month-long agent-driven scraping, v6) → Aug 7–11 (two-track operating model agreed: lighthouse ABM via Sales+Practice vs broader WIG-led outreach; Norshaza raises Marketing capacity concern on 1,300-contact scale) → Aug 21 (DAF layer feedback: L1 support + dedicated-FTE ask, L2 ROI skepticism + departmental-cost question, L3 full support; DAF success matrix 1,300×20%→260→30%→78 meetings→23 POC→7 sales→RM1.176M) → Sep 2 (Said Farid delivers GTM_VoronCitadel_Marketing_Execution_Plan deck) → Sep 8 (DAF endorses plan as MQL-generation engine; calls working session Tue 15 Sep 3PM MYT Bunga Raya; calendar invite sent). Parallel CSM chain in same thread: Jun 19 mobilization outline → Jun 24 Hadri requests CSM 12-month event calendar → Jul 2 DAF supports request, offers focal-person alternative → no CSM response recorded through end of thread."
 strategic_significance: "[FACT] Converts VoronCitadel GTM from conceptual alignment (Aug 11 two-track agreement) into a scheduled operational lock-in (Sep 15). The session is where the 78-MQL model gets its governing arithmetic — plan model (413×19%) vs DAF Aug-21 matrix (1,300×20%→260×30%) reach 78 by different bases; enrichment expansion is the reconciliation lever. [INFERENCE, MEDIUM] The unanswered CSM event-calendar chain (Jun 24→Jul 2→silence) now materially gates plan dependency #4 (CSM LOI, Sep 30) — the LOI is a CSM signature, and the same CSM coordination track has been silent on calendar matters for 2.5+ months. [INFERENCE, MEDIUM] Norshaza's Aug 11 capacity concern is the WIG-side mirror of DAF's no-new-scope discipline (DEC-20260908-001) — both sides enter Sep 15 constrained, which raises the stakes on the enrichment-outreach tooling choices over headcount."
 mission_alignment:
-  - commercial-growth
-  - productisation
-  - institutional-partnerships
+- commercial-growth
+- institutional-partnerships
+- productisation
 related_records:
   - EVT-20260908-001
   - COM-20260908-002

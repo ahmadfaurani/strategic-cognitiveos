@@ -28,8 +28,8 @@ source:
 summary: "Bursa Malaysia's RSWG Recommendation Paper mandates cybersecurity controls across 30 brokers with Dec 31, 2026 compliance deadline. This creates a regulatory-driven commercial pipeline for VoronCitadel: 11 Group 1 brokers (platform integration target), 13 Group 2 brokers (full compliance platform target — sweet spot), 6 Group 3 brokers (local compliance adaptation). VoronCitadel's TPRM module directly addresses §2.6. Broader control set (24/7 SOC, SIEM, compromise assessments, incident response) creates managed services demand beyond per-broker deployment. CISO mandate (§2.9) creates internal buyer in each organization."
 strategic_significance: "Regulatory mandate converts VoronCitadel from strategic enhancement to compliance necessity. 30-broker addressable market with clear deadline urgency. First mover advantage significant — brokers must select platforms before Dec 2026. Bursa POC (INIT-20260824-001) becomes the reference case that opens the pipeline."
 mission_alignment:
-- productisation
 - commercial-growth
+- productisation
 related_records:
 - DOC-20260827-001
 - INT-20260827-001

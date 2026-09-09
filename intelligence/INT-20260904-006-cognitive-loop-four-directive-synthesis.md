@@ -27,12 +27,12 @@ source:
 summary: "Cognitive Loop synthesis of four discovery directives executed Sep 4 2026. Cross-cutting analysis reveals: (1) costing vacuum blocks all commercialisation, (2) zombie governance — 3/5 programmes past kill dates with zero enforcement, (3) Syahir capacity collision imminent, (4) 77-person activation has no tracker and no defined target list, (5) shadow programme operating outside Portfolio Register. Net assessment: the practice has structural decisions but lacks the execution discipline to convert them into outcomes. The binding constraint is no longer decision — it is mobilisation."
 strategic_significance: "This is the first cross-directive synthesis since the Aug 29 role restructure. It tests whether the practice can move from decisions to execution across four simultaneous workstreams. The answer: not yet. Every directive reveals the same pattern — assignments exist, execution does not."
 mission_alignment:
-  - cybersecurity-productisation
-  - organisational-capability-building
-  - csm-partnership
-  - cyberdsa-2026
-  - commercial-development
-  - sovereign-ai
+- sovereign-ai
+- domain/commercial-development
+- domain/csm-partnership
+- domain/cybersecurity-productisation
+- domain/organisational-capability
+- related_initiative/INIT-20260810-003
 related_records:
   - INT-20260904-002
   - INT-20260904-003

@@ -24,9 +24,9 @@ source:
 summary: "Maps all committed technical deliverables against 2 FTE (Fuad + Syahir) from Sep 2026 to Jan 2027. 5 phases, 7 handover items, 3 feasibility conditions."
 strategic_significance: "The 2 FTE capacity map is the operational view of the Technical Execution Unit through January 2027. It defines what gets done, by whom, and what must NOT be added."
 mission_alignment:
-  - cybersecurity-productisation
-  - cyberdsa-2026
-  - organisational-capability-building
+- domain/cybersecurity-productisation
+- domain/organisational-capability
+- related_initiative/INIT-20260810-003
 related_records:
   - AIP-20260829-001
   - ESF-20260829-002

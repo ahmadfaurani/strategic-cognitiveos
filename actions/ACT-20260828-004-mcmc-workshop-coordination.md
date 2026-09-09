@@ -29,9 +29,9 @@ source:
 summary: "DAF has formally proposed the MCMC AI Capability Development Workshop as a structured working session. Aravind asked to identify how best to coordinate the workshop and relevant technical stakeholders from MCMC side. Workshop has 5 objectives: (1) establish baseline, (2) identify gaps, (3) review telemetry/architecture, (4) explore AI enhancements, (5) prioritise roadmap + POC. Workshop agenda artifact already exists (MCMC-AI-Capability-Development-Workshop-Agenda-v1.docx)."
 strategic_significance: "Workshop is the primary engagement vehicle for MCMC capability development. Converts fact-finding into structured joint assessment. Creates pathway to POC. Workshop agenda already drafted — needs MCMC confirmation of participants, date, and format."
 mission_alignment:
-  - sovereign-ai
-  - government-ai-adoption
-  - institutional-partnerships
+- government-ai-adoption
+- institutional-partnerships
+- sovereign-ai
 related_records:
   - CONV-20260828-002
   - INIT-20260826-001

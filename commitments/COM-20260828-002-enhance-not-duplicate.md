@@ -22,9 +22,9 @@ source:
 summary: "DAF explicitly commits that the engagement intention is to build upon and enhance what MCMC already has, rather than duplicate existing capability, while identifying where new AI-enabled capabilities can provide meaningful operational value. This positioning is stated in the email as the guiding principle for the engagement."
 strategic_significance: "Establishes the engagement's core positioning: enhancement, not replacement. This is both a relationship-building commitment (reassures MCMC) and a strategic constraint (Aras must understand existing capability before proposing new). Reduces risk of MCMC perceiving Aras as threatening existing systems/processes."
 mission_alignment:
-  - sovereign-ai
-  - government-ai-adoption
-  - institutional-partnerships
+- government-ai-adoption
+- institutional-partnerships
+- sovereign-ai
 related_records:
   - CONV-20260828-002
   - INIT-20260826-001

@@ -31,8 +31,8 @@ confirmed_at: "2026-08-27T03:23:00+00:00"
 summary: "DAF directs that the Bursa POC document focus on ITSS Clause 10.0 Supplier Management — the existing binding standard — rather than RSWG §2.6 (which is a recommendation layer). ITSS §10 is already mandatory for all 30 POs. VoronCitadel's TPRM module directly addresses §10. The POC positions as 'address current ITSS §10 compliance' with RSWG §2.6 as the forward-looking enhancement path. This eliminates the 'we'll wait for RSWG formalization' sales objection and grounds the POC in existing regulatory obligation."
 strategic_significance: "Anchors the POC in existing binding compliance (ITSS §10) rather than future recommendations (RSWG §2.6). Brokers cannot defer — they must comply with ITSS today. VoronCitadel becomes the answer to an existing obligation, not a preparation for a future one."
 mission_alignment:
-- productisation
 - commercial-growth
+- productisation
 related_records:
 - ACT-20260827-002
 - ACT-20260827-003

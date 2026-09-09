@@ -24,8 +24,8 @@ tags:
 - sector/government
 mission_alignment:
 - national-cybersecurity
-- strategic-communications
 - sovereign-ai
+- strategic-communications
 evidence:
 - 'CSCDC Framework v2.0, Sector 4: RM 500,000 for National Anti-Deepfake & AI Scams
   Campaign'

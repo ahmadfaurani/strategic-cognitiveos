@@ -25,9 +25,9 @@ source:
 summary: "Tuan Aravind is the MCMC contact for social media intelligence capability alignment. Met DAF on Aug 28, 2026. Recipient of DAF's formal follow-up requesting telemetry data schema visibility and proposing AI Capability Development Workshop. Role within MCMC is TBD — likely technical/operational related to social media intelligence."
 strategic_significance: "Primary MCMC point of contact for the AI capability development track (INIT-20260826-001). Gatekeeper for MCMC's telemetry data visibility and workshop coordination. Relationship status: new but warm (DAF met him in person, expressed genuine appreciation)."
 mission_alignment:
-  - sovereign-ai
-  - government-ai-adoption
-  - institutional-partnerships
+- government-ai-adoption
+- institutional-partnerships
+- sovereign-ai
 related_records:
   - CONV-20260828-002
   - INIT-20260826-001

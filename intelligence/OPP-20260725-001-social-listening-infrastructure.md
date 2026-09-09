@@ -22,9 +22,9 @@ tags:
 - outcome/evidence-confirmed
 - sector/government
 mission_alignment:
+- commercial-growth
 - national-cybersecurity
 - strategic-communications
-- commercial-growth
 evidence:
 - 'CSCDC Framework v2.0, Sector 2: RM 120,000 allocated for enterprise social listening
   (Meltwater/Brand24/CARMA)'

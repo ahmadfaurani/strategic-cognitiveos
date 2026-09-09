@@ -27,9 +27,9 @@ source:
 summary: "Dedicated risk register for the VoronCitadel × Bursa Malaysia POC. Covers strategic, operational, technical, commercial, and compliance risks specific to the Bursa engagement. Synthesizes existing risk records and identifies POC-specific risks not yet tracked."
 strategic_significance: "Bursa POC is the gating factor for first-mover advantage in the 30-broker RSWG compliance pipeline. POC success or failure determines reference case establishment and competitive positioning."
 mission_alignment:
-  - cybersecurity-productisation
-  - commercial-growth
-  - csm-partnership
+- commercial-growth
+- domain/csm-partnership
+- domain/cybersecurity-productisation
 related_records:
   - INT-20260821-002
   - RSK-20260820-008

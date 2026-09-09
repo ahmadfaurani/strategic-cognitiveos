@@ -35,10 +35,10 @@ related_records:
 - DEC-20260815-004
 strategic_significance: Replaces one-to-one CSM relationship model with multi-layer four-tier coverage architecture. Directly addresses DAF SPOF risk (45% of CyberDSA criteria) by distributing relationship ownership across 9 Aras stakeholders. Defines communication ownership, engagement flow, and readiness metrics for CyberDSA product launch.
 mission_alignment:
-- cybersecurity
-- stakeholder-engagement
-- commercial-development
 - organisational-capability
+- domain/commercial-development
+- domain/cybersecurity
+- capability/stakeholder-engagement
 evidence:
 - 'Document: CSM_Aras_Stakeholder_Coverage_and_Communication_Ownership_Plan.docx (13 Aug 2026)'
 - 10 CSM stakeholders with named Aras coverage

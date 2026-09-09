@@ -25,10 +25,10 @@ source:
 summary: "Cognitive Loop analysis of DAF's three structural decisions on Hadri's role. The decisions resolve the role clarity gap and redistribute engineering ownership — but introduce a new capacity risk in Syahir and leave the HoE structural gap unresolved through January 2027. Net assessment: positive, with two new risks to manage."
 strategic_significance: "These decisions are the first structural redistribution of technical ownership since the practice was formed. They test whether the practice can distribute execution without losing coherence — the core transition DAF's strategic pathway requires."
 mission_alignment:
-  - cybersecurity-productisation
-  - organisational-capability-building
-  - csm-partnership
-  - cyberdsa-2026
+- domain/csm-partnership
+- domain/cybersecurity-productisation
+- domain/organisational-capability
+- related_initiative/INIT-20260810-003
 related_records:
   - DEC-20260829-002
   - DEC-20260829-003

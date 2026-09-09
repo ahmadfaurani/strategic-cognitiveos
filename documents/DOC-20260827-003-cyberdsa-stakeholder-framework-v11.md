@@ -27,10 +27,10 @@ source:
 summary: "Updated V1.1 of the CyberDSA 2026 Executive Stakeholder Engagement and Activation Framework. Key change — dependency chain reordered from Azrul to Zulfeka to Bala to Wan Roshaimi to Zaharudin to Dr. Megat (V1.0) to Azrul to Zulfeka to Zaharudin to Wan Roshaimi to Bala to Dr. Megat (V1.1). Operational coordination now precedes technical validation; marketing/media now follows technical validation. Adds engagement meeting design, executive engagement brief template, and restructured immediate action register. Supersedes DOC-20260819-001 (V1.0)."
 strategic_significance: "The reordered dependency chain is a significant strategic improvement — operating conditions are defined before technical validation (validate against real context, not in vacuum), and marketing activation follows technical clearance (no premature claims). Aligns with Wan Roshaimi protocol v1.2 (integration-backed candidate, not jointly built). Adds structured meeting design discipline and brief template for repeatable stakeholder engagements."
 mission_alignment:
-  - sovereign-capability
-  - csm-aras-partnership
-  - cyberdsa-2026
-  - nacsa-alignment
+- domain/csm-aras-partnership
+- domain/nacsa-alignment
+- domain/sovereign-capability
+- related_initiative/INIT-20260810-003
 related_records:
   - DOC-20260819-001
   - DEC-20260827-002

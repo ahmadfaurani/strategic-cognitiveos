@@ -22,8 +22,8 @@ source:
 summary: "DAF explicitly commits to aligning on NDA principles at the working level with Azrul/CSM before routing the document to respective legal teams. This sequencing ensures commercial and IP terms are mutually acceptable before legal drafting costs are incurred."
 strategic_significance: "Prevents premature legal engagement on terms that may not be commercially aligned. Saves time and legal costs by resolving commercial terms first."
 mission_alignment:
-  - csm-partnership
-  - commercial-strategy
+- domain/commercial-strategy
+- domain/csm-partnership
 related_records:
   - CONV-20260828-001
   - DEC-20260828-001

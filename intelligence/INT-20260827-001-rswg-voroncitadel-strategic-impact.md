@@ -25,9 +25,9 @@ source:
 summary: "Bursa Malaysia's RSWG Recommendation Paper (L1 source) establishes mandatory cybersecurity controls across 30 brokers with a Dec 31, 2026 compliance deadline. This creates a regulatory-driven commercial market for VoronCitadel's TPRM, GRC, and security operations capabilities. The paper's §2.6 (Oversight of Technology Service Providers) directly maps to VoronCitadel's TPRM-first POC approach, validating the product strategy. 24/7 SOC, SIEM/UEBA, compromise assessments, AASE, and CISO requirements exceed internal capability for most brokers — particularly Group 2 (13 brokers) and Group 3 (6 brokers) — creating outsourcing/platform demand. The April 2025 cyber incident that triggered RSWG is the same attack surface VoronCitadel addresses (unauthorized access through PO systems)."
 strategic_significance: "This is the strongest regulatory tailwind for VoronCitadel to date. A L1 source (Bursa Malaysia official) has mandated exactly the capabilities VoronCitadel provides, on a timeline that creates immediate commercial urgency. The Bursa POC (INIT-20260824-001) gains significant strategic leverage — VoronCitadel is not just a nice-to-have, it is directly aligned with what Bursa itself is requiring of its brokers. The POC document must be updated to explicitly reference RSWG alignment."
 mission_alignment:
-- productisation
 - commercial-growth
 - national-cybersecurity
+- productisation
 related_initiatives:
 - INIT-20260824-001
 - INIT-20260804-001

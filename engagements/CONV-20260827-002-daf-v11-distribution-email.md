@@ -22,8 +22,8 @@ source:
 summary: "DAF distributed V1.1 framework to Hadri, Amelia (cc Azza) with gate status table. Gates 1 (Azrul) and 2 (Zulfeka) reported DONE. Gates 3 (Zaharudin) and 4 (Wan Roshaimi) marked Pending Actionable Item. Gates 5 (Bala) and 6 (Dr. Megat) not started. DAF target: clear 2 pending items before T-30 (Sep 5). Gate 0 (Roshdi) NOT mentioned in email — status ambiguous."
 strategic_significance: "First confirmed gate status update since V1.1 framework. Gates 1-2 completion unblocks Gates 3-4. T-30 target for clearing Gates 3-4 is aggressive but aligned with Hadri's T-30 engineering document closure. Gate 0 silence is a risk flag — either completed silently or being handled separately."
 mission_alignment:
-  - csm-aras-partnership
-  - cyberdsa-2026
+- domain/csm-aras-partnership
+- related_initiative/INIT-20260810-003
 conversation_type: email_outbound
 participants:
   - faurani-jaafar (sender)

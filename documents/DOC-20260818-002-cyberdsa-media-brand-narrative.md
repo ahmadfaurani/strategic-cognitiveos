@@ -38,9 +38,9 @@ strategic_significance: Defines the overarching media and communications framewo
   Directly addresses RSK-20260816-003 (claim credibility) by providing messaging guardrails.
   Enables all downstream branding, PR, and stakeholder communications.
 mission_alignment:
-- INIT-20260810-003
-- INIT-20260811-001
-- INIT-20260813-006
+- related_initiative/INIT-20260810-003
+- related_initiative/INIT-20260811-001
+- related_initiative/INIT-20260813-006
 related_records:
 - DEC-20260816-002
 - DEC-20260818-011

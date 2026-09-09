@@ -14,9 +14,9 @@ confidence: high
 summary: "Full 8-step Cognitive Loop applied to CyberDSA Stakeholder Activation Framework V1.1 at T-32 (Aug 31). Assesses gate progression, identifies the engineering document closure chain as the critical path blocking Gates 3-4, maps 4 bottleneck patterns, and produces 3 prioritised actions targeting the T-30 deadline (Sep 5). Key finding: the T-35 gates (ACT-004/005) are due TODAY with no completion evidence — the chain is already slipping."
 strategic_significance: "This loop connects the stakeholder activation framework (DOC-20260827-003) to the engineering document closure chain (ACT-004 through 008) — they are the SAME critical path. Zaharudin's Gate 3 cannot close without the engineering document being baselined. The framework and the engineering closure are not parallel workstreams; they are sequential dependencies that have been tracked separately."
 mission_alignment:
-  - csm-aras-partnership
-  - cyberdsa-2026
-  - cybersecurity-productisation
+- domain/csm-aras-partnership
+- domain/cybersecurity-productisation
+- related_initiative/INIT-20260810-003
 evidence:
   - 'CONV-20260827-002: DAF V1.1 distribution email with gate status table'
   - 'DOC-20260827-003: V1.1 Framework full text'

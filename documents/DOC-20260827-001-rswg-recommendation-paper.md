@@ -27,9 +27,9 @@ source:
 summary: "Bursa Malaysia's official Recommendation Paper from the Regulatory and Security Controls Working Group (RSWG), convened June 20, 2025 in response to the April 24, 2025 cyber incident involving unauthorized access and trades through Participating Organisations' systems. Establishes 9 cybersecurity control domains for all Brokers (POs and TPs) with a risk-based 3-group classification framework. Controls cover: (1) Security Access Controls, (2) Threat Detection & Protection, (3) Patch Management, (4) Infrastructure & Operation Resilience, (5) Recovery Planning, (6) Oversight of Technology Service Providers, (7) Incident Management, (8) Training and Awareness, (9) Dedicated Cybersecurity Role (CISO). Compliance timeline: 3 months for people/process/governance items (Recovery Planning + Incident Management), Dec 31, 2026 for system changes. Aligns with GTRM (Securities Commission) and RMiT (BNM) — more stringent applies where overlapping. 30 brokers classified across 3 groups (11 Group 1, 13 Group 2, 6 Group 3)."
 strategic_significance: "Directly material to VoronCitadel POC (INIT-20260824-001) and broader cybersecurity productisation strategy. Creates a regulatory-driven compliance market across 30 Malaysian brokers. VoronCitadel's TPRM-first approach directly addresses §2.6 (Oversight of Technology Service Providers). The CISO mandate (§2.9) creates internal champions for cybersecurity spending. 24/7 SOC, SIEM, XDR, compromise assessment, and AASE requirements exceed internal capability for most brokers → outsourcing/commercial opportunity. Document is L1 (Official/System-of-Record) from Bursa Malaysia."
 mission_alignment:
-- productisation
 - commercial-growth
 - national-cybersecurity
+- productisation
 related_records:
 - INIT-20260824-001
 - OPP-20260820-001

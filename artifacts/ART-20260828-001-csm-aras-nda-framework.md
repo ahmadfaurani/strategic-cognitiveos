@@ -25,9 +25,9 @@ source:
 summary: "Working NDA Framework document prepared by DAF for CSM review. Establishes confidentiality, data protection, and IP boundaries for the Bursa Malaysia OMS × VoronCitadel GRC Platform POC. Contains 11 key principles covering confidentiality, no marketing/publicity, PDPA compliance, Foreground IP (Bursa ownership), Background IP (Aras ownership), CSM usage and Bursa sublicensing rights, mandatory Background IP disclosure, restriction on reuse of Bursa/CSM-derived information, IP warranty and indemnity, and subsequent Service Agreement pathway. Attached to email as working document for alignment."
 strategic_significance: "First formal legal instrument in the Bursa POC engagement. Pre-positions IP boundaries and confidentiality protections before technical discovery. Framework designed to enable controlled information exchange while protecting all three parties' interests (Aras Background IP, Bursa Foreground IP, CSM sublicensing rights)."
 mission_alignment:
-  - csm-partnership
-  - commercial-strategy
-  - cybersecurity-productisation
+- domain/commercial-strategy
+- domain/csm-partnership
+- domain/cybersecurity-productisation
 related_records:
   - CONV-20260828-001
   - INIT-20260824-001

@@ -24,9 +24,9 @@ summary: Comprehensive 8-page workshop agenda for PERJASA Government AI Systems 
 strategic_significance: Primary deliverable for INIT-20260813-001 (PERJASA × Aras
   Government AI Co-Design Lab). Gates all workshop logistics and participant preparation.
 mission_alignment:
-- INIT-20260813-001
-- INIT-20260725-001
-- COM-20260813-001
+- related_initiative/COM-20260813-001
+- related_initiative/INIT-20260725-001
+- related_initiative/INIT-20260813-001
 related_records:
 - INIT-20260813-001
 - ACT-20260813-001

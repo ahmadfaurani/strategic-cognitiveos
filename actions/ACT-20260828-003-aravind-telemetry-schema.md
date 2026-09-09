@@ -26,8 +26,8 @@ source:
 summary: "DAF has formally requested Aravind to share MCMC's telemetry data schema and data structure. This will enable Aras to develop an analytical overview of MCMC's current-state capability, existing data flows, analytical structure, and potential integration points with broader operational intelligence capabilities within the parent organisation."
 strategic_significance: "Telemetry data visibility is the prerequisite for current-state capability analysis. Without understanding MCMC's existing data schema, Aras cannot identify integration points or propose meaningful AI enhancements. First step in the capability development track."
 mission_alignment:
-  - sovereign-ai
-  - government-ai-adoption
+- government-ai-adoption
+- sovereign-ai
 related_records:
   - CONV-20260828-002
   - INIT-20260826-001

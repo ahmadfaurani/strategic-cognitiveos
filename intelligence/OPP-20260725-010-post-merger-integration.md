@@ -21,9 +21,9 @@ tags:
 - mission/strategic-communications
 - sector/government
 mission_alignment:
+- institutional-partnerships
 - organisational-capability
 - strategic-communications
-- institutional-partnerships
 evidence:
 - 'CSCDC Framework v2.0, Unit 2: Komunikasi Dalaman & Integrasi Budaya — ''Memastikan
   keselarasan pemahaman, penyeragaman mesej, dan penyatuan budaya kerja warga CSCDC

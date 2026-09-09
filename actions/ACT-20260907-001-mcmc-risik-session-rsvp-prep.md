@@ -24,9 +24,9 @@ source:
 summary: "Respond to MCMC's formal invitation (via Prof. Madya Dr. / UiTM channel) confirming attendance for the RISIK Model presentation session on Thu 10 Sep 2026, 15:00-16:00 MYT, MCMC Tower 1 Cyberjaya (or propose alternative date/time). Then consolidate the three presentation pillars: RISIK methodology, Aras Integrasi cooperation structure, RM5.0M cost structure + 12-month implementation plan."
 strategic_significance: "This session is the evaluation gate for the RM5.0M RISIK programme. MCMC's agenda maps directly to existing formalised assets — prep is assembly + rehearsal, not creation. 3-day window makes RSVP urgency critical."
 mission_alignment:
-  - political-intelligence
-  - government-ai-adoption
-  - institutional-partnerships
+- government-ai-adoption
+- institutional-partnerships
+- political-intelligence
 related_records:
   - CONV-20260907-001
   - STK-20260907-001

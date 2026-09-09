@@ -29,12 +29,12 @@ source:
 summary: "Official PDRM CID press release announcing the 1/2026 meeting of the MAPO Enforcement Committee, chaired by CP Datuk M. Kumar A/L S. Muthuvelu (PJSJ Director). 13 agencies/departments attended: KDN/MAPO Secretariat, AG Chambers, APMM, AKPS, Imigresen, Tenaga Kerja (Sarawak/Sabah/Semenanjung), Kastam, PDRM D3/ATIPSOM, and Cawangan Khas Bukit Aman. Key directives: (1) shift from output metrics to result-based enforcement (victim rescue, prosecution, syndicate disruption), (2) intelligence-driven and proactive enforcement, (3) strengthened inter-agency information sharing and strategic cooperation, (4) unified team approach with shared objectives. Meeting held at Kompleks Setia Perkasa, Putrajaya."
 strategic_significance: "Public demand signal for intelligence-driven enforcement capability from senior PDRM enforcement leadership. MAPO operates under KDN — same institutional ecosystem as NACSA, JDN, and existing Workstream C partnerships. The 'result-based' and 'intelligence-driven' framing creates a demand space for analytical/intelligence products (VoronDRQ, ChainSentry) and inter-agency coordination platforms. Not bureaucratic routine — this is a capability demand signal from the enforcement community."
 mission_alignment:
-- intelligence-enablement
-- government-partnerships
-- commercial-development
 - institutional-partnerships
-- productisation
+- intelligence-enablement
 - national-cybersecurity
+- productisation
+- domain/commercial-development
+- domain/government-partnerships
 related_records:
 - INT-20260903-001
 - STK-20260903-001

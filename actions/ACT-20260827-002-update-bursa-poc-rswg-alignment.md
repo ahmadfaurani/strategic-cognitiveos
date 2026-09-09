@@ -24,8 +24,8 @@ source:
 summary: "Update the Bursa POC document (INIT-20260824-001, 20-section draft v0.1) to focus on ITSS §10.0 Supplier Management as the primary compliance hook (DEC-20260827-001). ITSS §10 is already binding under Directive 5.05-001 — brokers must comply today. The POC should: (1) lead with ITSS §10 alignment — map VoronCitadel's TPRM module to §10.1 (Supplier Management policy), §10.2 (Engagement), §10.3 (Agreements), §10.4 (Service Delivery monitoring); (2) reference RSWG §2.6 as the forward-looking enhancement direction; (3) position VoronCitadel as 'ITSS §10 compliance today + RSWG §2.6 readiness tomorrow'. This grounds the POC in existing regulatory obligation, not future recommendations."
 strategic_significance: "The POC document currently does not reference RSWG. Adding this alignment transforms the POC's strategic framing — Bursa is evaluating VoronCitadel against Bursa's own published requirements. This is the strongest possible positioning."
 mission_alignment:
-- productisation
 - commercial-growth
+- productisation
 related_records:
 - INT-20260827-001
 - DOC-20260827-001

@@ -23,9 +23,9 @@ source:
 summary: "Comprehensive inventory of all assignments, risks, decisions, and references involving Syahir across the Strategic CognitiveOS repository. 14 distinct items identified across 6 record types."
 strategic_significance: "Syahir carries 3 concurrent roles (QC Engineer + POC Engineer + chain:SENTRY Engineering Owner) with competing September deadlines and no priority sequencing. This inventory provides the complete picture for capacity management and de-confliction."
 mission_alignment:
-  - cybersecurity-productisation
-  - organisational-capability-building
-  - cyberdsa-2026
+- domain/cybersecurity-productisation
+- domain/organisational-capability
+- related_initiative/INIT-20260810-003
 related_records:
   - STK-20260811-001
   - DEC-20260818-007

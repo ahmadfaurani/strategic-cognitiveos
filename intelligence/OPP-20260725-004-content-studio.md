@@ -22,9 +22,9 @@ tags:
 - mission/strategic-communications
 - sector/government
 mission_alignment:
-- strategic-communications
-- productisation
 - commercial-growth
+- productisation
+- strategic-communications
 evidence:
 - 'CSCDC Framework v2.0, Sector 2: RM 150,000 for Corporate Content Studio Lab (4K
   cameras, mics, studio lighting, video editing, green screen)'

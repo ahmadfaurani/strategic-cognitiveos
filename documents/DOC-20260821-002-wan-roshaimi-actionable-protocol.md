@@ -28,10 +28,10 @@ source:
 summary: "Execution protocol for Wan Roshaimi engagement — UPDATED v1.2: Athena-calibrated GovSec-primary co-branding validation path. Five material corrections from Athena review (Aug 23): (1) 'jointly built' → 'integration-backed co-branding candidate' — evidentiary distinction between discussed/planned/integrated; (2) Step 0.6 split into 0.6A draft + 0.6B send post-Gate-2; (3) SiberSUITE/CBOM/Score Card classified as pre-planning discussion items, not roadmap-committed; (4) Gate 4 success defined in 3 tiers (Full/Conditional/Bounded); (5) Evidence pack must visually distinguish Implemented/In Progress/Proposed/Future Candidate. Adds: Gate 4 closure statement template, daily control metrics scorecard, 7-day execution priority, 4-part evidence package structure."
 strategic_significance: "GovSec is the only product with active CSM technical integration discussions (SiberSUITE telemetry, Score Card, CBOM — Aug 10 session, Menara CyberAxis). Co-branding GovSec is defensible because CSM's own assets (LebahNet, CMERP, SiberSUITE) are identified as integration candidates. However, evidentiary distinction must be maintained: 'discussed for integration,' 'planned for integration,' and 'technically integrated' are three different states. The safer Gate 4 formulation is: 'GovSec is the primary integration-backed CSM × Aras co-branding candidate, subject to technical substantiation and validation.' VoronCitadel (GTM kit, training delivered) and chain:SENTRY (zero CSM integration) follow once the technical partnership is established."
 mission_alignment:
-  - sovereign-capability
-  - csm-aras-partnership
-  - cyberdsa-2026
-  - technical-integration
+- domain/csm-aras-partnership
+- domain/sovereign-capability
+- capability/technical-integration
+- related_initiative/INIT-20260810-003
 related_records:
   - DOC-20260821-001
   - INT-20260821-001

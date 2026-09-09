@@ -27,8 +27,8 @@ source:
 summary: "After working-level alignment on NDA principles is achieved between Aras and CSM, proceed to joint legal review to convert the framework into a formal agreement prior to any exchange of restricted Bursa information. DAF proposes this as the natural next step after Azrul's review of the 4 critical provisions."
 strategic_significance: "Formal agreement is prerequisite for exchanging restricted Bursa information. No technical discovery involving Bursa-specific data can proceed without signed NDA."
 mission_alignment:
-  - csm-partnership
-  - commercial-strategy
+- domain/commercial-strategy
+- domain/csm-partnership
 related_records:
   - CONV-20260828-001
   - ART-20260828-001

@@ -26,8 +26,8 @@ source:
 summary: "Azrul to review the NDA Framework document and provide CSM's views on 4 critical provisions: (1) Foreground IP ownership (Bursa), (2) Background IP licensing (Aras → CSM), (3) Bursa sublicensing rights (CSM → Bursa), (4) Non-reuse provisions (Aras restriction). These provisions will become important during detailed OMS architecture and POC design discussions."
 strategic_significance: "CSM's position on these 4 provisions determines whether the NDA can proceed to legal review or requires renegotiation. Background IP licensing and sublicensing rights are commercially sensitive — CSM may seek broader usage rights or different terms. Non-reuse provisions protect against Aras leveraging Bursa-specific intelligence for competitor engagements."
 mission_alignment:
-  - csm-partnership
-  - commercial-strategy
+- domain/commercial-strategy
+- domain/csm-partnership
 related_records:
   - CONV-20260828-001
   - ART-20260828-001

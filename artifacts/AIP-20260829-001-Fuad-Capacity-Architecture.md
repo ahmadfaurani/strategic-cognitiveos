@@ -23,9 +23,9 @@ source:
 summary: "Converts Cognitive Loop findings on Fuad's profile into 6 sequenced, gated action items addressing capacity architecture SPOF across 3 concurrent critical paths."
 strategic_significance: "Addresses the binding constraint: one person holding 3 critical paths at ~0.3 FTE for 6 more weeks without structural relief."
 mission_alignment:
-  - cybersecurity-productisation
-  - csm-partnership
-  - organisational-capability-building
+- domain/csm-partnership
+- domain/cybersecurity-productisation
+- domain/organisational-capability
 related_records:
   - ACT-20260825-001
   - ACT-20260824-001

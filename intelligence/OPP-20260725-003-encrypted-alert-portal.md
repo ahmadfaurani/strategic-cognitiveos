@@ -23,9 +23,9 @@ tags:
 - mission/productisation
 - sector/government
 mission_alignment:
+- commercial-growth
 - national-cybersecurity
 - productisation
-- commercial-growth
 evidence:
 - 'CSCDC Framework v2.0, Sector 2: RM 180,000 allocated for Encrypted Information
   Portal Upgrade (high-grade cyber alert sub-portal)'

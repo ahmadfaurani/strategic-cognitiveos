@@ -43,12 +43,12 @@ strategic_significance: 'Establishes Dr. Megat as Tier-1 national cybersecurity 
   direction, not as vendor pitch. Critical input for Gate 6 (ACT-20260819-008) of
   CyberDSA 2026 activation framework.'
 mission_alignment:
-- sovereign-capability
-- nacsa-alignment
-- cyberdsa-2026
-- ai-security
-- cryptography-pqc
-- ncii-protection
+- domain/ai-security
+- domain/cryptography-pqc
+- domain/nacsa-alignment
+- domain/ncii-protection
+- domain/sovereign-capability
+- related_initiative/INIT-20260810-003
 related_records:
 - STK-20260819-001
 - DOC-20260819-001

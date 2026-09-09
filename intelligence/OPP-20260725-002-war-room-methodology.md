@@ -21,9 +21,9 @@ tags:
 - mission/strategic-communications
 - sector/government
 mission_alignment:
+- commercial-growth
 - national-cybersecurity
 - strategic-communications
-- commercial-growth
 evidence:
 - 'CSCDC Framework v2.0, Unit 4: War Room Communication activation on national-level
   critical incident signal'

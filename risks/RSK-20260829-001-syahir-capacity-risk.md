@@ -26,9 +26,9 @@ source:
 summary: "Syahir assigned 3 roles (QC Engineer + POC Engineer + chain:SENTRY Engineering Owner) with competing September deadlines. QC deadline Sep 28 is hard-gated. chain:SENTRY Phase 0 kill date Sep 15. No priority sequencing from operational owner. Same structural pattern that created Hadri SPOF — available capacity attracts work."
 strategic_significance: "Syahir is the practice's only engineering relief vector through January. If capacity is not sequenced, all 3 roles underdeliver."
 mission_alignment:
-  - cybersecurity-productisation
-  - organisational-capability-building
-  - cyberdsa-2026
+- domain/cybersecurity-productisation
+- domain/organisational-capability
+- related_initiative/INIT-20260810-003
 related_records:
   - DEC-20260829-004
   - DEC-20260818-007

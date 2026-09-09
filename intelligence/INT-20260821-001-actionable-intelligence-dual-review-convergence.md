@@ -36,10 +36,10 @@ source:
 summary: "Consolidated actionable intelligence product from the first dual-review convergence session. 6 structured AI items following §7 Actionable Intelligence Standard (10-field schema: Signal, Evidence, Pattern, Implication, Opportunity/Risk, Confidence, Decision Window, Recommended Action, Owner, Verification). Priority ranking via §8 Prioritisation Engine. Binding constraint: AI-2 engineering resourcing. Guardrail: AI-5 no more briefs. Primary risk: AI-3 Monday convergence. Items map to 5 decisions (DEC-20260821-001–005), 4 actions (ACT-20260821-001–004), and 1 existing risk (RSK-20260820-008)."
 strategic_significance: "First formal application of §7 Actionable Intelligence Standard to Cognitive Loop output. Establishes the practice of converting analytical conclusions into structured, decision-ready intelligence products with explicit ownership, verification, and decision windows. The dual-review convergence pattern (Ember governance + Athena operational) demonstrated that independent analytical processes reaching the same conclusion from different data carry higher epistemic weight than either source alone — CVS source triangulation applied at the review level."
 mission_alignment:
-  - cognitiveos-operations
-  - organisational-capability
-  - cybersecurity-productisation
-  - csm-partnership
+- organisational-capability
+- domain/cognitiveos-operations
+- domain/csm-partnership
+- domain/cybersecurity-productisation
 evidence:
   - "Ember weekly governance review (Aug 17-21, workstream-cluster format)"
   - "Athena weekly operational review (Aug 17-21, Cross-Out Register format, 32 items)"

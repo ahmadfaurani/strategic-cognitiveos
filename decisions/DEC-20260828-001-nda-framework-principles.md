@@ -23,9 +23,9 @@ source:
 summary: "DAF establishes the CSM × Aras Integrasi NDA Framework with 11 key principles governing confidentiality, IP ownership, data protection, sublicensing, disclosure, non-reuse, warranty/indemnity, and Service Agreement pathway for the Bursa Malaysia OMS × VoronCitadel GRC POC. Framework sent to Azrul (CSM) for working-level alignment before joint legal review."
 strategic_significance: "Establishes legal boundaries before technical discovery begins. Protects Aras Background IP (VoronCitadel) while accommodating Bursa Foreground IP expectations via CSM sublicensing mechanism. Creates non-reuse restrictions preventing derivative commercialisation. Pre-positions Service Agreement as natural next legal instrument."
 mission_alignment:
-  - csm-partnership
-  - commercial-strategy
-  - cybersecurity-productisation
+- domain/commercial-strategy
+- domain/csm-partnership
+- domain/cybersecurity-productisation
 related_records:
   - CONV-20260828-001
   - ART-20260828-001

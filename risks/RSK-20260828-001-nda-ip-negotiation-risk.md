@@ -23,9 +23,9 @@ source:
 summary: "The NDA Framework contains 4 commercially sensitive IP provisions that may require negotiation or counter-proposals from CSM: (1) Foreground IP ownership (Bursa), (2) Background IP licensing (Aras → CSM perpetual/irrevocable/royalty-free), (3) Bursa sublicensing rights (CSM → Bursa), (4) Non-reuse restrictions (Aras). CSM may seek broader usage rights, different licensing terms, or modifications to non-reuse scope. Extended negotiation could delay POC technical discovery and compress the competitive window (6-8 weeks per INT-20260827-003)."
 strategic_significance: "NDA is prerequisite for exchanging restricted Bursa information. If IP terms negotiation extends beyond 1-2 weeks, it creates a bottleneck that compresses the POC timeline and risks missing the CyberDSA reference case window (Oct 5-7)."
 mission_alignment:
-  - csm-partnership
-  - commercial-strategy
-  - risk-management
+- domain/commercial-strategy
+- domain/csm-partnership
+- domain/risk-management
 related_records:
   - CONV-20260828-001
   - DEC-20260828-001

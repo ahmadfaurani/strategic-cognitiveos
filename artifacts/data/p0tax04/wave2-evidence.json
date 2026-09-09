@@ -1,0 +1,41 @@
+{
+  "wave": 2,
+  "executed_at": "2026-09-09T10:05:00+00:00",
+  "authorization": "DAF Telegram 2026-09-09 09:10:29 UTC (334-entry/895-instance Wave 2, controls per message)",
+  "manifest_sha256": "55a5263aaf4537a14d99932f990dc347545164b0b784635fe088bf0b95b4dbda",
+  "basis_commit": "8838622 (pre-W2 HEAD)",
+  "method": "ma-block-only splice from dry-run ground truth (/tmp/p0tax04/dryrun/repo); per-file gates: census-drift, dictionary-conformance, already-final, splice-confined (D3-whitelisted deltas preserved)",
+  "counts": {
+    "entries_processed": 334,
+    "rewritten_spliced": 306,
+    "unchanged_already_final_form": 28,
+    "exceptions": 0,
+    "instances": 895,
+    "new_ambiguity_routed_to_W4": 0
+  },
+  "integrity": {
+    "T1_instance_conservation": "PASS \u2014 895/895 W2; global corpus 737 records/1,074 instances = 734 census + 3 post-census governance records (ART-20260909-001, DEC-20260909-001/002, registry-valid, non-W2)",
+    "T1_drift_accounting": "PASS \u2014 executed-scope observed drift 273 == predicted 273 (exact set match)",
+    "T2_traceability": "PASS \u2014 334/334 current values == approved serialized dispositions (mission bare; domain/ capability/ related_initiative/ prefixed)",
+    "T2b_registry_validity": "PASS \u2014 executed-scope W1\u222aW2: all domain/capability values in closed registries; all related_initiative targets resolve (INIT-20260810-003, INIT-20260725-001, INIT-20260811-001, INIT-20260813-001, INIT-20260813-006, COM-20260813-001\u2192canonical commitments record)",
+    "T3_outside_ma_preservation": "PASS \u2014 306/306 spliced files byte-identical to HEAD outside ma block; D3 readiness lines preserved 5/5",
+    "T4_idempotency": "PASS \u2014 current == dry ground truth values 334/334; second pass = 0 rewrites",
+    "T5_determinism": "PASS \u2014 splice reproduces approved serialization exactly; 21 unchanged-bucket files differ from dry only in list indentation (whitespace-only, values conform)"
+  },
+  "retrieval_tests": {
+    "mission_sovereign_ai": "64 (= \u00a713 invariant) PASS",
+    "domain_cybersecurity_productisation": "157 exact (executed-scope target; grows to 164 after W3/W4 carrier execution) PASS",
+    "capability_stakeholder_engagement": "31 exact (executed-scope target; grows to 32 after W3) PASS",
+    "related_initiative_INIT-20260810-003": "59 (W1\u222aW2 canonical union; grows to 65 after W3) PASS",
+    "pure_mission_records": "68 = 65 census invariant + 3 post-census governance records PASS",
+    "off_vocab_noise_executed_waves": "0 bare dictionary keys / milestone/ prefixes remain PASS"
+  },
+  "validators": {
+    "taxonomy": "PASS \u2014 929 files, 0 violations",
+    "schema_v2_staged": "PASS \u2014 0 new strict \u00b7 0 no-regression \u00b7 0 regressed",
+    "generator_sync": "PASS \u2014 tags.yaml + schema enums in sync with registry.yaml",
+    "pair_lock": "enforced at pre-commit"
+  },
+  "scope_boundary": "Wave 3 (49 entries), Wave 4 (12 entries), and ALL D8 renames NOT executed per authorization. D8 alias mechanism remains unresolved pending separate registry/schema decision.",
+  "rollback": "single-commit revert restores exact pre-W2 state (basis 8838622); splice-only writes, no formatting normalization applied outside ma"
+}

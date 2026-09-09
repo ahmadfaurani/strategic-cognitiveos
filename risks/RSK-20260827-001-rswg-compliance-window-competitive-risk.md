@@ -24,8 +24,8 @@ source:
 summary: "The RSWG Dec 31, 2026 compliance deadline creates a finite competitive window. Brokers are actively evaluating solutions NOW. If VoronCitadel POC delays beyond Q4 2026, competitors (established security vendors, SI providers, or alternative GRC platforms) will capture the 30-broker pipeline before VoronCitadel has a reference case. The Bursa POC (INIT-20260824-001) is the gating factor — its success or failure determines first mover advantage. Existing RSK-20260824-001 (4-month timeline compression) is amplified by this regulatory deadline."
 strategic_significance: "The regulatory deadline that creates the opportunity also creates the risk. Every month of POC delay narrows the competitive window. Competitors with existing GRC/TPRM platforms (ServiceNow, OneTrust, etc.) may position for RSWG compliance without a Bursa-specific reference."
 mission_alignment:
-- productisation
 - commercial-growth
+- productisation
 related_records:
 - DOC-20260827-001
 - INT-20260827-001

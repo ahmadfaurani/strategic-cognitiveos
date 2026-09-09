@@ -14,9 +14,9 @@ confidence: high
 summary: Execution stakeholder assignments for CyberDSA 2026 success criteria — RACI matrix, capacity assessment, and critical gaps.
 strategic_significance: Identifies single points of failure, critical gaps, and overload risks across 6 dimensions of CyberDSA execution.
 mission_alignment:
-- productisation
 - commercial-growth
 - organisational-capability
+- productisation
 evidence:
 - DEC-20260815-004 War-Room activation
 - INT-20260815-002 Success Criteria Definition

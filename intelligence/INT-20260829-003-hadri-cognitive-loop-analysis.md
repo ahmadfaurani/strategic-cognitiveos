@@ -25,10 +25,10 @@ source:
 summary: "Cognitive Loop analysis of Hadri's strategic profile against the practice's strategic objective. Identifies 3 systemic patterns, 4 gaps ranked by strategic impact, and 3 high-leverage actions. The HoE decision is the binding structural constraint — every other gap flows from it."
 strategic_significance: "Hadri is the second most operationally critical individual after DAF. His SPOF status across 4 CSM tracks + chain:SENTRY + T-30 gate chain coordination is the binding constraint on the practice's ability to scale. This Loop identifies what to do about it."
 mission_alignment:
-  - cybersecurity-productisation
-  - organisational-capability-building
-  - csm-partnership
-  - cyberdsa-2026
+- domain/csm-partnership
+- domain/cybersecurity-productisation
+- domain/organisational-capability
+- related_initiative/INIT-20260810-003
 related_records:
   - HADRI-COMPREHENSIVE-PROFILE-20260829
   - STK-20260803-007

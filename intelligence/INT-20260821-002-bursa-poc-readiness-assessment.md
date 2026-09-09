@@ -25,9 +25,9 @@ source:
 summary: "Re-engineered assessment framing the 8-section POC document as a success trigger instrument, not a deadline deliverable. DAF has already drafted the document. Fuad's technical validation is the gating step. Monday is Azrul's CSM-internal briefing, not a Bursa-facing session. No POC date set. Each section must be engineered to trigger a specific decision or action from Bursa technical stakeholders."
 strategic_significance: "The document is a strategic instrument — its purpose is to make the POC the obvious, low-friction next step for Bursa. Quality of engineering matters more than speed of delivery."
 mission_alignment:
-  - csm-partnership
-  - cybersecurity-productisation
-  - commercial-development
+- domain/commercial-development
+- domain/csm-partnership
+- domain/cybersecurity-productisation
 related_records:
   - CONV-20260821-002
   - ACT-20260820-004

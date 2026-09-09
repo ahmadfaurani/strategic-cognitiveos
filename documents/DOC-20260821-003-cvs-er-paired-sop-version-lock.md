@@ -25,8 +25,8 @@ source:
 summary: "CVS Error Rate (ER) assessment for the version-locking alignment of paired SOPs GOV-INTAKE-SOP-001 and GOV-TEMPLATE-DISCIPLINE-001. AI Council collaborative review (Laras/Athena/Ember/DAF). Both SOPs scored 10/10 structural conformance. Final disposition: PASS WITH ADVISORY (0 P0, 0 P1, 3 P2). Pair-Lock maturity: L2 — Structural."
 strategic_significance: "Establishes the CVS ER baseline for the paired-SOP version-locking principle. Introduces evidence provenance model separating deterministic, manual, and analytical assurance. Identifies pair-lock maturity progression L1→L2→L3 and residual control gaps for future enforcement."
 mission_alignment:
-- sovereign-ai
 - intelligence-enablement
+- sovereign-ai
 related_records:
 - GOV-INTAKE-SOP-001
 - GOV-TEMPLATE-DISCIPLINE-001

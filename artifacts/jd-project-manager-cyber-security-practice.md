@@ -26,9 +26,9 @@ source:
   reference: DAF directive 2026-08-20 (TBH-001 identification); DAF correction 2026-08-23 (reporting line to Hadri, Practice COO)
 strategic_significance: "Resolves the primary execution scalability bottleneck — DAF carrying PM coordination by default. Enables concurrent POC delivery, disciplined document production, and frees DAF for strategic direction and stakeholder relationships."
 mission_alignment:
-  - cybersecurity-productisation
-  - organisational-capability
-  - portfolio-governance
+- organisational-capability
+- domain/cybersecurity-productisation
+- capability/portfolio-governance
 related_records:
   - GOV-TBH-REGISTRY-001
   - ACT-20260820-004

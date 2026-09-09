@@ -29,12 +29,12 @@ source:
 summary: "The MAPO Enforcement Committee Meeting Bil. 1/2026, chaired by PDRM CID Director CP Datuk M. Kumar, publicly articulated three strategic enforcement directives: (1) shift from output metrics to result-based enforcement, (2) intelligence-driven proactive enforcement, (3) strengthened inter-agency information sharing. This constitutes a public capability demand signal from senior PDRM enforcement leadership, creating demand space for analytical/intelligence products and inter-agency coordination platforms. MAPO operates under KDN — same institutional ecosystem as existing Workstream C partnerships (NACSA, JDN)."
 strategic_significance: "Public demand signal for intelligence-driven enforcement capability from PDRM CID leadership. The framing — 'risikan' (intelligence), 'result-based', 'perkongsian maklumat' (information sharing), 'kerjasama strategik' (strategic cooperation) — aligns with Workstream B product capabilities (VoronDRQ analytical platform, ChainSentry). The KDN adjacency to existing Workstream C relationships (NACSA, JDN) provides institutional pathway. This is not bureaucratic routine — it is a senior enforcement leader publicly articulating capability gaps and methodological shifts."
 mission_alignment:
-- intelligence-enablement
-- government-partnerships
-- commercial-development
 - institutional-partnerships
-- productisation
+- intelligence-enablement
 - national-cybersecurity
+- productisation
+- domain/commercial-development
+- domain/government-partnerships
 related_records:
 - DOC-20260903-001
 - STK-20260903-001

@@ -24,9 +24,9 @@ source:
 summary: "One-page strategic overview for activating stakeholder engagement with Ts. Wan Roshaimi Bin Wan Abdullah, CTO of CyberSecurity Malaysia. Covers: stakeholder profile, engagement objective, 5-layer architecture, activation framework position, engagement strategy, sequencing, and guardrails."
 strategic_significance: "Executive-ready synthesis of all Wan Roshaimi engagement records. Single reference for DAF and technical lead to execute Gate 4 and beyond."
 mission_alignment:
-  - sovereign-capability
-  - csm-aras-partnership
-  - cyberdsa-2026
+- domain/csm-aras-partnership
+- domain/sovereign-capability
+- related_initiative/INIT-20260810-003
 related_records:
   - STK-20260812-001
   - INT-20260821-001

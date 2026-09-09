@@ -24,8 +24,8 @@ tags:
 - sector/government
 mission_alignment:
 - national-cybersecurity
-- strategic-communications
 - organisational-capability
+- strategic-communications
 evidence:
 - 'CSCDC Framework v2.0, Sector 4: RM 200,000 for Community & Educational Institution
   Literacy Tour (50 urban/rural locations with KPM/KPT)'

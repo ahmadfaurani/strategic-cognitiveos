@@ -26,10 +26,10 @@ source:
 summary: "The MCMC AI Capability Development Workshop creates a direct pathway to a POC opportunity for AI-driven social media intelligence capability enhancement. Workshop Objective 5 explicitly calls for prioritising a practical development roadmap and potential POC. If successful, this creates a direct commercial relationship with MCMC as capability development partner, distinct from the R.I.S.I.K funding track (INIT-20260803-002)."
 strategic_significance: "MCMC as direct client for AI capability development. Workshop is the conversion mechanism — from fact-finding to structured assessment to POC. Potential Project Hearth deployment target (INIT-20260822-001). Potential Teras AI Platform infrastructure layer. Aligns with sovereign AI mission — government regulator adopting sovereign AI capabilities."
 mission_alignment:
-  - sovereign-ai
-  - government-ai-adoption
-  - institutional-partnerships
-  - commercial-strategy
+- government-ai-adoption
+- institutional-partnerships
+- sovereign-ai
+- domain/commercial-strategy
 related_records:
   - CONV-20260828-002
   - INIT-20260826-001

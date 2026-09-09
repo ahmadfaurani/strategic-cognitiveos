@@ -29,11 +29,11 @@ source:
 summary: "Deep analytical stakeholder engagement strategy for Ts. Wan Roshaimi Bin Wan Abdullah, CTO of CyberSecurity Malaysia. Goes beyond the execution protocol (DOC-20260821-002) to analyze the psychology, decision architecture, institutional context, and multi-layer relationship arc. Structures engagement around six analytical pillars: Who He Is, What He Sees, What He Needs, What He Fears, How He Decides, and The Arc."
 strategic_significance: "The analytical foundation for all Wan Roshaimi engagement. Every conversation, every document, every meeting design should be checked against this strategy. Complements the execution protocol (DOC-20260821-002 v1.1) with the strategic reasoning behind it."
 mission_alignment:
-  - sovereign-capability
-  - csm-aras-partnership
-  - cyberdsa-2026
-  - emerging-technology-security
-  - technical-integration
+- domain/csm-aras-partnership
+- domain/emerging-technology-security
+- domain/sovereign-capability
+- capability/technical-integration
+- related_initiative/INIT-20260810-003
 related_records:
   - STK-20260812-001
   - DOC-20260821-001

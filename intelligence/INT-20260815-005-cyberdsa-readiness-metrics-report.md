@@ -14,10 +14,10 @@ confidence: high
 summary: Detailed analytical assessment of the 8 readiness metrics from the CSM-Aras Stakeholder Coverage & Communication Ownership Plan against current operational state, with gap analysis, risk assessment, and remediation recommendations.
 strategic_significance: Readiness metrics define the operational threshold for CyberDSA stakeholder coverage. 3 of 8 metrics currently unmet. Report identifies specific blockers, owners, and remediation paths for each metric.
 mission_alignment:
-- cybersecurity
-- stakeholder-engagement
 - organisational-capability
-- commercial-development
+- domain/commercial-development
+- domain/cybersecurity
+- capability/stakeholder-engagement
 evidence:
 - 'INT-20260815-004: CSM-Aras Stakeholder Coverage & Communication Ownership Plan'
 - 'INT-20260815-003: Execution Stakeholder Matrix & RACI'

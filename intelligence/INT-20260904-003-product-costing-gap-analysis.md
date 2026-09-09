@@ -26,10 +26,10 @@ source:
 summary: "Comprehensive audit of CognitiveOS records for product costing, pricing, SKU, and commercialisation framework coverage. Finds that while top-line revenue projections and isolated pricing anchors exist (VoronCitadel RM 168k/368k, PaaS RM 688k envelope, Red Team Division RM 1.75M-3.8M), no systematic product costing methodology, module-level SKU structure, infrastructure cost allocation, labour cost model, licensing framework, packaging model, recurring operational cost model, deployment cost model, or margin methodology exists for any of the three flagship products. The commercial infrastructure gap is total and systemic."
 strategic_significance: "Without product-level costing, the practice cannot build SKUs, cannot calculate margin per deployment, cannot price systematically, and cannot scale commercial operations beyond ad-hoc per-engagement negotiation. Every revenue projection in CognitiveOS is top-line only — no contribution margin, no cost-of-goods-sold, no unit economics. This blocks structured commercialisation at the most fundamental level."
 mission_alignment:
-  - commercial-development
-  - cybersecurity-productisation
-  - product-management
-  - organisational-capability
+- organisational-capability
+- domain/commercial-development
+- domain/cybersecurity-productisation
+- domain/product-management
 related_records:
   - OPP-20260822-001
   - OPP-20260822-002

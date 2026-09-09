@@ -25,8 +25,8 @@ source:
 summary: "Technical validation of DAF's POC draft v0.1 against MVP Product Specification v2.0. 20 sections, 22 test cases, 7 use cases assessed. 5 items require Fuad's attention: (1) UC-04 digital-risk scenarios may claim Phase 2 capabilities, (2) UC-05 AI Copilot cross-domain queries may exceed current production scope, (3) UC-07 connector framework is Phase 2, (4) Teras infrastructure not mentioned, (5) Sovereign AI differentiator underemphasized. 17 of 22 test cases confirmed against production features."
 strategic_significance: "Technical accuracy is the foundation of the success trigger. Any claim that doesn't hold up under Bursa technical scrutiny destroys the document's entire trigger function."
 mission_alignment:
-  - csm-partnership
-  - cybersecurity-productisation
+- domain/csm-partnership
+- domain/cybersecurity-productisation
 related_records:
   - INT-20260821-002
   - ACT-20260821-005

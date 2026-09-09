@@ -20,8 +20,8 @@ tags:
 - mission/strategic-communications
 - sector/government
 mission_alignment:
-- strategic-communications
 - institutional-partnerships
+- strategic-communications
 evidence:
 - 'CSCDC Framework v2.0, Unit 5 function 1: Menyediakan teks ucapan eksklusif, kertas
   taklimat kabinet, dan talking points strategik untuk Perdana Menteri, Menteri di

@@ -14,11 +14,11 @@ confidence: high
 summary: "Full 8-step Cognitive Loop (Sense→Classify→Correlate→Pattern Recognition→Prioritise→Act→Verify→Learn) applied to the VoronCitadel × Bursa Malaysia POC workstream (INIT-20260824-001). Identifies 3 bottleneck chains, 4 leverage points, 3 strategic windows closing within 7 days, and 3 compounding opportunities. Produces 7 prioritised actions with owners, verification, and learning extraction framework. The RSWG/ITSS regulatory tailwind transforms this from a product POC into a regulatory compliance play with a 30-broker pipeline."
 strategic_significance: "First full Cognitive Loop application to the Bursa POC workstream. Establishes the strategic intelligence baseline for all subsequent POC-related decisions. The regulatory dimension (ITSS §10 + RSWG §2.6) fundamentally changes the opportunity profile — this is no longer a single-POC engagement but a pipeline-gating reference case."
 mission_alignment:
-  - cybersecurity-productisation
-  - commercial-development
-  - csm-partnership
-  - compliance
-  - commercial-growth
+- commercial-growth
+- domain/commercial-development
+- domain/compliance
+- domain/csm-partnership
+- domain/cybersecurity-productisation
 evidence:
   - "RSK-20260827-002 — Bursa POC Risk Register (17 risks, 6 categories)"
   - "INT-20260821-002 — POC Readiness Assessment (8-section success trigger framework)"

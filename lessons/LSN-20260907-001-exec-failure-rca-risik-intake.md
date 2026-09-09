@@ -23,7 +23,7 @@ source:
 summary: "Three-part failure chain during intake processing: (1) grep invoked with alternation pattern 'RISIK-AI-PLATFORM|RM5|RM 5' WITHOUT -E — in default BRE mode '|' is a literal character, so the pattern matched nothing and exited 1; (2) head was piped into the terminal instead of redirected from a file (head -60 of /dev/null), producing no output with exit 0 — masking the upstream grep failure; (3) organizations/ORG-20260815-004.md was referenced by bare-ID guess but the canonical filename is ORG-20260815-004-mcmc.md (suffixed). The exec error card surfaced all three to the operator. Root causes: filename guessed from record ID instead of resolved via find; BRE/ERE alternation semantics misapplied; unguarded pipes into terminal with no file-existence check."
 strategic_significance: "CognitiveOS holds 520+ records where ~85% of action/decision/stakeholder files are bare-ID but organizations are 83% suffixed — bare-ID guessing is structurally unreliable and every failed read burns operator attention and pollutes the session with error cards. Silent pipe failures (exit 0 on empty input) can fabricate 'no data' conclusions from broken queries — an evidence-integrity risk for an intelligence practice. Codified rule: resolve IDs with find before any read; always use grep -E for alternation; guard every head/cat with a file test."
 mission_alignment:
-  - organizational-capability-building
+- domain/organisational-capability
 related_records:
   - CONV-20260907-001
   - ACT-20260907-001

@@ -28,9 +28,9 @@ source:
 summary: "Email thread from Hadri to DAF delivering the updated chain:SENTRY documentation suite: MVP Product Specification v4.2, Platform Roadmap v2.1, Product Operationalisation Plan v1.1, and Cost Centre Plan v1.0 (first issuance). Hadri notes all four documents are living documents that 'would be updated from time to time based on changes needed'. Thread spans May 15 (v2.0 initial) → Aug 19 (v4.1 spec + v2.0 roadmap delivered) → Sep 7 (v4.2 suite + first operationalisation and cost-centre plans). CC: Ahmad Fuad, Farul Mohd Ghazali. This delivery responds to DAF's Aug 20 directive (email 3 of thread) to move beyond product documentation into a documented operational model — FTE requirements, roles, responsibilities, infrastructure, support requirements, delivery capacity."
 strategic_significance: "Completes 4 of 6 chain:SENTRY documentation categories under the portfolio documentation drive (ACT-20260820-013) and is the first product to deliver both an Operationalisation Plan and a Cost Centre Plan. However, documentation delivery does not change the execution state: as of the Sep 7 gate check, all 3 Critical Phase 0 blockers remain NOT STARTED (C1 credential rotation 19+ days exposure, C2 deployment parity blocked, Phase 0 kill date Sep 15). The doc suite must be verified against actual deployment state before any external claim (v4.1 precedent: claimed gap closures outran the deployed build). Operationalisation Plan v1.1 converges with ART-20260829-002 (2-FTE capacity map) — FTE figures require reconciliation given the Syahir triple-hat capacity risk (RSK-20260829-001)."
 mission_alignment:
-  - cybersecurity-productisation
-  - product-management
-  - commercial-development
+- domain/commercial-development
+- domain/cybersecurity-productisation
+- domain/product-management
 related_records:
   - CONV-20260820-006
   - DOC-20260820-004

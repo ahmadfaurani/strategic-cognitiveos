@@ -26,8 +26,8 @@ source:
 summary: "chain:SENTRY engineering reassigned to Syahir (DEC-20260829-004) but no knowledge transfer from Hadri scheduled. Codebase is 69% implemented with 43 uncommitted mods, 29 commits behind trunk, no migration ledger. Without structured handover, Syahir spends 1-2 weeks reverse-engineering the codebase, eating into QC preparation time."
 strategic_significance: "chain:SENTRY knowledge lives in Hadri's head. The product is not self-documenting. Engineering reassignment without knowledge transfer is an incomplete transaction."
 mission_alignment:
-  - cybersecurity-productisation
-  - organisational-capability-building
+- domain/cybersecurity-productisation
+- domain/organisational-capability
 related_records:
   - DEC-20260829-004
   - RSK-20260820-007

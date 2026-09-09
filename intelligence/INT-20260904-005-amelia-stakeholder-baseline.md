@@ -14,10 +14,10 @@ confidence: high
 summary: "Complete baseline of existing stakeholder and organisation records in the Strategic CognitiveOS repository, mapped against the 77-person high-touch stakeholder activation target. Identifies 108 existing STK records (40 CSM, 20 internal, 14 partner/academic, 5 intelligence subjects, 29 other government), 24 ORG records, and the 193-organisation segmentation framework as the primary source for target identification. Gap: 77 high-touch targets minus ~40 named CSM stakeholders = ~37 stakeholders to identify from the 193-org database, likely from A-Target (93) and B-Engage (35) tiers."
 strategic_significance: "Establishes the data foundation for Amelia's high-touch activation programme. Without this baseline, the 77-person target cannot be scoped, prioritised, or executed."
 mission_alignment:
-  - stakeholder-engagement
-  - cybersecurity-productisation
-  - commercial-development
-  - cyberdsa-2026
+- domain/commercial-development
+- domain/cybersecurity-productisation
+- capability/stakeholder-engagement
+- related_initiative/INIT-20260810-003
 tags:
   - domain/stakeholder-engagement
   - domain/commercial-development

@@ -25,9 +25,9 @@ source:
 summary: "Cognitive Loop review of TBH-001 JD v3.0 operational expansion. Tests whether the JD converts the practice's #1 structural gap (TBH-001 vacancy, 16 days open) into a fillable role, or whether it creates an over-engineered document that delays posting. Cross-references against ESF-001 Gate 2 (Oct 15 CP2), the 0/4 mobilisation gap (INT-20260904-006), and the interim delegation plan's sustainability."
 strategic_significance: "TBH-001 is the single highest-leverage dependency in ESF-001. If unfilled by Dec 31, DAF remains SPOF through Q4 and the delegation target fails. The JD's quality determines whether the role attracts strong candidates or filters them out. Every day of posting delay compresses the interview window."
 mission_alignment:
-  - cybersecurity-productisation
-  - organisational-capability-building
-  - portfolio-governance
+- domain/cybersecurity-productisation
+- domain/organisational-capability
+- capability/portfolio-governance
 related_records:
   - ART-20260828-003
   - INT-20260904-006

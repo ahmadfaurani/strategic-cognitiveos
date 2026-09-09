@@ -14,11 +14,11 @@ confidence: high
 summary: Full 8-step Cognitive Loop (Sense→Classify→Correlate→Pattern Recognition→Prioritise→Act→Verify→Learn) applied to CyberDSA 2026 workstream. Identifies 3 bottleneck chains, 4 leverage points, 3 strategic windows closing within 7 days, and 3 compounding opportunities. Produces 7 prioritised actions with owners, verification, and learning extraction framework.
 strategic_significance: First full application of CognitiveOS Prime Doctrine §5 Cognitive Loop against a live operational workstream. Establishes the template for continuous loop-based intelligence.
 mission_alignment:
-- cybersecurity
-- commercial-development
-- product-management
-- stakeholder-engagement
 - organisational-capability
+- domain/commercial-development
+- domain/cybersecurity
+- domain/product-management
+- capability/stakeholder-engagement
 evidence:
 - 'INT-20260815-002: Success Criteria (47 criteria, 6 dimensions)'
 - 'INT-20260815-003: Execution Stakeholder Matrix & RACI'
