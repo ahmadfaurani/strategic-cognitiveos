@@ -24,9 +24,8 @@ source:
 summary: "Three concurrent failure modes during the AIP Gate Tracker audit: (1) exec tool reporting false failure on grep exit code 1, (2) session fragmentation delivering 9 intermediate preambles to Telegram, (3) ADEP-001 §7 violation — presenting untested speculation as diagnosis. This AIP defines sequenced actions to prevent all three."
 strategic_significance: "The ADEP-001 §7 violation is the 6th instance of the conflation/overclaim pattern. The exec failure is a recurring tool-discipline gap. The session fragmentation is a user-experience degradation. All three are preventable through procedural discipline, not infrastructure changes."
 mission_alignment:
-  - cognitiveos-operations
-  - governance
-  - agent-discipline
+- domain/cognitiveos-operations
+- capability/agent-discipline
 related_records:
   - AIP-20260829-001
   - GOV-INTAKE-SOP-001

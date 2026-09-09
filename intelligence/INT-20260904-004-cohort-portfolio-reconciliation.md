@@ -25,9 +25,8 @@ source:
 summary: "Full reconciliation of PRG-001 through PRG-005 against actual execution state as of 2026-09-04. MEISAC × NanoSec × Aras cohort programme does NOT exist anywhere in CognitiveOS. NanoSec (ORG-20260904-001) is a pentesting resource, not a cohort partner. Two programmes have passed kill dates (PRG-002, PRG-003). One programme has passed its kill date (PRG-004). PRG-001 workshop dates (Sep 2-3) have passed with no execution evidence ingested. PRG-005 remains design-only."
 strategic_significance: "Identifies zombie/stalled programmes, confirms MEISAC non-existence, provides kill-date enforcement recommendations."
 mission_alignment:
-  - sovereign-ai
-  - governance
-  - intelligence-enablement
+- sovereign-ai
+- intelligence-enablement
 related_records:
   - GOV-PORTFOLIO-REGISTER-001
   - GOV-STRATEGIC-OBJECTIVE-COHORT-PROGRAMME-001

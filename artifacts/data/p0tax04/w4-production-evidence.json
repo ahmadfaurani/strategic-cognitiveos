@@ -1,0 +1,40 @@
+{
+  "gate": "P0-TAX-04 Wave 4 PRODUCTION EXECUTION",
+  "executed_at_myt": "2026-09-10 (see commit timestamp)",
+  "authorization": "DAF Telegram 2026-09-10 — A+B dispositions adopted exactly; 12 records / 28 instances; no renames",
+  "decision_record": "decisions/DEC-20260909-005.md",
+  "manifest_sha256": "55a5263aaf4537a14d99932f990dc347545164b0b784635fe088bf0b95b4dbda",
+  "splice": "12/12 records, 28 instances; T3 byte-identity (body + non-ma frontmatter) verified per-record pre-write",
+  "validators": {
+    "taxonomy": "931 files, 0 violations",
+    "pair_lock": "pass (2 records, 2 pairings, 1 mandatory pair)",
+    "alias_validation": "781 canonical ids, 0 aliases, parity holds (Phase 5.5)",
+    "generator": "registry/tags/schemas in sync",
+    "schema_v2_no_regression": "4 pre-existing violations identical pre/post; 0 introduced",
+    "validate_full": "single pre-existing P0 (EVT-20260908-001) unchanged",
+    "yaml_integrity": "12/12 parse clean"
+  },
+  "retrieval_reconciliation": {
+    "bare 'governance'": "5->0",
+    "bare 'law-enforcement-enablement'": "7->0",
+    "domain/law-enforcement-enablement": "0->7",
+    "capability/agent-discipline": "0->1",
+    "domain/cognitiveos-operations": "+4 exact-facet population"
+  },
+  "global_traceability": {
+    "entries": "403/403",
+    "instances": "1,071/1,071",
+    "failures": 0,
+    "parser_note": "3 records (DOC-20260827-003, DOC-20260908-004/005) carry '---' inside FM string values; line-based extraction authoritative"
+  },
+  "d8": {
+    "renames_executed": 0,
+    "aliases_declared": 0,
+    "preconditions_before_renames": [
+      "blocking occurrence-level backward-ref validation (583 occurrences / 318 files)",
+      "reproducible dependency declaration (jsonschema, PyYAML)",
+      "canonical-ID duplicate waiver progressive elimination to zero before D8 closure",
+      "per-batch proof: every old identifier resolves uniquely after each rename batch"
+    ]
+  }
+}
