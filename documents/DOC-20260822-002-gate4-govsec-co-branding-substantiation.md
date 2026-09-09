@@ -28,10 +28,10 @@ source:
 summary: "Gate 4 technical substantiation for CSM × Aras GovSec co-branding. Refines the 3-Layer Evidence Framework with strict present-state vs future-state separation. Layer 1 (Architecture): STRONG/CONDITIONAL. Layer 2 (Integration Evidence): CRITICAL GAP. Layer 3 (Product Substance): STRONG/CONDITIONAL. Overall: CONDITIONAL. Establishes Gate 4 Evidence Classification (9 maturity states), Minimum Evidence Package (8 artifacts), Integration State Matrix, Critical Path (22-27 Aug), Vendor-Detection Risk framework, Secondary Products positioning (VoronCitadel=commercial/GTM, chain:SENTRY=emerging), Future-State Roadmap (8-stage), and Governing Principle: 'Do not make the evidence fit the co-branding narrative. Make the co-branding narrative precisely match the evidence.'"
 strategic_significance: "This is the definitive Gate 4 technical governance document. It corrects ASSESS-20260822-001's overstatement of SiberSUITE as 'confirmed in GovSec stack' — reclassifying SiberSUITE, CBOM Agent, and Cybersecurity Score Card as Exploratory Future-State Technical Collaboration. The binding constraint is the evidence chain: Architecture → Interface → Execution → Evidence. Without this chain, technical co-branding remains vulnerable. Critical path: 22-27 Aug, ending with Gate 4 Pre-Read Ready for Wan Roshaimi."
 mission_alignment:
-  - cybersecurity-productisation
-  - csm-partnership
-  - stakeholder-engagement
-  - government-institutional
+- domain/csm-partnership
+- domain/cybersecurity-productisation
+- domain/government-partnerships
+- capability/stakeholder-engagement
 related_records:
   - ASSESS-20260822-001
   - ASSESS-20260822-002

@@ -27,11 +27,11 @@ source:
 summary: "12-month ESF for Fuad's transition from SPOF executor to technical authority scaling through engineering team, delegation, and product discipline. 5 DoD gates from Dec 2026 to Jun 2027."
 strategic_significance: "Fuad is sole technical authority across 3 flagship products at ~0.3 FTE. Without structural engineering capacity, every product is one person's bandwidth from stalling. This ESF engineers the conditions under which that changes."
 mission_alignment:
-  - cybersecurity-productisation
-  - engineering-capacity
-  - organisational-capability-building
-  - bursa-poc
-  - cyberdsa-2026
+- domain/cybersecurity-productisation
+- domain/engineering-capacity
+- domain/organisational-capability
+- related_initiative/INIT-20260810-003
+- related_initiative/INIT-20260824-001
 related_records:
   - ESF-20260829-001
   - AIP-20260829-001

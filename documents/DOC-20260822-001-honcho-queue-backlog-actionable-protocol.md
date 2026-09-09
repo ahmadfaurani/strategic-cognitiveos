@@ -24,9 +24,9 @@ source:
 summary: "Execution protocol for clearing the 526-unit Honcho deriver queue backlog across 4 workspaces (hermes=511, cognitiveos=6, political-intelligence=5, prn-johor-2026=4). Addresses throughput bottleneck (single deriver worker, ~40s per batch), orphaned cognitiveos work units (6 units for sessions with 0 messages), broken recall.sh, and prevention of recurrence."
 strategic_significance: "Honcho is the semantic recall layer for CognitiveOS and Hermes operations. A 526-unit backlog means new conversations and CognitiveOS records are not being derived into conclusions — recall queries return stale or empty results. The cognitiveos workspace (Ember's operational memory) has never had a successful recall since deployment. Fixing this unblocks session-start enrichment, ADEP-001 gate compliance logging, and cross-workstream connection discovery."
 mission_alignment:
-  - cognitiveos-operations
-  - infrastructure
-  - sovereign-capability
+- domain/ai-infrastructure
+- domain/cognitiveos-operations
+- domain/sovereign-capability
 related_records:
   - DOC-20260821-002
   - ACT-20260821-010

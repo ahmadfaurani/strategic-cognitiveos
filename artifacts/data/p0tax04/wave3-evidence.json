@@ -1,0 +1,61 @@
+{
+  "wave": 3,
+  "executed_at": "2026-09-09T10:30:00+00:00",
+  "authorization": "DAF Telegram 2026-09-09 10:08:55 UTC \u2014 49-entry/125-instance W3 only, digest confirmation required, W4 excluded, dictionary-approved contextual dispositions only, stop-and-route new ambiguity to W4, byte-preserve non-ma content, T1\u2013T5 + registry + 4-facet retrieval reconciliation, then stop",
+  "manifest_sha256": "55a5263aaf4537a14d99932f990dc347545164b0b784635fe088bf0b95b4dbda",
+  "digest_confirmed": true,
+  "basis_commit": "9d8fdf7 (pre-W3 HEAD)",
+  "counts": {
+    "entries_processed": 49,
+    "rewritten_spliced": 49,
+    "unchanged_already_final_form": 0,
+    "deferred_routed_to_W4": 0,
+    "exceptions": 0,
+    "instances": 125
+  },
+  "w4_exclusion": {
+    "governance_held": [
+      "INT-20260904-004",
+      "LSN-20260821-003",
+      "LSN-20260821-008",
+      "LSN-20260822-002",
+      "AIP-20260829-002"
+    ],
+    "law_enforcement_review_class": [
+      "DOC-20260820-001",
+      "INT-20260820-002",
+      "ORG-20260820-002",
+      "RSK-20260820-002",
+      "STK-20260820-003",
+      "STK-20260820-004",
+      "STK-20260820-005"
+    ],
+    "byte_identical_to_HEAD": "12/12 PASS",
+    "contamination_check": "PASS \u2014 zero gov/LE records mutated"
+  },
+  "integrity": {
+    "T1_instance_conservation": "PASS \u2014 125/125 W3; global corpus 738 ma-records / 1,075 instances (734 census + 1,071-manifest coverage + post-census governance records); drift accounting executed-scope observed 322 == predicted 322 exact",
+    "T2_traceability": "PASS \u2014 391 executed entries (W1 8 + W2 334 + W3 49) values == approved serialized dispositions",
+    "T2b_registry_validity": "PASS \u2014 all domain/capability values in closed registries; related_initiative targets resolve (incl. COM-20260813-001 canonical commitments record)",
+    "T3_outside_ma_preservation": "PASS \u2014 49/49 spliced files byte-identical to HEAD outside mission_alignment block",
+    "T4_idempotency": "PASS \u2014 W3 current == dry ground truth values 49/49; second pass = 0 rewrites",
+    "T5_determinism": "PASS \u2014 splice reproduces approved serialization exactly"
+  },
+  "retrieval_reconciliation": {
+    "model_note": "predicted = executed manifest dispositions + W4 records as-is (unexecuted by design) + post-census governance records as-is; INT-20260904-004 (W4-held per D5 amendment) legitimately carries sovereign-ai \u2014 included in both sides",
+    "mission_sovereign_ai": "actual 64 == predicted 64 PASS",
+    "domain_cybersecurity_productisation": "actual 164 == predicted 164 PASS (\u00a713 full target reached)",
+    "capability_stakeholder_engagement": "actual 32 == predicted 32 PASS (\u00a713 full target reached)",
+    "related_initiative_INIT-20260810-003": "actual 65 == predicted 65 PASS (\u00a713 full target reached)",
+    "pure_mission_records": "actual 69 == predicted 69 PASS",
+    "off_vocab_noise_executed_waves": "0 PASS"
+  },
+  "validators": {
+    "taxonomy": "PASS \u2014 930 files, 0 violations",
+    "schema_v2_staged": "PASS \u2014 0 new strict \u00b7 0 no-regression \u00b7 0 regressed",
+    "generator_sync": "PASS \u2014 tags.yaml + schema enums in sync with registry.yaml",
+    "pair_lock": "enforced at pre-commit"
+  },
+  "scope_boundary": "Wave 4 (12 entries / 28 instances: 5 governance + 7 law-enforcement REVIEW-CLASS) NOT executed. D8 renames NOT executed. D8 alias mechanism remains unresolved pending separate registry/schema decision.",
+  "rollback": "single-commit revert restores exact pre-W3 state (basis 9d8fdf7); splice-only writes"
+}

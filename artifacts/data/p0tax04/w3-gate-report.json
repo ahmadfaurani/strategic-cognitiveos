@@ -1,0 +1,251 @@
+{
+ "apply": [
+  {
+   "path": "actions/ACT-20260818-006.md",
+   "id": "ACT-20260818-006",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260818-007.md",
+   "id": "ACT-20260818-007",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-002.md",
+   "id": "ACT-20260819-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-010.md",
+   "id": "ACT-20260819-010",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-011.md",
+   "id": "ACT-20260819-011",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-002.md",
+   "id": "ACT-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-006.md",
+   "id": "ACT-20260820-006",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260825-008.md",
+   "id": "ACT-20260825-008",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260825-009.md",
+   "id": "ACT-20260825-009",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260818-001.md",
+   "id": "ASSESS-20260818-001",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260818-001.md",
+   "id": "CONV-20260818-006",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260820-001.md",
+   "id": "COM-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260818-012.md",
+   "id": "DEC-20260818-012",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260819-003.md",
+   "id": "DEC-20260819-003",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260819-006.md",
+   "id": "DEC-20260819-006",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-005.md",
+   "id": "DEC-20260820-005",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260825-001.md",
+   "id": "DEC-20260825-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260825-002.md",
+   "id": "DEC-20260825-002",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260825-003.md",
+   "id": "DEC-20260825-003",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260825-004.md",
+   "id": "DEC-20260825-004",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260826-001.md",
+   "id": "DEC-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260818-003.md",
+   "id": "DOC-20260818-003",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260818-004.md",
+   "id": "DOC-20260818-004",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260819-002.md",
+   "id": "DOC-20260819-002",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260820-002.md",
+   "id": "DOC-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260822-001-honcho-queue-backlog-actionable-protocol.md",
+   "id": "DOC-20260822-001",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260822-002-gate4-govsec-co-branding-substantiation.md",
+   "id": "DOC-20260822-002",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260825-002.md",
+   "id": "DOC-20260825-002",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260825-003.md",
+   "id": "DOC-20260825-003",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260826-001.md",
+   "id": "DOC-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260819-004.md",
+   "id": "CONV-20260819-004",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260820-005.md",
+   "id": "CONV-20260820-005",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260820-001.md",
+   "id": "INIT-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260820-002.md",
+   "id": "INIT-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260818-001.md",
+   "id": "INT-20260818-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260818-002.md",
+   "id": "INT-20260818-002",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260820-001.md",
+   "id": "INT-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260825-001.md",
+   "id": "INT-20260825-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260825-002.md",
+   "id": "INT-20260825-002",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260825-003.md",
+   "id": "INT-20260825-003",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260826-001.md",
+   "id": "INT-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260821-001.md",
+   "id": "LSN-20260821-001",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260822-003.md",
+   "id": "LSN-20260822-003",
+   "splice": true
+  },
+  {
+   "path": "organizations/ORG-20260820-004.md",
+   "id": "ORG-20260820-004",
+   "splice": true
+  },
+  {
+   "path": "outcomes/OUT-20260819-002.md",
+   "id": "OUT-20260819-002",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260818-003.md",
+   "id": "STK-20260818-003",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260820-001.md",
+   "id": "STK-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260820-002.md",
+   "id": "STK-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "artifacts/ESF-20260829-002-Fuad-Practice-Technical-Authority.md",
+   "id": "ESF-20260829-002",
+   "splice": true
+  }
+ ],
+ "unchanged": [],
+ "exception": []
+}
