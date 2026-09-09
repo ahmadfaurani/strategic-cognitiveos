@@ -1,0 +1,55 @@
+{
+ "gate": "P0-TAX-04 Wave 4 decision table + D8 alias precondition",
+ "produced": "2026-09-10T02:41:24+08:00",
+ "authorization_basis": "DAF Wave 4 directive 2026-09-09 (Telegram): 12-record decision table + D8 precondition commit; production W4 mutation NOT authorized",
+ "wave4_partition": {
+  "governance": 5,
+  "law_enforcement_review_class": 7,
+  "overlap": 0,
+  "instances": 28
+ },
+ "manifest_sha256": "55a5263aaf4537a14d99932f990dc347545164b0b784635fe088bf0b95b4dbda",
+ "dry_run": {
+  "isolated_copies": [
+   "/tmp/p0tax04/w4dry/repo",
+   "/tmp/p0tax04/w4e2e2/repo (git clone + hook rehearsal)"
+  ],
+  "splice": "12/12 records, 28 instances; mixed-indent normalization to flat list (W2/W3 output convention)",
+  "T1_census": "W4 values absent from dry ma corpus (governance x5 dropped, LE x7 prefixed)",
+  "T2_traceability": "28/28 instances accounted, 0 lost",
+  "T3_unrelated_metadata": "12/12 records byte-identical outside mission_alignment block (frontmatter + body)",
+  "T4_idempotency": "second pass: 0 additional rewrites",
+  "T5_yaml": "12/12 parse clean",
+  "correction_note": "initial dry splice left cognitiveos-operations bare in 4 records; corrected to domain/cognitiveos-operations per W2/W3 prefix convention (verified against LSN-20260824-001 W3 splice)"
+ },
+ "validator_evidence": {
+  "validate_taxonomy": "931 files, 0 violations",
+  "validate_pair_lock": "2 records, 2 pairings, 1 mandatory pair \u2014 pass",
+  "validate_aliases": "781 canonical ids, 0 aliases declared, uniqueness/collision/chain clean",
+  "resolve_id_parity": "0 alias handles, parity holds, 781 canonical ids indexed",
+  "generator_check": "tags.yaml + schema enums in sync",
+  "schema_v2_delta": "violation sets on the 12 IDENTICAL pre/post splice (4 records carry pre-existing violations; 0 W4-introduced)",
+  "validate_full": "single pre-existing P0 (EVT-20260908-001 record_type 'event') \u2014 unchanged by W4"
+ },
+ "d8_infrastructure": {
+  "status": "committed as precondition (this commit); 0 aliases declared; 43 renames NOT authorized",
+  "elements": {
+   "schema_governed_aliases": "aliases property on 6 gated types (artifact, intelligence, draft, briefing, commitment, document), additionalProperties:false preserved",
+   "registry_gate": "taxonomy/registry.yaml aliasing block; generator propagates + --check enforces",
+   "repo_wide_uniqueness": "validate_aliases.py [A2]",
+   "canonical_target_existence": "[A3] + resolve_id.py single-hop",
+   "collision_prevention": "[A4] ids never reused as alias handles",
+   "no_chains_cycles": "[A5] structural (A2+A4) + parity proof",
+   "resolution_parity": "resolve_id.py --parity [A6]",
+   "generator_index_sync": "generate_from_registry.py --check/--write aliases propagation",
+   "backward_reference_validation": "[A7] informational counter",
+   "tests": "tools/test_aliases.py \u2014 11/11 pass (isolated roots)"
+  },
+  "hook": "pre-commit Phase 5.5 wired; negative test (alias->id collision) blocks commit; positive test passes"
+ },
+ "production_untouched": {
+  "wave4_records": "0 of 12 mutated in working tree; splice applied only to isolated copies",
+  "identifiers": "0 renames, 0 aliases declared, 0 id fields changed",
+  "pre_commit_staged_set": "D8 infra + evidence + packet ledger row only"
+ }
+}

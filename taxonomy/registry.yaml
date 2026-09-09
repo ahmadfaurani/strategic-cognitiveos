@@ -1323,3 +1323,38 @@ vocab:
     - archived
     - achieved
     - missed
+aliasing:
+  version: 1
+  created: 2026-09-09
+  authority: DEC-20260909-002 (D8 conditional approval, registry-gated approach) + DAF Wave 4 precondition authorization 2026-09-09 (Telegram); decision record DEC-20260909-005 to be filed with Wave 4 execution commit
+  status: infrastructure-active — D8 renames NOT authorized (0 aliases declared)
+  property: aliases
+  description: "Schema-governed alias identifiers for D8 rename-with-alias. Canonical id remains the sole primary key; aliases are secondary resolution handles only."
+  schema_types:
+  - artifact
+  - intelligence
+  - draft
+  - briefing
+  - commitment
+  - document
+  rules:
+    enforce_uniqueness: true
+    canonical_target_existence: true
+    collision_prevention: true
+    no_chains: true
+    resolution_parity: true
+    backward_reference_validation: true
+  known_duplicate_ids:
+    status: "waived — pre-existing canonical-id duplicates discovered by alias validator 2026-09-09; 8 of 11 intersect the D8 rename list; 2 OPP-mislabeled intelligence records + 2 true duplicate-ID file pairs routed to D8 execution plan as precondition findings; waiver shrinks as renames execute; must be empty before D8 sign-off"
+    ids:
+    - CONV-20260818-006
+    - INT-20260819-001
+    - INT-20260821-001
+    - INT-20260725-001
+    - INT-20260725-002
+    - INIT-20260813-001
+    - INIT-20260813-002
+    - INIT-20260813-003
+    - INIT-20260813-004
+    - INIT-20260813-005
+    - INIT-20260813-006

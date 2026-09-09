@@ -94,6 +94,34 @@ def gen_tags(reg):
     return TAGS_HEADER + yaml.safe_dump({"namespaces": out_ns}, sort_keys=False, allow_unicode=True, width=100)
 
 
+def gen_aliases_property(reg):
+    """JSON-schema property for registry-gated alias identifiers (D8, DEC-20260909-005).
+
+    Declared once in taxonomy/registry.yaml (aliasing block); propagated by this
+    generator into every schema whose record_type is listed in
+    aliasing.schema_types. Canonical id remains the sole primary key.
+    """
+    al = reg.get("aliasing") or {}
+    if not al.get("schema_types"):
+        return None
+    return {
+        "type": "array",
+        "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)*-[0-9]{2,8}(?:-[0-9]{3})?$",
+            "maxLength": 64,
+        },
+        "uniqueItems": True,
+        "maxItems": 16,
+        "description": (
+            "Secondary identifier handles (former ids) for D8 rename-with-alias. "
+            "Canonical id is the sole primary key; aliases are resolution handles only. "
+            "Registry-gated per taxonomy/registry.yaml aliasing block (DEC-20260909-005); "
+            "validated repo-wide by tools/validate_aliases.py."
+        ),
+    }
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # --write application
 # ─────────────────────────────────────────────────────────────────────────────
@@ -119,6 +147,9 @@ def main():
         sys.exit(2)
 
     reg = load_registry()
+    aliasing_cfg = reg.get("aliasing") or {}
+    aliasing_types = set(aliasing_cfg.get("schema_types") or [])
+    want_aliases = gen_aliases_property(reg)
 
     if mode == "--check":
         drift = []
@@ -133,7 +164,7 @@ def main():
         if current != want_tags:
             drift.append("taxonomy/tags.yaml")
 
-        # schemas: enum comparison per bound field
+        # schemas: enum comparison per bound field + registry-gated aliases property (D8)
         for f in sorted(glob.glob(os.path.join(SCHEMAS_DIR, "*.schema.json"))):
             try:
                 s = json.load(open(f, encoding="utf-8"))
@@ -143,6 +174,9 @@ def main():
             rt = schema_record_type(s)
             if not rt:
                 continue
+            if rt in aliasing_types:
+                if s.get("properties", {}).get("aliases") != want_aliases:
+                    drift.append(f"schemas/{os.path.basename(f)}:aliases")
             want = _bound_enums_impl(reg, rt)
             for field, values in want.items():
                 have = s.get("properties", {}).get(field, {}).get("enum")
@@ -168,6 +202,9 @@ def main():
         if not rt:
             continue
         s2, changes = _apply_bound_enums(s, reg, rt)
+        if rt in aliasing_types and want_aliases is not None and s2.get("properties", {}).get("aliases") != want_aliases:
+            s2.setdefault("properties", {})["aliases"] = want_aliases
+            changes.append("aliases")
         if changes:
             open(f, "w", encoding="utf-8").write(json.dumps(s2, indent=2, ensure_ascii=False) + "\n")
             changed.append(f"{os.path.basename(f)} ({', '.join(changes)})")

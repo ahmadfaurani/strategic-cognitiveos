@@ -13,6 +13,7 @@ Phase 2.5: JSON Schema conformance Phase A (tools/validate_schema_v2.py)
 Phase 3: Record taxonomy validation (tools/validate_taxonomy.py)
 Phase 4: Pair-lock invariant validation (tools/validate_pair_lock.py)
 Phase 5: Registry conformance (tools/generate_from_registry.py --check)
+Phase 5.5: Alias validation (tools/validate_aliases.py + resolve_id.py --parity; D8)
 
 RECORD_DIRS harmonized with validate_taxonomy.py — 17 canonical record dirs
 matching SOP §3 Record Type Matrix (v1.1, 2026-08-19).
@@ -282,7 +283,49 @@ def main():
     else:
         print("⚠️  Registry generator/registry.yaml not found — skipping registry conformance check")
 
-    print("✅ All records valid (schema + taxonomy + pair-lock + registry). Commit proceeding.")
+    # ─── Phase 5.5: Alias infrastructure validation (D8 — DEC-20260909-005) ───
+    # Schema-governed alias identifiers: repo-wide uniqueness, collision
+    # prevention, no chains/cycles, canonical/alias resolution parity.
+    # Gated by taxonomy/registry.yaml `aliasing` block (schema_types list).
+    alias_val = Path(git_root) / "tools" / "validate_aliases.py"
+    resolver = Path(git_root) / "tools" / "resolve_id.py"
+    aliasing_active = False
+    try:
+        import yaml as _yaml
+        _reg = _yaml.safe_load(registry_yaml.read_text(encoding="utf-8")) if registry_yaml.exists() else {}
+        aliasing_active = bool((_reg.get("aliasing") or {}).get("schema_types"))
+    except Exception:
+        aliasing_active = alias_val.exists()
+    if aliasing_active and alias_val.exists():
+        print("🔍 CognitiveOS pre-commit: alias validation (D8, Phase 5.5)...")
+        al_result = subprocess.run(
+            ["python3", str(alias_val)],
+            capture_output=True,
+            text=True
+        )
+        for line in al_result.stdout.strip().split("\n"):
+            if line:
+                print(f"  {line}")
+        if al_result.returncode != 0:
+            print("\n🚫 COMMIT BLOCKED: alias validation failed (uniqueness/collision/chain/parity).")
+            print("   Fix: resolve violations reported above; aliases are registry-gated per DEC-20260909-005.")
+            sys.exit(1)
+        if resolver.exists():
+            par_result = subprocess.run(
+                ["python3", str(resolver), "--parity"],
+                capture_output=True,
+                text=True
+            )
+            for line in par_result.stdout.strip().split("\n"):
+                if line:
+                    print(f"  {line}")
+            if par_result.returncode != 0:
+                print("\n🚫 COMMIT BLOCKED: alias resolution parity violated.")
+                sys.exit(1)
+    else:
+        print("ℹ️  Alias infrastructure not active (no aliasing.schema_types in registry) — Phase 5.5 skipped")
+
+    print("✅ All records valid (schema + taxonomy + pair-lock + registry + aliases). Commit proceeding.")
     sys.exit(0)
 
 
