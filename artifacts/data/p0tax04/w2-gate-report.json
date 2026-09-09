@@ -1,0 +1,1681 @@
+{
+ "apply": [
+  {
+   "path": "actions/ACT-20260818-001.md",
+   "id": "ACT-20260818-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260818-002.md",
+   "id": "ACT-20260818-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260818-003.md",
+   "id": "ACT-20260818-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260818-004.md",
+   "id": "ACT-20260818-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260818-005.md",
+   "id": "ACT-20260818-005",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-001.md",
+   "id": "ACT-20260819-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-003.md",
+   "id": "ACT-20260819-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-004.md",
+   "id": "ACT-20260819-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-005.md",
+   "id": "ACT-20260819-005",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-006.md",
+   "id": "ACT-20260819-006",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-007.md",
+   "id": "ACT-20260819-007",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-008.md",
+   "id": "ACT-20260819-008",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260819-009.md",
+   "id": "ACT-20260819-009",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-001.md",
+   "id": "ACT-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-003.md",
+   "id": "ACT-20260820-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-004.md",
+   "id": "ACT-20260820-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-005.md",
+   "id": "ACT-20260820-005",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-007.md",
+   "id": "ACT-20260820-007",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-008.md",
+   "id": "ACT-20260820-008",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-009.md",
+   "id": "ACT-20260820-009",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-010.md",
+   "id": "ACT-20260820-010",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-011.md",
+   "id": "ACT-20260820-011",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-012.md",
+   "id": "ACT-20260820-012",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260820-013.md",
+   "id": "ACT-20260820-013",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-001.md",
+   "id": "ACT-20260821-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-003.md",
+   "id": "ACT-20260821-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-004.md",
+   "id": "ACT-20260821-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-005.md",
+   "id": "ACT-20260821-005",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-006.md",
+   "id": "ACT-20260821-006",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-008.md",
+   "id": "ACT-20260821-008",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-009.md",
+   "id": "ACT-20260821-009",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-010.md",
+   "id": "ACT-20260821-010",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-011.md",
+   "id": "ACT-20260821-011",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260821-012.md",
+   "id": "ACT-20260821-012",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260822-001.md",
+   "id": "ACT-20260822-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260822-002.md",
+   "id": "ACT-20260822-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260823-003.md",
+   "id": "ACT-20260823-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260823-004.md",
+   "id": "ACT-20260823-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260823-005.md",
+   "id": "ACT-20260823-005",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260824-001.md",
+   "id": "ACT-20260824-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260824-002.md",
+   "id": "ACT-20260824-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260824-003.md",
+   "id": "ACT-20260824-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260824-004.md",
+   "id": "ACT-20260824-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260824-005.md",
+   "id": "ACT-20260824-005",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260824-006.md",
+   "id": "ACT-20260824-006",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260824-007.md",
+   "id": "ACT-20260824-007",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260825-001.md",
+   "id": "ACT-20260825-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260825-002.md",
+   "id": "ACT-20260825-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260825-003.md",
+   "id": "ACT-20260825-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260825-004.md",
+   "id": "ACT-20260825-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260825-005.md",
+   "id": "ACT-20260825-005",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260825-006.md",
+   "id": "ACT-20260825-006",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260825-007.md",
+   "id": "ACT-20260825-007",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260826-001.md",
+   "id": "ACT-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260826-002.md",
+   "id": "ACT-20260826-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260826-003.md",
+   "id": "ACT-20260826-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260826-004.md",
+   "id": "ACT-20260826-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260826-005.md",
+   "id": "ACT-20260826-005",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260826-006.md",
+   "id": "ACT-20260826-006",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260826-007.md",
+   "id": "ACT-20260826-007",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260826-008.md",
+   "id": "ACT-20260826-008",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260827-002-update-bursa-poc-rswg-alignment.md",
+   "id": "ACT-20260827-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260827-004.md",
+   "id": "ACT-20260827-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260827-005.md",
+   "id": "ACT-20260827-005",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260827-006.md",
+   "id": "ACT-20260827-006",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260827-007.md",
+   "id": "ACT-20260827-007",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260827-008.md",
+   "id": "ACT-20260827-008",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260828-001-azrul-review-nda-framework.md",
+   "id": "ACT-20260828-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260828-002-joint-legal-review.md",
+   "id": "ACT-20260828-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260828-003-aravind-telemetry-schema.md",
+   "id": "ACT-20260828-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260828-004-mcmc-workshop-coordination.md",
+   "id": "ACT-20260828-004",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260829-002.md",
+   "id": "ACT-20260829-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260904-001.md",
+   "id": "ACT-20260904-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260904-002.md",
+   "id": "ACT-20260904-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260904-003.md",
+   "id": "ACT-20260904-003",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260905-001.md",
+   "id": "ACT-20260905-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260905-002.md",
+   "id": "ACT-20260905-002",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260907-001-mcmc-risik-session-rsvp-prep.md",
+   "id": "ACT-20260907-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260908-001.md",
+   "id": "ACT-20260908-001",
+   "splice": true
+  },
+  {
+   "path": "actions/ACT-20260908-002.md",
+   "id": "ACT-20260908-002",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260820-001.md",
+   "id": "ASSESS-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260820-002.md",
+   "id": "ASSESS-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260821-001.md",
+   "id": "ASSESS-20260821-001",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260821-002.md",
+   "id": "ASSESS-20260821-002",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260822-001.md",
+   "id": "ASSESS-20260822-001",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260822-002.md",
+   "id": "ASSESS-20260822-002",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260823-001.md",
+   "id": "ASSESS-20260823-001",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260823-002.md",
+   "id": "ASSESS-20260823-002",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260823-003.md",
+   "id": "ASSESS-20260823-003",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260824-001.md",
+   "id": "ASSESS-20260824-001",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260825-001.md",
+   "id": "ASSESS-20260825-001",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260831-001.md",
+   "id": "ASSESS-20260831-001",
+   "splice": true
+  },
+  {
+   "path": "assessments/ASSESS-20260908-001.md",
+   "id": "ASSESS-20260908-001",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260820-002.md",
+   "id": "COM-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260820-003.md",
+   "id": "COM-20260820-003",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260821-001.md",
+   "id": "COM-20260821-001",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260821-002.md",
+   "id": "COM-20260821-002",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260826-001.md",
+   "id": "COM-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260826-002.md",
+   "id": "COM-20260826-002",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260827-001.md",
+   "id": "COM-20260827-001",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260828-001-nda-working-level-alignment.md",
+   "id": "COM-20260828-001",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260828-002-enhance-not-duplicate.md",
+   "id": "COM-20260828-002",
+   "splice": true
+  },
+  {
+   "path": "commitments/COM-20260908-001.md",
+   "id": "COM-20260908-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260818-010.md",
+   "id": "DEC-20260818-010",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260818-011.md",
+   "id": "DEC-20260818-011",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260819-004.md",
+   "id": "DEC-20260819-004",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260819-005.md",
+   "id": "DEC-20260819-005",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-001.md",
+   "id": "DEC-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-002.md",
+   "id": "DEC-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-003.md",
+   "id": "DEC-20260820-003",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-004.md",
+   "id": "DEC-20260820-004",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-007.md",
+   "id": "DEC-20260820-007",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-008.md",
+   "id": "DEC-20260820-008",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-009.md",
+   "id": "DEC-20260820-009",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-011.md",
+   "id": "DEC-20260820-011",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260820-012.md",
+   "id": "DEC-20260820-012",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260821-001.md",
+   "id": "DEC-20260821-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260821-002.md",
+   "id": "DEC-20260821-002",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260821-003.md",
+   "id": "DEC-20260821-003",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260821-004.md",
+   "id": "DEC-20260821-004",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260821-005.md",
+   "id": "DEC-20260821-005",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260821-006.md",
+   "id": "DEC-20260821-006",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260821-007.md",
+   "id": "DEC-20260821-007",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260822-001.md",
+   "id": "DEC-20260822-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260823-001.md",
+   "id": "DEC-20260823-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260823-002.md",
+   "id": "DEC-20260823-002",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260824-001.md",
+   "id": "DEC-20260824-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260824-002.md",
+   "id": "DEC-20260824-002",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260826-002.md",
+   "id": "DEC-20260826-002",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260827-001-poc-focus-itss-clause-10.md",
+   "id": "DEC-20260827-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260828-001-nda-framework-principles.md",
+   "id": "DEC-20260828-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260904-001.md",
+   "id": "DEC-20260904-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260904-002.md",
+   "id": "DEC-20260904-002",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260905-001.md",
+   "id": "DEC-20260905-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260908-001.md",
+   "id": "DEC-20260908-001",
+   "splice": true
+  },
+  {
+   "path": "decisions/DEC-20260908-002.md",
+   "id": "DEC-20260908-002",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260818-001-perjasa-workshop-agenda.md",
+   "id": "DOC-20260818-001",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260818-002-cyberdsa-media-brand-narrative.md",
+   "id": "DOC-20260818-002",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260819-001.md",
+   "id": "DOC-20260819-001",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260820-003.md",
+   "id": "DOC-20260820-003",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260820-004.md",
+   "id": "DOC-20260820-004",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260820-005.md",
+   "id": "DOC-20260820-005",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260820-006.md",
+   "id": "DOC-20260820-006",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260821-001-wan-roshaimi-engagement-one-pager.md",
+   "id": "DOC-20260821-001",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260821-002-wan-roshaimi-actionable-protocol.md",
+   "id": "DOC-20260821-002",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260821-003-cvs-er-paired-sop-version-lock.md",
+   "id": "DOC-20260821-003",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260822-003-project-hearth-vision.md",
+   "id": "DOC-20260822-003",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260825-001-voroncitadel-delivery-readiness-framework.md",
+   "id": "DOC-20260825-001",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260827-001-rswg-recommendation-paper.md",
+   "id": "DOC-20260827-001",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260827-002-poitss-directive-5-05.md",
+   "id": "DOC-20260827-002",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260827-003-cyberdsa-stakeholder-framework-v11.md",
+   "id": "DOC-20260827-003",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260903-001-mapo-enforcement-committee-press-release.md",
+   "id": "DOC-20260903-001",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260908-001.md",
+   "id": "DOC-20260908-001",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260908-002.md",
+   "id": "DOC-20260908-002",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260908-003.md",
+   "id": "DOC-20260908-003",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260908-004.md",
+   "id": "DOC-20260908-004",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260908-005.md",
+   "id": "DOC-20260908-005",
+   "splice": true
+  },
+  {
+   "path": "documents/DOC-20260908-006.md",
+   "id": "DOC-20260908-006",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260818-004.md",
+   "id": "CONV-20260818-004",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260818-005.md",
+   "id": "CONV-20260818-005",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260818-006.md",
+   "id": "CONV-20260818-006",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260819-002.md",
+   "id": "CONV-20260819-002",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260819-003.md",
+   "id": "CONV-20260819-003",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260820-001.md",
+   "id": "CONV-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260820-002.md",
+   "id": "CONV-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260820-003.md",
+   "id": "CONV-20260820-003",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260820-004.md",
+   "id": "CONV-20260820-004",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260820-006.md",
+   "id": "CONV-20260820-006",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260821-001.md",
+   "id": "CONV-20260821-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260821-002.md",
+   "id": "CONV-20260821-002",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260822-001.md",
+   "id": "CONV-20260822-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260823-001.md",
+   "id": "CONV-20260823-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260824-001.md",
+   "id": "CONV-20260824-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260826-001.md",
+   "id": "CONV-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260826-002.md",
+   "id": "CONV-20260826-002",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260827-001.md",
+   "id": "CONV-20260827-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260827-002-daf-v11-distribution-email.md",
+   "id": "CONV-20260827-002",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260828-001.md",
+   "id": "CONV-20260828-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260829-001-hadri-role-restructure.md",
+   "id": "CONV-20260829-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260908-001-chainsentry-doc-suite-v42.md",
+   "id": "CONV-20260908-001",
+   "splice": true
+  },
+  {
+   "path": "engagements/CONV-20260908-002-gtm-outreach-thread.md",
+   "id": "CONV-20260908-002",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260611-001.md",
+   "id": "INIT-20260611-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260627-001.md",
+   "id": "INIT-20260627-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260710-001.md",
+   "id": "INIT-20260710-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260710-002.md",
+   "id": "INIT-20260710-002",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260725-002.md",
+   "id": "INIT-20260725-002",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260725-004.md",
+   "id": "INIT-20260725-004",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260725-007.md",
+   "id": "INIT-20260725-007",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260803-001.md",
+   "id": "INIT-20260803-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260803-002.md",
+   "id": "INIT-20260803-002",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260804-001.md",
+   "id": "INIT-20260804-001",
+   "splice": true,
+   "d3_preserved": true
+  },
+  {
+   "path": "initiatives/INIT-20260804-002.md",
+   "id": "INIT-20260804-002",
+   "splice": true,
+   "d3_preserved": true
+  },
+  {
+   "path": "initiatives/INIT-20260804-003.md",
+   "id": "INIT-20260804-003",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260804-004.md",
+   "id": "INIT-20260804-004",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260808-002.md",
+   "id": "INIT-20260808-002",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260808-003.md",
+   "id": "INIT-20260808-003",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260810-001.md",
+   "id": "INIT-20260810-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260810-002.md",
+   "id": "INIT-20260810-002",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260810-003.md",
+   "id": "INIT-20260810-003",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260811-001.md",
+   "id": "INIT-20260811-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260813-001.md",
+   "id": "INIT-20260813-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260813-002.md",
+   "id": "INIT-20260813-002",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260813-003.md",
+   "id": "INIT-20260813-003",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260813-004.md",
+   "id": "INIT-20260813-004",
+   "splice": true,
+   "d3_preserved": true
+  },
+  {
+   "path": "initiatives/INIT-20260813-005.md",
+   "id": "INIT-20260813-005",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260820-003.md",
+   "id": "INIT-20260820-003",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260822-001.md",
+   "id": "INIT-20260822-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260822-002.md",
+   "id": "INIT-20260822-002",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260824-001.md",
+   "id": "INIT-20260824-001",
+   "splice": true
+  },
+  {
+   "path": "initiatives/INIT-20260826-001.md",
+   "id": "INIT-20260826-001",
+   "splice": true,
+   "d3_preserved": true
+  },
+  {
+   "path": "intelligence/INT-20260815-003-cyberdsa-execution-stakeholder-matrix.md",
+   "id": "INT-20260815-003",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260815-004-csm-aras-stakeholder-coverage-plan.md",
+   "id": "INT-20260815-004",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260815-005-cyberdsa-readiness-metrics-report.md",
+   "id": "INT-20260815-005",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260815-006-cyberdsa-cognitive-loop-analysis.md",
+   "id": "INT-20260815-006",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260819-001-dr-megat-stakeholder-analysis.md",
+   "id": "INT-20260819-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260819-001.md",
+   "id": "INT-20260819-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260821-001-actionable-intelligence-dual-review-convergence.md",
+   "id": "INT-20260821-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260821-001-wan-roshaimi-engagement-objective.md",
+   "id": "INT-20260821-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260821-002-bursa-poc-readiness-assessment.md",
+   "id": "INT-20260821-002",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260821-003-poc-draft-technical-validation.md",
+   "id": "INT-20260821-003",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260822-001-wan-roshaimi-analytical-engagement-strategy.md",
+   "id": "INT-20260822-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260827-001-rswg-voroncitadel-strategic-impact.md",
+   "id": "INT-20260827-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260827-002-itss-rswg-combined-framework.md",
+   "id": "INT-20260827-002",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260827-003-bursa-poc-cognitive-loop-analysis.md",
+   "id": "INT-20260827-003",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260829-003-hadri-cognitive-loop-analysis.md",
+   "id": "INT-20260829-003",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260829-004-hadri-role-restructure-cognitive-loop.md",
+   "id": "INT-20260829-004",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260831-001-cyberdsa-stakeholder-activation-cognitive-loop.md",
+   "id": "INT-20260831-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260903-001-mapo-enforcement-demand-signal.md",
+   "id": "INT-20260903-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260904-002-syahir-assignment-inventory.md",
+   "id": "INT-20260904-002",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260904-003-product-costing-gap-analysis.md",
+   "id": "INT-20260904-003",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260904-005-amelia-stakeholder-baseline.md",
+   "id": "INT-20260904-005",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260904-006-cognitive-loop-four-directive-synthesis.md",
+   "id": "INT-20260904-006",
+   "splice": true
+  },
+  {
+   "path": "intelligence/INT-20260904-007-cognitive-loop-tbh001-jd-review.md",
+   "id": "INT-20260904-007",
+   "splice": true
+  },
+  {
+   "path": "intelligence/OPP-20260725-001-social-listening-infrastructure.md",
+   "id": "INT-20260725-001",
+   "splice": true
+  },
+  {
+   "path": "intelligence/OPP-20260725-002-war-room-methodology.md",
+   "id": "INT-20260725-002",
+   "splice": true
+  },
+  {
+   "path": "intelligence/OPP-20260725-003-encrypted-alert-portal.md",
+   "id": "INT-20260725-003",
+   "splice": true
+  },
+  {
+   "path": "intelligence/OPP-20260725-004-content-studio.md",
+   "id": "INT-20260725-004",
+   "splice": true
+  },
+  {
+   "path": "intelligence/OPP-20260725-005-pqc-sovereign-ai.md",
+   "id": "INT-20260725-005",
+   "splice": true
+  },
+  {
+   "path": "intelligence/OPP-20260725-006-community-champions.md",
+   "id": "INT-20260725-006",
+   "splice": true
+  },
+  {
+   "path": "intelligence/OPP-20260725-008-anti-deepfake-campaign.md",
+   "id": "INT-20260725-008",
+   "splice": true
+  },
+  {
+   "path": "intelligence/OPP-20260725-009-g2g-briefing-support.md",
+   "id": "INT-20260725-009",
+   "splice": true
+  },
+  {
+   "path": "intelligence/OPP-20260725-010-post-merger-integration.md",
+   "id": "INT-20260725-010",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260821-002.md",
+   "id": "LSN-20260821-002",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260821-004.md",
+   "id": "LSN-20260821-004",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260821-005.md",
+   "id": "LSN-20260821-005",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260821-006.md",
+   "id": "LSN-20260821-006",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260821-007.md",
+   "id": "LSN-20260821-007",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260822-001.md",
+   "id": "LSN-20260822-001",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260823-001.md",
+   "id": "LSN-20260823-001",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260823-002.md",
+   "id": "LSN-20260823-002",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260823-003.md",
+   "id": "LSN-20260823-003",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260823-004.md",
+   "id": "LSN-20260823-004",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260823-005.md",
+   "id": "LSN-20260823-005",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260824-001.md",
+   "id": "LSN-20260824-001",
+   "splice": true
+  },
+  {
+   "path": "lessons/LSN-20260907-001-exec-failure-rca-risik-intake.md",
+   "id": "LSN-20260907-001",
+   "splice": true
+  },
+  {
+   "path": "opportunities/OPP-20260820-001.md",
+   "id": "OPP-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "opportunities/OPP-20260820-002.md",
+   "id": "OPP-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "opportunities/OPP-20260826-001.md",
+   "id": "OPP-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "opportunities/OPP-20260827-001-rswg-compliance-market.md",
+   "id": "OPP-20260827-001",
+   "splice": true
+  },
+  {
+   "path": "opportunities/OPP-20260828-001-mcmc-workshop-poc.md",
+   "id": "OPP-20260828-001",
+   "splice": true
+  },
+  {
+   "path": "opportunities/OPP-20260903-001-intelligence-driven-enforcement-demand.md",
+   "id": "OPP-20260903-001",
+   "splice": true
+  },
+  {
+   "path": "organizations/ORG-20260820-001.md",
+   "id": "ORG-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "organizations/ORG-20260903-001-mapo.md",
+   "id": "ORG-20260903-001",
+   "splice": true
+  },
+  {
+   "path": "organizations/ORG-20260904-001-nanosec.md",
+   "id": "ORG-20260904-001",
+   "splice": true
+  },
+  {
+   "path": "outcomes/OUT-20260819-001.md",
+   "id": "OUT-20260819-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260819-001.md",
+   "id": "RSK-20260819-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260820-001.md",
+   "id": "RSK-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260820-003.md",
+   "id": "RSK-20260820-003",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260820-004.md",
+   "id": "RSK-20260820-004",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260820-005.md",
+   "id": "RSK-20260820-005",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260820-006.md",
+   "id": "RSK-20260820-006",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260820-007.md",
+   "id": "RSK-20260820-007",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260820-008.md",
+   "id": "RSK-20260820-008",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260822-001.md",
+   "id": "RSK-20260822-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260822-002.md",
+   "id": "RSK-20260822-002",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260823-001.md",
+   "id": "RSK-20260823-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260823-002.md",
+   "id": "RSK-20260823-002",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260824-001.md",
+   "id": "RSK-20260824-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260824-002.md",
+   "id": "RSK-20260824-002",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260824-003.md",
+   "id": "RSK-20260824-003",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260826-001.md",
+   "id": "RSK-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260827-001-rswg-compliance-window-competitive-risk.md",
+   "id": "RSK-20260827-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260827-002-bursa-poc-risk-register.md",
+   "id": "RSK-20260827-002",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260828-001-nda-ip-negotiation-risk.md",
+   "id": "RSK-20260828-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260829-001-syahir-capacity-risk.md",
+   "id": "RSK-20260829-001",
+   "splice": true
+  },
+  {
+   "path": "risks/RSK-20260829-002-chainsentry-knowledge-transfer-gap.md",
+   "id": "RSK-20260829-002",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260804-011.md",
+   "id": "STK-20260804-011",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260812-001.md",
+   "id": "STK-20260812-001",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260813-008.md",
+   "id": "STK-20260813-008",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260813-014.md",
+   "id": "STK-20260813-014",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260817-001.md",
+   "id": "STK-20260817-001",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260818-001.md",
+   "id": "STK-20260818-001",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260818-002.md",
+   "id": "STK-20260818-002",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260819-001.md",
+   "id": "STK-20260819-001",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260826-001.md",
+   "id": "STK-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260827-001.md",
+   "id": "STK-20260827-001",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260828-001-aravind-mcmc.md",
+   "id": "STK-20260828-001",
+   "splice": true
+  },
+  {
+   "path": "stakeholders/STK-20260903-001.md",
+   "id": "STK-20260903-001",
+   "splice": true
+  },
+  {
+   "path": "artifacts/AIP-20260829-001-Fuad-Capacity-Architecture.md",
+   "id": "AIP-20260829-001",
+   "splice": true
+  },
+  {
+   "path": "artifacts/ART-20260820-001.md",
+   "id": "ART-20260820-001",
+   "splice": true
+  },
+  {
+   "path": "artifacts/ART-20260820-002.md",
+   "id": "ART-20260820-002",
+   "splice": true
+  },
+  {
+   "path": "artifacts/ART-20260826-001.md",
+   "id": "ART-20260826-001",
+   "splice": true
+  },
+  {
+   "path": "artifacts/ART-20260828-001-csm-aras-nda-framework.md",
+   "id": "ART-20260828-001",
+   "splice": true
+  },
+  {
+   "path": "artifacts/TECH-EXEC-2FTE-CAPACITY-MAP-20260829.md",
+   "id": "ART-20260829-002",
+   "splice": true
+  },
+  {
+   "path": "artifacts/jd-project-manager-cyber-security-practice-v2.md",
+   "id": "ART-20260828-003",
+   "splice": true
+  },
+  {
+   "path": "artifacts/jd-project-manager-cyber-security-practice.md",
+   "id": "INIT-20260820-004",
+   "splice": true
+  }
+ ],
+ "unchanged": [
+  {
+   "path": "actions/ACT-20260821-002.md",
+   "id": "ACT-20260821-002",
+   "note": "already final form"
+  },
+  {
+   "path": "actions/ACT-20260827-001-rswg-voroncitadel-capability-mapping.md",
+   "id": "ACT-20260827-001",
+   "note": "already final form"
+  },
+  {
+   "path": "actions/ACT-20260827-003-itss-rswg-unified-capability-mapping.md",
+   "id": "ACT-20260827-003",
+   "note": "already final form"
+  },
+  {
+   "path": "actions/ACT-20260908-003-gtm-session-preread-pack.md",
+   "id": "ACT-20260908-003",
+   "note": "already final form"
+  },
+  {
+   "path": "actions/ACT-20260908-004-fsi-coverage-list-compilation.md",
+   "id": "ACT-20260908-004",
+   "note": "already final form"
+  },
+  {
+   "path": "actions/ACT-20260908-005-csm-engagement-email.md",
+   "id": "ACT-20260908-005",
+   "note": "already final form"
+  },
+  {
+   "path": "briefings/BRIEF-20260817-001-CSM-WORKSTREAM-ANALYSIS.md",
+   "id": "BRIEF-20260817-001",
+   "note": "already final form"
+  },
+  {
+   "path": "briefings/PORTFOLIO-EXECUTION-RESET-20260812.md",
+   "id": "BRIEF-20260812-001",
+   "note": "already final form"
+  },
+  {
+   "path": "commitments/COM-20260908-002-gtm-lockin-session.md",
+   "id": "COM-20260908-002",
+   "note": "already final form"
+  },
+  {
+   "path": "decisions/DEC-20260908-005-gtm-coordination-directives.md",
+   "id": "DEC-20260908-005",
+   "note": "already final form"
+  },
+  {
+   "path": "drafts/CHANGE-MANIFEST-20260908-gtm-thread-intake.md",
+   "id": "DRAFT-20260908-001",
+   "note": "already final form"
+  },
+  {
+   "path": "drafts/DRAFT-20260908-002-change-manifest-cyberdsa-t45-intake.md",
+   "id": "DRAFT-20260908-002",
+   "note": "already final form"
+  },
+  {
+   "path": "engagements/CONV-20260908-003-cyberdsa-t45-sales-thread.md",
+   "id": "CONV-20260908-003",
+   "note": "already final form"
+  },
+  {
+   "path": "initiatives/INIT-20260908-001-voroncitadel-marketing-execution-plan.md",
+   "id": "INIT-20260908-001",
+   "note": "already final form"
+  },
+  {
+   "path": "intelligence/INT-20260908-001-gtm-event-date-verification.md",
+   "id": "INT-20260908-001",
+   "note": "already final form"
+  },
+  {
+   "path": "intelligence/OPP-20260725-007-cyber-drill.md",
+   "id": "INT-20260725-007",
+   "note": "already final form"
+  },
+  {
+   "path": "organizations/ORG-20260820-003.md",
+   "id": "ORG-20260820-003",
+   "note": "already final form"
+  },
+  {
+   "path": "organizations/ORG-20260908-001-bank-simpanan-nasional.md",
+   "id": "ORG-20260908-001",
+   "note": "already final form"
+  },
+  {
+   "path": "risks/RSK-20260908-001-cyberdsa-compression.md",
+   "id": "RSK-20260908-001",
+   "note": "already final form"
+  },
+  {
+   "path": "risks/RSK-20260908-002-mql-model-governance.md",
+   "id": "RSK-20260908-002",
+   "note": "already final form"
+  },
+  {
+   "path": "stakeholders/STK-20260820-006.md",
+   "id": "STK-20260820-006",
+   "note": "already final form"
+  },
+  {
+   "path": "stakeholders/STK-20260907-001-azim-mcmc-risik-coordinator.md",
+   "id": "STK-20260907-001",
+   "note": "already final form"
+  },
+  {
+   "path": "stakeholders/STK-20260908-001-norhafizah-md-shariff.md",
+   "id": "STK-20260908-001",
+   "note": "already final form"
+  },
+  {
+   "path": "stakeholders/STK-20260908-002-muizz-aiman-farid.md",
+   "id": "STK-20260908-002",
+   "note": "already final form"
+  },
+  {
+   "path": "artifacts/ART-20260908-001-gtm-marketing-execution-plan-deck.md",
+   "id": "ART-20260908-001",
+   "note": "already final form"
+  },
+  {
+   "path": "artifacts/ART-20260908-002-cyberdsa-invitation-list.xlsx.md",
+   "id": "ART-20260908-002",
+   "note": "already final form"
+  },
+  {
+   "path": "artifacts/GRP-20260813-001-GovSec-CyberDSA-Readiness-Plan.md",
+   "id": "ART-20260813-001",
+   "note": "already final form"
+  },
+  {
+   "path": "artifacts/MWR-20260813-001-Master-Workstream-Register.md",
+   "id": "ART-20260813-002",
+   "note": "already final form"
+  }
+ ],
+ "exception": []
+}
