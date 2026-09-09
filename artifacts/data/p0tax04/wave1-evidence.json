@@ -1,0 +1,25 @@
+{
+  "wave": 1,
+  "executed_at": "2026-09-09T07:05:00+00:00",
+  "authorization": "DEC-20260909-002 (2026-09-09 06:35:33 UTC) \u2014 initial controlled bundle only",
+  "manifest_sha256": "55a5263aaf4537a14d99932f990dc347545164b0b784635fe088bf0b95b4dbda",
+  "basis": "dry-run ground truth /tmp/p0tax04/dryrun/repo (manifest path-keyed, ma-block-confined diff gate at apply)",
+  "records": 8,
+  "rewritten": 6,
+  "byte_identical_skipped": 2,
+  "instances": 23,
+  "tests": {
+    "T1_instance_conservation": "PASS \u2014 23/23 across 8 records",
+    "T2_traceability": "PASS \u2014 every post value == approved disposition in final-form serialization (mission bare; domain/ capability/ related_initiative/ prefixed)",
+    "T3_byte_identity_dryrun": "PASS \u2014 8/8 records byte-identical to dry-run ground truth",
+    "T4_idempotency": "PASS \u2014 zero pre-form values remain (no raw dictionary keys, no milestone/ prefixes, mission values bare)",
+    "T5_determinism_reapply": "PASS \u2014 second pass = 0 rewrites"
+  },
+  "validators": {
+    "taxonomy": "PASS \u2014 929 files, 0 violations",
+    "schema_v2_staged": "PASS \u2014 5 new strict + 1 no-regression, 0 regressed",
+    "generator_sync": "PASS \u2014 tags.yaml + schema enums in sync with registry.yaml",
+    "pair_lock": "PASS (pre-commit Phase 4, commit 4054e83)"
+  },
+  "scope_boundary": "Wave 2 (334 entries) NOT executed \u2014 requires separate DAF authorization per DEC-20260909-002 \u00a718.5"
+}

@@ -31,9 +31,9 @@ summary: "Fuad's GovSec product roadmap slide deck (16 slides). 12 project cards
 strategic_significance: "First comprehensive product roadmap for GovSec — directly supports CyberDSA 2026 launch readiness, CSM co-branding discussions, and NACSA endorsement track. Provides Q3-Q4 timeline that gates commercial activation and pilot engagement. CSM SOAR integration (Q1 2027) is the deepest CSM technical integration milestone in the roadmap."
 mission_alignment:
 - sovereign-ai
-- cybersecurity-productisation
-- csm-partnership
-- milestone/cyberdsa-2026
+- domain/csm-partnership
+- domain/cybersecurity-productisation
+- related_initiative/INIT-20260810-003
 related_records:
 - CONV-20260817-003
 - ACT-20260817-007
