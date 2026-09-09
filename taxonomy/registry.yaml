@@ -381,7 +381,6 @@ namespaces:
     - delivery-ready
     - commercial-ready
     - scale-ready
-    - development
     - collaboration-framework-agreed
   decision:
     description: Decision category
@@ -964,17 +963,27 @@ mission_enrichment:
     keywords: []
 vocab:
   readiness:
-    status: reconciliation-pending — do NOT finalize until facet ontology decision (readiness vs commercial_stage vs engagement_stage vs lifecycle_state)
+    status: "resolved 2026-09-09 per DEC-20260909-002 (D3 approved): single canonical set A-9; external_commitment gates preserved from legacy readiness-levels.yaml (retired); legacy off-terms retired with mappings"
     emitted:
     - concept
     - framed
     - prototype
     - demo-ready
     - pilot-ready
-    - collaboration-framework-agreed
-    - proposal-stage
     - delivery-ready
+    - commercial-ready
     - scale-ready
+    - collaboration-framework-agreed
+    external_commitment_gates:
+      concept: false
+      framed: false
+      prototype: false
+      demo-ready: demonstration only
+      pilot-ready: pilot scope only
+      delivery-ready: true
+      commercial-ready: true
+      scale-ready: true
+      collaboration-framework-agreed: null  # not defined in legacy gate set; agreement-stage precedes commitment capability
     proposed_union:
     - concept
     - framed

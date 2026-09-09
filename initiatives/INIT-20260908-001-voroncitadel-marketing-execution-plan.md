@@ -38,7 +38,7 @@ sponsor: faurani-jaafar
 delivery_owner: said-farid-zainudin
 commercial_owner: faurani-jaafar
 portfolio_tier: ""
-readiness_level: ""
+readiness_level: framed
 stakeholders:
   - STK-20260813-016
   - STK-20260815-004

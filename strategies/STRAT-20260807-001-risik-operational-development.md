@@ -25,7 +25,7 @@ tags:
 - org/uitm
 - org/pmo
 - mission/political-intelligence
-- readiness/development
+- readiness/collaboration-framework-agreed
 priority: high
 lifecycle_state: structurally_valid
 confidence: medium

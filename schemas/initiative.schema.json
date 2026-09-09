@@ -112,10 +112,10 @@
         "prototype",
         "demo-ready",
         "pilot-ready",
-        "collaboration-framework-agreed",
-        "proposal-stage",
         "delivery-ready",
-        "scale-ready"
+        "commercial-ready",
+        "scale-ready",
+        "collaboration-framework-agreed"
       ]
     },
     "summary": {

@@ -24,7 +24,7 @@ sponsor: ""
 delivery_owner: ""
 commercial_owner: ""
 portfolio_tier: ""
-readiness_level: ""
+readiness_level: concept
 stakeholders: []
 products: []
 ---

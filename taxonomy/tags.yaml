@@ -359,7 +359,6 @@ namespaces:
     - delivery-ready
     - commercial-ready
     - scale-ready
-    - development
     - collaboration-framework-agreed
   decision:
     description: Decision category
