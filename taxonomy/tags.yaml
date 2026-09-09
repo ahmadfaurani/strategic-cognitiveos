@@ -154,6 +154,16 @@ namespaces:
     - training
     - ai-ict-operations
     - cluster
+    - sovereign-capability
+    - csm-aras-partnership
+    - nacsa-alignment
+    - commercial-operations
+    - wig-partnership
+    - ai-security
+    - cryptography-pqc
+    - ncii-protection
+    - emerging-technology-security
+    - engineering-capacity
   workstream:
     description: DAF's six workstream clusters
     values:
@@ -306,6 +316,10 @@ namespaces:
     - monitoring
     - productisation
     - partnership-mobilisation
+    - brand-positioning
+    - agent-discipline
+    - security-hardening
+    - technical-integration
   leadership:
     description: Leadership responsibility
     values:
