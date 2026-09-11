@@ -64,10 +64,12 @@ INIT-20260804-002 — GovSec × CMERP Platform Integration Continuation
 
 | Metric | Target (COM-20260827-001) | Achieved |
 |--------|---------------------------|----------|
-| CSM technical validation (Hafiz Rahman, SiberSUITE) | T-32 / 4 Sep | ✅ 4 Sep |
-| Sign-off + baseline (Zaharudin) | T-30 / 5 Sep | ✅ Delivered within target window |
-| Full gate chain (6 steps) | T-30 / 5 Sep | ✅ Complete |
-| CyberDSA buffer preserved | ≥25 days | ✅ 24 days to doors (Oct 5) |
+| CSM technical validation (Hafiz Rahman, SiberSUITE) | T-32 / 4 Sep | ✅ 4 Sep (consistent with CSM digital signature — see evidence basis) |
+| Sign-off + baseline (Zaharudin) | T-30 / 5 Sep | ✅ Consistent with 4 Sep CSM signature; signatory per gate schedule — see evidence basis |
+| Full gate chain (6 steps) | T-30 / 5 Sep | ✅ Complete (mapping reconstructed from commitment schedule) |
+| CyberDSA buffer preserved at delivery | ≥25 days from T-30 | ✅ 30 days (5 Sep → doors 5 Oct) |
+
+**Evidence basis (Cognitive Loop 11 Sep):** The signature event itself is sourced to DAF's executive brief (11 Sep, single-source, authority statement). The gate-to-date mapping above is RECONSTRUCTED from the COM-20260827-001 schedule + the 4 Sep signature date — per-gate evidence (Tuan Fatah internal sign-off record 3 Sep, Zaharudin signatory identity/baseline record) is NOT yet in the corpus. Capture the signed paper artifact + per-gate records into the substantiation pack (ACT-20260911-006) to convert this outcome from summary-attested to artifact-evidenced.
 
 ## Success Metrics
 
