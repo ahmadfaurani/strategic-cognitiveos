@@ -44,7 +44,7 @@ related_records:
   - ACT-20260911-001
   - ACT-20260911-004
 # === ACTION FIELDS [Tactical] ===
-required_output: "Formal substantiation pack: (1) signed engineering papers (CMERP × GovSec Technical Engineering Paper, CSM digital signature 4 Sep); (2) test evidence from integration validation; (3) acceptance records; assembled as a controlled document set suitable for CSM co-branding substantiation and CyberDSA launch evidence"
+required_output: "Formal substantiation pack: (1) signed engineering papers (CMERP × GovSec Technical Engineering Paper — CAPTURED 11 Sep as DOC-20260911-004 with SHA-256; authorisation block Fathi Kamil 4/9/2026 + Fuad 26/8/2026); (2) test evidence from integration validation; (3) acceptance records; assembled as a controlled document set suitable for CSM co-branding substantiation and CyberDSA launch evidence"
 deadline: "Recommended before CyberDSA doors (Oct 5-7); alignment with War Room readiness assessment and Sep 15 GTM lock-in session recommended"
 dependency:
   - "DAF owner assignment (pending)"
@@ -83,6 +83,10 @@ Unassigned as of intake (11 Sep). Recommend assignment at CyberDSA War Room (Had
 - DOC-20260822-002 — Gate 4 co-branding substantiation
 - Wan Roshaimi technical activation (Gate 4 dependency chain)
 - CyberDSA launch narrative (event Oct 5–7)
+
+## Progress Log
+
+- **2026-09-11 06:42 UTC — first artifact captured:** DOC-20260911-004 (signed paper PDF, sha-pinned). Pack = 1 of ≥8 artifacts per the DOC-20260822-002 minimum evidence package. Open pack items: test evidence (gates 1–4 test reports), acceptance records, per-gate sign-off records, LebahNet flow-C evidence. **Carry-forward question:** whether a cryptographically signed variant of the paper exists (the relayed PDF is a form-filled Quartz export, no signature object) — obtain from Fuad if Gate 4 needs PAdES-grade proof.
 
 ## Related Records
 

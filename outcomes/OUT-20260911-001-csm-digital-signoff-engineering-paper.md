@@ -69,7 +69,13 @@ INIT-20260804-002 — GovSec × CMERP Platform Integration Continuation
 | Full gate chain (6 steps) | T-30 / 5 Sep | ✅ Complete (mapping reconstructed from commitment schedule) |
 | CyberDSA buffer preserved at delivery | ≥25 days from T-30 | ✅ 30 days (5 Sep → doors 5 Oct) |
 
-**Evidence basis (Cognitive Loop 11 Sep):** The signature event itself is sourced to DAF's executive brief (11 Sep, single-source, authority statement). The gate-to-date mapping above is RECONSTRUCTED from the COM-20260827-001 schedule + the 4 Sep signature date — per-gate evidence (Tuan Fatah internal sign-off record 3 Sep, Zaharudin signatory identity/baseline record) is NOT yet in the corpus. Capture the signed paper artifact + per-gate records into the substantiation pack (ACT-20260911-006) to convert this outcome from summary-attested to artifact-evidenced.
+**Evidence basis (upgraded 11 Sep 06:42 — signed artifact received):** DAF relayed the signed paper itself (DOC-20260911-004, PDF, SHA-256 c7a3109d…f09d0, 21 pp). Milestone is now **artifact-partially-evidenced**: the authorisation block is present and dated — CSM: Fathi Kamil Mohd Zainuddin, Head of MyCERT, **4/9/2026**; ARAS: Ahmad Fuad Kamarazaman, 26/8/2026.
+
+**Two corrections from artifact inspection (supersede the reconstruction below):**
+1. **Signatory identity:** the CSM signatory is Fathi Kamil (Head of MyCERT — the CSM integration lead, STK-20260804-004), NOT Hafiz Rahman (gate 5) or Zaharudin (gate 6) as scheduled in COM-20260827-001. The date reconciles with the committed window; the signatory does not. The gate chain is re-read as: CSM technical endorsement delivered via the MyCERT integration lead.
+2. **Signature modality:** "digitally signed" = completed authorisation form fields (names + dates). The supplied PDF carries **no cryptographic signature object** (AcroForm only; Quartz print/export path — no /ByteRange, /SigFlags). If PAdES-grade proof is required for Gate 4, obtain the original signed/certified file from Fuad.
+
+**Prior reconstruction (retained for provenance, now superseded in part):** per-gate evidence (Tuan Fatah internal sign-off record 3 Sep, Hafiz Rahman validation record, Zaharudin baseline record) remains NOT in the corpus; test evidence and acceptance records still to be captured into the substantiation pack (ACT-20260911-006, of which this paper is the first artifact).
 
 ## Success Metrics
 
