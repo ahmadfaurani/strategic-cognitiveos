@@ -95,6 +95,7 @@ All registered stakeholders, grouped by type.
 | STK-20260820-001 | Dr. Ji-Jian Chin | University of Plymouth / CRC 2026 Organising Committee | New | Customised participation package discussion |
 | STK-20260820-002 | Orange Ng | WIG | New | Finance payment confirmation |
 | STK-20260827-001 | Hafiz Rahman | CSM Technical Validation Authority (SiberSUITE, reports to Zaharudin) | CyberSecurity Malaysia | New | CSM technical validation (T-32, Sep 4) |
+| STK-20260911-001 | Aizat Onn | Sales Executive — CyberDSA 2026 organiser account contact (deliverables due Sep 14) | Aerosea Exhibitions Sdn Bhd | Developing | Deliverables submission + payment timeline (by Sep 14) |
 
 ## Intelligence Subjects (OSINT — no direct engagement)
 

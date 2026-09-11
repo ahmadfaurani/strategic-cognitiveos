@@ -11,6 +11,7 @@ All registered organization records, chronological.
 | ORG-20260903-001 | MAPO (Majlis Antipemerdagangan Orang dan Antipenyeludupan Migran) | government-agency | government | None (intelligence subject) | STK-20260903-001 |
 | ORG-20260904-001 | NanoSec Community Team | community-team | cybersecurity | None (pending engagement) | TBD |
 | ORG-20260908-001 | Bank Simpanan Nasional (BSN) | commercial-prospect | financial-services | Engaging | STK-20260908-001~004 |
+| ORG-20260911-001 | Aerosea Exhibitions Sdn Bhd | private-company | events-exhibitions | Active | STK-20260911-001 |
 
 ---
 

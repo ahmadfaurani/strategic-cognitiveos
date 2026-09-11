@@ -100,6 +100,7 @@ All action records, grouped by status.
 | ACT-20260908-003 | Ember — GTM working-session pre-read pack (decisions D1–D7, dependency owners, MQL handover spec) before 15 Sep 3PM session | Ember | 2026-09-15 07:00 UTC (3PM MYT session) | High |
 | ACT-20260908-004 | Hadri — coordinate overall compilation of Shuhada's FSI Coverage List with Amelia (feeds SSE planning; lighthouse track) | Hadri × Amelia × Shuhada | Recommended 2026-09-18 (pre-Wave 1) — pending DAF confirmation | High |
 | ACT-20260908-005 | Amelia + Hadri — engage CSM team via email, cc Zulfeka (revive 12-month event calendar, LOI runway, focal person) | Amelia (lead) + Hadri | Recommended send by 2026-09-12; escalation if CSM silent by Sep 23 | Critical |
+| ACT-20260911-001 | CyberDSA 2026 — Aizat Onn (Aerosea) exhibitor deliverables due 14 Sep: payment timeline, OEM portal forms, company info (logo/description/website/socials), flash talk pack (topic/description/speaker/bio/photo), co-exhibitor confirmation | DAF (Farul+Dennis sign-off; Amelia marketing; Hadri war room; Fuad demo; Shuhada invites) | 2026-09-14 organiser — DAF committed mid-next-week (~Sep 15/16) | Critical |
 
 ---
 
