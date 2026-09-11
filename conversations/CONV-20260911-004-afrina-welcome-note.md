@@ -28,6 +28,7 @@ mission_alignment:
   - organisational-capability
 related_records:
   - STK-20260911-002
+  - DOC-20260911-001
   - STK-20260803-007
   - STK-20260804-003
   - STK-20260811-001
@@ -36,20 +37,22 @@ related_records:
 
 # Summary
 
-DAF welcome note for Afrina Syuhada (8 Sep 2026, cc Hadri / Ahmad Fuad / Syahir) with introduction request — recorded as onboarding intake; role and placement TBD.
+DAF welcome note for Afrina Syuhada (8 Sep 2026, cc Hadri / Ahmad Fuad / Syahir) with introduction request — recorded as onboarding intake; role resolved 11 Sep via resume intake (DOC-20260911-001): **14-week intern, 7 Sep – 11 Dec 2026**.
 
 ## Key Facts
 
 | Item | Detail |
 |------|--------|
-| New joiner | Afrina Syuhada (afrina.syuhada@arasintegrasi.ai) |
+| New joiner | Afrina Syuhada binti Jeffri Sem (afrina.syuhada@arasintegrasi.ai) |
 | Welcome sent | 8 Sep 2026, 11:30 MYT |
 | Ask | Brief self-introduction: background + professional aspirations (next few years) |
 | Cc | Hadri, Ahmad Fuad, Syahir |
-| Pending | Afrina's introduction; role / department / reporting line unknown |
+| Resume intake | 11 Sep (DOC-20260911-001) — UiTM CS Networking final-year; 14-week internship 7 Sep – 11 Dec 2026; SIEM/ELK/NLP-ML profile |
+| Pending | Afrina's self-introduction; placement, supervisor, reporting line (DAF decision) |
 
 ## Open Questions
 
-- Role, department, reporting line, start date
-- CyberDSA 2026 staffing intersection (booth / War Room support)
-- Has Afrina already replied on email? (welcome is 3 days old at intake)
+- Placement: which team/product lane (chain:SENTRY / GovSec TIP demo-data support is the skill-adjacent default) — DAF decision
+- Reporting line and day-to-day supervisor (supervision must respect no-new-scope on Fuad/Hadri through January)
+- Whether the internship offer/terms are confirmed (CV says "seeking"; welcome note suggests onboarding in progress)
+- Has Afrina already replied with her introduction on email? (welcome is 3 days old at intake)
