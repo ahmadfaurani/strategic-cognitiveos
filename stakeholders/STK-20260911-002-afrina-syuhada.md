@@ -54,8 +54,9 @@ related_records:
 | 2026-09-08 | DAF welcome note to team distribution list (cc Hadri, Ahmad Fuad, Syahir) | Self-introduction requested: background + professional aspirations for the next few years — awaiting Afrina's reply |
 | 2026-09-11 | DAF relayed Afrina's resume to Ember for intake (Telegram 02:51 UTC) | DOC-20260911-001 created — 14-week internship 7 Sep–11 Dec 2026, SIEM/ELK/NLP-ML profile |
 | 2026-09-11 | DAF placement directive (Telegram 03:03 UTC): assign to Fuad, part of Fuad's intern resources | DEC-20260911-002 — supervisor = Ahmad Fuad; intern bench = Syahir + Afrina |
+| 2026-09-11 | DAF relayed Afrina's completed FYP thesis (Telegram 03:13 UTC) | DOC-20260911-002 — supervisor-approved UiTM thesis (Jul 2026): 3-source unified SIEM log dataset (94,162 events), NLP/TF-IDF + Random Forest (79.81% acc / ROC-AUC 89.76%), multi-tab SOC dashboard |
 
-## Resume Profile (DOC-20260911-001 — self-reported, unverified)
+## Resume Profile (DOC-20260911-001 — self-reported, unverified; FYP thesis DOC-20260911-002 — supervisor-approved artefact)
 
 | Dimension | Detail |
 |-----------|--------|
@@ -65,6 +66,10 @@ related_records:
 | Programming/AI | Python, C/C++, Java, Assembly; NLP + ML (FYP: AI-based log aggregation for SIEM) |
 | Experience | Technician Intern, UTM Digital KL (Mar–Jul 2023) incl. IoT server-room temperature monitoring build |
 | Recognition | 1st place RTWH 4.0 Mini CTF; 2nd Questronics Hackathon; Training Exco UiTM Cyberheroes Club |
+
+## Completed FYP Artefact (DOC-20260911-002 — supervisor-approved, Jul 2026)
+
+AI-Based Log Aggregation Techniques for SIEM: 3 heterogeneous sources (firewall + Android endpoint + IoT under DDoS) → unified 94,162-event dataset; NLP/TF-IDF text features fused with structured features; Random Forest attack/normal classifier + per-entry risk score; held-out results 79.81% accuracy / ROC-AUC 89.76%; multi-tab SOC dashboard incl. incident-response and suggested-response tabs. Submitted Jul 2026, supervisor Ts. Dr. Mohsen Bin Mohamad Hata. **Direct demo relevance:** same pipeline shape as GovSec TIP / chain:SENTRY demo-data prep — Fuad can task adaptation of this artefact for CyberDSA booth demos.
 
 Full name per CV: "Afrina Syuhada binti Jeffri Sem" (welcome-note subject spelled "Shuhada" — CV spelling treated as canonical).
 
