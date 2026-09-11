@@ -84,7 +84,8 @@ Part 1 of the 3-part Telegram forward (11 Sep). Initially missed by the 10:13 UT
 
 ## Related Records
 
-- ART-20260911-001 — VoronVigil OMS TPRM Proposal document (attached)
+- ART-20260911-001 — VoronVigil OMS TPRM Proposal document (attached; evidenced by DOC-20260911-005)
+- DOC-20260911-005 — Proposal PDF v1.1, 37 pp, sha-pinned in repo (relayed by DAF 11 Sep 16:45 UTC)
 - ACT-20260911-007 — Azrul review + Phase 0–1 approval decision (open)
 - CONV-20260911-007 — CSM NDA working-level response (companion thread; two asks now with CSM)
 - INIT-20260824-001 — Bursa Malaysia VoronCitadel Sectorial POC (parent initiative; phase-model separation noted)
