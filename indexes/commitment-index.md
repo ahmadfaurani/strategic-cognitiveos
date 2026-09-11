@@ -20,7 +20,7 @@ All outstanding commitments, grouped by status.
 | COM-20260820-002 | Zulfeka to Check Schedule & Coordinate Working Group Sync-Up via Aishah | Zulfeka | DAF / Aras Integrasi | 2026-08-27 | Active | Low |
 | COM-20260820-003 | DAF Commits to Prepare 8-Section Consolidated POC Document for Monday Pre-Flight Check | DAF | Azrul / CSM | 2026-08-24 | Completed | Medium |
 | COM-20260826-002 | Hadri + Fuad — Firm Committed T-Minus ETA for Final Engineering Document Closure and Sign-Off | Hadri + Fuad | DAF | 2026-09-05 (T-30) | Fulfilled | High |
-| COM-20260828-001 | DAF commits to align on NDA principles at working level before routing to legal teams | faurani-jaafar | STK-20260813-008 (Azrul / CSM) | 2026-09-04 | Active | Low |
+| COM-20260828-001 | DAF commits to align on NDA principles at working level before routing to legal teams | faurani-jaafar | STK-20260813-008 (Azrul / CSM) | 2026-09-04 | ✅ COMPLETED — CSM aligned at working level 2 Sep 2026 (principles agreed, provisions to legal); evidence CONV-20260911-007 / OUT-20260911-002 | Low |
 | COM-20260828-002 | DAF commits to building upon and enhancing MCMC's existing capability, not duplicating | faurani-jaafar | STK-20260828-001 (Aravind / MCMC) | Ongoing (standing) | Active | Low |
 | COM-20260827-001 | Hadri Commits T-30 (Sep 5) for GovSec × CMERP Engineering Document Closure with 5-Step Gate Chain | Hadri | DAF | 2026-09-05 (T-30) | Delivered | High |
 | COM-20260908-001 | Hadri — chain:SENTRY documentation suite maintained as living documents (continuous updates) | hadri | DAF | Continuous (living) | Active | Medium — documentation drift risk (v4.1 precedent: docs outran deployment by 29 commits/40 days) |
@@ -47,3 +47,4 @@ All outstanding commitments, grouped by status.
 |----|-----------|-------|-----------------|----------|
 | COM-20260817-003 | Hadri to Propose MyCERT GenAI Alignment Workshop to CSM (Email Sent Aug 13) | hadri | 2026-08-13 | Status email confirmation (CONV-20260817-002) |
 | COM-20260827-001 | T-30 (Sep 5) GovSec × CMERP Engineering Document Closure — 5-Step Gate Chain | hadri | 2026-09-04 (CSM digital signature, within T-30 window) | CSM digitally signed CMERP × GovSec Technical Engineering Paper 4 Sep — DAF executive brief (CONV-20260911-006); outcome OUT-20260911-001 |
+| COM-20260828-001 | DAF commits to align on NDA principles at working level before routing to legal teams | faurani-jaafar | 2026-09-02 (CSM working-level alignment received) | CSM agreed principle set 2 Sep 2026, endorsed progression to legal review — CONV-20260911-007; outcome OUT-20260911-002 |

@@ -3,7 +3,7 @@ id: RSK-20260828-001
 record_type: risk
 title: "NDA IP Terms Negotiation Risk — 4 Critical Provisions May Require Reconciliation"
 created_at: 2026-08-28T08:58:00+00:00
-updated_at: 2026-08-28T08:58:00+00:00
+updated_at: '2026-09-11T10:13:00+00:00'
 owner: faurani-jaafar
 status: identified
 priority: high
@@ -37,17 +37,19 @@ related_records:
 risk_type: legal-negotiation
 risk_category: governance
 related_initiative: INIT-20260824-001
-probability: medium
-likelihood: medium
+probability: low
 impact: high
 priority: high
 mitigation: "DAF has pre-emptively framed 4 provisions for targeted review rather than opening entire document for debate. Working-level alignment before legal review reduces legal iteration cycles."
-escalation_trigger: "No response from Azrul within 7 days (Sep 4)"
 ---
 
 # Risk
 
 The NDA Framework's 4 critical IP provisions may require negotiation or counter-proposals from CSM, potentially delaying the POC technical discovery phase.
+
+## Mitigation Update — 2026-09-11 (CSM Response Intake)
+
+**Partially mitigated.** CSM's 2 Sep response (CONV-20260911-007, OUT-20260911-002) agreed the framework's principle set at working level with no counter-proposals — the original 'provisions may require reconciliation' scenario did not materialise. Probability lowered medium → low. Residual risk: joint legal-review duration (ACT-20260828-002) and alignment of deferred IP provisions (incl. indemnity, added by CSM) with Bursa Malaysia's requirements. Risk remains open until the formal NDA is signed; if legal review extends past the pre-CyberDSA window, competitive-window compression (RSK-20260827-001) re-intensifies.
 
 ## 4 Critical Provisions at Risk of Negotiation
 

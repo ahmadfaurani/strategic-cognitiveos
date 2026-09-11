@@ -24,7 +24,7 @@ All initiatives, grouped by portfolio tier.
 | INIT-20260810-003 | GovSec CyberDSA Product Launch Readiness | faurani-jaafar | Active | Prototype | Weekly (Aug–Oct) |
 | INIT-20260811-001 | Cybersecurity Flagship Product Consolidation & Productisation Programme | faurani-jaafar | Active | Concept — Three co-branded products defined for CyberDSA launch; alignment session proposed | 2026-08-22 |
 | INIT-20260820-003 | VoronCitadel POC Mode Activation — 6-7 POC + 3 Paying | DAF | Active | Framed — FTE model built, Teras as infra layer, HoE hire gates activation | 2026-08-27 |
-| INIT-20260824-001 | Bursa Malaysia VoronCitadel Sectorial POC | faurani-jaafar | Active | Pilot — Phase 0 TPRM-first approach established; 3-4 orgs; 24-entity federation as hypothesis; 4-month timeline | 2026-09-07 |
+| INIT-20260824-001 | Bursa Malaysia VoronCitadel Sectorial POC | faurani-jaafar | Active | Pilot — Phase 0 TPRM-first approach established; 3-4 orgs; 24-entity federation as hypothesis; 4-month timeline; NDA principles aligned with CSM 2 Sep, joint legal review active (ACT-20260828-002) | 2026-09-11 |
 
 ## Incubation
 
@@ -66,3 +66,8 @@ _— Updated 2026-08-13 (Intake 2): Added INIT-20260813-002 (CSM AI Token Alloca
 |----|-------|-------|--------|-------------|
 | INIT-20260820-002 | RADAR — Data Research Acquisition & Development Agency | faurani-jaafar | Draft | — |
 | INIT-20260908-001 | VoronCitadel Marketing Execution Plan — 9 initiatives, RM230k, 78 MQLs (Sep 15–Dec 31 2026) | faurani-jaafar (delivery: Said Farid, WIG) | Active | 2026-09-15 working session (EVT-20260908-001) |
+
+
+---
+
+_Changelog: 2026-09-11 10:13 UTC — INIT-20260824-001 status review refreshed: NDA principles aligned with CSM 2 Sep (principles agreed; IP provisions routed to joint legal review + Bursa Malaysia alignment); ACT-20260828-002 joint legal review now active critical-path gate; hard gate = formal NDA before any restricted Bursa exchange. Source CONV-20260911-007, outcome OUT-20260911-002._

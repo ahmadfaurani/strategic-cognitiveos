@@ -3,18 +3,18 @@ id: ACT-20260828-002
 record_type: action
 title: "Joint Legal Review — Convert NDA Framework into Formal Agreement"
 created_at: 2026-08-28T08:58:00+00:00
-updated_at: 2026-08-28T08:58:00+00:00
+updated_at: '2026-09-11T10:13:00+00:00'
 owner: faurani-jaafar
 assignee: faurani-jaafar
 co_owner:
   - azrul-nazim
-status: pending
+status: active
 priority: high
 sensitivity: confidential
 classification: legal
 lifecycle_state: canonical
 confidence: high
-action_type: legal-process
+action_type: governance
 tags:
   - domain/csm-partnership
   - domain/legal
@@ -54,6 +54,14 @@ related_stakeholder:
 # Action
 
 After working-level alignment on the NDA Framework principles is achieved between Aras and CSM, proceed to a joint legal review to convert the framework into the appropriate formal agreement.
+
+## Status Update — 2026-09-11 (CSM Response Intake)
+
+- **Predecessor condition MET:** CSM working-level alignment received 2 Sep 2026 (CONV-20260911-007, OUT-20260911-002) — principles agreed, provisions deferred to legal validation.
+- **Status:** pending → active. This action is now the critical-path gate for any exchange of restricted Bursa information.
+- **Legal-review agenda (5 items, per CSM response):** Foreground IP ownership · Background IP licensing arrangements · sublicensing rights · indemnity obligations (added by CSM to DAF's original four) · associated contractual rights. CSM requires alignment with Bursa Malaysia's requirements where applicable.
+- **Process gate:** CSM proposes a representative-level working discussion before legal teams finalise structure — convening that session is the immediate Aras move.
+- **Timeline:** pre-CyberDSA (Oct 5) target unchanged; 6-8 week competitive window (INT-20260827-003) governs urgency.
 
 ## Required Output
 

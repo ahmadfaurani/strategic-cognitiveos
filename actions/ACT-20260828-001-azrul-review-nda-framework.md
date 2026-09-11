@@ -3,17 +3,17 @@ id: ACT-20260828-001
 record_type: action
 title: "Azrul (CSM) — Review NDA Framework and Provide Views on 4 Critical IP Provisions"
 created_at: 2026-08-28T08:58:00+00:00
-updated_at: 2026-08-28T08:58:00+00:00
+updated_at: '2026-09-11T10:13:00+00:00'
 owner: faurani-jaafar
 assignee: azrul-nazim
 co_owner: []
-status: active
+status: completed
 priority: high
 sensitivity: confidential
 classification: external-dependency
 lifecycle_state: canonical
 confidence: high
-action_type: review-response
+action_type: analysis
 tags:
   - domain/csm-partnership
   - domain/legal
@@ -38,9 +38,9 @@ required_output: "CSM written response on 4 critical IP provisions — positions
 deadline: "2026-09-04 (T-31, one week from sending)"
 dependency: []
 attention_level: high
-completion_evidence: ""
-completed_at: ""
-validation_note: ""
+completion_evidence: "CSM written response received 2 Sep 2026 11:47 MYT (Azrul Aziz → DAF, 'Re: Bursa Malaysia : NDA Framework For Review') — 2 days inside the 4 Sep deadline. Positions: 7 framework principles agreed as reasonable basis for further discussion and legal assessment; specific provisions (Foreground IP ownership, Background IP licensing, sublicensing rights, indemnity obligations, associated contractual rights) deferred to both legal teams + Bursa Malaysia alignment. CSM proposes representative-level discussion to determine contractual structure before any restricted Bursa exchange."
+completed_at: 2026-09-11T10:13:00+00:00
+validation_note: "Required output met in full — CSM written response received with positions on all flagged provisions (plus indemnity added by CSM). Outcome recorded OUT-20260911-002; source CONV-20260911-007. No renegotiation triggered; escalation trigger (Sep 4) did not fire."
 predecessor: "CONV-20260828-001 (email sent)"
 related_initiative:
   - INIT-20260824-001

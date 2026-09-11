@@ -3,7 +3,7 @@ id: ART-20260828-001
 record_type: artifact
 title: "CSM × Aras Integrasi NDA Framework — Bursa Malaysia POC"
 created_at: 2026-08-28T08:58:00+00:00
-updated_at: 2026-08-28T08:58:00+00:00
+updated_at: '2026-09-11T10:13:00+00:00'
 owner: faurani-jaafar
 status: active
 priority: high
@@ -33,7 +33,7 @@ related_records:
   - INIT-20260824-001
   - DEC-20260828-001
 # === ARTIFACT FIELDS [Operational] ===
-artifact_type: "legal-framework"
+artifact_type: "framework"
 file_path: "Attached to CONV-20260828-001 email (not yet stored in CognitiveOS)"
 version: "v1 (working draft)"
 created_by: faurani-jaafar
@@ -50,6 +50,10 @@ Attached to email CONV-20260828-001. Not yet stored as file in CognitiveOS (phys
 # Version
 
 v1 — Working draft for CSM review and alignment
+
+## Version Update — 2026-09-11 (CSM Response Intake)
+
+CSM working-level response received 2 Sep 2026 (CONV-20260911-007): 7 of 11 principles endorsed as reasonable basis; provisions deferred to joint legal review (Foreground IP, Background IP licensing, sublicensing, indemnity, contractual rights) with Bursa Malaysia alignment required where applicable. Framework architecture (Aras Background IP / Bursa Foreground IP via CSM sublicensing / non-reuse) survived working-level review intact — v1 advances to legal drafting as the basis (ACT-20260828-002).
 
 # Summary
 

@@ -103,6 +103,10 @@ Operationalise MoU: joint training, product showcase, market access, event parti
 
 Post-MoU active engagement. Technical training delivered Aug 14 to joint sales teams. CSM requested improvements and additional training. Aisha PIC proposed. CSM event participation proposed separately from CyberDSA.
 
+## Engagement Update — 2 Sep 2026 (NDA Track)
+
+CSM (Azrul Aziz, Head Industry Engagement & Collaboration) delivered written working-level alignment on the Bursa NDA Framework: principles agreed; IP provisions (Foreground IP, Background IP licensing, sublicensing, indemnity, contractual rights) deferred to both parties' legal teams with Bursa Malaysia alignment where applicable. CSM team added to thread: Madihah Zulfa, Zulfeka, Fahdzli, Izwadee — NDA discussion now surfaced to CSM business side. Outcome: OUT-20260911-002 (CONV-20260911-007). Next: joint legal review (ACT-20260828-002) before any restricted Bursa exchange.
+
 # Decision Authority
 
 En. Zulfeka (Head of Business Development & Industry Affairs) — confirmed via email thread

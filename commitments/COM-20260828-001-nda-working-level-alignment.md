@@ -3,9 +3,9 @@ id: COM-20260828-001
 record_type: commitment
 title: "DAF commits to align on NDA principles at working level before routing to legal teams"
 created_at: 2026-08-28T08:58:00+00:00
-updated_at: 2026-08-28T08:58:00+00:00
+updated_at: '2026-09-11T10:13:00+00:00'
 owner: faurani-jaafar
-status: active
+status: completed
 priority: high
 sensitivity: confidential
 lifecycle_state: canonical
@@ -42,6 +42,10 @@ dependencies:
 # Commitment
 
 DAF commits to aligning on the NDA Framework principles at the working level with Azrul and CSM before routing the document to respective legal teams for formal agreement drafting.
+
+## FULFILLED — 2026-09-11 (CSM Response Intake)
+
+Sequencing commitment honoured both directions: DAF aligned principles at working level (28 Aug email); CSM responded 2 Sep 2026 agreeing the principle set as a reasonable basis and endorsing progression to representative-level discussion and legal review — no principles were renegotiated before legal routing. Evidence: CONV-20260911-007, OUT-20260911-002. Downstream gate: ACT-20260828-002 (joint legal review).
 
 ## Commitment Owner
 
