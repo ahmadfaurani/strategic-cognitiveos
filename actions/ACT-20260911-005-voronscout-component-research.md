@@ -4,7 +4,7 @@ id: ACT-20260911-005
 record_type: action
 title: "VoronScout component research — Clearbit + crt.sh alternatives and reNgine workflow review (intern tasking)"
 created_at: 2026-09-11T03:21:00+00:00
-updated_at: 2026-09-11T03:21:00+00:00
+updated_at: 2026-09-11T05:02:00+00:00
 owner: afrina-syuhada
 assignee: afrina-syuhada
 co_owner:
@@ -35,8 +35,8 @@ tags:
 source:
   type: email
   reference: "Ahmad Fuad → Afrina, cc Hadri + DAF, 9 Sep 2026 16:02 MYT — 'VoronScout Engine Component Research'. Forwarded to Ember (Telegram) 11 Sep 03:19 UTC."
-summary: "Fuad tasking (9 Sep, day after Afrina's start): research alternatives for two unreliable VoronScout light-engine components — Clearbit and crt.sh — ahead of refitting the engine into the VoronCitadel platform. Deliverable: alternatives table (agreed 8 Sep format) evaluated on cost and functionality, evaluation session set for 10 Sep. Secondary: study reNgine (github.com/yogeshojha/rengine) whose workflow is almost identical to VoronScout's; codebase onboarding via attached VoronScout script (architecture v8.1). Evaluation-session outcome unknown as of intake (11 Sep)."
-strategic_significance: "First documented intern tasking on a live product workstream: intern capacity applied to the VoronScout engine refit feeding VoronCitadel ahead of CyberDSA — supervision displacing-not-adding scope in practice (Fuad directs; DAF + Hadri cc'd oversight). Component-reliability dimension: crt.sh subdomain enumeration is a documented VoronScout capability and the live-scan visual was the compelling element of the Bursa POC design — unreliable upstream components are a demo-quality and product-credibility risk. reNgine comparison gives Fuad a free/open-source architectural baseline for the refit decision. Watch: evaluation was due 10 Sep (passed as of intake); outcome and any selected alternatives unrecorded."
+summary: "Fuad tasking (9 Sep — day 3 of her internship window per CV start 7 Sep; day 1 in-office was the 8 Sep welcome): research alternatives for two unreliable VoronScout light-engine components — Clearbit and crt.sh — ahead of refitting the engine into the VoronCitadel platform. Deliverable: alternatives table (agreed 8 Sep format) evaluated on cost and functionality, evaluation session set for 10 Sep. Secondary: study reNgine (github.com/yogeshojha/rengine) whose workflow is almost identical to VoronScout's; codebase onboarding via attached VoronScout script (architecture v8.1). Evaluation-session outcome unknown as of intake (11 Sep)."
+strategic_significance: "Afrina's first documented tasking, applied to a live product workstream — NOT the practice's first intern product tasking (Syahir's 9 Sep 14:29 MYT chain:SENTRY/VoronCitadel/GovSec enhancement tasking, CONV-20260911-003, predates this email by ~1.5 hours; loop fix 11 Sep). Intern capacity applied to the VoronScout engine refit feeding VoronCitadel ahead of CyberDSA — supervision displacing-not-adding scope in practice (Fuad directs; DAF + Hadri cc'd oversight). Component-reliability dimension: crt.sh subdomain enumeration is a documented VoronScout capability and the live-scan visual was the compelling element of the Bursa POC design — unreliable upstream components are a demo-quality and product-credibility risk. reNgine comparison gives Fuad a free/open-source architectural baseline for the refit decision. Watch: evaluation was due 10 Sep (passed as of intake); outcome and any selected alternatives unrecorded."
 mission_alignment:
   - productisation
 related_records:
