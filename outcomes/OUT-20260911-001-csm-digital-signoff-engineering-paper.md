@@ -77,6 +77,8 @@ INIT-20260804-002 — GovSec × CMERP Platform Integration Continuation
 
 **Prior reconstruction (retained for provenance, now superseded in part):** per-gate evidence (Tuan Fatah internal sign-off record 3 Sep, Hafiz Rahman validation record, Zaharudin baseline record) remains NOT in the corpus; test evidence and acceptance records still to be captured into the substantiation pack (ACT-20260911-006, of which this paper is the first artifact).
 
+**Signature-modality ruling (final, 11 Sep 07:03 UTC):** DAF confirmed NO cryptographically signed variant of the paper exists. The form-field authorisation block (Fathi Kamil, Head of MyCERT, 4/9/2026 + Fuad 26/8/2026) is the signature of record. Evidence grade stands at **artifact-partially-evidenced (form-field acknowledgement)** — final, not pending a better variant. Narrative consequence: external copy uses "signed by CSM, 4 Sep 2026 (authorisation block)", not "digitally signed" (folds into the A3 narrative-hygiene line).
+
 ## Success Metrics
 
 - Digital signature affixed by CSM on the engineering paper (verified per DAF brief)

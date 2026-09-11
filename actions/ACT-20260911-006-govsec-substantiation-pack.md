@@ -86,7 +86,7 @@ Unassigned as of intake (11 Sep). Recommend assignment at CyberDSA War Room (Had
 
 ## Progress Log
 
-- **2026-09-11 06:42 UTC — first artifact captured:** DOC-20260911-004 (signed paper PDF, sha-pinned). Pack = 1 of ≥8 artifacts per the DOC-20260822-002 minimum evidence package. Open pack items: test evidence (gates 1–4 test reports), acceptance records, per-gate sign-off records, LebahNet flow-C evidence. **Carry-forward question:** whether a cryptographically signed variant of the paper exists (the relayed PDF is a form-filled Quartz export, no signature object) — obtain from Fuad if Gate 4 needs PAdES-grade proof.
+- **2026-09-11 06:42 UTC — first artifact captured:** DOC-20260911-004 (signed paper PDF, sha-pinned). Pack = 1 of ≥8 artifacts per the DOC-20260822-002 minimum evidence package. Open pack items: test evidence (gates 1–4 test reports), acceptance records, per-gate sign-off records, LebahNet flow-C evidence. **Signature modality RESOLVED (DAF ruling, 07:03 UTC): no cryptographically signed variant exists — the form-field authorisation block IS the signature of record.** External phrasing: "signed by CSM, 4 Sep 2026 (authorisation block)" — not "digitally signed" (folds into A3 narrative-hygiene line).
 
 ## Related Records
 
