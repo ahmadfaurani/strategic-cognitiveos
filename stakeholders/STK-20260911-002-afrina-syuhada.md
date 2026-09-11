@@ -32,11 +32,13 @@ priority: medium
 source:
   type: email
   reference: "DAF welcome note 'Welcome Note : Afrina Shuhada', 8 Sep 2026 11:30 MYT, To: afrina.syuhada@arasintegrasi.ai, Cc: Hadri, Ahmad Fuad, Syahir. Forwarded to Ember (Telegram) 11 Sep 02:44 UTC for CognitiveOS intake."
-summary: "Afrina Syuhada binti Jeffri Sem — intern at Aras Integrasi Sdn Bhd (afrina.syuhada@arasintegrasi.ai, classified internal per standing rule). Welcomed by DAF 8 Sep 2026 (cc Hadri/Ahmad Fuad/Syahir) with self-introduction request — pending. Resume (DOC-20260911-001, relayed 11 Sep): final-year UiTM CS (Networking) CGPA 3.30, 14-week internship 7 Sep – 11 Dec 2026; SIEM/ELK/log-analysis + NLP/ML + IoT skills; CTF 1st place RTWH 4.0; prior UTM Digital technician internship (2023). PLACEMENT RESOLVED (DEC-20260911-002, 11 Sep): assigned to Ahmad Fuad, part of Fuad's intern resources (alongside Syahir per DEC-20260818-007). Personal contact details held in source PDF only (PII minimisation)."
+summary: "Afrina Syuhada binti Jeffri Sem — intern at Aras Integrasi Sdn Bhd (afrina.syuhada@arasintegrasi.ai, classified internal per standing rule). Welcomed by DAF 8 Sep 2026 (cc Hadri/Ahmad Fuad/Syahir). Resume (DOC-20260911-001, relayed 11 Sep): final-year UiTM CS (Networking) CGPA 3.30, 14-week internship 7 Sep – 11 Dec 2026; SIEM/ELK/log-analysis + NLP/ML + IoT skills; CTF 1st place RTWH 4.0; prior UTM Digital technician internship (2023). PLACEMENT (DEC-20260911-002, 11 Sep): assigned to Ahmad Fuad, part of Fuad's intern resources (alongside Syahir per DEC-20260818-007). FIRST TASKING (ACT-20260911-005, directed 9 Sep): VoronScout component research — Clearbit + crt.sh alternatives for the light-engine refit into VoronCitadel + reNgine workflow study; evaluation session was set 10 Sep (outcome unknown). Personal contact details held in source PDF only (PII minimisation)."
 strategic_significance: "Team-capacity signal: any headcount addition ahead of CyberDSA 2026 (Oct 5-7) intersects the 2-FTE capacity map (21 deliverables, 5 phases) and the Fuad/Hadri SPOF watch through Q4. Role undeclared — placement unknown; update this record and the capacity map once her role is confirmed. Identity-guard: distinct from Shuhada M. Halimi (STK-20260808-003, shuhada@arasintegrasi.ai, Sales Director) — similar name components, different person; records must not be merged."
 related_records:
   - DOC-20260911-001
   - CONV-20260911-004
+  - CONV-20260911-005
+  - ACT-20260911-005
   - DEC-20260911-002
   - STK-20260804-003
   - STK-20260811-001
@@ -55,6 +57,7 @@ related_records:
 | 2026-09-11 | DAF relayed Afrina's resume to Ember for intake (Telegram 02:51 UTC) | DOC-20260911-001 created — 14-week internship 7 Sep–11 Dec 2026, SIEM/ELK/NLP-ML profile |
 | 2026-09-11 | DAF placement directive (Telegram 03:03 UTC): assign to Fuad, part of Fuad's intern resources | DEC-20260911-002 — supervisor = Ahmad Fuad; intern bench = Syahir + Afrina |
 | 2026-09-11 | DAF relayed Afrina's completed FYP thesis (Telegram 03:13 UTC) | DOC-20260911-002 — supervisor-approved UiTM thesis (Jul 2026): 3-source unified SIEM log dataset (94,162 events), NLP/TF-IDF + Random Forest (79.81% acc / ROC-AUC 89.76%), multi-tab SOC dashboard |
+| 2026-09-08 (context) / 11 Sep (intake) | Fuad tasking email 9 Sep 16:02 MYT: VoronScout engine component research | CONV-20260911-005 + ACT-20260911-005 — Clearbit + crt.sh alternatives (agreed table format, cost/functionality evaluation set 10 Sep), reNgine workflow study, VoronScout v8.1 codebase onboarding. **First tasking confirmed: live product work, not SIEM/ELK demo-data lane** |
 
 ## Resume Profile (DOC-20260911-001 — self-reported, unverified; FYP thesis DOC-20260911-002 — supervisor-approved artefact)
 
@@ -82,6 +85,6 @@ Full name per CV: "Afrina Syuhada binti Jeffri Sem" (welcome-note subject spelle
 ## Open Questions
 
 - ~~Placement / reporting line~~ ✅ RESOLVED 11 Sep (DEC-20260911-002): assigned to Ahmad Fuad, part of Fuad's intern resources
-- Fuad to define Afrina's first tasking within CyberDSA demo-data priorities
+- ~~First tasking~~ ✅ IDENTIFIED (ACT-20260911-005): VoronScout component research (directed 9 Sep) — outcome of the 10 Sep evaluation session unknown
 - Whether the internship offer/terms are confirmed (CV says "seeking"; welcome note suggests onboarding in progress)
 - Whether Afrina has already replied with her introduction on email (welcome note is 3 days old at intake)
