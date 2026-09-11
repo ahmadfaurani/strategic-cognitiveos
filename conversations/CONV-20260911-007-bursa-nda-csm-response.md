@@ -125,13 +125,14 @@ CSM written response to the working NDA Framework (DAF → Azrul, 28 Aug 2026), 
 - INIT-20260824-001 — Bursa Malaysia VoronCitadel Sectorial POC
 - OPP-20260820-001 — VoronCitadel POC — Bursa Malaysia (opportunity)
 - STK-20260813-008 — Azrul Nazim (CSM)
+- CONV-20260911-008 — VoronVigil OMS TPRM Proposal email (Part 1 of this forward, recorded separately)
 
-## Provenance Note — 3-Part Telegram Forward (11 Sep)
+## Provenance Note — 3-Part Telegram Forward (11 Sep) — CORRECTED 11:35 UTC
 
-The thread reached Ember as three message parts; only Part 3 entered the intake session at 10:13 UTC. Parts 1–2 were recovered from the main-session thread capture at 09:51 UTC, 11 Sep, before any record was committed — the positions and outcome in this record derive from the complete thread:
+The thread reached Ember as three message parts; only Part 3 entered the intake session at 10:13 UTC. Parts 1–2 were recovered from the main-session thread capture at 09:51 UTC, 11 Sep. Initial version of this note mislabelled the parts — DAF corrected at 11:35 UTC:
 
-- **Part 1** — Azrul's 2 Sep response in full (source of the CSM positions table).
-- **Part 2** — DAF's 28 Aug opening: greeting, engagement framing (Bursa Malaysia OMS × VoronCitadel GRC Platform POC), and framework principles 1–8 (Confidentiality & Restricted Information · No Marketing/Publicity · PDPA Handling · Foreground IP–Bursa Ownership · Background IP–Aras Ownership · CSM Usage & Bursa Sublicensing · Mandatory Background IP Disclosure · Non-reuse Restriction).
-- **Part 3** (intake trigger, 10:13 UTC) — principles 9–10 (IP Warranty & Indemnity · Subsequent Service Agreement) + working-level-alignment ask, attached working NDA Framework, joint-legal-review proposal, signature block.
+- **Part 1 — DAF → Azrul: VoronVigil OMS TPRM Proposal email (sent 11 Sep 2026)** — a separate, newer email proposing the VoronVigil platform for OMS provider oversight (ITSS 10.3/10.4, Sovereign AI, CTDM, six-phase implementation) with an explicit request: approval to commence Phase 0–1. Originally missed by the intake; now ingested separately as **CONV-20260911-008 + ART-20260911-001 + ACT-20260911-007**.
+- **Part 2 — Azrul's 2 Sep response in full** (source of the CSM positions table), quoting below it DAF's 28 Aug NDA email opening: engagement framing (Bursa Malaysia OMS × VoronCitadel GRC Platform POC) + framework principles 1–8. Note: this reply PREDATES the VoronVigil proposal and addresses the NDA only — it is not a response to the Phase 0–1 approval ask.
+- **Part 3** (intake trigger, 10:13 UTC) — tail of the 28 Aug NDA email: principles 9–10 (IP Warranty & Indemnity · Subsequent Service Agreement) + working-level-alignment ask, attached framework, joint-legal-review proposal, signature block.
 
-No content gap. ART-20260828-001 remains the authoritative full 11-principle enumeration.
+The CSM positions and outcome in this record derive from the complete thread. ART-20260828-001 remains the authoritative 11-principle enumeration.
