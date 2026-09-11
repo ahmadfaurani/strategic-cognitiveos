@@ -91,7 +91,7 @@ All action records, grouped by status.
 | ACT-20260828-003 | Aravind (MCMC) to Provide Telemetry Data Schema and Data Structure Visibility | Aravind | TBD (no explicit deadline) | High |
 | ACT-20260828-004 | Coordinate and Schedule MCMC AI Capability Development Workshop | DAF + Hadri + Aravind | ~Sep 18 (2-3 weeks) | High |
 | ACT-20260829-001 | Define Aishah (CSM MQL Receiver) Job Scope — CSM Commercial MQL PIC Role Definition | DAF | 2026-08-29 | Resolved |
-| ACT-20260829-002 | Schedule Fuad Career Direction Conversation — Week of Sep 7 | DAF | 2026-09-07 | High |
+| ACT-20260829-002 | Schedule Fuad Career Direction Conversation — Week of Sep 7 | DAF | 2026-09-07 | ✅ COMPLETED — conversation conducted, DAF-confirmed Sep 11 01:50 UTC; outcome documented DEC-20260911-001 (Fuad retained as technical leadership; ESF-20260829-002 activated); §17 action list pending DAF review before delivery to Fuad |
 | ACT-20260904-001 | Syahir to execute C1 credential rotation (delegated by Hadri per DEC-20260904-001) | Syahir (delegated by Hadri) | Immediate — 16 days exposure | ✅ COMPLETED — operator-confirmed Sep 8, 01:29 UTC; C2 unblocked |
 | ACT-20260904-002 | Hadri to deliver NanoSec Collaboration Email for CyberDSA (prerequisite for B1 pentesting) | Hadri | This week — B1 gate Sep 15 | High |
 | ACT-20260904-003 | GovSec TIP B1 Pentesting — Engage NanoSec Community Team | Hadri (operational) | B1 gate Sep 15 — pen test must start this week | High |
