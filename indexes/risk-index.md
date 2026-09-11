@@ -41,7 +41,7 @@ All identified risks, grouped by status.
 | RSK-20260908-002 | 78-MQL target governed by unresolved conversion model (413×19% vs 1,300×20%→260×30%) [DISPUTED]; enrichment is single reconciliation point | planning/conversion-assumption | INIT-20260908-001 | High | Medium | High | Active |
 | RSK-20260829-001 | Syahir Capacity Risk — Triple-Hatted with Competing September Deadlines | operational | INIT-20260811-001 | High | High | High | Active |
 | RSK-20260829-002 | chain:SENTRY Knowledge Transfer Gap — No Briefing Scheduled, 43 Uncommitted Mods | knowledge-management | INIT-20260811-001 | High | High | High | Active |
-| RSK-20260826-001 | Engineering Document Closure Timeline Risk — Sequential Gate Chain May Not Complete in Time for CyberDSA | timing | INIT-20260804-002 | Low | High | High | Mitigating |
+| RSK-20260826-001 | Engineering Document Closure Timeline Risk — Sequential Gate Chain May Not Complete in Time for CyberDSA | timing | INIT-20260804-002 | Low | High | High | Closed |
 
 ## Mitigating
 
