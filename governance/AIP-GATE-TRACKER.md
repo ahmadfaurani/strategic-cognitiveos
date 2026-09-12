@@ -67,19 +67,19 @@
 ## Deadline Alert Register
 
 **Checked daily. Flags within 72h of deadline.**
-**Last checked:** 2026-09-11 15:48 UTC (automated daily gate check)
+**Last checked:** 2026-09-12 15:48 UTC (automated daily gate check)
 
 | Date | Phase | Deadline | Hours Remaining | Alert Status |
 |------|-------|----------|-----------------|--------------|
-| Sep 11 | A3 (Commercial Packaging) | Sep 5 | **OVERDUE (~6.7 days)** | 🔴 OVERDUE (CRITICAL) — NOT STARTED. DAF+Fuad. Pricing, POC template, SLA terms. A1 PASSED so dependency cleared; Cost Centre Plan v1.0 supplies the cost baseline half. **ACTION: DAF+Fuad to deliver commercial packaging NOW — CSM channel cannot quote without it. Overdue window widening daily (day 7 past deadline).** |
-| Sep 11 | B1 (Security Remediation) | Sep 15 | ~3.3 days (~80h) | 🟡 WATCH — outside 72h window by ~8h; enters window Sep 12 00:00 UTC. Pen-test math broken: with ~3.3 days to the gate, the ~2-week NanoSec pen test window cannot fit before Sep 15. Hadri's NanoSec Collaboration Email (ACT-20260904-002) is the deciding factor — deliver immediately or DAF re-dates B1. |
-| Sep 11 | A4 (White-Label Readiness) | Sep 15 | ~3.3 days (~80h) | 🟡 WATCH — enters 72h window Sep 12 00:00 UTC. Fuad+DAF. Depends on A2 (RESOLVED). UI/UX for CSM co-brand. |
-| Sep 11 | Second Engineer Assessment | Sep 15 | ~3.3 days (~80h) | 🟡 WATCH — enters 72h window Sep 12 00:00 UTC. DAF. HoE hiring approval gates October. No engineering relief before Jan 2027. |
-| Sep 11 | JD pack (chain:SENTRY capacity) | Sep 16 | ~4.3 days (~104h) | 🟢 OK — outside 72h window. Hadri delivers Overall JD pack (ACT-20260908-002) per adopted 7-FTE model (DEC-20260908-001). |
-| Sep 11 | C1 (Credentials) | Aug 30 | RESOLVED | ✅ RESOLVED — operator-confirmed Sep 8 01:29 UTC (DAF Telegram "C1 YES"). 4 exposed keys revoked and reissued. C2 unblocked. Row retained for audit trail. |
-| Sep 11 | C2 (Deployment Parity) | Sep 30 (re-baselined, DEC-20260908-002) | ~18.3 days (~440h) | 🟢 OK — re-baselined Sep 8 on adopted Op Plan trajectory; daily urgency signal retired. First execution checkpoint: M2 regression decision (Fuad). |
-| Sep 11 | TBH-001 escalation | Sep 3 | N/A | ✅ MOOT — Hiring approach decided Aug 28. Escalation clock stopped. Interim delegation plan active. No longer applicable. |
-| Sep 11 | External security assessor | Sep 1 | **RESOLVED** | ✅ RESOLVED Sep 4 — NanoSec Community Team replaces external assessor (DEC-20260904-002). Prerequisite: Hadri delivers NanoSec Collaboration Email (ACT-20260904-002). |
+| Sep 12 | A3 (Commercial Packaging) | Sep 5 | **OVERDUE (~7.7 days / ~184h)** | 🔴 OVERDUE (CRITICAL) — NOT STARTED. DAF+Fuad. Pricing, POC template, SLA terms. A1 PASSED so dependency cleared; Cost Centre Plan v1.0 supplies the cost baseline half. **ACTION: DAF+Fuad to deliver commercial packaging NOW — CSM channel cannot quote without it. Overdue window widening daily (day 8 past deadline).** |
+| Sep 12 | B1 (Security Remediation) | Sep 15 | ~56h | 🟠 APPROACHING — inside 72h window. Pen-test math remains broken: the ~2-week NanoSec pen test window cannot fit before Sep 15. DAF directed Sep 12 that the B1 re-date/options decision is postponed until after Oct 7 — gate remains Sep 15 on paper with no viable pass path as dated; formal re-baseline expected. Hadri's NanoSec Collaboration Email (ACT-20260904-002) remains the deciding prerequisite whenever the re-date lands. |
+| Sep 12 | A4 (White-Label Readiness) | Sep 15 | ~56h | 🟠 APPROACHING — inside 72h window. Fuad+DAF. Depends on A2 (RESOLVED). UI/UX for CSM co-brand. |
+| Sep 12 | Second Engineer Assessment | Sep 15 | ~56h | 🟠 APPROACHING — inside 72h window. DAF. HoE hiring approval gates October. No engineering relief before Jan 2027. |
+| Sep 12 | JD pack (chain:SENTRY capacity) | Sep 16 | ~80h | 🟢 OK — outside 72h window by ~8h; enters window Sep 13 00:00 UTC. Hadri delivers Overall JD pack (ACT-20260908-002) per adopted 7-FTE model (DEC-20260908-001). |
+| Sep 12 | C1 (Credentials) | Aug 30 | RESOLVED | ✅ RESOLVED — operator-confirmed Sep 8 01:29 UTC (DAF Telegram "C1 YES"). 4 exposed keys revoked and reissued. C2 unblocked. Row retained for audit trail. |
+| Sep 12 | C2 (Deployment Parity) | Sep 30 (re-baselined, DEC-20260908-002) | ~17.3 days (~416h) | 🟢 OK — re-baselined Sep 8 on adopted Op Plan trajectory; daily urgency signal retired. First execution checkpoint: M2 regression decision (Fuad). |
+| Sep 12 | TBH-001 escalation | Sep 3 | N/A | ✅ MOOT — Hiring approach decided Aug 28. Escalation clock stopped. Interim delegation plan active. No >2-weeks-blocking-CRITICAL-without-workaround condition outstanding. |
+| Sep 12 | External security assessor | Sep 1 | **RESOLVED** | ✅ RESOLVED Sep 4 — NanoSec Community Team replaces external assessor (DEC-20260904-002). Prerequisite: Hadri delivers NanoSec Collaboration Email (ACT-20260904-002). |
 
 ---
 
@@ -93,7 +93,7 @@
 | Ops | 3 | 1 | 0 | 0 | 0 | 2 | 0 |
 | **Total** | **17** | **10** | **0** | **0** | **1** | **4** | **0** |
 
-**5/17 gates resolved with evidence (A1, A2, TBH-001, External Assessor→NanoSec, C1 operator-confirmed Sep 8). 1/17 overdue (A3 — ~6.7 days overdue as of Sep 11 check, NOT STARTED; Cost Centre Plan v1.0 supplies the cost baseline half). 0/17 inside the 72h window as of this check: the Sep 15 cohort (B1, A4, Second Engineer Assessment) sits at ~3.3 days (~80h) — outside the window by ~8h — and enters the alert window Sep 12 00:00 UTC; JD pack (Sep 16) follows at ~4.3 days (~104h). C2 re-baselined to Sep 30 (DEC-20260908-002) on the adopted Op Plan trajectory (~18.3 days out); first execution checkpoint is the M2 regression decision. B1 gate (Sep 15): with ~3.3 days remaining, the ~2-week NanoSec pen test window cannot fit before the gate — Hadri's NanoSec Collaboration Email (ACT-20260904-002) now decides whether B1 holds Sep 15 or is re-dated. A3 is the remaining active crisis — blocks commercial quoting; day 7 past deadline. C2 timeline risk: roadmap Phase 0 sequencing is strictly sequential (M2→M6); 2 days for 6 deliverables with 2 FTE is the portfolio's tightest float.**
+**5/17 gates resolved with evidence (A1, A2, TBH-001, External Assessor→NanoSec, C1 operator-confirmed Sep 8). 1/17 overdue (A3 — ~7.7 days overdue as of Sep 12 check, NOT STARTED; Cost Centre Plan v1.0 supplies the cost baseline half). 3/17 now inside the 72h window as of this check: the Sep 15 cohort (B1, A4, Second Engineer Assessment) at ~56h remaining. JD pack (Sep 16) follows at ~80h — outside the window by ~8h, enters window Sep 13. C2 re-baselined to Sep 30 (DEC-20260908-002) on the adopted Op Plan trajectory (~17.3 days out); first execution checkpoint is the M2 regression decision. B1 gate (Sep 15): the ~2-week NanoSec pen test window cannot fit before the gate; DAF directed Sep 12 that the B1 re-date/options decision is postponed until after Oct 7 — gate stays Sep 15 on paper with no viable pass path as dated, formal re-baseline expected. A3 is the remaining active crisis — blocks commercial quoting; day 8 past deadline. C2 timeline risk: roadmap Phase 0 sequencing is strictly sequential (M2→M6); 2 days for 6 deliverables with 2 FTE is the portfolio's tightest float.**
 
 ---
 
