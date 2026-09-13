@@ -1,10 +1,11 @@
 ---
+validation_note: "SOP-AV-001 weekly validation 2026-09-13: V2 flag (DOC-20260911-005) assessed as the submitted proposal (input), not the CSM review response (required output). Awaiting external response. No change."
 # === UNIVERSAL BASE ===
 id: ACT-20260911-007
 record_type: action
 title: "Azrul (CSM) — Review VoronVigil OMS TPRM Proposal and Rule on Phase 0–1 Commencement"
 created_at: 2026-09-11T09:51:00+00:00
-updated_at: '2026-09-11T11:40:00+00:00'
+updated_at: 2026-09-13T17:05:00+00:00
 owner: faurani-jaafar
 assignee: azrul-nazim
 co_owner: []

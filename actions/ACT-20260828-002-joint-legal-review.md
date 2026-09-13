@@ -3,7 +3,7 @@ id: ACT-20260828-002
 record_type: action
 title: "Joint Legal Review — Convert NDA Framework into Formal Agreement"
 created_at: 2026-08-28T08:58:00+00:00
-updated_at: '2026-09-11T10:13:00+00:00'
+updated_at: 2026-09-13T17:05:00+00:00
 owner: faurani-jaafar
 assignee: faurani-jaafar
 co_owner:
@@ -43,7 +43,7 @@ dependency:
 attention_level: high
 completion_evidence: ""
 completed_at: ""
-validation_note: ""
+validation_note: "SOP-AV-001 weekly validation 2026-09-13: V4 flag (OUT-20260911-002) assessed as precursor progress (principles agreed; IP provisions routed to joint legal review), not fulfilment — signed formal NDA still required pre-CyberDSA. No change."
 predecessor: "ACT-20260828-001"
 related_initiative:
   - INIT-20260824-001

@@ -4,7 +4,7 @@ id: ACT-20260908-003
 record_type: action
 title: "Produce GTM working-session pre-read pack (decisions D1–D7, dependency owners, MQL handover spec) before 15 Sep 3PM session"
 created_at: 2026-09-08T13:40:00+00:00
-updated_at: 2026-09-08T13:40:00+00:00
+updated_at: 2026-09-13T17:05:00+00:00
 owner: faurani-jaafar
 assignee: ember
 co_owner: []
@@ -44,7 +44,7 @@ dependency:
 attention_level: high
 completion_evidence: "Pre-read pack delivered to DAF before session start."
 completed_at: ""
-validation_note: ""
+validation_note: "SOP-AV-001 weekly validation 2026-09-13: V3 flag (COM-20260908-002) assessed as the served session, not completion evidence. Deadline 2026-09-15 07:00 UTC live. No change."
 predecessor: ""
 related_initiative:
   - INIT-20260908-001
