@@ -1,17 +1,7 @@
 {
   "lastChecks": {
-    "email": null,
-    "calendar": null,
-    "weather": null,
     "github_sync": "2026-09-14T07:50:00Z",
     "avr_monitor": "2026-09-14T07:50:00Z",
     "cdt_discovery": null
-  },
-  "cdtTrial": {
-    "startDate": "2026-05-22",
-    "endDate": "2026-06-21",
-    "lastReview": null,
-    "nextReview": "2026-05-25T09:00:00Z",
-    "reviewCount": 0
   }
 }

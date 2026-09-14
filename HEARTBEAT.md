@@ -201,7 +201,6 @@ Executes pre-approved automations such as task refresh, report compilation, or m
 | **GitHub Engagement Sync** | Every heartbeat | HIGH |
 | **AI Infrastructure CVE Monitor** | Every heartbeat | HIGH |
 | **Workstream Review** | Every heartbeat | HIGH |
-| **Email/Calendar/Weather** | 2-4x daily | MEDIUM |
 | **Executive Summary** | Daily (23:00 UTC) | MEDIUM |
 | **Strategic Synthesis** | Weekly (Sunday 09:00 UTC) | HIGH |
 
