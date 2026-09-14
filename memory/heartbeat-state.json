@@ -2,8 +2,16 @@
   "lastChecks": {
     "email": null,
     "calendar": null,
-    "weather": null
+    "weather": null,
+    "github_sync": "2026-09-14T07:50:00Z",
+    "avr_monitor": "2026-09-14T07:50:00Z",
+    "cdt_discovery": null
   },
-  "lastHeartbeat": "2026-08-26T04:08:00.000000Z",
-  "notes": "Wednesday 12:08 MYT. 15 min since last check. 0 gateway errors, 0 memory pressure. All 8 cron jobs healthy. Gate 4 Aug 27 (tomorrow), Gate 0 Roshdi Aug 28 (2 days). Nothing new since last heartbeat."
+  "cdtTrial": {
+    "startDate": "2026-05-22",
+    "endDate": "2026-06-21",
+    "lastReview": null,
+    "nextReview": "2026-05-25T09:00:00Z",
+    "reviewCount": 0
+  }
 }
