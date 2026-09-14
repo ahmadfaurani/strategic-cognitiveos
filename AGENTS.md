@@ -129,6 +129,7 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 - **Discord/WhatsApp:** No markdown tables! Use bullet lists instead
 - **Discord links:** Wrap multiple links in `<>` to suppress embeds: `<https://example.com>`
 - **WhatsApp:** No headers — use **bold** or CAPS for emphasis
+- **Telegram (rich messages disabled on this bot):** no markdown tables, no `##` headers, no deep nesting — use bold lead-ins + flat bullets + emoji markers; tables belong in files/artifacts, chat gets the distilled version
 
 ## 💓 Heartbeats - Be Proactive!
 
