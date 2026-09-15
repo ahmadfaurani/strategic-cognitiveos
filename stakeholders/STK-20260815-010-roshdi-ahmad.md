@@ -3,7 +3,7 @@ id: STK-20260815-010
 record_type: stakeholder
 title: Roshdi bin Haji Ahmad
 created_at: 2026-08-15 17:42:00+00:00
-updated_at: '2026-08-17T17:49:42+00:00'
+updated_at: '2026-09-15T06:10:00+00:00'
 owner: faurani-jaafar
 stakeholder_type: government
 organisation: CyberSecurity Malaysia (CSM)
@@ -17,7 +17,7 @@ current_position: 'Acting CEO of CSM effective 14 Jan 2026. Succeeded Datuk Dr A
 commitments_by_us: []
 commitments_by_stakeholder: []
 last_engagement: Indirect — via CSM partnership activities (MoU, training)
-next_engagement: 'Gate 0 — co-branding authorization (ACT-20260821-006, deadline Aug 28). DAF-only engagement.'
+next_engagement: '24 Sep 2026 management follow-through session at Menara TM (proposed; availability pending — ACT-20260915-001, CONV-20260915-001). DAF-only engagement precedent superseded for this thread — first direct named engagement on the management/commercial track.'
 relationship_owner: faurani-jaafar
 related_initiatives:
 - INIT-20260725-007
@@ -39,6 +39,12 @@ related_records:
 - DEC-20260821-006
 - ACT-20260821-006
 - DOC-20260819-001
+- CONV-20260915-001
+- ACT-20260915-001
+- CONV-20260915-001
+- ACT-20260915-001
+- CONV-20260915-001
+- ACT-20260915-001
 source:
   type: intelligence-verified
   reference: STK-20260725-001 body text; Malaysian Reserve, Business Today, Sun, CSM official FB, LinkedIn
@@ -95,7 +101,7 @@ Indirect — via CSM partnership activities (MoU, Voron Citadel training Aug 14)
 
 # Next Engagement
 
-TBD — via CSM formal channels. Existing MoU provides natural pathway.
+**24 Sep 2026 — Management follow-through session at Menara TM (proposed).** Amelia Nadia's 15 Sep 2026 invitation named Tuan Roshdi and Tuan Wan Roshaimi directly as addressees — first direct named engagement of the Acting CEO on the management/commercial track (availability pending, ACT-20260915-001). Agenda: IP/co-branding framework, commercial mobilisation & GTM, implementation & validation roadmap, CyberDSA 2026 positioning, potential TM / TM One Cybersecurity reseller collaboration, sustainable sovereign-technology deployment pathway.
 
 # Relationship Owner
 
@@ -124,3 +130,9 @@ Roshdi is the executive authority required to authorize CSM × Aras co-branding 
 # Notes
 
 [VERIFIED] — Malaysian Reserve, Business Today, Sun, CSM official Facebook, LinkedIn. Existing CSM MoU provides the most natural engagement pathway into CSCDC.
+
+**2026-09-15:** First direct named thread engagement — addressee (with CTO Wan Roshaimi) of Amelia's formal invitation to the 24 Sep Menara TM management follow-through session (CONV-20260915-001, ACT-20260915-001). Session agenda includes IP/ownership/co-branding framework — the domain of his Gate 0 executive authorization. Availability response pending.
+
+**2026-09-15:** First direct named thread engagement — addressee (with CTO Wan Roshaimi) of Amelia's formal invitation to the 24 Sep Menara TM management follow-through session (CONV-20260915-001, ACT-20260915-001). Session agenda includes IP/ownership/co-branding framework — the domain of his Gate 0 executive authorization. Availability response pending.
+
+**2026-09-15:** First direct named thread engagement — addressee (with CTO Wan Roshaimi) of Amelia's formal invitation to the 24 Sep Menara TM management follow-through session (CONV-20260915-001, ACT-20260915-001). Session agenda includes IP/ownership/co-branding framework — the domain of his Gate 0 executive authorization. Availability response pending.
