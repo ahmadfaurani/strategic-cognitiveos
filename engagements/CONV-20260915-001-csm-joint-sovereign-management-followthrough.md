@@ -53,6 +53,8 @@ related_records:
   - DEC-20260911-003
   - OUT-20260911-001
   - CONV-20260911-006
+  - INT-20260915-001
+  - ACT-20260915-003
 # === CONVERSATION FIELDS [Operational] ===
 channel: email
 date: 2026-09-15
@@ -129,3 +131,5 @@ None yet — coordination thread. Agenda structure adopted unchanged from DAF's 
 - STK-20260813-014 (Amelia — invitation sender), STK-20260804-002 (Zulfeka), STK-20260804-004 (Fathi Kamil), STK-20260914-001 (Mohamed Fudarizi), STK-20260808-001 (Kenny Kok)
 - INIT-20260810-003 — GovSec launch readiness (parent initiative spine)
 - DEC-20260911-003 / OUT-20260911-001 / CONV-20260911-006 — 4 Sep engineering-paper signing chain
+- INT-20260915-001 — Cognitive Loop on this chain (15 Sep): technical→management transition analysis, gate convergence, decision-backlog constraint
+- ACT-20260915-003 — 24 Sep session content pack (loop action A1)
