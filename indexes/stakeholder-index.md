@@ -90,10 +90,10 @@ All registered stakeholders, grouped by type.
 | STK-20260803-005 | Samantha Lai | Legal counsel | MTAI | Active | NDA review completion |
 | STK-20260803-006 | Farul Mohd Ghazali | Legal advisor & AI infrastructure/platform architecture | MTAI | Active | CSM partnership AI infrastructure + NDA review |
 | STK-20260808-001 | Kenny Kok | COO | MTAI Sdn Bhd | Active | Working session (pending agreement) |
-| STK-20260808-002 | Azzatullina Pawanchik | CMO | WIG/MTAI | New | Campaign guidance + working session |
+| STK-20260808-002 | Azzatullina Pawanchik | CMO (Chief Communications & Marketing Officer) — GTM execution commitment (COM-20260915-001); confirming authority for focal-point appointment | WIG/MTAI | Active | Focal-point formal confirmation (ACT-20260915-004, target 18 Sep) |
 | STK-20260813-014 | Amelia Nadia Azharul Nahar | **Cybersecurity Practice Strategic Stakeholder Engagement Lead** (DEC-20260820-010) | WIG | Active | CSM working group sync-up (week of Aug 25) + Monday POC pre-flight (Aug 24) |
 | STK-20260813-015 | Rashid Bin Ramli | Event Activation Support | WIG/MTAI | New | Event operating plan assignment |
-| STK-20260813-016 | Said Farid Zainudin | Snr Exec, Corporate Communications (Event & CSR Governance Lead); GTM plan author/delivery owner | WIG/MTAI | Active workstream | 15 Sep GTM working session (EVT-20260908-001) |
+| STK-20260813-016 | Said Farid Zainudin | Snr Exec, Corporate Communications (Event & CSR Governance Lead); GTM plan author/delivery owner; GTM & CyberDSA Operational Execution Focal Point (proposed — DEC-20260915-002, pending Azza confirmation) | WIG/MTAI | Active workstream | Confirmation + resource response (ACT-20260915-004, target 18 Sep); Wave 1 prep (22 Sep) |
 | STK-20260815-004 | Norshaza Hanis | Snr Exec, Market Liaison & Intelligence — GTM wave/enrichment coordinator | WIG | Active workstream | 15 Sep GTM working session (EVT-20260908-001) |
 | STK-20260815-005 | Muhamad Danish | TBD | WIG | New | Role clarification |
 | STK-20260820-001 | Dr. Ji-Jian Chin | University of Plymouth / CRC 2026 Organising Committee | New | Customised participation package discussion |
@@ -160,6 +160,8 @@ All registered stakeholders, grouped by type.
 | STK-20260903-001 | CP Datuk M. Kumar A/L S. Muthuvelu | Pengarah Jabatan Siasatan Jenayah (CID Director) | PDRM — CID | None (intelligence subject) | DOC-20260903-001 |
 
 ---
+
+_Updated 2026-09-15 09:58 UTC: Updated STK-20260808-002 (Azza — CMO concurrence on GTM approval 4:58 PM MYT, execution commitment COM-20260915-001, manpower/intern flag RSK-20260915-001; status New→Active; holds confirming authority on DEC-20260915-002) and STK-20260813-016 (Said — proposed GTM & CyberDSA Operational Execution Focal Point, DEC-20260915-002; confirmation cycle ACT-20260915-004); source CONV-20260915-002.
 
 _Updated 2026-09-15 06:10 UTC: Added STK-20260915-001 (Iman Balqis Binti Khasly, CSM — first observed Cc on 15 Sep 24 Sep-session invitation; role TBD) and STK-20260915-002 (Muhamad Izwadee Bin Hamzah, CSM — recurring Cc across Bursa/VV threads since 11 Sep + 14/15 Sep GovSec thread; role TBD, possible engagement-coordination function); source CONV-20260915-001. Updated STK-20260815-010 (Roshdi) — next_engagement → 24 Sep Menara TM management follow-through session; first direct named engagement added to Notes. Updated STK-20260812-001 (Wan Roshaimi) — relationship_status new→developing; last/next engagement → 24 Sep session; engagement history extended (14–15 Sep). Updated STK-20260813-014 (Amelia) — originated first flagship leadership-level engagement (24 Sep invitation) end-to-end.
 

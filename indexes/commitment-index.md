@@ -27,7 +27,8 @@ All outstanding commitments, grouped by status.
 | COM-20260828-002 | DAF commits to building upon and enhancing MCMC's existing capability, not duplicating | faurani-jaafar | STK-20260828-001 (Aravind / MCMC) | Ongoing (standing) | Active | Low |
 | COM-20260827-001 | Hadri Commits T-30 (Sep 5) for GovSec × CMERP Engineering Document Closure with 5-Step Gate Chain | Hadri | DAF | 2026-09-05 (T-30) | Delivered | High |
 | COM-20260908-001 | Hadri — chain:SENTRY documentation suite maintained as living documents (continuous updates) | hadri | DAF | Continuous (living) | Active | Medium — documentation drift risk (v4.1 precedent: docs outran deployment by 29 commits/40 days) |
-| COM-20260908-002 | DAF + WIG — 15 Sep working session locks operational execution (6 dependencies, inconsistencies, universe expansion, MQL handover) before Wave 1 | faurani-jaafar | STK-20260813-016 (Said Farid, WIG) | 2026-09-15 | Active | Medium — session slip or unassigned owners = Wave 1 thin-list start + CYBERDSA compression (RSK-20260908-001) |
+| COM-20260908-002 | DAF + WIG — 15 Sep working session locks operational execution (6 dependencies, inconsistencies, universe expansion, MQL handover) before Wave 1 | faurani-jaafar | STK-20260813-016 (Said Farid, WIG) | 2026-09-15 | ✅ COMPLETED 15 Sep — session held 3:00 PM Bunga Raya; DAF declared official approval 4:46 PM MYT (DEC-20260915-001); CMO concurrence 4:58 PM (CONV-20260915-002) | Low |
+| COM-20260915-001 | WIG (Azza, CMO) — execute approved GTM programme per CyberDSA action plan incl. Fitrie comms plan + SocMed support; minor tweaks incorporated; horizon Wave 1 (22 Sep) → CyberDSA (Oct 5–7) | azzatullina-pawanchik (owner faurani-jaafar) | faurani-jaafar | 2026-10-07 | Active | Medium — bandwidth constraint flagged same-day (RSK-20260915-001); intern relief + focal-point structure pending |
 
 ## Overdue
 
