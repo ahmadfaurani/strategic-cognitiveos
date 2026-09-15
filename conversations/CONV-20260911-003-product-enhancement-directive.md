@@ -4,7 +4,7 @@ id: CONV-20260911-003
 record_type: conversation
 title: "Pre-CyberDSA Product Enhancement Directive — Fuad → Syahir: chain:SENTRY CIS Hardening + MFA + Webhooks; VoronCitadel + GovSec MFA (9 Sep 2026)"
 created_at: 2026-09-11T02:32:00+00:00
-updated_at: 2026-09-11T02:32:00+00:00
+updated_at: 2026-09-15T10:12:00+00:00
 owner: faurani-jaafar
 status: active
 priority: critical
@@ -45,6 +45,7 @@ related_records:
   - INIT-20260811-001
   - INIT-20260810-003
   - ESF-20260829-002
+  - CONV-20260915-003
 ---
 
 # Summary
@@ -72,3 +73,9 @@ Fuad → Syahir directive (9 Sep 2026, cc Hadri + DAF): per-product enhancements
 - chain:SENTRY webhook defect detail — nature, scope, affected integrations (not in register; first characterisation due from Syahir)
 - CIS Benchmark selection (which CIS benchmark set applies to the web app host vs the VM)
 - MFA scope per product (user-facing login only, or admin/API paths too)
+
+---
+
+## Update 2026-09-15 — First Weekly Report Received (Week Ending 11 Sep)
+
+Syahir delivered the first structured weekly progress report 11 Sep 6:46 PM MYT (Fuad had requested it 5:05 PM the same day): the week was spent on architecture/objectives review across all three systems; observations, findings and planned solutions documented before execution; chain:SENTRY declared main focus; hardening execution scheduled for 14-18 Sep. No blockers raised; no directive-item completions; attachment not included in the forward to CognitiveOS. Full detail + assessment read: CONV-20260915-003. Next report due Friday 18 Sep — execution conversion expected (CIS evidence, webhook characterisation, MFA progress lines), not further observation.
